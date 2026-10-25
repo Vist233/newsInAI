@@ -72,11 +72,32 @@ def github_trending(limit: int = 10) -> list[dict]:
     return out
 
 
+def arxiv_listing(limit: int = 12) -> list[dict]:
+    """API 被限流（429/503）时的兜底：解析 /list/cs.AI/recent 列表页。"""
+    import html as ihtml
+    page = fetch("https://arxiv.org/list/cs.AI/recent", timeout=60)
+    out = []
+    for block in page.split("<dt>")[1:]:
+        m = re.search(r'href\s*=\s*"/abs/([\d.]+)"', block)
+        t = re.search(r"<div class='list-title[^']*'>\s*(?:Title:)?\s*(.*?)</div>", block, re.S)
+        if not (m and t):
+            continue
+        title = ihtml.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", t.group(1)))).strip()
+        out.append({"title": title, "url": f"https://arxiv.org/abs/{m.group(1)}",
+                    "published": "", "abstract": ""})
+        if len(out) >= limit:
+            break
+    return out
+
+
 def arxiv(limit: int = 12) -> list[dict]:
     q = ("http://export.arxiv.org/api/query?search_query="
          "cat:cs.AI+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.SE"
          f"&sortBy=submittedDate&sortOrder=descending&max_results={limit * 3}")
-    xml = fetch(q, timeout=60)
+    try:
+        xml = fetch(q, timeout=60)
+    except Exception:
+        return []
     entries = re.findall(r"<entry>(.*?)</entry>", xml, re.S)
     out = []
     for e in entries:
@@ -146,7 +167,7 @@ if __name__ == "__main__":
     for name, fn in (
         ("hacker_news", lambda: hacker_news(12)),
         ("github_trending", lambda: github_trending(10)),
-        ("papers", lambda: arxiv(12)),
+        ("papers", lambda: arxiv(12) or arxiv_listing(12)),
     ):
         try:
             raw[name] = fn()
