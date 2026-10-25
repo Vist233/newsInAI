@@ -118,7 +118,67 @@ def arxiv(limit: int = 12) -> list[dict]:
     return out
 
 
-def youtube(queries: list[str], per: int = 4) -> list[dict]:
+def _yt_meta(vid: str) -> dict:
+    try:
+        raw = subprocess.run(
+            ["yt-dlp", "--dump-single-json", "--no-warnings", "--skip-download",
+             f"https://www.youtube.com/watch?v={vid}"],
+            capture_output=True, text=True, timeout=90,
+            env={"https_proxy": PROXY, "http_proxy": PROXY,
+                 "PATH": "/usr/local/bin:/usr/bin:/bin:" + str(Path.home() / ".local/bin")},
+        )
+        return json.loads(raw.stdout or "{}")
+    except Exception:
+        return {}
+
+
+def _recent(upload_date: str, days: int = 14) -> bool:
+    if not upload_date or len(upload_date) != 8:
+        return False
+    try:
+        d = datetime.strptime(upload_date, "%Y%m%d")
+    except ValueError:
+        return False
+    return (datetime.now() - d).days <= days
+
+
+def youtube_channels(channels: list[str], per_channel: int = 3, days: int = 14) -> list[dict]:
+    """频道最新上传，只保留近 days 天。比关键词搜索更稳定。"""
+    out = []
+    for url in channels:
+        try:
+            raw = subprocess.run(
+                ["yt-dlp", "--flat-playlist", "--dump-single-json",
+                 "--playlist-end", str(per_channel + 2), url],
+                capture_output=True, text=True, timeout=90,
+                env={"https_proxy": PROXY, "http_proxy": PROXY,
+                     "PATH": "/usr/local/bin:/usr/bin:/bin:" + str(Path.home() / ".local/bin")},
+            )
+            listing = json.loads(raw.stdout or "{}")
+        except Exception:
+            continue
+        for e in (listing.get("entries") or [])[: per_channel + 2]:
+            vid = e.get("id")
+            if not vid:
+                continue
+            meta = _yt_meta(vid)
+            if not _recent(str(meta.get("upload_date") or ""), days):
+                continue
+            out.append({
+                "title": meta.get("title", ""),
+                "url": f"https://www.youtube.com/watch?v={vid}",
+                "channel": meta.get("channel") or meta.get("uploader", ""),
+                "duration_s": meta.get("duration") or 0,
+                "views": meta.get("view_count") or 0,
+                "upload_date": meta.get("upload_date"),
+                "description": (meta.get("description") or "")[:600],
+            })
+            if len([v for v in out if v["channel"] == (meta.get("channel") or "")]) >= per_channel:
+                break
+    return out
+
+
+def youtube(queries: list[str], per: int = 4, days: int = 14) -> list[dict]:
     """按上传日期排序搜，取真实 upload_date。"""
     out, seen = [], set()
     for q in queries:
@@ -143,7 +203,7 @@ def youtube(queries: list[str], per: int = 4) -> list[dict]:
                 meta = json.loads(raw.stdout or "{}")
             except Exception:
                 continue
-            if not meta.get("upload_date"):
+            if not _recent(str(meta.get("upload_date") or ""), days):
                 continue
             out.append({
                 "title": meta.get("title", ""),
