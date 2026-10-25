@@ -1,0 +1,269 @@
+{
+ "hacker_news": [
+  {
+   "title": "No signs of AI payoff outside the tech sector",
+   "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+   "points": 502,
+   "comments": 504,
+   "published": "2026-10-24T19:47:19+00:00",
+   "hn_id": "50224463"
+  },
+  {
+   "title": "Show HN: Steal My Bitcoin",
+   "url": "https://stealmybitcoin.com/",
+   "points": 422,
+   "comments": 259,
+   "published": "2026-10-24T20:30:31+00:00",
+   "hn_id": "50224916"
+  },
+  {
+   "title": "I don't understand quantum physics (2018)",
+   "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+   "points": 289,
+   "comments": 219,
+   "published": "2026-10-24T09:53:26+00:00",
+   "hn_id": "50219666"
+  },
+  {
+   "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+   "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+   "points": 282,
+   "comments": 140,
+   "published": "2026-10-24T08:06:39+00:00",
+   "hn_id": "50219177"
+  },
+  {
+   "title": "Roku developer repositories moved from GitHub to GitLab",
+   "url": "https://blog.roku.com/developer/gitlab-move",
+   "points": 268,
+   "comments": 183,
+   "published": "2026-10-24T16:06:26+00:00",
+   "hn_id": "50222622"
+  },
+  {
+   "title": "The Goose Programming Language",
+   "url": "https://aardappel.github.io/goose/",
+   "points": 266,
+   "comments": 178,
+   "published": "2026-10-24T19:06:55+00:00",
+   "hn_id": "50224100"
+  },
+  {
+   "title": "FreeDNS",
+   "url": "https://freedns.afraid.org/",
+   "points": 259,
+   "comments": 65,
+   "published": "2026-10-24T15:20:01+00:00",
+   "hn_id": "50222133"
+  },
+  {
+   "title": "How close can pure functional programming get to C?",
+   "url": "https://rtfeldman.com/fp-vs-c",
+   "points": 258,
+   "comments": 88,
+   "published": "2026-10-24T03:43:54+00:00",
+   "hn_id": "50218195"
+  },
+  {
+   "title": "We should be more ambitious with the software we build",
+   "url": "https://danluu.com/ambitious/",
+   "points": 216,
+   "comments": 176,
+   "published": "2026-10-24T21:47:31+00:00",
+   "hn_id": "50225695"
+  },
+  {
+   "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+   "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+   "points": 204,
+   "comments": 178,
+   "published": "2026-10-24T23:11:54+00:00",
+   "hn_id": "50226419"
+  },
+  {
+   "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "points": 196,
+   "comments": 63,
+   "published": "2026-10-24T09:58:27+00:00",
+   "hn_id": "50219700"
+  },
+  {
+   "title": "Why is AI generated language so hard to understand?",
+   "url": "https://arxiv.org/abs/2610.29162",
+   "points": 164,
+   "comments": 151,
+   "published": "2026-10-24T18:04:57+00:00",
+   "hn_id": "50223647"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "language": "JavaScript",
+   "stars_today": "2,264",
+   "url": "https://github.com/cloudflare/security-audit-skill"
+  },
+  {
+   "repo": "NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "language": "Rust",
+   "stars_today": "896",
+   "url": "https://github.com/NVIDIA/OpenShell"
+  },
+  {
+   "repo": "aws/agent-toolkit-for-aws",
+   "desc": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+   "language": "Python",
+   "stars_today": "13",
+   "url": "https://github.com/aws/agent-toolkit-for-aws"
+  },
+  {
+   "repo": "Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "language": "CSS",
+   "stars_today": "455",
+   "url": "https://github.com/Nutlope/hallmark"
+  },
+  {
+   "repo": "luongnv89/claude-howto",
+   "desc": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+   "language": "Python",
+   "stars_today": "392",
+   "url": "https://github.com/luongnv89/claude-howto"
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "language": "Rust",
+   "stars_today": "619",
+   "url": "https://github.com/pbakaus/impeccable"
+  },
+  {
+   "repo": "pollen-robotics/microduck",
+   "desc": "A Tiny biped duck robot 🦆",
+   "language": "Rust",
+   "stars_today": "319",
+   "url": "https://github.com/pollen-robotics/microduck"
+  },
+  {
+   "repo": "google-gemini/gemini-cli",
+   "desc": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+   "language": "TypeScript",
+   "stars_today": "44",
+   "url": "https://github.com/google-gemini/gemini-cli"
+  },
+  {
+   "repo": "jbiaojerry/ebook-treasure-chest",
+   "desc": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+   "language": "Python",
+   "stars_today": "227",
+   "url": "https://github.com/jbiaojerry/ebook-treasure-chest"
+  },
+  {
+   "repo": "makecindy/cindy",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "language": "TypeScript",
+   "stars_today": "477",
+   "url": "https://github.com/makecindy/cindy"
+  }
+ ],
+ "papers": [
+  {
+   "id": "2610.31667",
+   "title": "Title: Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+   "url": "https://arxiv.org/abs/2610.31667",
+   "abstract": "Abstract:Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only a short prefix, committing further computation only to the surviving candidates. Existing pruning strategies divide broadly into two categories: Quality-based methods assign a score to each partial solution and discard those predicted to ultimately lead to an incorrect final solution, while diversity-based methods select partial solutions that follow different reasoning trajectories and are therefore likely to cover different final solutions. The tension between these two objectives is an instance of exploration versus exploitation, yet little to"
+  },
+  {
+   "id": "2610.31650",
+   "title": "Title: EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+   "url": "https://arxiv.org/abs/2610.31650",
+   "abstract": "Abstract:Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. It contains 300 matched unsafe/safe task pairs across six domains. By systematically suppressing critical facts, the benchmark measures unsafe execution under critical evidence omission and determines the minimum observed failure cardinality, including failures with full evidence and cases with no observed failure after exhaustive testing. An independent audit tool tests whether agents seek missing facts and then withhold prohibited actions while complet"
+  },
+  {
+   "id": "2610.31593",
+   "title": "Title: Simulated Control Evals",
+   "url": "https://arxiv.org/abs/2610.31593",
+   "abstract": "Abstract:Control evaluations measure whether safeguards can prevent an AI model from causing undesired outcomes even when it is intentionally trying to do so. These evaluations typically use purpose-built control settings and extrapolate their results to a model's deployment. However, the effectiveness of safeguards in deployment can depend on features of environments and tasks that control settings do not represent. To broaden where control evaluations can be run, we introduce simulated control evaluations (SCEs), which use a language model to simulate tool responses in place of an environment. We evaluate SCEs on LinuxArena, where execution provides ground-truth outcomes. We compare SCE prediction errors with those from a separate control setting, BashArena, and with variation in control metrics within LinuxArena. For independently sampled evaluation and deployment task sets, SCEs pred"
+  },
+  {
+   "id": "2610.31579",
+   "title": "Title: Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
+   "url": "https://arxiv.org/abs/2610.31579",
+   "abstract": "Abstract:Research on sycophancy asks whether large language models (LLMs) bend towards what their users want to hear. We ask the reverse question: when an LLM is confident, consistent, and wrong, do users bend towards it? In a within-subjects experiment, 32 participants learned up to five science topics by chatting with five assistants built on the same model (GPT-5-mini). Unknown to participants, each assistant's briefing had 0, 25, 50, 75, or 100% of its facts replaced by plausible falsehoods, and every assistant spoke with full confidence. A surprise quiz after each topic offered the correct fact, the planted falsehood, and two distractors, with a confidence rating for every answer. Across 104 quizzes and 1,040 answers, scores fell from 7.4 to 2.9 out of 10, and the planted option was chosen on 60% of falsified items against 11% of correctly taught ones (odds ratio 12.5). Transcript c"
+  },
+  {
+   "id": "2610.31576",
+   "title": "Title: What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+   "url": "https://arxiv.org/abs/2610.31576",
+   "abstract": "Abstract:Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity, obscuring which choices matter. We view supervised policies as distilling a decoding procedure through a teacher and examine independently what the teacher labels as committable, on which states the policy imitates it, what the policy observes, and how much the number of function evaluations (NFE) must decrease to offset policy overhead. We find that labeling predictions matching the final output is overly permissive at low NFE, and hidden states are weak alone but can complement confidence. About a 10% NFE reduction suffices to offset policy overhead for policies up to 7.5M parameters across tested settings. We therefore train a policy on t"
+  },
+  {
+   "id": "2610.31553",
+   "title": "Title: Contestable Agents for Data Governance: Recording Human Stewardship of AI-Generated Metadata Across Structured and Unstructured Systems",
+   "url": "https://arxiv.org/abs/2610.31553",
+   "abstract": "Abstract:Industrial organizations hold operational knowledge in structured records, such as telemetry, point lists, and transactions, and in unstructured sources, such as manuals, service notes, communications, and inspection reports. Governance programs often manage these sources separately. Classifying, linking, and documenting them depends on a small group of employees with deep domain knowledge. Agents built on large language models can propose metadata, cite documents, and flag quality issues, but unreviewed proposals can spread errors into downstream systems. A perfunctory approval leaves no record of what a reviewer checked. We present contestable governance: specialist agents produce scored, cited arguments for disputed metadata decisions; a steward can accept, reject, modify, or add arguments before commit; and a governance record retains the evidence, interventions, and outcome"
+  },
+  {
+   "id": "2610.31522",
+   "title": "Title: Beyond Causal Masks: Auditing and Localizing Hidden Future-Token Leakage in Adaptive Sequence Models",
+   "url": "https://arxiv.org/abs/2610.31522",
+   "abstract": "Abstract:Hidden future-token leakage can create false architectural gains: an autoregressive model may appear substantially better under teacher-forced evaluation while its free-running generation deteriorates. We investigate this failure in an adaptive residual-routing decoder whose sequence-level routing summary exposes prefix positions to future tokens despite a correct causal attention mask. An anomalous 24-layer checkpoint reduces validation loss from the baseline's 3.5958 to 1.4259, yet it fails a prefix-invariance audit and has substantially higher reference-model perplexity during generation. Layer-wise diagnostics and implementation inspection trace the violation to a full-sequence summary broadcast through the dynamic routing-query path. Two independently trained 12-layer causal repairs eliminate detectable leakage and return validation loss and reference perplexity to the cont"
+  },
+  {
+   "id": "2610.31521",
+   "title": "Title: Jev-DLC: Decision-Level Continual Learning from Typed Feedback",
+   "url": "https://arxiv.org/abs/2610.31521",
+   "abstract": "Abstract:Individual preferences often become visible only after deployment, when a user accepts one decision or revokes it in favor of another. Jev-style typed interfaces make this feedback explicit by identifying the selected action and, under revocation, the decision it replaces. We study how these consequences persist across requests as Decision-Level Continual Learning from Typed Feedback (Jev-DLC). Jev-DLC treats each correction as both evidence about a recurring action identity and a directed relation between the preferred and rejected choices. It preserves these signals in complementary bounded channels above a frozen scorer and combines their scores to shape the next decision. The method retains no raw interaction history, adds no scorer call, and performs no runtime language-model backward pass. We also introduce TCPA-Bench, a chronological suite that credits a correction only t"
+  }
+ ],
+ "youtube": [
+  {
+   "title": "AI Model vs Agentic Harness: What Actually Drives AI",
+   "url": "https://www.youtube.com/watch?v=ZELPNFXJ4_o",
+   "channel": "IBM Technology",
+   "duration_s": 510,
+   "views": 203606,
+   "upload_date": "20260825",
+   "description": "Learn more about AI Models here → https://ibm.biz/~fAH1kt7jT\n\nAI models alone aren’t what makes systems powerful. Martin Keen explains the difference between AI models and agentic harness components like tools, memory, and loops. Learn how generative AI agents work and what drives real system performance.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/~P9xI7zlIY\n\nAI was used in the creation of the transcript and metadata for this video.\n\n#generativeai #aimodel #aitools"
+  },
+  {
+   "title": "Is the Agent Harness Dead? — Jediah Katz, SpaceXAI",
+   "url": "https://www.youtube.com/watch?v=7Y4sbZgBdnc",
+   "channel": "AI Engineer",
+   "duration_s": 1094,
+   "views": 259488,
+   "upload_date": "20261019",
+   "description": "Is the agent harness dead? Jediah Katz (SpaceXAI, formerly Cursor’s longest-tenured agent-harness engineer) explains what smarter models mean for coding agents, Grokbot and the future of agent harnesses.\n\nHe shows why fancy harnesses no longer add coding intelligence: the data flywheel teaches models the skills harnesses used to patch in. Then he argues the harness matters more than ever. It opens new frontiers like Grokbot, and it owns what models can’t absorb: infrastructure, trust and security, and efficiency. He closes with predictions for AI agents, including that 90% of agent work runs o"
+  },
+  {
+   "title": "How AI Agents Really Work",
+   "url": "https://www.youtube.com/watch?v=ZpXWGjISMs8",
+   "channel": "AWS Developers",
+   "duration_s": 666,
+   "views": 25474,
+   "upload_date": "20260708",
+   "description": "Chapter 1 of the Building AI Agent Harnesses with Strands Agents course. This chapter covers the difference between an agent and an agent harness, and walks through the agent loop: how the model reasons, calls a tool, observes the result, and decides what to do next.\n\nThe distinction matters because the agent is just the model making decisions. The harness is everything you build around it: the tools you expose, the hooks you attach, the guardrails you enforce, the way you manage state between turns. Most production failures aren't the model being dumb. They're the harness being absent.\n\nThis "
+  },
+  {
+   "title": "LLM as a Judge: Scaling AI Evaluation Strategies",
+   "url": "https://www.youtube.com/watch?v=trfUBIDeI1Y",
+   "channel": "IBM Technology",
+   "duration_s": 368,
+   "views": 57814,
+   "upload_date": "20250915",
+   "description": "Ready to become a certified watsonx AI Assistant Engineer? Register now and use code IBMTechYT20 for 20% off of your exam → https://ibm.biz/Bde2Mi\n\nLearn more about LLM Evaluation here → https://ibm.biz/Bde2Mj\n\nHow does AI evaluate its own outputs? 🤔 Zahra Ashktorab explains how LLM as a judge can scale and refine evaluations with strategies like direct assessment and pairwise comparison. Discover how to tackle biases like verbosity and positional bias for accurate, scalable frameworks. 🚀\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/Bde2MZ\n\n#a"
+  },
+  {
+   "title": "DeepSWE: The Coding Benchmark That Tests Long-Horizon Agents",
+   "url": "https://www.youtube.com/watch?v=onNgeUON3y0",
+   "channel": "Fluid Coding & AI",
+   "duration_s": 424,
+   "views": 320,
+   "upload_date": "20260528",
+   "description": "DeepSWE tests whether coding agents can handle long-horizon repository work, not just pass familiar benchmark tasks.\nThis video breaks down Datacurve's first-party leaderboard, verifier evidence, task design, and the caveats developers should keep in mind.\n\nDatacurve's DeepSWE benchmark uses 113 original tasks across 91 active open-source repositories, with a focus on TypeScript, Go, Python, JavaScript, and Rust. The headline result is a wide first-party leaderboard spread, led by GPT-5.5 at about 70% pass@1, but the more useful story is how the benchmark tries to test sustained engineering be"
+  }
+ ]
+}
