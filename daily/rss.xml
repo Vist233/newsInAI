@@ -5,12 +5,12 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 06:28:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 06:30:27 GMT</lastBuildDate>
     <item>
       <title>2026-10-26 Daily Brief</title>
       <link>https://news.zhangyvjing.com/reports/2026-10-26.html</link>
       <guid>https://news.zhangyvjing.com/reports/2026-10-26.html</guid>
-      <pubDate>Mon, 26 Oct 2026 06:28:55 GMT</pubDate>
+      <pubDate>Mon, 26 Oct 2026 06:30:27 GMT</pubDate>
       <description>今天这批条目的共同主线，是“小而专”对“大而全”的反击：十年前的CNN在皮肤癌诊断上压过前沿大模型，去掉Next.js让博客满分，开源权重模型在本地变得够好够便宜，连Lula胜选都靠最后一票的精确清点。真正被高估的，是通用大模型作为万能解法的地位——价格战打得越凶，越说明能力正在商品化，护城河不在模型本身，而在上下文工程、数据质量和工程克制。OpenAI与Anthropic数月内降价八成，不是慷慨，是竞争逼出的价值回归；IBM CEO的表态则宣告“必须上云调API”的叙事松动。反面同样清晰：GitHub热榜上一堆Agent、交易、语音项目扎堆，热闹多过验证，把“能跑demo”误当“能交付”是当下最大的幻觉。判断很简单：稀缺的不是算力也不是参数，而是把一个窄问题做深做透的耐心；大模型是工具，不是答案。</description>
     </item>
     <item>
@@ -275,7 +275,7 @@
       <guid>https://lynchlab.net/llm-skin-cancer</guid>
       <category>news</category>
       <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
-      <description>这条在 Hacker News 拿到 506 分、228 条讨论，依据的是社区投票热度而非模型评测分数。</description>
+      <description>一条提到10岁CNN在皮肤癌诊断上优于前沿大模型的内容，获506投票数和228条评论。</description>
     </item>
     <item>
       <title>Dolly Parton's Imagination Library</title>
@@ -283,7 +283,7 @@
       <guid>https://imaginationlibrary.com/</guid>
       <category>news</category>
       <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
-      <description>这条在 Hacker News 拿到 490 分和 88 条讨论，说明社区投票热度高，所以单拎出来看。</description>
+      <description>这条内容讲Dolly Parton的Imagination Library，在Hacker News获490投票数和88条评论。</description>
     </item>
     <item>
       <title>debpalash/VoiceStudio</title>
@@ -291,7 +291,7 @@
       <guid>https://github.com/debpalash/VoiceStudio</guid>
       <category>news</category>
       <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
-      <description>VoiceStudio 作为开源、完全本地的 ElevenLabs 替代品，覆盖语音克隆、语音设计、视频配音、听写、转写与有声书制作，支持 646 种语言，今日新增 1,592 星。</description>
+      <description>GitHub 项目 VoiceStudio 今日新增 1,592 星，它是完全本地运行的开源 ElevenLabs 替代方案，支持语音克隆、语音设计、视频配音、听写、转写和有声书制作，覆盖 646 种语言。</description>
     </item>
     <item>
       <title>Nutlope/hallmark</title>
@@ -299,7 +299,7 @@
       <guid>https://github.com/Nutlope/hallmark</guid>
       <category>news</category>
       <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
-      <description>GitHub 项目 Nutlope/hallmark 今日新增 1,317 星，其简介写明这是面向 Claude Code、Cursor 和 Codex 的反 AI 痕迹设计技能。</description>
+      <description>该项目是一个面向 Claude Code、Cursor 和 Codex 的反 AI 低质内容设计技能，今日新增投票数 1,317。</description>
     </item>
   </channel>
 </rss>
