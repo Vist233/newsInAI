@@ -573,7 +573,7 @@
       "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
       "url": "https://lynchlab.net/llm-skin-cancer",
       "published": "2026-10-26",
-      "summary": "这条在 Hacker News 拿到 506 分、228 条讨论，依据的是社区投票热度而非模型评测分数。",
+      "summary": "一条提到10岁CNN在皮肤癌诊断上优于前沿大模型的内容，获506投票数和228条评论。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -590,7 +590,7 @@
       "title": "Dolly Parton's Imagination Library",
       "url": "https://imaginationlibrary.com/",
       "published": "2026-10-26",
-      "summary": "这条在 Hacker News 拿到 490 分和 88 条讨论，说明社区投票热度高，所以单拎出来看。",
+      "summary": "这条内容讲Dolly Parton的Imagination Library，在Hacker News获490投票数和88条评论。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -607,7 +607,7 @@
       "title": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "published": "2026-10-26",
-      "summary": "VoiceStudio 作为开源、完全本地的 ElevenLabs 替代品，覆盖语音克隆、语音设计、视频配音、听写、转写与有声书制作，支持 646 种语言，今日新增 1,592 星。",
+      "summary": "GitHub 项目 VoiceStudio 今日新增 1,592 星，它是完全本地运行的开源 ElevenLabs 替代方案，支持语音克隆、语音设计、视频配音、听写、转写和有声书制作，覆盖 646 种语言。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -624,7 +624,7 @@
       "title": "Nutlope/hallmark",
       "url": "https://github.com/Nutlope/hallmark",
       "published": "2026-10-26",
-      "summary": "GitHub 项目 Nutlope/hallmark 今日新增 1,317 星，其简介写明这是面向 Claude Code、Cursor 和 Codex 的反 AI 痕迹设计技能。",
+      "summary": "该项目是一个面向 Claude Code、Cursor 和 Codex 的反 AI 低质内容设计技能，今日新增投票数 1,317。",
       "raw_text": "",
       "categories": [
         "pick"
