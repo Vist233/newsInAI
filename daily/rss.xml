@@ -5,309 +5,301 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2026 03:12:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 06:15:32 GMT</lastBuildDate>
     <item>
-      <title>2026-10-25 Daily Brief</title>
-      <link>https://news.zhangyvjing.com/reports/2026-10-25.html</link>
-      <guid>https://news.zhangyvjing.com/reports/2026-10-25.html</guid>
-      <pubDate>Sun, 25 Oct 2026 03:12:58 GMT</pubDate>
-      <description>今天三条线并成一条：agent 的边界正在从指令层搬进运行时。NVIDIA OpenShell 用内核拦截加形式化验证，Cloudflare 把安全审计做成可独立复核的六阶段流程，EpiSEM-Bench 则指出「工具只说真话但漏掉关键事实」时 agent 会越界——三件事说的是同一个结论：约束必须写进环境，不能写在提示里。第二条线是证据：Apollo 的数据说 AI 回报还锁在科技行业内部，控制评估的外推问题、pass@k 剪枝、Jev-DLC 都是在问「你怎么证明它真的更好」。第三条线是成本：并行解码的提交策略、剪枝后再算、本地小模型下沉，都是在同一个预算下换确定性。视频侧今天全是 AI Engineer 的现场：agent 回归、文档检索、困境债判断，讲的都是「修一个坏一个」怎么用 trace 和评测环收住。</description>
+      <title>2026-10-26 Daily Brief</title>
+      <link>https://news.zhangyvjing.com/reports/2026-10-26.html</link>
+      <guid>https://news.zhangyvjing.com/reports/2026-10-26.html</guid>
+      <pubDate>Mon, 26 Oct 2026 06:15:32 GMT</pubDate>
+      <description>今天这批条目最值得注意的，是“大模型正在被重新定价”和“专用小系统反而更香”。OpenAI、Anthropic 几个月内降价八成，IBM 说开源权重模型已经便宜到能本地跑，另一边一个十年前的老 CNN 在皮肤癌诊断上压过前沿 LLM——这三条连起来看，共同主线不是模型变强，而是算力叙事正在退潮，实用主义回归：够用、便宜、可部署，比榜单分数重要。程序员自述、删掉 Next.js 让博客满分、Context Engineering 的讨论也指向同一件事：工程判断和系统设计重新成为门槛。被高估的是“前沿模型即能力”的默认假设，以及把框架复杂度当成先进性的习惯；LLM 降价更像是竞争和推理成本优化，不代表能力跃迁。真正稀缺的仍是把对的小工具用在对的地方的人。</description>
     </item>
     <item>
-      <title>NVIDIA/OpenShell</title>
-      <link>https://github.com/NVIDIA/OpenShell</link>
-      <guid>https://github.com/NVIDIA/OpenShell</guid>
-      <category>news</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Agent 的边界正在从提示词搬进运行时：内核层拦截 + 策略形式化验证。你做并发 agent，这层迟早要自己实现一遍。</description>
-    </item>
-    <item>
-      <title>No signs of AI payoff outside the tech sector</title>
-      <link>https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector</link>
-      <guid>https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector</guid>
-      <category>news</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>反方证据值得留档：AI 投入的回报目前还锁在科技行业内部。判断项目价值时，别把行业热度当成需求。</description>
-    </item>
-    <item>
-      <title>The Goose Programming Language</title>
-      <link>https://aardappel.github.io/goose/</link>
-      <guid>https://aardappel.github.io/goose/</guid>
-      <category>news</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>多数据栈 + 相对引用 + 二进制校验，把解析开销压到接近零。Carmack 在评论区补充，属于「老问题的新解法」。</description>
-    </item>
-    <item>
-      <title>cloudflare/security-audit-skill</title>
-      <link>https://github.com/cloudflare/security-audit-skill</link>
-      <guid>https://github.com/cloudflare/security-audit-skill</guid>
-      <category>news</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>把安全审计做成 agent 可执行的多阶段流程，产出可独立复核。这个「流程 + 证据」的结构，比单个 prompt 更值得复用。</description>
-    </item>
-    <item>
-      <title>No signs of AI payoff outside the tech sector</title>
-      <link>https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector</link>
-      <guid>https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector</guid>
+      <title>A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis</title>
+      <link>https://lynchlab.net/llm-skin-cancer</link>
+      <guid>https://lynchlab.net/llm-skin-cancer</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 24 Oct 2026 19:47:19 GMT</pubDate>
-      <description>Apollo 的宏观观察：AI 资本开支的回报目前只在科技行业内部可见，制造业、零售与医疗等行业的产出和就业数据看不到对应提升。作者认为不是统计滞后，而是投入集中在少数能自建模型的部门，其他行业买到的只是工具而不是产能。评论区争的是「还没到时候」还是「本来就不会外溢」。</description>
+      <pubDate>Sun, 25 Oct 2026 17:15:38 GMT</pubDate>
+      <description>一位研究者分享了用十年前的老式卷积神经网络诊断皮肤癌的实践，称其在特定任务上优于当前前沿大语言模型，并给出项目页面链接。讨论聚焦于专用小模型与通用大模型在医学影像上的差异，认为皮肤病变分类属于窄领域视觉任务，标注数据充足时经典CNN仍具竞争力，而LLM的多模态能力未必可靠。评论还涉及数据集偏倚、临床验证与误诊风险、以及基准比较的公平性，强调应区分筛查辅助与最终诊断，并关注真实部署中的可解释性与监管要求。</description>
     </item>
     <item>
-      <title>Show HN: Steal My Bitcoin</title>
-      <link>https://stealmybitcoin.com/</link>
-      <guid>https://stealmybitcoin.com/</guid>
+      <title>Dolly Parton's Imagination Library</title>
+      <link>https://imaginationlibrary.com/</link>
+      <guid>https://imaginationlibrary.com/</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 24 Oct 2026 20:30:31 GMT</pubDate>
-      <description>作者把一小笔比特币放进公开挑战，任何人都可以尝试拿走，用真金白银检验钱包、密钥管理与签名流程的攻击面。页面公开尝试次数与失败原因，等于把一次渗透测试做成公开演示。适合当安全教材看，不要当投资内容。</description>
+      <pubDate>Sun, 25 Oct 2026 18:23:54 GMT</pubDate>
+      <description>这条Hacker News讨论围绕Dolly Parton's Imagination Library展开，该项目长期为儿童免费寄送图书，帖子获得485分和87条评论。评论者主要分享家庭使用体验，讨论孩子收到书后的阅读兴趣变化，也提到项目覆盖范围、注册流程和资金来源。有人赞赏其坚持多年并惠及大量家庭，也有人关注不同地区可用性差异及捐赠模式。整体氛围积极，体现技术社区对公共阅读项目的关注。</description>
     </item>
     <item>
-      <title>Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps</title>
-      <link>https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497</link>
-      <guid>https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497</guid>
+      <title>Lula wins election after final votes tallied</title>
+      <link>https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/</link>
+      <guid>https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 24 Oct 2026 08:06:39 GMT</pubDate>
-      <description>Python 包供应链漏洞从 Node2Shell 演化成 HTTP2Shell，波及大量 HTTP 库与应用，已有 CVE 编号。攻击面在依赖树的传递闭包里，不是直接依赖，所以只读 requirements.txt 会漏。自托管项目今天该跑一遍依赖审计，尤其是装了 brotli 相关包的服务。</description>
+      <pubDate>Mon, 26 Oct 2026 00:31:07 GMT</pubDate>
+      <description>该Hacker News讨论围绕路透社报道的巴西总统选举结果展开，卢拉在最终计票后击败博索纳罗赢得选举。帖子获得290分和279条评论，讨论热度较高。评论内容涉及选举结果的真实性、计票过程的透明度，以及两位候选人的政策主张对巴西经济和技术行业可能产生的影响。部分用户关注卢拉胜选后巴西在环境政策、加密货币监管和互联网治理方面的走向，也有人讨论博索纳罗支持者的反应及可能引发的政治动荡。整体来看，讨论既关注巴西政治局势，也延伸到对拉美地区科技政策和市场环境的分析。</description>
     </item>
     <item>
-      <title>Roku developer repositories moved from GitHub to GitLab</title>
-      <link>https://blog.roku.com/developer/gitlab-move</link>
-      <guid>https://blog.roku.com/developer/gitlab-move</guid>
+      <title>OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?</title>
+      <link>https://minimaxir.com/2026/10/cheap-llms/</link>
+      <guid>https://minimaxir.com/2026/10/cheap-llms/</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 24 Oct 2026 16:06:26 GMT</pubDate>
-      <description>Roku 把开发者仓库整体迁到 GitLab，GitHub 上的旧地址会失效。依赖 GitHub 的 CI、镜像、文档链接与自动发布脚本都要跟着改；做 Roku 渠道的团队需要检查构建脚本里的远端地址，以及有没有把仓库路径写死在配置里。</description>
+      <pubDate>Sun, 25 Oct 2026 21:11:31 GMT</pubDate>
+      <description>OpenAI 与 Anthropic 在几个月内将大模型价格下调最多八成，引发 Hacker News 热议，帖子获 237 分和 261 条评论。原文分析认为，降价主要来自推理效率提升、模型蒸馏与小模型替代、缓存与批处理优化，以及开源模型和谷歌等对手带来的竞争压力。评论者则讨论价格战是否可持续，认为厂商意在抢占开发者生态与市场份额，并担心低价背后存在限速、质量下降或隐性成本，同时关注这对初创公司和自建推理的影响。</description>
     </item>
     <item>
-      <title>The Goose Programming Language</title>
-      <link>https://aardappel.github.io/goose/</link>
-      <guid>https://aardappel.github.io/goose/</guid>
+      <title>Why I Am a Programmer</title>
+      <link>https://www.alfie.wtf/programming/why-i-am-a-programmer.html</link>
+      <guid>https://www.alfie.wtf/programming/why-i-am-a-programmer.html</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 24 Oct 2026 19:06:55 GMT</pubDate>
-      <description>Goose 把「多个数据栈、相对引用、二进制结构校验」做进语言层，目标是让解析文件与网络数据的开销接近零：结构可以直接内存映射，网络数据到手即可用。Carmack 在评论区补了实现细节，讨论集中在与传统序列化方案的性能差距。</description>
+      <pubDate>Sun, 25 Oct 2026 19:11:31 GMT</pubDate>
+      <description>这篇发布在 Hacker News 上的文章以我为什么是一名程序员为题，作者结合自身经历回顾了走上编程道路的缘由，探讨编程带来的乐趣、成就感与职业意义。帖子获得 186 分和 59 条评论，讨论中不少开发者分享了自己入行的契机，也有人谈及编程工作的现实挑战与长期动力，整体氛围偏向个人反思与经验交流。</description>
     </item>
     <item>
-      <title>How close can pure functional programming get to C?</title>
-      <link>https://rtfeldman.com/fp-vs-c</link>
-      <guid>https://rtfeldman.com/fp-vs-c</guid>
+      <title>The State of Context Engineering</title>
+      <link>https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html</link>
+      <guid>https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 24 Oct 2026 03:43:54 GMT</pubDate>
-      <description>Roc 作者用一组实测比较纯函数式与 C 的性能边界，结论是差距主要来自内存布局与分配策略，而不是语言范式本身。文章给出几组可复现基准，并指出数据密集场景下值语义与不可变结构的复制成本才是真正瓶颈。</description>
+      <pubDate>Sun, 25 Oct 2026 20:32:31 GMT</pubDate>
+      <description>这篇来自 Hacker News 的技术讨论围绕 Drew Breunig 的文章《The State of Context Engineering》展开，目前获得 135 分和 37 条评论。文章探讨了上下文工程这一新兴领域的现状，即如何为大型语言模型设计、组织和管理输入上下文，以提升模型输出的准确性与可靠性。作者梳理了相关技术手段，包括上下文压缩、检索增强、记忆管理与提示结构优化等，并分析了当前实践的局限与挑战。评论区的讨论则聚焦于上下文工程与传统提示工程的区别、实际落地中的权衡，以及随着模型能力提升该领域未来的演进方向。整体来看，这场讨论反映出开发者对如何更系统地驾驭模型上下文这一问题的高度关注。</description>
     </item>
     <item>
-      <title>We should be more ambitious with the software we build</title>
-      <link>https://danluu.com/ambitious/</link>
-      <guid>https://danluu.com/ambitious/</guid>
+      <title>IBM CEO says open weight models are now good and cheap on-prem</title>
+      <link>https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640</link>
+      <guid>https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 24 Oct 2026 21:47:31 GMT</pubDate>
-      <description>Dan Luu 论证今天的软件野心在收缩：技术上能做的事比实际做出来的多得多，主要原因是工程组织选择保守路线，而不是能力不允许。他举了若干「本来可以更好但没人做」的例子，把责任放在激励与组织，而不是工具链。</description>
+      <pubDate>Mon, 26 Oct 2026 01:47:46 GMT</pubDate>
+      <description>这场 Hacker News 讨论围绕 IBM CEO 关于开放权重模型的观点展开。该 CEO 认为这类模型如今质量出色且部署成本低廉，特别适合在企业本地运行。讨论获得 130 分和 80 条评论，参与者普遍关注开放权重模型与闭源模型的差距是否已缩小到足以支撑企业自建部署。有人认同本地推理能降低长期成本并提升数据掌控力，也有人质疑硬件投入、运维复杂度以及模型迭代速度等实际障碍。评论还涉及企业采纳开放权重模型对云服务商和商业授权模式可能带来的冲击。</description>
     </item>
     <item>
-      <title>America has lost 200k of jobs in media, film and the arts. How much is AI?</title>
-      <link>https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class</link>
-      <guid>https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class</guid>
+      <title>What goes into making an animated film?</title>
+      <link>https://www.disneyanimation.com/process/</link>
+      <guid>https://www.disneyanimation.com/process/</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 24 Oct 2026 23:11:54 GMT</pubDate>
-      <description>用行业就业数据拆 AI 对创意行业的影响：媒体、影视与艺术类岗位近年减少约二十万，但作者强调归因困难——流媒体商业模式变化、广告下滑、外包转移都在同时发生。结论是不能把账全算到 AI 头上，也不能假设没有影响。</description>
+      <pubDate>Sun, 25 Oct 2026 20:27:09 GMT</pubDate>
+      <description>这条Hacker News讨论围绕迪士尼动画官网公开的动画电影制作流程展开，引发了126分、51条评论的关注。参与者讨论了动画长片从故事构思、分镜、角色设计到建模、绑定、动画、灯光渲染和后期合成的完整环节，并比较了传统手绘与三维计算机动画在流程上的异同。不少人感叹动画制作周期漫长、协作部门众多，一个几秒镜头往往需要多人反复打磨，也分享了业界工具与管线经验。</description>
     </item>
     <item>
-      <title>GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards</title>
-      <link>https://github.com/Zagitta/gpu-unlock</link>
-      <guid>https://github.com/Zagitta/gpu-unlock</guid>
+      <title>iPhone Duo Teardown</title>
+      <link>https://www.ifixit.com/News/119895/iphone-duo-teardown</link>
+      <guid>https://www.ifixit.com/News/119895/iphone-duo-teardown</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 24 Oct 2026 09:58:27 GMT</pubDate>
-      <description>在 Nvidia 3000 系显卡上解锁 FP/BF16 指令发射率的实验性工具，属于硬件逆向：通过修改固件或驱动路径提高吞吐。作者给出测试方法与风险提示，稳定性与保修都要自己承担，适合当研究材料而不是生产方案。</description>
+      <pubDate>Mon, 26 Oct 2026 01:23:24 GMT</pubDate>
+      <description>Hacker News 上关于 iFixit 的 iPhone Duo 拆解文章引发讨论，帖子获得 95 分和 55 条评论。评论者关注这款双屏设备的内部结构、铰链设计和维修难度，有人赞赏 iFixit 揭示的模块化思路，也有人质疑其耐用性与实际使用价值。部分用户还将其与现有折叠屏手机对比，讨论可维修性对环保和长期使用成本的影响，整体氛围偏向技术细节分析。</description>
     </item>
     <item>
-      <title>Why is AI generated language so hard to understand?</title>
-      <link>https://arxiv.org/abs/2610.29162</link>
-      <guid>https://arxiv.org/abs/2610.29162</guid>
+      <title>Removing Next.js Got My Blog to 100 on Every Lighthouse Category</title>
+      <link>https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category</link>
+      <guid>https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 24 Oct 2026 18:04:57 GMT</pubDate>
-      <description>论文把「AI 写的句子难读」拆成句法复杂度、信息密度与指代链三层，并给出可测量的指标。结论是难读主要来自信息密度过高与指代不清，而不是词汇生僻；这为可读性提供了一个可以优化的目标函数。</description>
-    </item>
-    <item>
-      <title>cloudflare/security-audit-skill</title>
-      <link>https://github.com/cloudflare/security-audit-skill</link>
-      <guid>https://github.com/cloudflare/security-audit-skill</guid>
-      <category>github_trending</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Cloudflare 的编码 agent 技能：六阶段安全审计流程，先侦察架构与输入面，再按覆盖率追踪可疑点，交叉验证后输出结构化 JSON，最后由独立 agent 复核。覆盖 HTTP、内存安全、供应链、云部署等十三类攻击面，适合多回合、可追溯的源码审计。</description>
-    </item>
-    <item>
-      <title>NVIDIA/OpenShell</title>
-      <link>https://github.com/NVIDIA/OpenShell</link>
-      <guid>https://github.com/NVIDIA/OpenShell</guid>
-      <category>github_trending</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>NVIDIA 的 agent 安全运行时：在内核层拦截文件访问、系统调用与网络连接，策略变更前做形式化验证，让自主 agent 只能访问被授权的数据、密钥与网络资源。属于把边界从指令搬进运行时的路线，企业部署 agent 时可以直接对照。</description>
-    </item>
-    <item>
-      <title>aws/agent-toolkit-for-aws</title>
-      <link>https://github.com/aws/agent-toolkit-for-aws</link>
-      <guid>https://github.com/aws/agent-toolkit-for-aws</guid>
-      <category>github_trending</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>AWS 官方的 MCP servers、skills 与 plugins 集合，让 agent 通过标准协议操作 AWS 资源。价值在权限模型与官方维护：比起自己包一层命令行工具，官方工具链在审计、配额与错误处理上更完整，适合企业落地时做基线。</description>
-    </item>
-    <item>
-      <title>Nutlope/hallmark</title>
-      <link>https://github.com/Nutlope/hallmark</link>
-      <guid>https://github.com/Nutlope/hallmark</guid>
-      <category>github_trending</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>反「AI 味」的设计技能：内置四十八个主题模板，从纸张、排版、颜色、质感等材料角度约束输出，并带检测 AI 痕迹的规则，比如标题上方的眉毛文案、首字母大写标签、每页结尾的注册表单。给 Claude Code、Cursor、Codex 用。</description>
-    </item>
-    <item>
-      <title>luongnv89/claude-howto</title>
-      <link>https://github.com/luongnv89/claude-howto</link>
-      <guid>https://github.com/luongnv89/claude-howto</guid>
-      <category>github_trending</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Claude Code 的图解教程与可复制模板，从基础概念讲到进阶 agent 用法。适合当团队上手材料：把常见任务拆成可粘贴的配置与指令片段，减少每个人自己摸索的成本，也方便对照工具权限设计。</description>
-    </item>
-    <item>
-      <title>pbakaus/impeccable</title>
-      <link>https://github.com/pbakaus/impeccable</link>
-      <guid>https://github.com/pbakaus/impeccable</guid>
-      <category>github_trending</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>一套让 AI harness 更懂设计的语言与规范层：把设计判断写成可执行的约束，让编码 agent 生成界面时按规范走。属于 harness 决定产出质量这条线上的实践，适合和设计系统一起使用。</description>
-    </item>
-    <item>
-      <title>pollen-robotics/microduck</title>
-      <link>https://github.com/pollen-robotics/microduck</link>
-      <guid>https://github.com/pollen-robotics/microduck</guid>
-      <category>github_trending</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Pollen Robotics 的双足小鸭子机器人，Rust 实现，开源硬件与控制栈。定位是玩具级但结构完整：步态、平衡与传感都在仓库里，适合作为机器人控制与嵌入式 Rust 的入门项目。</description>
-    </item>
-    <item>
-      <title>google-gemini/gemini-cli</title>
-      <link>https://github.com/google-gemini/gemini-cli</link>
-      <guid>https://github.com/google-gemini/gemini-cli</guid>
-      <category>github_trending</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Gemini 的终端 agent CLI，开源。和 Claude Code、Codex 属于同一形态：在终端里读写文件、执行命令、调用外部工具。差异主要在权限模型、扩展方式与上下文管理，做 harness 对比时可以拿它当第三个样本，观察官方团队怎么划定边界。</description>
-    </item>
-    <item>
-      <title>jbiaojerry/ebook-treasure-chest</title>
-      <link>https://github.com/jbiaojerry/ebook-treasure-chest</link>
-      <guid>https://github.com/jbiaojerry/ebook-treasure-chest</guid>
-      <category>github_trending</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>中文电子书下载链接聚合，覆盖多家读书 App 的资源索引，按书名与作者组织。仓库本身只存链接不存文件；版权风险需要自己判断，适合做资料检索的入口而不是分发渠道。</description>
+      <pubDate>Mon, 26 Oct 2026 01:03:39 GMT</pubDate>
+      <description>这篇 Hacker News 讨论围绕一篇博客文章展开，作者称移除 Next.js 后，自己的博客在 Lighthouse 的所有类别上都达到了 100 分。帖子获得 95 分和 47 条评论，引发了不少关于现代前端框架是否过度复杂的争论。评论者一方面认可精简技术栈带来的性能提升，另一方面也质疑这种对比是否公平，认为简单的静态博客本就无需重型框架。讨论还涉及框架带来的开发便利与运行时开销之间的权衡，以及 Lighthouse 评分能否真实反映用户体验。整体来看，社区对是否应为了性能而放弃框架持谨慎态度，更多人倾向于根据项目实际需求选择合适的技术方案。</description>
     </item>
     <item>
       <title>makecindy/cindy</title>
       <link>https://github.com/makecindy/cindy</link>
       <guid>https://github.com/makecindy/cindy</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>开箱即用的开源 AI Agent，TypeScript 实现，定位是「想到就能做到」，偏产品化而不是框架。适合观察一个 agent 产品如何组织会话、工具与记忆，也能看到产品侧对失败重试与权限提示的处理方式，作为自建 harness 的参照。</description>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>makecindy/cindy 是一个用 TypeScript 编写的开源 AI Agent 项目，主打开箱即用的使用体验，让用户无需复杂配置就能直接上手。项目理念是想到就能做到，强调简洁高效地完成各类任务。凭借这一清晰定位，它在今天获得了 675 颗新增星标，受到开发者社区的广泛关注。对于希望快速引入 AI 智能体能力的团队和个人来说，该项目提供了一种低门槛的选择。</description>
     </item>
     <item>
-      <title>Is the Agent Harness Dead? — Jediah Katz, SpaceXAI</title>
-      <link>https://www.youtube.com/watch?v=Zq6kL0mS9pY</link>
-      <guid>https://www.youtube.com/watch?v=Zq6kL0mS9pY</guid>
+      <title>Nutlope/hallmark</title>
+      <link>https://github.com/Nutlope/hallmark</link>
+      <guid>https://github.com/Nutlope/hallmark</guid>
+      <category>github_trending</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Nutlope/hallmark 是一个面向 Claude Code、Cursor 和 Codex 等 AI 编程工具的开源设计技能项目，主要用 CSS 实现。它致力于对抗 AI 生成界面中常见的同质化与粗糙感，帮助开发者产出更精致、更有辨识度的设计。项目今日新增 1317 星，热度上升明显，适合希望提升 AI 辅助开发视觉质量的用户关注和使用。</description>
+    </item>
+    <item>
+      <title>debpalash/VoiceStudio</title>
+      <link>https://github.com/debpalash/VoiceStudio</link>
+      <guid>https://github.com/debpalash/VoiceStudio</guid>
+      <category>github_trending</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>VoiceStudio 是一个用 Python 编写的开源项目，定位为完全本地运行的 ElevenLabs 替代方案，所有语音处理都在本机完成，无需依赖云端服务。它集成了语音克隆、音色设计、视频配音、听写、语音转写和有声书制作等多种功能，并支持多达 646 种语言，覆盖范围非常广泛。项目今日新增 1592 颗星，说明社区关注度正在快速上升。对于注重隐私、希望自主掌控语音数据，又想获得完整语音创作能力的用户来说，VoiceStudio 提供了一个值得尝试的本地化选择。</description>
+    </item>
+    <item>
+      <title>pbakaus/impeccable</title>
+      <link>https://github.com/pbakaus/impeccable</link>
+      <guid>https://github.com/pbakaus/impeccable</guid>
+      <category>github_trending</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>pbakaus/impeccable 是一个用 Rust 编写的开源项目，致力于提供一套设计语言，让 AI 工具在设计与界面相关任务中表现更出色。项目通过规范化的设计原则与提示方式，帮助开发者引导 AI 生成更符合审美与可用性要求的方案。今日该项目新增 1092 颗星，关注度快速上升，适合对 AI 辅助设计感兴趣的用户了解与试用。</description>
+    </item>
+    <item>
+      <title>pollen-robotics/microduck</title>
+      <link>https://github.com/pollen-robotics/microduck</link>
+      <guid>https://github.com/pollen-robotics/microduck</guid>
+      <category>github_trending</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>pollen-robotics/microduck 是一个用 Rust 语言开发的开源项目，项目主角是一只小巧的双足鸭子机器人。它以微型双足结构为核心，探索机器人在极小体积下的行走与平衡能力，适合对机器人控制、嵌入式开发和 Rust 编程感兴趣的爱好者研究与学习。该项目今日新增 647 星，说明其趣味性与技术价值正受到广泛关注，也为想要入门双足机器人开发的人提供了一个轻量而直观的参考示例。</description>
+    </item>
+    <item>
+      <title>TauricResearch/TradingAgents</title>
+      <link>https://github.com/TauricResearch/TradingAgents</link>
+      <guid>https://github.com/TauricResearch/TradingAgents</guid>
+      <category>github_trending</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>TauricResearch/TradingAgents 是一个基于 Python 开发的多智能体大语言模型金融交易框架，今日在 GitHub 新增 381 星，受到较多关注。项目通过多个智能体协同工作，将大语言模型能力引入金融交易分析与决策流程，覆盖研究、策略生成和交易执行等环节。该框架强调模块化与可扩展性，便于开发者组合不同智能体角色并接入自定义模型或数据源。项目使用 Python 实现，适合对量化交易和智能体系统感兴趣的开发者研究、复现与二次开发。</description>
+    </item>
+    <item>
+      <title>Renhuai123/ziwei-doushu</title>
+      <link>https://github.com/Renhuai123/ziwei-doushu</link>
+      <guid>https://github.com/Renhuai123/ziwei-doushu</guid>
+      <category>github_trending</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Renhuai123/ziwei-doushu 是一个使用 TypeScript 编写的紫微斗数开源排盘引擎，基于倪海厦《天纪》体系实现。项目包含完整的排盘算法、四化系统、格局知识库以及古籍原文数据，能够为开发者提供可靠的紫微斗数排盘基础能力。该项目今日新增 199 颗星标，受到较多关注，适合对传统命理数字化、排盘工具开发或相关知识库构建感兴趣的开发者参考与使用。</description>
+    </item>
+    <item>
+      <title>JetBrains/thinkrail</title>
+      <link>https://github.com/JetBrains/thinkrail</link>
+      <guid>https://github.com/JetBrains/thinkrail</guid>
+      <category>github_trending</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>JetBrains/thinkrail 是一个用 TypeScript 编写的开源项目，主打在轻量级真实 IDE 中进行 Vibe 编程。它能够根据你的工作方式自我定制，围绕你的习惯调整界面与交互，带来更贴合个人需求的开发体验。项目以简洁轻量为特色，同时保留完整 IDE 的核心能力，让开发者在熟悉的编码环境中获得顺畅自然的编程感受。今日该项目新增 51 颗星，受到开发者社区关注。</description>
+    </item>
+    <item>
+      <title>coollabsio/coolify</title>
+      <link>https://github.com/coollabsio/coolify</link>
+      <guid>https://github.com/coollabsio/coolify</guid>
+      <category>github_trending</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>coolify 是一个用 PHP 编写的开源且可自托管的平台即服务项目，定位为 Vercel、Heroku 和 Netlify 的替代方案。它让用户能够在自己拥有的服务器上轻松部署静态站点、数据库、全栈应用，以及超过 360 种一键安装的服务。该项目今天新增 152 颗星，体现出社区对其自托管部署能力的关注。借助 coolify，开发者可以摆脱对第三方托管平台的依赖，把部署流程掌握在自己手中，同时获得较为简便的配置体验，适合希望低成本自主运维的个人与团队使用。</description>
+    </item>
+    <item>
+      <title>cloudflare/security-audit-skill</title>
+      <link>https://github.com/cloudflare/security-audit-skill</link>
+      <guid>https://github.com/cloudflare/security-audit-skill</guid>
+      <category>github_trending</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>cloudflare/security-audit-skill 是一个用 JavaScript 编写的开源项目，为编码智能体提供多阶段安全审计技能。它把安全审计拆分为多个可执行阶段，引导智能体系统化地检查代码中的潜在风险，并输出机器可读的审计结果。这些发现经过独立验证，能减少误报，方便后续自动化处理与集成。项目今日新增 2878 星，表明其受到开发者社区的广泛关注，适合需要在开发流程中引入自动化安全审查的团队使用。</description>
+    </item>
+    <item>
+      <title>SemantEq: Faithful Bidirectional Equivalence of Formal Statements</title>
+      <link>https://arxiv.org/abs/2610.32919</link>
+      <guid>https://arxiv.org/abs/2610.32919</guid>
+      <category>paper</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>论文提出SemantEq，用于判断形式化数学陈述之间是否语义等价。现有方法或只关注单向蕴含，或依赖人工规则，难以兼顾方向性与忠实性。SemantEq将双向等价拆解为两个方向的蕴含验证，并引入语义层面的对齐机制，使模型在判定等价时能给出可解释依据。作者在多个形式化数学基准上评测，结果显示该方法在等价判定准确率和解释质量上均优于基线，且能有效识别表面相似但语义不同的陈述，为形式化数学库的维护与检索提供了更可靠的自动化工具。</description>
+    </item>
+    <item>
+      <title>Closing the Modality Gap via Simplex-Constrained Representations</title>
+      <link>https://arxiv.org/abs/2610.32890</link>
+      <guid>https://arxiv.org/abs/2610.32890</guid>
+      <category>paper</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>该论文研究多模态模型中的模态差距问题，即不同模态的表示在共享嵌入空间中往往分布在不同区域，从而影响跨模态检索与对齐效果。作者提出通过单纯形约束表示来缩小这一差距，将各模态嵌入约束到统一的概率单纯形空间中，使表示具有更好的几何一致性与可比性。方法在不显著增加模型复杂度的前提下改善了跨模态匹配，并在多个基准任务上取得更优性能，为多模态表示学习提供了一种简洁有效的几何约束思路。</description>
+    </item>
+    <item>
+      <title>NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding</title>
+      <link>https://arxiv.org/abs/2610.32881</link>
+      <guid>https://arxiv.org/abs/2610.32881</guid>
+      <category>paper</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>NgramRL 针对结构化生成任务中强化学习后训练推理成本高的问题，提出一种感知 Rollout 的 N-gram 推测解码方法。该方法利用结构化输出中大量重复的片段模式，在解码阶段动态构建并匹配 N-gram 候选，从而在不改变采样分布的前提下加速生成。实验表明，NgramRL 能显著提升 rollout 吞吐量，缩短后训练时间，并在多种结构化生成任务上保持与原始 RL 训练一致的性能，为强化学习后训练提供了一种实用的加速方案。</description>
+    </item>
+    <item>
+      <title>Advancing SVD-based LLM Compression via Layer-Wise Error Model Search</title>
+      <link>https://arxiv.org/abs/2610.32878</link>
+      <guid>https://arxiv.org/abs/2610.32878</guid>
+      <category>paper</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>该论文研究基于奇异值分解的大语言模型压缩方法，指出现有方法通常对所有层采用统一的低秩近似策略，忽略了不同层对压缩误差的敏感差异。为此作者提出逐层误差模型搜索框架，在压缩过程中为每一层单独搜索合适的误差建模与秩分配方案，从而在相同参数预算下更精确地控制输出偏差。实验在多个开源大语言模型和下游任务上进行，结果表明该方法在压缩率较高时仍能较好保持模型性能，优于统一秩分配和固定误差模型的基线，为SVD压缩提供了更细粒度的优化思路。</description>
+    </item>
+    <item>
+      <title>Do "True" and "False" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations</title>
+      <link>https://arxiv.org/abs/2610.32874</link>
+      <guid>https://arxiv.org/abs/2610.32874</guid>
+      <category>paper</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>该论文研究大语言模型智能体在观点模拟中的互补一致性问题，即当同一社会经济属性以正向和反向两种方式提问时，模型给出的回答是否能够相互补充并加总为一。作者据此提出衡量指标，系统考察不同模型与提示设置下的表现，发现互补一致性普遍不足且随属性与语境变化。研究进一步分析偏差来源，并讨论其对基于智能体的观点模拟与社会科学研究可信度的影响，提出改进建议。</description>
+    </item>
+    <item>
+      <title>From Deliberately Constructed Systemic Representations of the World of Activity to Dialogue: A Five-Level Communication Architecture for Strong Language-Based ASI</title>
+      <link>https://arxiv.org/abs/2610.32869</link>
+      <guid>https://arxiv.org/abs/2610.32869</guid>
+      <category>paper</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>该论文提出一种五级通信架构，用于构建基于强语言能力的通用人工智能系统。作者从活动世界的系统性表征出发，探讨如何将刻意构建的世界模型转化为对话能力。架构涵盖从底层感知表征到高层对话交互的多个层次，强调语言在连接系统表征与人机沟通中的核心作用。研究试图为强人工智能提供一条从结构化世界知识走向自然语言对话的路径，并讨论该架构对实现通用智能的意义与潜在挑战。</description>
+    </item>
+    <item>
+      <title>A Foundation Model for Policy In-Context Longitudinal Causal Effect Estimation</title>
+      <link>https://arxiv.org/abs/2610.32863</link>
+      <guid>https://arxiv.org/abs/2610.32863</guid>
+      <category>paper</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>本文提出一种用于政策情境纵向因果效应估计的基础模型，旨在解决传统方法在跨政策、跨时间场景下泛化能力不足的问题。该模型通过统一的表示学习框架整合纵向观测数据中的时间依赖性与情境信息，从而在少样本条件下实现对新政策的因果效应估计。研究者在多种政策情境与数据分布上进行了系统评估，结果表明该模型在估计精度与泛化性能上均优于现有基线方法，并展现出良好的迁移能力。该工作为政策评估领域引入基础模型范式提供了可行路径，对推动因果推断方法在实际政策分析中的应用具有重要意义。</description>
+    </item>
+    <item>
+      <title>Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves</title>
+      <link>https://arxiv.org/abs/2610.32851</link>
+      <guid>https://arxiv.org/abs/2610.32851</guid>
+      <category>paper</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>本文针对多智能体系统中的企业级检索增强生成提出一种新的知识层思路，强调先组织再检索，而非直接在海量文档上进行相似度匹配。作者认为多智能体协作对知识的可寻址性、权限边界和语义一致性提出更高要求，传统RAG难以满足。该知识层通过预先构建结构化的知识组织，使各智能体能够按角色和任务精准获取所需信息，减少冗余检索与冲突。论文讨论了该架构的设计原则与关键组件，并分析了其在企业多智能体场景下的优势与挑战，为后续研究和工程实践提供了参考方向。</description>
+    </item>
+    <item>
+      <title>How to Write Your First AI Eval - SallyAnn DeLucia, Arize AI</title>
+      <link>https://www.youtube.com/watch?v=gv4w23xYj-0</link>
+      <guid>https://www.youtube.com/watch?v=gv4w23xYj-0</guid>
       <category>youtube</category>
-      <pubDate>Sun, 18 Oct 2026 16:00:00 GMT</pubDate>
-      <description>标题就是问题：模型能力上来后 harness 还剩什么价值。和他的主线正面对撞，值得看论证而不是结论。</description>
+      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
+      <description>这段视频教你从零开始搭建第一个AI评估体系，实用性强，值得一看。</description>
     </item>
     <item>
-      <title>AI Writes the Code. So What's Left for Engineers? - Laurie Voss, Arize AI</title>
-      <link>https://www.youtube.com/watch?v=kspZP5BgkEU</link>
-      <guid>https://www.youtube.com/watch?v=kspZP5BgkEU</guid>
+      <title>What Does an AI Engineer Do Now? - Aparna Dhinakaran, Arize AI</title>
+      <link>https://www.youtube.com/watch?v=ImnZ7s68jw8</link>
+      <guid>https://www.youtube.com/watch?v=ImnZ7s68jw8</guid>
+      <category>youtube</category>
+      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
+      <description>这个视频值得看，因为它清晰揭示了AI工程师在真实生产中究竟做什么、与传统软件工程师有何不同。</description>
+    </item>
+    <item>
+      <title>Why Inference Matters 12x More Than Training | YC Paper Club</title>
+      <link>https://www.youtube.com/watch?v=mHNKuH-9OxU</link>
+      <guid>https://www.youtube.com/watch?v=mHNKuH-9OxU</guid>
       <category>youtube</category>
       <pubDate>Fri, 23 Oct 2026 16:00:00 GMT</pubDate>
-      <description>从 Arize 的实践看工程角色怎么变：代码由 AI 写之后，剩下的判断、验证与责任怎么分。</description>
+      <description>这个视频揭示推理成本比训练高12倍的关键洞见，值得AI从业者深入了解。</description>
     </item>
     <item>
-      <title>Your Agent Fix Just Broke Something Else - Sofia Jakovcevic, Arize AI</title>
-      <link>https://www.youtube.com/watch?v=v5tm5EAzsAs</link>
-      <guid>https://www.youtube.com/watch?v=v5tm5EAzsAs</guid>
+      <title>This Is How You Should Actually Make Launch Videos</title>
+      <link>https://www.youtube.com/watch?v=v12aSIZIXUs</link>
+      <guid>https://www.youtube.com/watch?v=v12aSIZIXUs</guid>
       <category>youtube</category>
-      <pubDate>Fri, 23 Oct 2026 16:00:00 GMT</pubDate>
-      <description>一个 prompt 改动让 agent 安全性 +17 分、完成率 -17 分。讲用生产 trace 建回归环，正是「修一个坏一个」的解法。</description>
+      <pubDate>Thu, 22 Oct 2026 16:00:00 GMT</pubDate>
+      <description>这个视频教你如何真正做出有效的产品发布视频，值得一看。</description>
     </item>
     <item>
-      <title>How Bridgewater Turned 100 Million Documents Into an Edge - Sam Green &amp; Aaron Linsky</title>
-      <link>https://www.youtube.com/watch?v=CLve4Nx_RwI</link>
-      <guid>https://www.youtube.com/watch?v=CLve4Nx_RwI</guid>
-      <category>youtube</category>
-      <pubDate>Fri, 23 Oct 2026 16:00:00 GMT</pubDate>
-      <description>1 亿文档 + 权限 + 本体，人和 agent 用同一套检索。precision@10 从 60% 拉到 90% 的做法值得抄。</description>
+      <title>A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis</title>
+      <link>https://lynchlab.net/llm-skin-cancer</link>
+      <guid>https://lynchlab.net/llm-skin-cancer</guid>
+      <category>news</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>这条值得单独看，因为它说明十年前的老模型在皮肤癌诊断上竟能超越前沿大模型，凸显专用医疗AI的独特价值。</description>
     </item>
     <item>
-      <title>Can AI Understand a Distressed Credit? - Harneet Kaur, Axim Intelligence</title>
-      <link>https://www.youtube.com/watch?v=WOszaC1WWbQ</link>
-      <guid>https://www.youtube.com/watch?v=WOszaC1WWbQ</guid>
-      <category>youtube</category>
-      <pubDate>Fri, 23 Oct 2026 16:00:00 GMT</pubDate>
-      <description>两个顶级模型对同一份困境债给出相反结论，分层拆解后收敛。问题是：一致等于正确吗。</description>
+      <title>Dolly Parton's Imagination Library</title>
+      <link>https://imaginationlibrary.com/</link>
+      <guid>https://imaginationlibrary.com/</guid>
+      <category>news</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>多莉·帕顿的想象力图书馆值得单独关注，因为它通过免费寄书让全球儿童从出生起就拥有阅读机会。</description>
     </item>
     <item>
-      <title>Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning</title>
-      <link>https://arxiv.org/abs/2610.31667</link>
-      <guid>https://arxiv.org/abs/2610.31667</guid>
-      <category>paper</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>测试时扩展要跑大量候选解，全部跑完成本很高。这篇先只生成短前缀就剪枝，再决定把后续算力给谁，并且直接以 pass@k 为目标做优化，在质量与多样性之间取平衡。实验显示同等预算下比均匀分配更划算。</description>
+      <title>debpalash/VoiceStudio</title>
+      <link>https://github.com/debpalash/VoiceStudio</link>
+      <guid>https://github.com/debpalash/VoiceStudio</guid>
+      <category>news</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>VoiceStudio 值得单独看，因为它把语音克隆、TTS 与声音转换整合进一个可视化工作台，降低了语音 AI 的使用门槛。</description>
     </item>
     <item>
-      <title>EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence</title>
-      <link>https://arxiv.org/abs/2610.31650</link>
-      <guid>https://arxiv.org/abs/2610.31650</guid>
-      <category>paper</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>工具型 agent 的安全评测：当工具响应遗漏了安全相关事实、但每句话都为真时，agent 会不会执行被禁止的动作。基准是可执行的，测三件事：不安全执行、安全边界是否守住、以及能否恢复缺失的证据。</description>
-    </item>
-    <item>
-      <title>Simulated Control Evals</title>
-      <link>https://arxiv.org/abs/2610.31593</link>
-      <guid>https://arxiv.org/abs/2610.31593</guid>
-      <category>paper</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>控制评估用来测防护措施能否阻止故意作恶的模型，通常在专用环境里做，再把结论外推到真实部署。本文质疑这个外推：部署环境的任务特性与这些设定并不一致，结论可能系统性高估防护效果。</description>
-    </item>
-    <item>
-      <title>Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration</title>
-      <link>https://arxiv.org/abs/2610.31579</link>
-      <guid>https://arxiv.org/abs/2610.31579</guid>
-      <category>paper</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>反向谄媚：当模型自信、前后一致但答案是错的，用户会不会向它屈服。三十二人的组内实验显示，人对模型的信任校准会随模型自信度崩塌；这比模型讨好用户更值得警惕。</description>
-    </item>
-    <item>
-      <title>What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models</title>
-      <link>https://arxiv.org/abs/2610.31576</link>
-      <guid>https://arxiv.org/abs/2610.31576</guid>
-      <category>paper</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>掩码扩散语言模型并行生成 token，效率取决于提交哪些预测。本文把监督式解掩码策略看作对解码过程的蒸馏，用控制变量比较教师标签、输入与模型容量各自的作用，指出哪些设计真正影响速度与准确率的权衡。</description>
-    </item>
-    <item>
-      <title>Contestable Agents for Data Governance: Recording Human Stewardship of AI-Generated Metadata Across Structured and Unstructured Systems</title>
-      <link>https://arxiv.org/abs/2610.31553</link>
-      <guid>https://arxiv.org/abs/2610.31553</guid>
-      <category>paper</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>工业组织的结构化与非结构化知识治理，长期依赖少数资深员工。本文提出可争议的 agent：记录人对 AI 生成元数据的管理痕迹，把谁改了什么、依据是什么留成可审计的证据链。</description>
-    </item>
-    <item>
-      <title>Beyond Causal Masks: Auditing and Localizing Hidden Future-Token Leakage in Adaptive Sequence Models</title>
-      <link>https://arxiv.org/abs/2610.31522</link>
-      <guid>https://arxiv.org/abs/2610.31522</guid>
-      <category>paper</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>隐藏的未来 token 泄漏：自适应残差路由解码器里，序列级的路由摘要把前缀信息暴露给未来 token，即使因果掩码本身正确，也会让教师强制评估虚高、自由生成变差。作者提出审计与定位方法，并给出修复方向。</description>
-    </item>
-    <item>
-      <title>Jev-DLC: Decision-Level Continual Learning from Typed Feedback</title>
-      <link>https://arxiv.org/abs/2610.31521</link>
-      <guid>https://arxiv.org/abs/2610.31521</guid>
-      <category>paper</category>
-      <pubDate>Sat, 24 Oct 2026 16:00:00 GMT</pubDate>
-      <description>决策级持续学习：用户接受或撤销某个决策时，把被替换的决策当作类型化反馈持续学习，而不是只学最终答案。这让偏好能在部署后继续被修正，同时保留决策之间的替换关系。</description>
+      <title>Nutlope/hallmark</title>
+      <link>https://github.com/Nutlope/hallmark</link>
+      <guid>https://github.com/Nutlope/hallmark</guid>
+      <category>news</category>
+      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Nutlope/hallmark 值得单独关注，因为它提供了一套可复用的设计风格基准，帮助开发者快速评估和统一界面美学。</description>
     </item>
   </channel>
 </rss>
