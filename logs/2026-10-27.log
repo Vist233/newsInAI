@@ -1,0 +1,38 @@
+[07:00:39] === 开始 2026-10-27 ===
+[07:00:54] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-10-27.json
+[07:00:55]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:00:56]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:00:56]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:00:57]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:00:58]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:00:59]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:00]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:00]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:01]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:02]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:02] HN 10 条，摘要成功 0
+[07:01:03]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:04]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:05]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:05]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:06]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:07]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:08]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:09]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:09]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:10]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:10] GH 10 条，摘要成功 0
+[07:01:11]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:12]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:13]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:13]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:14]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:15]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:18]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:18]   摘要失败 HTTPError: HTTP Error 403: Forbidden
+[07:01:18] 论文 8 篇，摘要成功 0
+[07:02:20] 视频 4 条
+[07:02:31] 精选 4 条
+[07:02:32] Insight 失败 HTTPError
+[07:02:32] 内容写入 content/2026-10-27.json，共 36 条
+[07:02:32] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
