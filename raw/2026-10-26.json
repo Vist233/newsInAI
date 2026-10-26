@@ -3,58 +3,58 @@
   {
    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://lynchlab.net/llm-skin-cancer",
-   "points": 505,
-   "comments": 227,
+   "points": 506,
+   "comments": 228,
    "published": "2026-10-25T17:15:38+00:00",
    "hn_id": "50233779"
   },
   {
    "title": "Dolly Parton's Imagination Library",
    "url": "https://imaginationlibrary.com/",
-   "points": 485,
-   "comments": 87,
+   "points": 490,
+   "comments": 88,
    "published": "2026-10-25T18:23:54+00:00",
    "hn_id": "50234474"
   },
   {
    "title": "Lula wins election after final votes tallied",
    "url": "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/",
-   "points": 290,
-   "comments": 279,
+   "points": 308,
+   "comments": 291,
    "published": "2026-10-26T00:31:07+00:00",
    "hn_id": "50237485"
   },
   {
    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://minimaxir.com/2026/10/cheap-llms/",
-   "points": 237,
-   "comments": 261,
+   "points": 241,
+   "comments": 264,
    "published": "2026-10-25T21:11:31+00:00",
    "hn_id": "50236102"
   },
   {
    "title": "Why I Am a Programmer",
    "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
-   "points": 186,
+   "points": 190,
    "comments": 59,
    "published": "2026-10-25T19:11:31+00:00",
    "hn_id": "50235017"
   },
   {
-   "title": "The State of Context Engineering",
-   "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-   "points": 135,
-   "comments": 37,
-   "published": "2026-10-25T20:32:31+00:00",
-   "hn_id": "50235780"
-  },
-  {
    "title": "IBM CEO says open weight models are now good and cheap on-prem",
    "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-   "points": 130,
-   "comments": 80,
+   "points": 141,
+   "comments": 83,
    "published": "2026-10-26T01:47:46+00:00",
    "hn_id": "50238088"
+  },
+  {
+   "title": "The State of Context Engineering",
+   "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+   "points": 140,
+   "comments": 38,
+   "published": "2026-10-25T20:32:31+00:00",
+   "hn_id": "50235780"
   },
   {
    "title": "What goes into making an animated film?",
@@ -67,32 +67,32 @@
   {
    "title": "iPhone Duo Teardown",
    "url": "https://www.ifixit.com/News/119895/iphone-duo-teardown",
-   "points": 95,
-   "comments": 55,
+   "points": 99,
+   "comments": 56,
    "published": "2026-10-26T01:23:24+00:00",
    "hn_id": "50237896"
   },
   {
    "title": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
    "url": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
-   "points": 95,
-   "comments": 47,
+   "points": 98,
+   "comments": 48,
    "published": "2026-10-26T01:03:39+00:00",
    "hn_id": "50237712"
   },
   {
    "title": "F-Zero X on Nintendo 3DS",
    "url": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
-   "points": 91,
-   "comments": 44,
+   "points": 93,
+   "comments": 45,
    "published": "2026-10-25T23:27:30+00:00",
    "hn_id": "50237078"
   },
   {
    "title": "Show HN: TitleArt – Make text like it's 1997",
    "url": "https://titleart.dvy.io/",
-   "points": 77,
-   "comments": 14,
+   "points": 92,
+   "comments": 15,
    "published": "2026-10-26T03:23:57+00:00",
    "hn_id": "50238708"
   }
@@ -171,76 +171,76 @@
  ],
  "papers": [
   {
-   "title": "Title: SemantEq: Faithful Bidirectional Equivalence of Formal Statements",
-   "url": "https://arxiv.org/abs/2610.32919",
-   "published": "",
-   "abstract": ""
+   "title": "The Language of Instruction: Genre and Generative AI",
+   "url": "http://arxiv.org/abs/2610.32982v1",
+   "published": "2026-10-23T17:59:56Z",
+   "abstract": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks. It is instantiated in applications through instruction fine-tuning, the inclusion of a pretext known as a system prompt, and the formalization of inputs in mark-up languages characterized by the use of special tokens and role assignment in turntaking structures."
   },
   {
-   "title": "Title: Closing the Modality Gap via Simplex-Constrained Representations",
-   "url": "https://arxiv.org/abs/2610.32890",
-   "published": "",
-   "abstract": ""
+   "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+   "url": "http://arxiv.org/abs/2610.32978v1",
+   "published": "2026-10-23T17:59:21Z",
+   "abstract": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D compilation. A hierarchical sampler uses diffusion priors to generate furniture arrangements within functional zones. A compiler then uses relations extracted from each proposal to guide geometric fitting and local pose correction. Across five room types, SceneBloom attains the highest visual quality and physical stability among the compared methods and is the only method with no detected mesh coll"
   },
   {
-   "title": "Title: NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding",
-   "url": "https://arxiv.org/abs/2610.32881",
-   "published": "",
-   "abstract": ""
+   "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+   "url": "http://arxiv.org/abs/2610.32971v1",
+   "published": "2026-10-23T17:57:22Z",
+   "abstract": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, offline, and safe RL algorithms under a unified interface for substantially improved reusability, together with an enhanced evaluation platform spanning diverse real-world shifts and advanced humanoid and vision-language-action tasks. Systematic evaluation over 273 perturbation configurations provides an up-to-date capability map of current robust RL algorithms, revealing where they remain effecti"
   },
   {
-   "title": "Title: Advancing SVD-based LLM Compression via Layer-Wise Error Model Search",
-   "url": "https://arxiv.org/abs/2610.32878",
-   "published": "",
-   "abstract": ""
+   "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+   "url": "http://arxiv.org/abs/2610.32969v1",
+   "published": "2026-10-23T17:56:28Z",
+   "abstract": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be estimated and retargeted to the robot, and they do not directly provide robot actions. In this paper, we introduce DexPort, a portable data-collection interface for high-DoF robot hands. It uses the same hand hardware for collection and deployment, avoiding a hand embodiment gap, and records both commanded joint targets and measured joint states. Our key observation is that a small set of skills can support a wide range of dexterous tasks. During collection, the operator moves the hand-held interface to specify the robot wrist motion and selects or adjusts s"
   },
   {
-   "title": "Title: Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations",
-   "url": "https://arxiv.org/abs/2610.32874",
-   "published": "",
-   "abstract": ""
+   "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+   "url": "http://arxiv.org/abs/2610.32964v1",
+   "published": "2026-10-23T17:53:30Z",
+   "abstract": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly instead casts the problem as normal-counterpart recovery in frozen DINOv2 feature space. Given normal supports, a velocity field is learned through conditional flow matching over frozen patch tokens to transport Gaussian noise toward normal features. Along straight paths, a single recovery step using one evaluation of the optimal field yields the posterior mean of the clean normal token without trajectory integration. The operating time governs how strongly recovery modifies a query token. With no anomalous validation samples available for tuning, a normal-only Jacobian gain-to-noise criterion selects this time from the supports al"
   },
   {
-   "title": "Title: From Deliberately Constructed Systemic Representations of the World of Activity to Dialogue: A Five-Level Communication Architecture for Strong Language-Based ASI",
-   "url": "https://arxiv.org/abs/2610.32869",
-   "published": "",
-   "abstract": ""
+   "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+   "url": "http://arxiv.org/abs/2610.32955v1",
+   "published": "2026-10-23T17:49:43Z",
+   "abstract": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified sampling, frozen snapshots, thread-grouped splits, pre-registered hypotheses, human labels in the agent's review loop) that yields ground truth before any training. On 739 real Italian/English emails labelled by the owner (231 unbiased, 500 adversarially sampled), we compare nine systems under thread-grouped cross-validation: the production keyword rules, a TF-IDF + logistic-regression baseline, local typed decision models (Tev1, Nimble), a hosted decision model (Nimble v4-max), and hosted generative LLMs (Qwen2.5-7B, Gemma 4 26B/31B). Four results. The produc"
   },
   {
-   "title": "Title: A Foundation Model for Policy In-Context Longitudinal Causal Effect Estimation",
-   "url": "https://arxiv.org/abs/2610.32863",
-   "published": "",
-   "abstract": ""
+   "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+   "url": "http://arxiv.org/abs/2610.32951v1",
+   "published": "2026-10-23T17:45:03Z",
+   "abstract": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global precision, or modify the learning algorithm. We ask whether aligning selected parts of the execution stack can stabilize BF16 RL while other implementation differences remain. We align training-side rounding locations with inference in three regions---RoPE, SwiGLU, and residual RMSNorm---by retaining selected intermediates in FP32 until their BF16 outputs. Across four Qwen-family models, aligning all three regions prevents the collapse observed under the default BF16 baseline; RoPE-path alignment alone also suffices in the studied runs, despite remaining numeri"
   },
   {
-   "title": "Title: Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves",
-   "url": "https://arxiv.org/abs/2610.32851",
-   "published": "",
-   "abstract": ""
+   "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+   "url": "http://arxiv.org/abs/2610.32948v1",
+   "published": "2026-10-23T17:40:58Z",
+   "abstract": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion framework that combines autoregressive text generation with continuous measurement prediction within a shared backbone. Visual prompt tuning adapts the vision encoder to ultrasound images. A diffusion process predicts a five-component representation comprising caliper endpoint coordinates and measurement length. A post-processing strategy combining the proposed coordinate-length consistency mechanism with ensemble prediction is introduced to refine measurement estimates. We evaluate four echocardiographic measurement tasks on EchoNet-LVH, with additional assessments of medical question answer"
   },
   {
-   "title": "Title: HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
-   "url": "https://arxiv.org/abs/2610.32813",
-   "published": "",
-   "abstract": ""
+   "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+   "url": "http://arxiv.org/abs/2610.32945v1",
+   "published": "2026-10-23T17:39:42Z",
+   "abstract": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity, and subscription prices when advertising reduces user value but better service raises advertising returns. Three findings follow. First, when partly ad-supported and ad-free plans coexist, advertising can finance useful service for consumers who receive none under pure subscription. Lower effective quality in middle plans weakens the alternatives available to premium users, allowing higher prices for unchanged ad-free service. Some fully ad-supported users gain utility, while partly ad-supported and ad-free users lose: broader access can coexist with utility polarization. Second, an intermediate advertising cap can maximize consum"
   },
   {
-   "title": "Title: ActionRAG: Evidence-Refining Graph Diffusion for Long-Term Memory in LLM Agents",
-   "url": "https://arxiv.org/abs/2610.32752",
-   "published": "",
-   "abstract": ""
+   "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
+   "url": "http://arxiv.org/abs/2610.32943v1",
+   "published": "2026-10-23T17:37:55Z",
+   "abstract": "Generative recommendation with semantic IDs represents each item as a sequence of discrete codes derived from its semantic representation and predicts these codes to generate recommendations. Existing semantic-ID recommenders are typically trained with hard labels for the observed next item. Although such supervision identifies the target, it provides no explicit distributional information about alternative items conditioned on the same user history. Sequential recommenders can supply this item-level predictive knowledge, but transferring it to semantic-ID generation is challenging because the teacher and student operate in item and code spaces, respectively. We propose two complementary knowledge-distillation objectives for parallel semantic-ID recommenders, which predict all code positions simultaneously without autoregressive prefix conditioning. Item Distribution Matching (IDM) recon"
   },
   {
-   "title": "Title: Agentic Hazard Mapper: Emulating Expert Map-Making with AI Agents for Risk Communication",
-   "url": "https://arxiv.org/abs/2610.32738",
-   "published": "",
-   "abstract": ""
+   "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+   "url": "http://arxiv.org/abs/2610.32941v1",
+   "published": "2026-10-23T17:35:33Z",
+   "abstract": "Vision-Language-Action (VLA) models perform well on robotic manipulation, yet remain brittle once their own actions carry them into states their training data barely covers. Recovering from such failures usually requires recovery demonstrations, policy retraining, or a separate model at inference time. We introduce Backtrack, a lightweight failure detection and recovery mechanism for frozen VLAs that needs none of these. A small failure prediction head, trained only on outcome-labeled rollouts of the frozen policy, reads the VLA's existing internal representations to estimate whether the current episode will fail. When the predicted failure probability exceeds a threshold, a controller pauses the policy, retraces the arm's recently achieved motion, and hands control back to the unchanged policy so it can retry from an earlier configuration. The head adds only 0.48-0.88% to the policy's p"
   },
   {
-   "title": "Title: Retiming Robot Demonstrations with a Learned Speed Prior",
-   "url": "https://arxiv.org/abs/2610.32676",
-   "published": "",
-   "abstract": ""
+   "title": "Learning Positive Linear Combinations of ReLUs in Fully Polynomial Time",
+   "url": "http://arxiv.org/abs/2610.32940v1",
+   "published": "2026-10-23T17:34:15Z",
+   "abstract": "We study the fundamental problem of PAC learning positive linear combinations of $k$ arbitrary ReLU activations on $\\mathbb{R}^d$ with respect to the Gaussian distribution, in $L_2$ loss. We give the first fully-polynomial time algorithm for this learning task. Specifically, our algorithm draws $\\mathrm{poly}(d, k, 1/ε)$ samples, runs in $\\mathrm{poly}(d, k, 1/ε)$ time, and outputs a hypothesis that is $ε$-close to the target concept with high probability. All prior algorithms for this problem require super-polynomial time in $k$ or $1/ε$, or leverage strong well-conditioned assumptions on the weight matrix. On a technical level, our approach develops a novel boosting procedure of a ``weak'' learner that recovers the hidden weight vectors to constant error, in a list-decodable manner. To develop this ``weak'' learning procedure, we leverage implicit tensor computation techniques to const"
   }
  ]
 }

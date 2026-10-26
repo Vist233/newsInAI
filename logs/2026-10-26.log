@@ -30,3 +30,21 @@
 [14:21:57] 精选 4 条
 [14:22:01] 内容写入 content/2026-10-26.json，共 36 条
 [14:22:01] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[14:22:02] commit rc=0 [main e389a58] daily: 2026-10-26 自动更新（1 处降级）
+[14:22:06] push main rc=0    f835b20..e389a58  main -> main
+[14:22:12] push gh-pages rc=0    3e90b26..1db2fb1  gh-pages -> gh-pages
+[14:22:12] === 完成，降级项 1 ===
+[14:22:12] 降级明细: HN 摘要缺失×1
+[14:24:44] === 开始 2026-10-26 ===
+[14:25:06] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-10-26.json
+[14:25:32]   摘要不合规（141 字），重试
+[14:25:45] HN 10 条，摘要成功 10
+[14:26:23] GH 10 条，摘要成功 10
+[14:26:30]   摘要不合规（232 字），重试
+[14:26:45]   摘要不合规（243 字），重试
+[14:26:51]   摘要不合规（235 字），重试
+[14:27:02] 论文 8 篇，摘要成功 8
+[14:28:24] 视频 4 条
+[14:28:49] 精选 4 条
+[14:28:55] 内容写入 content/2026-10-26.json，共 36 条
+[14:28:55] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
