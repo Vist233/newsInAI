@@ -573,7 +573,7 @@
       "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
       "url": "https://lynchlab.net/llm-skin-cancer",
       "published": "2026-10-26",
-      "summary": "一条提到10岁CNN在皮肤癌诊断上优于前沿大模型的内容，获506投票数和228条评论。",
+      "summary": "一个十年前训练的卷积网络在皮肤癌诊断上超过前沿大模型，评论者由此讨论基准设计、数据泄漏与样本代表性问题，并提示医疗AI应重视专用模型和严格临床验证。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -590,7 +590,7 @@
       "title": "Dolly Parton's Imagination Library",
       "url": "https://imaginationlibrary.com/",
       "published": "2026-10-26",
-      "summary": "这条内容讲Dolly Parton的Imagination Library，在Hacker News获490投票数和88条评论。",
+      "summary": "该项目每月为五岁以下儿童免费寄送适龄图书，讨论中家长称其有助于培养阅读习惯，同时涉及资金来源与注册流程等实际问题。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -607,7 +607,7 @@
       "title": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "published": "2026-10-26",
-      "summary": "GitHub 项目 VoiceStudio 今日新增 1,592 星，它是完全本地运行的开源 ElevenLabs 替代方案，支持语音克隆、语音设计、视频配音、听写、转写和有声书制作，覆盖 646 种语言。",
+      "summary": "VoiceStudio 把语音克隆、音色设计、配音和转写整合进一套完全本地运行的 Python 流程，支持多达 646 种语言，适合希望脱离云端、自主掌控语音生成与处理并注重隐私的用户。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -624,7 +624,7 @@
       "title": "Nutlope/hallmark",
       "url": "https://github.com/Nutlope/hallmark",
       "published": "2026-10-26",
-      "summary": "该项目是一个面向 Claude Code、Cursor 和 Codex 的反 AI 低质内容设计技能，今日新增投票数 1,317。",
+      "summary": "这个用 CSS 编写的开源设计技能项目为 Claude Code、Cursor 和 Codex 提供设计规范与样式能力，帮开发者摆脱千篇一律的 AI 味界面，让生成的网页在排版、配色和细节上更接近真实设计师水准。",
       "raw_text": "",
       "categories": [
         "pick"
