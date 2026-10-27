@@ -36,3 +36,19 @@
 [07:02:32] Insight 失败 HTTPError
 [07:02:32] 内容写入 content/2026-10-27.json，共 36 条
 [07:02:32] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[07:02:33] commit rc=0 [main 6f49882] daily: 2026-10-27 自动更新（30 处降级）
+[07:02:38] push main rc=0    9106c81..6f49882  main -> main
+[07:02:43] push gh-pages rc=0    cbacf14..2d93349  gh-pages -> gh-pages
+[07:02:43] === 完成，降级项 30 ===
+[07:02:43] 降级明细: HN 摘要缺失×10, GH 摘要缺失×10, 论文摘要缺失×8, Insight 失败×1, Insight 降级×1
+[16:07:21] === 开始 2026-10-27 ===
+[16:07:41] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-10-27.json
+[16:11:15]   摘要不合规（235 字），重试
+[16:12:17] 并发摘要 28 条（8 路）用时 276s
+[16:12:17] HN 10 条，摘要成功 10
+[16:12:17] GH 10 条，摘要成功 10
+[16:12:17] 论文 8 篇，摘要成功 8
+[16:20:23] 视频 4 条
+[16:24:17] 精选 4 条
+[16:24:31] 内容写入 content/2026-10-27.json，共 36 条
+[16:24:31] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']

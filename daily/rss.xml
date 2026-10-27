@@ -5,13 +5,13 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 23:02:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 08:24:31 GMT</lastBuildDate>
     <item>
       <title>2026-10-27 Daily Brief</title>
       <link>https://news.zhangyvjing.com/reports/2026-10-27.html</link>
       <guid>https://news.zhangyvjing.com/reports/2026-10-27.html</guid>
-      <pubDate>Mon, 26 Oct 2026 23:02:32 GMT</pubDate>
-      <description>今天的输入集中在 Anthropic S-1；Microsoft offers mass buyouts for roughly a quarter of its workforce；Sebastian Raschka's from-scratch vide 这几条上。判断留白比硬凑更诚实：模型侧今天没有给出可用的综合。</description>
+      <pubDate>Tue, 27 Oct 2026 08:24:31 GMT</pubDate>
+      <description>今天的信号线只有一条：AI正在从"能力展示"转入"组织重构"。Anthropic递交S-1意味着大模型公司正式进入资本市场定价阶段，Microsoft一次性裁掉四分之一员工则宣告另一种叙事——AI不是新增产能，而是替代存量。这两件事放在一起看，行业对AI的估值锚点已经从"能不能做"滑向"能省多少人"，这本身就是危险信号。GitHub trending十个项目里八个是agent，从TradingAgents到openbot到Agent-Reach，概念早已不是新瓶装旧酒，而是旧瓶连酒都快蒸干了——agent作为架构范式已经炒了两年多，真正跑通的商业场景仍然屈指可数，版本号越滚越大反而暴露了工程上的停滞。被高估的是"agent即产品"这个等式，以及GPT-6.1 Terra这类命名所暗示的线性进步感。真正被低估的反而藏在边缘：指数时间假说被证伪、数学与物理的新发现，这些才是可能重写底层认知的东西，但没人愿意在注意力经济里等一篇PDF。</description>
     </item>
     <item>
       <title>Anthropic S-1</title>
@@ -19,7 +19,7 @@
       <guid>https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm</guid>
       <category>hacker_news</category>
       <pubDate>Mon, 26 Oct 2026 13:04:50 GMT</pubDate>
-      <description></description>
+      <description>Anthropic正式向美国证券交易委员会提交了S-1文件，标志着这家AI独角兽迈向公开上市的实质性一步。这一消息在Hacker News上引发了极为热烈的讨论，获得超过一千五百个点赞和上千条评论。社区关注点集中在AI行业的估值逻辑、上市后的商业模式可持续性、以及公众公司身份对其产品决策透明度的潜在影响等方面，同时也围绕闭源模型策略与开源浪潮之间的张力展开了激烈辩论。</description>
     </item>
     <item>
       <title>Microsoft offers mass buyouts for roughly a quarter of its workforce</title>
@@ -27,7 +27,15 @@
       <guid>https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/</guid>
       <category>hacker_news</category>
       <pubDate>Mon, 26 Oct 2026 15:35:12 GMT</pubDate>
-      <description></description>
+      <description>微软向约四分之一的员工提供大规模离职买断方案，这则消息在Hacker News上引发了超过850条评论的激烈讨论。社区参与者围绕微软的组织效率、AI对技术岗位需求的冲击、大型科技公司裁员趋势以及对员工权益的影响等话题展开了深入探讨。不少人将此视为传统科技巨头转型期阵痛的缩影，也有评论质疑如此规模的买断背后的真实动机究竟是业务战略调整还是单纯的财务优化。</description>
+    </item>
+    <item>
+      <title>Three new discoveries in mathematics, computer science, and physics</title>
+      <link>https://openai.com/index/building-scientific-understanding-with-academic-communities/</link>
+      <guid>https://openai.com/index/building-scientific-understanding-with-academic-communities/</guid>
+      <category>hacker_news</category>
+      <pubDate>Mon, 26 Oct 2026 21:35:28 GMT</pubDate>
+      <description>OpenAI发布了一篇博客，宣布在数学、计算机科学和物理学领域取得三项新发现，并与学术社区合作推进科学理解。该帖在Hacker News上引发热烈讨论，获得821分和357条评论，说明社区对AI在基础科学中的实际应用高度关注。评论中既有对OpenAI能力的惊叹，也有对其研究方法和边界的质疑，反映出人们对大型AI实验室涉足纯学术研究时既期待又警惕的复杂心态。</description>
     </item>
     <item>
       <title>Sebastian Raschka's from-scratch video course on building reasoning models</title>
@@ -35,15 +43,15 @@
       <guid>https://magazine.sebastianraschka.com/p/building-reasoning-models</guid>
       <category>hacker_news</category>
       <pubDate>Mon, 26 Oct 2026 15:11:59 GMT</pubDate>
-      <description></description>
+      <description>知名AI教育者Sebastian Raschka发布了一门从零开始构建推理模型的视频课程，在Hacker News上获得了680分和94条讨论。课程围绕如何让语言模型具备多步推理能力展开，从基础概念讲到具体实现，适合希望深入理解推理机制的开发者。评论区中，不少从业者对课程结构和深度给予肯定，也有人讨论了当前大模型推理能力与人类逻辑推理之间的差距，以及从底层实现推理模块的实际挑战与局限性。</description>
     </item>
     <item>
-      <title>Switzerland. Block by block. At 1:1 scale</title>
-      <link>https://blocks.manifold3d.ch/</link>
-      <guid>https://blocks.manifold3d.ch/</guid>
+      <title>The Exponential Time Hypothesis Is False [pdf]</title>
+      <link>https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf</link>
+      <guid>https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf</guid>
       <category>hacker_news</category>
-      <pubDate>Mon, 26 Oct 2026 08:46:09 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 26 Oct 2026 21:59:15 GMT</pubDate>
+      <description>这篇来自OpenAI数学研究仓库的预印本论文声称推翻了计算复杂性理论中的指数时间假说。该假说长期以来被认为是许多算法下界证明的基石，一旦被证伪，将意味着SAT等NP完全问题可能存在亚指数时间的精确算法，对整个理论计算机科学产生深远影响。论文在Hacker News上引发了582个点赞和207条技术评论的热烈讨论，评论者围绕证明的技术细节、可能的漏洞以及对密码学等实际领域的潜在冲击展开了深入辩论，显示出社区对这一结果既充满兴趣又保持审慎怀疑的态度。</description>
     </item>
     <item>
       <title>GPT-6.1 Terra</title>
@@ -51,7 +59,7 @@
       <guid>https://openai.com/index/introducing-gpt-6-1-terra/</guid>
       <category>hacker_news</category>
       <pubDate>Mon, 26 Oct 2026 18:01:17 GMT</pubDate>
-      <description></description>
+      <description>OpenAI 正式发布了 GPT-6.1 Terra，这一消息在 Hacker News 上引发了热烈讨论，获得了576分和364条评论。社区围绕该模型的命名体系、能力边界以及与前代产品的差异展开了深入交流。不少评论者关注 Terra 这一代号背后可能的技术路线变化，也有人从工程实践角度探讨其在实际应用场景中的表现。整体来看，这条帖子反映了开发者群体对 OpenAI 产品迭代节奏的持续关注和较高期待。</description>
     </item>
     <item>
       <title>CSS-Tricks has a new owner</title>
@@ -59,31 +67,7 @@
       <guid>https://css-tricks.com/css-tricks-has-a-new-owner/</guid>
       <category>hacker_news</category>
       <pubDate>Mon, 26 Oct 2026 15:51:23 GMT</pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>Concerning behavior from a popular open-weight AI model</title>
-      <link>https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model</link>
-      <guid>https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model</guid>
-      <category>hacker_news</category>
-      <pubDate>Mon, 26 Oct 2026 16:35:44 GMT</pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn't Real</title>
-      <link>https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/</link>
-      <guid>https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/</guid>
-      <category>hacker_news</category>
-      <pubDate>Mon, 26 Oct 2026 17:54:00 GMT</pubDate>
-      <description></description>
-    </item>
-    <item>
-      <title>Pharo 14</title>
-      <link>https://pharo.org/news/2026-10-26-Pharo14Release.html</link>
-      <guid>https://pharo.org/news/2026-10-26-Pharo14Release.html</guid>
-      <category>hacker_news</category>
-      <pubDate>Mon, 26 Oct 2026 11:15:50 GMT</pubDate>
-      <description></description>
+      <description>CSS-Tricks 是前端开发者广泛使用的经典教程网站，由 Chris Coyier 于2007年创办，以通俗易懂的 CSS 教学闻名。这条消息在 Hacker News 上引发热议，获得442分和近百条评论。社区讨论的焦点包括新东家是否会改变网站的内容方向，以及 Chris Coyier 离开后这个老牌技术媒体能否保持原有质量。不少评论者回忆起 CSS-Tricks 在布局技巧、Flexbox 和 Grid 普及过程中扮演的启蒙角色，也有人担忧独立技术博客在商业收购后往往走向 SEO 驱动的内容生产模式。整体情绪混合着怀旧与观望。</description>
     </item>
     <item>
       <title>Oldest GUI application that still runs on Windows 11</title>
@@ -91,7 +75,23 @@
       <guid>https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/</guid>
       <category>hacker_news</category>
       <pubDate>Mon, 26 Oct 2026 17:56:55 GMT</pubDate>
-      <description></description>
+      <description>这篇帖子引发了Hacker News社区对Windows向后兼容性的热烈讨论。作者探索了哪些最早的Windows图形界面程序至今仍在Windows 11上正常运行，这一话题触动了大量有怀旧情结的技术爱好者。评论区中，许多用户分享了各自发现或仍在使用的早期Windows应用案例，从记事本、计算器到一些商业软件如Visual Basic 4.0和老版本的Office套件。讨论也延伸到微软为何能维持如此长久的兼容性，这背后是NT内核架构的功劳以及微软多年来对兼容性问题的执着投入。</description>
+    </item>
+    <item>
+      <title>Websites Should Be Printable</title>
+      <link>https://brennenputh.me/blog/printable-websites/</link>
+      <guid>https://brennenputh.me/blog/printable-websites/</guid>
+      <category>hacker_news</category>
+      <pubDate>Mon, 26 Oct 2026 10:32:14 GMT</pubDate>
+      <description>一位开发者撰文主张网站应当具备良好的打印体验，认为当前许多网页在打印时排版混乱、内容缺失，严重影响了信息的可读性和实用性。该文章在 Hacker News 上引发了热烈讨论，获得超过322分和189条评论。社区围绕网页的可访问性、信息持久性以及浏览器默认打印样式的现状展开了广泛交流，许多人表示认同，认为网站不应忽视打印这一基础使用场景，也有人讨论了响应式设计与打印友好之间的平衡问题。</description>
+    </item>
+    <item>
+      <title>Solar power is becoming bigger than nuclear</title>
+      <link>https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear</link>
+      <guid>https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear</guid>
+      <category>hacker_news</category>
+      <pubDate>Mon, 26 Oct 2026 15:26:17 GMT</pubDate>
+      <description>这篇BBC Future文章指出，全球太阳能发电的总装机容量已经超越核能，标志着能源格局的历史性转变。文章在Hacker News上引发了超过400条评论的热烈讨论，参与者围绕太阳能成本持续下降的驱动力、核能在电网稳定性方面的不可替代性、储能技术的瓶颈以及各国政策差异等议题展开了激烈辩论。支持者认为这一趋势不可逆转，批评者则担忧间歇性问题被低估，讨论充分反映了公众对能源转型路径的分歧与期待。</description>
     </item>
     <item>
       <title>Nutlope/hallmark</title>
@@ -99,7 +99,7 @@
       <guid>https://github.com/Nutlope/hallmark</guid>
       <category>github_trending</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>Hallmark 是一个用 CSS 编写的开源设计技能包，专门为 Claude Code、Cursor 和 Codex 等 AI 编程工具设计。它的核心目标是消除 AI 生成前端代码时常见的粗糙、缺乏设计感的界面风格，也就是所谓的 AI slop。该项目通过精心设计的 CSS 规则和模式，引导 AI 在生成网页时输出更具品质感和一致性的视觉设计。项目近期热度极高，单日新增超过两千两百颗星，反映出开发者社区对 AI 辅助设计中界面质量问题的广泛关注。</description>
     </item>
     <item>
       <title>TauricResearch/TradingAgents</title>
@@ -107,7 +107,7 @@
       <guid>https://github.com/TauricResearch/TradingAgents</guid>
       <category>github_trending</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>TradingAgents 是由 TauricResearch 团队开发的一个多智能体大语言模型金融交易框架，使用 Python 编写。该项目将多个 AI Agent 协作机制引入金融交易决策流程，让不同角色的智能体分别承担分析、研究、决策等任务，模拟真实交易团队的工作方式。项目近日在 GitHub 上获得广泛关注，单日新增超过一千三百颗星，体现了社区对 AI 驱动量化交易方向的强烈兴趣。</description>
     </item>
     <item>
       <title>JetBrains/thinkrail</title>
@@ -115,7 +115,7 @@
       <guid>https://github.com/JetBrains/thinkrail</guid>
       <category>github_trending</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>thinkrail 是 JetBrains 开源的一款轻量级 IDE，使用 TypeScript 构建。它将名为 pi 的 AI 助手深度集成到编码流程中，让开发者能够以"氛围编程"的方式完成工作。这款 IDE 最突出的特点是能根据每位开发者的习惯自动定制界面与交互方式，而非强迫用户适应固定模式。项目发布后迅速引爆社区，单日获得超过一千颗星标，成为当前最受关注的开源工具之一。</description>
     </item>
     <item>
       <title>makecindy/cindy</title>
@@ -123,7 +123,7 @@
       <guid>https://github.com/makecindy/cindy</guid>
       <category>github_trending</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>makecindy/cindy 是一个基于 TypeScript 构建的开源 AI Agent 项目，主打开箱即用的体验，用户无需复杂配置即可快速启动使用。该项目在 GitHub 上获得了广泛关注，单日新增超过一千二百颗星标，增长势头十分迅猛。其核心理念是"想到，就能做到"，致力于让 AI 智能体真正融入日常工作流程，降低使用门槛，让开发者能够高效地将自然语言指令转化为实际可执行的操作。</description>
     </item>
     <item>
       <title>affaan-m/ECC</title>
@@ -131,7 +131,7 @@
       <guid>https://github.com/affaan-m/ECC</guid>
       <category>github_trending</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>ECC 是一个专注于 AI 编程代理执行环境性能优化的开源系统，使用 JavaScript 编写，近期热度极高，单日新增近九百颗星。该项目为 Claude Code、Codex、Opencode、Cursor 等多种 AI 编程工具提供统一的增强层，核心能力涵盖技能管理、直觉模式、长期记忆、安全防护以及研究优先的开发范式。它旨在让各类 AI 代理在真实编码场景中运行得更高效、更安全、更具自主性，适合作为开发者搭建智能编程工作流的基础设施。</description>
     </item>
     <item>
       <title>pbakaus/impeccable</title>
@@ -139,7 +139,7 @@
       <guid>https://github.com/pbakaus/impeccable</guid>
       <category>github_trending</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>impeccable 是一个用 Rust 编写的开源项目，由 pbakaus 开发，旨在为 AI 编程助手提供一套专门的设计语言。它让 AI 在生成界面和视觉元素时更加专业、更懂设计原则，从而显著提升前端产出的美观度和可用性。该项目近期在社区中迅速走红，单日新增超过 1500 颗星，反映出开发者对 AI 辅助设计这一方向的强烈关注与期待。</description>
     </item>
     <item>
       <title>NVIDIA/SkillSpector</title>
@@ -147,7 +147,7 @@
       <guid>https://github.com/NVIDIA/SkillSpector</guid>
       <category>github_trending</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>NVIDIA开源的SkillSpector是一个专门针对AI Agent技能文件的安全扫描工具。它能在用户安装技能之前，主动检测其中可能存在的漏洞、恶意代码、提示注入攻击、数据外泄风险以及供应链安全隐患。该项目支持Claude Code、Codex和MCP等多种主流AI Agent平台的技能格式，用Python编写，帮助开发者在引入第三方技能时建立一道安全防线，降低因信任未经验证的AI技能而带来的潜在威胁。</description>
     </item>
     <item>
       <title>pollen-robotics/microduck</title>
@@ -155,7 +155,7 @@
       <guid>https://github.com/pollen-robotics/microduck</guid>
       <category>github_trending</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>MicroDuck 是由 pollen-robotics 团队开发的一款微型双足鸭子机器人项目，使用 Rust 语言编写。该项目以一只可爱的小鸭子为仿生对象，让机器人能够用两条腿行走，兼具趣味性与技术探索价值。项目在今日获得了 843 颗新增星标，显示出社区对这类轻巧仿生机器人的高度关注与热情。</description>
     </item>
     <item>
       <title>nightly-labs/openbot</title>
@@ -163,7 +163,7 @@
       <guid>https://github.com/nightly-labs/openbot</guid>
       <category>github_trending</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>openbot 是一个基于 TypeScript 开发的本地优先桌面工作区项目，旨在为持久化 AI 队友提供统一的运行环境。它支持同时接入 Codex、Claude 和 Grok 等多个大模型智能体，为每个智能体分配专属工作区，并内置任务队列、文件共享、浏览器控制以及智能体之间的协作通信等核心能力。项目今日新增 176 星，增长势头明显，适合希望在本地桌面端管理多智能体协同工作的开发者使用。</description>
     </item>
     <item>
       <title>Panniantong/Agent-Reach</title>
@@ -171,87 +171,87 @@
       <guid>https://github.com/Panniantong/Agent-Reach</guid>
       <category>github_trending</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>Agent-Reach 是一个用 Python 编写的开源项目，旨在让 AI 智能体拥有浏览整个互联网的能力。通过一个命令行工具，用户可以读取和搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等主流平台的内容，无需支付任何 API 费用。该项目上线当天即收获 746 颗星标，增长势头极为迅猛，适合需要为 AI Agent 扩展信息获取能力的开发者快速集成使用。</description>
     </item>
     <item>
-      <title>The Language of Instruction: Genre and Generative AI</title>
-      <link>http://arxiv.org/abs/2610.32982v1</link>
-      <guid>http://arxiv.org/abs/2610.32982v1</guid>
+      <title>Retriever-Free Retrieval: Navigating Documents with Decision Models</title>
+      <link>http://arxiv.org/abs/2610.35868v1</link>
+      <guid>http://arxiv.org/abs/2610.35868v1</guid>
       <category>paper</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>当前检索系统多依赖词汇匹配或固定嵌入空间的相似度计算，这导致检索器无法召回的内容即便生成模型再强也无法恢复，形成能力不对称。本文提出DecisionRAG，利用预训练语言模型构建决策模型，在单次前向传播中联合评估候选分支，无需生成任何token即可判断相关性。该方法模拟人在图书馆中的浏览行为，从宽泛主题逐层深入至具体段落，每层决定哪些分支值得继续探索。无需任务特定训练或第一阶段检索器，DecisionRAG即可超越配备8B重排序器的密集检索方案，验证了在共享上下文中评判候选项能有效对齐相关性估计。</description>
     </item>
     <item>
-      <title>SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning</title>
-      <link>http://arxiv.org/abs/2610.32978v1</link>
-      <guid>http://arxiv.org/abs/2610.32978v1</guid>
+      <title>Center-of-Mass Interpretation of Evolution Strategies</title>
+      <link>http://arxiv.org/abs/2610.35865v1</link>
+      <guid>http://arxiv.org/abs/2610.35865v1</guid>
       <category>paper</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>进化策略通过采样扰动种群并按奖励加权方向更新模型，通常被理解为对平滑梯度的估计。本文提出一种全新的几何解释：将每个扰动模型视为粒子，其奖励对应粒子质量。评分前种群以质心平衡，评分后则移至奖励加权的质心。作者证明，去均值后的进化策略更新恰好等于这一质心位移乘以一个依赖平均奖励的标量因子，且对任意有限种群成立。该物理解释要求非负奖励，可通过给所有奖励加同一常数来满足而不改变更新规则。</description>
     </item>
     <item>
-      <title>RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms</title>
-      <link>http://arxiv.org/abs/2610.32971v1</link>
-      <guid>http://arxiv.org/abs/2610.32971v1</guid>
+      <title>Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling</title>
+      <link>http://arxiv.org/abs/2610.35866v1</link>
+      <guid>http://arxiv.org/abs/2610.35866v1</guid>
       <category>paper</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>本文提出Auto-Research Arena，一个面向自主研究系统的多目标基准，用于评估和推动语言建模领域的自动化研究。该基准将可接受性判定与改进性衡量分离，即模型质量和资源约束决定结果是否合格，而选定目标则衡量合格结果间的进展。作者在语言模型预训练场景中实例化了涵盖模型、数据、训练和推理效率的九个目标，并对七种研究框架和两个基础模型进行了评测。实验表明，Arena能够有效区分不同框架在各研究目标上的表现，部分简单方法甚至优于复杂方法，为自主研究系统的评估与改进提供了实用工具。</description>
     </item>
     <item>
-      <title>DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection</title>
-      <link>http://arxiv.org/abs/2610.32969v1</link>
-      <guid>http://arxiv.org/abs/2610.32969v1</guid>
+      <title>Learning Force-Reactive Humanoid Loco-Manipulation</title>
+      <link>http://arxiv.org/abs/2610.35862v1</link>
+      <guid>http://arxiv.org/abs/2610.35862v1</guid>
       <category>paper</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>本文提出FLORE框架，用于人形机器人力反应型全身运动操作。通过力感知手持夹爪和可穿戴追踪器采集演示数据，训练力反应扩散策略预测动作及每只手力命令，再由混合柔顺全身控制器在执行命令的同时维持平衡，实现指定方向力跟踪与其余方向柔顺控制。</description>
     </item>
     <item>
-      <title>Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection</title>
-      <link>http://arxiv.org/abs/2610.32964v1</link>
-      <guid>http://arxiv.org/abs/2610.32964v1</guid>
+      <title>On the stability of learning</title>
+      <link>http://arxiv.org/abs/2610.35856v1</link>
+      <guid>http://arxiv.org/abs/2610.35856v1</guid>
       <category>paper</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>本文研究了间歇性梯度信息下学习算法的稳定性问题。传统分析假设梯度信息持续可用，然而生物神经网络等实际场景中，学习信号往往稀疏、局部且仅间歇性地出现在突触层面。作者证明，当梯度信息带有噪声且仅间歇可用时，学习过程可能不稳定：即使平均学习动态收敛至正确最优解，其方差仍可能渐近趋向无穷。通过在单层及多层线性网络等可解析设置中进行分析，作者推导了保证学习稳定的显式条件，这些条件与已有的随机梯度下降稳定性条件在概念上有所不同，为理解间歇性学习信号的稳定性提供了新的理论视角。</description>
     </item>
     <item>
-      <title>Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox</title>
-      <link>http://arxiv.org/abs/2610.32955v1</link>
-      <guid>http://arxiv.org/abs/2610.32955v1</guid>
+      <title>Patient-specific rubric-based evaluation of large language models across longitudinal cancer care</title>
+      <link>http://arxiv.org/abs/2610.35847v1</link>
+      <guid>http://arxiv.org/abs/2610.35847v1</guid>
       <category>paper</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>本文提出NPC-RubricBench，一个面向鼻咽癌纵向诊疗全周期的阶段性评测基准。现有大语言模型评估多聚焦于孤立的单次临床场景，难以反映模型在连续护理路径中临床职责演变的表现。该基准来源于两家肿瘤中心405例患者的纵向病历，覆盖六个连续诊疗阶段，包含941个患者-阶段单元和17688条患者特异性原子评估标准，涵盖五个评测维度，且每次评估严格限于决策时刻可获得的临床证据。对30个通用及医学大语言模型的评测表明，模型在诊断阶段的表现优异并不能延续至后续治疗与随访阶段。</description>
     </item>
     <item>
-      <title>Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning</title>
-      <link>http://arxiv.org/abs/2610.32951v1</link>
-      <guid>http://arxiv.org/abs/2610.32951v1</guid>
+      <title>Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR</title>
+      <link>http://arxiv.org/abs/2610.35846v1</link>
+      <guid>http://arxiv.org/abs/2610.35846v1</guid>
       <category>paper</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>本文研究了基于连接器的语音大语言模型在多语言语音识别扩展中如何保留已有语言性能的问题。该系统使用可训练连接器将语音表征映射到冻结的大语言模型中。作者评估了目标更新构造与模型合并策略，发现单目标扩展时目标微调及标准TIES合并虽能学习新语言但导致严重的源语言遗忘，而SSU-Wanda加TIES合并给出了最佳的源语言保留折中效果。在多目标扩展中，更新合并提供了稳定的源语言保持能力，递归扩展虽在有利顺序下能改善目标适配但对顺序高度敏感。</description>
     </item>
     <item>
-      <title>Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models</title>
-      <link>http://arxiv.org/abs/2610.32948v1</link>
-      <guid>http://arxiv.org/abs/2610.32948v1</guid>
+      <title>Work Agents: Systems, Capabilities, and Optimization</title>
+      <link>http://arxiv.org/abs/2610.35845v1</link>
+      <guid>http://arxiv.org/abs/2610.35845v1</guid>
       <category>paper</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>随着基础模型从信息生成向数字工作执行演进，智能体在跨工具、应用和工作流的复杂任务中展现出越来越强的能力。本文提出一种以工作为中心的系统视角，将工作智能体视为基础模型与运行时框架相结合的系统，能够在有状态的工作空间中执行任务并交付可验证的结果。作者引入工作持久性和工作开放性两个互补维度来刻画工作条件，并按任务范围和组织形式将数字工作分为五种形态。在此基础上，论文识别了可靠工作执行所需的五大核心能力族，并探讨了模型优化、运行时框架优化及系统级优化的相关方法。</description>
     </item>
     <item>
-      <title>How to Test Your Agents on Real Tasks With Harbor - Xander Song, Arize AI</title>
-      <link>https://www.youtube.com/watch?v=kRJjSOYqW0I</link>
-      <guid>https://www.youtube.com/watch?v=kRJjSOYqW0I</guid>
+      <title>300 Agents, 60 People: How We Secured Our Own AI Agents - Aiden Sochowski, Runlayer</title>
+      <link>https://www.youtube.com/watch?v=BgLdvF7Qkh8</link>
+      <guid>https://www.youtube.com/watch?v=BgLdvF7Qkh8</guid>
       <category>youtube</category>
-      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
+      <description>60人的Runlayer团队跑着300个AI Agent，讲清了给Agent设安全边界的具体做法。</description>
     </item>
     <item>
-      <title>How to Build an AI Code Review Agent - Daksh Gupta, Greptile</title>
-      <link>https://www.youtube.com/watch?v=4UtrRVtUN_g</link>
-      <guid>https://www.youtube.com/watch?v=4UtrRVtUN_g</guid>
+      <title>How a Trading Firm Ships New AI Models the Same Day - Noyan Tokgozoglu, Optiver</title>
+      <link>https://www.youtube.com/watch?v=aGIUg8zKI8A</link>
+      <guid>https://www.youtube.com/watch?v=aGIUg8zKI8A</guid>
       <category>youtube</category>
-      <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Optiver做到新AI模型当天上线生产，Noyan Tokgozoglu拆解了从训练到部署的全自动化流水线。</description>
     </item>
     <item>
       <title>The New Full-Stack Designer</title>
@@ -259,7 +259,7 @@
       <guid>https://www.youtube.com/watch?v=eojywvxqoLc</guid>
       <category>youtube</category>
       <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>全栈设计师要求同时掌握UI设计与前端编码，这一趋势正在重塑行业对设计师能力边界的定义。</description>
     </item>
     <item>
       <title>Why Inference Matters 12x More Than Training | YC Paper Club</title>
@@ -267,7 +267,7 @@
       <guid>https://www.youtube.com/watch?v=mHNKuH-9OxU</guid>
       <category>youtube</category>
       <pubDate>Fri, 23 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>视频用数据揭示了推理的重要性为何达到训练的12倍，直接指出AI算力分配的关键转向。</description>
     </item>
     <item>
       <title>Anthropic S-1</title>
@@ -275,7 +275,7 @@
       <guid>https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm</guid>
       <category>news</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>Anthropic递交上市申请后，社区围绕估值逻辑、商业模式可持续性与闭源开源间的张力展开逾1500条讨论。</description>
     </item>
     <item>
       <title>Microsoft offers mass buyouts for roughly a quarter of its workforce</title>
@@ -283,7 +283,7 @@
       <guid>https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/</guid>
       <category>news</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>微软向约四分之一员工提供离职买断，讨论聚焦AI对技术岗位的冲击，以及此举是战略调整还是财务优化。</description>
     </item>
     <item>
       <title>Nutlope/hallmark</title>
@@ -291,7 +291,7 @@
       <guid>https://github.com/Nutlope/hallmark</guid>
       <category>news</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>用一组纯CSS规则修正AI编程工具默认生成的粗糙前端风格，单日获两千余星标。</description>
     </item>
     <item>
       <title>pbakaus/impeccable</title>
@@ -299,7 +299,7 @@
       <guid>https://github.com/pbakaus/impeccable</guid>
       <category>news</category>
       <pubDate>Mon, 26 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <description>用Rust为AI编程助手定义专属设计语言，让生成的前端界面更遵循设计原则，单日新增1506颗星。</description>
     </item>
   </channel>
 </rss>

@@ -3,98 +3,98 @@
   {
    "title": "Anthropic S-1",
    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-   "points": 1407,
-   "comments": 1376,
+   "points": 1591,
+   "comments": 1525,
    "published": "2026-10-26T13:04:50+00:00",
    "hn_id": "50242939"
   },
   {
    "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
    "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
-   "points": 662,
-   "comments": 557,
+   "points": 909,
+   "comments": 859,
    "published": "2026-10-26T15:35:12+00:00",
    "hn_id": "50245524"
   },
   {
+   "title": "Three new discoveries in mathematics, computer science, and physics",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+   "points": 821,
+   "comments": 357,
+   "published": "2026-10-26T21:35:28+00:00",
+   "hn_id": "50251344"
+  },
+  {
    "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
    "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-   "points": 502,
-   "comments": 76,
+   "points": 680,
+   "comments": 94,
    "published": "2026-10-26T15:11:59+00:00",
    "hn_id": "50245138"
   },
   {
-   "title": "Switzerland. Block by block. At 1:1 scale",
-   "url": "https://blocks.manifold3d.ch/",
-   "points": 450,
-   "comments": 212,
-   "published": "2026-10-26T08:46:09+00:00",
-   "hn_id": "50240922"
+   "title": "The Exponential Time Hypothesis Is False [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "points": 582,
+   "comments": 207,
+   "published": "2026-10-26T21:59:15+00:00",
+   "hn_id": "50251661"
   },
   {
    "title": "GPT-6.1 Terra",
    "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-   "points": 446,
-   "comments": 283,
+   "points": 576,
+   "comments": 364,
    "published": "2026-10-26T18:01:17+00:00",
    "hn_id": "50248124"
   },
   {
    "title": "CSS-Tricks has a new owner",
    "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-   "points": 344,
-   "comments": 79,
+   "points": 442,
+   "comments": 99,
    "published": "2026-10-26T15:51:23+00:00",
    "hn_id": "50245831"
   },
   {
-   "title": "Concerning behavior from a popular open-weight AI model",
-   "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-   "points": 239,
-   "comments": 96,
-   "published": "2026-10-26T16:35:44+00:00",
-   "hn_id": "50246658"
-  },
-  {
-   "title": "In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn't Real",
-   "url": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
-   "points": 233,
-   "comments": 142,
-   "published": "2026-10-26T17:54:00+00:00",
-   "hn_id": "50248005"
-  },
-  {
-   "title": "Pharo 14",
-   "url": "https://pharo.org/news/2026-10-26-Pharo14Release.html",
-   "points": 228,
-   "comments": 57,
-   "published": "2026-10-26T11:15:50+00:00",
-   "hn_id": "50241925"
-  },
-  {
    "title": "Oldest GUI application that still runs on Windows 11",
    "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
-   "points": 224,
-   "comments": 133,
+   "points": 391,
+   "comments": 220,
    "published": "2026-10-26T17:56:55+00:00",
    "hn_id": "50248055"
   },
   {
-   "title": "The EPA Is Quietly Killing Its Web Archive",
-   "url": "https://www.motherjones.com/environment/2026/10/epa-online-archive-deletion-zeldin-camp-lejeune-trump-clean-power/",
-   "points": 187,
-   "comments": 30,
-   "published": "2026-10-26T19:05:41+00:00",
-   "hn_id": "50249275"
+   "title": "Websites Should Be Printable",
+   "url": "https://brennenputh.me/blog/printable-websites/",
+   "points": 322,
+   "comments": 189,
+   "published": "2026-10-26T10:32:14+00:00",
+   "hn_id": "50241664"
+  },
+  {
+   "title": "Solar power is becoming bigger than nuclear",
+   "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+   "points": 262,
+   "comments": 404,
+   "published": "2026-10-26T15:26:17+00:00",
+   "hn_id": "50245385"
   },
   {
    "title": "Type Server Protocol",
    "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
-   "points": 169,
-   "comments": 125,
+   "points": 235,
+   "comments": 155,
    "published": "2026-10-26T18:14:49+00:00",
    "hn_id": "50248371"
+  },
+  {
+   "title": "New iPad mini",
+   "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+   "points": 192,
+   "comments": 489,
+   "published": "2026-10-26T13:13:36+00:00",
+   "hn_id": "50243061"
   }
  ],
  "github_trending": [
@@ -102,145 +102,145 @@
    "repo": "Nutlope/hallmark",
    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
    "language": "CSS",
-   "stars_today": "2,235",
+   "stars_today": "2,244",
    "url": "https://github.com/Nutlope/hallmark"
   },
   {
    "repo": "TauricResearch/TradingAgents",
    "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
    "language": "Python",
-   "stars_today": "1,376",
+   "stars_today": "1,395",
    "url": "https://github.com/TauricResearch/TradingAgents"
   },
   {
    "repo": "JetBrains/thinkrail",
    "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
    "language": "TypeScript",
-   "stars_today": "1,156",
+   "stars_today": "1,173",
    "url": "https://github.com/JetBrains/thinkrail"
   },
   {
    "repo": "makecindy/cindy",
    "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
    "language": "TypeScript",
-   "stars_today": "1,268",
+   "stars_today": "1,296",
    "url": "https://github.com/makecindy/cindy"
   },
   {
    "repo": "affaan-m/ECC",
    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
    "language": "JavaScript",
-   "stars_today": "987",
+   "stars_today": "896",
    "url": "https://github.com/affaan-m/ECC"
   },
   {
    "repo": "pbakaus/impeccable",
    "desc": "The design language that makes your AI harness better at design.",
    "language": "Rust",
-   "stars_today": "1,551",
+   "stars_today": "1,506",
    "url": "https://github.com/pbakaus/impeccable"
   },
   {
    "repo": "NVIDIA/SkillSpector",
    "desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
    "language": "Python",
-   "stars_today": "203",
+   "stars_today": "214",
    "url": "https://github.com/NVIDIA/SkillSpector"
   },
   {
    "repo": "pollen-robotics/microduck",
    "desc": "A Tiny biped duck robot 🦆",
    "language": "Rust",
-   "stars_today": "844",
+   "stars_today": "843",
    "url": "https://github.com/pollen-robotics/microduck"
   },
   {
    "repo": "nightly-labs/openbot",
    "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
    "language": "TypeScript",
-   "stars_today": "312",
+   "stars_today": "176",
    "url": "https://github.com/nightly-labs/openbot"
   },
   {
    "repo": "Panniantong/Agent-Reach",
    "desc": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
    "language": "Python",
-   "stars_today": "723",
+   "stars_today": "746",
    "url": "https://github.com/Panniantong/Agent-Reach"
   }
  ],
  "papers": [
   {
-   "title": "The Language of Instruction: Genre and Generative AI",
-   "url": "http://arxiv.org/abs/2610.32982v1",
-   "published": "2026-10-23T17:59:56Z",
-   "abstract": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks. It is instantiated in applications through instruction fine-tuning, the inclusion of a pretext known as a system prompt, and the formalization of inputs in mark-up languages characterized by the use of special tokens and role assignment in turntaking structures."
+   "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+   "url": "http://arxiv.org/abs/2610.35868v1",
+   "published": "2026-10-26T17:59:44Z",
+   "abstract": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We propose DecisionRAG, which brings the capabilities of pretrained language models to retrieval using decision models that jointly evaluate candidate branches in a single forward pass, without generating any tokens, and show that judging candidates in a shared context makes their relevance estimates comparable. Like a person browsing a library, DecisionRAG navigates the corpus's inherent structure from broad topics down to individual passages, deciding at each level which branches are worth exploring. Without task-specific training or a first-stage retriever, DecisionRAG outperforms dense retrieval with an 8B reranker by 1"
   },
   {
-   "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-   "url": "http://arxiv.org/abs/2610.32978v1",
-   "published": "2026-10-23T17:59:21Z",
-   "abstract": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D compilation. A hierarchical sampler uses diffusion priors to generate furniture arrangements within functional zones. A compiler then uses relations extracted from each proposal to guide geometric fitting and local pose correction. Across five room types, SceneBloom attains the highest visual quality and physical stability among the compared methods and is the only method with no detected mesh coll"
+   "title": "Center-of-Mass Interpretation of Evolution Strategies",
+   "url": "http://arxiv.org/abs/2610.35865v1",
+   "published": "2026-10-26T17:59:33Z",
+   "abstract": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geometrical interpretation of this update instead. Treat each perturbed model as a particle and its reward as the particle's mass. Before scoring, every particle has the same mass and the population balances at its centroid. Once rewards are assigned, it balances at its reward-weighted center of mass instead. We show that the mean-subtracted ES update is exactly this displacement, scaled by a scalar factor that depends on the mean reward, for any finite population. The physical reading needs nonnegative rewards, which can always be arranged by adding a constant to every reward without changing the update. In the limit of a large populat"
   },
   {
-   "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
-   "url": "http://arxiv.org/abs/2610.32971v1",
-   "published": "2026-10-23T17:57:22Z",
-   "abstract": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, offline, and safe RL algorithms under a unified interface for substantially improved reusability, together with an enhanced evaluation platform spanning diverse real-world shifts and advanced humanoid and vision-language-action tasks. Systematic evaluation over 273 perturbation configurations provides an up-to-date capability map of current robust RL algorithms, revealing where they remain effecti"
+   "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+   "url": "http://arxiv.org/abs/2610.35866v1",
+   "published": "2026-10-26T17:59:33Z",
+   "abstract": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research objectives within a shared experimental environment by separating admissibility from improvement: model quality and resource constraints determine whether a result qualifies, while the selected target measures progress among admissible results. We instantiate Arena in language model pretraining with nine targets spanning model, data, training, and inference efficiency, and evaluate seven research harnesses using two foundation models. Arena clearly differentiates existing harnesses across research objectives, with several sophisticated methods outperformed by our simple seq"
   },
   {
-   "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-   "url": "http://arxiv.org/abs/2610.32969v1",
-   "published": "2026-10-23T17:56:28Z",
-   "abstract": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be estimated and retargeted to the robot, and they do not directly provide robot actions. In this paper, we introduce DexPort, a portable data-collection interface for high-DoF robot hands. It uses the same hand hardware for collection and deployment, avoiding a hand embodiment gap, and records both commanded joint targets and measured joint states. Our key observation is that a small set of skills can support a wide range of dexterous tasks. During collection, the operator moves the hand-held interface to specify the robot wrist motion and selects or adjusts s"
+   "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+   "url": "http://arxiv.org/abs/2610.35862v1",
+   "published": "2026-10-26T17:59:11Z",
+   "abstract": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free demonstrations using two force-sensing UMI-style handheld grippers for hand motion and contact wrenches, and wearable trackers for body motion. A force-reactive diffusion policy takes vision, proprioception, and measured wrenches as input, then predicts actions and per-hand force commands. A hybrid compliance whole-body controller with force tracking executes these commands while maintaining balance: an integral of the force error measured by real force/torque (F/T) sensors lets each hand track force accurately along the commanded direction and remain com"
   },
   {
-   "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
-   "url": "http://arxiv.org/abs/2610.32964v1",
-   "published": "2026-10-23T17:53:30Z",
-   "abstract": "Few-shot industrial anomaly detection requires modeling category-specific normality from only a handful of defect-free images. Common approaches tie inference to stored exemplars, impose rigid linear structure, or risk reproducing anomalous content. Flownomaly instead casts the problem as normal-counterpart recovery in frozen DINOv2 feature space. Given normal supports, a velocity field is learned through conditional flow matching over frozen patch tokens to transport Gaussian noise toward normal features. Along straight paths, a single recovery step using one evaluation of the optimal field yields the posterior mean of the clean normal token without trajectory integration. The operating time governs how strongly recovery modifies a query token. With no anomalous validation samples available for tuning, a normal-only Jacobian gain-to-noise criterion selects this time from the supports al"
+   "title": "On the stability of learning",
+   "url": "http://arxiv.org/abs/2610.35856v1",
+   "published": "2026-10-26T17:58:14Z",
+   "abstract": "Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for example, may be sparse, local, and only intermittently available at any given synapse. In this work, we show that if gradient information is noisy and only intermittently available, learning may be unstable. In particular, even if average learning dynamics converge to the correct optimum, variance in learning may be asymptotically infinite. We explore this point in a number of analytically tractable settings, including single-layer and multi-layer linear networks, and derive explicit conditions under which learning is stable. These conditions complement, but are conceptually distinct from, existing conditions related to the stability of stochastic gradient descent. Our work demonstrates that "
   },
   {
-   "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
-   "url": "http://arxiv.org/abs/2610.32955v1",
-   "published": "2026-10-23T17:49:43Z",
-   "abstract": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified sampling, frozen snapshots, thread-grouped splits, pre-registered hypotheses, human labels in the agent's review loop) that yields ground truth before any training. On 739 real Italian/English emails labelled by the owner (231 unbiased, 500 adversarially sampled), we compare nine systems under thread-grouped cross-validation: the production keyword rules, a TF-IDF + logistic-regression baseline, local typed decision models (Tev1, Nimble), a hosted decision model (Nimble v4-max), and hosted generative LLMs (Qwen2.5-7B, Gemma 4 26B/31B). Four results. The produc"
+   "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+   "url": "http://arxiv.org/abs/2610.35847v1",
+   "published": "2026-10-26T17:56:26Z",
+   "abstract": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluating multistage clinical reasoning across the cancer care continuum, using nasopharyngeal carcinoma as a defined disease context. Curated from longitudinal records of 405 patients across two cancer centers, the benchmark comprises 941 patient-phase units across six sequential care phases and 17,688 patient-specific atomic criteria spanning five evaluation dimensions, with each assessment strictly restricted to decision-time clinical evidence. Evaluating 30 general-purpose and medical LLMs revealed that strong diagnostic performance does not carry over to downstream care. We evaluated 30 general"
   },
   {
-   "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
-   "url": "http://arxiv.org/abs/2610.32951v1",
-   "published": "2026-10-23T17:45:03Z",
-   "abstract": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global precision, or modify the learning algorithm. We ask whether aligning selected parts of the execution stack can stabilize BF16 RL while other implementation differences remain. We align training-side rounding locations with inference in three regions---RoPE, SwiGLU, and residual RMSNorm---by retaining selected intermediates in FP32 until their BF16 outputs. Across four Qwen-family models, aligning all three regions prevents the collapse observed under the default BF16 baseline; RoPE-path alignment alone also suffices in the studied runs, despite remaining numeri"
+   "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
+   "url": "http://arxiv.org/abs/2610.35846v1",
+   "published": "2026-10-26T17:56:22Z",
+   "abstract": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen large language model. We evaluate target-update construction and merging strategies for adapting the connector while preserving source-language performance. In single-target expansion, target-only fine-tuning and standard TIES merging learn new languages but cause severe source-language forgetting, while SSU-Wanda+TIES gives the best source-preserving trade-off. In multi-target expansion, update merging provides stable source retention, whereas recursive expansion can improve target adaptation under favorable orders but is highly order-sensitive. These results show that multilingual ASR expan"
   },
   {
-   "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
-   "url": "http://arxiv.org/abs/2610.32948v1",
-   "published": "2026-10-23T17:40:58Z",
-   "abstract": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion framework that combines autoregressive text generation with continuous measurement prediction within a shared backbone. Visual prompt tuning adapts the vision encoder to ultrasound images. A diffusion process predicts a five-component representation comprising caliper endpoint coordinates and measurement length. A post-processing strategy combining the proposed coordinate-length consistency mechanism with ensemble prediction is introduced to refine measurement estimates. We evaluate four echocardiographic measurement tasks on EchoNet-LVH, with additional assessments of medical question answer"
+   "title": "Work Agents: Systems, Capabilities, and Optimization",
+   "url": "http://arxiv.org/abs/2610.35845v1",
+   "published": "2026-10-26T17:56:21Z",
+   "abstract": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful workspaces and deliver verifiable outcomes. We introduce two complementary dimensions, work persistence and work openness, to characterize working conditions, and classify digital work into five forms according to task scope and organization. Building on this framework, we identify five core capability families required for reliable work execution and examine approaches to model optimization, harness optimization, and t"
   },
   {
-   "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
-   "url": "http://arxiv.org/abs/2610.32945v1",
-   "published": "2026-10-23T17:39:42Z",
-   "abstract": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity, and subscription prices when advertising reduces user value but better service raises advertising returns. Three findings follow. First, when partly ad-supported and ad-free plans coexist, advertising can finance useful service for consumers who receive none under pure subscription. Lower effective quality in middle plans weakens the alternatives available to premium users, allowing higher prices for unchanged ad-free service. Some fully ad-supported users gain utility, while partly ad-supported and ad-free users lose: broader access can coexist with utility polarization. Second, an intermediate advertising cap can maximize consum"
+   "title": "I-HITL: Inalienable Human-in-the-Loop",
+   "url": "http://arxiv.org/abs/2610.35835v1",
+   "published": "2026-10-26T17:52:14Z",
+   "abstract": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. We introduce the concept of inalienable human-in-the-loop (I-HITL). An I-HITL protocol ensures that an agent can initiate an action only with explicit human approval, even when the human interacts with a system (e.g., a local agentic harness) compromised by the agent. A strong I-HITL protocol additionally ensures such approval even when an adversarial human attempts to delegate approvals to an agent. To motivate I-HITL, we report on experiments with a popular agentic wallet platform in which raising an agent's spending cap requires HITL approval via emailed one-time passcodes (OTPs). Given access to the user's email and a task blocke"
   },
   {
-   "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
-   "url": "http://arxiv.org/abs/2610.32943v1",
-   "published": "2026-10-23T17:37:55Z",
-   "abstract": "Generative recommendation with semantic IDs represents each item as a sequence of discrete codes derived from its semantic representation and predicts these codes to generate recommendations. Existing semantic-ID recommenders are typically trained with hard labels for the observed next item. Although such supervision identifies the target, it provides no explicit distributional information about alternative items conditioned on the same user history. Sequential recommenders can supply this item-level predictive knowledge, but transferring it to semantic-ID generation is challenging because the teacher and student operate in item and code spaces, respectively. We propose two complementary knowledge-distillation objectives for parallel semantic-ID recommenders, which predict all code positions simultaneously without autoregressive prefix conditioning. Item Distribution Matching (IDM) recon"
+   "title": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
+   "url": "http://arxiv.org/abs/2610.35833v1",
+   "published": "2026-10-26T17:51:08Z",
+   "abstract": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the server, beyond their sum. Different clients may be subject to heterogeneous bandwidth constraints, and consequently may choose different numbers of quantization levels to represent the information they send. Most secure aggregation works require the clients to project the values of their update parameters to a common finite group (or field), which does not directly accommodate heterogeneous precision constraints on their transmitted masked updates. Existing approaches of secure aggregation with heterogeneous quantization levels reveal partial aggregates of model-updates, and can reveal segments of individual model updates, under certain dropout and client-server collusion patterns. To prevent thi"
   },
   {
-   "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
-   "url": "http://arxiv.org/abs/2610.32941v1",
-   "published": "2026-10-23T17:35:33Z",
-   "abstract": "Vision-Language-Action (VLA) models perform well on robotic manipulation, yet remain brittle once their own actions carry them into states their training data barely covers. Recovering from such failures usually requires recovery demonstrations, policy retraining, or a separate model at inference time. We introduce Backtrack, a lightweight failure detection and recovery mechanism for frozen VLAs that needs none of these. A small failure prediction head, trained only on outcome-labeled rollouts of the frozen policy, reads the VLA's existing internal representations to estimate whether the current episode will fail. When the predicted failure probability exceeds a threshold, a controller pauses the policy, retraces the arm's recently achieved motion, and hands control back to the unchanged policy so it can retry from an earlier configuration. The head adds only 0.48-0.88% to the policy's p"
+   "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+   "url": "http://arxiv.org/abs/2610.35832v1",
+   "published": "2026-10-26T17:51:02Z",
+   "abstract": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. In this report, we evaluate GPT-6-Astra on EBench as the core of an agent that controls a robot through an agent harness under the same visual and proprioceptive observation protocol as post-trained policies. We study two agent configurations: direct control, in which the agent generates waypoint commands directly, and harness with policy, in which it can also invoke a post-trained VLA or WAM policy for action execution. Under direct control, the agent achieves competitive overall performance relative to post-trained policies. It leads on short-horizon tasks and exhibits the least performance v"
   },
   {
-   "title": "Learning Positive Linear Combinations of ReLUs in Fully Polynomial Time",
-   "url": "http://arxiv.org/abs/2610.32940v1",
-   "published": "2026-10-23T17:34:15Z",
-   "abstract": "We study the fundamental problem of PAC learning positive linear combinations of $k$ arbitrary ReLU activations on $\\mathbb{R}^d$ with respect to the Gaussian distribution, in $L_2$ loss. We give the first fully-polynomial time algorithm for this learning task. Specifically, our algorithm draws $\\mathrm{poly}(d, k, 1/ε)$ samples, runs in $\\mathrm{poly}(d, k, 1/ε)$ time, and outputs a hypothesis that is $ε$-close to the target concept with high probability. All prior algorithms for this problem require super-polynomial time in $k$ or $1/ε$, or leverage strong well-conditioned assumptions on the weight matrix. On a technical level, our approach develops a novel boosting procedure of a ``weak'' learner that recovers the hidden weight vectors to constant error, in a list-decodable manner. To develop this ``weak'' learning procedure, we leverage implicit tensor computation techniques to const"
+   "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
+   "url": "http://arxiv.org/abs/2610.35829v1",
+   "published": "2026-10-26T17:50:09Z",
+   "abstract": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of finding real-world vulnerabilities by working as a security expert would: they run analysis tools, explore the surrounding code, test hypotheses and weigh the evidence before forming their own judgement. This reasoning, however, spans many model calls, so that each verdict takes minutes of compute, far too long for real-time screening. Faster detectors, which fine-tune deep learning models or prompt an LLM for a direct verdict, are less accurate: they judge a function without the context an agent gathers, and an LLM's generated verdict is unreliable even when given some of it. We present REVA (REal-time Vulnerability Analysis), an AI vul"
   }
  ]
 }
