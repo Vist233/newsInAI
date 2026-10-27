@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "US Government is hiding a secret court ruling about how it spies on Americans",
+   "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+   "points": 704,
+   "comments": 257,
+   "published": "2026-10-27T14:06:42+00:00",
+   "hn_id": "50259604"
+  },
+  {
+   "title": "Genie 4",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "points": 632,
+   "comments": 383,
+   "published": "2026-10-27T16:06:01+00:00",
+   "hn_id": "50261319"
+  },
+  {
+   "title": "Ghostty 1.4",
+   "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+   "points": 613,
+   "comments": 191,
+   "published": "2026-10-27T16:51:22+00:00",
+   "hn_id": "50261998"
+  },
+  {
+   "title": "Wikipedia's Cleanup of AI-Generated Content",
+   "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "points": 422,
+   "comments": 191,
+   "published": "2026-10-27T11:08:15+00:00",
+   "hn_id": "50257326"
+  },
+  {
+   "title": "Python's experimental JIT to be removed",
+   "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+   "points": 416,
+   "comments": 217,
+   "published": "2026-10-27T11:17:57+00:00",
+   "hn_id": "50257419"
+  },
+  {
+   "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+   "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+   "points": 398,
+   "comments": 224,
+   "published": "2026-10-27T15:28:26+00:00",
+   "hn_id": "50260814"
+  },
+  {
+   "title": "New iMac with M6",
+   "url": "https://www.apple.com/imac/",
+   "points": 284,
+   "comments": 342,
+   "published": "2026-10-27T13:02:02+00:00",
+   "hn_id": "50258538"
+  },
+  {
+   "title": "New 14‑inch MacBook Pro with M6",
+   "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+   "points": 238,
+   "comments": 290,
+   "published": "2026-10-27T16:08:32+00:00",
+   "hn_id": "50261352"
+  },
+  {
+   "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+   "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+   "points": 191,
+   "comments": 93,
+   "published": "2026-10-27T16:25:30+00:00",
+   "hn_id": "50261589"
+  },
+  {
+   "title": "Discord will soon let anyone find public server messages through Google",
+   "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
+   "points": 177,
+   "comments": 108,
+   "published": "2026-10-27T18:44:17+00:00",
+   "hn_id": "50263854"
+  },
+  {
+   "title": "Classification of Finite Simple Groups Formalized in Lean",
+   "url": "https://cfsg.axiommath.ai/",
+   "points": 148,
+   "comments": 38,
+   "published": "2026-10-27T16:29:02+00:00",
+   "hn_id": "50261647"
+  },
+  {
+   "title": "Tailscale SSH: Investigation and remediation update",
+   "url": "https://tailscale.com/ssh-investigation-update",
+   "points": 139,
+   "comments": 84,
+   "published": "2026-10-27T19:55:21+00:00",
+   "hn_id": "50264857"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "elayadesign/ai-design-skills",
+   "desc": "",
+   "language": "",
+   "stars_today": "1,395",
+   "url": "https://github.com/elayadesign/ai-design-skills"
+  },
+  {
+   "repo": "Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "language": "CSS",
+   "stars_today": "2,859",
+   "url": "https://github.com/Nutlope/hallmark"
+  },
+  {
+   "repo": "nightly-labs/openbot",
+   "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+   "language": "TypeScript",
+   "stars_today": "794",
+   "url": "https://github.com/nightly-labs/openbot"
+  },
+  {
+   "repo": "obra/superpowers",
+   "desc": "An agentic skills framework &amp; software development methodology that works.",
+   "language": "Shell",
+   "stars_today": "608",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "language": "Rust",
+   "stars_today": "1,458",
+   "url": "https://github.com/pbakaus/impeccable"
+  },
+  {
+   "repo": "makecindy/cindy",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "language": "TypeScript",
+   "stars_today": "1,446",
+   "url": "https://github.com/makecindy/cindy"
+  },
+  {
+   "repo": "gitroomhq/postiz-app",
+   "desc": "📨 The ultimate agentic social media scheduling tool 🤖",
+   "language": "TypeScript",
+   "stars_today": "953",
+   "url": "https://github.com/gitroomhq/postiz-app"
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "language": "JavaScript",
+   "stars_today": "1,183",
+   "url": "https://github.com/affaan-m/ECC"
+  },
+  {
+   "repo": "HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "language": "Python",
+   "stars_today": "1,587",
+   "url": "https://github.com/HKUDS/DeepTutor"
+  },
+  {
+   "repo": "JetBrains/thinkrail",
+   "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+   "language": "TypeScript",
+   "stars_today": "1,211",
+   "url": "https://github.com/JetBrains/thinkrail"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+   "url": "http://arxiv.org/abs/2610.35868v1",
+   "published": "2026-10-26T17:59:44Z",
+   "abstract": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We propose DecisionRAG, which brings the capabilities of pretrained language models to retrieval using decision models that jointly evaluate candidate branches in a single forward pass, without generating any tokens, and show that judging candidates in a shared context makes their relevance estimates comparable. Like a person browsing a library, DecisionRAG navigates the corpus's inherent structure from broad topics down to individual passages, deciding at each level which branches are worth exploring. Without task-specific training or a first-stage retriever, DecisionRAG outperforms dense retrieval with an 8B reranker by 1"
+  },
+  {
+   "title": "Center-of-Mass Interpretation of Evolution Strategies",
+   "url": "http://arxiv.org/abs/2610.35865v1",
+   "published": "2026-10-26T17:59:33Z",
+   "abstract": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geometrical interpretation of this update instead. Treat each perturbed model as a particle and its reward as the particle's mass. Before scoring, every particle has the same mass and the population balances at its centroid. Once rewards are assigned, it balances at its reward-weighted center of mass instead. We show that the mean-subtracted ES update is exactly this displacement, scaled by a scalar factor that depends on the mean reward, for any finite population. The physical reading needs nonnegative rewards, which can always be arranged by adding a constant to every reward without changing the update. In the limit of a large populat"
+  },
+  {
+   "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+   "url": "http://arxiv.org/abs/2610.35866v1",
+   "published": "2026-10-26T17:59:33Z",
+   "abstract": "As autonomous research systems become more capable, benchmarks must both evaluate their performance and support meaningful research progress. We introduce Auto-Research Arena, a multi-target benchmark for evaluating autonomous research systems and discovering ideas in language modeling. Arena supports diverse research objectives within a shared experimental environment by separating admissibility from improvement: model quality and resource constraints determine whether a result qualifies, while the selected target measures progress among admissible results. We instantiate Arena in language model pretraining with nine targets spanning model, data, training, and inference efficiency, and evaluate seven research harnesses using two foundation models. Arena clearly differentiates existing harnesses across research objectives, with several sophisticated methods outperformed by our simple seq"
+  },
+  {
+   "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+   "url": "http://arxiv.org/abs/2610.35862v1",
+   "published": "2026-10-26T17:59:11Z",
+   "abstract": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free demonstrations using two force-sensing UMI-style handheld grippers for hand motion and contact wrenches, and wearable trackers for body motion. A force-reactive diffusion policy takes vision, proprioception, and measured wrenches as input, then predicts actions and per-hand force commands. A hybrid compliance whole-body controller with force tracking executes these commands while maintaining balance: an integral of the force error measured by real force/torque (F/T) sensors lets each hand track force accurately along the commanded direction and remain com"
+  },
+  {
+   "title": "On the stability of learning",
+   "url": "http://arxiv.org/abs/2610.35856v1",
+   "published": "2026-10-26T17:58:14Z",
+   "abstract": "Learning algorithms are usually analyzed under the assumption that informative gradients are continuously available. But this is not always true---learning signals in biological neural networks, for example, may be sparse, local, and only intermittently available at any given synapse. In this work, we show that if gradient information is noisy and only intermittently available, learning may be unstable. In particular, even if average learning dynamics converge to the correct optimum, variance in learning may be asymptotically infinite. We explore this point in a number of analytically tractable settings, including single-layer and multi-layer linear networks, and derive explicit conditions under which learning is stable. These conditions complement, but are conceptually distinct from, existing conditions related to the stability of stochastic gradient descent. Our work demonstrates that "
+  },
+  {
+   "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+   "url": "http://arxiv.org/abs/2610.35847v1",
+   "published": "2026-10-26T17:56:26Z",
+   "abstract": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluating multistage clinical reasoning across the cancer care continuum, using nasopharyngeal carcinoma as a defined disease context. Curated from longitudinal records of 405 patients across two cancer centers, the benchmark comprises 941 patient-phase units across six sequential care phases and 17,688 patient-specific atomic criteria spanning five evaluation dimensions, with each assessment strictly restricted to decision-time clinical evidence. Evaluating 30 general-purpose and medical LLMs revealed that strong diagnostic performance does not carry over to downstream care. We evaluated 30 general"
+  },
+  {
+   "title": "Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR",
+   "url": "http://arxiv.org/abs/2610.35846v1",
+   "published": "2026-10-26T17:56:22Z",
+   "abstract": "Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen large language model. We evaluate target-update construction and merging strategies for adapting the connector while preserving source-language performance. In single-target expansion, target-only fine-tuning and standard TIES merging learn new languages but cause severe source-language forgetting, while SSU-Wanda+TIES gives the best source-preserving trade-off. In multi-target expansion, update merging provides stable source retention, whereas recursive expansion can improve target adaptation under favorable orders but is highly order-sensitive. These results show that multilingual ASR expan"
+  },
+  {
+   "title": "Work Agents: Systems, Capabilities, and Optimization",
+   "url": "http://arxiv.org/abs/2610.35845v1",
+   "published": "2026-10-26T17:56:21Z",
+   "abstract": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful workspaces and deliver verifiable outcomes. We introduce two complementary dimensions, work persistence and work openness, to characterize working conditions, and classify digital work into five forms according to task scope and organization. Building on this framework, we identify five core capability families required for reliable work execution and examine approaches to model optimization, harness optimization, and t"
+  },
+  {
+   "title": "I-HITL: Inalienable Human-in-the-Loop",
+   "url": "http://arxiv.org/abs/2610.35835v1",
+   "published": "2026-10-26T17:52:14Z",
+   "abstract": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. We introduce the concept of inalienable human-in-the-loop (I-HITL). An I-HITL protocol ensures that an agent can initiate an action only with explicit human approval, even when the human interacts with a system (e.g., a local agentic harness) compromised by the agent. A strong I-HITL protocol additionally ensures such approval even when an adversarial human attempts to delegate approvals to an agent. To motivate I-HITL, we report on experiments with a popular agentic wallet platform in which raising an agent's spending cap requires HITL approval via emailed one-time passcodes (OTPs). Given access to the user's email and a task blocke"
+  },
+  {
+   "title": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
+   "url": "http://arxiv.org/abs/2610.35833v1",
+   "published": "2026-10-26T17:51:08Z",
+   "abstract": "In federated learning (FL), secure aggregation enables a server to compute the sum of local model updates of $N$ clients, without revealing any information on the individual model updates to the server, beyond their sum. Different clients may be subject to heterogeneous bandwidth constraints, and consequently may choose different numbers of quantization levels to represent the information they send. Most secure aggregation works require the clients to project the values of their update parameters to a common finite group (or field), which does not directly accommodate heterogeneous precision constraints on their transmitted masked updates. Existing approaches of secure aggregation with heterogeneous quantization levels reveal partial aggregates of model-updates, and can reveal segments of individual model updates, under certain dropout and client-server collusion patterns. To prevent thi"
+  },
+  {
+   "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+   "url": "http://arxiv.org/abs/2610.35832v1",
+   "published": "2026-10-26T17:51:02Z",
+   "abstract": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. In this report, we evaluate GPT-6-Astra on EBench as the core of an agent that controls a robot through an agent harness under the same visual and proprioceptive observation protocol as post-trained policies. We study two agent configurations: direct control, in which the agent generates waypoint commands directly, and harness with policy, in which it can also invoke a post-trained VLA or WAM policy for action execution. Under direct control, the agent achieves competitive overall performance relative to post-trained policies. It leads on short-horizon tasks and exhibits the least performance v"
+  },
+  {
+   "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
+   "url": "http://arxiv.org/abs/2610.35829v1",
+   "published": "2026-10-26T17:50:09Z",
+   "abstract": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of finding real-world vulnerabilities by working as a security expert would: they run analysis tools, explore the surrounding code, test hypotheses and weigh the evidence before forming their own judgement. This reasoning, however, spans many model calls, so that each verdict takes minutes of compute, far too long for real-time screening. Faster detectors, which fine-tune deep learning models or prompt an LLM for a direct verdict, are less accurate: they judge a function without the context an agent gathers, and an LLM's generated verdict is unreliable even when given some of it. We present REVA (REal-time Vulnerability Analysis), an AI vul"
+  }
+ ]
+}
