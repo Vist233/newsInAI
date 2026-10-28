@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Apple's git still trusts the compromised eMudhra certificates",
+   "url": "https://emudhra.we-have-a-problem.com/apple.html",
+   "points": 998,
+   "comments": 373,
+   "published": "2026-10-28T11:03:40+00:00",
+   "hn_id": "50271640"
+  },
+  {
+   "title": "Gemini 4 Carbon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+   "points": 727,
+   "comments": 593,
+   "published": "2026-10-28T17:01:23+00:00",
+   "hn_id": "50276792"
+  },
+  {
+   "title": "Why is this fingerprinting script creating bioweapons?",
+   "url": "https://nullpt.rs/fingerprinting-bioweapons",
+   "points": 615,
+   "comments": 137,
+   "published": "2026-10-28T17:13:29+00:00",
+   "hn_id": "50276998"
+  },
+  {
+   "title": "MacBook Pro with PROLED XDR Display and Touch",
+   "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+   "points": 454,
+   "comments": 780,
+   "published": "2026-10-28T17:10:37+00:00",
+   "hn_id": "50276940"
+  },
+  {
+   "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+   "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+   "points": 399,
+   "comments": 448,
+   "published": "2026-10-28T13:41:30+00:00",
+   "hn_id": "50273396"
+  },
+  {
+   "title": "Emacs Turns 50",
+   "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+   "points": 380,
+   "comments": 163,
+   "published": "2026-10-28T13:25:11+00:00",
+   "hn_id": "50273171"
+  },
+  {
+   "title": "CNC Stone Carving",
+   "url": "https://carmelitegothic.com/cnc-stone-carving/",
+   "points": 362,
+   "comments": 110,
+   "published": "2026-10-28T14:38:22+00:00",
+   "hn_id": "50274409"
+  },
+  {
+   "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
+   "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+   "points": 206,
+   "comments": 73,
+   "published": "2026-10-28T21:03:24+00:00",
+   "hn_id": "50280864"
+  },
+  {
+   "title": "Meta censored the No Kings Instagram account during a nationwide campaign",
+   "url": "https://paulfwalsh.substack.com/p/meta-censored-the-no-kings-instagram",
+   "points": 185,
+   "comments": 45,
+   "published": "2026-10-28T16:01:53+00:00",
+   "hn_id": "50275887"
+  },
+  {
+   "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+   "url": "https://surgehq.ai/blog/dayjob-tax",
+   "points": 174,
+   "comments": 104,
+   "published": "2026-10-28T15:46:30+00:00",
+   "hn_id": "50275626"
+  },
+  {
+   "title": "Archive.today links going forward",
+   "url": "https://www.reddit.com/r/Seattle/comments/1xhf6qp/archivetoday_links_going_forward/",
+   "points": 165,
+   "comments": 105,
+   "published": "2026-10-28T15:31:58+00:00",
+   "hn_id": "50275373"
+  },
+  {
+   "title": "AlpineBSD",
+   "url": "https://wiki.alpinebsd.org",
+   "points": 156,
+   "comments": 140,
+   "published": "2026-10-28T14:30:26+00:00",
+   "hn_id": "50274251"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "JetBrains/thinkrail",
+   "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+   "language": "TypeScript",
+   "stars_today": "1,075",
+   "url": "https://github.com/JetBrains/thinkrail"
+  },
+  {
+   "repo": "elayadesign/ai-design-skills",
+   "desc": "",
+   "language": "",
+   "stars_today": "1,938",
+   "url": "https://github.com/elayadesign/ai-design-skills"
+  },
+  {
+   "repo": "obra/superpowers",
+   "desc": "An agentic skills framework &amp; software development methodology that works.",
+   "language": "Shell",
+   "stars_today": "1,096",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "repo": "HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "language": "Python",
+   "stars_today": "2,376",
+   "url": "https://github.com/HKUDS/DeepTutor"
+  },
+  {
+   "repo": "macro-inc/macro",
+   "desc": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+   "language": "Rust",
+   "stars_today": "106",
+   "url": "https://github.com/macro-inc/macro"
+  },
+  {
+   "repo": "Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "language": "CSS",
+   "stars_today": "2,109",
+   "url": "https://github.com/Nutlope/hallmark"
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+   "language": "Rust",
+   "stars_today": "1,471",
+   "url": "https://github.com/pbakaus/impeccable"
+  },
+  {
+   "repo": "makecindy/cindy",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "language": "TypeScript",
+   "stars_today": "740",
+   "url": "https://github.com/makecindy/cindy"
+  },
+  {
+   "repo": "nightly-labs/openbot",
+   "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+   "language": "TypeScript",
+   "stars_today": "1,053",
+   "url": "https://github.com/nightly-labs/openbot"
+  },
+  {
+   "repo": "togg53192-cmd/jailbreaks",
+   "desc": "LIST OF ALL MY JAILBREAKS",
+   "language": "",
+   "stars_today": "1,478",
+   "url": "https://github.com/togg53192-cmd/jailbreaks"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Title: KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
+   "url": "https://arxiv.org/abs/2610.37655",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
+   "url": "https://arxiv.org/abs/2610.37631",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+   "url": "https://arxiv.org/abs/2610.37624",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Timestral",
+   "url": "https://arxiv.org/abs/2610.37585",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information",
+   "url": "https://arxiv.org/abs/2610.37571",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: From Interaction to Capability: Task Advancement as State and Supervision for GUI Agents",
+   "url": "https://arxiv.org/abs/2610.37482",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Concordat: Typed Sessions for LLM Agents",
+   "url": "https://arxiv.org/abs/2610.37461",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
+   "url": "https://arxiv.org/abs/2610.37459",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Beyond the Readout: A Latent Numerical Frame Shared Across Modality and Operation",
+   "url": "https://arxiv.org/abs/2610.37422",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity Resolution",
+   "url": "https://arxiv.org/abs/2610.37407",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Clearing the FoG: Training KG Agents to Retrieve the Evidence Behind Their Answers",
+   "url": "https://arxiv.org/abs/2610.37405",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Agent-Conditioned Routing: Diverse Reasoning Paths Within One Frozen Model",
+   "url": "https://arxiv.org/abs/2610.37375",
+   "published": "",
+   "abstract": ""
+  }
+ ]
+}
