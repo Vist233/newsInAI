@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Patrick Stewart has died",
+   "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+   "points": 1912,
+   "comments": 383,
+   "published": "2026-10-29T19:41:39+00:00",
+   "hn_id": "50294702"
+  },
+  {
+   "title": "We're releasing the weights of Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "points": 1086,
+   "comments": 315,
+   "published": "2026-10-29T14:13:21+00:00",
+   "hn_id": "50289418"
+  },
+  {
+   "title": "DoorDash to acquire Instacart",
+   "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+   "points": 385,
+   "comments": 570,
+   "published": "2026-10-29T12:33:05+00:00",
+   "hn_id": "50287919"
+  },
+  {
+   "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+   "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+   "points": 331,
+   "comments": 179,
+   "published": "2026-10-29T21:38:59+00:00",
+   "hn_id": "50296470"
+  },
+  {
+   "title": "LLM Voice",
+   "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+   "points": 299,
+   "comments": 158,
+   "published": "2026-10-29T14:57:55+00:00",
+   "hn_id": "50290177"
+  },
+  {
+   "title": "H.264 Is Magic (2016)",
+   "url": "https://sidbala.com/h-264-is-magic/",
+   "points": 278,
+   "comments": 115,
+   "published": "2026-10-29T15:53:03+00:00",
+   "hn_id": "50291054"
+  },
+  {
+   "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+   "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+   "points": 261,
+   "comments": 131,
+   "published": "2026-10-29T10:42:41+00:00",
+   "hn_id": "50286987"
+  },
+  {
+   "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+   "url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
+   "points": 248,
+   "comments": 163,
+   "published": "2026-10-29T17:43:48+00:00",
+   "hn_id": "50293047"
+  },
+  {
+   "title": "If IPv4 were land",
+   "url": "https://iptrust.co/blog/if-ipv4-were-land",
+   "points": 213,
+   "comments": 263,
+   "published": "2026-10-29T12:19:00+00:00",
+   "hn_id": "50287775"
+  },
+  {
+   "title": "Zombie stats: Where the numbers AI quotes come from",
+   "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+   "points": 132,
+   "comments": 60,
+   "published": "2026-10-29T15:06:17+00:00",
+   "hn_id": "50290283"
+  },
+  {
+   "title": "What we know so far about Spain train crash",
+   "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+   "points": 131,
+   "comments": 266,
+   "published": "2026-10-29T08:55:08+00:00",
+   "hn_id": "50286197"
+  },
+  {
+   "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
+   "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+   "points": 115,
+   "comments": 21,
+   "published": "2026-10-29T15:45:05+00:00",
+   "hn_id": "50290912"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "language": "Python",
+   "stars_today": "1,926",
+   "url": "https://github.com/HKUDS/DeepTutor"
+  },
+  {
+   "repo": "obra/superpowers",
+   "desc": "An agentic skills framework &amp; software development methodology that works.",
+   "language": "Shell",
+   "stars_today": "1,037",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+   "language": "Rust",
+   "stars_today": "2,881",
+   "url": "https://github.com/pbakaus/impeccable"
+  },
+  {
+   "repo": "JetBrains/thinkrail",
+   "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+   "language": "TypeScript",
+   "stars_today": "1,116",
+   "url": "https://github.com/JetBrains/thinkrail"
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "language": "TypeScript",
+   "stars_today": "1,190",
+   "url": "https://github.com/milind-soni/OpenMausBot"
+  },
+  {
+   "repo": "nightly-labs/openbot",
+   "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+   "language": "TypeScript",
+   "stars_today": "705",
+   "url": "https://github.com/nightly-labs/openbot"
+  },
+  {
+   "repo": "elayadesign/ai-design-skills",
+   "desc": "",
+   "language": "",
+   "stars_today": "1,178",
+   "url": "https://github.com/elayadesign/ai-design-skills"
+  },
+  {
+   "repo": "thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "language": "TypeScript",
+   "stars_today": "459",
+   "url": "https://github.com/thedotmack/claude-mem"
+  },
+  {
+   "repo": "CopilotKit/OpenBot",
+   "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "language": "TypeScript",
+   "stars_today": "240",
+   "url": "https://github.com/CopilotKit/OpenBot"
+  },
+  {
+   "repo": "togg53192-cmd/jailbreaks",
+   "desc": "LIST OF ALL MY JAILBREAKS",
+   "language": "",
+   "stars_today": "1,610",
+   "url": "https://github.com/togg53192-cmd/jailbreaks"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+   "url": "http://arxiv.org/abs/2610.37668v1",
+   "published": "2026-10-27T17:59:59Z",
+   "abstract": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for efficient 3D scene and 2D image representation. Hexels exploit locally planar regions with smoothly varying appearance using fewer, larger primitives. Their hexagonal support provides an area- and boundary-efficient domain, while the local color field captures appearance variation within each primitive. Across 34 scenes, Hexels improve PSNR over memory-matched 2DGS by 4.53-7.38 dB across datasets while requiring lower training VRAM. We further ablate Hexels by showing that per primitive, Hexels outperform 2DGS by upto 4.74 dB while using lower training VRAM and having 2.31 times faster FPS. Even"
+  },
+  {
+   "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+   "url": "http://arxiv.org/abs/2610.37666v1",
+   "published": "2026-10-27T17:59:52Z",
+   "abstract": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a VLA learning framework that grounds action reasoning in world dynamics and strengthens it through reinforcement learning with world imagination. ThinkWorld represents each action thought as a Chain-of-Dynamics (CoD), a sequence of discrete motion tokens that captures the intermediate dynamics connecting the current world to a future state and serves as a common action representation across embodiments. We first initialize CoD with action-labeled demonstrations, then predict the "
+  },
+  {
+   "title": "An EVM-Cosmos Bridge for Atomic, Semantic-Preserving Transfer of Environmental Tokens",
+   "url": "http://arxiv.org/abs/2610.37663v1",
+   "published": "2026-10-27T17:59:30Z",
+   "abstract": "Transferring semantically typed tokens between heterogeneous blockchains (e.g. EVM and Cosmos ecosystems) raises two problems: semantic mixing, the loss of a token's domainspecific meaning in transit (e.g., CO2 removals issued under different methodologies), and atomicity despite divergent consensus and timing assumptions. We propose a bridge that addresses both. A deterministic indicator identity derived from cryptographic commitments, mirrored in class registries on both chains and checked at mint time, preventing semantic mixing by construction. For atomicity, we extend hash time-locked contracts (HTLCs) from two-party exchange to single-owner transfer with an automatic callback that burns the source escrow after a destination claim, and a protocol-minimum bounty that makes the fallback burn incentive-compatible even against adversarial senders. We machine-check the protocol's invaria"
+  },
+  {
+   "title": "When Should We Intervene at Test Time?",
+   "url": "http://arxiv.org/abs/2610.37658v1",
+   "published": "2026-10-27T17:58:53Z",
+   "abstract": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one class. Average accuracy hides these failures and cannot tell a model when to use an intervention. Target labels can guide this decision, but they are scarce and some choices are already clear. We introduce PORTAL, a controller that chooses when to deploy an intervention, which inputs to label, and when to stop querying. Each available prediction rule is a candidate, and its predictions are fixed before current feedback arrives. Every acquired label therefore evaluates all candidates on the same input. PORTAL combines these shared comparisons and directs queries toward candidates that can still overtake the current leader. It stops wh"
+  },
+  {
+   "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+   "url": "http://arxiv.org/abs/2610.37657v1",
+   "published": "2026-10-27T17:58:52Z",
+   "abstract": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions. We evaluate HoS on Llama-3.3-70B-Instruct and GPT-OSS-20B. We compare it against SecAlign++, a state-of-the-art finetuning-based defense, and ASIDE, a defense that, like ours, builds instruction-data separation into the model architecture. We show that HoS offers greater robustness to adaptive attacks, better performance on standard utility benchmarks, and matches top performance on standard agentic prompt injection benchmarks. More specifically, the black-box RL-Hammer attack reaches 97% ASR against GPT-OSS-20B and 85% against SecAlign, but only 10% "
+  },
+  {
+   "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+   "url": "http://arxiv.org/abs/2610.37656v1",
+   "published": "2026-10-27T17:58:48Z",
+   "abstract": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each entity's coordinate frame may be rotated independently (per-entity frame freedom), three things follow. In the pure-gauge sector, relations that share no cycle cannot interact at all. The only gauge-invariant score of a triangle is a class function of its holonomy $H = T_{ij} T_{jk} T_{ki}$ - a Wilson loop. And the only equivariant update of an edge is $U = Ψ(H)\\, T_{ij}$ with $Ψ$ conjugation-equivariant. Edge attention by Wilson loops is therefore not one design among many but the unique form the symmetry permits. Three communities hold pieces of this form: the commuting-operator embeddings of knowledge graphs "
+  },
+  {
+   "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
+   "url": "http://arxiv.org/abs/2610.37655v1",
+   "published": "2026-10-27T17:58:40Z",
+   "abstract": "Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable programming frameworks in which machine-learning models are developed. We present KPPax, a kinetic preprocessor that generates differentiable, just-in-time compiled, and vectorisable chemistry code in JAX from mechanisms written in the KPP language. KPPax evaluates the rate law with sparse operations in log space, which keeps it differentiable, and integrates the stiff system with the implicit solvers and the forward- and reverse-mode adjoints of the \\texttt{diffrax} library, so that exact sensitivities are obtained without hand-derived adjoint code. We demonstrate two applications with the POLLU benchmark mechanism. In the first, the Fisher information matrix computed from an automatically differe"
+  },
+  {
+   "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
+   "url": "http://arxiv.org/abs/2610.37652v1",
+   "published": "2026-10-27T17:58:20Z",
+   "abstract": "Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such as not dropping the object, becomes critical, yet it is rarely measured. We study in-hand object pose reaching, a task that demands diverse and difficult grasps: moving an object to almost any position and orientation within reach of the fingers, at any wrist orientation, through long sequences of consecutive goals. We present a recipe for training such policies for a LEAP hand in simulation without human data, built on a range of insights, from diverse resets and goals via generated grasp datasets to an adaptive friction curriculum. With careful system identification, the policies transfer zero-shot to the real hand, using either mo"
+  },
+  {
+   "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+   "url": "http://arxiv.org/abs/2610.37651v1",
+   "published": "2026-10-27T17:58:11Z",
+   "abstract": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic execution, or noisy judges. We argue that such failures may not provide useful learning signal, and may even be harmful; and thus it is essential to curate which tasks are provided to the prompt optimizer for better performance. We introduce GEPA-Curator, a framework that augments the prompt optimizer to select which agent experiences should shape prompt optimization. In particular, GEPA-Curator consists of two components: task curation, which filters out tasks that are likely to provide noisy or unreliable learning signals, and prior success retrieval, which selectively retriev"
+  },
+  {
+   "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+   "url": "http://arxiv.org/abs/2610.37649v1",
+   "published": "2026-10-27T17:57:00Z",
+   "abstract": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without being told what to investigate? To evaluate this ability, we introduce LongChang, an automated framework that creates simulated worlds with altered physics, where one or more laws differ from ordinary physics. The evaluated LLMs act as explorers, manipulating objects and building tools to investigate their own questions without research tasks or hints about these laws. Separate LLM agents generate and review scenes, review tool designs, and evaluate reports for correctness and experimental support using the altered physical laws and exploration records. These records guide scene evolution for fur"
+  },
+  {
+   "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
+   "url": "http://arxiv.org/abs/2610.37648v1",
+   "published": "2026-10-27T17:56:46Z",
+   "abstract": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, we propose the SynthAPI pipeline, which explicitly controls the diversity of generated environments along the axes of tools, tasks, and the databases on which the tools operate. By systematically varying SynthAPI's generation controls in 458,752 tasks across 849 trained models of four different sizes, we derive a scaling law that predicts downstream tool-use agent generalization based on the scale and composition of the synthesized environments. These predictable relationships reveal several lessons for scaling tool-use agent data. As data budgets grow, scaling tool and database diversity becomes more effective than increasing the nu"
+  },
+  {
+   "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
+   "url": "http://arxiv.org/abs/2610.37647v1",
+   "published": "2026-10-27T17:56:40Z",
+   "abstract": "Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze norm control in Muon over the entire training trajectory using the \\emph{accumulated effective learning rate}, $C_T=\\sum_{t&lt;T}η_t/\\|W_t\\|_F$, where $η_t$ is the nominal learning rate and $η_t/\\|W_t\\|_F$ is the effective learning rate relative to the weight norm. For bounded update directions, accumulation over any training interval bounds relative weight displacement. We show that vanilla Muon can accumulate only logarithmically, potentially limiting exploration and helping explain its slower empirical progress, whereas MuonW and MuonH guarantee at least linear accumulation under the stated conditions. Going beyond bounded-norm control, we show that sufficiently slow no"
+  }
+ ]
+}
