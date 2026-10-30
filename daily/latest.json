@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-30",
-  "summary": "",
+  "date": "2026-10-31",
+  "summary": "今天的条目像一份自相矛盾的证词。安全侧几乎全线告急——Claude Code 扩展被植入后门、Northflank 被入侵、Azure 出现跨租户突破、Bunny CDN 和 GitHub 接连出事——这些不是孤立事故，而是平台层信任模型正在系统性地漏水。与此同时，AI 工具赛道却仍在鼓吹\"能力外溢\"：claude-mem、CopilotKit、DeepTutor，仿佛把人的专业判断卸载给模型是一种进步。共同主线只有一条：当你把关键路径交给不透明的黑盒，无论是云平台的租户隔离还是 AI 助手生成的代码，攻击面都在指数级膨胀，而防御者的深度理解能力却在同步萎缩。那个\"AI 不是替代 SRE 而是让他们去技能化\"的判断今天读来格外刺耳，因为去技能化的直接后果就是没人能审计 Claude Code 里到底藏了什么。被高估的东西很明显：AI 工具作为\"生产力倍增器\"的叙事。它更像是一个能力稀释器，在制造新漏洞的同时，恰好抽走了唯一能发现漏洞的那类人。",
   "movie": {
-    "title": "First Man",
-    "year": 2018,
-    "director": "Damien Chazelle",
-    "reason": "把注意力从持续输入里抽出来的校准",
+    "title": "Her",
+    "year": 2013,
+    "director": "Spike Jonze",
+    "reason": "把抽象的 AI 讨论拉回真实关系与投射",
     "tags": [
       "film"
     ],
     "image_url": ""
   },
   "book": {
-    "title": "The Effective Engineer",
-    "author": "Edmond Lau",
-    "chapter": "Focus on High-Leverage Activities",
-    "reason": "讲杠杆与高产出习惯",
+    "title": "A Philosophy of Software Design",
+    "author": "John Ousterhout",
+    "chapter": "Chapter 2: The Nature of Complexity",
+    "reason": "把复杂度当成要管理的对象，而不是代码行数",
     "tags": [
       "book"
     ]
@@ -26,10 +26,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Patrick Stewart has died",
-      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
-      "published": "2026-10-29T19:41:39+00:00",
-      "summary": "英国演员帕特里克·斯图尔特去世的消息在Hacker News上引发了强烈反响，该帖子获得了1912分和383条评论。斯图尔特以星际迷航系列中的让吕克皮卡尔舰长以及X战警系列中的X教授等角色为全球观众所熟知。评论区中，许多用户分享了这些作品对自己成长的影响，还有人讨论了星际迷航中那些如今已成现实的技术设定，如通讯器和平板设备，使得这场悼念同时兼具了科技文化的回顾意味。",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "published": "2026-10-30T07:09:12+00:00",
+      "summary": "安全研究机构Phorion披露，Claude Code的VS Code扩展在Cursor Marketplace上遭到供应链攻击，攻击者植入后门代码，能够在用户不知情的情况下执行远程命令。该事件在Hacker News引发强烈关注，获得696分并吸引438条评论，社区围绕插件市场的审核机制、开发者身份验证以及AI工具生态的供应链安全展开激烈讨论，许多开发者质疑Marketplace类分发平台是否具备足够的安全保障能力。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -43,10 +43,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "We're releasing the weights of Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "published": "2026-10-29T14:13:21+00:00",
-      "summary": "Mistral AI 宣布发布 Mistral Large 4 的模型权重，这是继 Mistral 7B 和 Mixtral 系列之后又一重要开源举措。该模型在多项基准测试中表现优异，引发 Hacker News 社区热烈讨论，收获超过一千分的关注和三百余条评论。社区讨论焦点集中在模型性能与同类闭源大模型的横向对比、实际部署所需的硬件成本与推理效率，以及这一开源策略对整个 AI 生态格局可能产生的深远影响。",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "published": "2026-10-30T15:52:18+00:00",
+      "summary": "这篇文章来自可观测性平台Signoz，讨论了AI对SRE群体带来的隐性危害。作者认为AI并非在取代SRE的岗位，而是在逐步剥夺他们的核心技能。当工程师过度依赖AI生成的告警分析、故障诊断和根因定位建议时，他们原本通过反复实战积累的排障直觉和系统理解能力正在退化。这种去技能化的过程比直接裁员更加危险，因为它悄无声息地削弱了团队在真正复杂场景下的应对能力。帖子在Hacker News上引发了336条评论，不少SRE从业者分享了自己观察到的类似趋势，也有人对文章立场提出质疑。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -60,10 +60,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "DoorDash to acquire Instacart",
-      "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
-      "published": "2026-10-29T12:33:05+00:00",
-      "summary": "外卖平台DoorDash宣布以全股票交易的方式收购生鲜配送公司Instacart，这笔交易将两家在本地配送领域占据重要地位的公司合并到一起，引发了行业格局的重大变化。Hacker News上该新闻获得了385分和570条评论，讨论热度非常高。社区关注的核心问题包括：两家公司的企业文化差异、合并后对配送员的影响、消费者是否会面临更高的服务费，以及反垄断审查能否顺利通过。许多人质疑Instacart此前的技术架构能否与DoorDash的系统整合，也有人对本地配送市场走向进一步垄断表达了担忧。",
+      "title": "Northflank Breached",
+      "url": "https://status.northflank.com",
+      "published": "2026-10-30T15:10:31+00:00",
+      "summary": "Northflank 是一个面向开发者的一站式云部署平台，近日宣布遭受安全入侵，该事件在 Hacker News 上引发了热烈讨论，获得320分和242条评论。社区围绕此次安全事件的严重性、影响范围以及用户应对策略展开了广泛交流。许多用户关注自己部署在该平台上的应用和数据是否面临风险，同时也对平台的安全防护能力和事后响应透明度提出了质疑。这一事件再次提醒开发者在选择第三方托管服务时需要审慎评估其安全架构与合规能力。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -77,10 +77,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
-      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
-      "published": "2026-10-29T21:38:59+00:00",
-      "summary": "币安遭受了价值56亿美元的大规模黑客攻击，该事件在Hacker News引发了超过300分和近180条评论的热烈讨论。帖文指向链上追踪平台Arkham的实体页面，表明社区正在积极追踪被盗资金的流向和交易路径。加密货币行业对交易所安全性一直存在担忧，这次事件再次凸显了中心化交易平台面临的攻击风险，评论区围绕攻击手法、资金追踪进展以及行业监管等话题展开了深入的技术分析。",
+      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "published": "2026-10-30T10:06:15+00:00",
+      "summary": "来自挪威安全公司Binary Security的研究人员在Hacker News上公开了一篇技术报告，揭示微软Azure云平台上存在五个可被利用的跨租户入侵路径。攻击者通过这些弱点能够从一个租户的权限边界逃逸，获取其他租户的数据和资源控制权，实现完整的跨租户横向移动。该帖子在HN上获得255分和46条评论，引发安全社区对公有云多租户隔离机制可靠性的广泛讨论。许多评论者指出这类跨租户攻击是云平台安全中最危险的威胁模型之一，并呼吁用户重新审视自身在Azure上的权限配置和隔离策略。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -94,10 +94,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "LLM Voice",
-      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-      "published": "2026-10-29T14:57:55+00:00",
-      "summary": "Martin Fowler 发布了一篇关于 LLM Voice 的文章，在 Hacker News 上引发了热烈讨论，获得了 299 分和 158 条评论。文章探讨了大语言模型在语音交互层面的能力与局限，社区围绕当前模型是否能真正理解语音语境、语音交互的延迟与流畅度、以及大模型驱动语音体验的实际可用性展开了深入交流。许多评论者分享了自己在集成语音接口时的工程经验，也有人对端到端语音模型的成熟度表达了不同看法。",
+      "title": "The federated code forge",
+      "url": "https://tangled.org/blog/forge/",
+      "published": "2026-10-30T15:44:29+00:00",
+      "summary": "这篇讨论围绕联邦化代码托管平台展开，链接指向Tangled项目的博客文章。该平台的核心理念是让代码仓库不再集中依赖GitHub等单一商业服务商，而是像电子邮件或Mastodon那样分布在多个独立实例之间，各实例通过联邦协议互相发现和协作。讨论中参与者关注数据主权、项目长期可持续性、社区治理以及联邦网络中身份认证与信任传递等技术挑战。部分评论者表达了对去中心化方案在用户体验和生态成熟度方面仍与主流平台存在差距的担忧，也有人认为这是代码协作领域绕不开的结构性转变。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -111,10 +111,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "H.264 Is Magic (2016)",
-      "url": "https://sidbala.com/h-264-is-magic/",
-      "published": "2026-10-29T15:53:03+00:00",
-      "summary": "这篇2016年的技术博客深入浅出地解释了H.264视频编码的核心原理，包括帧间预测、运动补偿、熵编码等关键机制，让读者理解为什么H.264能用极小的文件体积呈现高质量画面。文章在Hacker News上引发了热烈讨论，获得278分和115条评论，许多开发者分享了对视频编码的实践经验，也有人讨论了H.265、AV1等后续编解码标准与H.264之间的权衡取舍。",
+      "title": "My favourite PowerMac is a Nintendo Wii",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "published": "2026-10-30T17:25:15+00:00",
+      "summary": "这篇文章出自复古计算爱好者博客virtuallyfun.com，作者认为任天堂Wii才是他最喜爱的PowerMac。Wii搭载的Broadway处理器由IBM设计，基于PowerPC架构，与苹果早期Mac使用的处理器同源。作者从硬件改造、系统运行和开发体验等角度阐述为何Wii比真正的PowerMac更令人着迷。该文章在Hacker News上获得了196分好评和50条评论，引发了社区关于PowerPC架构、游戏主机逆向工程以及复古计算设备实用性的热烈讨论。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -128,10 +128,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
-      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
-      "published": "2026-10-29T10:42:41+00:00",
-      "summary": "DreamGroup发布了一篇安全研究，披露了一种名为PHP2Shell的链式利用攻击，成功获取了25台服务器的root权限，其中包括美国政府服务器。该帖子在Hacker News上获得了261分和131条评论，引发了广泛的技术讨论。社区围绕攻击链的构造方式、受影响系统的范围以及防御策略展开了深入交流，参与者也讨论了政府机构在漏洞管理和安全补丁响应方面可能存在的不足。",
+      "title": "Florilegium: Procedural Flowers in LaTeX",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "published": "2026-10-30T15:48:12+00:00",
+      "summary": "Florilegium 是一个用 LaTeX 程序化生成花朵图案的开源项目，作者通过纯数学公式和几何参数在文档中绘制出形态各异的花卉图形。这个项目在 Hacker News 上引发了相当热烈的讨论，获得了184分和34条评论。参与者们惊叹于 LaTeX 除了排版之外的图形表达潜力，也围绕参数化设计、植物形态学建模以及代码的数学优雅性展开了交流。有人将其与 TikZ 和 PSTricks 等图形扩展包做对比，探讨程序化生成艺术在学术工具中的边界与可能性。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -145,10 +145,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
-      "url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
-      "published": "2026-10-29T17:43:48+00:00",
-      "summary": "这则来自纽约邮报的报道登上 Hacker News 热榜，讲述一名被指控的中国间谍与 Nvidia 首席执行官黄仁勋之间存在密切关系。该故事引发了大量技术社区用户的关注与讨论，163条评论中有人质疑消息来源的可靠性，有人从半导体供应链安全的角度分析此事的潜在影响，也有人认为这反映了中美科技竞争背景下媒体对 Nvidia 的持续关注。在 AI 芯片领域高度依赖 Nvidia 的当下，此类关于其领导层社交网络的安全争议无疑牵动着整个行业的神经。",
+      "title": "Bunny CDN Security Incident",
+      "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+      "published": "2026-10-30T19:05:22+00:00",
+      "summary": "Bunny CDN近日报告了一起安全事件，迅速登上Hacker News热门讨论，获得175分和34条评论。Bunny是一家知名的内容分发网络服务商，此次事件引发了社区对其基础设施安全性的广泛关注。评论区中，开发者们讨论了事件的影响范围、用户应采取的应对措施，以及CDN服务商在安全管理方面的责任边界。部分用户表达了对依赖单一CDN服务可能带来的风险的担忧，也有讨论围绕事件的具体技术细节和后续修复进展展开。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -162,10 +162,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "If IPv4 were land",
-      "url": "https://iptrust.co/blog/if-ipv4-were-land",
-      "published": "2026-10-29T12:19:00+00:00",
-      "summary": "这篇帖子用土地来类比IPv4地址空间，形象地解释了为什么IPv4地址如此稀缺且价值高昂。作者将不同的地址块比作城市中心的地皮和偏远乡村的荒地，让读者直观理解网络地址分配的历史遗留问题以及当前分配格局的不合理性。在Hacker News上引发了263条评论的热烈讨论，涉及IPv6迁移的现实阻力、地址浪费的成因、以及云计算时代IP成本转嫁等问题。许多参与者从自身运维经历出发，讨论了地址枯竭对实际业务的影响，也有人指出这种类比虽然生动但难以涵盖NAT和CDN等现代技术带来的复杂性。",
+      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "url": "https://github.com/dbreunig/nesformer",
+      "published": "2026-10-30T16:40:22+00:00",
+      "summary": "一位开发者在Hacker News上发布了nesformer项目，用约1GB的Qwen模型权重训练出一个能实际运行任天堂NES游戏的Transformer模型。该项目的核心思路是将NES的CPU、PPU和内存总线等硬件行为交给大语言模型来学习，推理时逐帧模拟整个游戏机的运行状态。帖子获得了165分超过100条评论，社区讨论了这种用语言模型替代传统模拟器或硬件逻辑的可行性，也关注其在游戏种类、帧率和硬件复杂度上的局限，认为它更像是一个有趣的工程实验而非实用方案。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -179,10 +179,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Zombie stats: Where the numbers AI quotes come from",
-      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
-      "published": "2026-10-29T15:06:17+00:00",
-      "summary": "这篇来自trakkr.ai的研究文章聚焦于一个令人不安的现象：AI模型在回答中引用的统计数据往往并非来自任何真实来源，而是像\"僵尸\"一样游荡在互联网上，被不断复制和引用，逐渐获得虚假的可信度。文章深入分析了这些数字是如何产生的、为何会被反复引用，以及它们如何误导公众认知。该讨论在Hacker News上引发了132分的热度和60条评论，反映出技术社区对AI输出数据真实性问题的普遍焦虑。核心争议在于：当AI无法区分事实与编造时，其引用的数字是否比人类更容易被盲目信任。",
+      "title": "GitHub Incident with Actions, Pages, and Webhooks",
+      "url": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
+      "published": "2026-10-30T17:57:35+00:00",
+      "summary": "GitHub于近期发生了一次影响Actions、Pages和Webhooks三项核心服务的运行事故，该帖在Hacker News上引发了135分的热度和57条评论的讨论。评论区中，开发者们普遍关注此次事故的根因和恢复时间，有人认为GitHub的基础设施在面对级联故障时显得脆弱，也有人讨论了对持续集成和自动化部署流程的实际影响。部分用户还借此话题反思将CI/CD流水线完全托管在单一平台上的风险，建议团队考虑多平台冗余策略以降低类似事件带来的业务中断。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -196,13 +196,13 @@
       "kind": "github_trending",
       "source_id": "github",
       "source_name": "GitHub Trending",
-      "title": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "published": "2026-10-30",
-      "summary": "DeepTutor 是由港大数据智能实验室 HKUDS 开源的终身个性化辅导系统，使用 Python 开发。该项目旨在为每位学习者提供持续陪伴式的智能教学体验，能够根据用户的学习进度和知识掌握情况动态调整辅导策略，实现真正因人而异的个性化教学。项目发布后迅速引爆社区，单日新增超过 1900 颗星，展现了 AI 教育领域的巨大需求与热度。",
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "published": "2026-10-31",
+      "summary": "claude-mem 是一个基于 TypeScript 开发的开源项目，为各类 AI 编程代理提供跨会话的持久化上下文能力。它在代理执行任务的过程中自动捕获所有操作记录，再利用 AI 进行智能压缩，并将相关上下文注入到未来的会话中，从而让代理具备长期记忆。该项目兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种代理工具，目前关注度增长迅速，单日新增超过一千颗星。",
       "raw_text": "",
       "categories": [
-        "Python"
+        "TypeScript"
       ],
       "priority": "normal",
       "image_url": "",
@@ -213,13 +213,13 @@
       "kind": "github_trending",
       "source_id": "github",
       "source_name": "GitHub Trending",
-      "title": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "published": "2026-10-30",
-      "summary": "Superpowers 是由 obra 开发的一个智能代理技能框架和软件开发方法论项目，使用 Shell 编写。该项目旨在为 AI 代理提供一套可实际运行的技能体系，让代理能够真正有效地完成软件开发任务，而不仅仅停留在概念验证阶段。作为一套强调实操性的方法论，它试图解决当前 AI 编程代理在真实工程中落地困难的问题。项目发布后迅速获得社区关注，单日新增超过一千颗星，反映出开发者群体对可靠代理技能框架的强烈需求。",
+      "title": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "published": "2026-10-31",
+      "summary": "OpenMausBot 是一个基于 TypeScript 开发的开源项目，定位为 Grok Bot 的开源替代方案。该项目提供了一个虚拟机环境，让各类机器人可以在其中运行和执行任务，从而为开发者构建聊天机器人和自动化代理时提供更灵活的底层支撑。项目由开发者 milind-soni 维护，近期在 GitHub 上获得了广泛关注，单日新增约 899 颗星标，显示出社区对开源 Grok 替代方案的强烈兴趣。",
       "raw_text": "",
       "categories": [
-        "Shell"
+        "TypeScript"
       ],
       "priority": "normal",
       "image_url": "",
@@ -232,8 +232,8 @@
       "source_name": "GitHub Trending",
       "title": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
-      "published": "2026-10-30",
-      "summary": "impeccable 是一个用 Rust 编写的开源工具，专注于为编码代理提供设计词汇表。它帮助开发者在代码审查和生成过程中用更精致、更大胆的标准来引导 AI 输出，同时通过批判性审查和系统性审计来发现潜在问题，从而在 AI 生成的低质量代码上线之前将其拦截。该项目今日新增超过 2881 颗星，关注度极高，反映了开发者社区对提升 AI 辅助编码质量的迫切需求。",
+      "published": "2026-10-31",
+      "summary": "impeccable 是一个用 Rust 编写的开源项目，旨在为编码智能体提供一套完整的设计词汇库。它可以帮助开发者在代码审查时进行更专业的批评与审计，在指导智能体工作时注入更强的打磨意识和更大胆的设计判断，从而在代码正式发布之前拦截掉那些粗糙的 AI 生成内容。该项目今日新增超过两千颗星标，说明开发者社区对提升 AI 辅助编码质量有着强烈的迫切需求。",
       "raw_text": "",
       "categories": [
         "Rust"
@@ -247,10 +247,10 @@
       "kind": "github_trending",
       "source_id": "github",
       "source_name": "GitHub Trending",
-      "title": "JetBrains/thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "published": "2026-10-30",
-      "summary": "thinkrail是JetBrains推出的开源轻量级IDE项目，使用TypeScript开发。它定位为一款真正能根据你的工作习惯自我定制的开发环境，核心体验围绕vibe coding展开，让开发者在编辑代码时获得流畅且个性化的交互感受。该项目今日在GitHub上获得1116颗新增星标，热度极高，吸引了大量关注。",
+      "title": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "published": "2026-10-31",
+      "summary": "CopilotKit/OpenBot 是一个用 TypeScript 编写的开源项目，今天一天内就新增了707颗星，热度相当可观。它的核心理念是为每个 AI 同事配备一台属于自己的计算机，包含浏览器、文件系统和各类工具，让 AI 能够像真实员工一样独立完成任务。项目强调每一个行动在发生前都经过决策，发生后又会被完整记录，确保可追溯和可控。此外它兼容任意 AG-UI 协议的智能体，开发者可以轻松将不同来源的 AI 能力接入这套工作流中。",
       "raw_text": "",
       "categories": [
         "TypeScript"
@@ -264,10 +264,10 @@
       "kind": "github_trending",
       "source_id": "github",
       "source_name": "GitHub Trending",
-      "title": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "published": "2026-10-30",
-      "summary": "OpenMausBot 是一个使用 TypeScript 编写的开源项目，旨在为 Grok Bot 提供一个功能对等的替代方案。该项目最核心的设计思路是为每个机器人分配独立的虚拟机环境，让开发者能够在隔离的沙箱中安全地运行和调试 Bot 逻辑，无需担心资源冲突或权限越界的问题。项目上线当天便获得了约1190颗 GitHub 星标，显示出社区对这一方向的高度关注。如果你正在寻找一个可以自由定制、不依赖单一厂商的 Bot 运行平台，这个项目值得了解。",
+      "title": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "published": "2026-10-31",
+      "summary": "这是一个用 TypeScript 编写的紫微斗数开源排盘引擎，基于倪海厦《天纪》体系构建，涵盖完整排盘算法、四化系统、格局知识库以及古籍原文数据，适合对命理编程或传统术数研究感兴趣的开发者使用。项目今日新增超过1100颗星标，热度增长迅速。",
       "raw_text": "",
       "categories": [
         "TypeScript"
@@ -281,13 +281,13 @@
       "kind": "github_trending",
       "source_id": "github",
       "source_name": "GitHub Trending",
-      "title": "nightly-labs/openbot",
-      "url": "https://github.com/nightly-labs/openbot",
-      "published": "2026-10-30",
-      "summary": "OpenBot 是一个基于 TypeScript 构建的本地优先桌面工作区项目，专为持久化 AI 队友设计。它允许用户在同一环境中运行 Codex、Claude 和 Grok 等多个 AI 模型，每个模型都拥有独立的工作区、任务队列和文件共享能力。此外，项目还支持浏览器控制以及智能体之间的协作通信，使用户能够像组建一个虚拟团队那样协调多个 AI 完成复杂任务。该项目近期关注度极高，单日新增超过七百个 star，是 AI 智能体协作领域值得关注的开源工具。",
+      "title": "expo/skills",
+      "url": "https://github.com/expo/skills",
+      "published": "2026-10-31",
+      "summary": "expo/skills 是 Expo 官方维护的开源项目，提供了一组面向 AI 智能体的技能集合，专门用于辅助开发者处理 Expo 项目及 Expo Application Services 相关的任务。该项目使用 Shell 语言编写，旨在让 AI 代理能够更高效地理解 Expo 生态的工作流程，涵盖项目配置、服务调用、构建部署等常见操作。项目上线后受到社区广泛关注，单日新增超过 100 颗星，体现了开发者对 AI 驱动的移动开发工具链的浓厚兴趣。",
       "raw_text": "",
       "categories": [
-        "TypeScript"
+        "Shell"
       ],
       "priority": "normal",
       "image_url": "",
@@ -298,13 +298,13 @@
       "kind": "github_trending",
       "source_id": "github",
       "source_name": "GitHub Trending",
-      "title": "elayadesign/ai-design-skills",
-      "url": "https://github.com/elayadesign/ai-design-skills",
-      "published": "2026-10-30",
-      "summary": "elayadesign/ai-design-skills 是一个聚焦于 AI 辅助设计技能训练的开源项目，旨在帮助设计师和开发者掌握利用人工智能提升设计工作流的方法与实践。该项目于近期迅速走红，单日新增超过一千一百颗星标，吸引了大量社区关注。项目由 elayadesign 维护，内容围绕如何将 AI 工具融入日常设计环节展开，适合对智能设计趋势感兴趣的学习者参考使用。",
+      "title": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "published": "2026-10-31",
+      "summary": "Macro 是一个用 Rust 编写的开源统一工作空间项目，面向团队协作场景，将邮件、即时聊天、文档、任务管理、AI 代理、音视频通话和客户关系管理等功能整合到一个平台中。各模块之间通过 @ 链接方式相互关联，并共享一套 AI 记忆系统，使上下文能在不同工具间无缝流转，减少切换成本。该项目在 GitHub 上关注度极高，单日新增超过 117 颗星标，反映出开发者社区对一体化协作工具架构的强烈兴趣。",
       "raw_text": "",
       "categories": [
-        "repo"
+        "Rust"
       ],
       "priority": "normal",
       "image_url": "",
@@ -315,13 +315,13 @@
       "kind": "github_trending",
       "source_id": "github",
       "source_name": "GitHub Trending",
-      "title": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "published": "2026-10-30",
-      "summary": "claude-mem 是一个用 TypeScript 编写的开源项目，旨在为各类 AI 代理提供跨会话的持久化上下文能力。它能够在每次会话运行期间完整捕获代理的执行记录，再利用 AI 对这些信息进行智能压缩，最终将相关的上下文重新注入到后续会话中，从而让代理具备真正的长期记忆。该项目兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种主流代理框架，今日新增 459 颗星，热度增长显著，适合需要让 AI 代理保持连贯性和历史感知能力的开发者使用。",
+      "title": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "published": "2026-10-31",
+      "summary": "mattpocock/skills 是一个用 Shell 编写的开源项目，由知名 TypeScript 教育者 Matt Pocock 发布。项目收录了他日常工作中实际使用的 AI agent 技能文件，直接来源于他个人本地的 .agents 目录，没有经过额外包装。作者强调这些技能面向真正的工程师，追求实用而非花哨。该项目上线后热度极高，单日新增超过八百颗星标，反映出开发者社区对高质量 AI 辅助编程工作流的强烈关注。如果你正在寻找可以直接复用的 agent 技能配置，这个项目值得一看。",
       "raw_text": "",
       "categories": [
-        "TypeScript"
+        "Shell"
       ],
       "priority": "normal",
       "image_url": "",
@@ -332,10 +332,10 @@
       "kind": "github_trending",
       "source_id": "github",
       "source_name": "GitHub Trending",
-      "title": "CopilotKit/OpenBot",
-      "url": "https://github.com/CopilotKit/OpenBot",
-      "published": "2026-10-30",
-      "summary": "CopilotKit/OpenBot 是一个基于 TypeScript 的开源项目，旨在构建拥有独立计算环境的 AI 同事。每个 AI 助手都配备自己的浏览器、文件系统及各类工具，所有操作在执行前经过决策审批，执行后完整记录，确保透明可控。项目支持接入任意 AG-UI 框架的 agent，具备较强的扩展性。该仓库近期热度很高，单日新增超过240颗星标，是构建可信 AI 自动化工作流的值得关注的开源方案。",
+      "title": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "published": "2026-10-31",
+      "summary": "t3code是由pingdotgg开发的一个开源代码编辑器项目，使用TypeScript编写。该项目是T3 Stack生态的一部分，旨在提供一个现代化的在线编码体验。近期该项目热度极高，单日新增超过900颗星标，吸引了大量开发者关注。它体现了T3社区对开发工具链的持续投入，适合对全栈JavaScript开发感兴趣的开发者使用。",
       "raw_text": "",
       "categories": [
         "TypeScript"
@@ -349,13 +349,13 @@
       "kind": "github_trending",
       "source_id": "github",
       "source_name": "GitHub Trending",
-      "title": "togg53192-cmd/jailbreaks",
-      "url": "https://github.com/togg53192-cmd/jailbreaks",
-      "published": "2026-10-30",
-      "summary": "",
+      "title": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "published": "2026-10-31",
+      "summary": "DeepTutor是由香港大学数据科学实验室开发的一款开源AI个性化辅导系统，采用Python语言构建。该项目致力于实现终身个性化学习辅导，能够根据学习者的知识水平和学习进度动态调整教学策略，提供针对性的辅导内容。作为近期GitHub上备受关注的热门项目，DeepTutor单日新增超过两千颗星，展现出社区对AI教育辅助工的高度热情。项目官网为deeptutor.info，适合希望将大语言模型应用于教育场景的开发者和研究者使用。",
       "raw_text": "",
       "categories": [
-        "repo"
+        "Python"
       ],
       "priority": "normal",
       "image_url": "",
@@ -366,10 +366,10 @@
       "kind": "paper",
       "source_id": "arxiv",
       "source_name": "arXiv",
-      "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
-      "url": "http://arxiv.org/abs/2610.37668v1",
-      "published": "2026-10-30",
-      "summary": "本文提出Hexels，一种具有平面六边形形状和局部一阶色彩场的新型面元表示，用于高效的三维场景渲染与重建。六边形支撑域在面积和边界上更加紧凑，局部色彩场能够捕捉每个图元内部的外观渐变，从而以更少、更大的图元替代传统的密集面元。在34个场景上的实验表明，在同等内存条件下，Hexels相比二维高斯面元将峰值信噪比提升了4.53至7.38 dB，同时训练显存更低，渲染帧率快2.31倍，为资源受限场景下的新视角合成与三维重建提供了更高效的解决方案。",
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "url": "http://arxiv.org/abs/2610.40655v1",
+      "published": "2026-10-31",
+      "summary": "大语言模型数据归因方法通常依赖事实检索等下游任务进行评估，但现有评估方式同时改变多个数据集属性，难以准确定位归因算法的失败原因。本文系统探索了大语言模型数据归因的设计空间，重点关注评估方法。作者提出受控归因基准CATT，通过在全虚构知识上微调大语言模型来获得明确的归因基准真值，并在此基础上一次仅改变一个数据集配置项，如文档冗余度和词汇干扰项，从而隔离各因素的影响。实验表明，冗余和干扰项会持续且显著地降低归因性能。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -383,10 +383,10 @@
       "kind": "paper",
       "source_id": "arxiv",
       "source_name": "arXiv",
-      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-      "url": "http://arxiv.org/abs/2610.37666v1",
-      "published": "2026-10-30",
-      "summary": "本文提出ThinkWorld框架，将动作推理锚定于世界动力学，并通过世界想象的强化学习加以增强。该框架将每次动作思维表示为Chain of Dynamics，即一组离散运动token序列，刻画从当前世界状态到未来状态的中间动力学过程，并作为跨具身体的通用动作表示。先用动作标注的机器人演示对CoD进行初始化，再利用人类视频等更广泛的经验通过世界想象进行预测与优化，从而在可规模化的数据与显式动作落地之间取得平衡，突破现有VLA模型对标注演示多样性的依赖。",
+      "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+      "url": "http://arxiv.org/abs/2610.40654v1",
+      "published": "2026-10-31",
+      "summary": "差分隐私按最坏情况记录缩放噪声，异常记录拖累整体噪声。本文提出PFR框架，通过私有过滤将仅保护典型记录的机制转化为标准差分隐私保证下的机制。核心包括凹的友好性分数和拟合良好时满足隐私的发布机制，使估计器不被异常记录拖累，在保持严格隐私保证的同时显著降低噪声。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -400,10 +400,10 @@
       "kind": "paper",
       "source_id": "arxiv",
       "source_name": "arXiv",
-      "title": "An EVM-Cosmos Bridge for Atomic, Semantic-Preserving Transfer of Environmental Tokens",
-      "url": "http://arxiv.org/abs/2610.37663v1",
-      "published": "2026-10-30",
-      "summary": "提出连接EVM与Cosmos的环境代币跨链桥，针对语义混合与原子性两大挑战：前者通过密码学承诺生成确定性标识并在双链注册表镜像校验解决；后者将HTLC扩展为单所有者转移，结合自动回调销毁与协议最小赏金实现激励兼容。",
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "url": "http://arxiv.org/abs/2610.40649v1",
+      "published": "2026-10-31",
+      "summary": "该论文重新审视了Neural Thickets假设。该假设认为预训练语言模型在权重空间中位于大量任务专家模型密集邻域内，随机高斯扰动可以发现这些专家。作者复现了相关增益，但证明这些增益并不依赖该几何解释。仅扰动单个解码器模块即可恢复大部分改进，而完全冻结模型并向输出对数概率添加随机偏置，在多数推理任务上即可匹配甚至超越全权重扰动。作者将这一现象归纳为Perturb-Select-Vote框架，即生成扰动预测器、在小验证集上筛选高性能成员并聚合预测，从而将Neural Thickets与推理时扩展方法联系起来。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -417,10 +417,10 @@
       "kind": "paper",
       "source_id": "arxiv",
       "source_name": "arXiv",
-      "title": "When Should We Intervene at Test Time?",
-      "url": "http://arxiv.org/abs/2610.37658v1",
-      "published": "2026-10-30",
-      "summary": "测试时自适应能帮助部署后的模型应对分布偏移，但同一干预措施可能在某些批次上改善性能而在另一些批次上造成损害，平均准确率指标无法揭示这种不一致性。针对这一问题，本文提出PORTAL控制器，用于决定何时启用干预、选择哪些输入进行标注以及何时停止查询。该方法将每种可用预测规则视为候选者，其预测在反馈到达前已固定，因此每个新获取的标签能同时对所有候选者进行评估。PORTAL利用这些共享比较结果，将查询引导至仍有可能超越当前领先者的候选者，从而在标签预算有限的条件下实现更可靠的干预决策。",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "url": "http://arxiv.org/abs/2610.40647v1",
+      "published": "2026-10-31",
+      "summary": "像素空间生成Transformer通常将每个图像块映射为单个token，导致更精细的细节需要更多token，从而使全局注意力计算开销急剧增长。本文提出SpecSlot，一种像素空间整流流Transformer，其核心思想是将输出细节与全局注意力序列长度解耦。该方法将每个空间锚点扩展为多个槽位，每个槽位负责一段不重叠的DCT系数带，从而将锚点密度与频谱细分分离。在注意力机制上，仅每个锚点中最低频的槽位参与全局注意力，所有槽位则进行局部交互。这一设计使模型能够在不扩大全局序列的前提下丰富频谱细节，有效平衡了生成质量与计算成本。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -434,10 +434,10 @@
       "kind": "paper",
       "source_id": "arxiv",
       "source_name": "arXiv",
-      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-      "url": "http://arxiv.org/abs/2610.37657v1",
-      "published": "2026-10-30",
-      "summary": "本文提出Heads of Security方法，通过学习少量按注意力头分配的门控机制来强制实现指令与数据的分离，从而防御提示注入攻击。该方法让模型能够推理不可信内容而不执行其中嵌入的恶意指令。在Llama-3.3-70B-Instruct和GPT-OSS-20B上的实验表明，HoS相较于SecAlign++和ASIDE等现有防御方法，对自适应攻击具有更强的鲁棒性，同时在标准效用基准上表现更优。具体而言，黑盒RL-Hammer攻击对GPT-OSS-20B的成功率达97%，对SecAlign达85%，而针对HoS仅为10%。",
+      "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+      "url": "http://arxiv.org/abs/2610.40644v1",
+      "published": "2026-10-31",
+      "summary": "分布鲁棒优化旨在应对从有限样本估计分布所带来的误差，而传统模糊集对样本中未出现的实现的处理方式存在显著差异。本文提出一种以拟合到数据的密度模型为中心的KL散度球作为模糊集，使对手能够按照模型赋予的概率对未观测到的代价较高实现进行加权。该方法避免了传输球中引入数据生成过程无法产生的场景，同时比经验散度球具有更灵活的对抗机制。由于该问题仅能容纳少量场景，本文进一步设计了自适应场景生成策略，通过迭代更新场景集来有效求解所形成的两阶段随机规划问题。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -451,10 +451,10 @@
       "kind": "paper",
       "source_id": "arxiv",
       "source_name": "arXiv",
-      "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
-      "url": "http://arxiv.org/abs/2610.37656v1",
-      "published": "2026-10-30",
-      "summary": "本文将注意力机制与格点规范理论联系起来，提出一种全新的几何视角。当关系图谱中每个实体的坐标系可以独立旋转时，作者证明了三条严格结论：不共享任何环路的关系完全无法交互；三角形的唯一规范不变评分是其环路乘积的类函数，即Wilson环；边的唯一等变更新形式由该Wilson环的共轭等变函数决定。因此，基于Wilson环的边注意力并非众多设计选择之一，而是对称性所允许的唯一形式。这一框架统一了知识图谱中的交换算子嵌入、规范场论中的Wilson环以及Transformer中的注意力机制三个社区的已有成果。",
+      "title": "Luggage re-identification: A study of strategies towards a real-world application",
+      "url": "http://arxiv.org/abs/2610.40643v1",
+      "published": "2026-10-31",
+      "summary": "行李重识别是视频监控中面向安防取证、边境管理及行李找回等任务的关键技术，其目标是在机场、车站等多摄像头视图中将同一行李的观测进行关联。现有方法主要依赖干净条件下的裁剪外观图像匹配，而真实场景中存在频繁遮挡、背景杂乱和人群密集等问题，导致性能显著下降。本文研究了一种端到端处理管线，能够利用多路视频流中多个视角和多次观测之间的互补信息，同时涵盖检测与重识别环节，从而提升面向真实部署场景的整体鲁棒性。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -468,10 +468,10 @@
       "kind": "paper",
       "source_id": "arxiv",
       "source_name": "arXiv",
-      "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
-      "url": "http://arxiv.org/abs/2610.37655v1",
-      "published": "2026-10-30",
-      "summary": "大气化学机制通常以KPP语言编写并生成Fortran或C代码，但这类代码无法直接嵌入机器学习所依赖的可微分编程框架。本文提出KPPax，一个从KPP格式机制出发生成可微分、即时编译且可向量化JAX化学代码的预处理工具。KPPax在对数空间中利用稀疏操作评估速率律以保持可微分性，并借助diffrax库的隐式求解器与前向及反向模式伴随积分刚性系统，从而无需手动编写伴随代码即可获得精确敏感度。作者以POLLU基准机制演示了两个应用场景，展示了该工具在大气化学机器学习任务中的实用价值。",
+      "title": "From extreme weather to agricultural consequences with agentic AI",
+      "url": "http://arxiv.org/abs/2610.40641v1",
+      "published": "2026-10-31",
+      "summary": "极端天气预报能预测风暴路径，但农业损失难以量化。本文提出WxCrop，首个通过因果分析物理可解释天气指数预测作物损失的气象-农业智能体系统。在佛罗里达对飓风、冻害、干热三种灾害验证，基于保险记录校准且可推广。结果：飓风指数AUC达0.98，留出年份损失还原误差≤2%，独立产量记录交叉验证。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -485,10 +485,10 @@
       "kind": "paper",
       "source_id": "arxiv",
       "source_name": "arXiv",
-      "title": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
-      "url": "http://arxiv.org/abs/2610.37652v1",
-      "published": "2026-10-30",
-      "summary": "本文研究灵巧手中的物体姿态到达任务，即要求多指手将物体移动到几乎任意位置和朝向，同时保持不掉落等安全性。作者提出了一种在仿真中训练策略的完整方案，无需人类演示数据，核心方法包括基于生成抓取数据集的多样化重置与目标设定以及自适应摩擦课程。通过细致的系统辨识，所训练的策略能够零样本迁移到真实的LEAP灵巧手，在多样且高难度的连续目标序列上表现出色。",
+      "title": "world2vec: Mechanistic world models through latent dynamics learning",
+      "url": "http://arxiv.org/abs/2610.40637v1",
+      "published": "2026-10-31",
+      "summary": "世界模型能够在不忠实捕捉环境动力学的情况下实现较强的控制性能，这限制了其在机制可解释性和科学发现方面的潜力。本文提出world2vec方法，能够在没有奖励信息的条件下，直接从观测和动作中学习机制世界模型。该方法学习到的隐空间动力学能够忠实地重现真实系统的行为，并支持长时域预测，参数量相比DreamerV3、TD-MPC2和LeWM至少减少一个数量级。实验表明，world2vec在从像素控制的连续环境中达到了最先进的性能，并在涵盖71种吸引子的基准测试中实现了精确的系统辨识，证明了世界模型在科学发现中的可行性。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -502,16 +502,16 @@
       "kind": "youtube",
       "source_id": "yt",
       "source_name": "AI Engineer",
-      "title": "Catch the Bugs Your Code Review Misses - Killian Carlsen-Phelan & Taylor Luttrell-Williams, Sonar",
-      "url": "https://www.youtube.com/watch?v=wP3P89YB9fA",
-      "published": "2026-10-29",
-      "summary": "",
+      "title": "How to Decide What Your AI Agent Should Remember - Wojciech Pluta, Oracle",
+      "url": "https://www.youtube.com/watch?v=qq2Hm4XNRgI",
+      "published": "2026-10-30",
+      "summary": "Pluta在Oracle讲Agent记忆取舍：哪些进向量库、哪些直接丢，这决定推理成本高低。",
       "raw_text": "",
       "categories": [
         "video"
       ],
       "priority": "normal",
-      "image_url": "https://i.ytimg.com/vi/wP3P89YB9fA/hqdefault.jpg",
+      "image_url": "https://i.ytimg.com/vi/qq2Hm4XNRgI/hqdefault.jpg",
       "rank": 0,
       "_number": "01"
     },
@@ -519,18 +519,35 @@
       "kind": "youtube",
       "source_id": "yt",
       "source_name": "AI Engineer",
-      "title": "Why Humans Can't Keep Up With AI-Written Code - Tariq Shaukat, Sonar",
-      "url": "https://www.youtube.com/watch?v=LQW_Wvqhp04",
-      "published": "2026-10-29",
-      "summary": "Sonar公司的Tariq Shaukat指出AI生成代码的产出速度已远超人类审查能力，并给出了具体的应对策略。",
+      "title": "Your AI Agent Starts Every Session Like a New Hire - Killian Carlsen-Phelan, Sonar",
+      "url": "https://www.youtube.com/watch?v=8vDzncmzxyg",
+      "published": "2026-10-30",
+      "summary": "Killian Carlsen-Phelan指出AI Agent每次会话都从零启动，像新入职员工没有持久记忆，是生产部署的硬伤。",
       "raw_text": "",
       "categories": [
         "video"
       ],
       "priority": "normal",
-      "image_url": "https://i.ytimg.com/vi/LQW_Wvqhp04/hqdefault.jpg",
+      "image_url": "https://i.ytimg.com/vi/8vDzncmzxyg/hqdefault.jpg",
       "rank": 0,
       "_number": "02"
+    },
+    {
+      "kind": "youtube",
+      "source_id": "yt",
+      "source_name": "Y Combinator",
+      "title": "What Happens When Everyone Can Build Software",
+      "url": "https://www.youtube.com/watch?v=vl7HiMdGfjo",
+      "published": "2026-10-30",
+      "summary": "视频用Cursor等工具演示了非程序员从想法到上线产品的完整路径，明确了AI编码改变的角色分工。",
+      "raw_text": "",
+      "categories": [
+        "video"
+      ],
+      "priority": "normal",
+      "image_url": "https://i.ytimg.com/vi/vl7HiMdGfjo/hqdefault.jpg",
+      "rank": 0,
+      "_number": "03"
     },
     {
       "kind": "youtube",
@@ -539,7 +556,7 @@
       "title": "The New Full-Stack Designer",
       "url": "https://www.youtube.com/watch?v=eojywvxqoLc",
       "published": "2026-10-26",
-      "summary": "",
+      "summary": "视频指出全栈设计师现在用AI编码工具直接生成前端代码，把设计和开发的距离压缩为零。",
       "raw_text": "",
       "categories": [
         "video"
@@ -547,33 +564,16 @@
       "priority": "normal",
       "image_url": "https://i.ytimg.com/vi/eojywvxqoLc/hqdefault.jpg",
       "rank": 0,
-      "_number": "03"
-    },
-    {
-      "kind": "youtube",
-      "source_id": "yt",
-      "source_name": "Y Combinator",
-      "title": "Why Inference Matters 12x More Than Training | YC Paper Club",
-      "url": "https://www.youtube.com/watch?v=mHNKuH-9OxU",
-      "published": "2026-10-24",
-      "summary": "",
-      "raw_text": "",
-      "categories": [
-        "video"
-      ],
-      "priority": "normal",
-      "image_url": "https://i.ytimg.com/vi/mHNKuH-9OxU/hqdefault.jpg",
-      "rank": 0,
       "_number": "04"
     },
     {
       "kind": "news",
       "source_id": "pick",
       "source_name": "我的挑选",
-      "title": "Patrick Stewart has died",
-      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
-      "published": "2026-10-30",
-      "summary": "",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "published": "2026-10-31",
+      "summary": "Phorion披露攻击者在Cursor Marketplace的Claude Code扩展中植入后门实现远程命令执行，社区由此质疑Marketplace审核与身份验证机制能否防范供应链攻击。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -587,10 +587,10 @@
       "kind": "news",
       "source_id": "pick",
       "source_name": "我的挑选",
-      "title": "We're releasing the weights of Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "published": "2026-10-30",
-      "summary": "",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "published": "2026-10-31",
+      "summary": "过度依赖AI做告警分析和根因定位，正悄然削弱SRE的排障直觉，这种去技能化比裁员更危险。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -606,8 +606,8 @@
       "source_name": "我的挑选",
       "title": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
-      "published": "2026-10-30",
-      "summary": "",
+      "published": "2026-10-31",
+      "summary": "用Rust构建的设计词汇库在代码审查时注入打磨意识，发布前拦截粗糙的AI生成内容，今日新增2299星标。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -621,10 +621,10 @@
       "kind": "news",
       "source_id": "pick",
       "source_name": "我的挑选",
-      "title": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "published": "2026-10-30",
-      "summary": "",
+      "title": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "published": "2026-10-31",
+      "summary": "基于倪海厦《天纪》体系，用TypeScript实现排盘算法、四化系统与格局知识库，今日新增1146颗星标。",
       "raw_text": "",
       "categories": [
         "pick"
