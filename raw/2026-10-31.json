@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+   "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+   "points": 696,
+   "comments": 438,
+   "published": "2026-10-30T07:09:12+00:00",
+   "hn_id": "50300683"
+  },
+  {
+   "title": "AI isn't replacing SREs, it's deskilling them",
+   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+   "points": 460,
+   "comments": 336,
+   "published": "2026-10-30T15:52:18+00:00",
+   "hn_id": "50305693"
+  },
+  {
+   "title": "Northflank Breached",
+   "url": "https://status.northflank.com",
+   "points": 320,
+   "comments": 242,
+   "published": "2026-10-30T15:10:31+00:00",
+   "hn_id": "50305025"
+  },
+  {
+   "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+   "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+   "points": 255,
+   "comments": 46,
+   "published": "2026-10-30T10:06:15+00:00",
+   "hn_id": "50301854"
+  },
+  {
+   "title": "The federated code forge",
+   "url": "https://tangled.org/blog/forge/",
+   "points": 201,
+   "comments": 68,
+   "published": "2026-10-30T15:44:29+00:00",
+   "hn_id": "50305573"
+  },
+  {
+   "title": "My favourite PowerMac is a Nintendo Wii",
+   "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+   "points": 196,
+   "comments": 50,
+   "published": "2026-10-30T17:25:15+00:00",
+   "hn_id": "50307190"
+  },
+  {
+   "title": "Florilegium: Procedural Flowers in LaTeX",
+   "url": "https://github.com/kevinraymond/florilegium",
+   "points": 184,
+   "comments": 34,
+   "published": "2026-10-30T15:48:12+00:00",
+   "hn_id": "50305637"
+  },
+  {
+   "title": "Bunny CDN Security Incident",
+   "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+   "points": 175,
+   "comments": 34,
+   "published": "2026-10-30T19:05:22+00:00",
+   "hn_id": "50308697"
+  },
+  {
+   "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+   "url": "https://github.com/dbreunig/nesformer",
+   "points": 165,
+   "comments": 105,
+   "published": "2026-10-30T16:40:22+00:00",
+   "hn_id": "50306442"
+  },
+  {
+   "title": "GitHub Incident with Actions, Pages, and Webhooks",
+   "url": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
+   "points": 135,
+   "comments": 57,
+   "published": "2026-10-30T17:57:35+00:00",
+   "hn_id": "50307723"
+  },
+  {
+   "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+   "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+   "points": 122,
+   "comments": 66,
+   "published": "2026-10-30T20:23:30+00:00",
+   "hn_id": "50309647"
+  },
+  {
+   "title": "Building an AI-native engineering org",
+   "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+   "points": 89,
+   "comments": 115,
+   "published": "2026-10-29T21:58:34+00:00",
+   "hn_id": "50296730"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "language": "TypeScript",
+   "stars_today": "1,145",
+   "url": "https://github.com/thedotmack/claude-mem"
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "language": "TypeScript",
+   "stars_today": "899",
+   "url": "https://github.com/milind-soni/OpenMausBot"
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+   "language": "Rust",
+   "stars_today": "2,299",
+   "url": "https://github.com/pbakaus/impeccable"
+  },
+  {
+   "repo": "CopilotKit/OpenBot",
+   "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "language": "TypeScript",
+   "stars_today": "707",
+   "url": "https://github.com/CopilotKit/OpenBot"
+  },
+  {
+   "repo": "Renhuai123/ziwei-doushu",
+   "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+   "language": "TypeScript",
+   "stars_today": "1,146",
+   "url": "https://github.com/Renhuai123/ziwei-doushu"
+  },
+  {
+   "repo": "expo/skills",
+   "desc": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+   "language": "Shell",
+   "stars_today": "108",
+   "url": "https://github.com/expo/skills"
+  },
+  {
+   "repo": "macro-inc/macro",
+   "desc": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+   "language": "Rust",
+   "stars_today": "117",
+   "url": "https://github.com/macro-inc/macro"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "language": "Shell",
+   "stars_today": "889",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "desc": "",
+   "language": "TypeScript",
+   "stars_today": "920",
+   "url": "https://github.com/pingdotgg/t3code"
+  },
+  {
+   "repo": "HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "language": "Python",
+   "stars_today": "2,282",
+   "url": "https://github.com/HKUDS/DeepTutor"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Elucidating the Design Space of LM Data Attribution",
+   "url": "http://arxiv.org/abs/2610.40655v1",
+   "published": "2026-10-29T17:59:53Z",
+   "abstract": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM data attribution, with a primary focus on evaluation. We introduce the Controlled Attribution Benchmark (CATT) for fact tracing, in which we fine-tune LLMs on entirely fictitious knowledge, providing unambiguous ground truth for attribution. This synthetic setup allows us to systematically alter one dataset configuration at a time, such as document redundancy and lexical distractors. With this configurable evaluation, we demonstrate that redundancy and distractors consistently degrade attribution performance. Rather than proposing a new estimator, we examin"
+  },
+  {
+   "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+   "url": "http://arxiv.org/abs/2610.40654v1",
+   "published": "2026-10-29T17:59:49Z",
+   "abstract": "An estimator can be accurate and stable on typical data, yet sensitive to a few possible records. Differentially private mechanisms commonly scale their noise to the worst-case influence of a single record, which lets these records dictate the noise even when the remaining data would allow far less. Removing them first would restore the smaller scale, but the removal must itself be private. We introduce \\emph{propose-filter-release} (PFR), which, by privately filtering its input, turns a mechanism that protects the addition or removal of a typical record, one that fits the remaining data, into one that is differentially private in the standard sense, on every input. Using our novel filtering step, PFR requires only a concave friendliness score, which measures how well a record fits a dataset, and a release mechanism that is friendly-DP, that is, private when the changed record fits the r"
+  },
+  {
+   "title": "Rethinking Neural Thickets Without Weight Perturbations",
+   "url": "http://arxiv.org/abs/2610.40649v1",
+   "published": "2026-10-29T17:59:29Z",
+   "abstract": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much of the improvement, while keeping the model entirely frozen and adding a random bias to its output logits matches or exceeds full-weight perturbations on most reasoning tasks. This suggests an alternative explanation based on output diversity, validation-based selection, and voting. We formalize this view as Perturb-Select-Vote (PSV), a general procedure that generates perturbed predictors, selects high-performing members on a small validation set, and aggregates their predictions. This interpretation connects Neural Thickets to established inference-time"
+  },
+  {
+   "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+   "url": "http://arxiv.org/abs/2610.40647v1",
+   "published": "2026-10-29T17:59:21Z",
+   "abstract": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence. SpecSlot expands each spatial anchor into multiple slots, each assigned a disjoint band of DCT coefficients; this separates anchor density from spectral subdivision. Only the lowest-frequency slot from each anchor participates in global attention, while all slots interact locally. This allows the model to increase spectral detail without enlarging the global sequen"
+  },
+  {
+   "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+   "url": "http://arxiv.org/abs/2610.40644v1",
+   "published": "2026-10-29T17:59:01Z",
+   "abstract": "Distributionally robust optimization (DRO) hedges data-driven two-stage stochastic programs against error in the distribution estimated from a finite record, and standard ambiguity sets differ in how they treat realizations absent from that record. A divergence ball around the empirical distribution contains only reweightings of the record, whereas a transport ball also contains distributions supported off the record, including on realizations the data-generating process cannot produce, against which the decision is then hedged as well. We instead propose a Kullback-Leibler (KL) ball centered at a density model fitted to the record, the learned nominal, which lets the adversary up-weight costly unobserved realizations in proportion to the probability the model assigns them. Solving the resulting problem poses a second difficulty, because it can accommodate only a few scenarios, and an in"
+  },
+  {
+   "title": "Luggage re-identification: A study of strategies towards a real-world application",
+   "url": "http://arxiv.org/abs/2610.40643v1",
+   "published": "2026-10-29T17:58:59Z",
+   "abstract": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint camera views in complex environments such as airports, train stations and border crossing. While existing approaches primarily focus on appearance-based cropped image matching under relatively clean conditions, real-world scenarios are characterized by frequent occlusions, cluttered background and crowded scenes which significantly degrade performance. Yet, strategies leveraging the complementarity of multiple shots and views from different video streams is overlooked. In this paper, we study strategies for an end-to-end pipeline that operates from multiple video streams to detect and re-ident"
+  },
+  {
+   "title": "From extreme weather to agricultural consequences with agentic AI",
+   "url": "http://arxiv.org/abs/2610.40641v1",
+   "published": "2026-10-29T17:58:53Z",
+   "abstract": "Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present WxCrop, the first agent that judges agricultural hazards from physically interpretable weather indices examined by causal analysis, and the first that combines weather and agricultural information to predict crop loss reliably for past and forecast dates. We demonstrate it in Florida on hurricanes, freezes and dry heat, with a loss model calibrated on insurance records for each, and the same procedure extends to other hazards and areas. Three checks show reliability: the hurricane index detects recorded cyclone days with an AUC of 0.98, recorded losses in held-out years are reproduced to within 2%, and independent production records c"
+  },
+  {
+   "title": "world2vec: Mechanistic world models through latent dynamics learning",
+   "url": "http://arxiv.org/abs/2610.40637v1",
+   "published": "2026-10-29T17:58:23Z",
+   "abstract": "World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly from observations and actions. World2vec learns latent dynamics that faithfully reproduce the true system over long prediction horizons, with at least one order of magnitude fewer parameters than DreamerV3, TD-MPC2 and LeWM. This enables state of the art performance in controlling continuous environments from pixels and accurate system identification across a benchmark of 71 attractors, demonstrating how world models are amenable to scientific discovery."
+  },
+  {
+   "title": "Probing Spatial State Representations in Visual Foundation Models",
+   "url": "http://arxiv.org/abs/2610.40636v1",
+   "published": "2026-10-29T17:58:16Z",
+   "abstract": "An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls for a persistent spatial state that is updated under self-motion and used to guide action. Do visual foundation models provide representations that support such a state? We study this question through four levels of spatial capability---spatial structure, object persistence, predictive spatial update, and actionability---using frozen-feature probes on ten representations under streaming egocentric observations of static indoor environments. The resulting capability profiles vary across tasks, network layers, and prefix lengths: strong readout of the visible scene does not ensure accurate object persistence or future-feature retrieval. Matched controls separate readout accuracy from reliance o"
+  },
+  {
+   "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+   "url": "http://arxiv.org/abs/2610.40627v1",
+   "published": "2026-10-29T17:56:53Z",
+   "abstract": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model's first few output tokens, and existing defenses inherit the weakness, supervising the surface form of the response without ever giving the model an explicit safety decision to learn. We take the opposite view of shallowness: if a short span determines the trajectory of an entire response, that span is the highest-leverage place to intervene, and the defender can occupy it first. We propose Assess $\\to$ Decide $\\to$ Respond, a framework in which the defender assesses the user's intent, commits to an explicit, parseable safety decision, and only then generates a reply conditioned on it, with t"
+  },
+  {
+   "title": "Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses",
+   "url": "http://arxiv.org/abs/2610.40619v1",
+   "published": "2026-10-29T17:55:30Z",
+   "abstract": "Ask a language model whether sales tend to dip after a product recall, or whether one side effect tends to follow another after a vaccine, and it answers in a fluent sentence that reads like a finding, with no test behind it. Assertions about how events unfold across many cases fill the Web, and each is a temporal hypothesis that only a significance test over the right records can settle. The verifier must specify the null, select the test and decide which records bear on the hypothesis, and any of these choices can go wrong while the conclusion still comes out right. Yet benchmarks for language-model data analysis grade only the conclusion, with the relevant data handed over. We study the problem in health, where a wrong verdict is costly, and present STRATA, a benchmark that grades every decision on the way to a verdict: 8,735 hypotheses over the clinical timelines of vaccine adverse-e"
+  },
+  {
+   "title": "An ODE-based Sampler for Discrete Diffusion Models",
+   "url": "http://arxiv.org/abs/2610.40618v1",
+   "published": "2026-10-29T17:55:25Z",
+   "abstract": "The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation. In this paper we address the question whether an analogous formulation exists for discrete diffusion models and answer it affirmatively by introducing exponential residual flows (ERFs). Our framework augments the discrete state with a continuous residual variable for each token and position. These residuals evolve deterministically according to piecewise-defined ODEs whose vector fields depend on the current discrete state and the forward and backward rate matrices of the prescribed diffusion model. The discrete state changes whenever a residual reaches zero. We prove that this construction preserves the marginals of the original diffusion. We derive a "
+  }
+ ]
+}

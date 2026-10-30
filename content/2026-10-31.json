@@ -1,0 +1,496 @@
+{
+ "date": "2026-10-31",
+ "summary": "今天的条目像一份自相矛盾的证词。安全侧几乎全线告急——Claude Code 扩展被植入后门、Northflank 被入侵、Azure 出现跨租户突破、Bunny CDN 和 GitHub 接连出事——这些不是孤立事故，而是平台层信任模型正在系统性地漏水。与此同时，AI 工具赛道却仍在鼓吹\"能力外溢\"：claude-mem、CopilotKit、DeepTutor，仿佛把人的专业判断卸载给模型是一种进步。共同主线只有一条：当你把关键路径交给不透明的黑盒，无论是云平台的租户隔离还是 AI 助手生成的代码，攻击面都在指数级膨胀，而防御者的深度理解能力却在同步萎缩。那个\"AI 不是替代 SRE 而是让他们去技能化\"的判断今天读来格外刺耳，因为去技能化的直接后果就是没人能审计 Claude Code 里到底藏了什么。被高估的东西很明显：AI 工具作为\"生产力倍增器\"的叙事。它更像是一个能力稀释器，在制造新漏洞的同时，恰好抽走了唯一能发现漏洞的那类人。",
+ "movie": {
+  "title": "Her",
+  "year": 2013,
+  "director": "Spike Jonze",
+  "reason": "把抽象的 AI 讨论拉回真实关系与投射",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "A Philosophy of Software Design",
+  "author": "John Ousterhout",
+  "chapter": "Chapter 2: The Nature of Complexity",
+  "reason": "把复杂度当成要管理的对象，而不是代码行数",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+   "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+   "published": "2026-10-30T07:09:12+00:00",
+   "summary": "安全研究机构Phorion披露，Claude Code的VS Code扩展在Cursor Marketplace上遭到供应链攻击，攻击者植入后门代码，能够在用户不知情的情况下执行远程命令。该事件在Hacker News引发强烈关注，获得696分并吸引438条评论，社区围绕插件市场的审核机制、开发者身份验证以及AI工具生态的供应链安全展开激烈讨论，许多开发者质疑Marketplace类分发平台是否具备足够的安全保障能力。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "AI isn't replacing SREs, it's deskilling them",
+   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+   "published": "2026-10-30T15:52:18+00:00",
+   "summary": "这篇文章来自可观测性平台Signoz，讨论了AI对SRE群体带来的隐性危害。作者认为AI并非在取代SRE的岗位，而是在逐步剥夺他们的核心技能。当工程师过度依赖AI生成的告警分析、故障诊断和根因定位建议时，他们原本通过反复实战积累的排障直觉和系统理解能力正在退化。这种去技能化的过程比直接裁员更加危险，因为它悄无声息地削弱了团队在真正复杂场景下的应对能力。帖子在Hacker News上引发了336条评论，不少SRE从业者分享了自己观察到的类似趋势，也有人对文章立场提出质疑。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Northflank Breached",
+   "url": "https://status.northflank.com",
+   "published": "2026-10-30T15:10:31+00:00",
+   "summary": "Northflank 是一个面向开发者的一站式云部署平台，近日宣布遭受安全入侵，该事件在 Hacker News 上引发了热烈讨论，获得320分和242条评论。社区围绕此次安全事件的严重性、影响范围以及用户应对策略展开了广泛交流。许多用户关注自己部署在该平台上的应用和数据是否面临风险，同时也对平台的安全防护能力和事后响应透明度提出了质疑。这一事件再次提醒开发者在选择第三方托管服务时需要审慎评估其安全架构与合规能力。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+   "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+   "published": "2026-10-30T10:06:15+00:00",
+   "summary": "来自挪威安全公司Binary Security的研究人员在Hacker News上公开了一篇技术报告，揭示微软Azure云平台上存在五个可被利用的跨租户入侵路径。攻击者通过这些弱点能够从一个租户的权限边界逃逸，获取其他租户的数据和资源控制权，实现完整的跨租户横向移动。该帖子在HN上获得255分和46条评论，引发安全社区对公有云多租户隔离机制可靠性的广泛讨论。许多评论者指出这类跨租户攻击是云平台安全中最危险的威胁模型之一，并呼吁用户重新审视自身在Azure上的权限配置和隔离策略。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "The federated code forge",
+   "url": "https://tangled.org/blog/forge/",
+   "published": "2026-10-30T15:44:29+00:00",
+   "summary": "这篇讨论围绕联邦化代码托管平台展开，链接指向Tangled项目的博客文章。该平台的核心理念是让代码仓库不再集中依赖GitHub等单一商业服务商，而是像电子邮件或Mastodon那样分布在多个独立实例之间，各实例通过联邦协议互相发现和协作。讨论中参与者关注数据主权、项目长期可持续性、社区治理以及联邦网络中身份认证与信任传递等技术挑战。部分评论者表达了对去中心化方案在用户体验和生态成熟度方面仍与主流平台存在差距的担忧，也有人认为这是代码协作领域绕不开的结构性转变。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "My favourite PowerMac is a Nintendo Wii",
+   "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+   "published": "2026-10-30T17:25:15+00:00",
+   "summary": "这篇文章出自复古计算爱好者博客virtuallyfun.com，作者认为任天堂Wii才是他最喜爱的PowerMac。Wii搭载的Broadway处理器由IBM设计，基于PowerPC架构，与苹果早期Mac使用的处理器同源。作者从硬件改造、系统运行和开发体验等角度阐述为何Wii比真正的PowerMac更令人着迷。该文章在Hacker News上获得了196分好评和50条评论，引发了社区关于PowerPC架构、游戏主机逆向工程以及复古计算设备实用性的热烈讨论。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Florilegium: Procedural Flowers in LaTeX",
+   "url": "https://github.com/kevinraymond/florilegium",
+   "published": "2026-10-30T15:48:12+00:00",
+   "summary": "Florilegium 是一个用 LaTeX 程序化生成花朵图案的开源项目，作者通过纯数学公式和几何参数在文档中绘制出形态各异的花卉图形。这个项目在 Hacker News 上引发了相当热烈的讨论，获得了184分和34条评论。参与者们惊叹于 LaTeX 除了排版之外的图形表达潜力，也围绕参数化设计、植物形态学建模以及代码的数学优雅性展开了交流。有人将其与 TikZ 和 PSTricks 等图形扩展包做对比，探讨程序化生成艺术在学术工具中的边界与可能性。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Bunny CDN Security Incident",
+   "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+   "published": "2026-10-30T19:05:22+00:00",
+   "summary": "Bunny CDN近日报告了一起安全事件，迅速登上Hacker News热门讨论，获得175分和34条评论。Bunny是一家知名的内容分发网络服务商，此次事件引发了社区对其基础设施安全性的广泛关注。评论区中，开发者们讨论了事件的影响范围、用户应采取的应对措施，以及CDN服务商在安全管理方面的责任边界。部分用户表达了对依赖单一CDN服务可能带来的风险的担忧，也有讨论围绕事件的具体技术细节和后续修复进展展开。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+   "url": "https://github.com/dbreunig/nesformer",
+   "published": "2026-10-30T16:40:22+00:00",
+   "summary": "一位开发者在Hacker News上发布了nesformer项目，用约1GB的Qwen模型权重训练出一个能实际运行任天堂NES游戏的Transformer模型。该项目的核心思路是将NES的CPU、PPU和内存总线等硬件行为交给大语言模型来学习，推理时逐帧模拟整个游戏机的运行状态。帖子获得了165分超过100条评论，社区讨论了这种用语言模型替代传统模拟器或硬件逻辑的可行性，也关注其在游戏种类、帧率和硬件复杂度上的局限，认为它更像是一个有趣的工程实验而非实用方案。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "GitHub Incident with Actions, Pages, and Webhooks",
+   "url": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
+   "published": "2026-10-30T17:57:35+00:00",
+   "summary": "GitHub于近期发生了一次影响Actions、Pages和Webhooks三项核心服务的运行事故，该帖在Hacker News上引发了135分的热度和57条评论的讨论。评论区中，开发者们普遍关注此次事故的根因和恢复时间，有人认为GitHub的基础设施在面对级联故障时显得脆弱，也有人讨论了对持续集成和自动化部署流程的实际影响。部分用户还借此话题反思将CI/CD流水线完全托管在单一平台上的风险，建议团队考虑多平台冗余策略以降低类似事件带来的业务中断。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "published": "2026-10-31",
+   "summary": "claude-mem 是一个基于 TypeScript 开发的开源项目，为各类 AI 编程代理提供跨会话的持久化上下文能力。它在代理执行任务的过程中自动捕获所有操作记录，再利用 AI 进行智能压缩，并将相关上下文注入到未来的会话中，从而让代理具备长期记忆。该项目兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种代理工具，目前关注度增长迅速，单日新增超过一千颗星。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "published": "2026-10-31",
+   "summary": "OpenMausBot 是一个基于 TypeScript 开发的开源项目，定位为 Grok Bot 的开源替代方案。该项目提供了一个虚拟机环境，让各类机器人可以在其中运行和执行任务，从而为开发者构建聊天机器人和自动化代理时提供更灵活的底层支撑。项目由开发者 milind-soni 维护，近期在 GitHub 上获得了广泛关注，单日新增约 899 颗星标，显示出社区对开源 Grok 替代方案的强烈兴趣。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "published": "2026-10-31",
+   "summary": "impeccable 是一个用 Rust 编写的开源项目，旨在为编码智能体提供一套完整的设计词汇库。它可以帮助开发者在代码审查时进行更专业的批评与审计，在指导智能体工作时注入更强的打磨意识和更大胆的设计判断，从而在代码正式发布之前拦截掉那些粗糙的 AI 生成内容。该项目今日新增超过两千颗星标，说明开发者社区对提升 AI 辅助编码质量有着强烈的迫切需求。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "published": "2026-10-31",
+   "summary": "CopilotKit/OpenBot 是一个用 TypeScript 编写的开源项目，今天一天内就新增了707颗星，热度相当可观。它的核心理念是为每个 AI 同事配备一台属于自己的计算机，包含浏览器、文件系统和各类工具，让 AI 能够像真实员工一样独立完成任务。项目强调每一个行动在发生前都经过决策，发生后又会被完整记录，确保可追溯和可控。此外它兼容任意 AG-UI 协议的智能体，开发者可以轻松将不同来源的 AI 能力接入这套工作流中。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "published": "2026-10-31",
+   "summary": "这是一个用 TypeScript 编写的紫微斗数开源排盘引擎，基于倪海厦《天纪》体系构建，涵盖完整排盘算法、四化系统、格局知识库以及古籍原文数据，适合对命理编程或传统术数研究感兴趣的开发者使用。项目今日新增超过1100颗星标，热度增长迅速。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "expo/skills",
+   "url": "https://github.com/expo/skills",
+   "published": "2026-10-31",
+   "summary": "expo/skills 是 Expo 官方维护的开源项目，提供了一组面向 AI 智能体的技能集合，专门用于辅助开发者处理 Expo 项目及 Expo Application Services 相关的任务。该项目使用 Shell 语言编写，旨在让 AI 代理能够更高效地理解 Expo 生态的工作流程，涵盖项目配置、服务调用、构建部署等常见操作。项目上线后受到社区广泛关注，单日新增超过 100 颗星，体现了开发者对 AI 驱动的移动开发工具链的浓厚兴趣。",
+   "categories": [
+    "Shell"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "macro-inc/macro",
+   "url": "https://github.com/macro-inc/macro",
+   "published": "2026-10-31",
+   "summary": "Macro 是一个用 Rust 编写的开源统一工作空间项目，面向团队协作场景，将邮件、即时聊天、文档、任务管理、AI 代理、音视频通话和客户关系管理等功能整合到一个平台中。各模块之间通过 @ 链接方式相互关联，并共享一套 AI 记忆系统，使上下文能在不同工具间无缝流转，减少切换成本。该项目在 GitHub 上关注度极高，单日新增超过 117 颗星标，反映出开发者社区对一体化协作工具架构的强烈兴趣。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "published": "2026-10-31",
+   "summary": "mattpocock/skills 是一个用 Shell 编写的开源项目，由知名 TypeScript 教育者 Matt Pocock 发布。项目收录了他日常工作中实际使用的 AI agent 技能文件，直接来源于他个人本地的 .agents 目录，没有经过额外包装。作者强调这些技能面向真正的工程师，追求实用而非花哨。该项目上线后热度极高，单日新增超过八百颗星标，反映出开发者社区对高质量 AI 辅助编程工作流的强烈关注。如果你正在寻找可以直接复用的 agent 技能配置，这个项目值得一看。",
+   "categories": [
+    "Shell"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "published": "2026-10-31",
+   "summary": "t3code是由pingdotgg开发的一个开源代码编辑器项目，使用TypeScript编写。该项目是T3 Stack生态的一部分，旨在提供一个现代化的在线编码体验。近期该项目热度极高，单日新增超过900颗星标，吸引了大量开发者关注。它体现了T3社区对开发工具链的持续投入，适合对全栈JavaScript开发感兴趣的开发者使用。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "published": "2026-10-31",
+   "summary": "DeepTutor是由香港大学数据科学实验室开发的一款开源AI个性化辅导系统，采用Python语言构建。该项目致力于实现终身个性化学习辅导，能够根据学习者的知识水平和学习进度动态调整教学策略，提供针对性的辅导内容。作为近期GitHub上备受关注的热门项目，DeepTutor单日新增超过两千颗星，展现出社区对AI教育辅助工的高度热情。项目官网为deeptutor.info，适合希望将大语言模型应用于教育场景的开发者和研究者使用。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Elucidating the Design Space of LM Data Attribution",
+   "url": "http://arxiv.org/abs/2610.40655v1",
+   "published": "2026-10-31",
+   "summary": "大语言模型数据归因方法通常依赖事实检索等下游任务进行评估，但现有评估方式同时改变多个数据集属性，难以准确定位归因算法的失败原因。本文系统探索了大语言模型数据归因的设计空间，重点关注评估方法。作者提出受控归因基准CATT，通过在全虚构知识上微调大语言模型来获得明确的归因基准真值，并在此基础上一次仅改变一个数据集配置项，如文档冗余度和词汇干扰项，从而隔离各因素的影响。实验表明，冗余和干扰项会持续且显著地降低归因性能。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+   "url": "http://arxiv.org/abs/2610.40654v1",
+   "published": "2026-10-31",
+   "summary": "差分隐私按最坏情况记录缩放噪声，异常记录拖累整体噪声。本文提出PFR框架，通过私有过滤将仅保护典型记录的机制转化为标准差分隐私保证下的机制。核心包括凹的友好性分数和拟合良好时满足隐私的发布机制，使估计器不被异常记录拖累，在保持严格隐私保证的同时显著降低噪声。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Rethinking Neural Thickets Without Weight Perturbations",
+   "url": "http://arxiv.org/abs/2610.40649v1",
+   "published": "2026-10-31",
+   "summary": "该论文重新审视了Neural Thickets假设。该假设认为预训练语言模型在权重空间中位于大量任务专家模型密集邻域内，随机高斯扰动可以发现这些专家。作者复现了相关增益，但证明这些增益并不依赖该几何解释。仅扰动单个解码器模块即可恢复大部分改进，而完全冻结模型并向输出对数概率添加随机偏置，在多数推理任务上即可匹配甚至超越全权重扰动。作者将这一现象归纳为Perturb-Select-Vote框架，即生成扰动预测器、在小验证集上筛选高性能成员并聚合预测，从而将Neural Thickets与推理时扩展方法联系起来。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+   "url": "http://arxiv.org/abs/2610.40647v1",
+   "published": "2026-10-31",
+   "summary": "像素空间生成Transformer通常将每个图像块映射为单个token，导致更精细的细节需要更多token，从而使全局注意力计算开销急剧增长。本文提出SpecSlot，一种像素空间整流流Transformer，其核心思想是将输出细节与全局注意力序列长度解耦。该方法将每个空间锚点扩展为多个槽位，每个槽位负责一段不重叠的DCT系数带，从而将锚点密度与频谱细分分离。在注意力机制上，仅每个锚点中最低频的槽位参与全局注意力，所有槽位则进行局部交互。这一设计使模型能够在不扩大全局序列的前提下丰富频谱细节，有效平衡了生成质量与计算成本。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+   "url": "http://arxiv.org/abs/2610.40644v1",
+   "published": "2026-10-31",
+   "summary": "分布鲁棒优化旨在应对从有限样本估计分布所带来的误差，而传统模糊集对样本中未出现的实现的处理方式存在显著差异。本文提出一种以拟合到数据的密度模型为中心的KL散度球作为模糊集，使对手能够按照模型赋予的概率对未观测到的代价较高实现进行加权。该方法避免了传输球中引入数据生成过程无法产生的场景，同时比经验散度球具有更灵活的对抗机制。由于该问题仅能容纳少量场景，本文进一步设计了自适应场景生成策略，通过迭代更新场景集来有效求解所形成的两阶段随机规划问题。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Luggage re-identification: A study of strategies towards a real-world application",
+   "url": "http://arxiv.org/abs/2610.40643v1",
+   "published": "2026-10-31",
+   "summary": "行李重识别是视频监控中面向安防取证、边境管理及行李找回等任务的关键技术，其目标是在机场、车站等多摄像头视图中将同一行李的观测进行关联。现有方法主要依赖干净条件下的裁剪外观图像匹配，而真实场景中存在频繁遮挡、背景杂乱和人群密集等问题，导致性能显著下降。本文研究了一种端到端处理管线，能够利用多路视频流中多个视角和多次观测之间的互补信息，同时涵盖检测与重识别环节，从而提升面向真实部署场景的整体鲁棒性。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "From extreme weather to agricultural consequences with agentic AI",
+   "url": "http://arxiv.org/abs/2610.40641v1",
+   "published": "2026-10-31",
+   "summary": "极端天气预报能预测风暴路径，但农业损失难以量化。本文提出WxCrop，首个通过因果分析物理可解释天气指数预测作物损失的气象-农业智能体系统。在佛罗里达对飓风、冻害、干热三种灾害验证，基于保险记录校准且可推广。结果：飓风指数AUC达0.98，留出年份损失还原误差≤2%，独立产量记录交叉验证。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "world2vec: Mechanistic world models through latent dynamics learning",
+   "url": "http://arxiv.org/abs/2610.40637v1",
+   "published": "2026-10-31",
+   "summary": "世界模型能够在不忠实捕捉环境动力学的情况下实现较强的控制性能，这限制了其在机制可解释性和科学发现方面的潜力。本文提出world2vec方法，能够在没有奖励信息的条件下，直接从观测和动作中学习机制世界模型。该方法学习到的隐空间动力学能够忠实地重现真实系统的行为，并支持长时域预测，参数量相比DreamerV3、TD-MPC2和LeWM至少减少一个数量级。实验表明，world2vec在从像素控制的连续环境中达到了最先进的性能，并在涵盖71种吸引子的基准测试中实现了精确的系统辨识，证明了世界模型在科学发现中的可行性。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "How to Decide What Your AI Agent Should Remember - Wojciech Pluta, Oracle",
+   "url": "https://www.youtube.com/watch?v=qq2Hm4XNRgI",
+   "published": "2026-10-30",
+   "summary": "Pluta在Oracle讲Agent记忆取舍：哪些进向量库、哪些直接丢，这决定推理成本高低。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/qq2Hm4XNRgI/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Your AI Agent Starts Every Session Like a New Hire - Killian Carlsen-Phelan, Sonar",
+   "url": "https://www.youtube.com/watch?v=8vDzncmzxyg",
+   "published": "2026-10-30",
+   "summary": "Killian Carlsen-Phelan指出AI Agent每次会话都从零启动，像新入职员工没有持久记忆，是生产部署的硬伤。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/8vDzncmzxyg/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "What Happens When Everyone Can Build Software",
+   "url": "https://www.youtube.com/watch?v=vl7HiMdGfjo",
+   "published": "2026-10-30",
+   "summary": "视频用Cursor等工具演示了非程序员从想法到上线产品的完整路径，明确了AI编码改变的角色分工。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/vl7HiMdGfjo/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "The New Full-Stack Designer",
+   "url": "https://www.youtube.com/watch?v=eojywvxqoLc",
+   "published": "2026-10-26",
+   "summary": "视频指出全栈设计师现在用AI编码工具直接生成前端代码，把设计和开发的距离压缩为零。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/eojywvxqoLc/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+   "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+   "published": "2026-10-31",
+   "summary": "Phorion披露攻击者在Cursor Marketplace的Claude Code扩展中植入后门实现远程命令执行，社区由此质疑Marketplace审核与身份验证机制能否防范供应链攻击。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "AI isn't replacing SREs, it's deskilling them",
+   "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+   "published": "2026-10-31",
+   "summary": "过度依赖AI做告警分析和根因定位，正悄然削弱SRE的排障直觉，这种去技能化比裁员更危险。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "published": "2026-10-31",
+   "summary": "用Rust构建的设计词汇库在代码审查时注入打磨意识，发布前拦截粗糙的AI生成内容，今日新增2299星标。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "published": "2026-10-31",
+   "summary": "基于倪海厦《天纪》体系，用TypeScript实现排盘算法、四化系统与格局知识库，今日新增1146颗星标。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}
