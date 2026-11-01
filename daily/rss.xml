@@ -5,13 +5,13 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2026 15:00:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 23:04:02 GMT</lastBuildDate>
     <item>
-      <title>2026-11-01 Daily Brief</title>
-      <link>https://news.zhangyvjing.com/reports/2026-11-01.html</link>
-      <guid>https://news.zhangyvjing.com/reports/2026-11-01.html</guid>
-      <pubDate>Sun, 01 Nov 2026 15:00:22 GMT</pubDate>
-      <description>今天条目表面分散，共同主线是AI应用正被迫回到系统工程：模型能力不再是唯一变量，延迟、内存、安全、合规和成本才是落地的硬约束。多个Qwen模型在LiveCodeBench Hard击败Fable 5固然抓眼，HackerTube、claude-mem、Claude-Code-Game-Studios也延续了agent热，但更值得看的是TCP UAF 9.8、Jepsen对ParticleDB的检验、巴西法院对prompt injection的制裁，以及“memory latency”和JS框架AI成本。它们共同提醒：多模型拼装、benchmark排名和agent框架叙事被高估；可观测性、内存局部性、供应链安全、法律边界与单位任务成本被低估。GitHub上的browser、Handy、AiSOC等也在说同一件事：下一阶段竞争不是谁更会演示AI，而是谁能把AI塞进可靠、可审计、低成本的系统里。电气化、老种子和厕所新闻看似离题，实则同样在说：复杂问题常败在基础约束，而非概念新鲜度。</description>
+      <title>2026-11-02 Daily Brief</title>
+      <link>https://news.zhangyvjing.com/reports/2026-11-02.html</link>
+      <guid>https://news.zhangyvjing.com/reports/2026-11-02.html</guid>
+      <pubDate>Sun, 01 Nov 2026 23:04:02 GMT</pubDate>
+      <description>今天的条目共同指向一条主线：围绕现有内容、模型和工作流的“再封装”正在制造繁荣，而底层安全、硬件诚信与制度边界仍被轻描淡写。HackerTube、HackerBooks、claude-mem、Claude-Code-Game-Studios，以及Memdoor的模型组合、AiSOC的能力编排，本质上多是把HN推荐、记忆、代理流程包成新入口；其中当然有实用价值，但“封装即创新”被明显高估，AI代理的自动可靠性也被高估。相比之下，TCP use-after-free、联想“加密”指纹盘实为普通SD卡、巴西法院遭遇提示注入，才是更值得警惕的信号：基础协议漏洞、硬件安全叙事和司法流程的脆弱性，不会因为上层工具变多而消失。数学学科变化与JS框架的AI成本讨论则提醒我们，成本结构和技术范式确实在变，但判断一个项目应看它是否降低真实成本、提高可验证性，而不是只看HN热度和演示效果。今天最拥挤的是中间层，最稀缺的仍是可信的基础工程。</description>
     </item>
     <item>
       <title>HackerTube: YouTube built from videos recommended by HN</title>
@@ -19,15 +19,7 @@
       <guid>https://karpathy.bearblog.dev/hacker-tube/</guid>
       <category>hacker_news</category>
       <pubDate>Sat, 31 Oct 2026 19:56:53 GMT</pubDate>
-      <description>这条 Hacker News 讨论介绍了 Karpathy 的 HackerTube 项目，它把 Hacker News 上被推荐和讨论过的视频汇集起来，构建成一个类似 YouTube 的观看界面，让用户按社区兴趣而非平台算法发现内容。帖子获得 1608 分和 426 条评论，讨论集中在社区推荐能否改善视频发现、HN 偏好会带来哪些内容偏向，以及这种由讨论驱动的视频入口是否实用。项目也引发了对推荐透明度、内容质量和可持续性的讨论。</description>
-    </item>
-    <item>
-      <title>TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8</title>
-      <link>https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf</link>
-      <guid>https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf</guid>
-      <category>hacker_news</category>
-      <pubDate>Sat, 31 Oct 2026 19:16:30 GMT</pubDate>
-      <description>Hacker News上关于Linux IPv4 TCP释放后使用漏洞的讨论引发关注，帖子给出CVE-2026-98432和CVSS 9.8，并链接到技术分析文章，获得578分和277条评论。讨论聚焦漏洞触发条件、影响范围、利用可能性、内核修复与缓解措施，也涉及高危评分是否合理、生产环境应对和补丁部署优先级。</description>
+      <description>Hacker News 上围绕 Karpathy 提出的 HackerTube 展开讨论，该项目尝试用 HN 社区推荐过的视频搭建类似 YouTube 的浏览体验，把提交和评论中出现的视频汇聚起来，按社区热度组织，方便集中发现和观看。帖子获得 2157 分和 526 条评论，讨论涉及推荐算法、内容筛选、视频索引、HN 数据质量、播放体验，以及社区驱动产品在内容品味和持续运营上的可行性与局限。</description>
     </item>
     <item>
       <title>An Italian farmer found some unknown seeds in his attic and planted them</title>
@@ -35,15 +27,23 @@
       <guid>https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/</guid>
       <category>hacker_news</category>
       <pubDate>Sat, 31 Oct 2026 22:41:06 GMT</pubDate>
-      <description>Hacker News 上一条帖子介绍意大利农民在阁楼发现未知种子，抱着试试看的心态种下，结果被形容为“圣经级”的收获。该帖获得 575 分和 171 条评论。讨论围绕种子的来源与年代、古种子是否还能发芽、地方品种保护、农业生物多样性以及意外发现的价值展开，也有人质疑故事细节和媒体报道的叙述方式。</description>
+      <description>这条 Hacker News 讨论围绕一名意大利农民在阁楼发现未知种子并试种成功的报道展开。帖子获得 748 分和 195 条评论，参与者既惊叹种子的生命力与种植结果，也讨论古老品种、种子保存、遗传多样性、农业史以及随意种植未知种子的潜在风险，并追问报道中的科学细节与可验证性。</description>
     </item>
     <item>
-      <title>Norway makes shithouses great again</title>
-      <link>https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/</link>
-      <guid>https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/</guid>
+      <title>Show HN: HackerBooks – HackerTube, but for books mentioned on HN</title>
+      <link>https://hackerbooks.org</link>
+      <guid>https://hackerbooks.org</guid>
       <category>hacker_news</category>
-      <pubDate>Sun, 01 Nov 2026 10:47:58 GMT</pubDate>
-      <description>Hacker News上出现了一则题为“Norway makes shithouses great again”的讨论，围绕挪威在风景路线沿线打造“世界最佳厕所”展开，相关页面介绍这些公共厕所如何结合景观与建筑设计。帖子获得517分和284条评论，讨论涉及公共设施设计、旅游体验、维护成本与基础设施投入等话题。</description>
+      <pubDate>Sun, 01 Nov 2026 15:58:28 GMT</pubDate>
+      <description>Hacker News 上出现了一则 Show HN 讨论，介绍名为 HackerBooks 的网站。该项目被形容为面向书籍的 HackerTube，用来汇集和整理 Hacker News 讨论中被提及的书籍，方便用户发现社区推荐的技术与非技术阅读资源。帖子获得 734 分和 160 条评论，讨论热度较高，反映出 HN 用户对从社区讨论中挖掘书单、整理阅读线索以及构建书籍发现工具的浓厚兴趣。</description>
+    </item>
+    <item>
+      <title>TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8</title>
+      <link>https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf</link>
+      <guid>https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf</guid>
+      <category>hacker_news</category>
+      <pubDate>Sat, 31 Oct 2026 19:16:30 GMT</pubDate>
+      <description>Hacker News上正在热议一个关于Linux IPv4 TCP协议栈释放后使用漏洞的帖子，标题为TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8。讨论指向Atlasum博客的分析文章，该漏洞被评定为9.8分严重级别，可能影响内核网络处理路径并带来安全风险。帖子已获得687分和323条评论，参与者主要关注漏洞成因、触发条件、影响范围以及修复和缓解措施。</description>
     </item>
     <item>
       <title>Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard</title>
@@ -51,23 +51,23 @@
       <guid>https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve</guid>
       <category>hacker_news</category>
       <pubDate>Sat, 31 Oct 2026 22:46:12 GMT</pubDate>
-      <description>这个 Hacker News 技术讨论介绍 Memdoor 项目：它用五个 Qwen3.8 27B 模型组成协作团队，在 LiveCodeBench Hard 上超过 Fable 5。讨论重点包括多模型工作流如何分工、记忆与验证机制是否真能提升复杂编程题表现，以及基准公平性、成本和可复现性；帖子获 325 分和 158 条评论，仓库示例提供团队求解工作流供查看。</description>
+      <description>这则 Hacker News 讨论介绍 Memdoor 项目中的 team-solve 工作流，展示由 5 个 Qwen3.8 27B 模型组成的团队在 LiveCodeBench Hard 上击败 Fable 5。帖子获得 418 分和 202 条评论，讨论集中于多模型协作能否通过分工、记忆与流程编排提升复杂编程基准表现，以及这种方案的成本、可复现性和相对单模型的实际优势。</description>
     </item>
     <item>
-      <title>Jepsen: ParticleDB 1.1.4</title>
-      <link>https://jepsen.io/analyses/particledb-1.1.4</link>
-      <guid>https://jepsen.io/analyses/particledb-1.1.4</guid>
+      <title>Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case</title>
+      <link>https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/</link>
+      <guid>https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 31 Oct 2026 13:39:52 GMT</pubDate>
-      <description>这则 Hacker News 讨论聚焦 Jepsen 对 ParticleDB 1.1.4 的一致性分析。帖子获得 294 分和 166 条评论，评论者围绕 Jepsen 的测试方法、故障注入结果、事务隔离与复制机制展开辩论，并讨论这些缺陷对生产部署和选型的影响。有人强调应区分已修复问题与设计限制，也有人关注厂商回应和复现细节。整体上，讨论体现了社区对数据库正确性、可验证性和运维风险的高度关注。</description>
+      <pubDate>Sun, 01 Nov 2026 14:34:43 GMT</pubDate>
+      <description>这则Hacker News讨论聚焦联想一款宣称带指纹加密的USB存储设备被拆解后发现内部只是普通未加密SD卡加外壳。参与者认为指纹模块可能只控制访问而并未真正加密数据，质疑厂商宣传存在误导，并讨论生物识别门禁与数据加密的区别。评论还提醒用户不要把指纹解锁等同于安全存储，敏感数据应依赖经过验证的端到端加密方案，同时关注厂商透明度和消费者信任问题。</description>
     </item>
     <item>
-      <title>It's the memory latency, stupid</title>
-      <link>https://pivotlake.io/blog/its-the-memory-latency-stupid/</link>
-      <guid>https://pivotlake.io/blog/its-the-memory-latency-stupid/</guid>
+      <title>Patrick Stewart taught us what good men do with power</title>
+      <link>https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism</link>
+      <guid>https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 31 Oct 2026 18:38:16 GMT</pubDate>
-      <description>这篇Hacker News讨论围绕文章《It's the memory latency, stupid》展开，核心观点是现代系统性能瓶颈常被误认为内存带宽，但许多工作负载真正受限于内存延迟。评论者围绕缓存未命中、指针追逐、预取、NUMA和云环境对延迟的影响展开争论，并探讨硬件演进与软件优化能否缓解问题。该帖获得226分和73条评论，反映出开发者对性能归因和实际优化策略的高度关注。</description>
+      <pubDate>Sun, 01 Nov 2026 17:28:16 GMT</pubDate>
+      <description>Hacker News 上围绕 Vox 文章《Patrick Stewart taught us what good men do with power》展开讨论，文章借《星际迷航》中皮卡德舰长这一形象，探讨拥有权力的人应如何克制、负责并坚守自由价值，以及 Patrick Stewart 的演绎为何成为正面男性榜样。帖子获得 318 分和 225 条评论，参与者从领导力、权力伦理、自由主义与影视政治隐喻等角度交流看法。</description>
     </item>
     <item>
       <title>Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing</title>
@@ -75,7 +75,7 @@
       <guid>https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/</guid>
       <category>hacker_news</category>
       <pubDate>Sun, 01 Nov 2026 02:19:53 GMT</pubDate>
-      <description>这则 Hacker News 讨论关注巴西法院对律师在法庭文件中实施提示注入的制裁。事件涉及有人试图在提交给法院的材料中嵌入隐藏指令，以影响处理文本的 AI 系统，引发关于法律伦理、AI 工具可靠性和法院应如何防范此类操纵的争论。帖子获得 198 分和 98 条评论，讨论集中在制裁是否合理、提示注入的法律定性，以及司法系统采用大模型后面临的新型安全风险。</description>
+      <description>Hacker News 讨论巴西法院制裁律师在法庭文件中实施提示注入。律师在提交材料里嵌入针对AI系统的隐藏指令，试图影响法院对文件的自动处理，结果被法院发现并处罚。评论认为这暴露了法律流程使用大模型处理不可信文本的风险，提示注入难以彻底检测，单靠模型对齐不够，需要隔离不可信内容、限制工具权限并保留人工复核。讨论还涉及律师伦理、处罚是否适当，以及此类攻击可能被模仿。该帖获303分和188条评论。</description>
     </item>
     <item>
       <title>The AI cost of JavaScript frameworks</title>
@@ -83,159 +83,167 @@
       <guid>https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/</guid>
       <category>hacker_news</category>
       <pubDate>Sun, 01 Nov 2026 06:06:19 GMT</pubDate>
-      <description>该讨论围绕 Nolan Lawson 的文章展开，文章用“AI 成本”衡量 JavaScript 框架，关注抽象层、样板代码和文档如何影响大模型生成与维护代码时的上下文长度、token 消耗和出错率。Hacker News 评论中，有人认为框架越复杂越拖累 AI 辅助开发，也有人质疑相关指标依赖模型和任务，难以替代性能、生态与学习成本等传统评估。该帖获得 168 分和 112 条评论。</description>
+      <description>这篇 Hacker News 讨论围绕 Nolan Lawson 的文章《The AI cost of JavaScript frameworks》展开，该文探讨不同 JavaScript 框架在 AI 辅助编程时代带来的隐性成本，包括代码体积、复杂度、上下文消耗以及生成与审查成本。帖子获得 270 分和 210 条评论，评论者争论框架选择是否应更重视可维护性和工具友好性，并讨论 AI 编码助手在不同技术栈中的实际表现与长期影响。</description>
     </item>
     <item>
-      <title>Electrification Could Cut Global Energy Use in Half</title>
-      <link>https://fullycharged.show/podcasts/podcast-361-why-electrification-could-cut-global-energy-use-in-half/</link>
-      <guid>https://fullycharged.show/podcasts/podcast-361-why-electrification-could-cut-global-energy-use-in-half/</guid>
+      <title>Mathematics has changed. Let's act like it</title>
+      <link>https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/</link>
+      <guid>https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 31 Oct 2026 19:13:34 GMT</pubDate>
-      <description>这则Hacker News讨论围绕一档播客提出的观点展开，即全面电气化有望把全球能源使用量削减一半。讨论者关注电动车、热泵和工业电气化带来的效率提升，也争论电网扩容、储能、材料供应和政策落地等现实障碍。帖子获得164分和110条评论，反映出技术乐观与实施成本之间的分歧。</description>
+      <pubDate>Sun, 01 Nov 2026 18:28:42 GMT</pubDate>
+      <description>该讨论围绕陶哲轩的文章展开，认为数学研究正因人工智能、形式化证明、大规模协作和计算工具而发生结构性变化，数学界应主动调整评价体系、训练方式、合作模式与发表流程。Hacker News 评论关注 AI 对证明验证、问题选择和同行评审的影响，担心青年数学家的职业路径、形式化门槛与资源集中，也讨论传统数学直觉如何与机器辅助结合。该帖获得 172 分和 191 条评论，反映出技术社区对数学范式转变及制度跟进的热烈讨论。</description>
     </item>
     <item>
       <title>thedotmack/claude-mem</title>
       <link>https://github.com/thedotmack/claude-mem</link>
       <guid>https://github.com/thedotmack/claude-mem</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>thedotmack/claude-mem 是一个用 TypeScript 开发的开源项目，专注为各类智能体提供跨会话的持久上下文。它会记录智能体在会话中的操作，借助 AI 压缩信息，并把相关内容注入后续会话，让代理在连续任务中保持记忆与连贯性。项目兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等工具，今日新增 1527 星，受到较多关注。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>thedotmack/claude-mem 是一个使用 TypeScript 开发的开源项目，旨在为各类智能体提供跨会话的持久上下文能力。它会记录智能体在会话中的操作，利用 AI 对内容进行压缩，并把相关上下文注入后续会话，从而减少重复说明并提升连续性。项目兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具，今日新增约 1527 星，受到较多关注。</description>
     </item>
     <item>
       <title>lightpanda-io/browser</title>
       <link>https://github.com/lightpanda-io/browser</link>
       <guid>https://github.com/lightpanda-io/browser</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Lightpanda 是 GitHub 上的开源无头浏览器项目，使用 Zig 语言开发，定位为面向 AI 与自动化场景的浏览器。它今日新增 827 星，受到开发者关注。项目希望为智能体和自动化工具提供更轻量、高效的网页访问与操作能力，适合需要程序化浏览网页的应用。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>lightpanda-io/browser 是 GitHub 上的开源无头浏览器项目，采用 Zig 语言开发，定位为面向 AI 与自动化场景的浏览器工具。项目简介强调其为 AI 和自动化设计，适合网页访问、数据抓取与智能体任务等用途。该项目今日新增 827 星，关注度较高，体现出开发者对轻量、高效无头浏览器方案的兴趣。</description>
     </item>
     <item>
       <title>shiyu-coder/Kronos</title>
       <link>https://github.com/shiyu-coder/Kronos</link>
       <guid>https://github.com/shiyu-coder/Kronos</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Kronos 是一个用 Python 开发的开源金融基础模型项目，将金融市场数据视为一种可建模的语言，致力于为行情序列分析、趋势研判和量化研究提供统一的模型基础。项目在 GitHub 上今日新增 611 星，关注度较高，适合研究者和开发者了解金融时序建模与基础模型在金融场景中的应用。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Kronos 是 GitHub 上的一个开源金融基础模型项目，使用 Python 实现，定位为面向金融市场语言的基础模型。该项目尝试把金融市场的行情与数据变化视为一种可建模的语言，为金融时间序列理解、市场动态分析和相关智能应用提供统一基础能力。项目今日新增 611 星，显示出开发者社区对金融基础模型方向的关注。整体来看，Kronos 适合关注金融人工智能、量化研究与市场数据建模的开发者进一步了解和探索。</description>
     </item>
     <item>
       <title>pingdotgg/t3code</title>
       <link>https://github.com/pingdotgg/t3code</link>
       <guid>https://github.com/pingdotgg/t3code</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>pingdotgg/t3code 是 GitHub 上由 pingdotgg 发布的开源项目，主要使用 TypeScript 开发，今日新增约 3100 颗星，社区关注度很高。当前仓库简介尚未填写，公开的功能说明较少，因此更适合从源码、提交记录和后续文档中了解其定位。凭借 TypeScript 生态和近期热度，该项目值得开发者持续关注，也方便有兴趣的人前往仓库查看代码、参与讨论并跟进更新。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>t3code 是 pingdotgg 维护的 TypeScript 开源项目，聚焦代码开发相关工具与工程实践，适合关注类型安全、前端工程和开源协作的开发者了解。项目今日新增约 3100 星，热度上升明显，说明其设计思路和实用价值受到社区关注，具体功能与使用方式可查看仓库文档和源码。</description>
     </item>
     <item>
       <title>milind-soni/OpenMausBot</title>
       <link>https://github.com/milind-soni/OpenMausBot</link>
       <guid>https://github.com/milind-soni/OpenMausBot</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>OpenMausBot 是一个基于 TypeScript 开发的开源项目，定位为 Grok Bot 的开源替代方案。其核心特点是内置可供机器人使用的虚拟机，让 Bot 能够在虚拟环境中执行任务并扩展能力。项目今日新增 919 个 Star，显示出较高的社区关注度。对于希望构建或研究带虚拟机能力的机器人应用的开发者而言，该项目提供了可参考的开源实现。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>OpenMausBot 是一个用 TypeScript 开发的开源机器人项目，定位为 Grok Bot 的替代方案，核心特色是为机器人提供可调用的虚拟机环境，让自动化代理能够在隔离环境中执行任务。项目今日新增约919颗星标，关注度较高，适合希望构建可扩展、可运行代码的智能机器人或探索开源 Bot 基础设施的开发者参考。</description>
     </item>
     <item>
       <title>public-apis/public-apis</title>
       <link>https://github.com/public-apis/public-apis</link>
       <guid>https://github.com/public-apis/public-apis</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>这个GitHub开源项目汇集了大量可免费使用的公共API资源，方便开发者按类别查找并快速接入所需服务。项目使用Python维护，依靠社区持续补充和更新，覆盖多种应用场景。仓库近期热度较高，今日新增298星，适合需要寻找开放接口、学习API集成或进行原型开发的用户参考使用。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该项目是一个由社区共同维护的免费 API 集合，按类别收录大量可公开访问的接口，方便开发者快速查找和调用。项目以 Python 语言编写，今日新增 298 星，说明其关注度较高。它适合需要集成第三方服务的开发者作为检索入口，也便于社区持续补充和更新。</description>
     </item>
     <item>
       <title>cjpais/Handy</title>
       <link>https://github.com/cjpais/Handy</link>
       <guid>https://github.com/cjpais/Handy</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Handy 是一个托管在 GitHub 上的免费开源语音转文字应用，使用 Rust 开发，主打完全离线运行，用户无需上传音频即可完成识别，兼顾隐私与可用性。项目支持扩展，方便按需增加功能或适配不同场景。今日该项目新增 383 星，说明其离线语音识别方案正受到开发者关注。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Handy 是一个基于 Rust 开发的开源语音转文字应用，主打免费、开源和可扩展，并且能够在完全离线的情况下运行，适合关注隐私与本地化处理的用户。项目今日新增 383 星，说明近期受到较多关注。它面向语音识别与文本转换场景，强调无需依赖云端服务即可完成转录，同时保留扩展空间，方便开发者按需集成或改进功能。</description>
     </item>
     <item>
       <title>Donchitos/Claude-Code-Game-Studios</title>
       <link>https://github.com/Donchitos/Claude-Code-Game-Studios</link>
       <guid>https://github.com/Donchitos/Claude-Code-Game-Studios</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Donchitos 的 Claude Code Game Studios 是一个面向游戏开发的开源项目，使用 Shell 编写，旨在把 Claude Code 扩展为完整的游戏开发工作室。项目包含 49 个 AI 代理和 72 个工作流技能，并配有模拟真实工作室层级结构的协调系统，让不同角色与流程能够协同完成任务。该项目今日新增约 970 个星标，适合关注 AI 辅助游戏开发与多代理协作的开发者了解。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>这个GitHub开源项目旨在把Claude Code转化为完整的游戏开发工作室，内置49个AI代理和72个工作流技能，并提供一套完整协调系统来模拟真实工作室的层级分工。项目使用Shell语言实现，今日新增970颗星，体现出较高关注度。它适合希望借助多代理协作完成游戏开发流程的用户，通过清晰的角色与技能组织提升任务分工和协作效率。</description>
     </item>
     <item>
       <title>kornia/kornia</title>
       <link>https://github.com/kornia/kornia</link>
       <guid>https://github.com/kornia/kornia</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Kornia 是一个基于 Python 和 PyTorch 的开源几何计算机视觉库，面向空间人工智能应用，提供可微分的图像处理、几何变换、相机模型、特征匹配、增强、损失函数与视觉模型等组件。它强调与深度学习流程无缝集成，支持在 GPU 上高效运行，便于研究和工程人员构建、训练和部署三维感知与空间理解相关算法。项目今日新增 88 星，社区关注度较高。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>kornia/kornia 是一个基于 Python 的开源几何计算机视觉库，面向空间 AI 应用，提供可微分的图像处理与几何视觉能力，方便研究者和开发者构建与训练视觉模型。项目今日新增 88 星，社区关注度持续上升，适合用于空间智能、三维视觉和相关深度学习任务。</description>
     </item>
     <item>
       <title>beenuar/AiSOC</title>
       <link>https://github.com/beenuar/AiSOC</link>
       <guid>https://github.com/beenuar/AiSOC</guid>
       <category>github_trending</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>beenuar/AiSOC 是一个用 Python 编写的开源 AI 安全运营中心，支持告警融合、LLM 智能体分诊、基于 MITRE ATT&amp;CK 的调查，以及可回放每个智能体步骤的决策账本。项目可自托管，无需 API 密钥即可运行，采用 MIT 许可证，并提供面向 Claude、Cursor 和 Continue 的 MCP 服务器。今日新增 436 星，适合希望低成本搭建智能安全运营流程的团队试用。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>beenuar/AiSOC 是一个用 Python 开发的开源 AI 安全运营中心项目，提供告警融合、基于 LLM 智能体的分级研判、MITRE ATT&amp;CK 调查能力，并为智能体每一步决策保留可回放账本。项目支持自托管，无需 API 密钥即可运行，采用 MIT 许可证，还提供面向 Claude、Cursor 和 Continue 的 MCP 服务器，便于接入现有工具链。今日新增 436 星，适合关注自动化安全运营与可审计 AI 决策的团队试用。</description>
     </item>
     <item>
       <title>Elucidating the Design Space of LM Data Attribution</title>
       <link>http://arxiv.org/abs/2610.40655v1</link>
       <guid>http://arxiv.org/abs/2610.40655v1</guid>
       <category>paper</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>本文探讨语言模型数据归因的设计空间，重点分析评估环节。现有方法常用事实检索等下游任务评估，但往往同时改变多个数据属性，难以判断归因算法失败的具体原因。为此，作者提出受控归因基准CATT用于事实追踪，在完全虚构的知识上微调语言模型，从而获得明确无歧义的归因真值。该合成设置允许每次只改变一种数据配置，例如文档冗余和词汇干扰项。实验表明，冗余与干扰项会持续降低归因性能。论文不提出新的估计器，而是系统考察评估设计对归因结论的影响。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>论文聚焦语言模型数据归因评估的设计空间，指出已有评估同时改变多个数据属性，因而难以判断归因算法失败的具体原因。作者提出受控归因基准CATT，在完全虚构知识上微调语言模型并进行事实溯源，以获得明确无歧义的真值。该合成设置支持每次只改变一种数据配置，例如文档冗余和词汇干扰。实验表明，冗余和干扰会持续降低归因性能。论文不提出新的估计器，而是系统考察相关设计选择对数据归因的影响。</description>
     </item>
     <item>
       <title>Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering</title>
       <link>http://arxiv.org/abs/2610.40654v1</link>
       <guid>http://arxiv.org/abs/2610.40654v1</guid>
       <category>paper</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description></description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>论文针对差分隐私机制常按单条记录的最坏影响校准噪声、导致少数敏感记录主导噪声的问题，提出“提出、过滤与发布”框架PFR。PFR先对输入进行私有过滤，把仅对典型记录增删提供保护的机制转化为对任意输入满足标准差分隐私的机制。其过滤步骤只需凹的友好度评分来衡量记录与数据集的契合程度，并配合友好差分隐私的发布机制。该方法可在剩余数据允许更小噪声时恢复较小噪声尺度，从而在典型数据上兼顾隐私与效用。</description>
     </item>
     <item>
       <title>Rethinking Neural Thickets Without Weight Perturbations</title>
       <link>http://arxiv.org/abs/2610.40649v1</link>
       <guid>http://arxiv.org/abs/2610.40649v1</guid>
       <category>paper</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>本文重新审视神经密集区假说。该假说认为预训练语言模型处于任务特定专家的密集权重邻域中，随机高斯扰动可揭示这些专家。作者复现了报告的性能提升，但表明无需该几何解释。仅扰动单个解码块即可恢复大部分改进，而在模型完全冻结时向输出logits加入随机偏置，在多数推理任务上可匹配或超过全权重扰动。这提示替代解释基于输出多样性、验证集选择与投票。作者将其形式化为Perturb Select Vote（PSV）流程，即生成扰动预测器、在小验证集上选择高性能成员并聚合预测，从而把神经密集区与已有推理时方法联系起来。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该论文复现了神经灌木丛假说所报告的性能增益，但指出这些增益并不需要以权重空间中的稠密专家邻域作为解释。仅扰动单个解码块即可恢复大部分提升；而完全冻结模型并在输出logits上加入随机偏置，在多数推理任务上也能达到或超过全权重扰动。作者据此提出基于输出多样性、验证集选择和投票的替代解释，并将其形式化为PSV流程：生成受扰动的预测器，在小验证集上选择表现较优的成员，再聚合其预测。该视角将神经灌木丛与已有推理时技术联系起来。</description>
     </item>
     <item>
       <title>Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers</title>
       <link>http://arxiv.org/abs/2610.40647v1</link>
       <guid>http://arxiv.org/abs/2610.40647v1</guid>
       <category>paper</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>本文介绍SpecSlot，一种像素空间整流流生成Transformer。传统像素空间生成Transformer通常为每个图像块分配一个token，导致获取更精细细节需要更多token，全局注意力开销随之增加。作者观察到精细细节并不必然需要更多全局通信，低频结构适合全局交换，高频细节可由局部建模。SpecSlot将每个空间锚扩展为多个槽，每个槽分配互不相交的DCT系数带，从而分离锚密度与频谱细分。每个锚仅最低频槽参与全局注意力，所有槽进行局部交互，使模型在不扩大全局注意力序列的情况下提升频谱细节。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>像素空间生成Transformer通常为每个图像块使用一个token，因此捕捉更细细节需要增加token数量，并使全局注意力开销迅速上升。论文观察到细节并不一定需要更多全局通信，低频结构适合全局交换，高频细节可在局部建模。为此作者提出SpecSlot，一种像素空间校正流Transformer，将输出细节与全局注意力序列长度解耦。该方法把每个空间锚点扩展为多个slot，每个slot分配互不重叠的DCT系数频带，从而分离锚点密度与频谱细分。每个锚点仅最低频slot参与全局注意力，所有slot在局部交互。这样模型可提升频谱细节而不扩大全局序列。</description>
     </item>
     <item>
       <title>Adaptive Scenario Generation for KL-DRO Around a Learned Density Model</title>
       <link>http://arxiv.org/abs/2610.40644v1</link>
       <guid>http://arxiv.org/abs/2610.40644v1</guid>
       <category>paper</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>本文研究两阶段随机规划的分布鲁棒优化，针对有限样本下分布估计误差问题，指出现有经验分布KL球只能重加权已观测记录，而传输球会纳入数据生成过程不可能产生的实现。论文提出以拟合密度模型为中心的学习名义KL球，使对手能够按照模型赋予的概率上调昂贵但未观测到的实现，并设计自适应场景生成方法求解相应KL-DRO问题。该方法在保持对未观测代价情景鲁棒性的同时，避免对不合理实现进行过度外推，并通过场景选择缓解问题只能容纳少量情景时的求解困难。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该论文研究两阶段随机规划的分布鲁棒优化，指出现有经验分布散度球只能重加权历史样本，而传输球会纳入数据生成过程不可能产生的场景，导致过度对冲。作者提出以拟合数据的学习密度模型为中心的KL不确定集，使对手可按模型赋予的概率上调未观测高成本场景。针对该问题可承载场景有限带来的求解困难，论文设计自适应场景生成方法。</description>
     </item>
     <item>
       <title>Luggage re-identification: A study of strategies towards a real-world application</title>
       <link>http://arxiv.org/abs/2610.40643v1</link>
       <guid>http://arxiv.org/abs/2610.40643v1</guid>
       <category>paper</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>本文研究面向真实应用的行李再识别问题，该任务可用于视频监控中的取证、安全、边境管理以及丢失行李查找。现有方法多在较干净条件下基于裁剪图像外观进行匹配，但真实场景常受遮挡、背景杂乱和人群拥挤影响，性能明显下降，而利用多视频流中多次拍摄与多视角互补性的策略仍未得到充分关注。文章研究从多路视频流出发、联合检测与再识别的端到端流程策略，以提升复杂环境下行李关联的实用性。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文研究面向真实场景的行李重识别方法。行李重识别是视频监控中的关键任务，可用于取证、安全与边境管理中的可疑或遗弃行李识别，也可支持丢失行李找回。现有方法多在相对干净条件下对裁剪图像进行外观匹配，而机场、车站和边境等真实环境常出现频繁遮挡、背景杂乱和拥挤场景，导致性能明显下降。同时，利用不同视频流中多镜头和多视角互补性的策略仍被忽视。为此，本文围绕从多路视频流到行李检测与重识别的端到端流程，系统研究相关策略，以提升真实应用中的重识别表现。</description>
     </item>
     <item>
       <title>From extreme weather to agricultural consequences with agentic AI</title>
       <link>http://arxiv.org/abs/2610.40641v1</link>
       <guid>http://arxiv.org/abs/2610.40641v1</guid>
       <category>paper</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>本文提出WxCrop，这是首个通过因果分析检验物理可解释天气指数来判定农业灾害的智能体，也是首个融合天气与农业信息、可对历史日期和预报日期可靠预测作物损失的智能体。研究在佛罗里达针对飓风、冰冻和干热灾害演示该方法，并用各类灾害的保险记录校准损失模型；相同流程可推广至其他灾害和地区。三项检验表明其可靠性：飓风指数识别有记录气旋日的AUC达0.98，留出年份的已记录损失重现误差在2%以内，独立产量记录也支持验证。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文介绍面向极端天气农业后果的智能体系统WxCrop。该系统利用因果分析检验物理可解释的天气指数，从预报中判断农业灾害，并融合天气与农业信息，对历史日期和预报日期可靠预测作物损失。研究在佛罗里达针对飓风、冰冻和干热进行示范，损失模型依据各类灾害的保险记录校准，方法可扩展到其他灾害和地区。可靠性检验显示，飓风指数识别记录气旋日的AUC达0.98，留出年份的损失重现误差在2%以内。</description>
     </item>
     <item>
       <title>world2vec: Mechanistic world models through latent dynamics learning</title>
       <link>http://arxiv.org/abs/2610.40637v1</link>
       <guid>http://arxiv.org/abs/2610.40637v1</guid>
       <category>paper</category>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>世界模型常能在未忠实捕捉环境动力学的情况下取得强控制性能，这限制了其机制可解释性与科学发现潜力。本文提出 world2vec，无需奖励信息，仅从观测和动作直接学习机制世界模型。该方法学习潜动力学，可在长预测时域忠实再现真实系统，且参数量比 DreamerV3、TD-MPC2 和 LeWM 少至少一个数量级。由此，它在从像素控制连续环境方面达到当前最优性能，并在包含71个吸引子的基准上实现准确系统辨识，表明世界模型有助于科学发现。</description>
+    </item>
+    <item>
+      <title>I Made a Fruit Fly Review My Code - Nick Nisi, WorkOS</title>
+      <link>https://www.youtube.com/watch?v=geMAe-PLJF4</link>
+      <guid>https://www.youtube.com/watch?v=geMAe-PLJF4</guid>
+      <category>youtube</category>
       <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>本文介绍 world2vec，一种无需奖励信息、直接从观测和动作中学习机制性世界模型的方法。它学习到的潜在动力学能够在较长预测范围内忠实再现真实系统，参数量比 DreamerV3、TD-MPC2 和 LeWM 少至少一个数量级。该方法在基于像素的连续环境控制中达到先进性能，并在包含 71 个吸引子的基准上实现准确的系统识别，表明世界模型可用于科学发现。</description>
+      <description>尼克·尼西在 WorkOS 演讲中把果蝇接入代码审查，展示了一个用荒诞实验逼出自动化反馈流程边界的具体案例。</description>
     </item>
     <item>
       <title>Why We Rebuilt Microsoft Office From Scratch for AI Agents - Yijia Liang, Compound AI</title>
@@ -243,15 +251,7 @@
       <guid>https://www.youtube.com/watch?v=v0UkV5qS9E4</guid>
       <category>youtube</category>
       <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Yijia Liang讲清为何要从零为AI代理重建Office，而非改造旧版。</description>
-    </item>
-    <item>
-      <title>Most of Your Docs Readers Are Now AI Agents - Hahnbee Lee, Mintlify &amp; Lincoln Murr, Coinbase</title>
-      <link>https://www.youtube.com/watch?v=YX4Z4XqZ9Vo</link>
-      <guid>https://www.youtube.com/watch?v=YX4Z4XqZ9Vo</guid>
-      <category>youtube</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>Coinbase 讲者说，多数文档读者已变成 AI Agent，文档写法与评估指标必须重做。</description>
+      <description>Yijia Liang拆解为智能体重写办公套件时，如何把</description>
     </item>
     <item>
       <title>What Happens When Everyone Can Build Software</title>
@@ -259,7 +259,7 @@
       <guid>https://www.youtube.com/watch?v=vl7HiMdGfjo</guid>
       <category>youtube</category>
       <pubDate>Thu, 29 Oct 2026 16:00:00 GMT</pubDate>
-      <description>它把“人人能构建软件”拆成生成、分发、维护三段推演，指出瓶颈从写代码转向运营。</description>
+      <description>视频用‘业务人员用自然语言生成应用’这一结论，说明软件供给暴增后企业须重做权限与审核流程。</description>
     </item>
     <item>
       <title>The New Full-Stack Designer</title>
@@ -267,39 +267,39 @@
       <guid>https://www.youtube.com/watch?v=eojywvxqoLc</guid>
       <category>youtube</category>
       <pubDate>Sun, 25 Oct 2026 16:00:00 GMT</pubDate>
-      <description>视频提出‘全栈设计师’框架，讲设计师如何覆盖产品、交互与前端实现，适合打通设计到落地链路的人。</description>
+      <description>讲者用“产品—交互—前端”三层能力模型说明全栈设计师如何补齐交付链路，可对照自己的技能缺口。</description>
     </item>
     <item>
       <title>HackerTube: YouTube built from videos recommended by HN</title>
       <link>https://karpathy.bearblog.dev/hacker-tube/</link>
       <guid>https://karpathy.bearblog.dev/hacker-tube/</guid>
       <category>news</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>它把 HN 推荐讨论过的视频汇成观看界面，以社区兴趣替代平台算法，可观察内容偏向与推荐透明度争议。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>它把HN提交和评论中的视频按社区热度汇聚，方便集中发现观看，讨论还涉及推荐算法、内容筛选与运营局限。</description>
     </item>
     <item>
-      <title>TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8</title>
-      <link>https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf</link>
-      <guid>https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf</guid>
+      <title>An Italian farmer found some unknown seeds in his attic and planted them</title>
+      <link>https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/</link>
+      <guid>https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/</guid>
       <category>news</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>578票讨论聚焦该TCP释放后使用漏洞的触发条件、影响范围与修复，并辨析CVSS 9.8评分及补丁优先级。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>讨论从阁楼未知种子试种成功出发，既谈种子保存、遗传多样性与农业史，也追问报道细节和随意种植的风险。</description>
     </item>
     <item>
       <title>pingdotgg/t3code</title>
       <link>https://github.com/pingdotgg/t3code</link>
       <guid>https://github.com/pingdotgg/t3code</guid>
       <category>news</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>TypeScript 项目今日新增约3100星、关注度高；简介未填且说明少，可从源码和提交记录了解定位。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>项目今日新增约3100星，聚焦类型安全、前端工程与开源协作，开发者可查文档源码了解其工具与实践。</description>
     </item>
     <item>
       <title>thedotmack/claude-mem</title>
       <link>https://github.com/thedotmack/claude-mem</link>
       <guid>https://github.com/thedotmack/claude-mem</guid>
       <category>news</category>
-      <pubDate>Sat, 31 Oct 2026 16:00:00 GMT</pubDate>
-      <description>它记录智能体操作，用AI压缩信息并注入后续会话以实现跨会话持久记忆，兼容多种工具，今日新增星标1,527个。</description>
+      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+      <description>它记录智能体会话操作，用AI压缩并注入后续会话以减少重复说明，兼容多种工具，今日新增星标1,527个。</description>
     </item>
   </channel>
 </rss>

@@ -66,3 +66,8 @@
 [23:00:05] 精选 4 条
 [23:00:22] 内容写入 content/2026-11-01.json，共 36 条
 [23:00:22] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[23:00:23] commit rc=0 [main d117c11] daily: 2026-11-01 自动更新（1 处降级）
+[23:00:28] push main rc=0    865a301..d117c11  main -> main
+[23:00:37] push gh-pages rc=0    7066072..1f7055f  gh-pages -> gh-pages
+[23:00:37] === 完成，降级项 1 ===
+[23:00:37] 降级明细: 论文摘要缺失×1
