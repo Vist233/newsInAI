@@ -15,14 +15,17 @@ import subprocess
 import sys
 import time
 import urllib.request
+import uuid
 from datetime import datetime, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-GATEWAY = os.environ.get("GATEWAY", "http://127.0.0.1:33427/v1")
-MODEL = os.environ.get("MODEL", "workbuddy-ai/deepseek-v4.1-flash")
+GATEWAY = "https://opencode.ai/zen/go/v1"
+MODEL = "deepseek-v4.1-flash"
+CONCURRENCY = int(os.environ.get("CONCURRENCY", "4"))
+REQ_TIMEOUT = int(os.environ.get("REQ_TIMEOUT", "300"))
 LOG = ROOT / "logs"
 LOG.mkdir(exist_ok=True)
 
@@ -35,21 +38,52 @@ def log(msg: str) -> None:
 
 
 def api_key() -> str:
-    cmd = subprocess.run(
-        ["bash", "-c", "sed -n 's/^ *key_cmd: *//p' ~/.hermes/config.yaml | head -1"],
-        capture_output=True, text=True).stdout.strip().strip('"').strip("'")
-    return subprocess.run(["bash", "-c", cmd], capture_output=True, text=True).stdout.strip().splitlines()[0]
+    key = json.loads((Path.home() / ".pi/agent/auth.json").read_text())["opencode-go"]["key"]
+    if not key:
+        raise RuntimeError("OpenCode Go credential is unavailable")
+    return key
 
 
-def ask(prompt: str, key: str, max_tokens: int = 400) -> str:
+def ask(prompt: str, key: str, max_tokens: int = 1600) -> str:
+    """推理模型（deepseek-v4.1-flash）会先输出 reasoning_content 再给 content，
+    max_tokens 太小会被思维链吃光并返回空正文（finish_reason=length）。
+    因此默认预算给足，并在正文为空且因长度截断时自动翻倍重试。"""
     body = json.dumps({"model": MODEL, "messages": [{"role": "user", "content": prompt}],
-                       "temperature": 0.3, "max_tokens": max_tokens}).encode()
+                       "max_tokens": max_tokens}).encode()
     req = urllib.request.Request(f"{GATEWAY}/chat/completions", data=body,
                                  headers={"Authorization": f"Bearer {key}",
-                                          "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        data = json.loads(resp.read().decode())
-    return data["choices"][0]["message"]["content"].strip()
+                                          "Content-Type": "application/json",
+                                          "User-Agent": "curl/8.5.0",
+                                          "x-opencode-session": str(uuid.uuid4())})
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({"https": "http://127.0.0.1:7897"}))
+    data = None
+    for attempt in range(3):
+        try:
+            with opener.open(req, timeout=REQ_TIMEOUT) as resp:
+                data = json.loads(resp.read().decode())
+            break
+        except Exception as e:            # 网关偶发断连/超时，重试比丢条目划算
+            if attempt == 2:
+                raise
+            time.sleep(2 + attempt * 3)
+    assert data is not None
+    ch = data["choices"][0]
+    content = ((ch.get("message") or {}).get("content") or "").strip()
+    if not content and ch.get("finish_reason") == "length" and max_tokens < 8000:
+        return ask(prompt, key, max_tokens * 2)
+    return content
+
+
+def parallel(key: str, specs: list[tuple]) -> list[str]:
+    """并发跑 summarize：specs 为 (kind, title, extra) 列表，按序返回摘要。
+
+    摘要使用 OpenCode Go DeepSeek Flash；并发数保守设为 4。
+    失败的条目返回空串，不阻断发布。
+    """
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=CONCURRENCY) as ex:
+        futs = [ex.submit(summarize, k, t, e, key) for k, t, e in specs]
+        return [f.result() for f in futs]
 
 
 CJK = re.compile(r"[\u4e00-\u9fff]")
@@ -123,7 +157,7 @@ def why_line(prompt: str, key: str, lo: int = 25, hi: int = 55) -> str:
     best = ""
     for _ in range(3):
         try:
-            out = clean(ask(prompt, key, 140))
+            out = clean(ask(prompt, key, 700))
         except Exception:
             continue
         if not out:
@@ -166,39 +200,58 @@ def main() -> int:
     key = api_key()
     items: list[dict] = []
 
-    # 2) Hacker News（取前 10）
+    # 2-4) HN + GitHub + 论文的摘要：统一走 OpenCode Go。
     hn = raw.get("hacker_news") or []
-    for h in hn[:10]:
-        s = summarize("hn", h["title"], f"链接 {h['url']}，{h['points']} 分、{h['comments']} 条评论", key)
+    gh = raw.get("github_trending") or []
+    papers = raw.get("papers") or []
+
+    hn_sel, gh_sel, pp_sel = hn[:10], gh[:10], papers[:8]
+    specs = ([("hn", h["title"], f"链接 {h['url']}，{h['points']} 分、{h['comments']} 条评论")
+              for h in hn_sel]
+             + [("gh", g["repo"], f"语言 {g['language']}，今日新增 {g['stars_today']} 星，简介：{g['desc']}")
+                for g in gh_sel]
+             + [("paper", re.sub(r"^Title:\s*", "", p["title"]), p.get("abstract", ""))
+                for p in pp_sel])
+
+    t_par = time.time()
+    summaries = parallel(key, specs)
+    log(f"并发摘要 {len(specs)} 条（{CONCURRENCY} 路）用时 {time.time()-t_par:.0f}s")
+
+    n_hn = 0
+    for h, s in zip(hn_sel, summaries[:len(hn_sel)]):
         if not s:
             errors.append("HN 摘要缺失")
+        else:
+            n_hn += 1
         items.append({"kind": "hacker_news", "source_id": "hn", "source_name": "Hacker News",
                       "title": h["title"], "url": h["url"], "published": h["published"],
                       "summary": s, "categories": ["hn"], "priority": "normal"})
-    log(f"HN {len(hn[:10])} 条，摘要成功 {sum(1 for i in items if i['kind']=='hacker_news' and i['summary'])}")
+    log(f"HN {len(hn_sel)} 条，摘要成功 {n_hn}")
 
-    # 3) GitHub Trending（前 10）
-    gh = raw.get("github_trending") or []
-    for g in gh[:10]:
-        s = summarize("gh", g["repo"], f"语言 {g['language']}，今日新增 {g['stars_today']} 星，简介：{g['desc']}", key)
+    off = len(hn_sel)
+    n_gh = 0
+    for g, s in zip(gh_sel, summaries[off:off + len(gh_sel)]):
         if not s:
             errors.append("GH 摘要缺失")
+        else:
+            n_gh += 1
         items.append({"kind": "github_trending", "source_id": "github", "source_name": "GitHub Trending",
                       "title": g["repo"], "url": g["url"], "published": day,
                       "summary": s, "categories": [g.get("language") or "repo"], "priority": "normal"})
-    log(f"GH {len(gh[:10])} 条，摘要成功 {sum(1 for i in items if i['kind']=='github_trending' and i['summary'])}")
+    off += len(gh_sel)
+    log(f"GH {len(gh_sel)} 条，摘要成功 {n_gh}")
 
-    # 4) 论文（前 8）
-    papers = raw.get("papers") or []
-    for p in papers[:8]:
+    n_pp = 0
+    for p, s in zip(pp_sel, summaries[off:]):
         title = re.sub(r"^Title:\s*", "", p["title"])
-        s = summarize("paper", title, p.get("abstract", ""), key)
         if not s:
             errors.append("论文摘要缺失")
+        else:
+            n_pp += 1
         items.append({"kind": "paper", "source_id": "arxiv", "source_name": "arXiv",
                       "title": title, "url": p["url"], "published": day,
                       "summary": s, "categories": ["paper"], "priority": "normal"})
-    log(f"论文 {len(papers[:8])} 篇，摘要成功 {sum(1 for i in items if i['kind']=='paper' and i['summary'])}")
+    log(f"论文 {len(pp_sel)} 篇，摘要成功 {n_pp}")
 
     # 5) 视频（近 14 天，取 5）
     try:
@@ -211,12 +264,17 @@ def main() -> int:
         vids = []
         errors.append("视频采集失败")
         log(f"视频失败 {type(e).__name__}")
-    for v in vids:
-        why = why_line(
-            f"用简体中文写一句 25-45 字的具体理由，说明这个视频为什么值得看。"
-            f"必须点出视频里一个具体的东西（讲者、公司、数字、方法或结论）。"
-            f"禁止使用「值得一看」「值得关注」「值得单独看」「凸显」「深入了解」这类空话。"
-            f"只输出这一句话。\n{v['title']}", key)
+
+    def yt_prompt(v):
+        return (f"用简体中文写一句 25-45 字的具体理由，说明这个视频为什么值得看。"
+                f"必须点出视频里一个具体的东西（讲者、公司、数字、方法或结论）。"
+                f"禁止使用「值得一看」「值得关注」「值得单独看」「凸显」「深入了解」这类空话。"
+                f"只输出这一句话。\n{v['title']}")
+
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=CONCURRENCY) as ex:
+        whys = list(ex.map(lambda v: why_line(yt_prompt(v), key), vids))
+    for v, why in zip(vids, whys):
         items.append({"kind": "youtube", "source_id": "yt", "source_name": v["channel"],
                       "title": v["title"], "url": v["url"],
                       "published": f"{v['upload_date'][:4]}-{v['upload_date'][4:6]}-{v['upload_date'][6:]}",
@@ -229,20 +287,26 @@ def main() -> int:
         gh[:6], key=lambda x: -int((x.get("stars_today") or "0").replace(",", "") or 0))[:2]
     # 已写好的正文摘要：给模型事实依据，否则它只能复述标题
     ctx = {i["title"]: i["summary"] for i in items if i.get("summary")}
-    for p in picks:
+
+    def pick_extra(p):
         t = p.get("title") or p.get("repo")
         if p.get("points") is not None:
-            extra = (f"标题：{t}\n社区热度：Hacker News {p['points']} 票、{p.get('comments', 0)} 条讨论\n"
-                     f"内容介绍：{ctx.get(t, '')}")
-        else:
-            extra = (f"标题：{t}\n今日新增星标：{p.get('stars_today', '0')} 个\n"
-                     f"内容介绍：{ctx.get(t, p.get('desc', ''))}")
-        why = why_line(
-            f"根据下面的内容介绍，用简体中文写一句 30-50 字，说明它为什么值得看："
-            f"点出其中的具体结论、方法或事实，不要复述标题，不要解释挑选标准。"
-            f"只能用给出的信息，不要编造数字，不要把星标数说成投票数。"
-            f"禁止「值得单独看」「值得关注」「值得一看」「凸显」这类套话。"
-            f"只输出这一句话。\n\n{extra[:700]}", key)
+            return (f"标题：{t}\n社区热度：Hacker News {p['points']} 票、{p.get('comments', 0)} 条讨论\n"
+                    f"内容介绍：{ctx.get(t, '')}")
+        return (f"标题：{t}\n今日新增星标：{p.get('stars_today', '0')} 个\n"
+                f"内容介绍：{ctx.get(t, p.get('desc', ''))}")
+
+    def pick_prompt(p):
+        return ("根据下面的内容介绍，用简体中文写一句 30-50 字，说明它为什么值得看："
+                "点出其中的具体结论、方法或事实，不要复述标题，不要解释挑选标准。"
+                "只能用给出的信息，不要编造数字，不要把星标数说成投票数。"
+                "禁止「值得单独看」「值得关注」「值得一看」「凸显」这类套话。"
+                f"只输出这一句话。\n\n{pick_extra(p)[:700]}")
+
+    with ThreadPoolExecutor(max_workers=CONCURRENCY) as ex:
+        pick_why = list(ex.map(lambda p: why_line(pick_prompt(p), key), picks))
+    for p, why in zip(picks, pick_why):
+        t = p.get("title") or p.get("repo")
         items.append({"kind": "news", "source_id": "pick", "source_name": "我的挑选",
                       "title": t, "url": p["url"], "published": day, "summary": why,
                       "categories": ["pick"], "priority": "high"})
@@ -254,7 +318,7 @@ def main() -> int:
         insight = clean(ask(
             "你是技术编辑。根据下面今天的条目，写一段 200-320 字的简体中文判断，"
             "要有观点、指出共同主线、说明什么被高估。只输出正文，不要标题、不要列表。\n\n"
-            + "\n".join(f"- [{i['kind']}] {i['title']}" for i in items[:20]), key, 700))
+            + "\n".join(f"- [{i['kind']}] {i['title']}" for i in items[:20]), key, 2000))
     except Exception as e:
         insight = ""
         errors.append("Insight 失败")

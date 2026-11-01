@@ -1,5 +1,7 @@
 # newsInAI
 
+2026-10-31：`daily_run.py` 的 AI 摘要入口已切到 OpenCode Go `deepseek-v4.1-flash`，从 WSL Pi 私有认证文件读取密钥。一次最小摘要请求返回有效正文。完整每日流水线会推送 GitHub，本次未运行。
+
 我的每日简报页面。**版式与主站 `news.zhangyvjing.com` 完全一致**（同一个渲染器），
 但**内容是我自己采集、自己写的**——不是镜像主站。
 
