@@ -1,6 +1,6 @@
 {
  "date": "2026-11-01",
- "summary": "今天这批条目的共同主线不是“AI 又赢了”，而是工具链的代理化速度已超过安全、维护和判断力的供给：一边是 Claude 记忆、skills、superpowers、DeepTutor 等把提示词和工作流包装成可复用能力，另一边是 ChatGPT 账号接管、Signal 分支三月未更新、TCP 用后释放 9.8 分漏洞，以及 Jepsen 对数据库一致性的冷峻检验。真正被高估的，是 GitHub 热榜上那种“装上技能库就获得超级能力”的生产力叙事，以及用基准演示替代工程可靠性的倾向。GPT-5.6 能打 Factorio、HackerTube 能按 HN 推荐重排视频，都不等于系统可审计、可维护、可信任。数字极简与八十年代卡西欧反而提供反衬：稀缺的不是更多 agent，而是少而精、边界清楚、长期有人负责的工具。对技术编辑而言，今天最值得追问的不是谁又发布了能力，而是谁在承担更新、漏洞和失败模式。",
+ "summary": "今天条目表面分散，共同主线是AI应用正被迫回到系统工程：模型能力不再是唯一变量，延迟、内存、安全、合规和成本才是落地的硬约束。多个Qwen模型在LiveCodeBench Hard击败Fable 5固然抓眼，HackerTube、claude-mem、Claude-Code-Game-Studios也延续了agent热，但更值得看的是TCP UAF 9.8、Jepsen对ParticleDB的检验、巴西法院对prompt injection的制裁，以及“memory latency”和JS框架AI成本。它们共同提醒：多模型拼装、benchmark排名和agent框架叙事被高估；可观测性、内存局部性、供应链安全、法律边界与单位任务成本被低估。GitHub上的browser、Handy、AiSOC等也在说同一件事：下一阶段竞争不是谁更会演示AI，而是谁能把AI塞进可靠、可审计、低成本的系统里。电气化、老种子和厕所新闻看似离题，实则同样在说：复杂问题常败在基础约束，而非概念新鲜度。",
  "movie": {
   "title": "Zodiac",
   "year": 2007,
@@ -24,62 +24,10 @@
    "kind": "hacker_news",
    "source_id": "hn",
    "source_name": "Hacker News",
-   "title": "Serbia just elected the world's brainiest parliament",
-   "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
-   "published": "2026-10-31T10:21:30+00:00",
-   "summary": "",
-   "categories": [
-    "hn"
-   ],
-   "priority": "normal"
-  },
-  {
-   "kind": "hacker_news",
-   "source_id": "hn",
-   "source_name": "Hacker News",
    "title": "HackerTube: YouTube built from videos recommended by HN",
    "url": "https://karpathy.bearblog.dev/hacker-tube/",
    "published": "2026-10-31T19:56:53+00:00",
-   "summary": "",
-   "categories": [
-    "hn"
-   ],
-   "priority": "normal"
-  },
-  {
-   "kind": "hacker_news",
-   "source_id": "hn",
-   "source_name": "Hacker News",
-   "title": "Do the math: How we took over ChatGPT accounts",
-   "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-   "published": "2026-10-31T10:30:11+00:00",
-   "summary": "",
-   "categories": [
-    "hn"
-   ],
-   "priority": "normal"
-  },
-  {
-   "kind": "hacker_news",
-   "source_id": "hn",
-   "source_name": "Hacker News",
-   "title": "Digital minimalism",
-   "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
-   "published": "2026-10-31T06:16:36+00:00",
-   "summary": "",
-   "categories": [
-    "hn"
-   ],
-   "priority": "normal"
-  },
-  {
-   "kind": "hacker_news",
-   "source_id": "hn",
-   "source_name": "Hacker News",
-   "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-   "url": "https://piefed.world/post/1503394",
-   "published": "2026-10-31T10:23:41+00:00",
-   "summary": "",
+   "summary": "这条 Hacker News 讨论介绍了 Karpathy 的 HackerTube 项目，它把 Hacker News 上被推荐和讨论过的视频汇集起来，构建成一个类似 YouTube 的观看界面，让用户按社区兴趣而非平台算法发现内容。帖子获得 1608 分和 426 条评论，讨论集中在社区推荐能否改善视频发现、HN 偏好会带来哪些内容偏向，以及这种由讨论驱动的视频入口是否实用。项目也引发了对推荐透明度、内容质量和可持续性的讨论。",
    "categories": [
     "hn"
    ],
@@ -92,7 +40,7 @@
    "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
    "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "published": "2026-10-31T19:16:30+00:00",
-   "summary": "",
+   "summary": "Hacker News上关于Linux IPv4 TCP释放后使用漏洞的讨论引发关注，帖子给出CVE-2026-98432和CVSS 9.8，并链接到技术分析文章，获得578分和277条评论。讨论聚焦漏洞触发条件、影响范围、利用可能性、内核修复与缓解措施，也涉及高危评分是否合理、生产环境应对和补丁部署优先级。",
    "categories": [
     "hn"
    ],
@@ -102,10 +50,10 @@
    "kind": "hacker_news",
    "source_id": "hn",
    "source_name": "Hacker News",
-   "title": "Casio Watches of the 1980s",
-   "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
-   "published": "2026-10-31T16:00:48+00:00",
-   "summary": "",
+   "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+   "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+   "published": "2026-10-31T22:41:06+00:00",
+   "summary": "Hacker News 上一条帖子介绍意大利农民在阁楼发现未知种子，抱着试试看的心态种下，结果被形容为“圣经级”的收获。该帖获得 575 分和 171 条评论。讨论围绕种子的来源与年代、古种子是否还能发芽、地方品种保护、农业生物多样性以及意外发现的价值展开，也有人质疑故事细节和媒体报道的叙述方式。",
    "categories": [
     "hn"
    ],
@@ -115,10 +63,23 @@
    "kind": "hacker_news",
    "source_id": "hn",
    "source_name": "Hacker News",
-   "title": "Switch Lowering in GCC",
-   "url": "https://xoranth.net/gcc-switch/",
-   "published": "2026-10-31T08:02:26+00:00",
-   "summary": "这篇 Hacker News 技术讨论围绕 GCC 中 switch 语句的 lowering 展开，介绍编译器如何把多分支 switch 转换为跳转表、决策树或条件分支，并权衡代码体积与执行效率。文章结合示例分析不同降级策略及生成代码，评论区则补充了 GCC 实现细节、优化边界以及与其他编译器的对比。该讨论获得 195 分和 36 条评论。",
+   "title": "Norway makes shithouses great again",
+   "url": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
+   "published": "2026-11-01T10:47:58+00:00",
+   "summary": "Hacker News上出现了一则题为“Norway makes shithouses great again”的讨论，围绕挪威在风景路线沿线打造“世界最佳厕所”展开，相关页面介绍这些公共厕所如何结合景观与建筑设计。帖子获得517分和284条评论，讨论涉及公共设施设计、旅游体验、维护成本与基础设施投入等话题。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+   "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "published": "2026-10-31T22:46:12+00:00",
+   "summary": "这个 Hacker News 技术讨论介绍 Memdoor 项目：它用五个 Qwen3.8 27B 模型组成协作团队，在 LiveCodeBench Hard 上超过 Fable 5。讨论重点包括多模型工作流如何分工、记忆与验证机制是否真能提升复杂编程题表现，以及基准公平性、成本和可复现性；帖子获 325 分和 158 条评论，仓库示例提供团队求解工作流供查看。",
    "categories": [
     "hn"
    ],
@@ -131,7 +92,7 @@
    "title": "Jepsen: ParticleDB 1.1.4",
    "url": "https://jepsen.io/analyses/particledb-1.1.4",
    "published": "2026-10-31T13:39:52+00:00",
-   "summary": "",
+   "summary": "这则 Hacker News 讨论聚焦 Jepsen 对 ParticleDB 1.1.4 的一致性分析。帖子获得 294 分和 166 条评论，评论者围绕 Jepsen 的测试方法、故障注入结果、事务隔离与复制机制展开辩论，并讨论这些缺陷对生产部署和选型的影响。有人强调应区分已修复问题与设计限制，也有人关注厂商回应和复现细节。整体上，讨论体现了社区对数据库正确性、可验证性和运维风险的高度关注。",
    "categories": [
     "hn"
    ],
@@ -141,10 +102,49 @@
    "kind": "hacker_news",
    "source_id": "hn",
    "source_name": "Hacker News",
-   "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-   "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
-   "published": "2026-10-31T18:50:34+00:00",
-   "summary": "",
+   "title": "It's the memory latency, stupid",
+   "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+   "published": "2026-10-31T18:38:16+00:00",
+   "summary": "这篇Hacker News讨论围绕文章《It's the memory latency, stupid》展开，核心观点是现代系统性能瓶颈常被误认为内存带宽，但许多工作负载真正受限于内存延迟。评论者围绕缓存未命中、指针追逐、预取、NUMA和云环境对延迟的影响展开争论，并探讨硬件演进与软件优化能否缓解问题。该帖获得226分和73条评论，反映出开发者对性能归因和实际优化策略的高度关注。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+   "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+   "published": "2026-11-01T02:19:53+00:00",
+   "summary": "这则 Hacker News 讨论关注巴西法院对律师在法庭文件中实施提示注入的制裁。事件涉及有人试图在提交给法院的材料中嵌入隐藏指令，以影响处理文本的 AI 系统，引发关于法律伦理、AI 工具可靠性和法院应如何防范此类操纵的争论。帖子获得 198 分和 98 条评论，讨论集中在制裁是否合理、提示注入的法律定性，以及司法系统采用大模型后面临的新型安全风险。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "The AI cost of JavaScript frameworks",
+   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+   "published": "2026-11-01T06:06:19+00:00",
+   "summary": "该讨论围绕 Nolan Lawson 的文章展开，文章用“AI 成本”衡量 JavaScript 框架，关注抽象层、样板代码和文档如何影响大模型生成与维护代码时的上下文长度、token 消耗和出错率。Hacker News 评论中，有人认为框架越复杂越拖累 AI 辅助开发，也有人质疑相关指标依赖模型和任务，难以替代性能、生态与学习成本等传统评估。该帖获得 168 分和 112 条评论。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Electrification Could Cut Global Energy Use in Half",
+   "url": "https://fullycharged.show/podcasts/podcast-361-why-electrification-could-cut-global-energy-use-in-half/",
+   "published": "2026-10-31T19:13:34+00:00",
+   "summary": "这则Hacker News讨论围绕一档播客提出的观点展开，即全面电气化有望把全球能源使用量削减一半。讨论者关注电动车、热泵和工业电气化带来的效率提升，也争论电网扩容、储能、材料供应和政策落地等现实障碍。帖子获得164分和110条评论，反映出技术乐观与实施成本之间的分歧。",
    "categories": [
     "hn"
    ],
@@ -157,7 +157,7 @@
    "title": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "thedotmack/claude-mem 是一个用 TypeScript 开发的开源项目，专注为各类智能体提供跨会话的持久上下文。它会记录智能体在会话中的操作，借助 AI 压缩信息，并把相关内容注入后续会话，让代理在连续任务中保持记忆与连贯性。项目兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等工具，今日新增 1527 星，受到较多关注。",
    "categories": [
     "TypeScript"
    ],
@@ -167,12 +167,12 @@
    "kind": "github_trending",
    "source_id": "github",
    "source_name": "GitHub Trending",
-   "title": "mattpocock/skills",
-   "url": "https://github.com/mattpocock/skills",
+   "title": "lightpanda-io/browser",
+   "url": "https://github.com/lightpanda-io/browser",
    "published": "2026-11-01",
-   "summary": "mattpocock/skills 是一个面向真实工程师的开源技能集合，内容直接整理自作者的 .agents 目录，使用 Shell 实现。项目旨在把可复用的代理技能和工作流配置带入日常开发，帮助开发者更高效地将 AI 代理融入工程实践。该项目今日新增 882 星，热度较高，适合关注 AI 辅助开发、代理配置与工程效率的开发者了解和使用。",
+   "summary": "Lightpanda 是 GitHub 上的开源无头浏览器项目，使用 Zig 语言开发，定位为面向 AI 与自动化场景的浏览器。它今日新增 827 星，受到开发者关注。项目希望为智能体和自动化工具提供更轻量、高效的网页访问与操作能力，适合需要程序化浏览网页的应用。",
    "categories": [
-    "Shell"
+    "Zig"
    ],
    "priority": "normal"
   },
@@ -180,12 +180,12 @@
    "kind": "github_trending",
    "source_id": "github",
    "source_name": "GitHub Trending",
-   "title": "Donchitos/Claude-Code-Game-Studios",
-   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+   "title": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "Kronos 是一个用 Python 开发的开源金融基础模型项目，将金融市场数据视为一种可建模的语言，致力于为行情序列分析、趋势研判和量化研究提供统一的模型基础。项目在 GitHub 上今日新增 611 星，关注度较高，适合研究者和开发者了解金融时序建模与基础模型在金融场景中的应用。",
    "categories": [
-    "Shell"
+    "Python"
    ],
    "priority": "normal"
   },
@@ -196,20 +196,7 @@
    "title": "pingdotgg/t3code",
    "url": "https://github.com/pingdotgg/t3code",
    "published": "2026-11-01",
-   "summary": "",
-   "categories": [
-    "TypeScript"
-   ],
-   "priority": "normal"
-  },
-  {
-   "kind": "github_trending",
-   "source_id": "github",
-   "source_name": "GitHub Trending",
-   "title": "Renhuai123/ziwei-doushu",
-   "url": "https://github.com/Renhuai123/ziwei-doushu",
-   "published": "2026-11-01",
-   "summary": "",
+   "summary": "pingdotgg/t3code 是 GitHub 上由 pingdotgg 发布的开源项目，主要使用 TypeScript 开发，今日新增约 3100 颗星，社区关注度很高。当前仓库简介尚未填写，公开的功能说明较少，因此更适合从源码、提交记录和后续文档中了解其定位。凭借 TypeScript 生态和近期热度，该项目值得开发者持续关注，也方便有兴趣的人前往仓库查看代码、参与讨论并跟进更新。",
    "categories": [
     "TypeScript"
    ],
@@ -222,7 +209,7 @@
    "title": "milind-soni/OpenMausBot",
    "url": "https://github.com/milind-soni/OpenMausBot",
    "published": "2026-11-01",
-   "summary": "OpenMausBot 是一个用 TypeScript 开发的开源 Grok Bot 替代项目，核心特点是为机器人提供可使用的虚拟机环境，让自动化代理能够在隔离系统中执行任务。该项目今日新增约 1304 个 GitHub 星标，关注度较高，适合研究开源机器人框架、虚拟机集成和自动化工作流的开发者了解与试用。",
+   "summary": "OpenMausBot 是一个基于 TypeScript 开发的开源项目，定位为 Grok Bot 的开源替代方案。其核心特点是内置可供机器人使用的虚拟机，让 Bot 能够在虚拟环境中执行任务并扩展能力。项目今日新增 919 个 Star，显示出较高的社区关注度。对于希望构建或研究带虚拟机能力的机器人应用的开发者而言，该项目提供了可参考的开源实现。",
    "categories": [
     "TypeScript"
    ],
@@ -232,10 +219,23 @@
    "kind": "github_trending",
    "source_id": "github",
    "source_name": "GitHub Trending",
-   "title": "pbakaus/impeccable",
-   "url": "https://github.com/pbakaus/impeccable",
+   "title": "public-apis/public-apis",
+   "url": "https://github.com/public-apis/public-apis",
    "published": "2026-11-01",
-   "summary": "pbakaus/impeccable 是一个用 Rust 开发的开源项目，今日新增 1339 星。它为编码智能体提供一套设计词汇，让开发者可以用 polish 和 bolder 引导智能体提升设计精度与大胆程度，并通过 critique 和 audit 进行审查，在内容发布前发现并拦截低质量的 AI 生成产物。项目强调用更清晰的设计语言控制智能体输出，帮助团队在开发流程中更早识别问题，提升最终交付质量。",
+   "summary": "这个GitHub开源项目汇集了大量可免费使用的公共API资源，方便开发者按类别查找并快速接入所需服务。项目使用Python维护，依靠社区持续补充和更新，覆盖多种应用场景。仓库近期热度较高，今日新增298星，适合需要寻找开放接口、学习API集成或进行原型开发的用户参考使用。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "cjpais/Handy",
+   "url": "https://github.com/cjpais/Handy",
+   "published": "2026-11-01",
+   "summary": "Handy 是一个托管在 GitHub 上的免费开源语音转文字应用，使用 Rust 开发，主打完全离线运行，用户无需上传音频即可完成识别，兼顾隐私与可用性。项目支持扩展，方便按需增加功能或适配不同场景。今日该项目新增 383 星，说明其离线语音识别方案正受到开发者关注。",
    "categories": [
     "Rust"
    ],
@@ -245,10 +245,10 @@
    "kind": "github_trending",
    "source_id": "github",
    "source_name": "GitHub Trending",
-   "title": "obra/superpowers",
-   "url": "https://github.com/obra/superpowers",
+   "title": "Donchitos/Claude-Code-Game-Studios",
+   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "Donchitos 的 Claude Code Game Studios 是一个面向游戏开发的开源项目，使用 Shell 编写，旨在把 Claude Code 扩展为完整的游戏开发工作室。项目包含 49 个 AI 代理和 72 个工作流技能，并配有模拟真实工作室层级结构的协调系统，让不同角色与流程能够协同完成任务。该项目今日新增约 970 个星标，适合关注 AI 辅助游戏开发与多代理协作的开发者了解。",
    "categories": [
     "Shell"
    ],
@@ -258,12 +258,12 @@
    "kind": "github_trending",
    "source_id": "github",
    "source_name": "GitHub Trending",
-   "title": "lightpanda-io/browser",
-   "url": "https://github.com/lightpanda-io/browser",
+   "title": "kornia/kornia",
+   "url": "https://github.com/kornia/kornia",
    "published": "2026-11-01",
-   "summary": "Lightpanda 是托管在 GitHub 上的开源无头浏览器项目，使用 Zig 语言开发，定位为面向人工智能与自动化场景的浏览器工具。它旨在为 AI 代理、网页抓取和自动化流程提供更轻量高效的网页",
+   "summary": "Kornia 是一个基于 Python 和 PyTorch 的开源几何计算机视觉库，面向空间人工智能应用，提供可微分的图像处理、几何变换、相机模型、特征匹配、增强、损失函数与视觉模型等组件。它强调与深度学习流程无缝集成，支持在 GPU 上高效运行，便于研究和工程人员构建、训练和部署三维感知与空间理解相关算法。项目今日新增 88 星，社区关注度较高。",
    "categories": [
-    "Zig"
+    "Python"
    ],
    "priority": "normal"
   },
@@ -271,10 +271,10 @@
    "kind": "github_trending",
    "source_id": "github",
    "source_name": "GitHub Trending",
-   "title": "HKUDS/DeepTutor",
-   "url": "https://github.com/HKUDS/DeepTutor",
+   "title": "beenuar/AiSOC",
+   "url": "https://github.com/beenuar/AiSOC",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "beenuar/AiSOC 是一个用 Python 编写的开源 AI 安全运营中心，支持告警融合、LLM 智能体分诊、基于 MITRE ATT&CK 的调查，以及可回放每个智能体步骤的决策账本。项目可自托管，无需 API 密钥即可运行，采用 MIT 许可证，并提供面向 Claude、Cursor 和 Continue 的 MCP 服务器。今日新增 436 星，适合希望低成本搭建智能安全运营流程的团队试用。",
    "categories": [
     "Python"
    ],
@@ -287,7 +287,7 @@
    "title": "Elucidating the Design Space of LM Data Attribution",
    "url": "http://arxiv.org/abs/2610.40655v1",
    "published": "2026-11-01",
-   "summary": "该论文探讨语言模型数据归因的设计空间，重点研究评估问题。现有方法常用事实检索等下游任务评估，但会同时改变多个数据属性，难以判断归因算法失败的具体原因。为此，作者提出受控归因基准CATT，用于事实溯源：在完全虚构的知识上微调语言模型，从而获得明确真值，并可",
+   "summary": "本文探讨语言模型数据归因的设计空间，重点分析评估环节。现有方法常用事实检索等下游任务评估，但往往同时改变多个数据属性，难以判断归因算法失败的具体原因。为此，作者提出受控归因基准CATT用于事实追踪，在完全虚构的知识上微调语言模型，从而获得明确无歧义的归因真值。该合成设置允许每次只改变一种数据配置，例如文档冗余和词汇干扰项。实验表明，冗余与干扰项会持续降低归因性能。论文不提出新的估计器，而是系统考察评估设计对归因结论的影响。",
    "categories": [
     "paper"
    ],
@@ -313,7 +313,7 @@
    "title": "Rethinking Neural Thickets Without Weight Perturbations",
    "url": "http://arxiv.org/abs/2610.40649v1",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "本文重新审视神经密集区假说。该假说认为预训练语言模型处于任务特定专家的密集权重邻域中，随机高斯扰动可揭示这些专家。作者复现了报告的性能提升，但表明无需该几何解释。仅扰动单个解码块即可恢复大部分改进，而在模型完全冻结时向输出logits加入随机偏置，在多数推理任务上可匹配或超过全权重扰动。这提示替代解释基于输出多样性、验证集选择与投票。作者将其形式化为Perturb Select Vote（PSV）流程，即生成扰动预测器、在小验证集上选择高性能成员并聚合预测，从而把神经密集区与已有推理时方法联系起来。",
    "categories": [
     "paper"
    ],
@@ -326,7 +326,7 @@
    "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
    "url": "http://arxiv.org/abs/2610.40647v1",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "本文介绍SpecSlot，一种像素空间整流流生成Transformer。传统像素空间生成Transformer通常为每个图像块分配一个token，导致获取更精细细节需要更多token，全局注意力开销随之增加。作者观察到精细细节并不必然需要更多全局通信，低频结构适合全局交换，高频细节可由局部建模。SpecSlot将每个空间锚扩展为多个槽，每个槽分配互不相交的DCT系数带，从而分离锚密度与频谱细分。每个锚仅最低频槽参与全局注意力，所有槽进行局部交互，使模型在不扩大全局注意力序列的情况下提升频谱细节。",
    "categories": [
     "paper"
    ],
@@ -339,7 +339,7 @@
    "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
    "url": "http://arxiv.org/abs/2610.40644v1",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "本文研究两阶段随机规划的分布鲁棒优化，针对有限样本下分布估计误差问题，指出现有经验分布KL球只能重加权已观测记录，而传输球会纳入数据生成过程不可能产生的实现。论文提出以拟合密度模型为中心的学习名义KL球，使对手能够按照模型赋予的概率上调昂贵但未观测到的实现，并设计自适应场景生成方法求解相应KL-DRO问题。该方法在保持对未观测代价情景鲁棒性的同时，避免对不合理实现进行过度外推，并通过场景选择缓解问题只能容纳少量情景时的求解困难。",
    "categories": [
     "paper"
    ],
@@ -352,7 +352,7 @@
    "title": "Luggage re-identification: A study of strategies towards a real-world application",
    "url": "http://arxiv.org/abs/2610.40643v1",
    "published": "2026-11-01",
-   "summary": "本文研究面向真实应用的行李重识别策略。现有方法多关注较干净条件下的裁剪图像外观匹配，但真实场景常出现遮挡、背景杂乱和人群拥挤，导致性能明显下降，同时多视频流中多镜头与多视角的互补信息尚未被充分利用。论文围绕从多视频流出发的端到端流程，研究行李检测与重识别策略，以在机场、车站和边境等复杂环境中关联同一行李的离散观测，支撑安防取证、可疑或遗留行李识别以及丢失",
+   "summary": "本文研究面向真实应用的行李再识别问题，该任务可用于视频监控中的取证、安全、边境管理以及丢失行李查找。现有方法多在较干净条件下基于裁剪图像外观进行匹配，但真实场景常受遮挡、背景杂乱和人群拥挤影响，性能明显下降，而利用多视频流中多次拍摄与多视角互补性的策略仍未得到充分关注。文章研究从多路视频流出发、联合检测与再识别的端到端流程策略，以提升复杂环境下行李关联的实用性。",
    "categories": [
     "paper"
    ],
@@ -365,7 +365,7 @@
    "title": "From extreme weather to agricultural consequences with agentic AI",
    "url": "http://arxiv.org/abs/2610.40641v1",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "本文提出WxCrop，这是首个通过因果分析检验物理可解释天气指数来判定农业灾害的智能体，也是首个融合天气与农业信息、可对历史日期和预报日期可靠预测作物损失的智能体。研究在佛罗里达针对飓风、冰冻和干热灾害演示该方法，并用各类灾害的保险记录校准损失模型；相同流程可推广至其他灾害和地区。三项检验表明其可靠性：飓风指数识别有记录气旋日的AUC达0.98，留出年份的已记录损失重现误差在2%以内，独立产量记录也支持验证。",
    "categories": [
     "paper"
    ],
@@ -378,7 +378,7 @@
    "title": "world2vec: Mechanistic world models through latent dynamics learning",
    "url": "http://arxiv.org/abs/2610.40637v1",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "本文介绍 world2vec，一种无需奖励信息、直接从观测和动作中学习机制性世界模型的方法。它学习到的潜在动力学能够在较长预测范围内忠实再现真实系统，参数量比 DreamerV3、TD-MPC2 和 LeWM 少至少一个数量级。该方法在基于像素的连续环境控制中达到先进性能，并在包含 71 个吸引子的基准上实现准确的系统识别，表明世界模型可用于科学发现。",
    "categories": [
     "paper"
    ],
@@ -388,29 +388,29 @@
    "kind": "youtube",
    "source_id": "yt",
    "source_name": "AI Engineer",
-   "title": "Your AI Agent Wants Your Data. Here's How to Lock It Down - Jeff Smith, Oracle",
-   "url": "https://www.youtube.com/watch?v=LnQce-eHm8k",
-   "published": "2026-10-31",
-   "summary": "",
+   "title": "Why We Rebuilt Microsoft Office From Scratch for AI Agents - Yijia Liang, Compound AI",
+   "url": "https://www.youtube.com/watch?v=v0UkV5qS9E4",
+   "published": "2026-11-01",
+   "summary": "Yijia Liang讲清为何要从零为AI代理重建Office，而非改造旧版。",
    "categories": [
     "video"
    ],
    "priority": "normal",
-   "image_url": "https://i.ytimg.com/vi/LnQce-eHm8k/hqdefault.jpg"
+   "image_url": "https://i.ytimg.com/vi/v0UkV5qS9E4/hqdefault.jpg"
   },
   {
    "kind": "youtube",
    "source_id": "yt",
    "source_name": "AI Engineer",
-   "title": "Everyone Has the Same AI Models. Here's What Sets Agents Apart - Richmond Alake, Oracle",
-   "url": "https://www.youtube.com/watch?v=1_lX0m64-aI",
-   "published": "2026-10-31",
-   "summary": "",
+   "title": "Most of Your Docs Readers Are Now AI Agents - Hahnbee Lee, Mintlify & Lincoln Murr, Coinbase",
+   "url": "https://www.youtube.com/watch?v=YX4Z4XqZ9Vo",
+   "published": "2026-11-01",
+   "summary": "Coinbase 讲者说，多数文档读者已变成 AI Agent，文档写法与评估指标必须重做。",
    "categories": [
     "video"
    ],
    "priority": "normal",
-   "image_url": "https://i.ytimg.com/vi/1_lX0m64-aI/hqdefault.jpg"
+   "image_url": "https://i.ytimg.com/vi/YX4Z4XqZ9Vo/hqdefault.jpg"
   },
   {
    "kind": "youtube",
@@ -419,7 +419,7 @@
    "title": "What Happens When Everyone Can Build Software",
    "url": "https://www.youtube.com/watch?v=vl7HiMdGfjo",
    "published": "2026-10-30",
-   "summary": "",
+   "summary": "它把“人人能构建软件”拆成生成、分发、维护三段推演，指出瓶颈从写代码转向运营。",
    "categories": [
     "video"
    ],
@@ -433,7 +433,7 @@
    "title": "The New Full-Stack Designer",
    "url": "https://www.youtube.com/watch?v=eojywvxqoLc",
    "published": "2026-10-26",
-   "summary": "",
+   "summary": "视频提出‘全栈设计师’框架，讲设计师如何覆盖产品、交互与前端实现，适合打通设计到落地链路的人。",
    "categories": [
     "video"
    ],
@@ -444,10 +444,10 @@
    "kind": "news",
    "source_id": "pick",
    "source_name": "我的挑选",
-   "title": "Serbia just elected the world's brainiest parliament",
-   "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+   "title": "HackerTube: YouTube built from videos recommended by HN",
+   "url": "https://karpathy.bearblog.dev/hacker-tube/",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "它把 HN 推荐讨论过的视频汇成观看界面，以社区兴趣替代平台算法，可观察内容偏向与推荐透明度争议。",
    "categories": [
     "pick"
    ],
@@ -457,10 +457,23 @@
    "kind": "news",
    "source_id": "pick",
    "source_name": "我的挑选",
-   "title": "HackerTube: YouTube built from videos recommended by HN",
-   "url": "https://karpathy.bearblog.dev/hacker-tube/",
+   "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+   "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
    "published": "2026-11-01",
-   "summary": "",
+   "summary": "578票讨论聚焦该TCP释放后使用漏洞的触发条件、影响范围与修复，并辨析CVSS 9.8评分及补丁优先级。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "published": "2026-11-01",
+   "summary": "TypeScript 项目今日新增约3100星、关注度高；简介未填且说明少，可从源码和提交记录了解定位。",
    "categories": [
     "pick"
    ],
@@ -473,20 +486,7 @@
    "title": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
    "published": "2026-11-01",
-   "summary": "",
-   "categories": [
-    "pick"
-   ],
-   "priority": "high"
-  },
-  {
-   "kind": "news",
-   "source_id": "pick",
-   "source_name": "我的挑选",
-   "title": "milind-soni/OpenMausBot",
-   "url": "https://github.com/milind-soni/OpenMausBot",
-   "published": "2026-11-01",
-   "summary": "",
+   "summary": "它记录智能体操作，用AI压缩信息并注入后续会话以实现跨会话持久记忆，兼容多种工具，今日新增星标1,527个。",
    "categories": [
     "pick"
    ],

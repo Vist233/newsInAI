@@ -50,3 +50,19 @@
 [07:03:05] 精选 4 条
 [07:03:10] 内容写入 content/2026-11-01.json，共 36 条
 [07:03:10] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[07:03:11] commit rc=0 [main 865a301] daily: 2026-11-01 自动更新（21 处降级）
+[07:03:19] push main rc=0    f036a95..865a301  main -> main
+[07:03:25] push gh-pages rc=0    998aa6a..7066072  gh-pages -> gh-pages
+[07:03:25] === 完成，降级项 21 ===
+[07:03:25] 降级明细: HN 摘要缺失×9, GH 摘要缺失×6, 论文摘要缺失×6
+[22:49:51] === 开始 2026-11-01 ===
+[22:50:15] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-11-01.json
+[22:53:39]   摘要失败 RemoteDisconnected: Remote end closed connection without response
+[22:53:39] 并发摘要 28 条（4 路）用时 204s
+[22:53:39] HN 10 条，摘要成功 10
+[22:53:39] GH 10 条，摘要成功 10
+[22:53:40] 论文 8 篇，摘要成功 7
+[22:58:08] 视频 4 条
+[23:00:05] 精选 4 条
+[23:00:22] 内容写入 content/2026-11-01.json，共 36 条
+[23:00:22] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
