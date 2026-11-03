@@ -1,0 +1,496 @@
+{
+ "date": "2026-11-03",
+ "summary": "今天的条目看似杂糅，共同主线却是“新工具叙事”与“数字维护现实”的拉扯：一边是模型权重改写、无声输入、智能体桌面与记忆插件，一边是网站备份、自雇者安全指南和CD艺术刻录。我的判断是，AI工具链的“能力突破”被高估，尤其Astra读写权重已有误导争议，GitHub热榜上的智能体、记忆和插件项目也多是演示成熟度高于实际可靠性；它们制造了进展感，却不等于可复现、可维护的生产力。真正被低估的是那些不性感的笨功夫：备份、安全基线、可验证工程和长期维护。今天最值得记住的不是又一个热榜项目，而是别把热榜当拐点，先把数字资产和基本安全看住。",
+ "movie": {
+  "title": "Ikiru",
+  "year": 1952,
+  "director": "黑泽明",
+  "reason": "提醒时间该压在哪件事上",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "The Effective Engineer",
+  "author": "Edmond Lau",
+  "chapter": "Focus on High-Leverage Activities",
+  "reason": "讲杠杆与高产出习惯",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Astra can read and write weights to improve Qwen",
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "published": "2026-11-02T18:21:28+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Show HN: Subvocal – Talk to your computer without making noise",
+   "url": "https://news.ycombinator.com/item?id=50340088",
+   "published": "2026-11-02T17:16:17+00:00",
+   "summary": "Hacker News上名为Subvocal的Show HN项目讨论如何让人不出声地与电脑交流，帖子获得773分和360条评论，热度很高。参与者关注无声语音识别在准确性、延迟和舒适度上的表现，也讨论其隐私风险、误触发可能以及适用场景，例如公共空间、办公环境和无障碍输入。评论还比较了它与传统语音输入、键盘和手势交互的差异，并追问设备形态、训练成本和实际可用性，整体呈现对新技术潜力的兴趣与对落地难点的审慎评估。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "If you love a website, back it up",
+   "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+   "published": "2026-11-02T13:25:35+00:00",
+   "summary": "这篇Hacker News讨论围绕“如果你喜欢一个网站，就把它备份下来”展开。原文呼吁用户主动保存珍视的网页内容，以应对链接失效、网站关停和内容被修改。评论中有人分享网页归档工具与离线保存方法，也有人讨论版权、隐私、存储成本和长期维护问题，并提醒备份应选择开放格式、保留来源信息。整体观点是个人和小社区应承担数字保存责任，而不是完全依赖平台或互联网档案馆。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "US boy names that became girl names and vice versa",
+   "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+   "published": "2026-11-02T16:34:36+00:00",
+   "summary": "Hacker News 上围绕一篇分析美国姓名性别转换现象的文章展开讨论，主题包括曾属男孩后多用于女孩的名字及反向案例。帖子获得较高关注，评论从历史数据、统计口径、文化变迁和社会性别观念等角度补充案例并质疑结论，也探讨命名趋势如何反映代际偏好与性别边界的变化。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+   "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+   "published": "2026-11-03T12:21:17+00:00",
+   "summary": "Hacker News 上这篇讨论围绕一篇质疑性文章展开，文章认为“Astra 能读取和写入权重来改进 Qwen”的说法具有误导性。讨论者关注 Astra 是否真的直接访问模型权重、相关实验如何描述以及结论是否被过度传播，并讨论微调与权重修改机制的区别。该帖获得 410 分和 81 条评论，反映出社区对模型权重操作声明和技术传播准确性的重视。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+   "url": "https://hackertimes.ca/",
+   "published": "2026-11-03T01:53:34+00:00",
+   "summary": "这篇 Hacker News 讨论介绍了 Show HN 项目 Hacker Times，它把 Hacker News 的条目与讨论以《纽约时报》式的版面和新闻纸美学重新呈现，链接为 hackertimes.ca。该帖获得 387 分和 123 条评论，讨论主要围绕这种改版在可读性、信息密度、视觉风格以及与原版 Hacker News 使用体验上的差异展开。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+   "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+   "published": "2026-11-02T16:25:26+00:00",
+   "summary": "Hacker News 上展示了一个名为 Warsaw in voxels 的项目，用体素风格呈现华沙市中心的交互式三维地图。该作品获得305分和50条评论，讨论集中在浏览器中的渲染性能、体素建模与城市数据来源、交互操作和移动端体验，以及这类可视化在旅游导览和城市规划中的应用潜力。评论者还关注开源实现、加载速度与大规模场景优化等问题。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+   "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+   "published": "2026-11-03T01:33:43+00:00",
+   "summary": "这个 Hacker News 讨论围绕开源项目 DiscImageStudio 展开，该项目尝试把可见图案直接烧录到 CD、DVD 和蓝光光盘表面。帖子获得 303 分和 65 条评论，参与者主要关注它在不同刻录机与光盘上的兼容性、图像定位与灰度控制、对光驱寿命和光盘可读性的影响，以及和 LightScribe、LabelFlash、打印贴纸等方案的比较。也有人讨论该技术的复古价值、保存用途和实际可用性。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+   "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+   "published": "2026-11-02T17:47:40+00:00",
+   "summary": "Hacker News 上这条讨论介绍 NIST 面向自雇人士和单人创业者的网络安全指南，帖子获得 293 分和 82 条评论。讨论焦点在于资源有限的小型经营者如何落实身份认证、备份、软件更新和钓鱼防护等基础措施，以及指南是否足够可操作。评论者也关注合规负担、成本与实际威胁之间的平衡，并交流适合个人业务的安全实践和工具选择。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Nvidia – open-source auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "published": "2026-11-03T07:04:50+00:00",
+   "summary": "Nvidia在GitHub开源auto-ontology项目，并在Hacker News上引发技术讨论，目前获得206分和70条评论。讨论主要关注自动构建本体、知识图谱与语义建模能否降低人工成本，也涉及大模型生成本体的可靠性、可维护性和企业落地价值，以及NVIDIA开源工具对数据治理生态的影响。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "published": "2026-11-03",
+   "summary": "claude-mem 是一个用 TypeScript 开发的开源项目，旨在为各类智能体提供跨会话的持久上下文能力。它会记录智能体在会话中的操作，借助 AI 对内容进行压缩，并在后续会话中注入相关上下文，从而减少重复说明和记忆丢失。项目兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具，今日新增 1138 星，受到较多关注。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "published": "2026-11-03",
+   "summary": "vercel-labs/agent-desktop 是一个面向 AI 智能体的计算机使用命令行工具，使用 Rust 语言开发，目标是让智能体通过 CLI 与计算机和桌面环境交互并执行操作。项目今日新增 3,792 颗星，受到开发者广泛关注。它将计算机使用能力封装为命令行接口，便于接入自动化流程和智能体工作流，适合希望让 AI 代理直接操作计算机的开发者探索和使用。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "published": "2026-11-03",
+   "summary": "该项目是一个用 Rust 编写的开源命令行工具，专注于 Git worktree 管理，并为并行 AI 智能体工作流设计。它帮助开发者更方便地创建、切换和协调多个工作树，从而支持多个 AI 代理同时处理不同任务，减少相互干扰。项目今日新增 437 星，显示出社区对高效并行开发与工作树管理方案的关注。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "published": "2026-11-03",
+   "summary": "JustVugg/colibri 是一个用 C 语言实现的开源分层推理引擎，面向前沿 MoE 模型。它将热专家放在 GPU 上并支持 CUDA 与 Vulkan，温专家驻留内存，冷专家从 NVMe 流式读取，从而在用户已有硬件上运行大规模模型。项目今日新增 803 星，受到较多关注。",
+   "categories": [
+    "C"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "published": "2026-11-03",
+   "summary": "mattpocock/skills 是一个以 Shell 为主的 GitHub 开源项目，简介为面向真实工程师的技能，内容直接来自作者的 .agents 目录。项目汇集了可复用的工程实践与代理技能配置，便于开发者参考和借鉴，今日新增 1164 星，受到较多关注。",
+   "categories": [
+    "Shell"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "p-e-w/heretic",
+   "url": "https://github.com/p-e-w/heretic",
+   "published": "2026-11-03",
+   "summary": "heretic 是一个用 Python 开发的开源项目，主打免训练的语言模型修改能力。它无需重新训练模型，即可对现有语言模型进行行为调整，包括移除审查限制、抑制低质灌水内容、减少谄媚式回答等，并提供更多可定制修改方向。项目今日新增 699 星，受到较多关注，适合希望以较低成本调整语言模型输出风格与行为边界的开发者和研究者参考。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "spotify/portal-ai-plugins",
+   "url": "https://github.com/spotify/portal-ai-plugins",
+   "published": "2026-11-03",
+   "summary": "spotify/portal-ai-plugins 是 Spotify 在 GitHub 上开源的一个 TypeScript 项目，聚焦 AI 插件相关能力，为开发者提供可复用的插件化方案与集成基础。项目今日新增约 94 个 Star，说明社区关注度正在上升。借助 TypeScript 的类型系统和生态，项目便于在现有前端或 Node.js 工程中接入、扩展和维护，适合希望探索 AI 插件架构、工具调用与多场景集成的团队参考。由于简介信息较少，建议访问仓库查看具体目录、示例和文档，以了解安装方式、接口设计和适用边界。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "floci-io/floci",
+   "url": "https://github.com/floci-io/floci",
+   "published": "2026-11-03",
+   "summary": "floci 是 GitHub 上的开源项目，使用 Java 开发，定位为轻量、灵活且始终免费的 AWS 本地模拟器替代方案。项目简介强调其轻巧、易用和免费特性，适合开发者在本地环境中模拟 AWS 服务，用于开发与测试。该项目今日新增 219 星，关注度较高。",
+   "categories": [
+    "Java"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "Usagi-org/ai-goofish-monitor",
+   "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+   "published": "2026-11-03",
+   "summary": "Usagi-org/ai-goofish-monitor 是一个使用 Python 开发的开源项目，基于 Playwright 与 AI 技术，为闲鱼提供多任务实时监控、定时监控和智能分析能力。项目配备功能完善的后台管理界面，可帮助用户从海量商品信息中更高效地筛选并发现心仪产品。该项目今日新增 204 星，适合关注二手交易监控、自动化筛选与智能分析的用户了解和使用。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "anomalyco/hex",
+   "url": "https://github.com/anomalyco/hex",
+   "published": "2026-11-03",
+   "summary": "anomalyco/hex 是一个用 Rust 编写的开源本地语音听写项目，面向 macOS、Windows 和 Linux 用户，目标是在本地完成语音转文字输入，减少对云端服务的依赖。项目今日新增 1134 个 Star，关注度较高。借助 Rust 在性能和跨平台方面的优势，它适合希望在日常写作、记录或办公场景中快速进行语音输入的用户，也便于开发者参与改进和部署。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+   "url": "http://arxiv.org/abs/2611.03647v1",
+   "published": "2026-11-03",
+   "summary": "本文提出Pixel-UMI，一种从传感器化人类演示中学习环境感知全身操作策略的流程。针对人机本体差异带来的策略学习难题，作者首先提出环境感知重定向方法EAR，将重建场景几何与演示中的头部和夹爪轨迹结合，确定机器人姿态并生成碰撞感知的关节与基座目标，再通过延迟校准的动作分配将轨迹转化为动作。由于运动学差异会留下残余位姿误差，造成人类演示与机器人观察之间的视角不匹配，作者进一步提出重定向误差感知掩码REAM，在训练中利用这些误差，降低部署时对不匹配视角的依赖，从而提升全身操作策略的迁移效果。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
+   "url": "http://arxiv.org/abs/2611.03648v1",
+   "published": "2026-11-03",
+   "summary": "本文介绍Pixel，一个协同设计的全栈机器人系统，用于学习通用移动操作。该系统将低成本轮式人形机器人、与人体对齐的运动学结构、柔性夹爪、多种遥操作与无需机器人的人体数据采集接口、统一全身控制器，以及面向人类和机器人演示的通用策略学习流程整合在一起。其分层学习框架进一步支持语言条件下的视觉运动控制和长时程任务执行。论文从硬件、数据采集和策略学习等方面评估系统，展示了全栈协同设计对提升通用移动操作能力的作用。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
+   "url": "http://arxiv.org/abs/2611.03641v1",
+   "published": "2026-11-03",
+   "summary": "该论文针对大语言模型在基础逻辑推理上仍缺乏确定性与可靠性、而传统符号方法又依赖专门形式编码的问题，提出一种神经符号框架，将自然语言斑马逻辑谜题借助大模型进行语义解析并转化为精确覆盖问题，再由确定性符号求解器完成推理。该方法试图兼顾神经模型对自然语言的理解能力与符号推理的正确性和完备性，从而提升斑马谜题求解的可靠性。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+   "url": "http://arxiv.org/abs/2611.03634v1",
+   "published": "2026-11-03",
+   "summary": "本文提出WebHarbor，面向GUI网页智能体构建可稳定评估与训练的真实交互环境。在线网站评估受内容变化、访问限制和认证工作流覆盖不足影响，现有合成训练环境又缺乏功能深度与视觉保真。WebHarbor包含153个可执行且Docker化的网站环境，在确定性控制下重建真实网页服务的界面、内容和功能流程。其通过任务驱动的人机协作构建，新任务推动环境扩展，编码智能体实现修改，人工审核视觉保真、功能正确性和任务有效性。该套件包含3518个任务，覆盖多步交互。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap",
+   "url": "http://arxiv.org/abs/2611.03633v1",
+   "published": "2026-11-03",
+   "summary": "Muon近年来成为大语言模型预训练的有前景优化器，在降低预训练损失上较AdamW更快，但其优势在微调后是否保留仍不清楚。本文研究Muon与AdamW的下游表现，发现预训练数据预算足够大后，AdamW在微调后反而优于Muon；随着模型规模增大，AdamW会在更小的预训练token与参数比处实现反超。为解释这一反转，作者将微调视为对输出的扰动，并提出margin-to-spread ratio，用于衡量正确logit相对错误logit的领先幅度与错误logit分布广度之间的关系。在语言模型中，小数据预算下Muon具有更大的该比值，大数据预算下则是AdamW更大，这与上述反转趋势相呼应。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Supporting Viewpoint Coordination for Compliance by Design with an Artifact Model for Regulatory Requirements Engineering",
+   "url": "http://arxiv.org/abs/2611.03631v1",
+   "published": "2026-11-03",
+   "summary": "该论文关注合规设计背景下监管需求工程中法律专家与软件工程人员之间的协调难题。针对法律知识复杂、监管需求需同时保证法律有效性与后续软件设计可实施性，而现有方法难以衔接法律与工程视角的问题，作者提出监管需求工程制品模型AM4RRE，并通过模板将其操作化，以支持双方在需求规格说明中的协作。论文对该方法进行了评估并取得积极结果，为合规设计的监管需求工程提供了结构化支持。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR",
+   "url": "http://arxiv.org/abs/2611.03627v1",
+   "published": "2026-11-03",
+   "summary": "本文研究强化学习与可验证奖励能否通过推理策略促进大语言模型推理泛化。作者构建可控方程求解框架，要求为方程 f(x)=y 寻找多个输入 x，其中 f 为非双射字符串函数，使推理策略可观察，并定义由易到难的分布外偏移，如更多解和更长 y。实验发现一种不易察觉的失败：模型在分布内任务上准确率高且能逐步推导，但在分布外偏移下放弃推导，退化为低效暴力枚举，准确率骤降。这表明 RLVR 并非总能带来可泛化推理策略。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling",
+   "url": "http://arxiv.org/abs/2611.03625v1",
+   "published": "2026-11-03",
+   "summary": "针对在线RLVR中全对或全错样本组不产生相对优势、浪费生成预算的问题，现有自适应调度器依赖单一提示通过率跟踪器，同时估计策略能力变化与题目固有难度，短记忆会扰乱提示排序，长记忆则产生过时估计。论文提出FADE，一种双线性状态空间滤波器，将每个提示的成功logit表示为白化后策略能力与题目难度的内积，分离快慢两个时间尺度，从而更准确估计提示信息量并改进在线调度。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Make Your AI Agents Predictable With Graph Engineering - Zachary Blumenfeld, Neo4j",
+   "url": "https://www.youtube.com/watch?v=g_NgCLTibiM",
+   "published": "2026-11-03",
+   "summary": "Neo4j用图工程把AI agent的状态与决策路径显式建模，说明多步代理行为如何可预测。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/g_NgCLTibiM/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Your AI Agents Shouldn't Care Where They Run - Nikhil Harithas, Factory",
+   "url": "https://www.youtube.com/watch?v=XIHZpZtYCzo",
+   "published": "2026-11-03",
+   "summary": "Nikhil Harithas 在 Factory 说明 AI agent 应抽象掉运行环境，同一套逻辑跨本地和云端跑，避免被基础设施绑死。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/XIHZpZtYCzo/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "The $1B Company Fixing AI’s Software Bottleneck",
+   "url": "https://www.youtube.com/watch?v=NVzgt2AEvDg",
+   "published": "2026-11-02",
+   "summary": "视频讲一家10亿美元公司如何修复AI软件瓶颈，具体拆解其方法，能帮你看清AI落地的真实卡点。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/NVzgt2AEvDg/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "What Happens When Everyone Can Build Software",
+   "url": "https://www.youtube.com/watch?v=vl7HiMdGfjo",
+   "published": "2026-10-30",
+   "summary": "视频用自然语言直接生成可运行应用的方法，解释开发门槛降低后产品验证和团队分工为何会变。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/vl7HiMdGfjo/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Astra can read and write weights to improve Qwen",
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "published": "2026-11-03",
+   "summary": "Astra 展示了通过读写模型权重来改进 Qwen 的具体做法，且 Hacker News 上 2876 票、867 条讨论说明该方法已引发较大关注。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Show HN: Subvocal – Talk to your computer without making noise",
+   "url": "https://news.ycombinator.com/item?id=50340088",
+   "published": "2026-11-03",
+   "summary": "773票、360条讨论聚焦无声语音识别的准确性、延迟、舒适度及隐私误触风险，并比较其与语音、键盘、手势的差异。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "published": "2026-11-03",
+   "summary": "它用Rust将计算机使用能力封装成CLI，让AI智能体通过命令行操作桌面并接入自动化流程与智能体工作流。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "published": "2026-11-03",
+   "summary": "项目汇集作者 .agents 目录里的可复用工程实践与代理技能配置，开发者可直接参考，今日新增 1164 星。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+[07:00:33] === 开始 2026-11-03 ===
+[07:01:42] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-11-03.json
+[07:01:57]   摘要不合规（132 字），重试
+[07:04:51]   摘要不合规（12 字），重试
+[07:07:28] 并发摘要 28 条（4 路）用时 346s
+[07:07:28] HN 10 条，摘要成功 9
+[07:07:28] GH 10 条，摘要成功 10
+[07:07:28] 论文 8 篇，摘要成功 8
+[07:07:52]   摘要不合规（133 字），重试
+[07:08:02]   摘要不合规（12 字），重试
+[07:08:46]   摘要失败 URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur
+[07:09:16]   摘要失败 URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur
+[07:09:25]   自愈失败 [hn] Astra can read and write weights to 
+[07:09:25] 自愈后仍有 1 条缺摘要（已尽力，不阻断发布）
+[07:14:32] 视频 4 条
+[07:17:46] 精选 4 条
+[07:18:00] 内容写入 content/2026-11-03.json，共 36 条
+[07:18:01] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
