@@ -1,0 +1,759 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Brief · 2026-11-03</title>
+  <link rel="icon" href="/logo.png">
+  <style>
+    :root {
+      --paper:#f1f0ec;
+      --field:#e6e3dc;
+      --ink:#111111;
+      --muted:#6e6c66;
+      --line:#c9c5bc;
+      --line-strong:#1c1c1c;
+      --signal:#d8ff3e;
+      --signal-soft:rgba(216,255,62,.34);
+      --font-sans:Inter,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+      --font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+      --item-no-width:52px;
+      --item-gap:18px;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family:var(--font-sans);
+      background:
+        linear-gradient(rgba(201,197,188,.34) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201,197,188,.34) 1px, transparent 1px),
+        var(--paper);
+      background-size:48px 48px,48px 48px,auto;
+      color:var(--ink);
+    }
+    main {
+      max-width:1120px;
+      margin:56px auto;
+      padding:42px 20px 72px;
+      background:var(--paper);
+      box-shadow:0 0 0 12px var(--paper);
+      position:relative;
+    }
+    header {
+      border-bottom:1px solid var(--line-strong);
+      padding-bottom:28px;
+      margin-bottom:0;
+    }
+    .eyebrow,.date,.meta,.tags,.section-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:12px;
+      letter-spacing:0;
+    }
+    .identity {
+      font-family:var(--font-sans);
+      color:var(--ink);
+      font-size:clamp(36px,8vw,86px);
+      line-height:.92;
+      font-weight:800;
+      margin:8px 0 6px;
+      letter-spacing:0;
+    }
+    h1 { font-size:clamp(32px,7vw,74px); line-height:.92; margin:0; letter-spacing:0; font-weight:800; }
+    .hollow { color:transparent; -webkit-text-stroke:1.2px var(--ink); }
+    h2 { font-size:18px; margin:0; }
+    section { border-top:1px solid var(--line-strong); padding:34px 0; background:var(--paper); }
+    header + section { border-top:0; }
+    .section-head { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+    .section-no {
+      background:var(--signal);
+      color:var(--ink);
+      padding:2px 6px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:30px;
+      height:20px;
+      transform:translateY(-1px);
+    }
+    .summary {
+      white-space:pre-wrap;
+      line-height:1.75;
+      font-size:16px;
+    }
+    .section-subtitle { margin:0 0 16px 0; color:var(--muted); font-size:13px; }
+    .feature-card {
+      display:grid;
+      grid-template-columns:260px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .feature-stack {
+      display:grid;
+      gap:22px;
+    }
+    .feature-art {
+      min-height:150px;
+      border:1px solid var(--line-strong);
+      background:
+        linear-gradient(135deg, rgba(216,255,62,.52), transparent 42%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+      padding:14px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+    .feature-art-title {
+      font-size:28px;
+      line-height:.98;
+      font-weight:800;
+    }
+    .feature-art-meta {
+      font-family:var(--font-mono);
+      font-size:12px;
+      color:var(--ink);
+    }
+    .book-art {
+      background:
+        linear-gradient(135deg, rgba(17,17,17,.08), transparent 44%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+    }
+    .movie-info p { margin:0 0 10px; }
+    .movie-title { font-size:20px; line-height:1.25; }
+    .movie-reason { line-height:1.75; max-width:720px; }
+    .book-title { font-size:20px; line-height:1.25; margin:0 0 10px; }
+    .book-chapter { margin:0 0 10px; color:var(--ink); line-height:1.5; }
+    .book-reason { margin:0; line-height:1.75; max-width:720px; }
+    .items { border-top:0; }
+    .item {
+      display:grid;
+      grid-template-columns:var(--item-no-width) minmax(0,1fr);
+      gap:var(--item-gap);
+      border-bottom:1px solid var(--line);
+      padding:16px 0;
+      align-items:start;
+    }
+    .item:last-child {
+      border-bottom:0;
+      padding-bottom:0;
+    }
+    .item-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.35;
+      padding-top:2px;
+    }
+    .item-main { min-width:0; }
+    .title-line {
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:14px;
+      width:100%;
+    }
+    .title-link {
+      color:var(--ink);
+      font-size:17px;
+      line-height:1.35;
+      text-decoration-thickness:1px;
+      text-underline-offset:4px;
+      flex:1;
+      min-width:0;
+    }
+    .item a:hover { background:var(--signal-soft); }
+    .inline-time {
+      flex:0 0 auto;
+      white-space:nowrap;
+      text-align:right;
+    }
+    .item a { color:var(--ink); }
+    .item a:hover { background:var(--signal-soft); }
+    .source-line {
+      margin-top:6px;
+      min-height:16px;
+    }
+    .media-layout {
+      display:grid;
+      grid-template-columns:220px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .media-body {
+      min-height:100%;
+      display:flex;
+      flex-direction:column;
+    }
+    .video-meta {
+      margin-top:auto;
+    }
+    .thumb {
+      display:block;
+      width:100%;
+      aspect-ratio:16/9;
+      object-fit:cover;
+      border:1px solid var(--line-strong);
+      background:var(--field);
+    }
+    .description {
+      margin-top:8px;
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.65;
+      display:-webkit-box;
+      -webkit-line-clamp:3;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+    .monitor-link-row {
+      display:grid;
+      grid-template-columns:minmax(0,1fr) auto;
+      gap:20px;
+      align-items:center;
+    }
+    .monitor-title {
+      font-size:18px;
+      line-height:1.25;
+      margin:0 0 5px;
+    }
+    .monitor-overview {
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.55;
+      max-width:540px;
+      margin:0;
+    }
+    .monitor-facts {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:10px;
+      margin-top:14px;
+      max-width:620px;
+    }
+    .monitor-fact {
+      min-width:0;
+      padding:10px 12px;
+      border-top:2px solid var(--signal);
+      background:var(--field);
+    }
+    .monitor-fact-label {
+      display:block;
+      color:var(--muted);
+      font:10px/1.2 var(--font-mono);
+      letter-spacing:.04em;
+      text-transform:uppercase;
+    }
+    .monitor-fact-value {
+      display:block;
+      color:var(--ink);
+      font-size:25px;
+      font-weight:800;
+      line-height:1.1;
+      margin:5px 0 3px;
+    }
+    .monitor-fact-copy {
+      display:block;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.35;
+    }
+    .monitor-link {
+      display:inline-flex;
+      align-items:center;
+      border:1px solid var(--ink);
+      background:var(--field);
+      color:var(--ink);
+      padding:8px 10px;
+      font:12px/1 var(--font-mono);
+      text-decoration:none;
+      max-width:100%;
+      overflow-wrap:anywhere;
+    }
+    .monitor-link:hover {
+      background:var(--signal);
+      color:var(--ink);
+    }
+    .brief-footer {
+          margin-top:42px;
+          padding-top:18px;
+          border-top:1px solid var(--line);
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          font:12px/1 var(--font-mono);
+        }
+        .brief-footer a {
+          color:var(--muted);
+          text-decoration:none;
+        }
+        .brief-footer a:hover {
+          color:var(--ink);
+          text-decoration:underline;
+          text-decoration-color:var(--signal);
+          text-underline-offset:4px;
+        }
+        .brief-footer .footer-sep {
+          color:var(--muted);
+          margin: 0 10px;
+          user-select:none;
+          pointer-events:none;
+        }
+        @media (max-width:720px) {
+          .brief-footer .footer-sep { margin: 0 8px; }
+        }
+    @media (max-width:720px) {
+      :root {
+        --item-no-width:38px;
+      }
+      .title-line {
+        flex-direction:column;
+        align-items:flex-start;
+        gap:4px;
+      }
+      .inline-time {
+        text-align:left;
+      }
+      .media-layout { grid-template-columns:1fr; }
+      .feature-card { grid-template-columns:1fr; }
+      .monitor-link-row {
+        grid-template-columns:1fr;
+        grid-template-areas:"action" "details";
+      }
+      .monitor-copy { grid-area:details; }
+      .monitor-facts { grid-template-columns:repeat(3,minmax(0,1fr)); }
+      .monitor-link { grid-area:action; }
+      .monitor-link { justify-self:start; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="identity">ZhangYvJing's</div>
+    <h1><span class="hollow">Daily Brief</span></h1>
+  </header>
+  <section class="feature-picks">
+    <div class="section-head"><span class="section-no">00</span><h2>Film / Book Chapter</h2></div>
+    <div class="feature-stack">
+      <div class="feature-card">
+        <div class="feature-art">
+          <div class="feature-art-title">Ikiru</div>
+          <div class="feature-art-meta">1952 / 黑泽明</div>
+        </div>
+        <div class="movie-info">
+          <p class="movie-title"><strong>Ikiru (1952)</strong> · 黑泽明</p>
+          <p class="movie-reason">提醒时间该压在哪件事上</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-art book-art">
+          <div class="feature-art-title">The Effective Engineer</div>
+          <div class="feature-art-meta">Edmond Lau</div>
+        </div>
+        <div class="movie-info">
+          <p class="book-title"><strong>The Effective Engineer</strong> · Edmond Lau</p>
+          <p class="book-chapter">Focus on High-Leverage Activities</p>
+          <p class="book-reason">讲杠杆与高产出习惯</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div>
+    <div class="summary">今天的条目看似杂糅，共同主线却是“新工具叙事”与“数字维护现实”的拉扯：一边是模型权重改写、无声输入、智能体桌面与记忆插件，一边是网站备份、自雇者安全指南和CD艺术刻录。我的判断是，AI工具链的“能力突破”被高估，尤其Astra读写权重已有误导争议，GitHub热榜上的智能体、记忆和插件项目也多是演示成熟度高于实际可靠性；它们制造了进展感，却不等于可复现、可维护的生产力。真正被低估的是那些不性感的笨功夫：备份、安全基线、可验证工程和长期维护。今天最值得记住的不是又一个热榜项目，而是别把热榜当拐点，先把数字资产和基本安全看住。</div>
+  </section>
+  <section>
+    <div class="section-head"><span class="section-no">02</span><h2>Worth Reading</h2></div>
+    <p class="section-subtitle">我的挑选 · 今日值得看</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://rikiyat.github.io/blog/weight-space-programming/">Astra can read and write weights to improve Qwen</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">Astra 展示了通过读写模型权重来改进 Qwen 的具体做法，且 Hacker News 上 2876 票、867 条讨论说明该方法已引发较大关注。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://news.ycombinator.com/item?id=50340088">Show HN: Subvocal – Talk to your computer without making noise</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">773票、360条讨论聚焦无声语音识别的准确性、延迟、舒适度及隐私误触风险，并比较其与语音、键盘、手势的差异。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/vercel-labs/agent-desktop">vercel-labs/agent-desktop</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">它用Rust将计算机使用能力封装成CLI，让AI智能体通过命令行操作桌面并接入自动化流程与智能体工作流。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/mattpocock/skills">mattpocock/skills</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">项目汇集作者 .agents 目录里的可复用工程实践与代理技能配置，开发者可直接参考，今日新增 1164 星。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">03</span><h2>Hacker News</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://rikiyat.github.io/blog/weight-space-programming/">Astra can read and write weights to improve Qwen</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-02T18:21:28+00:00">2026-11-02T18:21:28+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://news.ycombinator.com/item?id=50340088">Show HN: Subvocal – Talk to your computer without making noise</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-02T17:16:17+00:00">2026-11-02T17:16:17+00:00</time></span></div>
+    
+    <div class="description">Hacker News上名为Subvocal的Show HN项目讨论如何让人不出声地与电脑交流，帖子获得773分和360条评论，热度很高。参与者关注无声语音识别在准确性、延迟和舒适度上的表现，也讨论其隐私风险、误触发可能以及适用场景，例如公共空间、办公环境和无障碍输入。评论还比较了它与传统语音输入、键盘和手势交互的差异，并追问设备形态、训练成本和实际可用性，整体呈现对新技术潜力的兴趣与对落地难点的审慎评估。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/">If you love a website, back it up</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-02T13:25:35+00:00">2026-11-02T13:25:35+00:00</time></span></div>
+    
+    <div class="description">这篇Hacker News讨论围绕“如果你喜欢一个网站，就把它备份下来”展开。原文呼吁用户主动保存珍视的网页内容，以应对链接失效、网站关停和内容被修改。评论中有人分享网页归档工具与离线保存方法，也有人讨论版权、隐私、存储成本和长期维护问题，并提醒备份应选择开放格式、保留来源信息。整体观点是个人和小社区应承担数字保存责任，而不是完全依赖平台或互联网档案馆。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://namedaisy.com/blog/boy-names-that-became-girl-names">US boy names that became girl names and vice versa</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-02T16:34:36+00:00">2026-11-02T16:34:36+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上围绕一篇分析美国姓名性别转换现象的文章展开讨论，主题包括曾属男孩后多用于女孩的名字及反向案例。帖子获得较高关注，评论从历史数据、统计口径、文化变迁和社会性别观念等角度补充案例并质疑结论，也探讨命名趋势如何反映代际偏好与性别边界的变化。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://honnibal.dev/blog/astra-read-write-misleading">The &#x27;Astra can read and write weights to improve Qwen&#x27; post is misleading</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03T12:21:17+00:00">2026-11-03T12:21:17+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上这篇讨论围绕一篇质疑性文章展开，文章认为“Astra 能读取和写入权重来改进 Qwen”的说法具有误导性。讨论者关注 Astra 是否真的直接访问模型权重、相关实验如何描述以及结论是否被过度传播，并讨论微调与权重修改机制的区别。该帖获得 410 分和 81 条评论，反映出社区对模型权重操作声明和技术传播准确性的重视。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://hackertimes.ca/">Show HN: Hacker Times, a New York Times-inspired version of Hacker News</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03T01:53:34+00:00">2026-11-03T01:53:34+00:00</time></span></div>
+    
+    <div class="description">这篇 Hacker News 讨论介绍了 Show HN 项目 Hacker Times，它把 Hacker News 的条目与讨论以《纽约时报》式的版面和新闻纸美学重新呈现，链接为 hackertimes.ca。该帖获得 387 分和 123 条评论，讨论主要围绕这种改版在可读性、信息密度、视觉风格以及与原版 Hacker News 使用体验上的差异展开。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://p.migdal.pl/warsaw-vibe-voxel/">Show HN: Warsaw in voxels – An interactive 3D map of the city centre</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-02T16:25:26+00:00">2026-11-02T16:25:26+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上展示了一个名为 Warsaw in voxels 的项目，用体素风格呈现华沙市中心的交互式三维地图。该作品获得305分和50条评论，讨论集中在浏览器中的渲染性能、体素建模与城市数据来源、交互操作和移动端体验，以及这类可视化在旅游导览和城市规划中的应用潜力。评论者还关注开源实现、加载速度与大规模场景优化等问题。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio">DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03T01:33:43+00:00">2026-11-03T01:33:43+00:00</time></span></div>
+    
+    <div class="description">这个 Hacker News 讨论围绕开源项目 DiscImageStudio 展开，该项目尝试把可见图案直接烧录到 CD、DVD 和蓝光光盘表面。帖子获得 303 分和 65 条评论，参与者主要关注它在不同刻录机与光盘上的兼容性、图像定位与灰度控制、对光驱寿命和光盘可读性的影响，以及和 LightScribe、LabelFlash、打印贴纸等方案的比较。也有人讨论该技术的复古价值、保存用途和实际可用性。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you">Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-02T17:47:40+00:00">2026-11-02T17:47:40+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上这条讨论介绍 NIST 面向自雇人士和单人创业者的网络安全指南，帖子获得 293 分和 82 条评论。讨论焦点在于资源有限的小型经营者如何落实身份认证、备份、软件更新和钓鱼防护等基础措施，以及指南是否足够可操作。评论者也关注合规负担、成本与实际威胁之间的平衡，并交流适合个人业务的安全实践和工具选择。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/NVIDIA/auto-ontology">Nvidia – open-source auto-ontology</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03T07:04:50+00:00">2026-11-03T07:04:50+00:00</time></span></div>
+    
+    <div class="description">Nvidia在GitHub开源auto-ontology项目，并在Hacker News上引发技术讨论，目前获得206分和70条评论。讨论主要关注自动构建本体、知识图谱与语义建模能否降低人工成本，也涉及大模型生成本体的可靠性、可维护性和企业落地价值，以及NVIDIA开源工具对数据治理生态的影响。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">04</span><h2>GitHub Trending</h2></div>
+    <p class="section-subtitle">Daily · Top 10</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">claude-mem 是一个用 TypeScript 开发的开源项目，旨在为各类智能体提供跨会话的持久上下文能力。它会记录智能体在会话中的操作，借助 AI 对内容进行压缩，并在后续会话中注入相关上下文，从而减少重复说明和记忆丢失。项目兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具，今日新增 1138 星，受到较多关注。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/vercel-labs/agent-desktop">vercel-labs/agent-desktop</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">vercel-labs/agent-desktop 是一个面向 AI 智能体的计算机使用命令行工具，使用 Rust 语言开发，目标是让智能体通过 CLI 与计算机和桌面环境交互并执行操作。项目今日新增 3,792 颗星，受到开发者广泛关注。它将计算机使用能力封装为命令行接口，便于接入自动化流程和智能体工作流，适合希望让 AI 代理直接操作计算机的开发者探索和使用。</div>
+    <div class="meta source-line">Rust</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/max-sixty/worktrunk">max-sixty/worktrunk</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">该项目是一个用 Rust 编写的开源命令行工具，专注于 Git worktree 管理，并为并行 AI 智能体工作流设计。它帮助开发者更方便地创建、切换和协调多个工作树，从而支持多个 AI 代理同时处理不同任务，减少相互干扰。项目今日新增 437 星，显示出社区对高效并行开发与工作树管理方案的关注。</div>
+    <div class="meta source-line">Rust</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/JustVugg/colibri">JustVugg/colibri</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">JustVugg/colibri 是一个用 C 语言实现的开源分层推理引擎，面向前沿 MoE 模型。它将热专家放在 GPU 上并支持 CUDA 与 Vulkan，温专家驻留内存，冷专家从 NVMe 流式读取，从而在用户已有硬件上运行大规模模型。项目今日新增 803 星，受到较多关注。</div>
+    <div class="meta source-line">C</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/mattpocock/skills">mattpocock/skills</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">mattpocock/skills 是一个以 Shell 为主的 GitHub 开源项目，简介为面向真实工程师的技能，内容直接来自作者的 .agents 目录。项目汇集了可复用的工程实践与代理技能配置，便于开发者参考和借鉴，今日新增 1164 星，受到较多关注。</div>
+    <div class="meta source-line">Shell</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/p-e-w/heretic">p-e-w/heretic</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">heretic 是一个用 Python 开发的开源项目，主打免训练的语言模型修改能力。它无需重新训练模型，即可对现有语言模型进行行为调整，包括移除审查限制、抑制低质灌水内容、减少谄媚式回答等，并提供更多可定制修改方向。项目今日新增 699 星，受到较多关注，适合希望以较低成本调整语言模型输出风格与行为边界的开发者和研究者参考。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/spotify/portal-ai-plugins">spotify/portal-ai-plugins</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">spotify/portal-ai-plugins 是 Spotify 在 GitHub 上开源的一个 TypeScript 项目，聚焦 AI 插件相关能力，为开发者提供可复用的插件化方案与集成基础。项目今日新增约 94 个 Star，说明社区关注度正在上升。借助 TypeScript 的类型系统和生态，项目便于在现有前端或 Node.js 工程中接入、扩展和维护，适合希望探索 AI 插件架构、工具调用与多场景集成的团队参考。由于简介信息较少，建议访问仓库查看具体目录、示例和文档，以了解安装方式、接口设计和适用边界。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/floci-io/floci">floci-io/floci</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">floci 是 GitHub 上的开源项目，使用 Java 开发，定位为轻量、灵活且始终免费的 AWS 本地模拟器替代方案。项目简介强调其轻巧、易用和免费特性，适合开发者在本地环境中模拟 AWS 服务，用于开发与测试。该项目今日新增 219 星，关注度较高。</div>
+    <div class="meta source-line">Java</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/Usagi-org/ai-goofish-monitor">Usagi-org/ai-goofish-monitor</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">Usagi-org/ai-goofish-monitor 是一个使用 Python 开发的开源项目，基于 Playwright 与 AI 技术，为闲鱼提供多任务实时监控、定时监控和智能分析能力。项目配备功能完善的后台管理界面，可帮助用户从海量商品信息中更高效地筛选并发现心仪产品。该项目今日新增 204 星，适合关注二手交易监控、自动化筛选与智能分析的用户了解和使用。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/anomalyco/hex">anomalyco/hex</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">anomalyco/hex 是一个用 Rust 编写的开源本地语音听写项目，面向 macOS、Windows 和 Linux 用户，目标是在本地完成语音转文字输入，减少对云端服务的依赖。项目今日新增 1134 个 Star，关注度较高。借助 Rust 在性能和跨平台方面的优势，它适合希望在日常写作、记录或办公场景中快速进行语音输入的用户，也便于开发者参与改进和部署。</div>
+    <div class="meta source-line">Rust</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">05</span><h2>YouTube</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=g_NgCLTibiM"><img class="thumb" src="https://i.ytimg.com/vi/g_NgCLTibiM/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=g_NgCLTibiM">Make Your AI Agents Predictable With Graph Engineering - Zachary Blumenfeld, Neo4j</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+        <div class="description">Neo4j用图工程把AI agent的状态与决策路径显式建模，说明多步代理行为如何可预测。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=XIHZpZtYCzo"><img class="thumb" src="https://i.ytimg.com/vi/XIHZpZtYCzo/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=XIHZpZtYCzo">Your AI Agents Shouldn&#x27;t Care Where They Run - Nikhil Harithas, Factory</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+        <div class="description">Nikhil Harithas 在 Factory 说明 AI agent 应抽象掉运行环境，同一套逻辑跨本地和云端跑，避免被基础设施绑死。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=NVzgt2AEvDg"><img class="thumb" src="https://i.ytimg.com/vi/NVzgt2AEvDg/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=NVzgt2AEvDg">The $1B Company Fixing AI’s Software Bottleneck</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-02">2026-11-02</time></span></div>
+        <div class="description">视频讲一家10亿美元公司如何修复AI软件瓶颈，具体拆解其方法，能帮你看清AI落地的真实卡点。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=vl7HiMdGfjo"><img class="thumb" src="https://i.ytimg.com/vi/vl7HiMdGfjo/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=vl7HiMdGfjo">What Happens When Everyone Can Build Software</a><span class="meta inline-time"><time class="rel-time" datetime="2026-10-30">2026-10-30</time></span></div>
+        <div class="description">视频用自然语言直接生成可运行应用的方法，解释开发门槛降低后产品验证和团队分工为何会变。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">08</span><h2>Papers</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.03647v1">Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">本文提出Pixel-UMI，一种从传感器化人类演示中学习环境感知全身操作策略的流程。针对人机本体差异带来的策略学习难题，作者首先提出环境感知重定向方法EAR，将重建场景几何与演示中的头部和夹爪轨迹结合，确定机器人姿态并生成碰撞感知的关节与基座目标，再通过延迟校准的动作分配将轨迹转化为动作。由于运动学差异会留下残余位姿误差，造成人类演示与机器人观察之间的视角不匹配，作者进一步提出重定向误差感知掩码REAM，在训练中利用这些误差，降低部署时对不匹配视角的依赖，从而提升全身操作策略的迁移效果。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.03648v1">Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">本文介绍Pixel，一个协同设计的全栈机器人系统，用于学习通用移动操作。该系统将低成本轮式人形机器人、与人体对齐的运动学结构、柔性夹爪、多种遥操作与无需机器人的人体数据采集接口、统一全身控制器，以及面向人类和机器人演示的通用策略学习流程整合在一起。其分层学习框架进一步支持语言条件下的视觉运动控制和长时程任务执行。论文从硬件、数据采集和策略学习等方面评估系统，展示了全栈协同设计对提升通用移动操作能力的作用。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.03641v1">From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">该论文针对大语言模型在基础逻辑推理上仍缺乏确定性与可靠性、而传统符号方法又依赖专门形式编码的问题，提出一种神经符号框架，将自然语言斑马逻辑谜题借助大模型进行语义解析并转化为精确覆盖问题，再由确定性符号求解器完成推理。该方法试图兼顾神经模型对自然语言的理解能力与符号推理的正确性和完备性，从而提升斑马谜题求解的可靠性。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.03634v1">WebHarbor: Docking Real Websites for Evolving GUI Agent Environments</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">本文提出WebHarbor，面向GUI网页智能体构建可稳定评估与训练的真实交互环境。在线网站评估受内容变化、访问限制和认证工作流覆盖不足影响，现有合成训练环境又缺乏功能深度与视觉保真。WebHarbor包含153个可执行且Docker化的网站环境，在确定性控制下重建真实网页服务的界面、内容和功能流程。其通过任务驱动的人机协作构建，新任务推动环境扩展，编码智能体实现修改，人工审核视觉保真、功能正确性和任务有效性。该套件包含3518个任务，覆盖多步交互。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.03633v1">Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">Muon近年来成为大语言模型预训练的有前景优化器，在降低预训练损失上较AdamW更快，但其优势在微调后是否保留仍不清楚。本文研究Muon与AdamW的下游表现，发现预训练数据预算足够大后，AdamW在微调后反而优于Muon；随着模型规模增大，AdamW会在更小的预训练token与参数比处实现反超。为解释这一反转，作者将微调视为对输出的扰动，并提出margin-to-spread ratio，用于衡量正确logit相对错误logit的领先幅度与错误logit分布广度之间的关系。在语言模型中，小数据预算下Muon具有更大的该比值，大数据预算下则是AdamW更大，这与上述反转趋势相呼应。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.03631v1">Supporting Viewpoint Coordination for Compliance by Design with an Artifact Model for Regulatory Requirements Engineering</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">该论文关注合规设计背景下监管需求工程中法律专家与软件工程人员之间的协调难题。针对法律知识复杂、监管需求需同时保证法律有效性与后续软件设计可实施性，而现有方法难以衔接法律与工程视角的问题，作者提出监管需求工程制品模型AM4RRE，并通过模板将其操作化，以支持双方在需求规格说明中的协作。论文对该方法进行了评估并取得积极结果，为合规设计的监管需求工程提供了结构化支持。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.03627v1">Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">本文研究强化学习与可验证奖励能否通过推理策略促进大语言模型推理泛化。作者构建可控方程求解框架，要求为方程 f(x)=y 寻找多个输入 x，其中 f 为非双射字符串函数，使推理策略可观察，并定义由易到难的分布外偏移，如更多解和更长 y。实验发现一种不易察觉的失败：模型在分布内任务上准确率高且能逐步推导，但在分布外偏移下放弃推导，退化为低效暴力枚举，准确率骤降。这表明 RLVR 并非总能带来可泛化推理策略。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.03625v1">FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-03">2026-11-03</time></span></div>
+    
+    <div class="description">针对在线RLVR中全对或全错样本组不产生相对优势、浪费生成预算的问题，现有自适应调度器依赖单一提示通过率跟踪器，同时估计策略能力变化与题目固有难度，短记忆会扰乱提示排序，长记忆则产生过时估计。论文提出FADE，一种双线性状态空间滤波器，将每个提示的成功logit表示为白化后策略能力与题目难度的内积，分离快慢两个时间尺度，从而更准确估计提示信息量并改进在线调度。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article></div>
+  </section>
+  
+  <footer class="brief-footer">
+    <a href="/history/">History</a>
+    <span class="footer-sep">·</span>
+    <a href="/rss.xml">RSS</a>
+  </footer>
+</main>
+<script>
+(function() {
+  function relative(iso) {
+    const then = new Date(iso);
+    if (isNaN(then.getTime())) return iso;
+    const diff = Math.floor((Date.now() - then.getTime()) / 1000);
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return Math.floor(diff / 60) + ' min ago';
+    if (diff < 86400) return Math.floor(diff / 3600) + ' hr ago';
+    if (diff < 2592000) return Math.floor(diff / 86400) + ' d ago';
+    const months = Math.floor(diff / 2592000);
+    if (months < 12) return months + ' mo ago';
+    return Math.floor(months / 12) + ' yr ago';
+  }
+  document.querySelectorAll('.rel-time').forEach(el => {
+    const iso = el.getAttribute('datetime');
+    if (iso) el.textContent = relative(iso);
+  });
+})();
+</script>
+</body>
+</html>
