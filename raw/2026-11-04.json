@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+   "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+   "points": 1409,
+   "comments": 464,
+   "published": "2026-11-03T17:22:37+00:00",
+   "hn_id": "50354960"
+  },
+  {
+   "title": "Stringman, an $800 open-source room scale gripper robot",
+   "url": "https://neufangled.com/",
+   "points": 695,
+   "comments": 212,
+   "published": "2026-11-03T16:47:29+00:00",
+   "hn_id": "50354358"
+  },
+  {
+   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+   "points": 682,
+   "comments": 197,
+   "published": "2026-11-03T17:40:00+00:00",
+   "hn_id": "50355251"
+  },
+  {
+   "title": "Safari introduces Adaptive Dark Mode in 27.3",
+   "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+   "points": 472,
+   "comments": 248,
+   "published": "2026-11-03T21:39:05+00:00",
+   "hn_id": "50358562"
+  },
+  {
+   "title": "C++26 Disapproved",
+   "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+   "points": 371,
+   "comments": 273,
+   "published": "2026-11-04T00:33:22+00:00",
+   "hn_id": "50360164"
+  },
+  {
+   "title": "AI is forcing us to pay off 40 years of technical debt",
+   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "points": 359,
+   "comments": 249,
+   "published": "2026-11-04T11:52:17+00:00",
+   "hn_id": "50364336"
+  },
+  {
+   "title": "Jelly Sheet",
+   "url": "https://mrdoob.github.io/codevember-2026/01/",
+   "points": 341,
+   "comments": 88,
+   "published": "2026-11-04T03:40:50+00:00",
+   "hn_id": "50361268"
+  },
+  {
+   "title": "The Internals of PostgreSQL",
+   "url": "https://www.interdb.jp/pg/index.html",
+   "points": 324,
+   "comments": 23,
+   "published": "2026-11-03T21:51:06+00:00",
+   "hn_id": "50358702"
+  },
+  {
+   "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+   "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+   "points": 305,
+   "comments": 158,
+   "published": "2026-11-04T08:46:29+00:00",
+   "hn_id": "50362905"
+  },
+  {
+   "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+   "url": "https://news.ycombinator.com/item?id=50363461",
+   "points": 293,
+   "comments": 79,
+   "published": "2026-11-04T10:10:27+00:00",
+   "hn_id": "50363461"
+  },
+  {
+   "title": "Kitty 0.50",
+   "url": "https://sw.kovidgoyal.net/kitty/changelog/#",
+   "points": 262,
+   "comments": 160,
+   "published": "2026-11-04T08:57:10+00:00",
+   "hn_id": "50362980"
+  },
+  {
+   "title": "How I use AI (Oct 2026)",
+   "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+   "points": 224,
+   "comments": 256,
+   "published": "2026-11-03T18:11:11+00:00",
+   "hn_id": "50355767"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "NVIDIA/auto-ontology",
+   "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "language": "Python",
+   "stars_today": "2,053",
+   "url": "https://github.com/NVIDIA/auto-ontology"
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "language": "Rust",
+   "stars_today": "524",
+   "url": "https://github.com/max-sixty/worktrunk"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "language": "Shell",
+   "stars_today": "1,376",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "repo": "floci-io/floci",
+   "desc": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+   "language": "Java",
+   "stars_today": "1,082",
+   "url": "https://github.com/floci-io/floci"
+  },
+  {
+   "repo": "thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "language": "TypeScript",
+   "stars_today": "1,165",
+   "url": "https://github.com/thedotmack/claude-mem"
+  },
+  {
+   "repo": "vercel-labs/agent-desktop",
+   "desc": "Computer use CLI for AI agents",
+   "language": "Rust",
+   "stars_today": "2,463",
+   "url": "https://github.com/vercel-labs/agent-desktop"
+  },
+  {
+   "repo": "github/spec-kit",
+   "desc": "💫 Toolkit to help you get started with SDD or any other process!",
+   "language": "Python",
+   "stars_today": "810",
+   "url": "https://github.com/github/spec-kit"
+  },
+  {
+   "repo": "The-PR-Agent/pr-agent",
+   "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+   "language": "Python",
+   "stars_today": "279",
+   "url": "https://github.com/The-PR-Agent/pr-agent"
+  },
+  {
+   "repo": "harry0703/MoneyPrinterTurbo",
+   "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+   "language": "Python",
+   "stars_today": "615",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+  },
+  {
+   "repo": "garrytan/gstack",
+   "desc": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+   "language": "TypeScript",
+   "stars_today": "285",
+   "url": "https://github.com/garrytan/gstack"
+  }
+ ],
+ "papers": [
+  {
+   "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+   "url": "http://arxiv.org/abs/2611.05377v1",
+   "published": "2026-11-03T18:59:56Z",
+   "abstract": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner. Our approach extracts compact latent actions from the video model's rich spatiotemporal features, compressing each latent video frame by $\\boldsymbol{300\\times}$ ($\\boldsymbol{1{,}200 \\rightarrow 4}$ tokens). In addition, by leveraging the video model's generative prior, these latent actions capture action-relevant dynamics disentangled from visual appearance. The resulting late"
+  },
+  {
+   "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+   "url": "http://arxiv.org/abs/2611.05376v1",
+   "published": "2026-11-03T18:59:52Z",
+   "abstract": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, attention has settled on one kind of intelligent individual, the embodied robot; we argue that the era of Physical AI holds a second kind of equal importance, the person augmented by AI. Alongside artificial general intelligence, which asks how intelligent a machine can be, stands AI-augmented human intelligence (AHI), which asks how much intelligence a machine can enable in a particular person. Reali"
+  },
+  {
+   "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+   "url": "http://arxiv.org/abs/2611.05373v1",
+   "published": "2026-11-03T18:59:15Z",
+   "abstract": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-margin preference-pair selection and a DPO-style contrastive update. We re-implement DNO-Prct independently and study it on two open-weight instruct models, Llama 3.1 8B Instruct and Mistral 7B Instruct v0.1, with GPT-4o or a larger open-weight model of the same family as the annotator. On AlpacaEval 2.0 with GPT-4o as judge, three iterations raise the length-controlled (LC) win rate against GPT-4o from 31.7% to 45.3% for Llama and from 6.8% to 18.4% for Mistral, and the tuned 8B model scores above Llama 3.1 70B Instruct on every reported win rate. With same-family open-weight annotators, the "
+  },
+  {
+   "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+   "url": "http://arxiv.org/abs/2611.05372v1",
+   "published": "2026-11-03T18:59:14Z",
+   "abstract": "Inverse kinematics (IK) converts end-effector pose commands into joint motion, and many vision-language-action (VLA) policies rely on it to act on a given arm and to transfer across embodiments. Precise IK remains laborious: redundancy and singularities complicate the inverse mapping, execution depends on hand-tuned controllers, and training data on physical robots are costly to collect. We present PolicyIK, a goal-conditioned reinforcement learning policy for high-precision IK. It updates joint-position references from pose feedback and observes its accumulated reference relative to the measured joints, so it can retain the offset that the position controller needs at rest. Two-scale pose errors with an error-dependent action gain resolve millimeter residuals while preserving large motions. Progress and dwell rewards teach it to both reach the tolerance and stay within it. In simulation"
+  },
+  {
+   "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
+   "url": "http://arxiv.org/abs/2611.05368v1",
+   "published": "2026-11-03T18:57:35Z",
+   "abstract": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in data that contributes little to overall policy performance. Recent work has shown that curating such unguided datasets can substantially improve policy performance, but these approaches operate by filtering existing datasets after collection and therefore do not prevent the acquisition of uninformative data. In this work, we propose GUILD, a novel Guided Data Collection (GDC) method that actively reasons about which data should be collected to maximize downstream policy performance. We introduce an iterative framework that alternates between 1) task proposal and data collection and 2) data evaluation to close the loop. For task proposal, we leverage semantic priors from visi"
+  },
+  {
+   "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+   "url": "http://arxiv.org/abs/2611.05358v1",
+   "published": "2026-11-03T18:54:08Z",
+   "abstract": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the behavior. The narrow-trigger organism misbehaves only when the prompt contains a specific cue: it cheats on multiple-choice questions by following a planted hint that points to a wrong answer, and behaves normally otherwise. The broad-trigger organism has no such cue: after fine-tuning on insecure code, it gives harmful responses across a wide range of open-ended prompts. We then formalize post-hoc behavioral suppression and evaluate methods along three criteria: immediate suppression of the target behavior, durability under further training, and preservation of general capability. We compare s"
+  },
+  {
+   "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
+   "url": "http://arxiv.org/abs/2611.05355v1",
+   "published": "2026-11-03T18:52:44Z",
+   "abstract": "When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\\langle q|k\\rangle|^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a Born readout. With its denominators held at their values for the input, each class probability is a polynomial in the word amplitudes, so its integrated-gradient evidence is computed by a finite quadrature with no quadrature error: the words' contributions sum to the class probability above its no-information share, to $10^{-11}$ or better. On e-SNLI natural language inference, with about 98k parameters outside the embedding, the model reaches $76.98 \\pm 0.17$% test accuracy, level with a softmax transformer of the same size ($76.62 \\pm 0.36$%). Deleting the word its evidence ranks first changes the answer in 45% of test pairs, out"
+  },
+  {
+   "title": "Agnostic Learning by Imitating",
+   "url": "http://arxiv.org/abs/2611.05346v1",
+   "published": "2026-11-03T18:45:38Z",
+   "abstract": "Given a class of machine learning models and sample access to a data distribution with binary labels, which computational task is harder: training a discriminative model that distinguishes positive and negative labels as well as the best member of the class, or training a generative model whose outputs are indistinguishable from real data by all members of the class? We prove that these two fundamental tasks in computational learning theory are not just closely related, but actually equivalent to each other in complexity. One direction of this equivalence was previously known. Indeed, the powerful regularity lemma in complexity theory gives an efficient oracle reduction from the indistinguishability task (a.k.a. multiaccuracy) to the distinguishing task (a.k.a. agnostic learning) in the style of boosting algorithms. Our main contribution is an efficient oracle reduction in the other dire"
+  },
+  {
+   "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+   "url": "http://arxiv.org/abs/2611.05345v1",
+   "published": "2026-11-03T18:45:23Z",
+   "abstract": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate. We argue that this view does not hold true for long-horizon agent reasoning. Measuring frontier open-weight models on complex agentic tasks with different speculative decoding approaches, we found that numerical noise grows within verification windows, and the draft acceptance results of the thinking process can change the output distribution of the model after 30 steps, thus noticeably influencing the reasoning accuracy of long-horizon agents in random directions. In this work, we improve the reasoning capability of target models by controlling such noise. While we cannot change the overall token distribution verified by the targ"
+  },
+  {
+   "title": "A Circuit for In-Context Learning",
+   "url": "http://arxiv.org/abs/2611.05344v1",
+   "published": "2026-11-03T18:44:34Z",
+   "abstract": "In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping it cannot have memorized, so the learning happens within a single forward pass. Prior work found candidate parts but not how they compose. We give the composition for few-shot sentence classification with arbitrary labels in three 3-4B-parameter transformers. The model implements a key-value memory over label-token positions: each label token's residual stream encodes the label's identity, and middle-layer attention heads write into it the class of the preceding demonstration as its key. At the query, upper-layer heads match the query's class against the stored keys and copy out the matching labels. An early-layer signal encoding whether any label has repeated gates this readout; in its absen"
+  },
+  {
+   "title": "Weight-space programming for auditing clinical decision networks",
+   "url": "http://arxiv.org/abs/2611.05341v1",
+   "published": "2026-11-03T18:41:15Z",
+   "abstract": "Machine learning models in radiotherapy are commissioned by testing them on cases with known answers, which may not reveal a shortcut that the test cases share with the training data. Frontier language models have recently been reported to read and write the raw weights of small neural networks, an ability called weight-space programming. The purpose of this study was to determine whether such a model, given only a clinical protocol and a network's weights, can audit and repair the network. Networks with 433 to 4,801 parameters were trained to screen head-and-neck planning requests against four rules. Flaws were planted through the training data: confounds that hid each rule, a 3 Gy shift in the cord threshold, and a hidden trigger. Claude Opus 5.5 audited each network blind, without tools, data or code execution, and every claim and repair was tested on about 420,000 requests. The langu"
+  },
+  {
+   "title": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
+   "url": "http://arxiv.org/abs/2611.05340v1",
+   "published": "2026-11-03T18:40:35Z",
+   "abstract": "Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedPhysBench has ten seeded generators of calculation items in radiation therapy, diagnostic imaging, nuclear medicine and radiation protection, up to clinical tasks such as a TG-51 calibration worksheet. Reference answers come from code implementing the governing protocols, and a grader converts units and applies tolerance bands. From the same inputs, separate checking items test error detection, showing a colleague's worksheet or only the colleague's result, half correct and half with one planted error. On a held-out test split of 1,200 items (half for two models), 12 models scored 33.3 to 100.0% on calculation. Of the nine answers graded incorrect for the four best (99.3-1"
+  }
+ ]
+}
