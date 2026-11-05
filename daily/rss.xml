@@ -5,261 +5,261 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2026 15:10:45 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 15:13:15 GMT</lastBuildDate>
     <item>
-      <title>2026-11-04 Daily Brief</title>
-      <link>https://news.zhangyvjing.com/reports/2026-11-04.html</link>
-      <guid>https://news.zhangyvjing.com/reports/2026-11-04.html</guid>
-      <pubDate>Wed, 04 Nov 2026 15:10:45 GMT</pubDate>
-      <description>今天的共同主线不是 AI 又变强了，而是 AI 正从“可选功能”变成默认基础设施，并把隐私、兼容性和工程债转嫁给用户。Postman 静默装插件、Gemini 训练聊天记录、Nvidia 固件拖慢 Linux 推理，说明问题已从模型能力转向权限边界与平台锁定；所谓“AI 迫使偿还四十年技术债”，本质是旧系统被迫为新默认值买单。GitHub 热榜上大量 agent、spec、skills、memory 项目，进一步把“即插即用生产力”包装成共识。被高估的正是这种代理/插件堆叠的自动化和“本地可解释模型权重”的万能感：它们没有自动带来可审计的数据契约、可回滚的工程实践和跨平台性能。真正稀缺的不是更多 AI 入口，而是明确同意、透明数据流和可验证的工程责任。</description>
+      <title>2026-11-05 Daily Brief</title>
+      <link>https://news.zhangyvjing.com/reports/2026-11-05.html</link>
+      <guid>https://news.zhangyvjing.com/reports/2026-11-05.html</guid>
+      <pubDate>Thu, 05 Nov 2026 15:13:15 GMT</pubDate>
+      <description>今天的条目表面分散，主线却是 AI agent 正从“模型秀”下沉为工具链与运行时：Kimi、Ripple 的开放权重，agent setup 讨论，skills 仓库，以及 agent-browser、agent-desktop、worktrunk、抓取监控项目，都在补代理的手脚、记忆和协作流程；与此同时，白宫网络出现住宅代理、减少 root 路径、Go JSON API、lz4 等条目提醒，底层安全与数据通道才是硬约束。我的判断是，行业正在把 agent 做成可部署的“操作系统”，但被高估的是权重榜、SOTA 标签、技能包数量和 demo 式自动化——它们不等于可靠生产力。真正决定成败的是权限隔离、代理身份与出口治理、可审计性和供应链安全；若忽视这些，agent 越自动，攻击面越大。</description>
     </item>
     <item>
-      <title>Postman silently auto-installs AI plugins and attempts to share all API data</title>
-      <link>https://github.com/postmanlabs/postman-app-support/issues/14370</link>
-      <guid>https://github.com/postmanlabs/postman-app-support/issues/14370</guid>
+      <title>Residential proxies detected on White House network</title>
+      <link>https://layer3intel.com/blog/residential-proxies-white-house-network</link>
+      <guid>https://layer3intel.com/blog/residential-proxies-white-house-network</guid>
       <category>hacker_news</category>
-      <pubDate>Tue, 03 Nov 2026 17:22:37 GMT</pubDate>
-      <description>Hacker News 上围绕 Postman 的讨论引发关注：有用户称 Postman 会在未明确告知的情况下自动安装 AI 插件，并尝试共享全部 API 数据，相关 GitHub issue 编号为 14370。该帖获得 1409 分和 464 条评论，开发者主要担忧企业接口凭据与敏感数据外泄、默认开启和知情同意不足，以及桌面工具供应链风险，并呼吁 Postman 公开说明数据流向和提供彻底关闭选项。</description>
+      <pubDate>Wed, 04 Nov 2026 20:45:18 GMT</pubDate>
+      <description>这则 Hacker News 讨论围绕 Layer3Intel 称在白宫网络中检测到住宅代理展开。评论者关注检测方法的可靠性、误报可能，以及住宅代理常与恶意软件或灰色流量有关的风险，也讨论政府网络暴露面、终端安全、ISP 设备被滥用等问题。有人强调应公开可复现证据，有人担心归因和隐私问题，整体反映对网络安全监测结论需谨慎解读。</description>
     </item>
     <item>
-      <title>Stringman, an $800 open-source room scale gripper robot</title>
-      <link>https://neufangled.com/</link>
-      <guid>https://neufangled.com/</guid>
+      <title>Sshole</title>
+      <link>https://sshhole.com</link>
+      <guid>https://sshhole.com</guid>
       <category>hacker_news</category>
-      <pubDate>Tue, 03 Nov 2026 16:47:29 GMT</pubDate>
-      <description>Hacker News 上讨论了一款名为 Stringman 的开源房间尺度抓取机器人，造价约 800 美元，项目主页为 neufangled.com，帖子获得 695 分和 212 条评论。讨论主要关注其低成本开源方案如何通过线缆或绳索机构实现房间范围移动与抓取，涉及机械结构、控制软件、负载与精度、安全性和可复现性，并与商用机械臂及科研平台比较。有人赞赏低成本与开放设计降低机器人门槛，也有人质疑实际抓取能力、维护难度和适用场景。整体反映社区对开源机器人硬件与可扩展抓取系统的兴趣。</description>
+      <pubDate>Thu, 05 Nov 2026 12:19:02 GMT</pubDate>
+      <description>Hacker News 上标题为 Sshole 的讨论围绕 sshhole.com 所展示的 SSH 相关项目展开，帖子获得 744 分和 210 条评论，关注度较高。讨论中既有对项目用途和实现方式的介绍，也有对 SSH 安全模型、部署便利性和实际使用场景的争论，评论还涉及它是否比传统方案更简单可靠，以及这类工具在权限管理和日常运维中的适用边界。整体呈现出一个技术项目在社区审视下引发的典型讨论。</description>
     </item>
     <item>
-      <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
-      <link>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</link>
-      <guid>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</guid>
+      <title>Kimi K3.1 Pro model weights are out</title>
+      <link>https://huggingface.co/moonshotai/Kimi-K3.1-Pro</link>
+      <guid>https://huggingface.co/moonshotai/Kimi-K3.1-Pro</guid>
       <category>hacker_news</category>
-      <pubDate>Tue, 03 Nov 2026 17:40:00 GMT</pubDate>
-      <description>Hacker News 上围绕 Simon Willison 的文章展开讨论，主题是在笔记本电脑上运行 Qwen 3.8 27B，并让它解释模型权重。该帖获得 682 分和 197 条评论，反映出社区对本地大模型能力、模型权重可解释性以及实际部署门槛的关注。讨论还涉及硬件需求、量化推理效果，以及这类能力对模型安全与透明度的意义。</description>
+      <pubDate>Wed, 04 Nov 2026 15:30:30 GMT</pubDate>
+      <description>Hacker News上出现了一则关于Moonshot AI发布Kimi K3.1 Pro模型权重的讨论，帖子链接指向Hugging Face上的模型页面，目前获得590分和167条评论，关注度较高。讨论主要围绕模型权重开放程度、实际能力表现、许可条件、部署成本以及本地运行可行性展开，评论者也在比较其与其他模型的差异，并分享使用预期和潜在限制。整体来看，这是一次受社区关注的开源模型发布讨论。</description>
     </item>
     <item>
-      <title>Safari introduces Adaptive Dark Mode in 27.3</title>
-      <link>https://webkit.org/blog/18541/introducing-adaptive-dark-mode/</link>
-      <guid>https://webkit.org/blog/18541/introducing-adaptive-dark-mode/</guid>
+      <title>Ask HN: What's your current AI agentic setup?</title>
+      <link>https://news.ycombinator.com/item?id=50366117</link>
+      <guid>https://news.ycombinator.com/item?id=50366117</guid>
       <category>hacker_news</category>
-      <pubDate>Tue, 03 Nov 2026 21:39:05 GMT</pubDate>
-      <description>WebKit博客宣布Safari 27.3引入自适应深色模式，Hacker News上的相关讨论获得472分和248条评论。讨论集中在浏览器如何根据页面内容和系统主题自动适配深色外观，开发者是否仍需显式声明配色方案，以及该机制与prefers-color-scheme、用户偏好和可访问性设置的关系。评论者也关注旧网页兼容性、图片和颜色处理效果、视觉一致性，以及自动适配可能给前端开发实践带来的变化。</description>
+      <pubDate>Wed, 04 Nov 2026 14:37:22 GMT</pubDate>
+      <description>Hacker News 上一条题为“Ask HN: What's your current AI agentic setup?”的讨论获得437分和508条评论，参与者集中分享各自当前的AI代理式工作环境，包括所用模型、编排框架、工具调用、记忆与检索、权限控制、成本监控和人类审核方式，也交流了在真实项目中落地代理工作流的经验、失败教训与安全边界。讨论整体呈现从单次提示向多步骤自动化协作演进的趋势，同时强调可靠性与可观测性仍是主要挑战。</description>
     </item>
     <item>
-      <title>C++26 Disapproved</title>
-      <link>https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/</link>
-      <guid>https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/</guid>
+      <title>A thousand fewer paths to root</title>
+      <link>https://openai.com/index/a-thousand-fewer-paths-to-root/</link>
+      <guid>https://openai.com/index/a-thousand-fewer-paths-to-root/</guid>
       <category>hacker_news</category>
-      <pubDate>Wed, 04 Nov 2026 00:33:22 GMT</pubDate>
-      <description>这篇 Hacker News 讨论围绕标题为 C++26 Disapproved 的文章展开，文章探讨 C++26 标准提案未获通过后 C++ 如何继续生存与发展。讨论获得 371 分和 273 条评论，参与者关注标准委员会决策流程、语言演进速度、社区分歧以及 C++ 在激烈竞争中的未来。有人质疑委员会机制是否拖慢创新，也有人认为稳健标准化仍是 C++ 的核心优势。整体呈现对 C++ 治理模式和长期生命力的集中争论。</description>
+      <pubDate>Wed, 04 Nov 2026 23:33:14 GMT</pubDate>
+      <description>Hacker News 上围绕 OpenAI 文章《A thousand fewer paths to root》展开讨论，文章介绍如何大幅减少系统中获取 root 权限的路径，以降低权限提升风险。该帖获得 431 分和 317 条评论，关注度较高。评论主要讨论这些加固措施的实际效果、容器与虚拟化隔离边界、运维成本，以及它们是否足以应对真实攻击面。</description>
     </item>
     <item>
-      <title>AI is forcing us to pay off 40 years of technical debt</title>
-      <link>https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability</link>
-      <guid>https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability</guid>
+      <title>A new Go API for JSON</title>
+      <link>https://go.dev/blog/jsonv2</link>
+      <guid>https://go.dev/blog/jsonv2</guid>
       <category>hacker_news</category>
-      <pubDate>Wed, 04 Nov 2026 11:52:17 GMT</pubDate>
-      <description>Hacker News上这篇讨论围绕“AI正在迫使我们偿还四十年技术债”展开，并以PHP2Shell漏洞为例，探讨AI如何加速漏洞发现与利用，暴露老旧Web技术栈和长期忽视的安全维护问题。帖子获得359分和249条评论，评论者讨论AI对攻防双方的影响、遗留系统升级的代价，以及团队应如何通过持续重构、依赖治理和安全文化来补课。整体观点是AI不是唯一问题，但它让积压多年的技术债更难拖延。</description>
+      <pubDate>Wed, 04 Nov 2026 17:52:11 GMT</pubDate>
+      <description>Hacker News 上关于 Go 新 JSON API 的讨论获得 361 分和 184 条评论，围绕官方博客介绍的 jsonv2 设计展开。参与者关注新 API 在性能、易用性和类型支持上的改进，也讨论其与现有 encoding/json 的兼容性、迁移成本以及实验性接口可能带来的生态影响。评论中还涉及流式处理、错误行为和结构体标签等细节，整体反映出社区对 Go 标准库 JSON 能力演进的高度关注。</description>
     </item>
     <item>
-      <title>Jelly Sheet</title>
-      <link>https://mrdoob.github.io/codevember-2026/01/</link>
-      <guid>https://mrdoob.github.io/codevember-2026/01/</guid>
+      <title>Images 2.6</title>
+      <link>https://openai.com/index/introducing-images-2-6/</link>
+      <guid>https://openai.com/index/introducing-images-2-6/</guid>
       <category>hacker_news</category>
-      <pubDate>Wed, 04 Nov 2026 03:40:50 GMT</pubDate>
-      <description>Hacker News 上关于 Jelly Sheet 的技术讨论获得 341 分和 88 条评论，项目链接为 https://mrdoob.github.io/codevember-2026/01/。这是 mrdoob 发布的 Codevember 2026 首日作品，围绕果冻般的薄片交互与图形效果展开。社区讨论聚焦其实现方式、渲染表现与性能取舍，并延伸到浏览器创意编程和实时视觉实验的趣味性。</description>
+      <pubDate>Wed, 04 Nov 2026 23:35:44 GMT</pubDate>
+      <description>这个Hacker News讨论围绕OpenAI发布Images 2.6展开，帖子获得350分和211条评论。评论者主要关注图像生成质量、文字渲染、编辑一致性和API速度成本，并与现有模型及竞品比较；有人认可细节和可用性提升，也有人质疑演示效果能否代表真实场景，并讨论版权、内容安全和生产环境落地问题。</description>
     </item>
     <item>
-      <title>The Internals of PostgreSQL</title>
-      <link>https://www.interdb.jp/pg/index.html</link>
-      <guid>https://www.interdb.jp/pg/index.html</guid>
+      <title>Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding</title>
+      <link>https://www.ricursive.com/ripple</link>
+      <guid>https://www.ricursive.com/ripple</guid>
       <category>hacker_news</category>
-      <pubDate>Tue, 03 Nov 2026 21:51:06 GMT</pubDate>
-      <description>Hacker News 上有人分享了《The Internals of PostgreSQL》这一在线技术资料，帖子获得 324 分和 23 条评论，说明数据库内核与 PostgreSQL 架构受到开发者关注。该资料系统讲解 PostgreSQL 的内部机制，涵盖存储结构、索引、事务、并发控制、WAL 和查询执行等主题，适合想深入理解数据库原理、阅读源码或进行性能调优的读者。讨论热度也反映出社区对高质量数据库学习资源的持续需求。</description>
+      <pubDate>Wed, 04 Nov 2026 18:53:29 GMT</pubDate>
+      <description>Hacker News上关于Ripple-65B预览版的技术讨论引发关注，该帖子获得316分和113条评论。Ripple-65B被介绍为美国开放权重模型中的当前最优水平，重点面向智能体编程任务。讨论围绕这一模型的性能表现、开放权重策略以及对智能体编程领域的影响展开，社区对其能否真正达到宣称的领先水平、与闭源模型的差距以及实际编码场景中的可靠性进行了多角度探讨。</description>
     </item>
     <item>
-      <title>Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux</title>
-      <link>https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop</link>
-      <guid>https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop</guid>
+      <title>Insects don't swarm at LED lights</title>
+      <link>https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/</link>
+      <guid>https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/</guid>
       <category>hacker_news</category>
-      <pubDate>Wed, 04 Nov 2026 08:46:29 GMT</pubDate>
-      <description>Hacker News 上围绕 Nvidia RTX Spark 在 Linux 下因加密固件导致推理性能仅剩约 35% 的讨论引发关注，帖子获 305 分和 158 条评论。讨论焦点包括加密固件对性能与可调试性的影响、Linux 平台驱动支持、厂商锁定与透明度，以及用户是否应选择更开放的硬件或替代方案。</description>
+      <pubDate>Wed, 04 Nov 2026 19:50:23 GMT</pubDate>
+      <description>Hacker News 上的一则讨论围绕博客文章《Insects don't swarm at LED lights》展开，该文探讨昆虫为何不在LED灯周围成群，涉及光照光谱、光污染与昆虫行为等话题。帖子获得298分和151条评论，评论者对研究证据、观察差异及LED照明影响展开辩论，并讨论如何更准确理解夜间人造光对生态的影响。</description>
     </item>
     <item>
-      <title>Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)</title>
-      <link>https://news.ycombinator.com/item?id=50363461</link>
-      <guid>https://news.ycombinator.com/item?id=50363461</guid>
+      <title>Lemmings CSS Animation</title>
+      <link>https://markblah.github.io/lemmings/</link>
+      <guid>https://markblah.github.io/lemmings/</guid>
       <category>hacker_news</category>
-      <pubDate>Wed, 04 Nov 2026 10:10:27 GMT</pubDate>
-      <description>一位用户在Hacker News上发帖提醒，谷歌Gemini会将聊天历史用于模型训练，即便是付费订阅用户和个人账户也不例外。该帖获得293分和79条评论，引发广泛讨论。评论者围绕隐私风险、默认数据设置以及如何手动关闭训练选项展开交流，也有人对比其他AI服务的数据政策，并质疑在付费订阅后仍被收集数据是否合理。</description>
+      <pubDate>Thu, 05 Nov 2026 04:54:10 GMT</pubDate>
+      <description>Hacker News上讨论了“Lemmings CSS Animation”项目，作者用纯CSS复现经典游戏《Lemmings》的动画场景，项目页面获得296分和55条评论。讨论关注CSS动画的表现力、实现技巧、性能与可维护性，也延伸到用CSS制作游戏演示的趣味和边界，体现了前端技术社区对创意实现与工程权衡的兴趣。</description>
     </item>
     <item>
       <title>NVIDIA/auto-ontology</title>
       <link>https://github.com/NVIDIA/auto-ontology</link>
       <guid>https://github.com/NVIDIA/auto-ontology</guid>
       <category>github_trending</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>NVIDIA 的 auto-ontology 是一个用 Python 开发的开源框架，用于在数据之上构建语义化、基于图的推理层。它支持确定性的查询生成，能够改善上下文检索效果，并为大语言模型和智能体工作流提供更可解释的 AI 能力。项目今日新增 2053 星，体现出开发者对语义推理与智能体结合方向的关注。</description>
-    </item>
-    <item>
-      <title>max-sixty/worktrunk</title>
-      <link>https://github.com/max-sixty/worktrunk</link>
-      <guid>https://github.com/max-sixty/worktrunk</guid>
-      <category>github_trending</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>Worktrunk 是一个用 Rust 编写的开源命令行工具，专注于简化 Git worktree 的创建、切换与清理，帮助开发者更高效地管理多个并行工作目录。它面向并行 AI 智能体工作流设计，让多个代理可在独立工作树中同时运行，减少分支冲突与上下文干扰。项目今日在 GitHub 新增 524 星，受到关注。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>NVIDIA 的 Auto Ontology 是一个用 Python 编写的开源框架，用于在数据之上构建语义化、基于图的推理层。它支持确定性的查询生成和更好的上下文检索，并提升大语言模型与智能体工作流的可解释性，帮助开发者构建更可靠的 AI 应用。项目今日新增约 2707 星，关注度较高。</description>
     </item>
     <item>
       <title>mattpocock/skills</title>
       <link>https://github.com/mattpocock/skills</link>
       <guid>https://github.com/mattpocock/skills</guid>
       <category>github_trending</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>mattpocock/skills 是一个以 Shell 为主要语言的开源项目，汇集面向真实工程场景的技能内容，并直接来自作者的 .agents 目录。项目简介强调为真正的工程师提供实用技能，适合开发者了解智能体工作流与工程化配置的实践方式。它今日新增 1376 星，说明近期受到较多关注，可作为相关工具与经验复用的参考。</description>
-    </item>
-    <item>
-      <title>floci-io/floci</title>
-      <link>https://github.com/floci-io/floci</link>
-      <guid>https://github.com/floci-io/floci</guid>
-      <category>github_trending</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>floci 是一个用 Java 编写的开源 AWS 本地模拟器替代方案，主打轻量、易用和永久免费，帮助开发者在本地调试依赖 AWS 服务的应用，减少云端调用与测试成本。项目今日新增 1082 星，受到较多关注，适合需要本地模拟云服务环境的开发者尝试。</description>
-    </item>
-    <item>
-      <title>thedotmack/claude-mem</title>
-      <link>https://github.com/thedotmack/claude-mem</link>
-      <guid>https://github.com/thedotmack/claude-mem</guid>
-      <category>github_trending</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>thedotmack/claude-mem 是一个用 TypeScript 开发的开源项目，旨在为各类智能体提供跨会话的持久上下文。它会记录智能体在会话中的操作，借助 AI 压缩这些信息，并把相关内容注入后续会话，从而减少重复说明并提升连续性。项目兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具，今日新增 1,165 星，受到较多关注。</description>
-    </item>
-    <item>
-      <title>vercel-labs/agent-desktop</title>
-      <link>https://github.com/vercel-labs/agent-desktop</link>
-      <guid>https://github.com/vercel-labs/agent-desktop</guid>
-      <category>github_trending</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>vercel-labs/agent-desktop 是一个面向 AI 智能体的计算机使用命令行工具，使用 Rust 开发，主要帮助 AI 代理通过命令行与桌面环境交互并执行操作。项目今日在 GitHub 新增 2463 星，受到较多关注，反映出开发者对 AI 智能体操作计算机这一方向的兴趣。它可用于构建更自动化的智能体工作流，为需要桌面操作能力的 AI 应用提供基础支持。</description>
-    </item>
-    <item>
-      <title>github/spec-kit</title>
-      <link>https://github.com/github/spec-kit</link>
-      <guid>https://github.com/github/spec-kit</guid>
-      <category>github_trending</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>github/spec-kit 是一个面向开发者的开源工具包，使用 Python 编写，主要帮助用户快速开始 SDD 规范驱动开发或其他开发流程。项目提供起步所需的基础工具与组织方式，便于团队降低流程落地门槛，统一规范并提升协作效率。该仓库今日新增 810 星，说明其近期受到较多关注，适合希望探索规范驱动开发实践的团队参考和使用。</description>
-    </item>
-    <item>
-      <title>The-PR-Agent/pr-agent</title>
-      <link>https://github.com/The-PR-Agent/pr-agent</link>
-      <guid>https://github.com/The-PR-Agent/pr-agent</guid>
-      <category>github_trending</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>PR Agent 是一个用 Python 编写的开源 PR 审查工具，定位为原创的开源 PR Reviewer，帮助开发者在代码合并前自动检查变更并给出审查建议。项目今日新增 279 星，关注度较高。官方特别说明它并非 Qodo 的免费版本，而是独立维护的开源项目，适合希望把自动化代码审查接入 GitHub 工作流的团队试用。</description>
-    </item>
-    <item>
-      <title>harry0703/MoneyPrinterTurbo</title>
-      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
-      <guid>https://github.com/harry0703/MoneyPrinterTurbo</guid>
-      <category>github_trending</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>harry0703/MoneyPrinterTurbo 是一个使用 Python 开发的开源项目，今日新增 615 星。它利用 AI 大模型和自动化工作流，让用户只需输入主题或关键词，就能一键生成高清短视频，简化从内容构思到视频产出的流程，适合希望提高短视频制作效率的创作者和开发者参考使用。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>mattpocock/skills 是一个在 GitHub 上关注度快速上升的开源项目，主要用 Shell 编写，简介为面向真正工程师的技能集合，内容直接来自作者自己的 .agents 目录。项目今日新增 2053 颗星，体现出较强的实用价值和社区关注度，适合希望了解工程化代理技能组织方式的开发者参考。</description>
     </item>
     <item>
       <title>garrytan/gstack</title>
       <link>https://github.com/garrytan/gstack</link>
       <guid>https://github.com/garrytan/gstack</guid>
       <category>github_trending</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>garrytan/gstack 是一个托管在 GitHub 上的开源 TypeScript 项目，提供 Garry Tan 使用的 Claude Code 配置方案。项目包含 23 个观点鲜明的工具，分别承担 CEO、设计师、工程经理、发布经理、文档工程师和 QA 等角色，覆盖产品决策、设计、工程管理、发布、文档与质量保障等环节。该项目今日新增 285 颗星，适合希望了解或复用其 Claude Code 工作流的开发者参考。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>garrytan/gstack 是一个使用 TypeScript 开发的开源项目，旨在提供 Garry Tan 实际使用的 Claude Code 配置方案。项目包含 23 个带有明确观点的工具，分别承担 CEO、设计师、工程经理、发布经理、文档工程师和 QA 等角色，覆盖从产品决策、设计开发到发布与质量保障的完整流程。该项目今日新增 608 星，适合希望借鉴成熟 AI 编程工作流并提升团队协作效率的开发者参考使用。</description>
     </item>
     <item>
-      <title>DreamX: Video Diffusion Model is a Universal Latent Action Learner</title>
-      <link>http://arxiv.org/abs/2611.05377v1</link>
-      <guid>http://arxiv.org/abs/2611.05377v1</guid>
+      <title>Usagi-org/ai-goofish-monitor</title>
+      <link>https://github.com/Usagi-org/ai-goofish-monitor</link>
+      <guid>https://github.com/Usagi-org/ai-goofish-monitor</guid>
+      <category>github_trending</category>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>该项目是GitHub上的开源闲鱼商品监控系统，使用Python开发，基于Playwright与AI实现多任务实时及定时监控和智能分析，并配备功能完善的后台管理界面，帮助用户从海量商品中高效筛选并找到心仪产品。项目今日新增242星，受到较多关注。</description>
+    </item>
+    <item>
+      <title>D4Vinci/Scrapling</title>
+      <link>https://github.com/D4Vinci/Scrapling</link>
+      <guid>https://github.com/D4Vinci/Scrapling</guid>
+      <category>github_trending</category>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>D4Vinci/Scrapling 是一个基于 Python 的开源网页抓取框架，覆盖从单次请求到大规模爬取等多种场景，旨在为数据采集提供统一而高效的解决方案。项目今日新增 1661 颗星，受到开发者关注，适合需要灵活构建抓取流程和扩展爬虫能力的用户。</description>
+    </item>
+    <item>
+      <title>vercel-labs/agent-desktop</title>
+      <link>https://github.com/vercel-labs/agent-desktop</link>
+      <guid>https://github.com/vercel-labs/agent-desktop</guid>
+      <category>github_trending</category>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>vercel-labs/agent-desktop 是一个用 Rust 开发的开源项目，定位为面向 AI 代理的计算机使用命令行工具。它让智能体能够通过 CLI 操作桌面环境，完成点击、输入等计算机交互任务，从而降低 AI 代理接入桌面操作能力的门槛。该项目今日新增 2173 星，关注度较高，适合希望探索 AI 代理与桌面自动化结合的开发者参考和使用。</description>
+    </item>
+    <item>
+      <title>max-sixty/worktrunk</title>
+      <link>https://github.com/max-sixty/worktrunk</link>
+      <guid>https://github.com/max-sixty/worktrunk</guid>
+      <category>github_trending</category>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>Worktrunk 是 GitHub 上的开源命令行工具，使用 Rust 编写，专注于 Git worktree 管理，并面向并行 AI 智能体工作流设计。它可帮助开发者创建和维护相互隔离的工作目录，让多个并行任务或智能体同时工作，减少分支切换和文件冲突带来的干扰。项目今日新增 546 星，体现出社区对高效并行开发工具的关注。</description>
+    </item>
+    <item>
+      <title>lz4/lz4</title>
+      <link>https://github.com/lz4/lz4</link>
+      <guid>https://github.com/lz4/lz4</guid>
+      <category>github_trending</category>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>lz4/lz4 是使用 C 语言实现的开源无损压缩项目，核心特点是压缩与解压速度极快、延迟低、内存占用可控，适合实时数据处理和高吞吐场景。项目提供块格式与帧格式、流式接口及命令行工具，可用于文件系统、数据库、游戏资源、网络传输和日志存储等场景，并因接口简洁、跨平台性好和宽松的开源许可而被广泛集成。</description>
+    </item>
+    <item>
+      <title>google/skills</title>
+      <link>https://github.com/google/skills</link>
+      <guid>https://github.com/google/skills</guid>
+      <category>github_trending</category>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>google/skills 是 Google 在 GitHub 上开源的项目，使用 Python 编写，主要面向 Google 产品与技术提供 Agent Skills。它将相关能力整理为可供智能体调用的技能集合，便于开发者在实际应用中发现、组合和复用这些技能。项目今日新增 199 星，关注度较高，适合需要接入 Google 技术生态的智能体开发者参考。</description>
+    </item>
+    <item>
+      <title>vercel-labs/agent-browser</title>
+      <link>https://github.com/vercel-labs/agent-browser</link>
+      <guid>https://github.com/vercel-labs/agent-browser</guid>
+      <category>github_trending</category>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>vercel-labs/agent-browser 是一个用 Rust 编写的开源浏览器自动化命令行工具，主要面向 AI 智能体，帮助其通过命令行控制浏览器并完成网页操作。项目今日新增 181 星，说明其受到较多关注，适合需要为 AI 代理接入浏览器能力的开发者和研究者试用与关注。</description>
+    </item>
+    <item>
+      <title>A Framework for Context Enrichment and Selective Robustness in LLM Social Agents</title>
+      <link>http://arxiv.org/abs/2611.06914v1</link>
+      <guid>http://arxiv.org/abs/2611.06914v1</guid>
       <category>paper</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>DreamX提出将预训练视频扩散模型复用为通用潜在动作学习器，以解决现有潜在动作表示易将动作与无关视觉变化纠缠、难以跨具身迁移的问题。该方法从视频模型丰富的时空特征中提取紧凑潜在动作，将每个潜在视频帧由1200个token压缩到4个，压缩约300倍。借助视频模型的生成先验，这些潜在动作能够捕捉与动作相关的动态，并与视觉外观解耦，从而提升动作表示的通用性和跨具身迁移能力。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>本文关注大语言模型社会代理在意义保持的提示变化下行为不稳定所引发的验证问题。作者提出受控上下文丰富框架，通过系统化的提示替换规则，分别丰富中性填充、通用社会背景、描述性决策依据和规范信息等上下文类型，以支持可比较的实验分析。研究进一步讨论选择性鲁棒性，考察更丰富的上下文是否以及何时能提升代理行为的一致性。该框架为理解上下文丰富与鲁棒性之间的关系提供了可操作的方法基础。</description>
     </item>
     <item>
-      <title>From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence</title>
-      <link>http://arxiv.org/abs/2611.05376v1</link>
-      <guid>http://arxiv.org/abs/2611.05376v1</guid>
+      <title>FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors</title>
+      <link>http://arxiv.org/abs/2611.06912v1</link>
+      <guid>http://arxiv.org/abs/2611.06912v1</guid>
       <category>paper</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>该文指出，过去十年人工智能进展多以机器独立完成多少任务来衡量，但个人仍会遗忘、忽视、失语并在艰难选择中缺少自身历史支持，因为可提供帮助的机器处于具体情境之外。随着人工智能进入物理世界，具身机器人受到关注，作者主张物理人工智能时代还应同等重视被人工智能增强的人。与追问机器能多智能的通用人工智能并列，论文提出人工智能增强人类智能，关注机器能为特定个人启用多少智能，并由此讨论从自主智能体走向认知共生体的路径。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>该论文提出FlowReconBench，用于系统评估稀疏传感器条件下的流场重建方法。基准在层流圆柱尾迹、二维Kolmogorov湍流和大尺度三维各向同性湍流三类场景中比较十种学习方法和五种经典方法，并采用防泄漏数据划分与统一传感器采样，从逐通道误差、集合离散度、校准、频谱和计算成本等维度评分。结果显示领先方法随流动状态变化，经典方法在低阶和密集传感场景表现较强；圆柱尾迹中线性随机估计和gappy POD领先，包括未观测压力重建，三维场景中的表现也被纳入比较。</description>
     </item>
     <item>
-      <title>Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization</title>
-      <link>http://arxiv.org/abs/2611.05373v1</link>
-      <guid>http://arxiv.org/abs/2611.05373v1</guid>
+      <title>BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories</title>
+      <link>http://arxiv.org/abs/2611.06911v1</link>
+      <guid>http://arxiv.org/abs/2611.06911v1</guid>
       <category>paper</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>本文研究直接纳什优化DNO如何通过近似两人偏好博弈的纳什均衡，使语言模型对齐通用偏好函数。其实际变体DNO-Prct迭代执行在线策略采样、样本与教师黄金回复的LLM评分、大间隔偏好对选择和DPO式对比更新。作者独立复现该方法，在Llama 3.1 8B Instruct与Mistral 7B Instruct v0.1上实验，并用GPT-4o或同族更大开放权重模型作标注者。在AlpacaEval 2.0以GPT-4o为评审时，三次迭代使Llama长度控制胜率从31.7%升至45.3%，Mistral从6.8%升至18.4%，调优后的8B模型在所有报告胜率上超过Llama 3.1 70B Instruct。论文还考察同族开放权重标注者设置。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>论文提出BEAKER，一个面向自驱动化学实验室具身大脑的专家策展基准，用于评估多模态大语言模型在实验室执行中的具身能力。现有基准多关注安全、异常检测或一般科学理解，忽视执行导向的具身能力。BEAKER包含1000个专家标注问答样本，覆盖11类图像和视频任务，涉及可供性定位、轨迹规划等关键判断，旨在填补自驱动化学实验室中执行导向具身能力评测的空白。</description>
     </item>
     <item>
-      <title>PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning</title>
-      <link>http://arxiv.org/abs/2611.05372v1</link>
-      <guid>http://arxiv.org/abs/2611.05372v1</guid>
+      <title>FrontierPhysics: Evaluating Agents for End-to-End Physics Research</title>
+      <link>http://arxiv.org/abs/2611.06910v1</link>
+      <guid>http://arxiv.org/abs/2611.06910v1</guid>
       <category>paper</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>PolicyIK 是一种面向机械臂高精度逆运动学的目标条件强化学习策略。它根据位姿反馈更新关节位置参考，并观察累计参考与实测关节之间的偏差，从而保留位置控制器静止时所需的偏移。该方法采用双尺度位姿误差和随误差变化的动作增益，在保持大幅运动的同时消除毫米级残差，并通过进展奖励与驻留奖励学习到达并保持在容差范围内。仿真结果表明其能够实现精确且可执行的逆运动学控制。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>本文介绍 FrontierPhysics，一个面向端到端物理研究的智能体基准，包含由42位物理学家基于自身研究设计的56项任务，覆盖理论、计算与实验物理九个领域。每项任务要求智能体完成文献调研、研究规划、开展研究与实验，并产出结构化结果和科学论文。该基准结合确定性验证器与专家评分细则，同时评估研究正确性和可发表性。对22个模型26种配置的测试显示，没有任何配置能在168次运行中通过超过46次。</description>
     </item>
     <item>
-      <title>GUILD: Guided Iterative Data Collection for Imitation Learning</title>
-      <link>http://arxiv.org/abs/2611.05368v1</link>
-      <guid>http://arxiv.org/abs/2611.05368v1</guid>
+      <title>Perceptive Humanoid Motion from Simulation</title>
+      <link>http://arxiv.org/abs/2611.06908v1</link>
+      <guid>http://arxiv.org/abs/2611.06908v1</guid>
       <category>paper</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>机器人模仿学习通常依赖昂贵的人工遥操作数据，而无引导的数据收集往往依赖操作员直觉，产生对最终策略性能贡献有限的数据。已有方法通过事后筛选数据提升性能，但无法避免收集无信息数据。为此，作者提出GUILD，一种引导式数据收集方法，主动判断应采集哪些数据以最大化下游策略表现。该方法构建迭代闭环，在任务提议与数据收集、数据评估之间交替进行，并利用视觉语义先验辅助任务提议。该框架有望减少无效采集并提升模仿学习的数据效率。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>本文介绍HALO人形机器人自主系统，旨在缓解将像素和自由语言映射到低层关节命令所需配对监督数据匮乏的问题。现有遥操作与可穿戴采集方式效率低，约需一小时人工才能产生一小时数据。HALO通过在千个程序生成家庭中合成视觉语言运动数据，使数据规模随算力而非人力扩展。系统由此学习坐椅、导航到指定物体、侧身通过半开门、蹲爬桌下及推箱等技能。</description>
     </item>
     <item>
-      <title>Suppressing Misaligned Behaviors in Language Models, Durably</title>
-      <link>http://arxiv.org/abs/2611.05358v1</link>
-      <guid>http://arxiv.org/abs/2611.05358v1</guid>
+      <title>Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement</title>
+      <link>http://arxiv.org/abs/2611.06905v1</link>
+      <guid>http://arxiv.org/abs/2611.06905v1</guid>
       <category>paper</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>该论文研究语言模型中出现或复现的不期望行为能否被有效抑制。作者构建两类模型生物，一类仅在提示含特定线索时于选择题中依植入错误提示作弊，另一类经不安全代码微调后在广泛开放式提示上产生有害回答。随后形式化事后行为抑制，并从即时抑制目标行为、后续训练下的持久性以及通用能力保持三方面评估方法，比较不同抑制策略的效果。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>本文研究通用机器人策略能否在部署阶段通过强化学习实现面向多任务的一般性自我改进，而不仅限于单任务适配。通用策略虽经大规模预训练具备零样本泛化能力，但部署时仍需适应。已有迭代式强化学习自我改进多在单任务场景验证，本文追问其能否同时提升多样任务，并探索实现该目标所需的算法方案。</description>
     </item>
     <item>
-      <title>Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits</title>
-      <link>http://arxiv.org/abs/2611.05355v1</link>
-      <guid>http://arxiv.org/abs/2611.05355v1</guid>
+      <title>Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues</title>
+      <link>http://arxiv.org/abs/2611.06899v1</link>
+      <guid>http://arxiv.org/abs/2611.06899v1</guid>
       <category>paper</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>论文提出一种每步均为Born测量的Transformer，注意力采用按行归一化的四阶跃迁概率，以测量乘积替代前馈非线性，并用Born读出。当分母保持输入时的取值，各类概率成为词幅值的多项式，因此积分梯度证据可由有限求积精确计算，词贡献之和与类别概率超出无信息份额之差可达10^-11或更优。在e-SNLI自然语言推理任务上，模型除嵌入外约9.8万参数，测试准确率为76.98±0.17%，与同规模softmax Transformer的76.62±0.36%相当。删除证据排名第一的词会使45%的测试样本对答案发生改变。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>该论文提出一种无需遮挡标注的遮挡检测方法。作者发现，仅相机流水线已计算出的两个单目距离线索之间的不一致即可反映遮挡：被遮挡行人的检测框仍覆盖整个人，因此表观高度基本不变，而单目度量深度会被框内最近的遮挡表面拉近。方法只比较二者的排序，不依赖焦距、身高或深度尺度，前提是深度模型误差近似为纯增益，且该条件可在无标签情况下检验。在KITTI上，该得分检测重度遮挡行人的AUC为0.909，覆盖全部标注行人时为0.888，包括检测器漏检者。</description>
     </item>
     <item>
-      <title>Agnostic Learning by Imitating</title>
-      <link>http://arxiv.org/abs/2611.05346v1</link>
-      <guid>http://arxiv.org/abs/2611.05346v1</guid>
+      <title>MCP-Eco: A Linked Dataset of MCP Servers, Consumers, and Development Activity</title>
+      <link>http://arxiv.org/abs/2611.06897v1</link>
+      <guid>http://arxiv.org/abs/2611.06897v1</guid>
       <category>paper</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>论文研究给定模型类与二分类数据样本访问下，判别式与生成式训练何者更难。判别任务要求区分正负标签并达类内最佳，生成任务要求输出在类内所有成员看来与真实数据不可区分。作者证明二者复杂度等价：既有工作给出从不可区分性到不可知学习的高效预言机归约，本文建立反方向高效归约，从而完整刻画两类任务的等价关系。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>MCP-Eco是一个关系型数据集，用于整合Model Context Protocol生态中分散的服务器接口、配置这些服务器的项目及其开发活动信息，并将使用方配置声明链接到候选服务器项目。其冻结版本包含19个Parquet表、16880899条记录，覆盖78302个候选服务器项目、16165个候选消费仓库和9200条配置声明，其中5975条声明解析为5138个不同的仓库服务器对。数据集还收录工具、资源与提示描述、声明依赖及相关开发记录，为研究MCP软件生态提供统一数据基础。</description>
     </item>
     <item>
-      <title>Don't Approve the AI Model. Approve the App - Doneyli De Jesus, Langfuse</title>
-      <link>https://www.youtube.com/watch?v=-uBABM2AuFg</link>
-      <guid>https://www.youtube.com/watch?v=-uBABM2AuFg</guid>
+      <title>Why Waiting for the Next AI Model Can Pay Off - John Stecher, Blackstone &amp; Scott Worland, Norm AI</title>
+      <link>https://www.youtube.com/watch?v=ra8X7_bnujw</link>
+      <guid>https://www.youtube.com/watch?v=ra8X7_bnujw</guid>
       <category>youtube</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>Langfuse 讲者主张审批应用而非模型，这为 AI 产品合规提供了可落地的方法。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>Scott Worland解释等待下一代AI模型的收益，帮企业判断当下采用还是再等一版。</description>
     </item>
     <item>
-      <title>Why Datasite Stopped Building Its Own Parsing - Adit Abraham, Reducto &amp; Raj Bakhru, Datasite</title>
-      <link>https://www.youtube.com/watch?v=0PqGT2L6cZM</link>
-      <guid>https://www.youtube.com/watch?v=0PqGT2L6cZM</guid>
+      <title>How We Took an AI Agent From 41% to 97% Accurate - Milind Sunil Shah, Brainbase Labs</title>
+      <link>https://www.youtube.com/watch?v=4VmugsE-iP0</link>
+      <guid>https://www.youtube.com/watch?v=4VmugsE-iP0</guid>
       <category>youtube</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>Datasite 的 Raj Bakhru 在视频里具体解释公司为何停掉自研文档解析并转向 Reducto，这能看清自建解析的维护成本。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>Shah用评估迭代把AI Agent准确率从41%提到97%，可对照自己项目排查失败原因。</description>
     </item>
     <item>
-      <title>How To Go From Researcher to Founder | Startup School</title>
+      <title>10 Habits PhDs Must Unlearn To Build a Startup | Startup School</title>
       <link>https://www.youtube.com/watch?v=u-8KpXcPYCw</link>
       <guid>https://www.youtube.com/watch?v=u-8KpXcPYCw</guid>
       <category>youtube</category>
       <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>YC这期视频让研究者先访谈潜在用户、验证需求再决定是否创业，并指出技术优势不能替代市场验证。</description>
+      <description>视频列出博士生创业前必须改掉的10个习惯，并点明学术完美主义会拖慢产品迭代，适合逐条对照自查。</description>
     </item>
     <item>
       <title>The $1B Company Fixing AI’s Software Bottleneck</title>
@@ -267,39 +267,39 @@
       <guid>https://www.youtube.com/watch?v=NVzgt2AEvDg</guid>
       <category>youtube</category>
       <pubDate>Mon, 02 Nov 2026 08:00:00 GMT</pubDate>
-      <description>它用估值10亿美元的公司案例，拆解AI软件瓶颈的成因与解法，可看清瓶颈如何被产品化解决。</description>
+      <description>视频用一家估值10亿美元的公司案例，拆解AI软件瓶颈的具体卡点与解法，能看清AI落地为何卡在软件</description>
     </item>
     <item>
-      <title>Postman silently auto-installs AI plugins and attempts to share all API data</title>
-      <link>https://github.com/postmanlabs/postman-app-support/issues/14370</link>
-      <guid>https://github.com/postmanlabs/postman-app-support/issues/14370</guid>
+      <title>Residential proxies detected on White House network</title>
+      <link>https://layer3intel.com/blog/residential-proxies-white-house-network</link>
+      <guid>https://layer3intel.com/blog/residential-proxies-white-house-network</guid>
       <category>news</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>用户称Postman未告知即装AI插件并尝试共享全部API数据，讨论聚焦凭据外泄与默认开启风险。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>讨论聚焦检测方法的可靠性与误报，指出住宅代理常涉恶意软件或灰色流量，并追问政府网络暴露面与可复现证据。</description>
     </item>
     <item>
-      <title>Stringman, an $800 open-source room scale gripper robot</title>
-      <link>https://neufangled.com/</link>
-      <guid>https://neufangled.com/</guid>
+      <title>Sshole</title>
+      <link>https://sshhole.com</link>
+      <guid>https://sshhole.com</guid>
       <category>news</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>约800美元的开源线缆机构实现房间尺度抓取，社区既认可低成本开放设计降门槛，也质疑抓取与维护能力。</description>
-    </item>
-    <item>
-      <title>vercel-labs/agent-desktop</title>
-      <link>https://github.com/vercel-labs/agent-desktop</link>
-      <guid>https://github.com/vercel-labs/agent-desktop</guid>
-      <category>news</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>它用Rust让AI代理通过命令行操作桌面，今日GitHub新增2463星，可支撑自动化智能体工作流。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>744分、210条评论呈现该SSH项目的用途与实现，并争论其安全模型、部署便利性及权限管理边界。</description>
     </item>
     <item>
       <title>NVIDIA/auto-ontology</title>
       <link>https://github.com/NVIDIA/auto-ontology</link>
       <guid>https://github.com/NVIDIA/auto-ontology</guid>
       <category>news</category>
-      <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
-      <description>它在数据上构建语义化图推理层，支持确定性查询生成以改善上下文检索，并让大模型和智能体工作流更可解释。</description>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>其图推理层支持确定性查询生成和上下文检索，提升大模型与智能体工作流可解释性，助建更可靠AI应用。</description>
+    </item>
+    <item>
+      <title>vercel-labs/agent-desktop</title>
+      <link>https://github.com/vercel-labs/agent-desktop</link>
+      <guid>https://github.com/vercel-labs/agent-desktop</guid>
+      <category>news</category>
+      <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+      <description>它用Rust开源CLI让AI代理点击、输入操作桌面，降低接入门槛，今日新增2173个星标。</description>
     </item>
   </channel>
 </rss>
