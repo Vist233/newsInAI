@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Residential proxies detected on White House network",
+   "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+   "points": 1192,
+   "comments": 384,
+   "published": "2026-11-04T20:45:18+00:00",
+   "hn_id": "50371246"
+  },
+  {
+   "title": "Sshole",
+   "url": "https://sshhole.com",
+   "points": 744,
+   "comments": 210,
+   "published": "2026-11-05T12:19:02+00:00",
+   "hn_id": "50378228"
+  },
+  {
+   "title": "Kimi K3.1 Pro model weights are out",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "points": 590,
+   "comments": 167,
+   "published": "2026-11-04T15:30:30+00:00",
+   "hn_id": "50366999"
+  },
+  {
+   "title": "Ask HN: What's your current AI agentic setup?",
+   "url": "https://news.ycombinator.com/item?id=50366117",
+   "points": 437,
+   "comments": 508,
+   "published": "2026-11-04T14:37:22+00:00",
+   "hn_id": "50366117"
+  },
+  {
+   "title": "A thousand fewer paths to root",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+   "points": 431,
+   "comments": 317,
+   "published": "2026-11-04T23:33:14+00:00",
+   "hn_id": "50372929"
+  },
+  {
+   "title": "A new Go API for JSON",
+   "url": "https://go.dev/blog/jsonv2",
+   "points": 361,
+   "comments": 184,
+   "published": "2026-11-04T17:52:11+00:00",
+   "hn_id": "50369106"
+  },
+  {
+   "title": "Images 2.6",
+   "url": "https://openai.com/index/introducing-images-2-6/",
+   "points": 350,
+   "comments": 211,
+   "published": "2026-11-04T23:35:44+00:00",
+   "hn_id": "50372945"
+  },
+  {
+   "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+   "url": "https://www.ricursive.com/ripple",
+   "points": 316,
+   "comments": 113,
+   "published": "2026-11-04T18:53:29+00:00",
+   "hn_id": "50369925"
+  },
+  {
+   "title": "Insects don't swarm at LED lights",
+   "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
+   "points": 298,
+   "comments": 151,
+   "published": "2026-11-04T19:50:23+00:00",
+   "hn_id": "50370610"
+  },
+  {
+   "title": "Lemmings CSS Animation",
+   "url": "https://markblah.github.io/lemmings/",
+   "points": 296,
+   "comments": 55,
+   "published": "2026-11-05T04:54:10+00:00",
+   "hn_id": "50375354"
+  },
+  {
+   "title": "Awesome repositories are no longer awesome",
+   "url": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+   "points": 143,
+   "comments": 73,
+   "published": "2026-11-05T11:16:51+00:00",
+   "hn_id": "50377821"
+  },
+  {
+   "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+   "url": "https://hachyderm.io/@damienmiller/117563026759098135",
+   "points": 133,
+   "comments": 49,
+   "published": "2026-11-05T09:46:17+00:00",
+   "hn_id": "50377221"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "NVIDIA/auto-ontology",
+   "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "language": "Python",
+   "stars_today": "2,707",
+   "url": "https://github.com/NVIDIA/auto-ontology"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "language": "Shell",
+   "stars_today": "2,053",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "repo": "garrytan/gstack",
+   "desc": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+   "language": "TypeScript",
+   "stars_today": "608",
+   "url": "https://github.com/garrytan/gstack"
+  },
+  {
+   "repo": "Usagi-org/ai-goofish-monitor",
+   "desc": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+   "language": "Python",
+   "stars_today": "242",
+   "url": "https://github.com/Usagi-org/ai-goofish-monitor"
+  },
+  {
+   "repo": "D4Vinci/Scrapling",
+   "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+   "language": "Python",
+   "stars_today": "1,661",
+   "url": "https://github.com/D4Vinci/Scrapling"
+  },
+  {
+   "repo": "vercel-labs/agent-desktop",
+   "desc": "Computer use CLI for AI agents",
+   "language": "Rust",
+   "stars_today": "2,173",
+   "url": "https://github.com/vercel-labs/agent-desktop"
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "language": "Rust",
+   "stars_today": "546",
+   "url": "https://github.com/max-sixty/worktrunk"
+  },
+  {
+   "repo": "lz4/lz4",
+   "desc": "Extremely Fast Compression algorithm",
+   "language": "C",
+   "stars_today": "16",
+   "url": "https://github.com/lz4/lz4"
+  },
+  {
+   "repo": "google/skills",
+   "desc": "Agent Skills for Google products and technologies",
+   "language": "Python",
+   "stars_today": "199",
+   "url": "https://github.com/google/skills"
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "language": "Rust",
+   "stars_today": "181",
+   "url": "https://github.com/vercel-labs/agent-browser"
+  }
+ ],
+ "papers": [
+  {
+   "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
+   "url": "http://arxiv.org/abs/2611.06914v1",
+   "published": "2026-11-04T18:58:23Z",
+   "abstract": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a validation problem for social simulation. One plausible hypothesis is that this brittleness reflects a lack of grounding and can be reduced by enriching the context provided to the agents. Whether richer context improves robustness remains unclear, in part because context richness and robustness are rarely defined in ways that support controlled comparisons. We address the first need with controlled context enrichment, a set of prompt substitution rules that systematically enriches distinct types of context: neutral padding, generic social background, descriptive decision grounding, and normat"
+  },
+  {
+   "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
+   "url": "http://arxiv.org/abs/2611.06912v1",
+   "published": "2026-11-04T18:57:47Z",
+   "abstract": "Reconstructing full flow fields from sparse sensors requires prior assumptions about unmeasured regions and physical variables. Yet it remains unclear when learned models outperform classical estimators and which aspects of their predictions can be trusted. FlowReconBench evaluates ten learned and five classical methods on three regimes: a laminar cylinder wake across Reynolds numbers, two-dimensional Kolmogorov turbulence and a large-scale three-dimensional (3D) isotropic turbulence. Methods share leakage-controlled splits and sensor draws and are scored on per-channel error, ensemble spread, calibration, spectra and cost. The leading method changes for each regime. Classical methods perform strongly in low-order and dense-sensing regimes. On the cylinder wake, linear stochastic estimation and gappy proper orthogonal decomposition lead, including for unobserved pressure. In 3D, inverse-"
+  },
+  {
+   "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+   "url": "http://arxiv.org/abs/2611.06911v1",
+   "published": "2026-11-04T18:57:17Z",
+   "abstract": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-oriented embodied capabilities underexplored. To fill this gap, we introduce BEAKER, a Benchmark for evaluating Embodied Actionability, Knowledge, Experimentation, and Reasoning in SDCLs. BEAKER contains 1,000 expert-curated question-answer samples across 11 image and video task types, covering key judgments required for chemical laboratory execution, including affordance grounding, trajectory plan"
+  },
+  {
+   "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+   "url": "http://arxiv.org/abs/2611.06910v1",
+   "published": "2026-11-04T18:56:22Z",
+   "abstract": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics. Each task requires agents to review the literature, develop a research plan, conduct research and experiments, and produce structured outputs and scientific manuscripts. Combining deterministic verifiers with expert-authored rubrics, FrontierPhysics evaluates whether agents' research is correct and publishable. Across 22 models in 26 configurations, no configuration passes more than 46 of its 168 rollouts. Manual review of agent tr"
+  },
+  {
+   "title": "Perceptive Humanoid Motion from Simulation",
+   "url": "http://arxiv.org/abs/2611.06908v1",
+   "published": "2026-11-04T18:55:33Z",
+   "abstract": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale. Some approaches rely on human teleoperation and wearable capture devices, which require at least an hour of human time to produce an hour of data. We present HALO, a humanoid autonomy system powered by a pipeline that synthesizes vision-language-motion data across a thousand procedurally generated homes. The corpus scales with compute rather than human labor. HALO acquires a repertoire of physical skills, including sitting on chairs, navigating to named objects, stepping sideways through half-open doors, crouching and crawling beneath tables, and pushing boxes"
+  },
+  {
+   "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
+   "url": "http://arxiv.org/abs/2611.06905v1",
+   "published": "2026-11-04T18:52:28Z",
+   "abstract": "The introduction of generalist robot policies has enabled a single, large model to learn to perform a variety of tasks from a vast pre-training corpus. While these models often exhibit powerful zero-shot generalization capabilities, they typically require an adaptation phase to achieve sufficient performance in deployment. Iterated self-improvement via reinforcement learning (RL) has demonstrated promise in enabling this adaptation, yet such approaches have been largely explored in single-task settings - where the goal is to simply improve on a narrow deployment task - which lies in stark contrast to the multi-task capabilities of the base policy. In this work we ask whether generalist robot policies are capable of multi-task, generalist improvement in deployment - targeting many diverse tasks simultaneously - and what algorithmic recipe enables this. To answer this question, we first de"
+  },
+  {
+   "title": "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
+   "url": "http://arxiv.org/abs/2611.06899v1",
+   "published": "2026-11-04T18:49:13Z",
+   "abstract": "Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployment settings rarely have. We show that occlusion can be read off two distance estimates a camera-only pipeline already computes. Apparent height is largely unchanged by occlusion, because the detected box still spans the whole person; monocular metric depth is pulled toward the occluder, because the nearest surface inside the box is what a depth map reports. Only their ordering matters, so no focal length, stature, or depth scale is needed, provided the depth model's error is close to a pure gain, a condition that can be checked without labels. The score detects heavy occlusion on KITTI with AUC 0.909 (0.888 over all annotated pedestrians, including those the detector misses), requires no tra"
+  },
+  {
+   "title": "MCP-Eco: A Linked Dataset of MCP Servers, Consumers, and Development Activity",
+   "url": "http://arxiv.org/abs/2611.06897v1",
+   "published": "2026-11-04T18:47:50Z",
+   "abstract": "The Model Context Protocol (MCP) enables LLM agents to access external tools and data. Studying its software ecosystem requires connecting server interfaces, the projects that configure these servers, and their development activity. However, this information is scattered across directories, package registries, configuration files, and repository histories. We present MCP-Eco, a relational dataset that integrates these sources and links consumer configuration declarations to candidate server projects. Its frozen release contains 16,880,899 records across 19 Parquet tables, covering 78,302 candidate server projects, 16,165 candidate consuming repositories, and 9,200 configuration declarations. Of these declarations, 5,975 resolve to 5,138 distinct repository-server pairs. The dataset also includes tool, resource, and prompt descriptions, declared dependencies, and associated development re"
+  },
+  {
+   "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
+   "url": "http://arxiv.org/abs/2611.06888v1",
+   "published": "2026-11-04T18:41:40Z",
+   "abstract": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposure (AIOE), with equal occupation weights and employment weights. Adjustment for physical demands, required education, training and experience, and wages reduces the composite association. The adjusted confidence intervals include zero for LLM exposure and remain below zero for AIOE. Separating repetition from restricted discretion also changes what the combined Dull score conveys. These comparisons show how item groupings and occupational characteristics shape the interpretation of exposure estimates. Occupational profiles offer a starting point for selecting contrasting res"
+  },
+  {
+   "title": "Adaptive Multi Mode: Budget-Aware Routing of Optimizers By Online Landscape Probes",
+   "url": "http://arxiv.org/abs/2611.06879v1",
+   "published": "2026-11-04T18:35:35Z",
+   "abstract": "The best classical optimizer for a continuous black-box problem depends on its budget and landscape. Existing routers decide from the dimension and budget, past improvement or features fitted to one benchmark, and few test an optimizer's implicit assumptions online. AMM (Adaptive Multi Mode) routes a known budget among quasi-Newton, trust-region, coordinate, multistart and evolution-strategy optimization engines with online probes of curvature, plateaus, separability, kinks, basins and fractal structure. Each probe has a default, a dimension-by-budget validity range and a cost charged to the budget. In its pre-registered development loop on bbob, 32 of 36 predictions held over the last 16 confirmations. AMM was then tested once on held-out bbob instances 101-110 (D=2-40, 10*D-1000*D) against up to seven competitors. It has the highest target share in 382 of 600 function-dimension-budget "
+  },
+  {
+   "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
+   "url": "http://arxiv.org/abs/2611.06876v1",
+   "published": "2026-11-04T18:34:41Z",
+   "abstract": "LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays. Compaction therefore requires balancing information retention against latency. We observe that structured summary slots can retain information when generated independently. Based on this observation, we present SpecCompact, a framework that accelerates compaction through slot-parallel semantic speculation. SpecCompact fine-tunes a small drafter and generates slots in parallel. The target model verifies each proposed line and repairs rejected content, while subsequent drafting uses the updated slot prefix. System optimizations further reduce repeated context processing and model calls. Across AppWorld and $τ^3$ benchmarks with two target models, SpecCompact achieves $2.04$--$5.63\\times$ compaction speedups over Hermes-style summariza"
+  },
+  {
+   "title": "Learning to Decode Linear Codes with Generalized Belief Propagation Network",
+   "url": "http://arxiv.org/abs/2611.06874v1",
+   "published": "2026-11-04T18:29:31Z",
+   "abstract": "Error correcting codes are a fundamental component of communication systems, enabling reliable data transmission over noisy channels. Recently, neural decoders have demonstrated notable performance gains over classical iterative algorithms. In this paper, we propose a Generalized Belief Propagation Network (GBPNet) that preserves message-passing symmetry while enhancing the decoder's learning capability. The architecture uses cascaded variable-node updates and learned element-wise message scaling while retaining the Tanner graph structure. We also introduce two training strategies, progressive training and high-SNR training, that improve decoding accuracy. Experimental results on several linear codes show that GBPNet achieves lower bit error rates than conventional belief propagation and the evaluated state-of-the-art neural decoders."
+  }
+ ]
+}
