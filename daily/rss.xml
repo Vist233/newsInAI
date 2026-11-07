@@ -5,301 +5,294 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 15:14:28 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 15:13:31 GMT</lastBuildDate>
     <item>
-      <title>2026-11-06 Daily Brief</title>
-      <link>https://news.zhangyvjing.com/reports/2026-11-06.html</link>
-      <guid>https://news.zhangyvjing.com/reports/2026-11-06.html</guid>
-      <pubDate>Fri, 06 Nov 2026 15:14:28 GMT</pubDate>
-      <description>今天这些条目看似杂糅，共同主线却是“控制权不在用户手里”：Claude Code 把邮箱暴露给网站，MS Paint 也能成为 RCE 入口，荷兰银行以兼容性为由封杀 GrapheneOS，Hackintosh 重生则说明人们仍在为可掌控的计算环境付出额外成本。真正被高估的，是“换一个更干净的工具、系统或开源替代品”就能夺回隐私与安全的个体选择，以及开源、隐私友好这类标签本身。它们能改善体验，却绕不开身份验证、默认遥测、供应链和机构激励：银行一句不支持，就能让隐私系统用户出局；本地老软件也照样进入攻击面。GitHub 热榜上的 Zed、Rust、React 等继续证明基础设施惯性强大，但工具热度不等于信任边界被修复。相比之下，强制薪资披露是少见的制度性纠偏。判断很直接：隐私不是功能清单，而是权力关系；把责任推给用户换工具，是今天最被高估的解法。</description>
-    </item>
-    <item>
-      <title>sshole</title>
-      <link>https://sshhole.com</link>
-      <guid>https://sshhole.com</guid>
+      <title>Tesla to wind down Cybertruck production</title>
+      <link>https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817</link>
+      <guid>https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 05 Nov 2026 12:19:02 GMT</pubDate>
-      <description>Hacker News 上围绕标题“sshole”和站点 sshhole.com 的技术讨论引发广泛关注，帖子获得 2817 分和 688 条评论。讨论聚焦这一 SSH 相关项目或服务的用途、实现方式与安全边界，涉及内网穿透、隧道连接、权限控制和部署成本等话题。高热度评论既关注其便利性，也提醒使用者评估暴露面、认证策略和运维风险。</description>
+      <pubDate>Fri, 06 Nov 2026 12:13:51 GMT</pubDate>
+      <description>Hacker News 上围绕特斯拉将逐步停产 Cybertruck 的报道展开讨论，帖子获 1075 分和 1929 条评论。参与者重点争论销量低迷的成因，包括定价过高、产品定位狭窄、不锈钢车身与制造复杂度、品牌争议和电动皮卡需求不足，也讨论停产对供应链、车主残值和特斯拉产品决策的启示。</description>
     </item>
     <item>
-      <title>Claude Code sends your email address to websites</title>
-      <link>https://github.com/anthropics/claude-code/issues/107757</link>
-      <guid>https://github.com/anthropics/claude-code/issues/107757</guid>
+      <title>Libghostty 1.0</title>
+      <link>https://mitchellh.com/writing/libghostty-1-0</link>
+      <guid>https://mitchellh.com/writing/libghostty-1-0</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 05 Nov 2026 22:17:15 GMT</pubDate>
-      <description>Hacker News 上围绕 Claude Code 被指将用户邮箱地址发送给所访问网站的问题展开热议，该帖获得 1364 分和 433 条评论。讨论集中在隐私泄露的范围与触发条件、这是否属于预期设计、默认配置是否应更透明，以及开发者如何通过代理、环境变量或网络隔离降低风险。评论还涉及企业部署、调试抓包和官方回应，整体反映人们对 AI 编程工具网络行为与数据边界的担忧。</description>
+      <pubDate>Fri, 06 Nov 2026 23:30:52 GMT</pubDate>
+      <description>Hacker News 上关于 Libghostty 1.0 的讨论获得 821 分和 133 条评论。Mitchell Hashimoto 宣布将 Ghostty 终端模拟器的核心能力整理为可复用的 C 库，方便其他应用嵌入终端功能。评论者关注其 API 设计、跨平台支持、性能与稳定性，并把它与现有终端库和自建终端方案作比较，也有人讨论许可证、维护成本和实际集成难度。</description>
     </item>
     <item>
-      <title>MS Paint Remote Code Execution Vulnerability</title>
-      <link>https://www.cve.org/CVERecord?id=CVE-2026-83844</link>
-      <guid>https://www.cve.org/CVERecord?id=CVE-2026-83844</guid>
+      <title>A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</title>
+      <link>https://hightouch.com/blog/llm-judges-identity-resolution</link>
+      <guid>https://hightouch.com/blog/llm-judges-identity-resolution</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 05 Nov 2026 20:43:42 GMT</pubDate>
-      <description>Hacker News 上围绕“MS Paint Remote Code Execution Vulnerability”的讨论热度很高，当前获得624分和238条评论。讨论核心是CVE-2026-83844所描述的MS Paint远程代码执行漏洞，社区关注漏洞的触发条件、实际影响范围、攻击面是否被低估，以及微软的修复和缓解建议。评论中也在争论普通用户应如何评估风险、是否应立即更新，并反思看似简单的桌面应用为何会引入严重安全后果。整体上，这是一次兼具漏洞技术细节与安全实践建议的高关注度讨论。</description>
+      <pubDate>Fri, 06 Nov 2026 19:48:51 GMT</pubDate>
+      <description>这则 Hacker News 讨论围绕一种可向 Opus 求助的 LLM 评审方案展开。作者称在身份解析任务中，让较便宜的评审模型在不确定时升级询问 Opus，可用约四分之一成本达到接近 Opus 的准确率。评论者关注评审可靠性、升级策略、基准设计与成本收益，并讨论该方法能否推广到更多模型评测场景。</description>
     </item>
     <item>
-      <title>Motorola Signature 27 with GrapheneOS support</title>
-      <link>https://motorolanews.com/motorola-signature-27-2/</link>
-      <guid>https://motorolanews.com/motorola-signature-27-2/</guid>
+      <title>Gemini Omni 1.2 Flash</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</link>
+      <guid>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 05 Nov 2026 16:01:34 GMT</pubDate>
-      <description>Hacker News上关于Motorola Signature 27支持GrapheneOS的讨论获得532分和382条评论。帖子介绍摩托罗拉这款新机对GrapheneOS的兼容支持，引发社区对可解锁引导加载程序、系统安全更新、硬件配置、隐私保护以及厂商合作态度的关注。评论者将其与Pixel等支持定制系统的机型比较，讨论刷机难度、长期维护和日常使用价值，也关注普通用户能否方便获得更安全、更少预装软件的手机体验。</description>
+      <pubDate>Fri, 06 Nov 2026 13:35:27 GMT</pubDate>
+      <description>Hacker News 上围绕 Google 发布的 Gemini Omni 1.2 Flash 展开讨论，官方博客介绍了这一面向开发者的新模型。帖子获得约350分和240条评论，关注点集中在模型能力边界、响应速度、接入成本以及在真实开发场景中的可用性，也有人讨论它与同类模型的取舍和迁移价值。</description>
     </item>
     <item>
-      <title>I wish tech companies knew more about me</title>
-      <link>https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me</link>
-      <guid>https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me</guid>
+      <title>Need for Speed Underground 2 online in the browser</title>
+      <link>https://nfsu2.xyz/</link>
+      <guid>https://nfsu2.xyz/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 05 Nov 2026 13:40:52 GMT</pubDate>
-      <description>这篇文章以反讽口吻讨论科技公司对用户了解得很浅，虽掌握大量行为数据，却常给出失准广告和重复推荐。作者希望平台真正理解长期兴趣、价值取向与具体情境，在透明和用户可控前提下提供更贴心服务。Hacker News上的讨论围绕隐私悖论、个性化与监控边界、平台激励以及用户是否愿意用数据换取更好体验展开，获得503分和392条评论。</description>
+      <pubDate>Sat, 07 Nov 2026 09:36:36 GMT</pubDate>
+      <description>Hacker News 上有人分享了让《极品飞车：地下狂飙2》线上模式在浏览器中运行的项目，链接为 nfsu2.xyz，帖子获得304分和89条评论。讨论主要关注在浏览器中承载经典竞速游戏联机的技术可行性，包括性能表现、兼容性、网络同步和部署方式，也涉及老游戏保存与版权等话题。</description>
     </item>
     <item>
-      <title>Blender's UI and Runtime: Much Faster Than GPUI</title>
-      <link>https://github.com/ppmpreetham/BUI</link>
-      <guid>https://github.com/ppmpreetham/BUI</guid>
+      <title>Every Mac comes with an (undocumented) family member classifier</title>
+      <link>https://8rank.ai/game/apple-intelligence-personal-knowledge-graph</link>
+      <guid>https://8rank.ai/game/apple-intelligence-personal-knowledge-graph</guid>
       <category>hacker_news</category>
-      <pubDate>Fri, 06 Nov 2026 07:40:35 GMT</pubDate>
-      <description>Hacker News上讨论了一个名为BUI的项目，作者宣称借助Blender的UI与运行时可以比GPUI快得多，帖子获得421分和177条评论。讨论围绕这一性能主张是否可信、基准测试是否公平，以及将Blender用作通用界面工具链的可行性展开，涉及渲染架构、事件处理、内存占用、跨平台支持和长期维护成本等话题。评论者既关注其潜在优势，也质疑实际应用中的复杂度与生态限制。</description>
+      <pubDate>Sat, 07 Nov 2026 09:46:03 GMT</pubDate>
+      <description>Hacker News 上讨论了一篇声称每台 Mac 都内置未公开家庭成员分类器的文章，相关演示指向 Apple Intelligence 个人知识图谱。帖子获得 297 分和 146 条评论。讨论集中在隐私与透明度：系统可能根据通讯录、照片、信息等本地数据推断家庭关系，但用户难以确认分类依据和关闭方式；评论还质疑准确性与误判风险，并呼吁苹果公开说明数据处理范围、是否上传云端以及如何纠正错误。整体反映出对本地智能功能便利性与个人数据边界之间平衡的关注。</description>
     </item>
     <item>
-      <title>Window Sweaters</title>
-      <link>https://github.com/saragordic/window-sweaters</link>
-      <guid>https://github.com/saragordic/window-sweaters</guid>
+      <title>Firecracker VM Escape: PwnEscape Part 2</title>
+      <link>https://pwn.ai/blog/firecracker-escape</link>
+      <guid>https://pwn.ai/blog/firecracker-escape</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 05 Nov 2026 16:50:14 GMT</pubDate>
-      <description>Hacker News 上关于 Window Sweaters 的讨论围绕一个在 GitHub 开源的窗户保温创意展开，该项目获得404分和117条评论。社区关注用毛线或织物为窗户制作保温套的材料选择、安装方式和实际隔热效果，也讨论其美观性、安全性、成本以及冬季节能DIY的可行性。评论中既有对低成本生活化改造的赞赏，也有对保温性能、潮湿霉变和租赁住房适配性的质疑，并延伸到旧窗改造与开源协作等话题。</description>
+      <pubDate>Fri, 06 Nov 2026 19:33:38 GMT</pubDate>
+      <description>这篇 Hacker News 技术讨论围绕 PwnEscape 系列第二部分展开，主题是 Firecracker 微虚拟机的逃逸问题。文章链接获得约 260 分和 110 条评论，说明社区对轻量级虚拟机隔离边界的安全性高度关注。讨论涉及逃逸利用链、Firecracker 攻击面、宿主与租户隔离以及云多租户环境风险，并延伸评估实际防护与修复建议。</description>
     </item>
     <item>
-      <title>Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS</title>
-      <link>https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105</link>
-      <guid>https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105</guid>
+      <title>First steps in bare-metal programming using UEFI</title>
+      <link>https://kevinboone.me/efitest_index.html</link>
+      <guid>https://kevinboone.me/efitest_index.html</guid>
       <category>hacker_news</category>
-      <pubDate>Fri, 06 Nov 2026 09:27:12 GMT</pubDate>
-      <description>Hacker News 上热议荷兰银行 ASN 阻止非 Google Android 设备使用其应用，GrapheneOS 等去谷歌化系统也被波及。讨论引用 GitHub 兼容性报告，指出银行以安全风控和 Google 完整性校验为由限制设备，用户则质疑这与 ASN 标榜的理想主义及隐私立场矛盾。评论围绕移动银行安全、反欺诈、用户选择权、定制系统兼容性和替代方案展开，帖子获约 400 分、235 条评论。</description>
+      <pubDate>Fri, 06 Nov 2026 16:50:29 GMT</pubDate>
+      <description>这篇 Hacker News 讨论围绕 Kevin Boone 的 UEFI 裸机编程入门文章展开，参与者关注如何借助 UEFI 应用绕过操作系统直接操作硬件，涉及启动流程、工具链、图形与串口输出、调试手段以及和传统 BIOS 或 Multiboot 的取舍。评论既肯定 UEFI 作为现代机器上低门槛裸机入口的价值，也提醒其规范复杂、厂商差异和安全启动等现实限制。</description>
     </item>
     <item>
-      <title>Britain to make salary disclosure in job ads mandatory</title>
-      <link>https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/</link>
-      <guid>https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/</guid>
+      <title>Upload Your RAM</title>
+      <link>https://uploadyourram.org</link>
+      <guid>https://uploadyourram.org</guid>
       <category>hacker_news</category>
-      <pubDate>Fri, 06 Nov 2026 07:22:04 GMT</pubDate>
-      <description>这则Hacker News讨论关注英国拟强制招聘广告披露薪资的政策，帖子获得399分和330条评论。评论者围绕薪资透明能否缩小薪酬差距、提升求职公平展开争论，也讨论企业如何设定薪资区间、执行与合规成本、招聘谈判和人才竞争可能受到的影响。整体讨论将政策目标与招聘实践结合，观点分歧明显。</description>
+      <pubDate>Sat, 07 Nov 2026 10:15:26 GMT</pubDate>
+      <description>这个 Hacker News 讨论围绕网站 Upload Your RAM 展开，该帖获得 208 分和 176 条评论。参与者主要讨论项目是玩笑、艺术实验还是技术演示，并分析浏览器内存上传的可行性、隐私与安全风险，以及这类收集内存数据的行为是否可信。多条评论还延伸到云服务信任、数据所有权和性能限制，整体气氛偏质疑与调侃。</description>
     </item>
     <item>
-      <title>The Hackintosh Reborn</title>
-      <link>https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/</link>
-      <guid>https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/</guid>
+      <title>GitHub's new Git storage architecture</title>
+      <link>https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/</link>
+      <guid>https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 05 Nov 2026 19:08:22 GMT</pubDate>
-      <description>Hacker News上题为The Hackintosh Reborn的讨论获得360分和201条评论，聚焦在AI辅助下重启黑苹果实践。作者介绍利用大模型帮助生成和排查OpenCore配置、整理硬件兼容性与驱动问题，从而降低传统黑苹果门槛。评论者则围绕稳定性、系统更新、安全性、许可与法律风险以及AI建议的可靠性展开争论，并比较真Mac、虚拟机和Linux等替代方案。</description>
+      <pubDate>Fri, 06 Nov 2026 19:24:21 GMT</pubDate>
+      <description>Hacker News 上围绕 GitHub 新 Git 存储架构展开讨论，相关文章介绍 GitHub 如何重构 Git 数据存储以提升可扩展性和性能，涉及仓库分片、对象存储、缓存与一致性等设计。评论关注迁移风险、大规模仓库表现、运维复杂度以及对开发者的实际影响。该讨论获得 175 分和 44 条评论。</description>
     </item>
     <item>
-      <title>zed-industries/zed</title>
-      <link>https://github.com/zed-industries/zed</link>
-      <guid>https://github.com/zed-industries/zed</guid>
+      <title>vercel-labs/agent-browser</title>
+      <link>https://github.com/vercel-labs/agent-browser</link>
+      <guid>https://github.com/vercel-labs/agent-browser</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>zed-industries/zed 是 GitHub 上一个用 Rust 开发的开源项目，定位为高性能、支持多人协作的代码编辑器，主打让编程速度跟上思考速度。它由 Atom 和 Tree-sitter 的创造者打造，兼顾响应速度与协作体验。项目今日新增 292 星，受到开发者关注，适合希望了解现代编辑器架构和 Rust 桌面应用实践的人群。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>vercel-labs/agent-browser 是 GitHub 上的开源项目，提供面向 AI 智能体的浏览器自动化命令行工具，使用 Rust 编写。它让智能体通过 CLI 控制浏览器并完成网页操作，降低自动化流程接入成本。项目今日新增 180 星，关注度较高，适合需要网页交互能力的 AI 应用参考与使用。</description>
     </item>
     <item>
-      <title>NVIDIA/auto-ontology</title>
-      <link>https://github.com/NVIDIA/auto-ontology</link>
-      <guid>https://github.com/NVIDIA/auto-ontology</guid>
+      <title>cloudflare/security-audit-skill</title>
+      <link>https://github.com/cloudflare/security-audit-skill</link>
+      <guid>https://github.com/cloudflare/security-audit-skill</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>NVIDIA/auto-ontology 是一个用 Python 开发的开源框架，用于在数据之上构建语义化、基于图的推理层。它支持确定性的查询生成、更优的上下文检索，并为大语言模型和智能体工作流提供更具可解释性的 AI 能力。项目今日新增 2,005 星，适合关注知识图谱与智能体应用的开发者了解和使用。</description>
-    </item>
-    <item>
-      <title>rails/rails</title>
-      <link>https://github.com/rails/rails</link>
-      <guid>https://github.com/rails/rails</guid>
-      <category>github_trending</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>项目 rails/rails 是 Ruby on Rails 的官方开源代码仓库，使用 Ruby 语言开发。Ruby on Rails 是一个面向 Web 应用开发的框架，提供模型视图控制器架构、数据库迁移、路由和测试等常用能力，帮助开发者更高效地构建和维护应用。该项目在 GitHub 上持续受到关注，今日新增 44 星，适合希望了解或参与 Rails 开发的开发者查阅源码与文档。</description>
-    </item>
-    <item>
-      <title>mpv-player/mpv</title>
-      <link>https://github.com/mpv-player/mpv</link>
-      <guid>https://github.com/mpv-player/mpv</guid>
-      <category>github_trending</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>mpv-player/mpv 是 GitHub 上一个用 C 语言开发的开源命令行媒体播放器项目，今日新增约 36 颗星。它以简洁高效著称，支持多种音视频格式与字幕，提供跨平台播放能力，并可通过配置文件和脚本扩展功能。项目适合喜欢命令行、追求轻量与可定制播放体验的用户，也常被集成到其他应用中。作为活跃的开源项目，mpv 持续改进播放性能与兼容性，是研究与使用多媒体播放技术的实用选择。</description>
-    </item>
-    <item>
-      <title>rust-lang/rust</title>
-      <link>https://github.com/rust-lang/rust</link>
-      <guid>https://github.com/rust-lang/rust</guid>
-      <category>github_trending</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Rust 编程语言的官方开源仓库，汇集编译器、标准库和核心工具链等开发资源。项目以 Rust 语言构建，强调内存安全、并发可靠和运行效率，帮助开发者在系统编程等场景中创建稳定且高性能的软件。该仓库今日新增 186 星，简介提出赋能每个人构建可靠且高效的软件，适合关注编程语言实现、编译器技术与开源协作的开发者学习和参与。</description>
-    </item>
-    <item>
-      <title>react/react</title>
-      <link>https://github.com/react/react</link>
-      <guid>https://github.com/react/react</guid>
-      <category>github_trending</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>React 是 GitHub 上 react/react 开源项目维护的 JavaScript 库，主要用于构建 Web 与原生用户界面。它采用组件化与声明式开发方式，帮助开发者把界面拆分为可复用组件，并通过状态驱动视图更新，从而提升复杂前端应用的开发效率与可维护性。该项目今日新增 244 星，社区关注度较高，围绕其形成的工具链和生态也较为丰富，适合用于 Web 应用、移动端原生界面等多种场景。</description>
-    </item>
-    <item>
-      <title>angular/angular</title>
-      <link>https://github.com/angular/angular</link>
-      <guid>https://github.com/angular/angular</guid>
-      <category>github_trending</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>angular/angular 是 GitHub 上的开源前端框架项目，主要使用 TypeScript 开发，旨在帮助开发者更有信心地构建和交付 Web 应用。该项目提供完整的开发工具与生态支持，适合构建可维护、可扩展的现代 Web 应用。项目今日新增 128 颗星，持续受到开发者关注。</description>
-    </item>
-    <item>
-      <title>symfony/symfony</title>
-      <link>https://github.com/symfony/symfony</link>
-      <guid>https://github.com/symfony/symfony</guid>
-      <category>github_trending</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>symfony/symfony 是 Symfony PHP 框架的主开源仓库，提供路由、依赖注入、模板、表单、安全、缓存和命令行等可复用组件，也支持构建完整 Web 应用与 API。项目以组件化设计著称，生态成熟、文档完善，适合开发可维护的企业级 PHP 应用。它用 PHP 编写，今日新增 89 星，持续受到开发者关注。</description>
-    </item>
-    <item>
-      <title>prometheus/prometheus</title>
-      <link>https://github.com/prometheus/prometheus</link>
-      <guid>https://github.com/prometheus/prometheus</guid>
-      <category>github_trending</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>prometheus/prometheus 是 Prometheus 监控系统与时序数据库的开源实现，使用 Go 语言编写，主要用于指标采集、存储、查询和告警，并提供丰富的生态集成，广泛应用于云原生环境。该项目今日新增 140 星，热度较高，适合关注监控与可观测性领域的开发者学习和使用。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>cloudflare/security-audit-skill 是托管在 GitHub 的开源项目，主要使用 JavaScript 开发，为编码代理提供多阶段安全审计能力。该项目强调对审计发现进行独立验证，并以机器可读形式输出结果，便于自动化流程集成和后续分析。项目今日新增 2,088 星，受到开发者关注。它适合需要将安全审计嵌入编码代理工作流的团队，帮助提升审计结果的可验证性与可处理性。</description>
     </item>
     <item>
       <title>google/skills</title>
       <link>https://github.com/google/skills</link>
       <guid>https://github.com/google/skills</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>google/skills 是 Google 在 GitHub 上开源的项目，使用 Python 编写，提供面向 Google 产品与技术的 Agent Skills。该项目旨在帮助智能体以更统一的方式调用和组合相关能力，降低集成门槛并提升开发效率。项目今日新增 532 星，关注度较高，适合希望围绕 Google 生态构建智能体应用的开发者了解与试用。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>google/skills 是 Google 在 GitHub 上开源的项目，使用 Python 编写，旨在为 Google 产品和技术提供 Agent Skills，帮助智能体更好地调用和理解相关能力。项目简介为 Agent Skills for Google products and technologies，今日新增 449 星，显示出开发者对 Google 生态智能体技能集的关注。该仓库可作为构建与 Google 技术集成应用的参考资源。</description>
     </item>
     <item>
-      <title>User Embeddings are Superpositions of Interpretable Behavioral Modes</title>
-      <link>http://arxiv.org/abs/2611.08487v1</link>
-      <guid>http://arxiv.org/abs/2611.08487v1</guid>
-      <category>paper</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>该论文探讨用户嵌入的可解释性问题，指出用户嵌入可被视为可解释行为模式的稀疏叠加。对于线性嵌入，这一结构可由用户行为生成模型直接预测；对于深度学习表示，叠加假说使其近似成立。研究采用稀疏字典学习方法，特别是稀疏自编码器恢复这些叠加模式，并支持用自然语言自动命名和查询。合成数据上的真实标注实验表明，稀疏自编码器在模式恢复上优于经典稀疏基线，为理解用户嵌入提供了可解释路径。</description>
+      <title>mattpocock/skills</title>
+      <link>https://github.com/mattpocock/skills</link>
+      <guid>https://github.com/mattpocock/skills</guid>
+      <category>github_trending</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>mattpocock/skills 是一个面向真实工程师的开源技能集合，内容直接来自作者的 .agents 目录，主要使用 Shell 编写。项目汇集可复用的智能体技能与工作流配置，帮助开发者把日常工程实践沉淀为可调用能力，提升自动化与协作效率。凭借实用定位，该项目今日新增约 1111 颗星，受到较多关注。</description>
+    </item>
+    <item>
+      <title>anthropics/skills</title>
+      <link>https://github.com/anthropics/skills</link>
+      <guid>https://github.com/anthropics/skills</guid>
+      <category>github_trending</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>anthropics/skills 是 Anthropic 维护的 Agent Skills 公共代码仓库，使用 Python 提供可复用的技能示例与资源，帮助开发者理解并构建面向智能体的模块化能力。项目汇集技能定义、说明文档和配套脚本，便于在 Claude 等代理场景中组合调用，也为社区贡献和扩展 Agent Skills 生态提供参考。今日新增约 386 星，受到较多关注。</description>
+    </item>
+    <item>
+      <title>meta/astryx</title>
+      <link>https://github.com/meta/astryx</link>
+      <guid>https://github.com/meta/astryx</guid>
+      <category>github_trending</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>meta/astryx 是一个使用 TypeScript 开发的开源设计系统，主打完全可定制和面向智能体就绪。它为界面开发提供统一的设计基础与组件能力，方便团队按自身品牌和业务需求灵活调整样式与交互。项目今日新增 198 颗星，说明社区关注度正在上升。借助可定制特性和面向智能体的设计思路，astryx 适合用于构建一致、可扩展且便于自动化工具协作的现代前端应用。</description>
+    </item>
+    <item>
+      <title>prometheus/prometheus</title>
+      <link>https://github.com/prometheus/prometheus</link>
+      <guid>https://github.com/prometheus/prometheus</guid>
+      <category>github_trending</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Prometheus 是一个用 Go 语言开发的开源监控系统与时间序列数据库项目，主要用于采集、存储和查询指标数据，并提供告警与可视化能力，广泛应用于云原生和基础设施监控场景。该项目在 GitHub 上持续受到关注，今日新增 325 星，体现出活跃的社区影响力和较高的实用价值。</description>
+    </item>
+    <item>
+      <title>sherlock-project/sherlock</title>
+      <link>https://github.com/sherlock-project/sherlock</link>
+      <guid>https://github.com/sherlock-project/sherlock</guid>
+      <category>github_trending</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Sherlock 是一个用 Python 开发的开源项目，可通过用户名在多个社交网络中查找对应的社交媒体账号。该项目今日新增 1761 星，关注度较高，适合用于公开账号线索检索与信息核验。</description>
+    </item>
+    <item>
+      <title>milind-soni/OpenMausBot</title>
+      <link>https://github.com/milind-soni/OpenMausBot</link>
+      <guid>https://github.com/milind-soni/OpenMausBot</guid>
+      <category>github_trending</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>OpenMausBot 是 GitHub 上一个用 TypeScript 编写的开源项目，目标是提供 Grok Bot 的开源替代方案。其核心特色是内置一台可供机器人使用的虚拟机，让自动化代理能够在接近真实的环境中执行操作并完成任务，而不只局限于生成文本回复。项目今日新增约 1,986 个星标，关注度上升迅速，适合对 AI 代理、自动化工作流与开源机器人框架感兴趣的开发者了解和研究。</description>
+    </item>
+    <item>
+      <title>astral-sh/ruff</title>
+      <link>https://github.com/astral-sh/ruff</link>
+      <guid>https://github.com/astral-sh/ruff</guid>
+      <category>github_trending</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>astral-sh/ruff 是一个用 Rust 编写的开源 Python 代码检查与格式化工具，主打极快的运行速度。它提供代码检查与格式化能力，适合用于日常开发和持续集成流程，帮助开发者更快发现代码问题并统一代码风格。该项目今日新增约 350 星，反映出其性能和实用性正受到 Python 社区关注。</description>
     </item>
     <item>
       <title>SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization</title>
-      <link>http://arxiv.org/abs/2611.08483v1</link>
-      <guid>http://arxiv.org/abs/2611.08483v1</guid>
+      <link>https://arxiv.org/abs/2611.08483</link>
+      <guid>https://arxiv.org/abs/2611.08483</guid>
       <category>paper</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>SwarmEvolve提出一种潜空间智能体群体框架，用于大语言模型引导的进化搜索与优化。每轮由数百个低成本智能体组成多个群体，从不同角度研究问题，并在潜空间中推理而无需解码为文本，通过传递KV缓存共享信息。新颖性过滤器直接度量智能体隐藏状态向量之间的距离，保留最独特的想法，想法交叉也在潜空间中自然发生，总结智能体接收所有群体成员组合后的KV缓存。该方法旨在缓解逐轮生成长思维链和重复生成以维持种群多样性所造成的缓慢问题，并在21个数学问题上进行评估。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文提出SwarmEvolve，一种面向进化发现与优化的潜在智能体群体框架。该方法将多个智能体映射到共享潜在空间，使群体通过变异、重组和选择等进化过程协同搜索解空间，并利用潜在表示降低通信与协调成本。SwarmEvolve在保持群体多样性的同时促进知识共享，从而提升复杂优化任务和开放式发现中的探索效率与收敛质量。实验结果表明，该框架能够在多种任务上取得有竞争力的性能，并为构建可扩展的智能体群体进化系统提供了新思路。</description>
     </item>
     <item>
       <title>Scientist World: Grow a Research World for AI-Scientists</title>
-      <link>http://arxiv.org/abs/2611.08478v1</link>
-      <guid>http://arxiv.org/abs/2611.08478v1</guid>
+      <link>https://arxiv.org/abs/2611.08478</link>
+      <guid>https://arxiv.org/abs/2611.08478</guid>
       <category>paper</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>AI科学家已经出现，但尚缺一个可供其成长的研究世界。人类科学家习以为常的开放问题与共享思想存在于文献中，对AI科学家却可读而不可运行。为此，作者构建Scientist World，将每篇论文转化为可执行环境，通过自主流程提取开放式研究问题并复现其方法作为基线，让进入环境的AI科学家与人类作者成果进行对比评估。研究发布首批1000个经过验证的环境，并发现前沿AI科学家在74%的情况下已能超越人类研究者。系统还记录6400小时研究轨迹，涵盖想法、实验、失败与成功，并可作为训练场。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该论文提出Scientist World，一个面向AI科学家的可生长研究世界，旨在把文献、数据、工具、实验与评审等科研要素组织成可交互环境，使AI代理能够持续提出假设、设计并执行实验、分析证据和积累知识。论文围绕世界构建、任务生成与能力评测展开，强调让研究环境随AI科学家的探索不断扩展，从而支持开放式、长周期的自主科研，并为评估AI科学家的研究能力提供统一平台。</description>
     </item>
     <item>
-      <title>XStack: A Benchmark for ML Repo Migration</title>
-      <link>http://arxiv.org/abs/2611.08472v1</link>
-      <guid>http://arxiv.org/abs/2611.08472v1</guid>
+      <title>ReproBridge: Building Reproducibility into ML Research Artifacts</title>
+      <link>https://arxiv.org/abs/2611.08452</link>
+      <guid>https://arxiv.org/abs/2611.08452</guid>
       <category>paper</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>XStack是一个用于评估智能体在机器学习仓库迁移任务上表现的基准。当前机器学习代码主要分布在NVIDIA GPU上的PyTorch和Google TPU上的JAX两个生态中，跨框架与硬件迁移仓库既是释放不同硬件资源的研究实际需求，也是覆盖完整仓库、长时且富有挑战的自然基准。在XStack中，每个智能体获得一个PyTorch仓库和一台干净的TPU机器，需交付可运行的JAX仓库，其输出须通过基于源仓库已发表结果并经认证校准的评分标准。智能体迁移仍不可靠。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文介绍 ReproBridge，一个面向机器学习研究工件的可复现性构建框架。它旨在将可复现性要求嵌入研究工件的创建与发布流程，帮助研究者系统记录代码、数据、运行环境、配置和实验步骤，并生成可检查、可复用和可验证的复现包。该工作通过桥接研究实践与复现需求，降低复现门槛，提升机器学习研究成果的透明度与可信度。</description>
     </item>
     <item>
-      <title>Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information</title>
-      <link>http://arxiv.org/abs/2611.08469v1</link>
-      <guid>http://arxiv.org/abs/2611.08469v1</guid>
+      <title>The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI</title>
+      <link>https://arxiv.org/abs/2611.08428</link>
+      <guid>https://arxiv.org/abs/2611.08428</guid>
       <category>paper</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文研究在有限、部分且含噪干预下，机制层面因果量何时可识别、连续且可由有限数据认证，并以随机四单元和五单元网络中的整合信息φ为严格案例给出精确回答。研究表明相同输入输出行为可能掩盖不同机制：响应延迟下行为相同的递归与前馈网络φ分别为0.28和0比特，但内部记录可在4至53次试验内区分二者；部分访问也可能无法识别机制。结果界定有限实验能认证机制量的条件与边界。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文探讨元访问在未来软件中的关键作用，并以大型语言模型聊天界面和聊天AI为案例展示其实现方式。元访问使用户或系统能够检查和操作软件自身的结构、状态与交互过程，从而增强透明性、可控性和可扩展性。论文分析相关概念与架构，说明该机制如何支持自适应界面、上下文感知交互和更灵活的AI集成，并讨论潜在收益与风险，最后总结元访问对下一代软件设计的意义。</description>
     </item>
     <item>
-      <title>Towards interpreting any residual stream direction by scaling activation inversion</title>
-      <link>http://arxiv.org/abs/2611.08465v1</link>
-      <guid>http://arxiv.org/abs/2611.08465v1</guid>
+      <title>Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks</title>
+      <link>https://arxiv.org/abs/2611.08417</link>
+      <guid>https://arxiv.org/abs/2611.08417</guid>
       <category>paper</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文提出最大化激活样例元模型MAEM，用于解释语言模型残差流中的任意方向。该方法将主体模型的残差流方向映射为能强烈激活该方向的文本样例，并通过无标签强化学习目标最大化给定方向与生成文本激活之间的余弦相似度，从而利用多样方向来源扩展激活反演。实验表明，基于Qwen3.6-27B的MAEM在留出激活上的反演效果优于语料搜索和自然语言自编码器，并在多数留出任务上超过使用一千万词元的语料搜索。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文提出将评测基准视为软件而非一次性静态数据集，并以 Terminal-Bench 为例讨论持续基准的构建与维护。论文强调基准应具备版本化、可复现执行、持续更新和社区贡献机制，从而适应模型与任务环境的快速变化。通过将基准开发纳入软件工程实践，可持续减少过时与数据污染问题，提升评测的可靠性、公平性和可扩展性，并为面向终端任务的基准建设提供可维护的实践框架。</description>
     </item>
     <item>
-      <title>Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness</title>
-      <link>http://arxiv.org/abs/2611.08457v1</link>
-      <guid>http://arxiv.org/abs/2611.08457v1</guid>
+      <title>The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?</title>
+      <link>https://arxiv.org/abs/2611.08412</link>
+      <guid>https://arxiv.org/abs/2611.08412</guid>
       <category>paper</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文研究对抗训练中确定性梯度下降的动力学。已有工作多关注小步长或消失步长情形，此时梯度下降近似连续时间流，但这类步长训练效率较低且实践中很少使用。本文考察大恒定步长下的对抗训练动力学。首先分析对抗线性逻辑回归中的梯度下降，聚焦模型参数的隐式偏差与损失下降速度。随后研究神经网络训练，考察对抗训练过程中损失尖锐度的演化。研究结果深化了对大步长梯度下降在对抗训练中行为的理解，并揭示其与标准训练行为之间的三个关键差异。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文是AI4Math淘金热系列第二篇，聚焦如何识别AI辅助数学证明的“签名”。作者讨论AI参与证明生成后可能留下的风格、结构、表述与验证痕迹，分析这些特征在判断证明来源和评估可靠性方面的作用，并思考其对数学写作、同行评审与研究规范的影响。文章旨在为理解AI辅助证明的可识别性提供概念框架，同时提醒读者谨慎看待单一特征，避免将表面风格误作来源证据。</description>
     </item>
     <item>
-      <title>Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development</title>
-      <link>http://arxiv.org/abs/2611.08456v1</link>
-      <guid>http://arxiv.org/abs/2611.08456v1</guid>
+      <title>StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Reasoning</title>
+      <link>https://arxiv.org/abs/2611.08403</link>
+      <guid>https://arxiv.org/abs/2611.08403</guid>
       <category>paper</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>生成式人工智能和代理式编程正在加速软件开发，也引发对技术债务的担忧。论文指出，认知债务与意图债务正成为软件健康的关键风险。认知债务指团队共享理解缺失或被侵蚀，无人能自信解释系统如何工作或预测变更影响；意图债务指缺乏清晰表达的目标、约束和理由，难以说明系统用途并指导演化。为此，论文提出Cognitive Tours工具，以缓解和修复这两类债务。该工具是基于网页的原型，用于创建并遵循连接用户需求、设计决策、代码、测试和开放问题的精选路径，并通过AI辅助技能审计现有路径点与路径中的问题或过时内容。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>针对大语言模型在测试时推理中反复重采样整条推理链导致计算开销较大的问题，本文提出StepBack方法。该方法在推理过程中定位步骤级错误位置，并回退到出错步骤附近，仅对后续推理片段进行重新采样，从而避免从头生成完整答案。通过将错误定位与局部重采样结合，StepBack能够在保持推理准确率的同时显著降低测试时计算成本，为高效的多步推理提供了一种更细粒度的重采样策略。</description>
     </item>
     <item>
-      <title>When We Can Do Anything, Do We Still Know What We Want? — Ryo Lu, ex-Cursor | AI Engineer Shanghai</title>
-      <link>https://www.youtube.com/watch?v=y9Sg--RDtks</link>
-      <guid>https://www.youtube.com/watch?v=y9Sg--RDtks</guid>
+      <title>Learning a patient world model for health system simulation in intensive care</title>
+      <link>https://arxiv.org/abs/2611.08392</link>
+      <guid>https://arxiv.org/abs/2611.08392</guid>
+      <category>paper</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该论文提出一种面向重症监护的健康系统仿真方法，通过从ICU患者数据中学习患者世界模型，刻画患者生理状态、治疗干预与临床结局之间的动态关系。模型可用于模拟不同治疗策略和资源配置下的患者病情演化，为临床决策与健康系统规划提供虚拟实验环境。研究有望提升重症监护仿真对真实患者异质性的表征能力，并支持反事实分析与策略评估。</description>
+    </item>
+    <item>
+      <title>How to Get Frontier Coding Results at 70% Lower Cost - Nouha Dziri, Cohere</title>
+      <link>https://www.youtube.com/watch?v=maitMe9HCvw</link>
+      <guid>https://www.youtube.com/watch?v=maitMe9HCvw</guid>
+      <category>youtube</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Nouha Dziri 讲清用 70% 降本取得前沿编程结果的方法，并给出训练与推理取舍。</description>
+    </item>
+    <item>
+      <title>AI Can't Make Up a Number It Can't Look Up - Vinoo Ganesh, Kepler</title>
+      <link>https://www.youtube.com/watch?v=RdQCY_-SXbA</link>
+      <guid>https://www.youtube.com/watch?v=RdQCY_-SXbA</guid>
+      <category>youtube</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Kepler案例说明AI查不到数字会承认无法检索而非编造，能帮你判断模型可信边界。</description>
+    </item>
+    <item>
+      <title>How Amjad Masad Saw Vibe Coding A Decade Early</title>
+      <link>https://www.youtube.com/watch?v=Q78dJ0vkWe8</link>
+      <guid>https://www.youtube.com/watch?v=Q78dJ0vkWe8</guid>
+      <category>youtube</category>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>视频里 Replit CEO 讲他十年前用自然语言生成代码的实践，提前预判了 vibe coding。</description>
+    </item>
+    <item>
+      <title>Bringing Supersonic Flight To The People</title>
+      <link>https://www.youtube.com/watch?v=NYGf--dBeHA</link>
+      <guid>https://www.youtube.com/watch?v=NYGf--dBeHA</guid>
       <category>youtube</category>
       <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Ryo Lu 以 Cursor 经历讨论 AI 让执行变便宜后目标反而更难定，能帮你先想清到底要什么。</description>
+      <description>Boom创始人肖尔用1.7马赫和100%可持续燃料的目标，讲清超音速客机怎样走向大众。</description>
     </item>
     <item>
-      <title>7 Things Your AI Coworker Needs - Philipp Schmid, Google DeepMind</title>
-      <link>https://www.youtube.com/watch?v=EtZwTYahfek</link>
-      <guid>https://www.youtube.com/watch?v=EtZwTYahfek</guid>
-      <category>youtube</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Schmid 把 AI 同事拆成 7 项具体需求，能帮团队逐条检查协作流程缺哪一环。</description>
-    </item>
-    <item>
-      <title>10 Habits PhDs Must Unlearn To Build a Startup | Startup School</title>
-      <link>https://www.youtube.com/watch?v=u-8KpXcPYCw</link>
-      <guid>https://www.youtube.com/watch?v=u-8KpXcPYCw</guid>
-      <category>youtube</category>
-      <pubDate>Tue, 03 Nov 2026 16:00:00 GMT</pubDate>
-      <description>视频列出“10个必须改掉的博士习惯”，逐条给出创业替代做法，如用快速验证替代学术式完美主义。</description>
-    </item>
-    <item>
-      <title>The $1B Company Fixing AI’s Software Bottleneck</title>
-      <link>https://www.youtube.com/watch?v=NVzgt2AEvDg</link>
-      <guid>https://www.youtube.com/watch?v=NVzgt2AEvDg</guid>
-      <category>youtube</category>
-      <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
-      <description>视频以一家估值10亿美元的公司为例，拆解AI软件瓶颈的成因与修复路径，点出算力之外的工程卡点。</description>
-    </item>
-    <item>
-      <title>sshole</title>
-      <link>https://sshhole.com</link>
-      <guid>https://sshhole.com</guid>
+      <title>Tesla to wind down Cybertruck production</title>
+      <link>https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817</link>
+      <guid>https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817</guid>
       <category>news</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>2817票、688条讨论聚焦SSH项目的内网穿透、隧道连接和权限控制，并提醒评估暴露面、认证策略与运维风险。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>1075分、1929条评论的讨论剖析定价过高、定位狭窄等销量低迷成因，并谈及供应链与车主残值。</description>
     </item>
     <item>
-      <title>Claude Code sends your email address to websites</title>
-      <link>https://github.com/anthropics/claude-code/issues/107757</link>
-      <guid>https://github.com/anthropics/claude-code/issues/107757</guid>
+      <title>Libghostty 1.0</title>
+      <link>https://mitchellh.com/writing/libghostty-1-0</link>
+      <guid>https://mitchellh.com/writing/libghostty-1-0</guid>
       <category>news</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>这场讨论厘清Claude Code向所访网站发送邮箱的范围与触发条件，并列出代理、环境变量和网络隔离等降低风险做法。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>它把Ghostty核心做成可复用C库，便于嵌入终端；821票、133条讨论比较其API、跨平台与集成难度。</description>
     </item>
     <item>
-      <title>NVIDIA/auto-ontology</title>
-      <link>https://github.com/NVIDIA/auto-ontology</link>
-      <guid>https://github.com/NVIDIA/auto-ontology</guid>
+      <title>cloudflare/security-audit-skill</title>
+      <link>https://github.com/cloudflare/security-audit-skill</link>
+      <guid>https://github.com/cloudflare/security-audit-skill</guid>
       <category>news</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>该Python框架在数据上构建图推理层，支持确定性查询生成与更优上下文检索，今日新增2,005星标，可提升智能体工作流的可解释性。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>项目今日新增2,088个星标，其多阶段安全审计、独立验证和机器可读输出，可把可验证审计嵌入编码代理流程。</description>
     </item>
     <item>
-      <title>zed-industries/zed</title>
-      <link>https://github.com/zed-industries/zed</link>
-      <guid>https://github.com/zed-industries/zed</guid>
+      <title>mattpocock/skills</title>
+      <link>https://github.com/mattpocock/skills</link>
+      <guid>https://github.com/mattpocock/skills</guid>
       <category>news</category>
-      <pubDate>Thu, 05 Nov 2026 16:00:00 GMT</pubDate>
-      <description>由Atom和Tree-sitter创造者以Rust打造，兼顾响应速度与多人协作，今日新增292星，可观察现代编辑器架构与桌面实践。</description>
+      <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
+      <description>它把作者 .agents 目录中的智能体技能与工作流配置以 Shell 开源，便于将日常工程实践沉淀为可调用能力，今日新增 1,111 个星标。</description>
     </item>
   </channel>
 </rss>
