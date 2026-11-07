@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Tesla to wind down Cybertruck production",
+   "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+   "points": 1075,
+   "comments": 1929,
+   "published": "2026-11-06T12:13:51+00:00",
+   "hn_id": "50391456"
+  },
+  {
+   "title": "Libghostty 1.0",
+   "url": "https://mitchellh.com/writing/libghostty-1-0",
+   "points": 821,
+   "comments": 133,
+   "published": "2026-11-06T23:30:52+00:00",
+   "hn_id": "50399933"
+  },
+  {
+   "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+   "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+   "points": 527,
+   "comments": 125,
+   "published": "2026-11-06T19:48:51+00:00",
+   "hn_id": "50397429"
+  },
+  {
+   "title": "Gemini Omni 1.2 Flash",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "points": 350,
+   "comments": 240,
+   "published": "2026-11-06T13:35:27+00:00",
+   "hn_id": "50392118"
+  },
+  {
+   "title": "Need for Speed Underground 2 online in the browser",
+   "url": "https://nfsu2.xyz/",
+   "points": 304,
+   "comments": 89,
+   "published": "2026-11-07T09:36:36+00:00",
+   "hn_id": "50403052"
+  },
+  {
+   "title": "Every Mac comes with an (undocumented) family member classifier",
+   "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+   "points": 297,
+   "comments": 146,
+   "published": "2026-11-07T09:46:03+00:00",
+   "hn_id": "50403097"
+  },
+  {
+   "title": "Firecracker VM Escape: PwnEscape Part 2",
+   "url": "https://pwn.ai/blog/firecracker-escape",
+   "points": 260,
+   "comments": 110,
+   "published": "2026-11-06T19:33:38+00:00",
+   "hn_id": "50397219"
+  },
+  {
+   "title": "First steps in bare-metal programming using UEFI",
+   "url": "https://kevinboone.me/efitest_index.html",
+   "points": 234,
+   "comments": 48,
+   "published": "2026-11-06T16:50:29+00:00",
+   "hn_id": "50394855"
+  },
+  {
+   "title": "Upload Your RAM",
+   "url": "https://uploadyourram.org",
+   "points": 208,
+   "comments": 176,
+   "published": "2026-11-07T10:15:26+00:00",
+   "hn_id": "50403214"
+  },
+  {
+   "title": "GitHub's new Git storage architecture",
+   "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+   "points": 175,
+   "comments": 44,
+   "published": "2026-11-06T19:24:21+00:00",
+   "hn_id": "50397099"
+  },
+  {
+   "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+   "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+   "points": 145,
+   "comments": 101,
+   "published": "2026-11-06T23:37:19+00:00",
+   "hn_id": "50399991"
+  },
+  {
+   "title": "Restaurant Delivery Payment-Skimming Campaign",
+   "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+   "points": 144,
+   "comments": 75,
+   "published": "2026-11-06T19:19:27+00:00",
+   "hn_id": "50397017"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "language": "Rust",
+   "stars_today": "180",
+   "url": "https://github.com/vercel-labs/agent-browser"
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "language": "JavaScript",
+   "stars_today": "2,088",
+   "url": "https://github.com/cloudflare/security-audit-skill"
+  },
+  {
+   "repo": "google/skills",
+   "desc": "Agent Skills for Google products and technologies",
+   "language": "Python",
+   "stars_today": "449",
+   "url": "https://github.com/google/skills"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "language": "Shell",
+   "stars_today": "1,111",
+   "url": "https://github.com/mattpocock/skills"
+  },
+  {
+   "repo": "anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "language": "Python",
+   "stars_today": "386",
+   "url": "https://github.com/anthropics/skills"
+  },
+  {
+   "repo": "meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "language": "TypeScript",
+   "stars_today": "198",
+   "url": "https://github.com/meta/astryx"
+  },
+  {
+   "repo": "prometheus/prometheus",
+   "desc": "The Prometheus monitoring system and time series database.",
+   "language": "Go",
+   "stars_today": "325",
+   "url": "https://github.com/prometheus/prometheus"
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "language": "Python",
+   "stars_today": "1,761",
+   "url": "https://github.com/sherlock-project/sherlock"
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "language": "TypeScript",
+   "stars_today": "1,986",
+   "url": "https://github.com/milind-soni/OpenMausBot"
+  },
+  {
+   "repo": "astral-sh/ruff",
+   "desc": "An extremely fast Python linter and code formatter, written in Rust.",
+   "language": "Rust",
+   "stars_today": "350",
+   "url": "https://github.com/astral-sh/ruff"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Title: SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+   "url": "https://arxiv.org/abs/2611.08483",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Scientist World: Grow a Research World for AI-Scientists",
+   "url": "https://arxiv.org/abs/2611.08478",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: ReproBridge: Building Reproducibility into ML Research Artifacts",
+   "url": "https://arxiv.org/abs/2611.08452",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI",
+   "url": "https://arxiv.org/abs/2611.08428",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
+   "url": "https://arxiv.org/abs/2611.08417",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
+   "url": "https://arxiv.org/abs/2611.08412",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Reasoning",
+   "url": "https://arxiv.org/abs/2611.08403",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Learning a patient world model for health system simulation in intensive care",
+   "url": "https://arxiv.org/abs/2611.08392",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
+   "url": "https://arxiv.org/abs/2611.08369",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Enhancing Local and Global Structure in Compressed AI Agent Memory",
+   "url": "https://arxiv.org/abs/2611.08341",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+   "url": "https://arxiv.org/abs/2611.08318",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation",
+   "url": "https://arxiv.org/abs/2611.08315",
+   "published": "",
+   "abstract": ""
+  }
+ ]
+}
