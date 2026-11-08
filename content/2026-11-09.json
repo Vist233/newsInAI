@@ -1,0 +1,483 @@
+{
+ "date": "2026-11-09",
+ "summary": "今天的输入集中在 Goodbye Claude, hello Pi；Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files；Goldman Sachs is 这几条上。判断留白比硬凑更诚实：模型侧今天没有给出可用的综合。",
+ "movie": {
+  "title": "First Man",
+  "year": 2018,
+  "director": "Damien Chazelle",
+  "reason": "把注意力从持续输入里抽出来的校准",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "The Craft of Research",
+  "author": "Wayne C. Booth 等",
+  "chapter": "Making Good Arguments",
+  "reason": "论点、理由、证据、反驳拆成可检查的结构",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Goodbye Claude, hello Pi",
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "published": "2026-11-08T03:11:48+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "published": "2026-11-07T20:45:32+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "published": "2026-11-08T18:16:07+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "published": "2026-11-08T10:22:04+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+   "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+   "published": "2026-11-08T20:26:43+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Writing as a thinking tool",
+   "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+   "published": "2026-11-08T10:41:52+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+   "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+   "published": "2026-11-08T19:20:32+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Agent memory needs its OpenTelemetry moment",
+   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+   "published": "2026-11-08T08:40:23+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+   "url": "https://duxlabs.dev/",
+   "published": "2026-11-08T19:08:51+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "How I Fight AI Brain Fry",
+   "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+   "published": "2026-11-08T19:37:42+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "dsx-ai-factory/nvke",
+   "url": "https://github.com/dsx-ai-factory/nvke",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "Go"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "C++"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+   "url": "http://arxiv.org/abs/2611.08487v1",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+   "url": "http://arxiv.org/abs/2611.08483v1",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Scientist World: Grow a Research World for AI-Scientists",
+   "url": "http://arxiv.org/abs/2611.08478v1",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "XStack: A Benchmark for ML Repo Migration",
+   "url": "http://arxiv.org/abs/2611.08472v1",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+   "url": "http://arxiv.org/abs/2611.08469v1",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+   "url": "http://arxiv.org/abs/2611.08465v1",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
+   "url": "http://arxiv.org/abs/2611.08457v1",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development",
+   "url": "http://arxiv.org/abs/2611.08456v1",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "What the Top Companies Do Differently With AI Coding - Martin Harrysson & Prakhar Dixit, McKinsey",
+   "url": "https://www.youtube.com/watch?v=21tuT-e4NVo",
+   "published": "2026-11-08",
+   "summary": "",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/21tuT-e4NVo/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "How Ramp Tests Its AI Bookkeeping Agent Before Customers Do - Ryan Stevens, Ramp",
+   "url": "https://www.youtube.com/watch?v=WJTQBENv0KI",
+   "published": "2026-11-08",
+   "summary": "",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/WJTQBENv0KI/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Is AI Now Good Enough To Cure Cancer? | YC Paper Club",
+   "url": "https://www.youtube.com/watch?v=-XL2gClQ2gg",
+   "published": "2026-11-08",
+   "summary": "",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/-XL2gClQ2gg/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "How To Build The Future: Paul Graham & Amjad Masad",
+   "url": "https://www.youtube.com/watch?v=Q78dJ0vkWe8",
+   "published": "2026-11-07",
+   "summary": "",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/Q78dJ0vkWe8/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Goodbye Claude, hello Pi",
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "published": "2026-11-09",
+   "summary": "",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}

@@ -1,0 +1,239 @@
+{
+ "hacker_news": [
+  {
+   "title": "Goodbye Claude, hello Pi",
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "points": 663,
+   "comments": 419,
+   "published": "2026-11-08T03:11:48+00:00",
+   "hn_id": "50410107"
+  },
+  {
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "points": 571,
+   "comments": 387,
+   "published": "2026-11-07T20:45:32+00:00",
+   "hn_id": "50407882"
+  },
+  {
+   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "points": 512,
+   "comments": 310,
+   "published": "2026-11-08T18:16:07+00:00",
+   "hn_id": "50415628"
+  },
+  {
+   "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "points": 330,
+   "comments": 130,
+   "published": "2026-11-08T10:22:04+00:00",
+   "hn_id": "50411961"
+  },
+  {
+   "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+   "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+   "points": 298,
+   "comments": 234,
+   "published": "2026-11-08T20:26:43+00:00",
+   "hn_id": "50416801"
+  },
+  {
+   "title": "Writing as a thinking tool",
+   "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+   "points": 249,
+   "comments": 75,
+   "published": "2026-11-08T10:41:52+00:00",
+   "hn_id": "50412067"
+  },
+  {
+   "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+   "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+   "points": 168,
+   "comments": 140,
+   "published": "2026-11-08T19:20:32+00:00",
+   "hn_id": "50416158"
+  },
+  {
+   "title": "Agent memory needs its OpenTelemetry moment",
+   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+   "points": 161,
+   "comments": 102,
+   "published": "2026-11-08T08:40:23+00:00",
+   "hn_id": "50411467"
+  },
+  {
+   "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+   "url": "https://duxlabs.dev/",
+   "points": 141,
+   "comments": 43,
+   "published": "2026-11-08T19:08:51+00:00",
+   "hn_id": "50416053"
+  },
+  {
+   "title": "How I Fight AI Brain Fry",
+   "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+   "points": 115,
+   "comments": 101,
+   "published": "2026-11-08T19:37:42+00:00",
+   "hn_id": "50416363"
+  },
+  {
+   "title": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users",
+   "url": "https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/",
+   "points": 99,
+   "comments": 21,
+   "published": "2026-11-08T17:32:55+00:00",
+   "hn_id": "50415281"
+  },
+  {
+   "title": "JIT bitmap text rendering for microcontrollers",
+   "url": "https://linebender.org/blog/jit-bitmap-text/",
+   "points": 91,
+   "comments": 17,
+   "published": "2026-11-08T10:42:15+00:00",
+   "hn_id": "50412072"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "language": "Python",
+   "stars_today": "2,372",
+   "url": "https://github.com/sherlock-project/sherlock"
+  },
+  {
+   "repo": "dsx-ai-factory/nvke",
+   "desc": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+   "language": "Go",
+   "stars_today": "345",
+   "url": "https://github.com/dsx-ai-factory/nvke"
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "language": "TypeScript",
+   "stars_today": "1,437",
+   "url": "https://github.com/milind-soni/OpenMausBot"
+  },
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "language": "Python",
+   "stars_today": "28",
+   "url": "https://github.com/anthropics/claude-quickstarts"
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "language": "Rust",
+   "stars_today": "812",
+   "url": "https://github.com/vercel-labs/agent-browser"
+  },
+  {
+   "repo": "meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "language": "TypeScript",
+   "stars_today": "863",
+   "url": "https://github.com/meta/astryx"
+  },
+  {
+   "repo": "anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "language": "Python",
+   "stars_today": "793",
+   "url": "https://github.com/anthropics/skills"
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "language": "C++",
+   "stars_today": "26",
+   "url": "https://github.com/google-deepmind/mujoco"
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+   "language": "TypeScript",
+   "stars_today": "460",
+   "url": "https://github.com/ranxianglei/billion-context"
+  }
+ ],
+ "papers": [
+  {
+   "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+   "url": "http://arxiv.org/abs/2611.08487v1",
+   "published": "2026-11-05T18:59:42Z",
+   "abstract": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is directly predicted by generative models of user behavior for linear embeddings and extends approximately to deep-learning representations by the superposition hypothesis. Superimposed modes can naturally be recovered by sparse dictionary learning methods, such as sparse autoencoders (SAEs), and recovered modes can be automatically named and queried in natural language. We validate mode recovery against known ground truth on synthetic data, where SAEs recover modes better than classical sparse b"
+  },
+  {
+   "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+   "url": "http://arxiv.org/abs/2611.08483v1",
+   "published": "2026-11-05T18:59:29Z",
+   "abstract": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decoding to text, and share information by passing KV caches. Each swarm studies the problem from a different angle. A novelty filter keeps the most distinct agent ideas by directly measuring the distances between the agents' hidden state vectors. Crossover of ideas happens naturally in latent space, as a summarizer agent receives the combined KV caches of all swarm members. On 21 problems in mathemati"
+  },
+  {
+   "title": "Scientist World: Grow a Research World for AI-Scientists",
+   "url": "http://arxiv.org/abs/2611.08478v1",
+   "published": "2026-11-05T18:58:17Z",
+   "abstract": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the environment is evaluated against what the human authors achieved. We release the first 1,000 verified environments. With the world as an evaluation, we found that frontier AI-Scientists can already surpass the human researchers 74% of the time. As a record of how AI does science, it contains 6,400 hours of research traces, with every idea, experiment, failure, and success. As a training ground, w"
+  },
+  {
+   "title": "XStack: A Benchmark for ML Repo Migration",
+   "url": "http://arxiv.org/abs/2611.08472v1",
+   "published": "2026-11-05T18:55:54Z",
+   "abstract": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1) a practical need, since it unlocks different hardware for researchers, and (2) a natural benchmark: it involves different frameworks and hardware, covers whole repositories, and is long-horizon and challenging. We introduce XStack, a benchmark that evaluates agents on migrating ML repositories between these two ecosystems. Each agent receives a PyTorch repository and a clean TPU machine and must deliver a JAX repository. Its output passes if it meets our grading criteria, based on the source repository's published result, authenticated and calibrated by us. Migration by agents remains unreli"
+  },
+  {
+   "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+   "url": "http://arxiv.org/abs/2611.08469v1",
+   "published": "2026-11-05T18:55:31Z",
+   "abstract": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a quantity is identifiable from an experiment's access, continuous in the mechanism and certifiable from finite data, and answer exactly for a deliberately demanding case - the integrated information $\\varphi$ of integrated information theory - in stochastic networks of four and five units with known ground truth. Behavior can be silent: a recurrent and a feed-forward network with identical input-output laws at their response delay carry 0.28 and 0 bits, yet internal recordings separate them within 4-53 trials. Partial access can be just as blind: in our examples, units left ou"
+  },
+  {
+   "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+   "url": "http://arxiv.org/abs/2611.08465v1",
+   "published": "2026-11-05T18:54:40Z",
+   "abstract": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models which map residual stream directions from a subject model to text exemplars that strongly activate those directions. Our objective is to maximise the cosine similarity of a supplied residual stream direction with the activations of the text generated by the MAEM. This label-free RL objective helps to scale MAEMs on diverse sources of residual stream directions. Empirically, we find the resultant metamodel produces informative exemplars: a Qwen3.6-27B MAEM inverts held-out activations better than corpus search or a natural-language autoencoder (NLA), beats corpus search (at 10M tokens) on a majority of held-out"
+  },
+  {
+   "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
+   "url": "http://arxiv.org/abs/2611.08457v1",
+   "published": "2026-11-05T18:48:50Z",
+   "abstract": "Adversarial Training (AT) is an important method for improving model robustness. We study the dynamics of deterministic Gradient Descent (GD) in AT. Most existing works in this direction focus on the small or vanishing step sizes regime, where GD resembles a continuous-time flow. However, such step sizes can make training inefficient and are rarely used in practice. In this paper, we study the AT dynamics of GD with large constant step sizes. We first study GD in adversarial linear logistic regression, focusing on two aspects: where the model parameters converge (implicit bias) and how quickly the losses decrease (optimization). We then turn to neural networks training and study how the sharpness of losses evolve during AT. Our results advance the understanding of the behaviors of GD with large step sizes in AT and highlight three key differences from its behavior in Standard Training (S"
+  },
+  {
+   "title": "Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development",
+   "url": "http://arxiv.org/abs/2611.08456v1",
+   "published": "2026-11-05T18:48:06Z",
+   "abstract": "Generative AI and agentic coding are accelerating software development, leading to concerns about technical debt. But two less visible forms of debt, cognitive debt and intent debt, are emerging as key risks to software health. Cognitive debt is the absence or erosion of a team's shared understanding where no one can confidently explain how a system works or predict the impact of a change. Intent debt is the lack of clearly articulated goals, constraints, and rationale that explain what the system is for and guide how it should evolve. This paper presents Cognitive Tours, a tool designed to mitigate and repair cognitive and intent debt. Cognitive Tours is a web-based prototype for creating and following curated paths connecting user needs, design decisions, code, tests, and open questions. AI-assisted skills help audit existing waypoints and tours for possible problems or staleness and s"
+  },
+  {
+   "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+   "url": "http://arxiv.org/abs/2611.08453v1",
+   "published": "2026-11-05T18:47:05Z",
+   "abstract": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relative Policy Optimization (GRPO) across task difficulty, student and teacher size, domain, and optimization choices, measuring held-out accuracy against training FLOPs. With an external post-trained teacher, OPD generally loses to GRPO in accuracy per training FLOP at matched settings, even when the teacher is further trained with GRPO, and often suffers response-length inflation. Yet a different teacher changes the picture: when the teacher is the student's own GRPO checkpoint, OPD recovers that checkpoint's accuracy on math with $50\\times$ fewer distillation FLOPs than GRPO needs to reach the "
+  },
+  {
+   "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+   "url": "http://arxiv.org/abs/2611.08452v1",
+   "published": "2026-11-05T18:45:36Z",
+   "abstract": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction. We define a standardized artifact design comprising a refined codebase, environment setup, experiment launchers, and a reproduction guide, and introduce ReproBridge, an agent workflow for constructing these refined reproducible artifacts. ReproBridge-Bench provides 1,029 tasks from 387 experiments across 36 papers, anchored by five human-verified reference scores per task. Agents attempt tasks in fresh sessions with raw code or refined artifacts; a separate Auditor checks execut"
+  },
+  {
+   "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
+   "url": "http://arxiv.org/abs/2611.08445v1",
+   "published": "2026-11-05T18:37:07Z",
+   "abstract": "A defender anticipating an attacker needs a probability distribution over the attacker's next action from information available before that action occurs. Two structures complicate this: the attacker's behavioral regime persists and can switch within an episode, and each action combines an operation with state-dependent arguments whose feasible values change over time. We capture both with a hidden Markov model whose latent state is the active regime and whose regime-conditioned action law is defined on a feasibility-masked tree of executable actions. The same likelihood forms the next-action distribution and updates the regime belief once the action is seen, and a partially observed prefix contributes its resolved local factors. Estimation separates into convex logistic fits that Baum-Welch reuses when regimes are unlabeled. We derive a reach-weighted nodewise KL expression for regime i"
+  },
+  {
+   "title": "SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions",
+   "url": "http://arxiv.org/abs/2611.08442v1",
+   "published": "2026-11-05T18:34:08Z",
+   "abstract": "Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education. We analyse these approaches against NIST PQC standards and PQC migration guidance, software development lifecycle coverage, cybersecurity practices, deployment maturity, and testing and evaluation evidence. Our analysis shows that existing work establishes important technical and organisational foundations but provides disconnected support across the software development lifecycle, with limited coordination between preparation, implementation, migration, deployment, maintenance,"
+  }
+ ]
+}
