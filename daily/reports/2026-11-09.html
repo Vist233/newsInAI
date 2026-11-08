@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Brief · 2026-11-09</title>
+  <link rel="icon" href="/logo.png">
+  <style>
+    :root {
+      --paper:#f1f0ec;
+      --field:#e6e3dc;
+      --ink:#111111;
+      --muted:#6e6c66;
+      --line:#c9c5bc;
+      --line-strong:#1c1c1c;
+      --signal:#d8ff3e;
+      --signal-soft:rgba(216,255,62,.34);
+      --font-sans:Inter,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+      --font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+      --item-no-width:52px;
+      --item-gap:18px;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family:var(--font-sans);
+      background:
+        linear-gradient(rgba(201,197,188,.34) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201,197,188,.34) 1px, transparent 1px),
+        var(--paper);
+      background-size:48px 48px,48px 48px,auto;
+      color:var(--ink);
+    }
+    main {
+      max-width:1120px;
+      margin:56px auto;
+      padding:42px 20px 72px;
+      background:var(--paper);
+      box-shadow:0 0 0 12px var(--paper);
+      position:relative;
+    }
+    header {
+      border-bottom:1px solid var(--line-strong);
+      padding-bottom:28px;
+      margin-bottom:0;
+    }
+    .eyebrow,.date,.meta,.tags,.section-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:12px;
+      letter-spacing:0;
+    }
+    .identity {
+      font-family:var(--font-sans);
+      color:var(--ink);
+      font-size:clamp(36px,8vw,86px);
+      line-height:.92;
+      font-weight:800;
+      margin:8px 0 6px;
+      letter-spacing:0;
+    }
+    h1 { font-size:clamp(32px,7vw,74px); line-height:.92; margin:0; letter-spacing:0; font-weight:800; }
+    .hollow { color:transparent; -webkit-text-stroke:1.2px var(--ink); }
+    h2 { font-size:18px; margin:0; }
+    section { border-top:1px solid var(--line-strong); padding:34px 0; background:var(--paper); }
+    header + section { border-top:0; }
+    .section-head { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+    .section-no {
+      background:var(--signal);
+      color:var(--ink);
+      padding:2px 6px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:30px;
+      height:20px;
+      transform:translateY(-1px);
+    }
+    .summary {
+      white-space:pre-wrap;
+      line-height:1.75;
+      font-size:16px;
+    }
+    .section-subtitle { margin:0 0 16px 0; color:var(--muted); font-size:13px; }
+    .feature-card {
+      display:grid;
+      grid-template-columns:260px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .feature-stack {
+      display:grid;
+      gap:22px;
+    }
+    .feature-art {
+      min-height:150px;
+      border:1px solid var(--line-strong);
+      background:
+        linear-gradient(135deg, rgba(216,255,62,.52), transparent 42%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+      padding:14px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+    .feature-art-title {
+      font-size:28px;
+      line-height:.98;
+      font-weight:800;
+    }
+    .feature-art-meta {
+      font-family:var(--font-mono);
+      font-size:12px;
+      color:var(--ink);
+    }
+    .book-art {
+      background:
+        linear-gradient(135deg, rgba(17,17,17,.08), transparent 44%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+    }
+    .movie-info p { margin:0 0 10px; }
+    .movie-title { font-size:20px; line-height:1.25; }
+    .movie-reason { line-height:1.75; max-width:720px; }
+    .book-title { font-size:20px; line-height:1.25; margin:0 0 10px; }
+    .book-chapter { margin:0 0 10px; color:var(--ink); line-height:1.5; }
+    .book-reason { margin:0; line-height:1.75; max-width:720px; }
+    .items { border-top:0; }
+    .item {
+      display:grid;
+      grid-template-columns:var(--item-no-width) minmax(0,1fr);
+      gap:var(--item-gap);
+      border-bottom:1px solid var(--line);
+      padding:16px 0;
+      align-items:start;
+    }
+    .item:last-child {
+      border-bottom:0;
+      padding-bottom:0;
+    }
+    .item-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.35;
+      padding-top:2px;
+    }
+    .item-main { min-width:0; }
+    .title-line {
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:14px;
+      width:100%;
+    }
+    .title-link {
+      color:var(--ink);
+      font-size:17px;
+      line-height:1.35;
+      text-decoration-thickness:1px;
+      text-underline-offset:4px;
+      flex:1;
+      min-width:0;
+    }
+    .item a:hover { background:var(--signal-soft); }
+    .inline-time {
+      flex:0 0 auto;
+      white-space:nowrap;
+      text-align:right;
+    }
+    .item a { color:var(--ink); }
+    .item a:hover { background:var(--signal-soft); }
+    .source-line {
+      margin-top:6px;
+      min-height:16px;
+    }
+    .media-layout {
+      display:grid;
+      grid-template-columns:220px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .media-body {
+      min-height:100%;
+      display:flex;
+      flex-direction:column;
+    }
+    .video-meta {
+      margin-top:auto;
+    }
+    .thumb {
+      display:block;
+      width:100%;
+      aspect-ratio:16/9;
+      object-fit:cover;
+      border:1px solid var(--line-strong);
+      background:var(--field);
+    }
+    .description {
+      margin-top:8px;
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.65;
+      display:-webkit-box;
+      -webkit-line-clamp:3;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+    .monitor-link-row {
+      display:grid;
+      grid-template-columns:minmax(0,1fr) auto;
+      gap:20px;
+      align-items:center;
+    }
+    .monitor-title {
+      font-size:18px;
+      line-height:1.25;
+      margin:0 0 5px;
+    }
+    .monitor-overview {
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.55;
+      max-width:540px;
+      margin:0;
+    }
+    .monitor-facts {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:10px;
+      margin-top:14px;
+      max-width:620px;
+    }
+    .monitor-fact {
+      min-width:0;
+      padding:10px 12px;
+      border-top:2px solid var(--signal);
+      background:var(--field);
+    }
+    .monitor-fact-label {
+      display:block;
+      color:var(--muted);
+      font:10px/1.2 var(--font-mono);
+      letter-spacing:.04em;
+      text-transform:uppercase;
+    }
+    .monitor-fact-value {
+      display:block;
+      color:var(--ink);
+      font-size:25px;
+      font-weight:800;
+      line-height:1.1;
+      margin:5px 0 3px;
+    }
+    .monitor-fact-copy {
+      display:block;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.35;
+    }
+    .monitor-link {
+      display:inline-flex;
+      align-items:center;
+      border:1px solid var(--ink);
+      background:var(--field);
+      color:var(--ink);
+      padding:8px 10px;
+      font:12px/1 var(--font-mono);
+      text-decoration:none;
+      max-width:100%;
+      overflow-wrap:anywhere;
+    }
+    .monitor-link:hover {
+      background:var(--signal);
+      color:var(--ink);
+    }
+    .brief-footer {
+          margin-top:42px;
+          padding-top:18px;
+          border-top:1px solid var(--line);
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          font:12px/1 var(--font-mono);
+        }
+        .brief-footer a {
+          color:var(--muted);
+          text-decoration:none;
+        }
+        .brief-footer a:hover {
+          color:var(--ink);
+          text-decoration:underline;
+          text-decoration-color:var(--signal);
+          text-underline-offset:4px;
+        }
+        .brief-footer .footer-sep {
+          color:var(--muted);
+          margin: 0 10px;
+          user-select:none;
+          pointer-events:none;
+        }
+        @media (max-width:720px) {
+          .brief-footer .footer-sep { margin: 0 8px; }
+        }
+    @media (max-width:720px) {
+      :root {
+        --item-no-width:38px;
+      }
+      .title-line {
+        flex-direction:column;
+        align-items:flex-start;
+        gap:4px;
+      }
+      .inline-time {
+        text-align:left;
+      }
+      .media-layout { grid-template-columns:1fr; }
+      .feature-card { grid-template-columns:1fr; }
+      .monitor-link-row {
+        grid-template-columns:1fr;
+        grid-template-areas:"action" "details";
+      }
+      .monitor-copy { grid-area:details; }
+      .monitor-facts { grid-template-columns:repeat(3,minmax(0,1fr)); }
+      .monitor-link { grid-area:action; }
+      .monitor-link { justify-self:start; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="identity">ZhangYvJing's</div>
+    <h1><span class="hollow">Daily Brief</span></h1>
+  </header>
+  <section class="feature-picks">
+    <div class="section-head"><span class="section-no">00</span><h2>Film / Book Chapter</h2></div>
+    <div class="feature-stack">
+      <div class="feature-card">
+        <div class="feature-art">
+          <div class="feature-art-title">First Man</div>
+          <div class="feature-art-meta">2018 / Damien Chazelle</div>
+        </div>
+        <div class="movie-info">
+          <p class="movie-title"><strong>First Man (2018)</strong> · Damien Chazelle</p>
+          <p class="movie-reason">把注意力从持续输入里抽出来的校准</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-art book-art">
+          <div class="feature-art-title">The Craft of Research</div>
+          <div class="feature-art-meta">Wayne C. Booth 等</div>
+        </div>
+        <div class="movie-info">
+          <p class="book-title"><strong>The Craft of Research</strong> · Wayne C. Booth 等</p>
+          <p class="book-chapter">Making Good Arguments</p>
+          <p class="book-reason">论点、理由、证据、反驳拆成可检查的结构</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div>
+    <div class="summary">今天的输入集中在 Goodbye Claude, hello Pi；Claude Code&#x27;s &quot;Don&#x27;t Ask Again&quot; exposes passwords in 1,122 public GitHub files；Goldman Sachs is 这几条上。判断留白比硬凑更诚实：模型侧今天没有给出可用的综合。</div>
+  </section>
+  <section>
+    <div class="section-head"><span class="section-no">02</span><h2>Worth Reading</h2></div>
+    <p class="section-subtitle">我的挑选 · 今日值得看</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://caleb.software/posts/claude-to-pi.html">Goodbye Claude, hello Pi</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again">Claude Code&#x27;s &quot;Don&#x27;t Ask Again&quot; exposes passwords in 1,122 public GitHub files</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/sherlock-project/sherlock">sherlock-project/sherlock</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/milind-soni/OpenMausBot">milind-soni/OpenMausBot</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    
+    <div class="meta source-line">pick</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">03</span><h2>Hacker News</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://caleb.software/posts/claude-to-pi.html">Goodbye Claude, hello Pi</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08T03:11:48+00:00">2026-11-08T03:11:48+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again">Claude Code&#x27;s &quot;Don&#x27;t Ask Again&quot; exposes passwords in 1,122 public GitHub files</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-07T20:45:32+00:00">2026-11-07T20:45:32+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers">Goldman Sachs is pulling Claude Code from its bankers and traders</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08T18:16:07+00:00">2026-11-08T18:16:07+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/synchopate/llama-modchip">Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08T10:22:04+00:00">2026-11-08T10:22:04+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors">Nvidia Board of Directors Is Investigating Jensen Huang</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08T20:26:43+00:00">2026-11-08T20:26:43+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html">Writing as a thinking tool</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08T10:41:52+00:00">2026-11-08T10:41:52+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://mailroute.net/blog/outlook-rejecting-email-without-dmarc">Outlook.com Is Quietly Rejecting Email from Domains Without DMARC</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08T19:20:32+00:00">2026-11-08T19:20:32+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://www.lorekit.io/blog/open-agent-memory-format">Agent memory needs its OpenTelemetry moment</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08T08:40:23+00:00">2026-11-08T08:40:23+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://duxlabs.dev/">Dux: Free, open-source Wayland desktop shell with file manager and theming</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08T19:08:51+00:00">2026-11-08T19:08:51+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://sergeykuhne.com/blog/fighting-ai-brain-fry">How I Fight AI Brain Fry</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08T19:37:42+00:00">2026-11-08T19:37:42+00:00</time></span></div>
+    
+    
+    <div class="meta source-line">hn</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">04</span><h2>GitHub Trending</h2></div>
+    <p class="section-subtitle">Daily · Top 10</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/sherlock-project/sherlock">sherlock-project/sherlock</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/dsx-ai-factory/nvke">dsx-ai-factory/nvke</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">Go</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/milind-soni/OpenMausBot">milind-soni/OpenMausBot</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/anthropics/claude-quickstarts">anthropics/claude-quickstarts</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/vercel-labs/agent-browser">vercel-labs/agent-browser</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">Rust</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/meta/astryx">meta/astryx</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/anthropics/skills">anthropics/skills</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/google-deepmind/mujoco">google-deepmind/mujoco</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">C++</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/ranxianglei/billion-context">ranxianglei/billion-context</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">05</span><h2>YouTube</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=21tuT-e4NVo"><img class="thumb" src="https://i.ytimg.com/vi/21tuT-e4NVo/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=21tuT-e4NVo">What the Top Companies Do Differently With AI Coding - Martin Harrysson &amp; Prakhar Dixit, McKinsey</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08">2026-11-08</time></span></div>
+        
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=WJTQBENv0KI"><img class="thumb" src="https://i.ytimg.com/vi/WJTQBENv0KI/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=WJTQBENv0KI">How Ramp Tests Its AI Bookkeeping Agent Before Customers Do - Ryan Stevens, Ramp</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08">2026-11-08</time></span></div>
+        
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=-XL2gClQ2gg"><img class="thumb" src="https://i.ytimg.com/vi/-XL2gClQ2gg/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=-XL2gClQ2gg">Is AI Now Good Enough To Cure Cancer? | YC Paper Club</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-08">2026-11-08</time></span></div>
+        
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=Q78dJ0vkWe8"><img class="thumb" src="https://i.ytimg.com/vi/Q78dJ0vkWe8/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=Q78dJ0vkWe8">How To Build The Future: Paul Graham &amp; Amjad Masad</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-07">2026-11-07</time></span></div>
+        
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">08</span><h2>Papers</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.08487v1">User Embeddings are Superpositions of Interpretable Behavioral Modes</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.08483v1">SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.08478v1">Scientist World: Grow a Research World for AI-Scientists</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.08472v1">XStack: A Benchmark for ML Repo Migration</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.08469v1">Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.08465v1">Towards interpreting any residual stream direction by scaling activation inversion</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.08457v1">Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.08456v1">Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-09">2026-11-09</time></span></div>
+    
+    
+    <div class="meta source-line">paper</div>
+  </div>
+</article></div>
+  </section>
+  
+  <footer class="brief-footer">
+    <a href="/history/">History</a>
+    <span class="footer-sep">·</span>
+    <a href="/rss.xml">RSS</a>
+  </footer>
+</main>
+<script>
+(function() {
+  function relative(iso) {
+    const then = new Date(iso);
+    if (isNaN(then.getTime())) return iso;
+    const diff = Math.floor((Date.now() - then.getTime()) / 1000);
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return Math.floor(diff / 60) + ' min ago';
+    if (diff < 86400) return Math.floor(diff / 3600) + ' hr ago';
+    if (diff < 2592000) return Math.floor(diff / 86400) + ' d ago';
+    const months = Math.floor(diff / 2592000);
+    if (months < 12) return months + ' mo ago';
+    return Math.floor(months / 12) + ' yr ago';
+  }
+  document.querySelectorAll('.rel-time').forEach(el => {
+    const iso = el.getAttribute('datetime');
+    if (iso) el.textContent = relative(iso);
+  });
+})();
+</script>
+</body>
+</html>
