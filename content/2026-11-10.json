@@ -1,0 +1,496 @@
+{
+ "date": "2026-11-10",
+ "summary": "今天的条目看似从模型版本、树莓派涨价到实时支付和 ZIP 边界，主线其实是 AI 正从“能力展示”转向“可落地的工作流与数据治理”。Fable/Mythos、Opus 变弱、Muse Ember 等消息制造版本热度，但更值得关注的是 skills、claude-quickstarts、ha-mcp、agent-browser 这类把模型接进工具链的工程件，以及 Gemini 把个人文件邮件送人工标注所暴露的隐私与审计缺口。被高估的是“新模型名字和榜单刷新”的边际价值；能力提升若无权限、数据来源、成本与可靠性配套，很难转化为生产力。树莓派高价、RTR 和开放地理数据反而提醒：基础设施与公共数据的可用性，比一次模型小版本更能决定应用边界。",
+ "movie": {
+  "title": "Her",
+  "year": 2013,
+  "director": "Spike Jonze",
+  "reason": "把抽象的 AI 讨论拉回真实关系与投射",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "Thinking in Systems",
+  "author": "Donella H. Meadows",
+  "chapter": "Chapter 1: The Basics",
+  "reason": "先看反馈回路与延迟，再谈单变量优化",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "published": "2026-11-09T18:56:29+00:00",
+   "summary": "这则 Hacker News 讨论介绍 Anthropic 发布的 Claude Fable 5.2 与 Mythos 5.2，帖子获得约 810 分和 475 条评论，显示出社区的高度关注。讨论集中在两个新版本的能力提升、适用场景、基准表现、安全与可靠性，以及它们与现有模型和竞品的差异。评论者还关注版本命名、发布节奏、实际使用体验和开发者迁移成本，整体呈现对模型进步与落地价值的混合评估。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Fold Epic Paper Airplanes",
+   "url": "https://www.foldableflight.com",
+   "published": "2026-11-09T12:19:22+00:00",
+   "summary": "Hacker News上有一则关于Fold Epic Paper Airplanes的讨论，帖子链接到foldableflight.com，介绍可折叠纸飞机的设计、教程与相关资源。该帖获得784分和133条评论，社区围绕纸飞机的折叠方法、飞行性能、材料选择以及网站提供的模板和教学展开交流，吸引了对动手制作和空气动力学感兴趣的读者参与。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+   "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+   "published": "2026-11-09T07:04:25+00:00",
+   "summary": "Hacker News 上围绕“Opus 5.5 是否被削弱”的讨论获得 686 分和 452 条评论。讨论源于一条推文，称该模型在 11 月 3 日后思考模式发生变化。参与者比较更新前后的输出，争论这是模型能力下降、推理风格调整，还是提示与评测方式造成的错觉，并延伸到如何判断模型静默更新和版本退化。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+   "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+   "published": "2026-11-09T16:00:45+00:00",
+   "summary": "这则 Hacker News 讨论关注 Payments Canada 宣布推出加拿大实时支付系统 RTR，该系统旨在提供全天候实时清算与结算能力，并可能影响银行、金融科技公司、商户和消费者。帖子获得 435 分和 238 条评论，讨论可能涉及与传统支付体系的差异、互操作性、安全、成本以及实际落地进度等话题。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "USPS now offers official ZIP Code boundary polygons",
+   "url": "https://postalpro.usps.com/zcb",
+   "published": "2026-11-09T19:58:59+00:00",
+   "summary": "Hacker News 上关于美国邮政署推出官方 ZIP Code 边界多边形的讨论获得 321 分和 163 条评论。参与者关注该数据的下载格式、许可与使用限制、边界准确性及其与人口普查 ZCTA 的差异，也讨论它能否替代第三方数据源、对地址匹配和地理分析的影响，以及官方数据开放对开发者和物流、地图、房地产等应用的实用价值。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385",
+   "url": "https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/",
+   "published": "2026-11-09T17:42:55+00:00",
+   "summary": "这篇Hacker News讨论聚焦Raspberry Pi 5 16GB单板计算机售价涨至385美元的现象，发帖者以“这什么时候才会停止”表达对价格持续走高的不满。评论者围绕供应链紧张、内存成本、厂商定价策略和渠道加价展开争论，并比较其他SBC与迷你主机替代方案，担忧涨价会削弱树莓派在开发者和爱好者中的性价比优势。该讨论获得263分和226条评论。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Magenta solar panels may be agrivoltaics' cleverest trick yet",
+   "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
+   "published": "2026-11-09T14:31:39+00:00",
+   "summary": "Hacker News 上围绕一篇题为“洋红色太阳能板可能成为农业光伏最巧妙一招”的文章展开讨论。该文提出通过改变太阳能板颜色来兼顾发电与作物生长，帖子获得241分和147条评论。社区关注其光学原理、对作物产量的实际影响、发电效率损失、成本以及能否大规模推广，并讨论它是否真比现有农业光伏方案更实用。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Google Gemini routes personal Drive files and emails to human annotators",
+   "url": "https://github.com/thisisme6598/gemini_files/",
+   "published": "2026-11-09T18:24:38+00:00",
+   "summary": "该讨论围绕一份GitHub材料展开，指称Google Gemini会把用户个人Drive文件和邮件内容转交给人工标注者处理，引发对隐私边界与数据处理透明度的担忧。Hacker News上该帖获得231分和43条评论，参与者重点质疑触发条件、用户同意机制、数据脱敏方式及保留期限，并讨论云服务AI功能与个人数据保护之间的冲突。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "E-means: 10x faster k-means at equal loss",
+   "url": "https://e-means.github.io/",
+   "published": "2026-11-09T18:45:43+00:00",
+   "summary": "Hacker News 上出现了一则关于 E-means 的技术讨论，该项目声称能在损失相同的情况下让 k-means 聚类快约10倍，并提供了项目主页供读者查看。帖子获得214分和11条评论，说明不少读者对其性能主张感兴趣，但讨论规模不算大。讨论主要关注加速是否适用于不同数据规模与维度、所谓相等损失如何衡量、实现与基线选择是否公平，以及实验结果能否复现。整体看，这是一个聚焦聚类算法工程优化与实验可信度的话题。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Our Smallest, Most Efficient Model: Muse Ember",
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "published": "2026-11-09T17:58:46+00:00",
+   "summary": "Hacker News 上围绕 Meta 研究团队发布的最小最高效模型 Muse Ember 展开讨论，帖子获得 210 分和 87 条评论。社区主要关注该模型的实际性能、推理成本与适用场景，以及小模型在本地部署和边缘设备上的潜力，同时讨论其与同类高效模型的对比、基准测试可信度和开放程度。整体来看，讨论反映出开发者对高效小模型落地价值的兴趣，也对其能力边界和生态支持保持审慎。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "published": "2026-11-10",
+   "summary": "anthropics/skills 是 Anthropic 在 GitHub 上公开维护的 Agent Skills 项目仓库，主要使用 Python 语言，面向智能体技能的定义、组织与复用提供公开资源。项目今日新增约 1052 个星标，关注度较高，适合开发者了解 Agent Skills 的实践方式并参与学习与交流。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "published": "2026-11-10",
+   "summary": "meta/astryx 是一个基于 TypeScript 开发的开源设计系统，主打完全可定制和面向智能体就绪。它为开发者提供可灵活调整的设计基础与组件能力，便于构建一致且可扩展的产品界面，同时适配智能体参与开发与交互的场景。项目今日新增 3,324 星，说明其近期受到社区较多关注。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "published": "2026-11-10",
+   "summary": "Sherlock 是一个基于 Python 的开源公开信息检索工具，核心功能是依据用户名在多个社交网络和在线平台中批量查找可能关联的账号。它通过维护平台规则并自动发起查询，帮助安全研究人员、调查人员和普通用户快速发现同一用户名在不同站点上的公开痕迹。该项目在 GitHub 上发布，今日新增约 4294 星，说明其社区关注度正快速上升。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "published": "2026-11-10",
+   "summary": "google-deepmind/mujoco 是一个由 Google DeepMind 开源的多关节接触动力学物理仿真器，采用 C++ 编写，面向机器人、强化学习与生物力学等场景提供通用物理仿真能力。项目今日新增 579 星，热度较高，适合需要高精度接触模拟与高效多关节动力学计算的研究和工程应用。",
+   "categories": [
+    "C++"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "published": "2026-11-10",
+   "summary": "anthropics/claude-quickstarts 是 GitHub 上的一个开源项目，主要使用 Python 语言，提供一组面向开发者的示例项目，帮助大家快速上手并借助 Claude API 构建可部署的应用程序。项目覆盖从入门到实际落地的常见场景，便于开发者参考、复用和扩展。该项目今日新增 560 星，显示出社区对 Claude 应用开发工具和快速入门资源的持续关注。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "garrytan/gbrain",
+   "url": "https://github.com/garrytan/gbrain",
+   "published": "2026-11-10",
+   "summary": "garrytan/gbrain 是一个使用 TypeScript 编写的开源项目，定位为 Garry 带有明确主张的 OpenClaw/Hermes 智能体大脑，旨在为相关智能体提供可复用的核心决策与行为组织能力。项目今日新增 215 星，说明其近期受到开发者关注。从简介看，它强调作者个人化的设计取向，适合希望了解或构建 OpenClaw/Hermes Agent 大脑机制的开发者参考。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "published": "2026-11-10",
+   "summary": "vercel-labs/agent-browser 是 Vercel Labs 在 GitHub 上开源的一款浏览器自动化命令行工具，主要面向 AI 智能体，帮助其通过 CLI 控制浏览器并执行网页操作。项目使用 Rust 编写，今日新增 914 星，关注度较高，适合需要为 AI 代理集成网页交互与自动化能力的开发者了解和使用。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "published": "2026-11-10",
+   "summary": "RuView 是一个使用 Rust 编写的开源项目，它利用普通商用 WiFi 信号实现实时空间智能、生命体征监测和存在检测，无需任何视频画面或摄像头像素。该项目通过无线信号感知环境与人体状态，为隐私友好的智能感知提供了新思路，今日新增 245 星，受到较多关注。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "published": "2026-11-10",
+   "summary": "ZhuLinsen/daily_stock_analysis 是一个用 Python 编写的开源项目，提供由大语言模型驱动的多市场股票智能分析能力。系统整合多源行情数据与实时新闻，生成决策看板并支持自动推送，还能以零成本方式定时运行，适合个人投资者持续跟踪市场动态。该项目今日新增 505 星，关注度较高。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "published": "2026-11-10",
+   "summary": "这个 GitHub 开源项目使用 Python 开发，旨在让 Claude、ChatGPT 等 AI 助手配置和自动化 Home Assistant。它通过连接 AI 助手与 Home Assistant，帮助用户更便捷地管理智能家居设备、创建自动化流程并调整系统设置，从而降低智能家居配置门槛。项目今日新增 31 星，显示出社区对 AI 驱动家居自动化的关注。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "On Agentic Manipulation Policies",
+   "url": "http://arxiv.org/abs/2611.09892v1",
+   "published": "2026-11-10",
+   "summary": "近期机器人操作研究多集中于基于演示训练的专家策略。本文提出并系统分析智能体操作策略，即由通用人工智能模型直接指挥机械臂，并随任务进展调整动作。作者给出参考框架AMP1，无需修改即可用于单臂、双臂和移动操作。AMP1在RoboLab-120和CaP-Gym基准上取得领先结果，且无需演示或任务特定训练。在RoboLab-120上，AMP1零样本成功率达85.6%，显著高于领先VLA策略的49.2%和WAM策略的42.9%。在涵盖十二项任务的108次真实世界试验中，该智能体零样本成功104次。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+   "url": "http://arxiv.org/abs/2611.09891v1",
+   "published": "2026-11-10",
+   "summary": "大型语言模型常重复造轮子，将任务求解与方案执行混为一谈，导致每个问题都需从头推理。该论文提出智能体推理缓存方法，从大模型推理轨迹中构建可在CPU上执行的稳健智能体推理缓存ARC。研究显示，一旦任务被完整推理，其方案可高效迁移到新的问题实例，且几乎无需语言模型参与。ARC在多项困难数学与科学任务上达到前沿大模型水平，具备完全可解释、可持续训练、对输入扰动稳健等特性，调用成本仅为源模型的十六至二百九十一分之一。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "On the (non-)closedness of the set of ReLU networks",
+   "url": "http://arxiv.org/abs/2611.09887v1",
+   "published": "2026-11-10",
+   "summary": "本文研究ReLU网络集合的闭性。作者证明了在有界连通开集Ω上，含一个隐藏层且神经元数不超过N的ReLU网络集合在W^{1,p}(Ω)中弱闭。由此，该集合上每个强制且弱下半连续的能量泛函都能取得最小值，并适用于凸被积函数的Deep Ritz方法、Sobolev训练与Lipschitz学习。当权重衰减参数趋于零时，正则化问题最小解的相应子列收敛到具有最小参数范数的最小解。文中还证明，具有两个隐藏层且各层宽度有界的ReLU网络集合在W^{1,p}(Ω)与C(Ω闭包)中均不闭，从而否定了Petersen、Raslan和Voigtlaender提出的一个猜想。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+   "url": "http://arxiv.org/abs/2611.09882v1",
+   "published": "2026-11-10",
+   "summary": "多人未来运动预测本质上是随机的，同一段观测历史可能对应多种合理延续，取决于意图、协调方式和社会语境。然而现有多人三维运动预测方法大多仍是确定性的，每个智能体只产生固定数量的输出。本文提出条件流匹配框架，联合生成多个智能体的多样未来运动，同时建模全局轨迹与根相对姿态。B样条重参数化压缩生成状态空间并增强时间平滑性，双流Transformer让每个智能体的预测以观察到的邻居运动为条件，从而实现交互感知预测。该方法在CMU-Mocap（UMPM）和3DPW上取得最先进性能，并在关节位置指标上优于确定性基线。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
+   "url": "http://arxiv.org/abs/2611.09878v1",
+   "published": "2026-11-10",
+   "summary": "论文提出分级卷积网络，利用高斯射流的分级结构处理尺度不变性与未知模糊。局部分级卷积恰为齐次微分算子，尺度不变特征可经由尺度归一化射流表示，或在无需尺度时通过加权球面上的收缩表示。未知高斯模糊只使该收缩改变尺度，而尺度归一化射流会产生径向归一化无法消除的分级因子。基于收缩的网络对不变特征具有通用性，在MNIST两像素模糊下保持88.4%准确率，优于尺度归一化导数网络的66.2%。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+   "url": "http://arxiv.org/abs/2611.09872v1",
+   "published": "2026-11-10",
+   "summary": "本文分析测试时强化学习中多数投票伪标签的可靠性，将在线直接偏好优化下的监督误差分解为总体多数偏差与提示相关的有限采样波动。由于总体多数偏差通常无法在缺少外部监督时识别，作者聚焦缓解有限采样波动的下游影响，提出提示条件分布稳健直接偏好优化方法，根据观察到的投票可靠性对提示内样本稳健重加权，使采样敏感提示的更新更保守，并引入缓存机制减少在线适应中的自监督遗忘。六个数学推理基准实验显示该方法能提升伪标签利用的可靠性并缓解遗忘。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "An Empirical Study on Clustering-based Quantum Approximate Optimization Algorithm for Regression Test Case Selection",
+   "url": "http://arxiv.org/abs/2611.09869v1",
+   "published": "2026-11-10",
+   "summary": "回归测试需要判断软件修改后已有组件是否仍正确工作，但每次修改都重跑全部测试成本过高，因此测试用例选择等优化方法受到关注。现有经典方法如Additional Greedy和DIV-GA则计算开销较大，量子方法如SelectQA、BootQA和IGDec-QAOA又受当前量子硬件限制。本文扩展了对QAOA-TCS的评估，这是一种面向测试用例选择问题的量子方法，并对其性能进行了较全面的实验分析。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
+   "url": "http://arxiv.org/abs/2611.09868v1",
+   "published": "2026-11-10",
+   "summary": "大型推理模型通过生成更长的中间推理轨迹提升任务表现，但推理成本显著增加，使低精度量化愈发重要。然而，激进量化模型在推理任务上往往表现不佳。观察到推理阶段最初若干解码步的激活波动更大，若校准忽略这些早期状态可能遗漏其激活变化。为此，论文提出CodeQuant2，一种面向低精度大型推理模型的基于聚类的查找表量化框架。该方法通过旋转与缩放缓解激活异常值，利用聚类表示非均匀权重分布，并依据各层量化难度自适应调整码本大小，以应对推理特有的量化挑战。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Your Self-Hosted LLM Needs to Say No - Harshul Jain & Parv Khatri, Audible & SAP",
+   "url": "https://www.youtube.com/watch?v=ntVpbyDTYaQ",
+   "published": "2026-11-09",
+   "summary": "Audible 与 SAP 讲者提出，自托管大模型必须能拒绝越权请求，否则企业控制权只是假象。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/ntVpbyDTYaQ/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "How One Founder Manages 20 AI Coding Agents at Once - Ryan Carson, Untangle",
+   "url": "https://www.youtube.com/watch?v=BTtyguoPvBU",
+   "published": "2026-11-09",
+   "summary": "视频用20个AI编程代理的实操案例，拆解分工、验收和纠错流程，适合准备搭建多代理工作流的人参考。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/BTtyguoPvBU/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Is AI Now Good Enough To Cure Cancer? | YC Paper Club",
+   "url": "https://www.youtube.com/watch?v=-XL2gClQ2gg",
+   "published": "2026-11-08",
+   "summary": "YC Paper Club 用论文拆解 AI 治癌的模型能力与临床验证缺口，比谈前景更具体。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/-XL2gClQ2gg/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "How To Build The Future: Paul Graham & Amjad Masad",
+   "url": "https://www.youtube.com/watch?v=Q78dJ0vkWe8",
+   "published": "2026-11-07",
+   "summary": "YC 创始人 Paul Graham 与 Replit 谈用快速原型和用户反馈做产品。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/Q78dJ0vkWe8/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "published": "2026-11-10",
+   "summary": "810分、475条讨论聚焦新版模型能力、基准、安全可靠性与迁移成本，并给出进步和落地价值并存的混合评估。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Fold Epic Paper Airplanes",
+   "url": "https://www.foldableflight.com",
+   "published": "2026-11-10",
+   "summary": "该帖获784分、133条讨论，社区交流纸飞机折叠方法、飞行性能与材料选择，网站附模板和教学。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "published": "2026-11-10",
+   "summary": "它按用户名批量查询多平台账号，靠维护平台规则自动查询，便于",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "published": "2026-11-10",
+   "summary": "该TypeScript开源设计系统可完全定制、面向智能体就绪，提供可调组件，今日新增3,324星标。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}

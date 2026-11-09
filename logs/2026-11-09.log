@@ -239,3 +239,8 @@
 [08:09:22] 精选 4 条
 [08:09:34] 内容写入 content/2026-11-09.json，共 35 条
 [08:09:34] build rc=0 items: 35 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[08:09:35] commit rc=0 [main b463510] daily: 2026-11-09 自动更新（27 处降级）
+[08:09:40] push main rc=0    0e8dc4b..b463510  main -> main
+[08:09:47] push gh-pages rc=0    ac824f0..4bdb474  gh-pages -> gh-pages
+[08:09:47] === 完成，降级项 27 ===
+[08:09:47] 降级明细: HN 摘要缺失×10, GH 摘要缺失×9, 论文摘要缺失×8

@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "points": 810,
+   "comments": 475,
+   "published": "2026-11-09T18:56:29+00:00",
+   "hn_id": "50429906"
+  },
+  {
+   "title": "Fold Epic Paper Airplanes",
+   "url": "https://www.foldableflight.com",
+   "points": 784,
+   "comments": 133,
+   "published": "2026-11-09T12:19:22+00:00",
+   "hn_id": "50424581"
+  },
+  {
+   "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+   "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+   "points": 686,
+   "comments": 452,
+   "published": "2026-11-09T07:04:25+00:00",
+   "hn_id": "50422069"
+  },
+  {
+   "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+   "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+   "points": 435,
+   "comments": 238,
+   "published": "2026-11-09T16:00:45+00:00",
+   "hn_id": "50427362"
+  },
+  {
+   "title": "USPS now offers official ZIP Code boundary polygons",
+   "url": "https://postalpro.usps.com/zcb",
+   "points": 321,
+   "comments": 163,
+   "published": "2026-11-09T19:58:59+00:00",
+   "hn_id": "50431058"
+  },
+  {
+   "title": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385",
+   "url": "https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/",
+   "points": 263,
+   "comments": 226,
+   "published": "2026-11-09T17:42:55+00:00",
+   "hn_id": "50428801"
+  },
+  {
+   "title": "Magenta solar panels may be agrivoltaics' cleverest trick yet",
+   "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
+   "points": 241,
+   "comments": 147,
+   "published": "2026-11-09T14:31:39+00:00",
+   "hn_id": "50426175"
+  },
+  {
+   "title": "Google Gemini routes personal Drive files and emails to human annotators",
+   "url": "https://github.com/thisisme6598/gemini_files/",
+   "points": 231,
+   "comments": 43,
+   "published": "2026-11-09T18:24:38+00:00",
+   "hn_id": "50429426"
+  },
+  {
+   "title": "E-means: 10x faster k-means at equal loss",
+   "url": "https://e-means.github.io/",
+   "points": 214,
+   "comments": 11,
+   "published": "2026-11-09T18:45:43+00:00",
+   "hn_id": "50429734"
+  },
+  {
+   "title": "Our Smallest, Most Efficient Model: Muse Ember",
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "points": 210,
+   "comments": 87,
+   "published": "2026-11-09T17:58:46+00:00",
+   "hn_id": "50429024"
+  },
+  {
+   "title": "What is malloc doing, anyway?",
+   "url": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
+   "points": 202,
+   "comments": 54,
+   "published": "2026-11-09T11:31:05+00:00",
+   "hn_id": "50424157"
+  },
+  {
+   "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+   "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+   "points": 198,
+   "comments": 111,
+   "published": "2026-11-09T20:04:55+00:00",
+   "hn_id": "50431144"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "language": "Python",
+   "stars_today": "1,052",
+   "url": "https://github.com/anthropics/skills"
+  },
+  {
+   "repo": "meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "language": "TypeScript",
+   "stars_today": "3,324",
+   "url": "https://github.com/meta/astryx"
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "language": "Python",
+   "stars_today": "4,294",
+   "url": "https://github.com/sherlock-project/sherlock"
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "language": "C++",
+   "stars_today": "579",
+   "url": "https://github.com/google-deepmind/mujoco"
+  },
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "language": "Python",
+   "stars_today": "560",
+   "url": "https://github.com/anthropics/claude-quickstarts"
+  },
+  {
+   "repo": "garrytan/gbrain",
+   "desc": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+   "language": "TypeScript",
+   "stars_today": "215",
+   "url": "https://github.com/garrytan/gbrain"
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "language": "Rust",
+   "stars_today": "914",
+   "url": "https://github.com/vercel-labs/agent-browser"
+  },
+  {
+   "repo": "ruvnet/RuView",
+   "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+   "language": "Rust",
+   "stars_today": "245",
+   "url": "https://github.com/ruvnet/RuView"
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "language": "Python",
+   "stars_today": "505",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+  },
+  {
+   "repo": "homeassistant-ai/ha-mcp",
+   "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "language": "Python",
+   "stars_today": "31",
+   "url": "https://github.com/homeassistant-ai/ha-mcp"
+  }
+ ],
+ "papers": [
+  {
+   "title": "On Agentic Manipulation Policies",
+   "url": "http://arxiv.org/abs/2611.09892v1",
+   "published": "2026-11-06T18:59:34Z",
+   "abstract": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly, adapting its actions as the task unfolds. We present AMP1, a reference harness that runs unchanged across single-arm, bimanual, and mobile manipulation. AMP1 achieves state-of-the-art results on the RoboLab-120 and CaP-Gym benchmarks, with no demonstrations or task-specific training. On RoboLab-120, AMP1 reaches an 85.6\\% success rate zero-shot, compared to 49.2\\% and 42.9\\% for leading VLA and WAM policies. The agent succeeds zero-shot in 104 of 108 real-world trials spanning twelve tasks and "
+  },
+  {
+   "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+   "url": "http://arxiv.org/abs/2611.09891v1",
+   "published": "2026-11-06T18:58:50Z",
+   "abstract": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning caching, a method for constructing robust CPU-executable agentic reasoning caches (ARCs) from LLM reasoning traces. ARCs show on-par performance with frontier LLMs across a range of difficult mathematical and scientific tasks, are fully explainable, continually trainable, robust to input perturbations, and 16-291x cheaper to invoke than the source model."
+  },
+  {
+   "title": "On the (non-)closedness of the set of ReLU networks",
+   "url": "http://arxiv.org/abs/2611.09887v1",
+   "published": "2026-11-06T18:58:06Z",
+   "abstract": "We prove that the set $\\mathcal{N}_N$ of ReLU networks with one hidden layer and at most $N\\in\\mathbb N$ neurons is weakly closed in $W^{1,p}(Ω)$, for a bounded connected open set $Ω\\subset\\mathbb R^d$. Consequently, every coercive, weakly lower semicontinuous energy on this space attains its minimum over $\\mathcal{N}_N$. This covers the Deep Ritz method with convex integrands, Sobolev training and Lipschitz learning. Moreover, as the weight decay parameter tends to zero, minimizers of the regularized problem converge, up to subsequences, to minimizers with minimal parameter norm. We also prove that the set of ReLU networks with two hidden layers of bounded widths is not closed in $W^{1,p}(Ω)$ or in $C(\\overlineΩ)$. This disproves a conjecture of Petersen, Raslan and Voigtlaender."
+  },
+  {
+   "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+   "url": "http://arxiv.org/abs/2611.09882v1",
+   "published": "2026-11-06T18:56:41Z",
+   "abstract": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods producing a fixed number of outputs per agent. In contrast, we present a conditional flow matching framework that jointly generates diverse future motions for multiple agents, modeling both global trajectories and root-relative poses. A B-spline reparameterization compresses the generative state space while enforcing temporal smoothness, and a dual-stream transformer conditions each agent's predictions on observed neighbor motion for interaction-aware forecasting. Our method achieves state-of-the-art performance on CMU-Mocap (UMPM) and 3DPW, outperforming deterministic baselines on joint positi"
+  },
+  {
+   "title": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
+   "url": "http://arxiv.org/abs/2611.09878v1",
+   "published": "2026-11-06T18:54:03Z",
+   "abstract": "The Gaussian jet of an image is a graded vector space: a dilation by $λ$ multiplies derivatives of order $k$ by $λ^{-k}$. Local graded convolutions are exactly homogeneous differential operators, and a local feature is dilation-invariant if and only if it factors through the scale-normalized jet or, without the scale, through the retraction onto the weighted sphere of the grading. Under unknown Gaussian blur the retraction changes only by a change of scale, whereas the scale-normalized jet acquires a grading factor that no radial normalization removes. At the zero jet the retraction separates image families that radial normalizations and continuous classifiers cannot. Networks built on the retraction are universal for invariant features. On MNIST such a network keeps 88.4% accuracy under a two-pixel blur, against 66.2% for the same network on scale-normalized derivatives; in Lindeberg's "
+  },
+  {
+   "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+   "url": "http://arxiv.org/abs/2611.09872v1",
+   "published": "2026-11-06T18:49:02Z",
+   "abstract": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direct Preference Optimization (DPO) and decompose its error into population-majority bias and prompt-dependent finite-rollout variation. Because population-majority bias is generally unidentifiable without external supervision, we focus on mitigating the downstream effects of finite-rollout variation. We propose \\emph{Prompt-Conditional Distributionally Robust DPO (PC-Dr.DPO)}, which conditions within-prompt robust reweighting on observed vote reliability to make updates from sampling-sensitive prompts more conservative. We further introduce a cache-based mechanism to reduce self-supervised forgetting during online adaptation. Across six mathemat"
+  },
+  {
+   "title": "An Empirical Study on Clustering-based Quantum Approximate Optimization Algorithm for Regression Test Case Selection",
+   "url": "http://arxiv.org/abs/2611.09869v1",
+   "published": "2026-11-06T18:48:13Z",
+   "abstract": "Regression testing assesses whether software components that have already been developed and tested continue to work correctly after modifications. Ideally, regression testing re-executes the entire test suite after each modification, but this is infeasible in real-world scenarios because of the computational burden; therefore, optimized approaches, such as Test Case Selection, have been developed. The state of the art in regression testing optimization includes both classical approaches, such as Additional Greedy and DIV-GA, and quantum approaches, such as SelectQA, BootQA, and IGDec-QAOA. However, while the former incur high computational costs, the latter are constrained by the physical limitations of currently available quantum machines. This paper extends the evaluation of QAOA-TCS, our quantum approach for the test case selection problem. We thoroughly evaluate its performance, com"
+  },
+  {
+   "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
+   "url": "http://arxiv.org/abs/2611.09868v1",
+   "published": "2026-11-06T18:48:04Z",
+   "abstract": "Large reasoning models (LRMs) improve task performance by generating longer intermediate reasoning traces, but this substantially increases inference costs and makes low-precision quantization increasingly important. However, aggressively quantized models often perform poorly on reasoning tasks. We observe larger activation fluctuations during the first decoding steps of reasoning. Calibration that omits these early states may miss their activation fluctuations. To address these reasoning-specific quantization challenges, we propose \\textbf{CodeQuant2}, a clustering-based LUT quantization framework for low-precision large reasoning models. CodeQuant2 mitigates activation outliers with rotation and scaling, uses clustering to represent non-uniform weight distributions, and adapts codebook sizes to the quantization difficulty of each layer. Guided by our observation of reasoning-time activ"
+  },
+  {
+   "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
+   "url": "http://arxiv.org/abs/2611.09866v1",
+   "published": "2026-11-06T18:47:23Z",
+   "abstract": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensive manual review and clinical expertise. Automated surgical scene descriptions could reduce this burden by leveraging recurring surgical activities and prior knowledge. Methods: We propose GRAC (Graph-Based Retrieval-Augmented Captioning), a framework that represents surgical scenes as graphs capturing relationships among instruments, actions, and anatomical structures. Given an input scene graph, GRAC learns to retrieve relevant graph-caption pairs from training data. It compares instrument-tissue interactions between retrieved examples and the input scene, using comparison features to condition retrieved-caption representations during generation. Results: On the EndoVis-18 benchmark, GRAC a"
+  },
+  {
+   "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+   "url": "http://arxiv.org/abs/2611.09864v1",
+   "published": "2026-11-06T18:44:33Z",
+   "abstract": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex robot-object and object-environment interaction dynamics. Existing approaches address this challenge either through model-based methods, which often require accurate dynamics models, or through learning-based methods, which reduce this requirement but typically assume a fixed or predefined initial grasp. However, different geometrically stable grasps can lead to substantially different downstream manipulation performance. Therefore, we propose Grasp-TAGS, a task-aware grasp selection framework for goal-conditioned large-object rearrangement. We "
+  },
+  {
+   "title": "Flow-Guided Target-Space Alignment via Path Consistency",
+   "url": "http://arxiv.org/abs/2611.09863v1",
+   "published": "2026-11-06T18:44:08Z",
+   "abstract": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream analysis. In this setting, successful alignment should preserve both the global structure of the target distribution and the instance-level correspondence observed in paired source--target training data. Existing objectives typically address only part of this goal: contrastive losses encourage relative similarity, distribution-matching losses improve marginal agreement, and pointwise regression fits each source sample to its paired target without explicitly modeling target-space path geometry. We propose FlowAlign, a flow-guided target-space alignment method that repurposes conditional flow matching as a training-time alignment signal rather than an inference-time transport "
+  },
+  {
+   "title": "How far does a hash-only sender go? A pre-registered map of sender memory versus bits for short text messages",
+   "url": "http://arxiv.org/abs/2611.09848v1",
+   "published": "2026-11-06T18:31:24Z",
+   "abstract": "Can a sender that only computes hashes, with a language model only at the receiver, transmit short human text more cheaply than a classical sender trained on the same domain? We answer with one pre-registered run on 1,000 English user utterances from Taskmaster-1. The primary endpoint is the cost per message to deliver 100% of the messages (hash bits, plus a 2-byte negative acknowledgement and the raw text when the first attempt fails), paired against an in-domain PPM order-1 sender. The hash-only sender delivered 857 of 1,000 messages on the first attempt and cost 192.8 bits per message, 18.4 bits more than PPM order 1 (95% bootstrap interval 10.9 to 26.3); by the pre-registered rule it spends more and is not equivalent within one byte. As secondary results we map measured sender memory against bits. The hash-only sender (8,190 B on a host build, keyed BLAKE2b tag included, as in every "
+  }
+ ]
+}

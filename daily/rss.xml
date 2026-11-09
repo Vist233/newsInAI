@@ -5,245 +5,253 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2026 00:09:34 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 23:06:06 GMT</lastBuildDate>
     <item>
-      <title>2026-11-09 Daily Brief</title>
-      <link>https://news.zhangyvjing.com/reports/2026-11-09.html</link>
-      <guid>https://news.zhangyvjing.com/reports/2026-11-09.html</guid>
-      <pubDate>Mon, 09 Nov 2026 00:09:34 GMT</pubDate>
-      <description>今天的条目看似散乱，主线却很清楚：AI编码代理正从“能做什么”进入“出了事谁负责、如何审计、能否低成本运行”的阶段。Claude Code泄露密码、高盛撤出、代理记忆呼吁OpenTelemetry，以及Outlook收紧DMARC，都说明默认安全和可观测性不是附属功能，而是采用门槛；Llama-modchip和billion-context则提示低资源推理与长上下文正在被工程化。我的判断是，被高估的是“更强模型/更自主代理”本身，以及排行榜式能力叙事；真正稀缺的是安全默认值、审计轨迹、权限边界和可迁移的代理基础设施。若团队仍把Claude等品牌当作生产力捷径，却忽视密钥泄露、组织合规与记忆治理，迁移到Pi也不会自动变好。写作作为思考工具、开源桌面和工具库热度，反而提醒我们：可维护的日常工作流比一次惊艳demo更值钱。</description>
+      <title>2026-11-10 Daily Brief</title>
+      <link>https://news.zhangyvjing.com/reports/2026-11-10.html</link>
+      <guid>https://news.zhangyvjing.com/reports/2026-11-10.html</guid>
+      <pubDate>Mon, 09 Nov 2026 23:06:06 GMT</pubDate>
+      <description>今天的条目看似从模型版本、树莓派涨价到实时支付和 ZIP 边界，主线其实是 AI 正从“能力展示”转向“可落地的工作流与数据治理”。Fable/Mythos、Opus 变弱、Muse Ember 等消息制造版本热度，但更值得关注的是 skills、claude-quickstarts、ha-mcp、agent-browser 这类把模型接进工具链的工程件，以及 Gemini 把个人文件邮件送人工标注所暴露的隐私与审计缺口。被高估的是“新模型名字和榜单刷新”的边际价值；能力提升若无权限、数据来源、成本与可靠性配套，很难转化为生产力。树莓派高价、RTR 和开放地理数据反而提醒：基础设施与公共数据的可用性，比一次模型小版本更能决定应用边界。</description>
     </item>
     <item>
-      <title>Goodbye Claude, hello Pi</title>
-      <link>https://caleb.software/posts/claude-to-pi.html</link>
-      <guid>https://caleb.software/posts/claude-to-pi.html</guid>
+      <title>Claude Fable 5.2 and Mythos 5.2</title>
+      <link>https://www.anthropic.com/claude-fable-and-mythos-5-2</link>
+      <guid>https://www.anthropic.com/claude-fable-and-mythos-5-2</guid>
       <category>hacker_news</category>
-      <pubDate>Sun, 08 Nov 2026 03:11:48 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 09 Nov 2026 18:56:29 GMT</pubDate>
+      <description>这则 Hacker News 讨论介绍 Anthropic 发布的 Claude Fable 5.2 与 Mythos 5.2，帖子获得约 810 分和 475 条评论，显示出社区的高度关注。讨论集中在两个新版本的能力提升、适用场景、基准表现、安全与可靠性，以及它们与现有模型和竞品的差异。评论者还关注版本命名、发布节奏、实际使用体验和开发者迁移成本，整体呈现对模型进步与落地价值的混合评估。</description>
     </item>
     <item>
-      <title>Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files</title>
-      <link>https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again</link>
-      <guid>https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again</guid>
+      <title>Fold Epic Paper Airplanes</title>
+      <link>https://www.foldableflight.com</link>
+      <guid>https://www.foldableflight.com</guid>
       <category>hacker_news</category>
-      <pubDate>Sat, 07 Nov 2026 20:45:32 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 09 Nov 2026 12:19:22 GMT</pubDate>
+      <description>Hacker News上有一则关于Fold Epic Paper Airplanes的讨论，帖子链接到foldableflight.com，介绍可折叠纸飞机的设计、教程与相关资源。该帖获得784分和133条评论，社区围绕纸飞机的折叠方法、飞行性能、材料选择以及网站提供的模板和教学展开交流，吸引了对动手制作和空气动力学感兴趣的读者参与。</description>
     </item>
     <item>
-      <title>Goldman Sachs is pulling Claude Code from its bankers and traders</title>
-      <link>https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers</link>
-      <guid>https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers</guid>
+      <title>Is Opus 5.5 nerfed? Thinking patterns changed on November 3</title>
+      <link>https://twitter.com/shanemelaugh/status/2119192075505893695</link>
+      <guid>https://twitter.com/shanemelaugh/status/2119192075505893695</guid>
       <category>hacker_news</category>
-      <pubDate>Sun, 08 Nov 2026 18:16:07 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 09 Nov 2026 07:04:25 GMT</pubDate>
+      <description>Hacker News 上围绕“Opus 5.5 是否被削弱”的讨论获得 686 分和 452 条评论。讨论源于一条推文，称该模型在 11 月 3 日后思考模式发生变化。参与者比较更新前后的输出，争论这是模型能力下降、推理风格调整，还是提示与评测方式造成的错觉，并延伸到如何判断模型静默更新和版本退化。</description>
     </item>
     <item>
-      <title>Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU</title>
-      <link>https://github.com/synchopate/llama-modchip</link>
-      <guid>https://github.com/synchopate/llama-modchip</guid>
+      <title>Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system</title>
+      <link>https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy</link>
+      <guid>https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy</guid>
       <category>hacker_news</category>
-      <pubDate>Sun, 08 Nov 2026 10:22:04 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 09 Nov 2026 16:00:45 GMT</pubDate>
+      <description>这则 Hacker News 讨论关注 Payments Canada 宣布推出加拿大实时支付系统 RTR，该系统旨在提供全天候实时清算与结算能力，并可能影响银行、金融科技公司、商户和消费者。帖子获得 435 分和 238 条评论，讨论可能涉及与传统支付体系的差异、互操作性、安全、成本以及实际落地进度等话题。</description>
     </item>
     <item>
-      <title>Nvidia Board of Directors Is Investigating Jensen Huang</title>
-      <link>https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors</link>
-      <guid>https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors</guid>
+      <title>USPS now offers official ZIP Code boundary polygons</title>
+      <link>https://postalpro.usps.com/zcb</link>
+      <guid>https://postalpro.usps.com/zcb</guid>
       <category>hacker_news</category>
-      <pubDate>Sun, 08 Nov 2026 20:26:43 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 09 Nov 2026 19:58:59 GMT</pubDate>
+      <description>Hacker News 上关于美国邮政署推出官方 ZIP Code 边界多边形的讨论获得 321 分和 163 条评论。参与者关注该数据的下载格式、许可与使用限制、边界准确性及其与人口普查 ZCTA 的差异，也讨论它能否替代第三方数据源、对地址匹配和地理分析的影响，以及官方数据开放对开发者和物流、地图、房地产等应用的实用价值。</description>
     </item>
     <item>
-      <title>Writing as a thinking tool</title>
-      <link>http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html</link>
-      <guid>http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html</guid>
+      <title>When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385</title>
+      <link>https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/</link>
+      <guid>https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/</guid>
       <category>hacker_news</category>
-      <pubDate>Sun, 08 Nov 2026 10:41:52 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 09 Nov 2026 17:42:55 GMT</pubDate>
+      <description>这篇Hacker News讨论聚焦Raspberry Pi 5 16GB单板计算机售价涨至385美元的现象，发帖者以“这什么时候才会停止”表达对价格持续走高的不满。评论者围绕供应链紧张、内存成本、厂商定价策略和渠道加价展开争论，并比较其他SBC与迷你主机替代方案，担忧涨价会削弱树莓派在开发者和爱好者中的性价比优势。该讨论获得263分和226条评论。</description>
     </item>
     <item>
-      <title>Nvidia CEO Jensen Huang's letter to staff about affair</title>
-      <link>https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company</link>
-      <guid>https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company</guid>
+      <title>Magenta solar panels may be agrivoltaics' cleverest trick yet</title>
+      <link>https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/</link>
+      <guid>https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/</guid>
       <category>hacker_news</category>
-      <pubDate>Sun, 08 Nov 2026 22:20:09 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 09 Nov 2026 14:31:39 GMT</pubDate>
+      <description>Hacker News 上围绕一篇题为“洋红色太阳能板可能成为农业光伏最巧妙一招”的文章展开讨论。该文提出通过改变太阳能板颜色来兼顾发电与作物生长，帖子获得241分和147条评论。社区关注其光学原理、对作物产量的实际影响、发电效率损失、成本以及能否大规模推广，并讨论它是否真比现有农业光伏方案更实用。</description>
     </item>
     <item>
-      <title>Outlook.com Is Quietly Rejecting Email from Domains Without DMARC</title>
-      <link>https://mailroute.net/blog/outlook-rejecting-email-without-dmarc</link>
-      <guid>https://mailroute.net/blog/outlook-rejecting-email-without-dmarc</guid>
+      <title>Google Gemini routes personal Drive files and emails to human annotators</title>
+      <link>https://github.com/thisisme6598/gemini_files/</link>
+      <guid>https://github.com/thisisme6598/gemini_files/</guid>
       <category>hacker_news</category>
-      <pubDate>Sun, 08 Nov 2026 19:20:32 GMT</pubDate>
-      <description></description>
+      <pubDate>Mon, 09 Nov 2026 18:24:38 GMT</pubDate>
+      <description>该讨论围绕一份GitHub材料展开，指称Google Gemini会把用户个人Drive文件和邮件内容转交给人工标注者处理，引发对隐私边界与数据处理透明度的担忧。Hacker News上该帖获得231分和43条评论，参与者重点质疑触发条件、用户同意机制、数据脱敏方式及保留期限，并讨论云服务AI功能与个人数据保护之间的冲突。</description>
     </item>
     <item>
-      <title>Agent memory needs its OpenTelemetry moment</title>
-      <link>https://www.lorekit.io/blog/open-agent-memory-format</link>
-      <guid>https://www.lorekit.io/blog/open-agent-memory-format</guid>
+      <title>E-means: 10x faster k-means at equal loss</title>
+      <link>https://e-means.github.io/</link>
+      <guid>https://e-means.github.io/</guid>
       <category>hacker_news</category>
-      <pubDate>Sun, 08 Nov 2026 08:40:23 GMT</pubDate>
-      <description>这篇Hacker News讨论围绕“Agent memory needs its OpenTelemetry moment”展开，文章认为AI智能体记忆层缺少统一的开放格式和可观测性标准，导致跨框架迁移、调试和互操作困难，因此呼吁借鉴OpenTelemetry建立社区规范。评论者就标准化时机、厂商采用动力、隐私与安全、记忆数据结构设计以及实际落地成本展开争论。该帖获164分和102条评论，反映出开发者对智能体记忆基础设施标准化的高度关注。</description>
+      <pubDate>Mon, 09 Nov 2026 18:45:43 GMT</pubDate>
+      <description>Hacker News 上出现了一则关于 E-means 的技术讨论，该项目声称能在损失相同的情况下让 k-means 聚类快约10倍，并提供了项目主页供读者查看。帖子获得214分和11条评论，说明不少读者对其性能主张感兴趣，但讨论规模不算大。讨论主要关注加速是否适用于不同数据规模与维度、所谓相等损失如何衡量、实现与基线选择是否公平，以及实验结果能否复现。整体看，这是一个聚焦聚类算法工程优化与实验可信度的话题。</description>
     </item>
     <item>
-      <title>Dux: Free, open-source Wayland desktop shell with file manager and theming</title>
-      <link>https://duxlabs.dev/</link>
-      <guid>https://duxlabs.dev/</guid>
+      <title>Our Smallest, Most Efficient Model: Muse Ember</title>
+      <link>https://research.meta.ai/blog/muse-ember</link>
+      <guid>https://research.meta.ai/blog/muse-ember</guid>
       <category>hacker_news</category>
-      <pubDate>Sun, 08 Nov 2026 19:08:51 GMT</pubDate>
-      <description>Hacker News 上出现了一则关于 Dux 的讨论，Dux 是一个免费开源的 Wayland 桌面 shell，集成了文件管理器和主题功能，项目主页为 duxlabs.dev。该帖获得 157 分和 50 条评论，社区主要关注它的定位、Wayland 兼容性、文件管理器集成方式、主题系统以及可定制程度，也有人讨论其成熟度、性能表现和与现有桌面环境的差异。整体来看，讨论既介绍了项目的基本方向，也反映出开发者对新兴 Wayland 桌面方案的兴趣与审慎评估。</description>
-    </item>
-    <item>
-      <title>sherlock-project/sherlock</title>
-      <link>https://github.com/sherlock-project/sherlock</link>
-      <guid>https://github.com/sherlock-project/sherlock</guid>
-      <category>github_trending</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Sherlock 是一个用 Python 编写的开源工具，可根据用户名在多个社交网络中批量查找对应账号，帮助用户快速定位同一用户名在不同平台上的公开资料。项目今日新增约 2372 颗星，受到广泛关注。它适合进行公开信息检索与账号关联分析，但使用时需遵守平台规则和隐私法规。</description>
-    </item>
-    <item>
-      <title>dsx-ai-factory/nvke</title>
-      <link>https://github.com/dsx-ai-factory/nvke</link>
-      <guid>https://github.com/dsx-ai-factory/nvke</guid>
-      <category>github_trending</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>dsx-ai-factory/nvke 是 NVIDIA Kubernetes Engine（NVKE）开源项目，使用 Go 语言开发，定位为裸金属环境下 GPU Kubernetes 的管理平面。该项目今日新增 345 星，受到关注。它面向需要在裸金属服务器上运行和管理 GPU Kubernetes 集群的场景，提供管理平面相关能力，便于统一运维与调度 GPU 资源。</description>
-    </item>
-    <item>
-      <title>milind-soni/OpenMausBot</title>
-      <link>https://github.com/milind-soni/OpenMausBot</link>
-      <guid>https://github.com/milind-soni/OpenMausBot</guid>
-      <category>github_trending</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>OpenMausBot 是一个使用 TypeScript 开发的开源机器人项目，定位为 Grok Bot 的开源替代方案，其核心特色是为机器人提供可使用的虚拟机环境，让机器人能够在受控运行空间中执行任务。项目今日新增 1,437 星，关注度较高，适合希望构建具备运行环境支持的开源机器人方案的开发者参考和使用。</description>
-    </item>
-    <item>
-      <title>anthropics/claude-quickstarts</title>
-      <link>https://github.com/anthropics/claude-quickstarts</link>
-      <guid>https://github.com/anthropics/claude-quickstarts</guid>
-      <category>github_trending</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>anthropics/claude-quickstarts 是一个基于 Python 的开源项目，汇集了多个示例项目，旨在帮助开发者快速上手并构建可部署的 Claude API 应用。该项目今日新增 28 星，适合希望了解 Claude API 实际用法、缩短开发准备时间并参考完整项目结构的开发者。</description>
-    </item>
-    <item>
-      <title>vercel-labs/agent-browser</title>
-      <link>https://github.com/vercel-labs/agent-browser</link>
-      <guid>https://github.com/vercel-labs/agent-browser</guid>
-      <category>github_trending</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>这个 GitHub 开源项目是一个面向 AI 智能体的浏览器自动化命令行工具，使用 Rust 语言开发，旨在让智能体通过命令行完成网页交互与自动化任务。项目今日新增 812 星，热度上升明显，适合关注浏览器自动化、智能体工具链与 Rust 开发的读者了解和使用。</description>
-    </item>
-    <item>
-      <title>meta/astryx</title>
-      <link>https://github.com/meta/astryx</link>
-      <guid>https://github.com/meta/astryx</guid>
-      <category>github_trending</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>meta/astryx 是一个基于 TypeScript 开发的开源设计系统，主打完全可定制与面向智能体就绪。它为开发者提供可复用的设计组件和样式基础，便于按需调整视觉风格与交互规则，同时适配由 AI 智能体参与构建和使用的场景。项目今日新增 863 颗星，显示出较高的社区关注度，适合需要灵活设计规范与智能化开发流程的团队参考使用。</description>
+      <pubDate>Mon, 09 Nov 2026 17:58:46 GMT</pubDate>
+      <description>Hacker News 上围绕 Meta 研究团队发布的最小最高效模型 Muse Ember 展开讨论，帖子获得 210 分和 87 条评论。社区主要关注该模型的实际性能、推理成本与适用场景，以及小模型在本地部署和边缘设备上的潜力，同时讨论其与同类高效模型的对比、基准测试可信度和开放程度。整体来看，讨论反映出开发者对高效小模型落地价值的兴趣，也对其能力边界和生态支持保持审慎。</description>
     </item>
     <item>
       <title>anthropics/skills</title>
       <link>https://github.com/anthropics/skills</link>
       <guid>https://github.com/anthropics/skills</guid>
       <category>github_trending</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>anthropics/skills 是 Anthropic 在 GitHub 上公开的 Agent Skills 项目仓库，主要使用 Python 语言，面向智能体技能相关资源与开发实践。项目简介为 Agent Skills 的公共仓库，便于开发者了解和研究智能体技能的组织方式。该仓库今日新增 793 星，关注度较高，适合对 Agent Skills 和 Python 智能体开发感兴趣的开发者参考。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>anthropics/skills 是 Anthropic 在 GitHub 上公开维护的 Agent Skills 项目仓库，主要使用 Python 语言，面向智能体技能的定义、组织与复用提供公开资源。项目今日新增约 1052 个星标，关注度较高，适合开发者了解 Agent Skills 的实践方式并参与学习与交流。</description>
+    </item>
+    <item>
+      <title>meta/astryx</title>
+      <link>https://github.com/meta/astryx</link>
+      <guid>https://github.com/meta/astryx</guid>
+      <category>github_trending</category>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>meta/astryx 是一个基于 TypeScript 开发的开源设计系统，主打完全可定制和面向智能体就绪。它为开发者提供可灵活调整的设计基础与组件能力，便于构建一致且可扩展的产品界面，同时适配智能体参与开发与交互的场景。项目今日新增 3,324 星，说明其近期受到社区较多关注。</description>
+    </item>
+    <item>
+      <title>sherlock-project/sherlock</title>
+      <link>https://github.com/sherlock-project/sherlock</link>
+      <guid>https://github.com/sherlock-project/sherlock</guid>
+      <category>github_trending</category>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Sherlock 是一个基于 Python 的开源公开信息检索工具，核心功能是依据用户名在多个社交网络和在线平台中批量查找可能关联的账号。它通过维护平台规则并自动发起查询，帮助安全研究人员、调查人员和普通用户快速发现同一用户名在不同站点上的公开痕迹。该项目在 GitHub 上发布，今日新增约 4294 星，说明其社区关注度正快速上升。</description>
     </item>
     <item>
       <title>google-deepmind/mujoco</title>
       <link>https://github.com/google-deepmind/mujoco</link>
       <guid>https://github.com/google-deepmind/mujoco</guid>
       <category>github_trending</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>MuJoCo 是 Google DeepMind 在 GitHub 上开源的一款通用物理仿真器，全称为 Multi-Joint dynamics with Contact，主要采用 C++ 编写。它面向机器人、生物力学和强化学习等需要精确多关节动力学与接触模拟的场景，提供高效的刚体动力学计算能力。项目今日新增 26 星，说明持续受到开发者关注。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>google-deepmind/mujoco 是一个由 Google DeepMind 开源的多关节接触动力学物理仿真器，采用 C++ 编写，面向机器人、强化学习与生物力学等场景提供通用物理仿真能力。项目今日新增 579 星，热度较高，适合需要高精度接触模拟与高效多关节动力学计算的研究和工程应用。</description>
     </item>
     <item>
-      <title>ranxianglei/billion-context</title>
-      <link>https://github.com/ranxianglei/billion-context</link>
-      <guid>https://github.com/ranxianglei/billion-context</guid>
+      <title>anthropics/claude-quickstarts</title>
+      <link>https://github.com/anthropics/claude-quickstarts</link>
+      <guid>https://github.com/anthropics/claude-quickstarts</guid>
       <category>github_trending</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>该项目是一个用 TypeScript 开发的开源上下文压缩插件，面向月级长会话和数十亿 token 的超长上下文场景。它通过压缩上下文，让单次会话在较小窗口下也能持续运行，100K 上下文即可满足需求，并显著减少 token 消耗，官方介绍可节省约 5 倍 token。项目今日新增 460 星，适合需要长期对话、控制上下文成本或受限于小窗口的开发者关注和试用。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>anthropics/claude-quickstarts 是 GitHub 上的一个开源项目，主要使用 Python 语言，提供一组面向开发者的示例项目，帮助大家快速上手并借助 Claude API 构建可部署的应用程序。项目覆盖从入门到实际落地的常见场景，便于开发者参考、复用和扩展。该项目今日新增 560 星，显示出社区对 Claude 应用开发工具和快速入门资源的持续关注。</description>
     </item>
     <item>
-      <title>User Embeddings are Superpositions of Interpretable Behavioral Modes</title>
-      <link>http://arxiv.org/abs/2611.08487v1</link>
-      <guid>http://arxiv.org/abs/2611.08487v1</guid>
+      <title>garrytan/gbrain</title>
+      <link>https://github.com/garrytan/gbrain</link>
+      <guid>https://github.com/garrytan/gbrain</guid>
+      <category>github_trending</category>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>garrytan/gbrain 是一个使用 TypeScript 编写的开源项目，定位为 Garry 带有明确主张的 OpenClaw/Hermes 智能体大脑，旨在为相关智能体提供可复用的核心决策与行为组织能力。项目今日新增 215 星，说明其近期受到开发者关注。从简介看，它强调作者个人化的设计取向，适合希望了解或构建 OpenClaw/Hermes Agent 大脑机制的开发者参考。</description>
+    </item>
+    <item>
+      <title>vercel-labs/agent-browser</title>
+      <link>https://github.com/vercel-labs/agent-browser</link>
+      <guid>https://github.com/vercel-labs/agent-browser</guid>
+      <category>github_trending</category>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>vercel-labs/agent-browser 是 Vercel Labs 在 GitHub 上开源的一款浏览器自动化命令行工具，主要面向 AI 智能体，帮助其通过 CLI 控制浏览器并执行网页操作。项目使用 Rust 编写，今日新增 914 星，关注度较高，适合需要为 AI 代理集成网页交互与自动化能力的开发者了解和使用。</description>
+    </item>
+    <item>
+      <title>ruvnet/RuView</title>
+      <link>https://github.com/ruvnet/RuView</link>
+      <guid>https://github.com/ruvnet/RuView</guid>
+      <category>github_trending</category>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>RuView 是一个使用 Rust 编写的开源项目，它利用普通商用 WiFi 信号实现实时空间智能、生命体征监测和存在检测，无需任何视频画面或摄像头像素。该项目通过无线信号感知环境与人体状态，为隐私友好的智能感知提供了新思路，今日新增 245 星，受到较多关注。</description>
+    </item>
+    <item>
+      <title>ZhuLinsen/daily_stock_analysis</title>
+      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
+      <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
+      <category>github_trending</category>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>ZhuLinsen/dailystockanalysis 是一个用 Python 编写的开源项目，提供由大语言模型驱动的多市场股票智能分析能力。系统整合多源行情数据与实时新闻，生成决策看板并支持自动推送，还能以零成本方式定时运行，适合个人投资者持续跟踪市场动态。该项目今日新增 505 星，关注度较高。</description>
+    </item>
+    <item>
+      <title>homeassistant-ai/ha-mcp</title>
+      <link>https://github.com/homeassistant-ai/ha-mcp</link>
+      <guid>https://github.com/homeassistant-ai/ha-mcp</guid>
+      <category>github_trending</category>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>这个 GitHub 开源项目使用 Python 开发，旨在让 Claude、ChatGPT 等 AI 助手配置和自动化 Home Assistant。它通过连接 AI 助手与 Home Assistant，帮助用户更便捷地管理智能家居设备、创建自动化流程并调整系统设置，从而降低智能家居配置门槛。项目今日新增 31 星，显示出社区对 AI 驱动家居自动化的关注。</description>
+    </item>
+    <item>
+      <title>On Agentic Manipulation Policies</title>
+      <link>http://arxiv.org/abs/2611.09892v1</link>
+      <guid>http://arxiv.org/abs/2611.09892v1</guid>
       <category>paper</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文研究用户嵌入的可解释性问题，提出用户嵌入可被视为可解释行为模式的稀疏叠加。对于线性嵌入，这一结构可由用户行为生成模型直接预测，并依据叠加假说近似扩展到深度学习表示。此类叠加模式可通过稀疏字典学习（如稀疏自编码器）自然恢复，恢复出的模式还能自动命名并用自然语言查询。作者在合成数据上利用已知真实结构验证模式恢复效果，结果表明稀疏自编码器优于经典稀疏基线。该工作为用户嵌入提供了一种可解释的行为模式视角。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>近期机器人操作研究多集中于基于演示训练的专家策略。本文提出并系统分析智能体操作策略，即由通用人工智能模型直接指挥机械臂，并随任务进展调整动作。作者给出参考框架AMP1，无需修改即可用于单臂、双臂和移动操作。AMP1在RoboLab-120和CaP-Gym基准上取得领先结果，且无需演示或任务特定训练。在RoboLab-120上，AMP1零样本成功率达85.6%，显著高于领先VLA策略的49.2%和WAM策略的42.9%。在涵盖十二项任务的108次真实世界试验中，该智能体零样本成功104次。</description>
     </item>
     <item>
-      <title>SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization</title>
-      <link>http://arxiv.org/abs/2611.08483v1</link>
-      <guid>http://arxiv.org/abs/2611.08483v1</guid>
+      <title>CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse</title>
+      <link>http://arxiv.org/abs/2611.09891v1</link>
+      <guid>http://arxiv.org/abs/2611.09891v1</guid>
       <category>paper</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文提出SwarmEvolve，一种用于进化发现与优化的潜在代理群框架。现有大语言模型引导的进化搜索需每轮生成长文本思维链并反复生成以维持多样性，速度较慢。SwarmEvolve让每轮数百个低成本代理成群协作，在潜在空间推理而无需解码文本，并通过传递KV缓存共享信息。每个群体从不同角度研究问题，新颖性过滤器直接测量隐藏状态向量距离以保留最独特想法，交叉在潜在空间自然发生，总结代理接收全体成员组合后的KV缓存。该方法在21个数学问题上进行了评估。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>大型语言模型常重复造轮子，将任务求解与方案执行混为一谈，导致每个问题都需从头推理。该论文提出智能体推理缓存方法，从大模型推理轨迹中构建可在CPU上执行的稳健智能体推理缓存ARC。研究显示，一旦任务被完整推理，其方案可高效迁移到新的问题实例，且几乎无需语言模型参与。ARC在多项困难数学与科学任务上达到前沿大模型水平，具备完全可解释、可持续训练、对输入扰动稳健等特性，调用成本仅为源模型的十六至二百九十一分之一。</description>
     </item>
     <item>
-      <title>Scientist World: Grow a Research World for AI-Scientists</title>
-      <link>http://arxiv.org/abs/2611.08478v1</link>
-      <guid>http://arxiv.org/abs/2611.08478v1</guid>
+      <title>On the (non-)closedness of the set of ReLU networks</title>
+      <link>http://arxiv.org/abs/2611.09887v1</link>
+      <guid>http://arxiv.org/abs/2611.09887v1</guid>
       <category>paper</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文提出Scientist World，为AI科学家构建可执行的研究世界。系统将每篇论文转化为可运行环境，自动提取开放式研究问题并复现其方法作为基线，使进入环境的AI科学家能直接与人类作者成果比较。作者发布首批1000个经验证环境，并据此评估发现前沿AI科学家在74%的情况下已可超越人类研究者。该世界还记录6400小时研究轨迹，涵盖想法、实验、失败与成功，既可作为评估基准，也可作为训练场。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文研究ReLU网络集合的闭性。作者证明了在有界连通开集Ω上，含一个隐藏层且神经元数不超过N的ReLU网络集合在W^{1,p}(Ω)中弱闭。由此，该集合上每个强制且弱下半连续的能量泛函都能取得最小值，并适用于凸被积函数的Deep Ritz方法、Sobolev训练与Lipschitz学习。当权重衰减参数趋于零时，正则化问题最小解的相应子列收敛到具有最小参数范数的最小解。文中还证明，具有两个隐藏层且各层宽度有界的ReLU网络集合在W^{1,p}(Ω)与C(Ω闭包)中均不闭，从而否定了Petersen、Raslan和Voigtlaender提出的一个猜想。</description>
     </item>
     <item>
-      <title>XStack: A Benchmark for ML Repo Migration</title>
-      <link>http://arxiv.org/abs/2611.08472v1</link>
-      <guid>http://arxiv.org/abs/2611.08472v1</guid>
+      <title>FlowMoP: Stochastic Multi-Person Motion Prediction</title>
+      <link>http://arxiv.org/abs/2611.09882v1</link>
+      <guid>http://arxiv.org/abs/2611.09882v1</guid>
       <category>paper</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文介绍 XStack，一个用于评估智能体在机器学习代码库迁移任务上表现的基准。该基准聚焦 PyTorch 与 NVIDIA GPU 和 JAX 与 Google TPU 两大生态之间的迁移，智能体需接收 PyTorch 代码库和干净 TPU 机器并交付可运行的 JAX 代码库。判定依据源仓库公开结果并经作者认证与校准的评分标准。实验表明智能体迁移仍不可靠。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>多人未来运动预测本质上是随机的，同一段观测历史可能对应多种合理延续，取决于意图、协调方式和社会语境。然而现有多人三维运动预测方法大多仍是确定性的，每个智能体只产生固定数量的输出。本文提出条件流匹配框架，联合生成多个智能体的多样未来运动，同时建模全局轨迹与根相对姿态。B样条重参数化压缩生成状态空间并增强时间平滑性，双流Transformer让每个智能体的预测以观察到的邻居运动为条件，从而实现交互感知预测。该方法在CMU-Mocap（UMPM）和3DPW上取得最先进性能，并在关节位置指标上优于确定性基线。</description>
     </item>
     <item>
-      <title>Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information</title>
-      <link>http://arxiv.org/abs/2611.08469v1</link>
-      <guid>http://arxiv.org/abs/2611.08469v1</guid>
+      <title>Graded convolutional networks: scale invariance without the scale and robustness to unknown blur</title>
+      <link>http://arxiv.org/abs/2611.09878v1</link>
+      <guid>http://arxiv.org/abs/2611.09878v1</guid>
       <category>paper</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>该论文研究在有限、部分且有噪声的干预实验下，机制层面的量何时可识别、对机制连续并可由有限数据认证，并以四单元和五单元随机网络中的整合信息φ为严格案例给出精确答案。结果表明行为可能掩盖机制：具有相同输入输出规律的循环网络与前馈网络整合信息分别为0.28比特和0比特，但内部记录可在4至53次试验内区分二者；部分可及性也可能造成盲区。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>论文提出分级卷积网络，利用高斯射流的分级结构处理尺度不变性与未知模糊。局部分级卷积恰为齐次微分算子，尺度不变特征可经由尺度归一化射流表示，或在无需尺度时通过加权球面上的收缩表示。未知高斯模糊只使该收缩改变尺度，而尺度归一化射流会产生径向归一化无法消除的分级因子。基于收缩的网络对不变特征具有通用性，在MNIST两像素模糊下保持88.4%准确率，优于尺度归一化导数网络的66.2%。</description>
     </item>
     <item>
-      <title>Towards interpreting any residual stream direction by scaling activation inversion</title>
-      <link>http://arxiv.org/abs/2611.08465v1</link>
-      <guid>http://arxiv.org/abs/2611.08465v1</guid>
+      <title>On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning</title>
+      <link>http://arxiv.org/abs/2611.09872v1</link>
+      <guid>http://arxiv.org/abs/2611.09872v1</guid>
       <category>paper</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文研究如何解释语言模型残差流中的任意方向。现有方法通过扫描语料寻找能强烈激活该方向的文本，但受限于语料内容。为此，作者提出最大激活示例元模型MAEM，将主体模型的残差流方向映射为能强烈激活该方向的文本示例，并用无标签强化学习最大化给定方向与生成文本激活的余弦相似度，从而扩展到多样方向来源。实验表明，Qwen3.6-27B MAEM在留出激活反转上优于语料搜索和自然语言自编码器，并在多数留出评估中超过千万词元级语料搜索，生成的示例更具信息量。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文分析测试时强化学习中多数投票伪标签的可靠性，将在线直接偏好优化下的监督误差分解为总体多数偏差与提示相关的有限采样波动。由于总体多数偏差通常无法在缺少外部监督时识别，作者聚焦缓解有限采样波动的下游影响，提出提示条件分布稳健直接偏好优化方法，根据观察到的投票可靠性对提示内样本稳健重加权，使采样敏感提示的更新更保守，并引入缓存机制减少在线适应中的自监督遗忘。六个数学推理基准实验显示该方法能提升伪标签利用的可靠性并缓解遗忘。</description>
     </item>
     <item>
-      <title>Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness</title>
-      <link>http://arxiv.org/abs/2611.08457v1</link>
-      <guid>http://arxiv.org/abs/2611.08457v1</guid>
+      <title>An Empirical Study on Clustering-based Quantum Approximate Optimization Algorithm for Regression Test Case Selection</title>
+      <link>http://arxiv.org/abs/2611.09869v1</link>
+      <guid>http://arxiv.org/abs/2611.09869v1</guid>
       <category>paper</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文研究对抗训练中确定性梯度下降在大常数步长下的动力学。已有工作多关注小步长或消失步长情形，此时梯度下降近似连续时间流，但训练效率较低且实践中较少使用。作者首先分析对抗线性逻辑回归，考察模型参数的隐式偏差与损失下降速度，随后研究神经网络训练中对抗训练损失锐度的演化。结果深化了对大步骤对抗训练梯度下降行为的理解，并指出其与标准训练之间的三个关键差异。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>回归测试需要判断软件修改后已有组件是否仍正确工作，但每次修改都重跑全部测试成本过高，因此测试用例选择等优化方法受到关注。现有经典方法如Additional Greedy和DIV-GA则计算开销较大，量子方法如SelectQA、BootQA和IGDec-QAOA又受当前量子硬件限制。本文扩展了对QAOA-TCS的评估，这是一种面向测试用例选择问题的量子方法，并对其性能进行了较全面的实验分析。</description>
     </item>
     <item>
-      <title>Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development</title>
-      <link>http://arxiv.org/abs/2611.08456v1</link>
-      <guid>http://arxiv.org/abs/2611.08456v1</guid>
+      <title>CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs</title>
+      <link>http://arxiv.org/abs/2611.09868v1</link>
+      <guid>http://arxiv.org/abs/2611.09868v1</guid>
       <category>paper</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>生成式人工智能与智能体编程加速软件开发，引发技术债担忧。论文指出认知债与意图债是更隐蔽的关键风险。认知债指团队共享理解缺失或被侵蚀，无人能自信解释系统如何运作或预测变更影响。意图债指目标、约束与理由缺乏清晰表达，难以说明系统用途并指导演进。作者提出 Cognitive Tours 工具，以网页原型形式创建并遵循连接用户需求、设计决策、代码、测试和开放问题的精选路径，并借助 AI 辅助技能审计路径节点与导览，以缓解和修复两类债务。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>大型推理模型通过生成更长的中间推理轨迹提升任务表现，但推理成本显著增加，使低精度量化愈发重要。然而，激进量化模型在推理任务上往往表现不佳。观察到推理阶段最初若干解码步的激活波动更大，若校准忽略这些早期状态可能遗漏其激活变化。为此，论文提出CodeQuant2，一种面向低精度大型推理模型的基于聚类的查找表量化框架。该方法通过旋转与缩放缓解激活异常值，利用聚类表示非均匀权重分布，并依据各层量化难度自适应调整码本大小，以应对推理特有的量化挑战。</description>
     </item>
     <item>
-      <title>What the Top Companies Do Differently With AI Coding - Martin Harrysson &amp; Prakhar Dixit, McKinsey</title>
-      <link>https://www.youtube.com/watch?v=21tuT-e4NVo</link>
-      <guid>https://www.youtube.com/watch?v=21tuT-e4NVo</guid>
+      <title>Your Self-Hosted LLM Needs to Say No - Harshul Jain &amp; Parv Khatri, Audible &amp; SAP</title>
+      <link>https://www.youtube.com/watch?v=ntVpbyDTYaQ</link>
+      <guid>https://www.youtube.com/watch?v=ntVpbyDTYaQ</guid>
       <category>youtube</category>
-      <pubDate>Sat, 07 Nov 2026 16:00:00 GMT</pubDate>
-      <description>麦肯锡这个视频聚焦顶尖公司AI编程的差异化做法，能帮你把自家试点和成熟团队的流程逐项对照。</description>
+      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Audible 与 SAP 讲者提出，自托管大模型必须能拒绝越权请求，否则企业控制权只是假象。</description>
     </item>
     <item>
-      <title>How Ramp Tests Its AI Bookkeeping Agent Before Customers Do - Ryan Stevens, Ramp</title>
-      <link>https://www.youtube.com/watch?v=WJTQBENv0KI</link>
-      <guid>https://www.youtube.com/watch?v=WJTQBENv0KI</guid>
+      <title>How One Founder Manages 20 AI Coding Agents at Once - Ryan Carson, Untangle</title>
+      <link>https://www.youtube.com/watch?v=BTtyguoPvBU</link>
+      <guid>https://www.youtube.com/watch?v=BTtyguoPvBU</guid>
       <category>youtube</category>
-      <pubDate>Sat, 07 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Ryan Stevens 拆解 Ramp 在客户上线前如何评测 AI 记账代理，具体呈现发布前的测试设计与把关结论。</description>
+      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
+      <description>视频用20个AI编程代理的实操案例，拆解分工、验收和纠错流程，适合准备搭建多代理工作流的人参考。</description>
     </item>
     <item>
       <title>Is AI Now Good Enough To Cure Cancer? | YC Paper Club</title>
@@ -251,7 +259,7 @@
       <guid>https://www.youtube.com/watch?v=-XL2gClQ2gg</guid>
       <category>youtube</category>
       <pubDate>Sat, 07 Nov 2026 16:00:00 GMT</pubDate>
-      <description>这期YC Paper Club用论文证据拆解AI治癌，能看清模型在真实肿瘤数据上的能力边界。</description>
+      <description>YC Paper Club 用论文拆解 AI 治癌的模型能力与临床验证缺口，比谈前景更具体。</description>
     </item>
     <item>
       <title>How To Build The Future: Paul Graham &amp; Amjad Masad</title>
@@ -259,39 +267,39 @@
       <guid>https://www.youtube.com/watch?v=Q78dJ0vkWe8</guid>
       <category>youtube</category>
       <pubDate>Fri, 06 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Replit 的 CEO 讲清 AI 降低编程门槛后，小团队怎样更快做产品并验证需求。</description>
+      <description>YC 创始人 Paul Graham 与 Replit 谈用快速原型和用户反馈做产品。</description>
     </item>
     <item>
-      <title>Goodbye Claude, hello Pi</title>
-      <link>https://caleb.software/posts/claude-to-pi.html</link>
-      <guid>https://caleb.software/posts/claude-to-pi.html</guid>
+      <title>Claude Fable 5.2 and Mythos 5.2</title>
+      <link>https://www.anthropic.com/claude-fable-and-mythos-5-2</link>
+      <guid>https://www.anthropic.com/claude-fable-and-mythos-5-2</guid>
       <category>news</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>该帖在 Hacker News 获 671 票、424 条讨论，围绕从 Claude 转向 Pi 的选择引发大量交流。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>810分、475条讨论聚焦新版模型能力、基准、安全可靠性与迁移成本，并给出进步和落地价值并存的混合评估。</description>
     </item>
     <item>
-      <title>Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files</title>
-      <link>https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again</link>
-      <guid>https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again</guid>
+      <title>Fold Epic Paper Airplanes</title>
+      <link>https://www.foldableflight.com</link>
+      <guid>https://www.foldableflight.com</guid>
       <category>news</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>该选项使密码暴露在 1,122 个公开 GitHub 文件；Hacker News 575 票、390 条讨论表明此安全风险引发广泛争论。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该帖获784分、133条讨论，社区交流纸飞机折叠方法、飞行性能与材料选择，网站附模板和教学。</description>
     </item>
     <item>
       <title>sherlock-project/sherlock</title>
       <link>https://github.com/sherlock-project/sherlock</link>
       <guid>https://github.com/sherlock-project/sherlock</guid>
       <category>news</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>该工具可按用户名批量查找多个社交网络账号，便于公开</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>它按用户名批量查询多平台账号，靠维护平台规则自动查询，便于</description>
     </item>
     <item>
-      <title>milind-soni/OpenMausBot</title>
-      <link>https://github.com/milind-soni/OpenMausBot</link>
-      <guid>https://github.com/milind-soni/OpenMausBot</guid>
+      <title>meta/astryx</title>
+      <link>https://github.com/meta/astryx</link>
+      <guid>https://github.com/meta/astryx</guid>
       <category>news</category>
-      <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
-      <description>它用TypeScript开发，是Grok Bot开源替代，核心为机器人提供受控虚拟机执行任务，今日新增1,437星标。</description>
+      <pubDate>Mon, 09 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该TypeScript开源设计系统可完全定制、面向智能体就绪，提供可调组件，今日新增3,324星标。</description>
     </item>
   </channel>
 </rss>
