@@ -3,63 +3,71 @@
   {
    "title": "Goodbye Claude, hello Pi",
    "url": "https://caleb.software/posts/claude-to-pi.html",
-   "points": 663,
-   "comments": 419,
+   "points": 671,
+   "comments": 424,
    "published": "2026-11-08T03:11:48+00:00",
    "hn_id": "50410107"
   },
   {
    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-   "points": 571,
-   "comments": 387,
+   "points": 575,
+   "comments": 390,
    "published": "2026-11-07T20:45:32+00:00",
    "hn_id": "50407882"
   },
   {
    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-   "points": 512,
-   "comments": 310,
+   "points": 532,
+   "comments": 322,
    "published": "2026-11-08T18:16:07+00:00",
    "hn_id": "50415628"
   },
   {
    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
    "url": "https://github.com/synchopate/llama-modchip",
-   "points": 330,
-   "comments": 130,
+   "points": 342,
+   "comments": 139,
    "published": "2026-11-08T10:22:04+00:00",
    "hn_id": "50411961"
   },
   {
    "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-   "points": 298,
-   "comments": 234,
+   "points": 329,
+   "comments": 257,
    "published": "2026-11-08T20:26:43+00:00",
    "hn_id": "50416801"
   },
   {
    "title": "Writing as a thinking tool",
    "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
-   "points": 249,
-   "comments": 75,
+   "points": 256,
+   "comments": 76,
    "published": "2026-11-08T10:41:52+00:00",
    "hn_id": "50412067"
   },
   {
+   "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+   "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+   "points": 219,
+   "comments": 201,
+   "published": "2026-11-08T22:20:09+00:00",
+   "hn_id": "50418016"
+  },
+  {
    "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
    "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
-   "points": 168,
-   "comments": 140,
+   "points": 191,
+   "comments": 155,
    "published": "2026-11-08T19:20:32+00:00",
    "hn_id": "50416158"
   },
   {
    "title": "Agent memory needs its OpenTelemetry moment",
    "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-   "points": 161,
+   "points": 164,
    "comments": 102,
    "published": "2026-11-08T08:40:23+00:00",
    "hn_id": "50411467"
@@ -67,26 +75,18 @@
   {
    "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
    "url": "https://duxlabs.dev/",
-   "points": 141,
-   "comments": 43,
+   "points": 157,
+   "comments": 50,
    "published": "2026-11-08T19:08:51+00:00",
    "hn_id": "50416053"
   },
   {
    "title": "How I Fight AI Brain Fry",
    "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-   "points": 115,
-   "comments": 101,
+   "points": 125,
+   "comments": 111,
    "published": "2026-11-08T19:37:42+00:00",
    "hn_id": "50416363"
-  },
-  {
-   "title": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users",
-   "url": "https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/",
-   "points": 99,
-   "comments": 21,
-   "published": "2026-11-08T17:32:55+00:00",
-   "hn_id": "50415281"
   },
   {
    "title": "JIT bitmap text rendering for microcontrollers",

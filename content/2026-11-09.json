@@ -1,6 +1,6 @@
 {
  "date": "2026-11-09",
- "summary": "今天的输入集中在 Goodbye Claude, hello Pi；Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files；Goldman Sachs is 这几条上。判断留白比硬凑更诚实：模型侧今天没有给出可用的综合。",
+ "summary": "今天的条目看似散乱，主线却很清楚：AI编码代理正从“能做什么”进入“出了事谁负责、如何审计、能否低成本运行”的阶段。Claude Code泄露密码、高盛撤出、代理记忆呼吁OpenTelemetry，以及Outlook收紧DMARC，都说明默认安全和可观测性不是附属功能，而是采用门槛；Llama-modchip和billion-context则提示低资源推理与长上下文正在被工程化。我的判断是，被高估的是“更强模型/更自主代理”本身，以及排行榜式能力叙事；真正稀缺的是安全默认值、审计轨迹、权限边界和可迁移的代理基础设施。若团队仍把Claude等品牌当作生产力捷径，却忽视密钥泄露、组织合规与记忆治理，迁移到Pi也不会自动变好。写作作为思考工具、开源桌面和工具库热度，反而提醒我们：可维护的日常工作流比一次惊艳demo更值钱。",
  "movie": {
   "title": "First Man",
   "year": 2018,
@@ -102,6 +102,19 @@
    "kind": "hacker_news",
    "source_id": "hn",
    "source_name": "Hacker News",
+   "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+   "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+   "published": "2026-11-08T22:20:09+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
    "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
    "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
    "published": "2026-11-08T19:20:32+00:00",
@@ -118,7 +131,7 @@
    "title": "Agent memory needs its OpenTelemetry moment",
    "url": "https://www.lorekit.io/blog/open-agent-memory-format",
    "published": "2026-11-08T08:40:23+00:00",
-   "summary": "",
+   "summary": "这篇Hacker News讨论围绕“Agent memory needs its OpenTelemetry moment”展开，文章认为AI智能体记忆层缺少统一的开放格式和可观测性标准，导致跨框架迁移、调试和互操作困难，因此呼吁借鉴OpenTelemetry建立社区规范。评论者就标准化时机、厂商采用动力、隐私与安全、记忆数据结构设计以及实际落地成本展开争论。该帖获164分和102条评论，反映出开发者对智能体记忆基础设施标准化的高度关注。",
    "categories": [
     "hn"
    ],
@@ -131,20 +144,7 @@
    "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
    "url": "https://duxlabs.dev/",
    "published": "2026-11-08T19:08:51+00:00",
-   "summary": "",
-   "categories": [
-    "hn"
-   ],
-   "priority": "normal"
-  },
-  {
-   "kind": "hacker_news",
-   "source_id": "hn",
-   "source_name": "Hacker News",
-   "title": "How I Fight AI Brain Fry",
-   "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-   "published": "2026-11-08T19:37:42+00:00",
-   "summary": "",
+   "summary": "Hacker News 上出现了一则关于 Dux 的讨论，Dux 是一个免费开源的 Wayland 桌面 shell，集成了文件管理器和主题功能，项目主页为 duxlabs.dev。该帖获得 157 分和 50 条评论，社区主要关注它的定位、Wayland 兼容性、文件管理器集成方式、主题系统以及可定制程度，也有人讨论其成熟度、性能表现和与现有桌面环境的差异。整体来看，讨论既介绍了项目的基本方向，也反映出开发者对新兴 Wayland 桌面方案的兴趣与审慎评估。",
    "categories": [
     "hn"
    ],
@@ -157,7 +157,7 @@
    "title": "sherlock-project/sherlock",
    "url": "https://github.com/sherlock-project/sherlock",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "Sherlock 是一个用 Python 编写的开源工具，可根据用户名在多个社交网络中批量查找对应账号，帮助用户快速定位同一用户名在不同平台上的公开资料。项目今日新增约 2372 颗星，受到广泛关注。它适合进行公开信息检索与账号关联分析，但使用时需遵守平台规则和隐私法规。",
    "categories": [
     "Python"
    ],
@@ -170,7 +170,7 @@
    "title": "dsx-ai-factory/nvke",
    "url": "https://github.com/dsx-ai-factory/nvke",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "dsx-ai-factory/nvke 是 NVIDIA Kubernetes Engine（NVKE）开源项目，使用 Go 语言开发，定位为裸金属环境下 GPU Kubernetes 的管理平面。该项目今日新增 345 星，受到关注。它面向需要在裸金属服务器上运行和管理 GPU Kubernetes 集群的场景，提供管理平面相关能力，便于统一运维与调度 GPU 资源。",
    "categories": [
     "Go"
    ],
@@ -183,7 +183,7 @@
    "title": "milind-soni/OpenMausBot",
    "url": "https://github.com/milind-soni/OpenMausBot",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "OpenMausBot 是一个使用 TypeScript 开发的开源机器人项目，定位为 Grok Bot 的开源替代方案，其核心特色是为机器人提供可使用的虚拟机环境，让机器人能够在受控运行空间中执行任务。项目今日新增 1,437 星，关注度较高，适合希望构建具备运行环境支持的开源机器人方案的开发者参考和使用。",
    "categories": [
     "TypeScript"
    ],
@@ -196,7 +196,7 @@
    "title": "anthropics/claude-quickstarts",
    "url": "https://github.com/anthropics/claude-quickstarts",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "anthropics/claude-quickstarts 是一个基于 Python 的开源项目，汇集了多个示例项目，旨在帮助开发者快速上手并构建可部署的 Claude API 应用。该项目今日新增 28 星，适合希望了解 Claude API 实际用法、缩短开发准备时间并参考完整项目结构的开发者。",
    "categories": [
     "Python"
    ],
@@ -209,7 +209,7 @@
    "title": "vercel-labs/agent-browser",
    "url": "https://github.com/vercel-labs/agent-browser",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "这个 GitHub 开源项目是一个面向 AI 智能体的浏览器自动化命令行工具，使用 Rust 语言开发，旨在让智能体通过命令行完成网页交互与自动化任务。项目今日新增 812 星，热度上升明显，适合关注浏览器自动化、智能体工具链与 Rust 开发的读者了解和使用。",
    "categories": [
     "Rust"
    ],
@@ -222,7 +222,7 @@
    "title": "meta/astryx",
    "url": "https://github.com/meta/astryx",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "meta/astryx 是一个基于 TypeScript 开发的开源设计系统，主打完全可定制与面向智能体就绪。它为开发者提供可复用的设计组件和样式基础，便于按需调整视觉风格与交互规则，同时适配由 AI 智能体参与构建和使用的场景。项目今日新增 863 颗星，显示出较高的社区关注度，适合需要灵活设计规范与智能化开发流程的团队参考使用。",
    "categories": [
     "TypeScript"
    ],
@@ -235,7 +235,7 @@
    "title": "anthropics/skills",
    "url": "https://github.com/anthropics/skills",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "anthropics/skills 是 Anthropic 在 GitHub 上公开的 Agent Skills 项目仓库，主要使用 Python 语言，面向智能体技能相关资源与开发实践。项目简介为 Agent Skills 的公共仓库，便于开发者了解和研究智能体技能的组织方式。该仓库今日新增 793 星，关注度较高，适合对 Agent Skills 和 Python 智能体开发感兴趣的开发者参考。",
    "categories": [
     "Python"
    ],
@@ -248,7 +248,7 @@
    "title": "google-deepmind/mujoco",
    "url": "https://github.com/google-deepmind/mujoco",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "MuJoCo 是 Google DeepMind 在 GitHub 上开源的一款通用物理仿真器，全称为 Multi-Joint dynamics with Contact，主要采用 C++ 编写。它面向机器人、生物力学和强化学习等需要精确多关节动力学与接触模拟的场景，提供高效的刚体动力学计算能力。项目今日新增 26 星，说明持续受到开发者关注。",
    "categories": [
     "C++"
    ],
@@ -261,7 +261,7 @@
    "title": "ranxianglei/billion-context",
    "url": "https://github.com/ranxianglei/billion-context",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "该项目是一个用 TypeScript 开发的开源上下文压缩插件，面向月级长会话和数十亿 token 的超长上下文场景。它通过压缩上下文，让单次会话在较小窗口下也能持续运行，100K 上下文即可满足需求，并显著减少 token 消耗，官方介绍可节省约 5 倍 token。项目今日新增 460 星，适合需要长期对话、控制上下文成本或受限于小窗口的开发者关注和试用。",
    "categories": [
     "TypeScript"
    ],
@@ -274,7 +274,7 @@
    "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
    "url": "http://arxiv.org/abs/2611.08487v1",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "本文研究用户嵌入的可解释性问题，提出用户嵌入可被视为可解释行为模式的稀疏叠加。对于线性嵌入，这一结构可由用户行为生成模型直接预测，并依据叠加假说近似扩展到深度学习表示。此类叠加模式可通过稀疏字典学习（如稀疏自编码器）自然恢复，恢复出的模式还能自动命名并用自然语言查询。作者在合成数据上利用已知真实结构验证模式恢复效果，结果表明稀疏自编码器优于经典稀疏基线。该工作为用户嵌入提供了一种可解释的行为模式视角。",
    "categories": [
     "paper"
    ],
@@ -287,7 +287,7 @@
    "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
    "url": "http://arxiv.org/abs/2611.08483v1",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "本文提出SwarmEvolve，一种用于进化发现与优化的潜在代理群框架。现有大语言模型引导的进化搜索需每轮生成长文本思维链并反复生成以维持多样性，速度较慢。SwarmEvolve让每轮数百个低成本代理成群协作，在潜在空间推理而无需解码文本，并通过传递KV缓存共享信息。每个群体从不同角度研究问题，新颖性过滤器直接测量隐藏状态向量距离以保留最独特想法，交叉在潜在空间自然发生，总结代理接收全体成员组合后的KV缓存。该方法在21个数学问题上进行了评估。",
    "categories": [
     "paper"
    ],
@@ -300,7 +300,7 @@
    "title": "Scientist World: Grow a Research World for AI-Scientists",
    "url": "http://arxiv.org/abs/2611.08478v1",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "本文提出Scientist World，为AI科学家构建可执行的研究世界。系统将每篇论文转化为可运行环境，自动提取开放式研究问题并复现其方法作为基线，使进入环境的AI科学家能直接与人类作者成果比较。作者发布首批1000个经验证环境，并据此评估发现前沿AI科学家在74%的情况下已可超越人类研究者。该世界还记录6400小时研究轨迹，涵盖想法、实验、失败与成功，既可作为评估基准，也可作为训练场。",
    "categories": [
     "paper"
    ],
@@ -313,7 +313,7 @@
    "title": "XStack: A Benchmark for ML Repo Migration",
    "url": "http://arxiv.org/abs/2611.08472v1",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "本文介绍 XStack，一个用于评估智能体在机器学习代码库迁移任务上表现的基准。该基准聚焦 PyTorch 与 NVIDIA GPU 和 JAX 与 Google TPU 两大生态之间的迁移，智能体需接收 PyTorch 代码库和干净 TPU 机器并交付可运行的 JAX 代码库。判定依据源仓库公开结果并经作者认证与校准的评分标准。实验表明智能体迁移仍不可靠。",
    "categories": [
     "paper"
    ],
@@ -326,7 +326,7 @@
    "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
    "url": "http://arxiv.org/abs/2611.08469v1",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "该论文研究在有限、部分且有噪声的干预实验下，机制层面的量何时可识别、对机制连续并可由有限数据认证，并以四单元和五单元随机网络中的整合信息φ为严格案例给出精确答案。结果表明行为可能掩盖机制：具有相同输入输出规律的循环网络与前馈网络整合信息分别为0.28比特和0比特，但内部记录可在4至53次试验内区分二者；部分可及性也可能造成盲区。",
    "categories": [
     "paper"
    ],
@@ -339,7 +339,7 @@
    "title": "Towards interpreting any residual stream direction by scaling activation inversion",
    "url": "http://arxiv.org/abs/2611.08465v1",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "本文研究如何解释语言模型残差流中的任意方向。现有方法通过扫描语料寻找能强烈激活该方向的文本，但受限于语料内容。为此，作者提出最大激活示例元模型MAEM，将主体模型的残差流方向映射为能强烈激活该方向的文本示例，并用无标签强化学习最大化给定方向与生成文本激活的余弦相似度，从而扩展到多样方向来源。实验表明，Qwen3.6-27B MAEM在留出激活反转上优于语料搜索和自然语言自编码器，并在多数留出评估中超过千万词元级语料搜索，生成的示例更具信息量。",
    "categories": [
     "paper"
    ],
@@ -352,7 +352,7 @@
    "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
    "url": "http://arxiv.org/abs/2611.08457v1",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "本文研究对抗训练中确定性梯度下降在大常数步长下的动力学。已有工作多关注小步长或消失步长情形，此时梯度下降近似连续时间流，但训练效率较低且实践中较少使用。作者首先分析对抗线性逻辑回归，考察模型参数的隐式偏差与损失下降速度，随后研究神经网络训练中对抗训练损失锐度的演化。结果深化了对大步骤对抗训练梯度下降行为的理解，并指出其与标准训练之间的三个关键差异。",
    "categories": [
     "paper"
    ],
@@ -365,7 +365,7 @@
    "title": "Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development",
    "url": "http://arxiv.org/abs/2611.08456v1",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "生成式人工智能与智能体编程加速软件开发，引发技术债担忧。论文指出认知债与意图债是更隐蔽的关键风险。认知债指团队共享理解缺失或被侵蚀，无人能自信解释系统如何运作或预测变更影响。意图债指目标、约束与理由缺乏清晰表达，难以说明系统用途并指导演进。作者提出 Cognitive Tours 工具，以网页原型形式创建并遵循连接用户需求、设计决策、代码、测试和开放问题的精选路径，并借助 AI 辅助技能审计路径节点与导览，以缓解和修复两类债务。",
    "categories": [
     "paper"
    ],
@@ -378,7 +378,7 @@
    "title": "What the Top Companies Do Differently With AI Coding - Martin Harrysson & Prakhar Dixit, McKinsey",
    "url": "https://www.youtube.com/watch?v=21tuT-e4NVo",
    "published": "2026-11-08",
-   "summary": "",
+   "summary": "麦肯锡这个视频聚焦顶尖公司AI编程的差异化做法，能帮你把自家试点和成熟团队的流程逐项对照。",
    "categories": [
     "video"
    ],
@@ -392,7 +392,7 @@
    "title": "How Ramp Tests Its AI Bookkeeping Agent Before Customers Do - Ryan Stevens, Ramp",
    "url": "https://www.youtube.com/watch?v=WJTQBENv0KI",
    "published": "2026-11-08",
-   "summary": "",
+   "summary": "Ryan Stevens 拆解 Ramp 在客户上线前如何评测 AI 记账代理，具体呈现发布前的测试设计与把关结论。",
    "categories": [
     "video"
    ],
@@ -406,7 +406,7 @@
    "title": "Is AI Now Good Enough To Cure Cancer? | YC Paper Club",
    "url": "https://www.youtube.com/watch?v=-XL2gClQ2gg",
    "published": "2026-11-08",
-   "summary": "",
+   "summary": "这期YC Paper Club用论文证据拆解AI治癌，能看清模型在真实肿瘤数据上的能力边界。",
    "categories": [
     "video"
    ],
@@ -420,7 +420,7 @@
    "title": "How To Build The Future: Paul Graham & Amjad Masad",
    "url": "https://www.youtube.com/watch?v=Q78dJ0vkWe8",
    "published": "2026-11-07",
-   "summary": "",
+   "summary": "Replit 的 CEO 讲清 AI 降低编程门槛后，小团队怎样更快做产品并验证需求。",
    "categories": [
     "video"
    ],
@@ -434,7 +434,7 @@
    "title": "Goodbye Claude, hello Pi",
    "url": "https://caleb.software/posts/claude-to-pi.html",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "该帖在 Hacker News 获 671 票、424 条讨论，围绕从 Claude 转向 Pi 的选择引发大量交流。",
    "categories": [
     "pick"
    ],
@@ -447,7 +447,7 @@
    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "该选项使密码暴露在 1,122 个公开 GitHub 文件；Hacker News 575 票、390 条讨论表明此安全风险引发广泛争论。",
    "categories": [
     "pick"
    ],
@@ -460,7 +460,7 @@
    "title": "sherlock-project/sherlock",
    "url": "https://github.com/sherlock-project/sherlock",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "该工具可按用户名批量查找多个社交网络账号，便于公开",
    "categories": [
     "pick"
    ],
@@ -473,7 +473,7 @@
    "title": "milind-soni/OpenMausBot",
    "url": "https://github.com/milind-soni/OpenMausBot",
    "published": "2026-11-09",
-   "summary": "",
+   "summary": "它用TypeScript开发，是Grok Bot开源替代，核心为机器人提供受控虚拟机执行任务，今日新增1,437星标。",
    "categories": [
     "pick"
    ],
