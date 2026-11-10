@@ -1,0 +1,35 @@
+[07:00:46] === 开始 2026-11-11 ===
+[07:01:03] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-11-11.json
+[07:01:14]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:01:14]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:01:25]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:01:27]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:01:32]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:01:43]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:01:47]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:01:48]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:01:54]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:01:59]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:02:09]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:03:07]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:03:07] 并发摘要 28 条（4 路）用时 124s
+[07:03:07] HN 10 条，摘要成功 6
+[07:03:07] GH 10 条，摘要成功 4
+[07:03:07] 论文 8 篇，摘要成功 6
+[07:03:52]   自愈补回 [hn] Smart home devices should work witho
+[07:04:13]   自愈补回 [hn] .name Grandfathered
+[07:04:42]   自愈补回 [hn] Ableton Live 13
+[07:04:47]   自愈补回 [hn] What's new in the .NET 11 runtime
+[07:05:01]   自愈补回 [gh] meta/astryx
+[07:05:23]   自愈补回 [gh] anthropics/claude-quickstarts
+[07:05:29]   自愈补回 [gh] we-promise/sure
+[07:05:37]   自愈补回 [gh] homeassistant-ai/ha-mcp
+[07:06:07]   自愈补回 [gh] vercel-labs/agent-browser
+[07:06:23]   自愈补回 [gh] tokio-rs/topcoat
+[07:06:34]   自愈补回 [paper] Guiding Data Allocation for Robust S
+[07:07:13]   自愈补回 [paper] Shortcuts and Boundaries: Verifiable
+[07:07:13] 自愈完成：补回 12 条，摘要缺失清零
+[07:10:35] 视频 4 条
+[07:14:43] 精选 4 条
+[07:14:54] 内容写入 content/2026-11-11.json，共 36 条
+[07:14:54] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']

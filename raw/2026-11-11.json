@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Smart home devices should work without the internet",
+   "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+   "points": 613,
+   "comments": 215,
+   "published": "2026-11-10T15:25:20+00:00",
+   "hn_id": "50441707"
+  },
+  {
+   "title": ".name Grandfathered",
+   "url": "https://neil.fraser.name/news/2026/11/10/",
+   "points": 606,
+   "comments": 135,
+   "published": "2026-11-10T16:37:44+00:00",
+   "hn_id": "50442736"
+  },
+  {
+   "title": "AlphaProof Code",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "points": 549,
+   "comments": 173,
+   "published": "2026-11-10T12:11:12+00:00",
+   "hn_id": "50439193"
+  },
+  {
+   "title": "Blender 5.3 released with Gaussian Splat support",
+   "url": "https://www.blender.org/download/releases/5-3/",
+   "points": 396,
+   "comments": 53,
+   "published": "2026-11-10T16:15:43+00:00",
+   "hn_id": "50442426"
+  },
+  {
+   "title": "AI usage generates a fragile codebase",
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "points": 324,
+   "comments": 371,
+   "published": "2026-11-10T10:25:58+00:00",
+   "hn_id": "50438318"
+  },
+  {
+   "title": "Val Town is winding down",
+   "url": "https://blog.val.town/winding-down",
+   "points": 261,
+   "comments": 66,
+   "published": "2026-11-10T17:31:14+00:00",
+   "hn_id": "50443427"
+  },
+  {
+   "title": "Ableton Live 13",
+   "url": "https://www.ableton.com/en/live/",
+   "points": 252,
+   "comments": 269,
+   "published": "2026-11-10T12:58:04+00:00",
+   "hn_id": "50439695"
+  },
+  {
+   "title": "Synaptics patent claims stop work on DisplayLink drivers",
+   "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+   "points": 245,
+   "comments": 105,
+   "published": "2026-11-10T18:02:02+00:00",
+   "hn_id": "50443824"
+  },
+  {
+   "title": "What's new in the .NET 11 runtime",
+   "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
+   "points": 223,
+   "comments": 156,
+   "published": "2026-11-10T12:20:07+00:00",
+   "hn_id": "50439284"
+  },
+  {
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "points": 209,
+   "comments": 58,
+   "published": "2026-11-10T18:01:15+00:00",
+   "hn_id": "50443812"
+  },
+  {
+   "title": "What constant surveillance is doing to children and parents",
+   "url": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
+   "points": 194,
+   "comments": 191,
+   "published": "2026-11-10T10:47:18+00:00",
+   "hn_id": "50438480"
+  },
+  {
+   "title": "Toyota brand Scion is back and it's going to sell a kei truck in America",
+   "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+   "points": 185,
+   "comments": 128,
+   "published": "2026-11-10T19:50:46+00:00",
+   "hn_id": "50445401"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "language": "TypeScript",
+   "stars_today": "3,111",
+   "url": "https://github.com/meta/astryx"
+  },
+  {
+   "repo": "anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "language": "Python",
+   "stars_today": "1,676",
+   "url": "https://github.com/anthropics/skills"
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "language": "JavaScript",
+   "stars_today": "465",
+   "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "language": "Python",
+   "stars_today": "530",
+   "url": "https://github.com/anthropics/claude-quickstarts"
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "language": "C++",
+   "stars_today": "453",
+   "url": "https://github.com/google-deepmind/mujoco"
+  },
+  {
+   "repo": "we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "language": "Ruby",
+   "stars_today": "184",
+   "url": "https://github.com/we-promise/sure"
+  },
+  {
+   "repo": "homeassistant-ai/ha-mcp",
+   "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "language": "Python",
+   "stars_today": "792",
+   "url": "https://github.com/homeassistant-ai/ha-mcp"
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "language": "Rust",
+   "stars_today": "775",
+   "url": "https://github.com/vercel-labs/agent-browser"
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "language": "Python",
+   "stars_today": "2,387",
+   "url": "https://github.com/sherlock-project/sherlock"
+  },
+  {
+   "repo": "tokio-rs/topcoat",
+   "desc": "A batteries-included framework for building web apps",
+   "language": "Rust",
+   "stars_today": "192",
+   "url": "https://github.com/tokio-rs/topcoat"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
+   "url": "http://arxiv.org/abs/2611.12884v1",
+   "published": "2026-11-09T18:59:40Z",
+   "abstract": "Machine learning models often achieve high average accuracy in the training data while performing poorly on test data due to subpopulation shift. A common data-centric solution is to enforce balanced subgroup proportions, but full balance can be costly, infeasible, and not always necessary. In this work, we study whether balanced training data is the unique optimal configuration for robust subpopulation generalization. We extend a Gaussian feature-model framework to theoretically characterize the performance landscape across general training subgroup distributions. We show that multiple configurations, including substantially imbalanced ones, can perform comparably to the balanced one. We further derive gradient-based directions for adjusting subgroup proportions to improve adjusted accuracy and worst-group accuracy more efficiently. These findings suggest that strategically allocating d"
+  },
+  {
+   "title": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics",
+   "url": "http://arxiv.org/abs/2611.12880v1",
+   "published": "2026-11-09T18:59:13Z",
+   "abstract": "Stochastic differential equations (SDEs) describe stochastic processes across a wide range of scientific domains, including physics, biology, and finance. Although individual numerical integration steps are inexpensive, observing meaningful events or transitions can require millions of sequential steps, resulting in substantial wall-clock simulation time and poor hardware utilization. Deep learning offers an alternative by amortizing many integration steps into a single neural network forward pass, potentially enabling much faster simulation. However, existing supervised approaches typically require long simulated trajectory data, which restricts their applicability. In this work, we introduce Kolmogorov-Chapman Maps (KC-Maps), a method for learning the transition kernel of an SDE that relies only on the trajectory-free marginal samples together with the known drift and diffusion coeffic"
+  },
+  {
+   "title": "Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels",
+   "url": "http://arxiv.org/abs/2611.12878v1",
+   "published": "2026-11-09T18:58:41Z",
+   "abstract": "Motivated by reinforcement learning subject to communication constraints, we study a policy evaluation problem with linear function approximation over a rate-limited channel. In our setup, an agent interacting with an unknown environment (modeled as a Markov Decision Process) transmits quantized estimates of a temporal-difference (TD) learning update direction to a server over a finite-capacity channel. Our goal is to investigate to what extent one can preserve the statistical convergence rates achievable when the channel has infinite capacity. To that end, we propose a new algorithm called Batched Adaptively Quantized TD (BAQ-TD), which uses batching to reduce the variance of the transmitted information, and adaptive quantization to encode innovations. We prove a high-probability finite-time error bound for BAQ-TD, and show that, above a certain finite channel capacity, BAQ-TD preserves"
+  },
+  {
+   "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+   "url": "http://arxiv.org/abs/2611.12872v1",
+   "published": "2026-11-09T18:57:00Z",
+   "abstract": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant memories and overlook heterogeneous evidence needs across queries. We introduce \\textbf{\\hivemem}, a multimodal memory framework that interleaves \\textbf{\\textsc{H}}or\\textbf{\\textsc{i}}zontal Memory Expansion with \\textbf{\\textsc{Ve}}rtical Evidence Composition. For horizontal memory expansion, \\hivemem organizes memory episodes into a relational graph using textual and visual anchors, expanding semantically retrieved seeds with related neighbors to recover complementary information. For vertical evidence composition, each retrieved memory retains multiple evidence forms, "
+  },
+  {
+   "title": "Vendi Anomaly Scores for Efficient and Accurate Anomaly Detection",
+   "url": "http://arxiv.org/abs/2611.12871v1",
+   "published": "2026-11-09T18:56:15Z",
+   "abstract": "Anomaly detection (AD) is a critical for trustworthy machine learning and scientific discovery. Existing methods typically define anomalies through local density, isolation heuristics, or distance from a fitted distribution, making them sensitive to neighborhood scale, partitioning choices, or restrictive distributional assumptions. In this work, we introduce a new paradigm by formulating anomaly detection from a diversity perspective. We propose the $\\textit{Vendi Anomaly Score}$ (VAS), which detects anomalies by quantifying how much a sample changes the diversity of the dataset, as measured by the Vendi score, when removed. VAS captures both local redundancy and global data structure without relying on density estimation or partitioning heuristics. Moreover, VAS requires no hyperparameter tuning, instead adapting automatically to the spectral structure of the data. VAS is non-parametri"
+  },
+  {
+   "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
+   "url": "http://arxiv.org/abs/2611.12869v1",
+   "published": "2026-11-09T18:53:57Z",
+   "abstract": "The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligning with those of vision models. However, recent work has questioned whether this trend continues to hold for newer language models. Moreover, it has been shown that representation similarity metrics can be confounded by model depth and width, requiring appropriate baselines for interpretation. In this work, we first investigate where alignment emerges between unimodal models across model layers and representation dimensions. Next, we find that the PRH capability-alignment trend persists for newer models as long as the captions are sufficiently clean and informative. Finally, we contextualize cross-modal alignment, introducing unimodal and multimodal baselines on various datasets. Our results"
+  },
+  {
+   "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+   "url": "http://arxiv.org/abs/2611.12865v1",
+   "published": "2026-11-09T18:52:20Z",
+   "abstract": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains feasible while some executable shortcuts earn more reward than every compliant strategy. Encoding these conflicts in task dynamics lets us generate diverse interactive environments at scale and derive compliance feedback from execution histories. In resource and reporting workflows, task optimization increases real productivity through unauthorized resource use or raises reported scores while actual work declines. Controlled changes in the training distribution show that minority conflict exposure can still lead to widespread shortcut acquisition, reaching 97.9\\% certified profitable violations o"
+  },
+  {
+   "title": "Is Persona Generalization Predictable?",
+   "url": "http://arxiv.org/abs/2611.12864v1",
+   "published": "2026-11-09T18:51:03Z",
+   "abstract": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We discover a surprising \"on-the-line\" phenomenon in persona generalization: in-domain and out-of-domain persona rates across various fine-tuning hyperparameters follow an approximately probit-linear relationship, and the specific probit-linear relationship is surprisingly shared even across model families and model sizes, including Qwen and Llama. Training choices that leave the set of trainable parameters unchanged, such as learning rate, weight decay, and training duration, largely move models along the same line, reducing transfer mainly by weakening in-domain learning. Changing which layers are fine-tuned, however, can change the slope. For unsafe behavior, fine-tuning only later layers yield"
+  },
+  {
+   "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+   "url": "http://arxiv.org/abs/2611.12856v1",
+   "published": "2026-11-09T18:45:28Z",
+   "abstract": "Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Recent agent harnesses allow the model to instantiate worker agents and to author the executable workflow that coordinates them, shifting the design of system structure from developers to the model at run time. The quality of this organization therefore constitutes a distinct capability, yet existing benchmarks either measure end-to-end task completion or evaluate coordination under structures specified in advance. We formalize this capability as workflow orchestration and introduce WorkflowArena, a benchmark of 145 long-horizon tasks spanning 8 professional domains, from software engineering and formal mathematics to legal analysis and 3D production. Each task specifies an initial workspace and an integrated deliverable composed of interdepend"
+  },
+  {
+   "title": "What kills $v$-prediction? A Patch-wise PCA Perspective on Pixel-Space Flow Matching",
+   "url": "http://arxiv.org/abs/2611.12852v1",
+   "published": "2026-11-09T18:44:37Z",
+   "abstract": "Latent Diffusion Models dominate generative modeling but face two-stage training complexity and the inherent reconstruction limits of pre-trained autoencoders. Pixel-space Flow Matching offers a simplified end-to-end alternative yet often encounters training difficulties when using the standard $v$-prediction objective. Recent research attributes this difficulty to the off-manifold nature of noised targets, motivating a shift toward $x$-prediction. In this paper, we investigate this explanation through patch-wise Principal Component Analysis (PCA) and identify a bandwidth bottleneck. The velocity in minor components is largely determined by the raw noisy input, requiring deep backbones to preserve information that competes with principal-component modeling. Through controlled experiments and representation analysis, we further examine why $x$-prediction remains effective: its parameteriz"
+  },
+  {
+   "title": "Mitigating Agentic Deception via Evaluation-Side Partially Observable Games",
+   "url": "http://arxiv.org/abs/2611.12835v1",
+   "published": "2026-11-09T18:33:13Z",
+   "abstract": "As large language models become more capable agents, they can exhibit deceptive behaviors, cheating human for higher rewards while appearing helpful. We attribute this failure to evaluation-side partial observability, where models are evaluated mainly from final outcome, without checking the faithfulness of underlying reasoning, tool use, and environmental effects. Prior mitigations address this partial observability by predefined evaluator latent belief space or one-shot monitoring, which do not extend to free-form language space and vulnerable to stronger deceptions that evade simple monitoring. In this work, we formulate deception mitigation as an Evaluation-Side Partially Observable Extensive Form Game (e-PoG), a max-min framework in which an agent maximizes reward, a monitor minimizes the agent's payoff by exposing deception from the full interaction trajectory, and a fixed verifier"
+  },
+  {
+   "title": "Programming Prescience: Issues in Human Construction of Forecasting Bots",
+   "url": "http://arxiv.org/abs/2611.12834v1",
+   "published": "2026-11-09T18:33:13Z",
+   "abstract": "AI models' growing capacity for complex reasoning has made them attractive tools for forecasting, or the systematic prediction of the future based on past and present data. However, should AI forecasting systems be adopted, human builders will shoulder the work of building and evaluating them. In this paper, we explore what this work looks like with a qualitative interview study with 15 builders of forecasting bots, sampled from among successful participants in a recent AI forecasting competition. Our analysis surfaces the challenges around (1) tuning a bot to acquire factual research, (2) implementing coherent reasoning, and (3) understanding how well one's bot actually does. During their work, builders frequently introduced complexity that did not pay off, and tested in ways that were opportunistic and piecemeal. Our detailed account of their challenges helps clarify what problems shou"
+  }
+ ]
+}

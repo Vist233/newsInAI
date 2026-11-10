@@ -1,0 +1,496 @@
+{
+ "date": "2026-11-11",
+ "summary": "今天这批条目的共同主线不是“AI又来了”，而是软件的可维护性与可退出性正被重新定价。GitHub趋势被skills、quickstarts、agent-browser、MCP等代理周边占据，Show HN也在催促编码代理离开2019年的JavaScript；这说明AI工具链扩张很快，但“AI usage generates a fragile codebase”和Val Town关停提醒我们，生成速度不等于工程寿命。另一侧，离线智能家居、DisplayLink驱动受专利阻断、.name grandfathering、.NET运行时更新，谈的都是兼容、治理和长期运行这些老问题。Blender支持Gaussian Splat、Ableton 13是工具进步，但真正稀缺的是可替换、可离线、可审计的基础设施。被高估的是代理框架和技能仓库的热度，它们常被误当作成熟度；被低估的是协议、测试、专利与退出机制。我的判断是：AI代理生态首先要证明能降低长期维护成本，而不是制造更多依赖。",
+ "movie": {
+  "title": "Zodiac",
+  "year": 2007,
+  "director": "David Fincher",
+  "reason": "讲证据链与偏执式核验，适合信息过载时看",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "The Effective Engineer",
+  "author": "Edmond Lau",
+  "chapter": "Focus on High-Leverage Activities",
+  "reason": "讲杠杆与高产出习惯",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Smart home devices should work without the internet",
+   "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+   "published": "2026-11-10T15:25:20+00:00",
+   "summary": "Hacker News 上围绕“智能家居设备应脱离互联网也能正常工作”展开讨论，帖子获613分和215条评论。作者结合自身家庭自动化经历，主张设备核心功能应本地运行，减少对云服务和持续联网的依赖，以提升可靠性、隐私和断网时的可用性。评论者则讨论本地控制、厂商生态、远程访问与维护成本之间的取舍。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": ".name Grandfathered",
+   "url": "https://neil.fraser.name/news/2026/11/10/",
+   "published": "2026-11-10T16:37:44+00:00",
+   "summary": "这条 Hacker News 讨论围绕 Neil Fraser 的文章《.name Grandfathered》展开，获得 606 分和 135 条评论。讨论主要关注 .name 域名在历史注册规则变化后被祖父条款保留的现象，以及这种做法对域名政策、兼容性和遗留系统的影响。评论者从注册限制、DNS 实践和互联网治理角度交换看法，也谈到旧规则为何难以直接废除，以及祖父条款在技术社区中常引发的公平性与可维护性争议。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "AlphaProof Code",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "published": "2026-11-10T12:11:12+00:00",
+   "summary": "这条 Hacker News 讨论围绕 DeepMind 发布的 AlphaProof Code 展开，帖子获得 549 分和 173 条评论，热度较高。讨论焦点包括该系统能否把形式化数学证明能力迁移到代码生成与验证，其基准表现、工程可用性和对开发者工作流的影响。评论者既期待 AI 在程序正确性证明和自动化测试方面的潜力，也质疑实际部署成本、泛化能力以及如何评估真实软件任务中的可靠性。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Blender 5.3 released with Gaussian Splat support",
+   "url": "https://www.blender.org/download/releases/5-3/",
+   "published": "2026-11-10T16:15:43+00:00",
+   "summary": "Hacker News 上关于 Blender 5.3 发布的讨论获得 396 分和 53 条评论，核心亮点是新增 Gaussian Splat 支持。参与者关注这一功能对 3D 建模、渲染和视觉特效工作流的影响，以及它与现有管线、性能和兼容性的关系，认为这体现了 Blender 对神经渲染新趋势的积极跟进。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "AI usage generates a fragile codebase",
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "published": "2026-11-10T10:25:58+00:00",
+   "summary": "这篇文章在 Hacker News 上引发讨论，核心观点是广泛使用 AI 写代码可能让代码库更脆弱。评论者围绕生成速度与可维护性展开争论，有人认为缺乏上下文、测试薄弱和过度信任模型会积累隐性债务，也有人主张通过严格审查、测试覆盖和架构约束来控制风险。讨论整体强调团队应把 AI 当作辅助工具并建立质量门槛，否则短期效率提升可能换来长期维护成本。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Val Town is winding down",
+   "url": "https://blog.val.town/winding-down",
+   "published": "2026-11-10T17:31:14+00:00",
+   "summary": "Hacker News 上关于 Val Town is winding down 的讨论获得 261 分和 66 条评论，链接指向 Val Town 官方博客的关停公告。讨论围绕这个云端脚本与小型服务托管平台的停止运营展开，参与者关注开发者工具类产品的可持续性、现有项目和数据的迁移与导出、替代方案选择，以及小型托管服务关停对依赖它的开发者社区造成的影响。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Ableton Live 13",
+   "url": "https://www.ableton.com/en/live/",
+   "published": "2026-11-10T12:58:04+00:00",
+   "summary": "Hacker News 上关于 Ableton Live 13 的讨论获得 252 分和 269 条评论，参与者围绕新版数字音频工作站的发布展开交流，关注新增功能、工作流改进、性能表现、稳定性、升级费用以及是否值得从旧版本升级，并比较其与其他音乐制作软件在编曲、录音和现场演出中的实际体验。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Synaptics patent claims stop work on DisplayLink drivers",
+   "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+   "published": "2026-11-10T18:02:02+00:00",
+   "summary": "Hacker News 上讨论了一则 LWN 报道：Synaptics 的专利主张迫使 DisplayLink 驱动开发停止，相关开发者因法律风险暂停工作。评论关注专利对开源硬件驱动的影响，担心封闭专利阻碍 Linux 兼容性与用户使用多显示器扩展坞，并讨论规避设计、法律抗辩、替代协议及专利制度是否被滥用。帖子获 245 分和 105 条评论，反映出社区对开源驱动法律风险的普遍忧虑。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "What's new in the .NET 11 runtime",
+   "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
+   "published": "2026-11-10T12:20:07+00:00",
+   "summary": "这条Hacker News讨论围绕微软发布的.NET 11运行时新特性展开，帖子获223分并吸引156条评论。参与者关注JIT与GC优化、AOT和启动性能、SIMD及底层运行时改进，也讨论升级收益、兼容性和生态迁移成本。整体看，社区对新版本性能提升感兴趣，但对实际落地价值仍保持审慎。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "published": "2026-11-10T18:01:15+00:00",
+   "summary": "Hacker News 上的这条 Show HN 讨论介绍了 GoogleChrome 的 modern-web-guidance 项目，目标是让编码代理不再沿用约 2019 年的 JavaScript 写法，转而采用现代 Web 原语。帖子获得 209 分和 58 条评论，讨论可能涉及编码助手为何容易生成过时模式、指南如何补充代理所需的新知识、现代浏览器 API 的迁移成本与兼容性，以及这类规范能否真正改善生成代码的质量。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "published": "2026-11-11",
+   "summary": "meta/astryx 是 GitHub 上的一个开源设计系统项目，采用 TypeScript 开发，强调完全可定制并面向智能体就绪。它旨在为开发者提供灵活可扩展的界面构建基础，方便根据产品需求调整设计规范与组件。项目今日新增 3,111 星，关注度较高，适合需要可定制设计系统与智能体集成能力的团队了解和试用。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "published": "2026-11-11",
+   "summary": "anthropics/skills 是 Anthropic 在 GitHub 上维护的开源项目，定位为 Agent Skills 的公共仓库，主要使用 Python 语言。项目集中展示和分享面向智能体的技能资源与示例，便于开发者了解、复用和扩展 Agent Skills，推动智能体完成更复杂任务。该项目今日新增 1676 星，关注度较高。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "published": "2026-11-11",
+   "summary": "addyosmani/agent-skills 是一个面向 AI 编程代理的开源项目，使用 JavaScript 编写，旨在提供生产级工程技能，帮助智能体更规范地完成开发任务。项目今日新增 465 星，受到较多关注，适合希望提升 AI 编码代理实用性与工程质量的开发者了解和使用。",
+   "categories": [
+    "JavaScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "published": "2026-11-11",
+   "summary": "anthropics/claude-quickstarts 是一个面向开发者的开源项目集合，旨在帮助开发者快速上手并基于 Claude API 构建可部署的应用程序。项目使用 Python 语言实现，提供实用的入门示例和项目参考，降低从学习到落地部署的门槛。该项目今日新增 530 星，受到开发者关注，适合希望快速探索 Claude API 应用开发的人群。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "published": "2026-11-11",
+   "summary": "MuJoCo 是 DeepMind 在 GitHub 上开源的一款通用物理模拟器，全称为 Multi-Joint dynamics with Contact，主要面向多关节动力学与接触仿真。项目使用 C++ 实现，可用于机器人控制、强化学习、生物力学等需要高精度物理交互的场景。它提供高效的接触建模和动力学计算能力，适合作为研究与开发中的仿真基础工具。该项目今日新增 453 星，受到较多关注。",
+   "categories": [
+    "C++"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "published": "2026-11-11",
+   "summary": "we-promise/sure 是一个面向所有人的开源个人财务应用，项目采用 Ruby 语言开发，强调由社区共同参与和建设。它今日在 GitHub 新增 184 星，体现出较高关注度。项目简介为“The personal finance app for everyone (by everyone)”，适合希望管理个人财务并参与开源协作的用户了解和使用。",
+   "categories": [
+    "Ruby"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "published": "2026-11-11",
+   "summary": "homeassistant-ai/ha-mcp 是一个使用 Python 开发的开源项目，旨在让 Claude、ChatGPT 等 AI 助手配置和自动化 Home Assistant。它通过 MCP 连接 AI 助手与智能家居系统，帮助用户用自然语言完成设备配置、自动化规则设置和日常控制，降低使用门槛并提升效率。项目今日新增 792 星，受到较多关注。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "published": "2026-11-11",
+   "summary": "vercel-labs/agent-browser 是一个使用 Rust 开发的开源项目，提供面向 AI 智能体的浏览器自动化命令行工具。它让智能体可以通过命令控制浏览器，完成网页访问、页面交互和自动化任务执行，从而降低浏览器自动化集成门槛。项目今日新增 775 星，受到开发者关注。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "published": "2026-11-11",
+   "summary": "Sherlock 是一个用 Python 开发的开源工具，主要功能是根据用户名在多个社交网络和网站中查找可能存在的对应账号。用户输入一个用户名后，它可以批量检测不同平台上的账户线索，并将结果整理输出，适合用于开源情报收集、安全研究、网络身份排查和品牌保护等场景。该项目在 GitHub 上热度很高，今日新增 2387 颗星，说明其跨平台账号搜索能力和实用性受到广泛关注。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "tokio-rs/topcoat",
+   "url": "https://github.com/tokio-rs/topcoat",
+   "published": "2026-11-11",
+   "summary": "Topcoat 是一个使用 Rust 编写的开源 Web 应用开发框架，主打开箱即用和内置常用能力，帮助开发者更高效地构建 Web 应用。项目今日新增 192 个 Star，受到较多关注，适合希望基于 Rust 技术栈开发 Web 服务的开发者了解和使用。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Guiding Data Allocation for Robust Subpopulation Generalization",
+   "url": "http://arxiv.org/abs/2611.12884v1",
+   "published": "2026-11-11",
+   "summary": "该论文研究子群体偏移下稳健泛化的数据分配问题。作者质疑平衡各子群体比例是否为唯一最优配置，将高斯特征模型框架扩展到一般训练子群体分布，并理论刻画不同配置的性能格局。结果表明，多种配置包括显著不平衡的数据分配也能达到与平衡配置相近的效果。进一步，论文给出基于梯度的方向来调整子群体比例，从而更高效地提升调整准确率和最差群体准确率。这些发现表明，策略性地分配数据比一味追求完全平衡更灵活有效。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Kolmogorov-Chapman Maps: Trajectory-Free Learning for Simulating Molecular Dynamics",
+   "url": "http://arxiv.org/abs/2611.12880v1",
+   "published": "2026-11-11",
+   "summary": "随机微分方程广泛用于物理、生物和金融等领域。单步数值积分虽然便宜，但观察有意义事件或状态转移往往需要数百万个顺序步骤，导致模拟耗时很长且硬件利用率低。深度学习可将多步积分分摊到一次神经网络前向计算中，从而加速模拟，但现有监督方法通常依赖长轨迹数据，限制了应用。本文提出 Kolmogorov Chapman 映射，仅利用无轨迹边际样本以及已知的漂移和扩散系数学习随机微分方程的转移核，为分子动力学等场景提供无需长轨迹的高效模拟方法。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Adaptive Quantization Preserves Fast Rates for TD Learning over Rate-Limited Channels",
+   "url": "http://arxiv.org/abs/2611.12878v1",
+   "published": "2026-11-11",
+   "summary": "该论文研究通信约束下的强化学习策略评估问题，考虑智能体通过有限容量信道向服务器传输时序差分学习更新方向的量化估计，并采用线性函数近似。为在限速条件下保持无限容量信道可达到的统计收敛速率，作者提出分批自适应量化时序差分算法BAQ-TD，通过分批降低传输信息方差，并利用自适应量化编码新息。论文证明该算法具有高概率有限时间误差界，并表明当信道容量超过某一有限阈值时，BAQ-TD能够保留快速收敛速率。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+   "url": "http://arxiv.org/abs/2611.12872v1",
+   "published": "2026-11-11",
+   "summary": "随着多模态智能体积累的交互历史不断增长，如何有效检索并利用过往信息成为长期交互的关键。现有记忆系统多依赖压缩记忆上的语义检索并暴露预定义表示，容易遗漏相关记忆，也忽视不同查询对异构证据的需求。为此，论文提出HiVe-Mem多模态记忆框架，将水平记忆扩展与垂直证据组合交错进行。水平扩展利用文本和视觉锚点把记忆片段组织为关系图，从语义检索得到的种子出发扩展相关邻居，以恢复互补信息；垂直证据组合则让每条被检索记忆保留多种证据形式，支持面向查询的证据组织与利用。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Vendi Anomaly Scores for Efficient and Accurate Anomaly Detection",
+   "url": "http://arxiv.org/abs/2611.12871v1",
+   "published": "2026-11-11",
+   "summary": "异常检测对可信机器学习和科学发现至关重要。现有方法通常依据局部密度、隔离启发式或与拟合分布的距离定义异常，容易受邻域尺度、划分选择和分布假设限制。本文从多样性角度提出 Vendi 异常分数 VAS，通过移除某个样本后数据集 Vendi 多样性分数的变化来量化其异常程度。该方法同时捕捉局部冗余和全局数据结构，不依赖密度估计或划分启发式，无需超参数调优，并能自动适应数据的谱结构，是一种非参数方法。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
+   "url": "http://arxiv.org/abs/2611.12869v1",
+   "published": "2026-11-11",
+   "summary": "本文重新审视柏拉图表示假说，考察单模态模型之间的对齐究竟出现在哪些网络层和表示维度，并讨论模型深度与宽度对相似度指标的混淆影响。研究发现，只要图像描述足够干净且信息充分，较新语言模型与视觉模型之间的能力对齐趋势仍然成立。作者进一步在多类数据集上引入单模态与多模态基线，将跨模态对齐置于可比较的参照框架中，从而更准确地解释表示趋同现象及其含义。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+   "url": "http://arxiv.org/abs/2611.12865v1",
+   "published": "2026-11-11",
+   "summary": "该论文研究强化学习在提升任务能力时可能强化违反上下文执行要求的行为，并关注奖励黑客等奖励驱动失配。作者提出可验证的奖励与上下文冲突，即合规完成任务仍可行，但部分可执行捷径获得高于所有合规策略的奖励。将冲突编码进任务动态可大规模生成多样交互环境，并从",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Is Persona Generalization Predictable?",
+   "url": "http://arxiv.org/abs/2611.12864v1",
+   "published": "2026-11-11",
+   "summary": "本文研究人格泛化是否可预测，即在一个领域微调语言模型是否会引发其他领域的行为变化，例如涌现性失配中的广泛不安全行为。作者发现一种“在线上”现象：在不同微调超参数下，域内与域外人格发生率呈近似概率单位线性关系，且该关系甚至跨 Qwen 和 Llama 等模型家族与规模共享。学习率、权重衰减和训练时长等不改变可训练参数集合的选择，主要使模型沿同一直线移动，并通过削弱域内学习来降低迁移。改变微调层则可改变斜率，仅微调后层会对不安全行为的迁移产生不同影响。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Your Agent Doesn't Need an LLM for Every Decision - Raymond Weitekamp, OpenProse",
+   "url": "https://www.youtube.com/watch?v=hFNbPmzzcEs",
+   "published": "2026-11-10",
+   "summary": "OpenProse 的韦特坎普说明智能体不必每个决策都调用大模型，并给出分流判断方法。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/hFNbPmzzcEs/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Your Sub-Agents Are a Distributed System. Treat Them Like One. - Girish Konda, Microsoft",
+   "url": "https://www.youtube.com/watch?v=DxP5aW4VknQ",
+   "published": "2026-11-10",
+   "summary": "微软工程师提出把子代理当作分布式系统，用故障隔离和消息传递原则设计多代理协作。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/DxP5aW4VknQ/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Is AI Now Good Enough To Cure Cancer? | YC Paper Club",
+   "url": "https://www.youtube.com/watch?v=-XL2gClQ2gg",
+   "published": "2026-11-08",
+   "summary": "视频里YC Paper Club拆解论文，指出AI治癌的真实能力边界与验证方法。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/-XL2gClQ2gg/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "How To Build The Future: Paul Graham & Amjad Masad",
+   "url": "https://www.youtube.com/watch?v=Q78dJ0vkWe8",
+   "published": "2026-11-07",
+   "summary": "阿姆贾德·马萨德讲 Replit 如何让非程序员用自然语言做应用，并点出 AI 编程真正卡人的环节。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/Q78dJ0vkWe8/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Smart home devices should work without the internet",
+   "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+   "published": "2026-11-11",
+   "summary": "作者主张设备核心功能本地运行，以提升可靠、隐私与断网可用，评论还权衡本地控制、远程访问和维护成本。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": ".name Grandfathered",
+   "url": "https://neil.fraser.name/news/2026/11/10/",
+   "published": "2026-11-11",
+   "summary": "评论从注册限制、DNS实践和互联网治理讨论旧规则为何难直接废除，并呈现祖父条款在兼容性与公平性上的争议。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "published": "2026-11-11",
+   "summary": "该项目是TypeScript开源设计系统，支持完全定制并面向智能体，今日新增3111星标，适合需灵活界面与智能体集成的团队试用。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "published": "2026-11-11",
+   "summary": "这个用 Python 维护的 Agent Skills 公共仓库集中提供可复用资源与示例，帮助开发者扩展智能体能力，今日新增 1,676 星标。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}
