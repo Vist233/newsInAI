@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "My AI agents found an unmapped Maya site",
+   "url": "https://pietromiotti.com/latest/maya-site",
+   "points": 896,
+   "comments": 327,
+   "published": "2026-11-11T12:05:22+00:00",
+   "hn_id": "50452455"
+  },
+  {
+   "title": "Tim Peters has died",
+   "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+   "points": 710,
+   "comments": 72,
+   "published": "2026-11-11T07:03:17+00:00",
+   "hn_id": "50450488"
+  },
+  {
+   "title": "AWS emulator",
+   "url": "https://github.com/aws/aws-emulator",
+   "points": 536,
+   "comments": 186,
+   "published": "2026-11-11T18:21:38+00:00",
+   "hn_id": "50456631"
+  },
+  {
+   "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+   "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+   "points": 364,
+   "comments": 176,
+   "published": "2026-11-11T16:38:44+00:00",
+   "hn_id": "50455394"
+  },
+  {
+   "title": "Hyper-Realistic Sand with WebGL2",
+   "url": "https://av.github.io/safe-sand/",
+   "points": 270,
+   "comments": 59,
+   "published": "2026-11-11T13:39:29+00:00",
+   "hn_id": "50453288"
+  },
+  {
+   "title": "Using voltage glitching to unleash the A100 in my mining card",
+   "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+   "points": 247,
+   "comments": 101,
+   "published": "2026-11-11T10:48:40+00:00",
+   "hn_id": "50451903"
+  },
+  {
+   "title": "Can a Linear Program Do Weight-Space Programming?",
+   "url": "https://nathan.rs/posts/weight-space-lp/",
+   "points": 227,
+   "comments": 33,
+   "published": "2026-11-11T12:30:17+00:00",
+   "hn_id": "50452655"
+  },
+  {
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "points": 181,
+   "comments": 183,
+   "published": "2026-11-11T21:24:35+00:00",
+   "hn_id": "50458900"
+  },
+  {
+   "title": "Atuin Threads: All your agent sessions on every machine",
+   "url": "https://blog.atuin.sh/threads-agent-sessions/",
+   "points": 177,
+   "comments": 63,
+   "published": "2026-11-11T14:10:46+00:00",
+   "hn_id": "50453637"
+  },
+  {
+   "title": "Gemini Decisions API",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "points": 177,
+   "comments": 59,
+   "published": "2026-11-11T18:32:42+00:00",
+   "hn_id": "50456791"
+  },
+  {
+   "title": "We need more goat sacrifices",
+   "url": "https://www.experimental-history.com/p/we-need-more-goat-sacrifices",
+   "points": 174,
+   "comments": 104,
+   "published": "2026-11-11T12:29:48+00:00",
+   "hn_id": "50452652"
+  },
+  {
+   "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+   "url": "https://github.com/FrigadeHQ/yogurt",
+   "points": 140,
+   "comments": 63,
+   "published": "2026-11-11T15:33:06+00:00",
+   "hn_id": "50454625"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "language": "TypeScript",
+   "stars_today": "2,842",
+   "url": "https://github.com/meta/astryx"
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "language": "Python",
+   "stars_today": "429",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+  },
+  {
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "desc": "",
+   "language": "TypeScript",
+   "stars_today": "133",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+  },
+  {
+   "repo": "shadcn/improve",
+   "desc": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+   "language": "",
+   "stars_today": "333",
+   "url": "https://github.com/shadcn/improve"
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "language": "JavaScript",
+   "stars_today": "788",
+   "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "language": "Rust",
+   "stars_today": "712",
+   "url": "https://github.com/vercel-labs/agent-browser"
+  },
+  {
+   "repo": "we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "language": "Ruby",
+   "stars_today": "1,079",
+   "url": "https://github.com/we-promise/sure"
+  },
+  {
+   "repo": "homeassistant-ai/ha-mcp",
+   "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "language": "Python",
+   "stars_today": "640",
+   "url": "https://github.com/homeassistant-ai/ha-mcp"
+  },
+  {
+   "repo": "openai/codex-security",
+   "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+   "language": "TypeScript",
+   "stars_today": "20",
+   "url": "https://github.com/openai/codex-security"
+  },
+  {
+   "repo": "TheAlgorithms/Java",
+   "desc": "All Algorithms implemented in Java",
+   "language": "Java",
+   "stars_today": "108",
+   "url": "https://github.com/TheAlgorithms/Java"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+   "url": "http://arxiv.org/abs/2611.14519v1",
+   "published": "2026-11-10T18:59:54Z",
+   "abstract": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be adapted, and what determines this. We adapted a foundation model, DINOv2, with strategies ranging from tuning only its bias terms to full fine-tuning, and compared it with U-Nets and ResU-Nets trained from scratch. Experiments covered colonoscopy, breast ultrasound and dermoscopy, with testing on held-out data from the training source and on independent datasets from other institutions. The adapted foundation model gene"
+  },
+  {
+   "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+   "url": "http://arxiv.org/abs/2611.14518v1",
+   "published": "2026-11-10T18:59:17Z",
+   "abstract": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models. In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by integrating diverse medical image datasets annotated for both anatomical structures and abnormalities. We first propose a student-teacher training strategy to effectively combine datasets with heterogeneous label spaces, mitigating catastrophic forgetting, and im proving feature learning. In addition, building on our previously pro posed example-based EM-DETR framework, we adapt it to jointly lea"
+  },
+  {
+   "title": "TorchCurves: Differentiable Parametric Curves",
+   "url": "http://arxiv.org/abs/2611.14516v1",
+   "published": "2026-11-10T18:58:52Z",
+   "abstract": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can be optimized jointly with the surrounding model or produced by another network. The library provides trainable modules, reusable basis modules, and a functional interface, supporting applications ranging from continuous feature embeddings to Kolmogorov-Arnold networks and functional regression. Its implementation combines classical evaluation algorithms with vectorized PyTorch operations, emphasizing readability and maintainability without custom hardware kernels. Timing experiments compare curve evaluation against NumPy and SciPy and KAN training against EfficientKAN across"
+  },
+  {
+   "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+   "url": "http://arxiv.org/abs/2611.14515v1",
+   "published": "2026-11-10T18:58:46Z",
+   "abstract": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this information into guidance, but their design and adaptation are largely left to humans and tailored to specific domains. We introduce AutoScaffold, a unified AI-for-AI framework that turns a student's training experience into adaptive scaffolds, with minimal domain-specific information and no human intervention during training. A frozen teacher periodically examines this experience, diagnoses bottlenecks, and designs scaffolds in two forms: (i) strategies shared across a class of tasks and (ii) hints for individual hard tasks, adjusting the content and amount of support as the stu"
+  },
+  {
+   "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+   "url": "http://arxiv.org/abs/2611.14514v1",
+   "published": "2026-11-10T18:58:43Z",
+   "abstract": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supports. To recover that alternative, we introduce Contrastive Discovery, which replaces the single hypothesis with a contrast set, a scientific question paired with mutually exclusive and collectively exhaustive competing explanations. Each experiment is scored by how its evidence redistributes belief across the set, and the question is resolved when belief concentrates on one explanation. Because contrast sets change only the unit an agent proposes and scores, an existing agent can use them to re-evaluate evidence it has already collected or to guide its search. Across six d"
+  },
+  {
+   "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+   "url": "http://arxiv.org/abs/2611.14511v1",
+   "published": "2026-11-10T18:56:32Z",
+   "abstract": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes. Expert chemists equipped with 3D visualization tools and physics-based scores perform near chance, highlighting the difficulty of interpreting available chemical signals. To investigate automated ranking, we introduce PyriteRep, a structured representation of molecular geometry, protein-ligand interactions, and physicochemical scores, and develop two LLM-based agents: PyriteReasoner, which directly compares poses through text-based reasoning, and PyriteFeaturizer, which generates executable code to construct features for logistic regression, optionally incorpo"
+  },
+  {
+   "title": "When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology",
+   "url": "http://arxiv.org/abs/2611.14508v1",
+   "published": "2026-11-10T18:55:48Z",
+   "abstract": "Connectome-constrained models are often used to argue that a measured wiring diagram outperforms shuffled or rewired wiring, and hence that structure shapes function. Such comparisons can confound wiring with how the models are tuned: a connectome fixes who connects to whom, not the excitability, gains or plasticity rates the model also needs, and modellers often tune these until the real-wiring model works. We separate three estimands: physiology tuned on the real wiring and transferred to nulls (P1), each wiring tuned on its own (P2), and P2 restricted to physiology consistent with independent data (P3). The biases involved are known in machine learning (under-tuned baselines, inherited weights, winner's curse); we measure what they do to biological conclusions, using synthetic ground truth, placebo nulls and three Drosophila circuit models. Some claims survive every protocol we test: "
+  },
+  {
+   "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+   "url": "http://arxiv.org/abs/2611.14505v1",
+   "published": "2026-11-10T18:55:01Z",
+   "abstract": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weight-based systems are rarely compared on the same scale. We propose Continual-ARC, a lifelong stream built from the three ARC-AGI editions, whose tasks need no domain knowledge. The same tasks return after dormant gaps with fresh instances, while new tasks keep arriving. On each instance, the learner may pay for demonstrations, submit answers, or act inside the harness, with retries permitted on incorrect submissions, which are paid for. Each instance is scored based on the share of this feedback budget consumed. Since a learner may keep anything between instances, memory-ba"
+  },
+  {
+   "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+   "url": "http://arxiv.org/abs/2611.14504v1",
+   "published": "2026-11-10T18:53:01Z",
+   "abstract": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site localization, including orthosteric/allosteric discrimination), and bond (covalent versus non-covalent engagement). All three capabilities generalize to out-of-distribution complexes. Bonbon was trained on protein-ligand sequences alone, without any task-specific supervision and without structural coordinates. We conducted controlled scaling experiments across six model scales from 42M to 1.6B para"
+  },
+  {
+   "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+   "url": "http://arxiv.org/abs/2611.14493v1",
+   "published": "2026-11-10T18:50:06Z",
+   "abstract": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based LLM judging, text-only LLM judging with red-teaming, and deterministic heuristics), applied to two analytics agents in a controlled research setting using frozen execution traces. Phase 1 quantifies evaluation harness stability through repeated measurements, finding that 97% of configurations meet the stability threshold and that stability patterns are agent-independent. Phase 2 measures known risk detection on 72 ground-truth test cases, where the trace-based framework achieves the best precision-recall balance (F1=0.90) while text-only evaluation matches on recall but generates 5x more false"
+  },
+  {
+   "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+   "url": "http://arxiv.org/abs/2611.14492v1",
+   "published": "2026-11-10T18:49:47Z",
+   "abstract": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM, selects the next step. The agent's reasoning, the explanation it writes with each tool call, often states why it took an action; the tool calls alone do not. ReTrace extracts the condition behind each step, merges these conditions across runs into a compact rule document, and generates an executable workflow from it. Only this last stage depends on the platform, so rule documents can be compiled for different orchestration platforms. On $79$ procedures from our production platform, ReTrace wor"
+  },
+  {
+   "title": "TimeSeek: Multi-Task and Multi-Domain Pretraining for Generalized Time Series Analytics",
+   "url": "http://arxiv.org/abs/2611.14491v1",
+   "published": "2026-11-10T18:49:26Z",
+   "abstract": "Time series analytics has been widely applied across various domains. While existing time series foundation models (TSFMs) have demonstrated promising results, they still face two major challenges: 1) Most TSFMs mainly rely on stacking Transformer layers to increase parameter size, lacking the ability to adaptively model complex time series patterns from multi-domain data. 2) Current TSFMs are primarily pre-trained for specific tasks, e.g., forecasting or anomaly detection, and a few models support multiple tasks, but they fail to fully leverage task specificity and commonality, resulting in suboptimal performance. To address these challenges, we propose TimeSeek, a novel generalized time series analytics model that adaptively models time series patterns from multi-domain data and unifies multiple tasks in pre-training. Conceptually, TimeSeek is guided by selective information sharing un"
+  }
+ ]
+}

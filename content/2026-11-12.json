@@ -1,0 +1,496 @@
+{
+ "date": "2026-11-12",
+ "summary": "今天这批条目最清晰的共同主线，不是“AI又赢了”，而是自动化叙事与工程现实之间的落差。AI agent 能报出未绘制的玛雅遗址、接管会话、操作浏览器，甚至被讨论用于订票，但 United 的反向禁令、codex-security 和 MCP 类项目都在提醒：权限、责任、审计和失败模式才是落地门槛。另一边，烟雾报警器差点淹掉 Jane Street 唯一的纽约数据中心、用电压毛刺解锁 A100、AWS 模拟器和 WebGL 沙子，说明真正稀缺的仍是可靠系统、硬件知识和可复现实验。Tim Peters 的离世也让这种工艺传统显得更重。被高估的是“通用 agent 即插即用”的想象：多数演示把模式识别、脚本编排和人工兜底包装成自主性，把发现故事浪漫化。短期内更值得押注的是受限场景、明确权限和可验证输出，而不是无所不能的代理。",
+ "movie": {
+  "title": "Moneyball",
+  "year": 2011,
+  "director": "Bennett Miller",
+  "reason": "旧评价体系失灵时，怎么用证据重新决定下注",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "A Philosophy of Software Design",
+  "author": "John Ousterhout",
+  "chapter": "Chapter 2: The Nature of Complexity",
+  "reason": "把复杂度当成要管理的对象，而不是代码行数",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "My AI agents found an unmapped Maya site",
+   "url": "https://pietromiotti.com/latest/maya-site",
+   "published": "2026-11-11T12:05:22+00:00",
+   "summary": "这篇HN讨论围绕作者用AI代理在公开LiDAR数据中发现疑似未测绘玛雅遗址展开，评论关注方法可复现性、考古验证、AI代理实际贡献与宣传夸大，以及公开数据在考古发现中的伦理和边界；帖子获896分和327条评论，反映出对AI辅助科学发现的兴趣与审慎。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Tim Peters has died",
+   "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+   "published": "2026-11-11T07:03:17+00:00",
+   "summary": "Hacker News 上出现题为 Tim Peters has died 的讨论，并链接到 Python 官方论坛的纪念帖，确认 Python 核心开发者 Tim Peters 于 1952 至 2026 年逝世。该帖获得 710 分和 72 条评论，参与者回顾他对 Python 生态的深远影响，包括 Python 之禅、Timsort、doctest 等贡献，并分享与其共事和受其启发的经历，整体氛围以悼念和致敬为主。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "AWS emulator",
+   "url": "https://github.com/aws/aws-emulator",
+   "published": "2026-11-11T18:21:38+00:00",
+   "summary": "这篇 Hacker News 讨论围绕开源项目 AWS emulator 展开，该项目尝试在本地模拟 AWS 服务，以支持开发测试、离线调试和持续集成。帖子获得 536 分和 186 条评论，讨论焦点包括 API 兼容性、服务覆盖范围、长期维护成本，以及本地模拟能否替代真实云环境，也有人认可它在降低成本和教学演示中的价值。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+   "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+   "published": "2026-11-11T16:38:44+00:00",
+   "summary": "这篇Hacker News讨论围绕一篇复盘文章展开，文章讲述Jane Street位于纽约的唯一数据中心因烟雾报警误报而几乎被水淹的经历。讨论热度为364分、176条评论，参与者借此探讨数据中心告警设计、消防与排水系统联动、单点故障风险以及应急响应流程，并反思误报为何可能演变成严重的可用性事故。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Hyper-Realistic Sand with WebGL2",
+   "url": "https://av.github.io/safe-sand/",
+   "published": "2026-11-11T13:39:29+00:00",
+   "summary": "Hacker News 上关于 Hyper-Realistic Sand with WebGL2 的讨论聚焦于用 WebGL2 在浏览器中实现高真实感沙粒效果。该项目以 270 分和 59 条评论受到关注，参与者主要讨论沙粒物理、渲染性能与视觉真实感之间的权衡，也延伸至 WebGL2 与 WebGPU 等技术路线、移动端兼容性和交互体验。整体评价偏向肯定其技术展示效果，同时提醒复杂模拟在实时性和跨设备表现上的挑战。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Using voltage glitching to unleash the A100 in my mining card",
+   "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+   "published": "2026-11-11T10:48:40+00:00",
+   "summary": "这篇 Hacker News 讨论围绕一篇通过电压毛刺攻击解锁矿卡中 A100 GPU 的博文展开。文章介绍作者如何利用电压毛刺绕过硬件限制，让原本受限的矿卡恢复接近 A100 的计算能力。评论者关注技术细节、成功率与稳定性，也讨论矿卡改造的风险、NVIDIA 的产品分层策略、二手硬件价值及安全影响。讨论整体对硬件破解的创造性和潜在滥用保持兴趣与警惕。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Can a Linear Program Do Weight-Space Programming?",
+   "url": "https://nathan.rs/posts/weight-space-lp/",
+   "published": "2026-11-11T12:30:17+00:00",
+   "summary": "这篇 Hacker News 讨论围绕一篇博客展开，探讨线性规划能否用于权重空间编程。作者尝试把对模型权重的修改表述为线性规划问题，评论者则讨论其适用范围、计算代价和表达能力，并比较它与梯度优化、模型编辑等方法的差异，认为思路有趣，但实际效果仍取决于问题结构和约束设计。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "published": "2026-11-11T21:24:35+00:00",
+   "summary": "该讨论围绕美联航禁止AI代理代表旅客订票展开。评论者争论航空公司是否有权限制自动化工具，认为这涉及反机器人、支付欺诈、责任归属与身份验证，也可能影响无障碍使用和消费者选择。有人指出传统旅行社与比价工具早有类似规则，关键在检测与执行；也有人担心此类禁令会阻碍代理式AI发展，呼吁更清晰的授权机制和规范接口。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Atuin Threads: All your agent sessions on every machine",
+   "url": "https://blog.atuin.sh/threads-agent-sessions/",
+   "published": "2026-11-11T14:10:46+00:00",
+   "summary": "这篇 Hacker News 讨论介绍了 Atuin 推出的 Threads 功能，目标是让用户在不同机器上统一查看、同步和继续各类 AI 代理会话。帖子获得 177 分和 63 条评论，讨论集中在跨设备同步的实际价值、会话数据的安全与隐私、加密和自托管方案，以及它与现有终端历史、开发环境和多代理工作流的整合方式。评论者既关注该功能能否减少上下文切换、提升协作效率，也关心同步延迟、数据体积和长期可维护性等工程问题。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Gemini Decisions API",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "published": "2026-11-11T18:32:42+00:00",
+   "summary": "这篇Hacker News讨论围绕Google发布的Gemini Decisions API展开，该API旨在帮助开发者在应用中集成基于Gemini的决策能力。帖子获得177分和59条评论，参与者关注其接口设计、适用场景、与现有开发工作流的结合方式，以及成本、可控性和可靠性等问题。讨论中既有对开发效率提升的期待，也有对模型决策透明度与生产环境落地的审慎评估。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "published": "2026-11-12",
+   "summary": "meta/astryx 是一个基于 TypeScript 开发的开源设计系统，主打完全可定制与面向智能体就绪。它为构建一致且可扩展的界面提供组件与设计规范，方便团队按品牌和业务需求调整样式与交互。项目今日新增 2842 星，关注度较高，适合希望将设计系统与智能体工作流结合的前端与产品团队参考使用。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "published": "2026-11-12",
+   "summary": "ZhuLinsen/daily_stock_analysis 是一个基于 Python 的开源项目，提供 LLM 驱动的多市场股票智能分析系统。它整合多源行情数据与实时新闻，提供决策看板、自动推送和零成本定时运行能力，帮助用户持续跟踪市场动态并获取分析参考。该项目今日新增 429 星，具有一定关注度。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "published": "2026-11-12",
+   "summary": "GoogleChrome/modern-web-guidance-src 是 Google Chrome 团队开源的现代 Web 开发指南源码项目，主要使用 TypeScript 编写，集中呈现面向现代浏览器的 Web 平台能力、最佳实践与开发建议，帮助开发者了解并采用原生 Web 技术构建高性能、可维护的网站。项目今日新增 133 星，受到前端社区关注。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "shadcn/improve",
+   "url": "https://github.com/shadcn/improve",
+   "published": "2026-11-12",
+   "summary": "shadcn/improve 是一个 GitHub 开源项目，核心理念是让能力最强的模型先审查和分析代码库，并据此编写可执行的改进计划，再交给成本更低的模型按计划实施。它把复杂推理与具体执行分开，有助于在保证代码质量的同时控制模型调用成本，适合希望借助多模型协作优化开发流程的团队尝试，项目今日新增 333 星。",
+   "categories": [
+    "repo"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "published": "2026-11-12",
+   "summary": "addyosmani/agent-skills 是一个以 JavaScript 编写的开源项目，面向 AI 编程代理提供生产级工程技能，帮助代理在真实开发流程中更规范地完成编码、审查与协作任务。项目今日新增 788 星，说明其受到开发者关注，适合希望提升 AI 编程代理工程可靠性与实用性的团队参考。",
+   "categories": [
+    "JavaScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "published": "2026-11-12",
+   "summary": "vercel-labs/agent-browser 是 Vercel Labs 推出的开源浏览器自动化命令行工具，使用 Rust 编写，面向 AI 智能体提供可控的浏览器操作能力，可用于网页导航、元素交互、数据抓取和自动化流程集成。项目今日新增 712 星，体现出开发者对 AI 代理浏览器自动化方向的关注。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "published": "2026-11-12",
+   "summary": "we-promise/sure 是一个用 Ruby 开发的开源个人理财应用，定位为面向所有人的财务管理工具，并强调由社区共同参与和建设。项目简介突出人人可用的理念，适合希望管理个人收支、了解财务状况的用户关注和参与。它在 GitHub 上今日新增 1,079 星，显示出较高的社区热度和活跃关注度。借助开源协作方式，项目有望持续完善功能与体验，也为开发者提供了参与个人理财工具改进的机会。",
+   "categories": [
+    "Ruby"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "published": "2026-11-12",
+   "summary": "homeassistant-ai/ha-mcp 是一个用 Python 编写的开源项目，旨在让 Claude、ChatGPT 及其他 AI 助手配置和自动化 Home Assistant。项目今日新增约 640 星，关注度快速上升。它通过连接 AI 助手与 Home Assistant，帮助用户用自然语言完成智能家居配置和自动化任务，降低操作门槛并提升效率，适合希望借助 AI 简化家庭自动化管理的用户关注和试用。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "published": "2026-11-12",
+   "summary": "openai/codex-security 是 OpenAI 在 GitHub 上开源的安全工具项目，主要使用 TypeScript 编写，提供 Codex Security 命令行工具和 TypeScript SDK，用于发现、验证并修复软件中的安全漏洞。项目已发布到 npm，包名为 @openai/codex-security，今日新增约 20 个 Star，适合开发者集成到安全检测与修复流程中。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "TheAlgorithms/Java",
+   "url": "https://github.com/TheAlgorithms/Java",
+   "published": "2026-11-12",
+   "summary": "TheAlgorithms/Java 是一个在 GitHub 上开源的项目，使用 Java 语言实现各类常见算法，内容覆盖排序、查找、数据结构、图算法、动态规划等多个方向。项目代码结构清晰，适合 Java 学习者和开发者查阅算法实现、理解基础原理并用于练习与参考。今日该项目新增 108 星，说明其持续受到社区关注，是学习算法与 Java 编程时较有价值的开源资源。",
+   "categories": [
+    "Java"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+   "url": "http://arxiv.org/abs/2611.14519v1",
+   "published": "2026-11-12",
+   "summary": "该论文比较医学图像分割中基础模型适应与任务特定训练的效果。作者将自然图像预训练的DINOv2适配到分割任务，采用仅调整偏置项至全量微调等多种策略，并与从头训练的U-Net和ResU-Net对比。实验涵盖结肠镜、乳腺超声和皮肤镜，既在训练来源的留出数据上测试，也在其他机构的独立数据集上评估。研究关注基础模型需适应多少及其决定因素，并检验跨中心泛化能力，为临床部署提供更可靠的证据。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+   "url": "http://arxiv.org/abs/2611.14518v1",
+   "published": "2026-11-12",
+   "summary": "本文针对医学病灶检测中标注数据稀缺、标注标准不统一以及现有数据集异质性强等问题，提出一种构建多域基础检测模型的方法。该方法整合同时标注解剖结构和异常的多源医学图像数据集，并采用学生教师训练策略融合标签空间不同的数据，以缓解灾难性遗忘并提升特征学习效果。研究还在已有基于示例的EM-DETR框架基础上进行扩展，使其能够联合学习多领域病灶检测任务。该工作为减少对大规模标准化标注数据的依赖、提升计算机辅助诊断系统的泛化能力提供了新思路。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "TorchCurves: Differentiable Parametric Curves",
+   "url": "http://arxiv.org/abs/2611.14516v1",
+   "published": "2026-11-12",
+   "summary": "该论文提出TorchCurves，一个将向量值参数曲线视为可学习原语的PyTorch库。其核心操作把批量标量输入映射到B样条或Legendre多项式基表示的曲线点，并支持对输入和系数求导。曲线系数可与周边模型联合优化，也可由另一网络生成。该库提供可训练模块、可复用基模块和函数式接口，适用于连续特征嵌入、KAN网络和函数回归等任务。实现结合经典求值算法与向量化PyTorch操作，强调可读性与可维护性，不依赖自定义硬件内核。计时实验比较曲线求值与NumPy、SciPy，以及KAN训练与EfficientKAN。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+   "url": "http://arxiv.org/abs/2611.14515v1",
+   "published": "2026-11-12",
+   "summary": "强化学习与可验证奖励能产生丰富训练经验，但结果奖励将每次尝试压缩为单一数值，导致大量信息未被利用。训练时脚手架可将这些信息转化为指导，然而其设计通常依赖人工和领域知识。本文提出AutoScaffold，一个统一的AI for AI框架，能够以极少领域特定信息且训练中无需人工干预的方式，将学生模型的训练经验转化为自适应脚手架。冻结教师定期检查经验、诊断瓶颈，并设计跨任务共享策略与面向个别困难任务的提示，同时根据学生表现调整支持内容与支持量。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+   "url": "http://arxiv.org/abs/2611.14514v1",
+   "published": "2026-11-12",
+   "summary": "论文提出 Contrastive Discovery 方法，用于提升大语言模型智能体在开放式科学发现中的假设评估与搜索能力。传统方法只比较单一假设及其否定，证据否定假设后仍无法判断哪种替代解释更受支持。该方法以对比集替代单一假设，对比集由科学问题及互斥且穷尽的竞争解释组成，并根据实验证据如何重新分配各解释的信念来评分，当信念集中于某一解释时问题得到解决。由于只改变智能体提出和评分的单元，现有智能体可复用已有证据重新评估或指导后续搜索。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+   "url": "http://arxiv.org/abs/2611.14511v1",
+   "published": "2026-11-12",
+   "summary": "本文提出Pyrite，一个用于蛋白质配体构象排序的成对基准，包含1500个跨多样复合物的构象对。专家化学家借助三维可视化与物理评分仍接近随机，显示现有化学信号难以解释。为研究自动排序，作者构建结构化表示PyriteRep，整合分子几何、蛋白配体相互作用和物理化学评分，并开发两个基于大语言模型的智能体。PyriteReasoner通过文本推理直接比较构象，PyriteFeaturizer生成可执行代码以构建逻辑回归特征，并可选择性整合评分信息。该工作为构象排序提供评测平台与自动化方法。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology",
+   "url": "http://arxiv.org/abs/2611.14508v1",
+   "published": "2026-11-12",
+   "summary": "连接组约束模型常被用来主张实测布线优于打乱或重连布线，并推断结构塑造功能。但比较可能混淆布线与调参：连接组只固定连接关系，不固定兴奋性、增益或可塑性速率，建模者常调这些参数直到真实布线模型奏效。该文区分三种估计量，即真实布线上调好生理参数再迁移到零模型、每种布线各自调参、以及将后者限制在与独立数据一致的生理参数内。作者用合成真值、安慰剂零模型和三个果蝇回路模型，量化欠调基线、继承权重和赢家诅咒等偏倚对结论的影响，并检验哪些主张在所有协议下仍成立。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+   "url": "http://arxiv.org/abs/2611.14505v1",
+   "published": "2026-11-12",
+   "summary": "论文提出Continual-ARC，一个基于三届ARC-AGI任务构建的终身学习评测流，旨在衡量智能体在工作生命周期内的技能获取。现有基准多局限于单一应用领域、每个实例仅使用一次且假定单一学习者类型，难以在同一尺度比较基于记忆与基于权重的系统。Continual-ARC无需领域知识，旧任务会在休眠间隔后以新实例重现，新任务持续到来；学习者可花费预算购买演示、提交答案或在执行框架内行动，错误提交可付费重试，并按反馈预算消耗比例计分，且允许跨实例保留信息，为持续学习与测试时参数学习提供统一比较平台。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Your SKILL.md Is 70% Stuff the Model Already Knows - Nikolay Petrov, Intel",
+   "url": "https://www.youtube.com/watch?v=yzx4IuEh_tU",
+   "published": "2026-11-11",
+   "summary": "Intel 讲者用70%这个结论说明 SKILL.md 大半是模型已知内容，可据此删冗余。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/yzx4IuEh_tU/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Your Spec Has Bugs. Catch Them Before Your Agent Codes. - Rajath Mahendrappa Kotyal, AWS",
+   "url": "https://www.youtube.com/watch?v=0EnLxIbAvYk",
+   "published": "2026-11-11",
+   "summary": "Rajath 在 AWS 分享了让 AI Agent 写代码前先抓规格缺陷的方法，可减少返工。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/0EnLxIbAvYk/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Inside Theranos with ex-Employee Tyler Shultz",
+   "url": "https://www.youtube.com/watch?v=iXWSYlAX5Lg",
+   "published": "2026-11-11",
+   "summary": "Theranos前员工讲他举报血液检测设备造假反遭公司打压，揭示内部人如何戳破创业神话。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/iXWSYlAX5Lg/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Is AI Now Good Enough To Cure Cancer? | YC Paper Club",
+   "url": "https://www.youtube.com/watch?v=-XL2gClQ2gg",
+   "published": "2026-11-08",
+   "summary": "这期YC Paper Club把“AI能否治愈癌症”拆成论文中的技术条件与限制，能看清哪些结论有实验支撑。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/-XL2gClQ2gg/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "My AI agents found an unmapped Maya site",
+   "url": "https://pietromiotti.com/latest/maya-site",
+   "published": "2026-11-12",
+   "summary": "它展示AI代理用公开LiDAR数据发现疑似未测绘玛雅遗址，评论审视方法复现、考古验证与数据伦理。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Tim Peters has died",
+   "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+   "published": "2026-11-12",
+   "summary": "官方论坛确认Tim Peters逝世，讨论回顾其Python之禅、Timsort和doctest贡献及共事经历。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "published": "2026-11-12",
+   "summary": "它今日新增星标2,842个，以TypeScript提供可定制组件与设计规范，并面向智能体工作流，可供前端与产品团队参考。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "published": "2026-11-12",
+   "summary": "其面向AI编程代理提供生产级工程技能，助其在真实开发流程中规范完成编码、审查与协作，今日新增788星。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}
