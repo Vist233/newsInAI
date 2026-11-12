@@ -1,0 +1,496 @@
+{
+ "date": "2026-11-13",
+ "summary": "今天的输入集中在 Jensen Huang resigns；Anthropic IPO；Gemini 4 Hydrogen；Service degradation on Microsoft 365；Why writing correct software i 这几条上。判断留白比硬凑更诚实：模型侧今天没有给出可用的综合。",
+ "movie": {
+  "title": "Ikiru",
+  "year": 1952,
+  "director": "黑泽明",
+  "reason": "提醒时间该压在哪件事上",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "The Craft of Research",
+  "author": "Wayne C. Booth 等",
+  "chapter": "Making Good Arguments",
+  "reason": "论点、理由、证据、反驳拆成可检查的结构",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Jensen Huang resigns",
+   "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+   "published": "2026-11-12T13:52:29+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Anthropic IPO",
+   "url": "https://ipo.anthropic.com/us/",
+   "published": "2026-11-12T11:46:41+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Gemini 4 Hydrogen",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "published": "2026-11-12T18:01:48+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Service degradation on Microsoft 365",
+   "url": "https://status.cloud.microsoft/",
+   "published": "2026-11-12T18:20:48+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Why writing correct software is hard and why math (alone) won’t help us (2016)",
+   "url": "https://pron.github.io/posts/correctness-and-complexity",
+   "published": "2026-11-12T10:28:26+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Rust 1.100",
+   "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+   "published": "2026-11-12T18:39:05+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
+   "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
+   "published": "2026-11-12T16:29:13+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "I'm making LLMs work on small and old devices",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "published": "2026-11-12T15:23:10+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+   "url": "https://github.com/simpsoka/zigzag",
+   "published": "2026-11-12T17:02:42+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+   "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+   "published": "2026-11-12T14:18:49+00:00",
+   "summary": "",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "nvm-sh/nvm",
+   "url": "https://github.com/nvm-sh/nvm",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "Shell"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "pookjw/HermesEnabler",
+   "url": "https://github.com/pookjw/HermesEnabler",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "Objective-C"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "Ruby"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "QwenLM/qwen-code",
+   "url": "https://github.com/QwenLM/qwen-code",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "ashhart/TensorFold",
+   "url": "https://github.com/ashhart/TensorFold",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "Zig"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "nodejs/node",
+   "url": "https://github.com/nodejs/node",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "JavaScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "JavaScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+   "url": "http://arxiv.org/abs/2611.14519v1",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+   "url": "http://arxiv.org/abs/2611.14518v1",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "TorchCurves: Differentiable Parametric Curves",
+   "url": "http://arxiv.org/abs/2611.14516v1",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+   "url": "http://arxiv.org/abs/2611.14515v1",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+   "url": "http://arxiv.org/abs/2611.14514v1",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+   "url": "http://arxiv.org/abs/2611.14511v1",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology",
+   "url": "http://arxiv.org/abs/2611.14508v1",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+   "url": "http://arxiv.org/abs/2611.14505v1",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
+   "url": "https://www.youtube.com/watch?v=vlfCjWuv4es",
+   "published": "2026-11-12",
+   "summary": "",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/vlfCjWuv4es/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Stop Shipping LLM Settings That Only Win on Paper - Rohan Pandey & Balaji Varadarajan, DigitalOcean",
+   "url": "https://www.youtube.com/watch?v=cWrYEBlWpcY",
+   "published": "2026-11-12",
+   "summary": "",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/cWrYEBlWpcY/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Inside Theranos with ex-Employee Tyler Shultz",
+   "url": "https://www.youtube.com/watch?v=iXWSYlAX5Lg",
+   "published": "2026-11-11",
+   "summary": "",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/iXWSYlAX5Lg/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Is AI Now Good Enough To Cure Cancer? | YC Paper Club",
+   "url": "https://www.youtube.com/watch?v=-XL2gClQ2gg",
+   "published": "2026-11-08",
+   "summary": "",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/-XL2gClQ2gg/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Jensen Huang resigns",
+   "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Anthropic IPO",
+   "url": "https://ipo.anthropic.com/us/",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "published": "2026-11-13",
+   "summary": "",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}
