@@ -3,98 +3,98 @@
   {
    "title": "Jensen Huang resigns",
    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-   "points": 2729,
-   "comments": 2604,
+   "points": 3110,
+   "comments": 2907,
    "published": "2026-11-12T13:52:29+00:00",
    "hn_id": "50467087"
   },
   {
    "title": "Anthropic IPO",
    "url": "https://ipo.anthropic.com/us/",
-   "points": 786,
-   "comments": 781,
+   "points": 846,
+   "comments": 823,
    "published": "2026-11-12T11:46:41+00:00",
    "hn_id": "50465829"
   },
   {
-   "title": "Gemini 4 Hydrogen",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-   "points": 426,
-   "comments": 280,
-   "published": "2026-11-12T18:01:48+00:00",
-   "hn_id": "50471431"
-  },
-  {
    "title": "Service degradation on Microsoft 365",
    "url": "https://status.cloud.microsoft/",
-   "points": 409,
-   "comments": 394,
+   "points": 587,
+   "comments": 547,
    "published": "2026-11-12T18:20:48+00:00",
    "hn_id": "50471731"
   },
   {
-   "title": "Why writing correct software is hard and why math (alone) won’t help us (2016)",
-   "url": "https://pron.github.io/posts/correctness-and-complexity",
-   "points": 348,
-   "comments": 166,
-   "published": "2026-11-12T10:28:26+00:00",
-   "hn_id": "50465352"
-  },
-  {
    "title": "Rust 1.100",
    "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-   "points": 311,
-   "comments": 137,
+   "points": 490,
+   "comments": 209,
    "published": "2026-11-12T18:39:05+00:00",
    "hn_id": "50472038"
   },
   {
+   "title": "Gemini 4 Hydrogen",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "points": 481,
+   "comments": 304,
+   "published": "2026-11-12T18:01:48+00:00",
+   "hn_id": "50471431"
+  },
+  {
    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
    "url": "https://github.com/simpsoka/zigzag",
-   "points": 264,
-   "comments": 113,
+   "points": 380,
+   "comments": 147,
    "published": "2026-11-12T17:02:42+00:00",
    "hn_id": "50470488"
   },
   {
-   "title": "I'm making LLMs work on small and old devices",
-   "url": "https://github.com/hyperionaidev/smolmaxxing/",
-   "points": 263,
-   "comments": 88,
-   "published": "2026-11-12T15:23:10+00:00",
-   "hn_id": "50468888"
-  },
-  {
    "title": "Gemini 4 Hydrogen and Orchestrator",
    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-   "points": 238,
-   "comments": 58,
+   "points": 336,
+   "comments": 86,
    "published": "2026-11-12T18:52:01+00:00",
    "hn_id": "50472260"
   },
   {
+   "title": "I'm making LLMs work on small and old devices",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "points": 294,
+   "comments": 101,
+   "published": "2026-11-12T15:23:10+00:00",
+   "hn_id": "50468888"
+  },
+  {
    "title": "Abandoned Quake 4 expansion finished by modders and now playable",
    "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
-   "points": 230,
-   "comments": 80,
+   "points": 248,
+   "comments": 87,
    "published": "2026-11-12T14:18:49+00:00",
    "hn_id": "50467618"
   },
   {
+   "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+   "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
+   "points": 220,
+   "comments": 102,
+   "published": "2026-11-12T19:05:33+00:00",
+   "hn_id": "50472490"
+  },
+  {
    "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
    "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
-   "points": 177,
+   "points": 201,
    "comments": 2,
    "published": "2026-11-12T14:12:37+00:00",
    "hn_id": "50467460"
   },
   {
-   "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
-   "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
-   "points": 169,
-   "comments": 79,
-   "published": "2026-11-12T19:05:33+00:00",
-   "hn_id": "50472490"
+   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+   "url": "https://unemploymentlabs.com/checkpoint-forensics",
+   "points": 198,
+   "comments": 55,
+   "published": "2026-11-12T21:56:11+00:00",
+   "hn_id": "50474883"
   }
  ],
  "github_trending": [
@@ -102,35 +102,35 @@
    "repo": "GoogleChrome/modern-web-guidance-src",
    "desc": "Keep your coding agent up to date with the latest web best practices",
    "language": "TypeScript",
-   "stars_today": "799",
+   "stars_today": "739",
    "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
   },
   {
    "repo": "openai/codex-security",
    "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
    "language": "TypeScript",
-   "stars_today": "663",
+   "stars_today": "643",
    "url": "https://github.com/openai/codex-security"
   },
   {
    "repo": "nvm-sh/nvm",
    "desc": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
    "language": "Shell",
-   "stars_today": "107",
+   "stars_today": "63",
    "url": "https://github.com/nvm-sh/nvm"
   },
   {
    "repo": "pookjw/HermesEnabler",
    "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
    "language": "Objective-C",
-   "stars_today": "300",
+   "stars_today": "218",
    "url": "https://github.com/pookjw/HermesEnabler"
   },
   {
    "repo": "we-promise/sure",
    "desc": "The personal finance app for everyone (by everyone)",
    "language": "Ruby",
-   "stars_today": "974",
+   "stars_today": "967",
    "url": "https://github.com/we-promise/sure"
   },
   {
@@ -144,103 +144,103 @@
    "repo": "ashhart/TensorFold",
    "desc": "LLM Inference Engine for Metal, CUDA and Vulkan.",
    "language": "Zig",
-   "stars_today": "94",
+   "stars_today": "54",
    "url": "https://github.com/ashhart/TensorFold"
   },
   {
    "repo": "nodejs/node",
    "desc": "Node.js JavaScript runtime ✨🐢🚀✨",
    "language": "JavaScript",
-   "stars_today": "133",
+   "stars_today": "62",
    "url": "https://github.com/nodejs/node"
   },
   {
    "repo": "addyosmani/agent-skills",
    "desc": "Production-grade engineering skills for AI coding agents.",
    "language": "JavaScript",
-   "stars_today": "812",
+   "stars_today": "816",
    "url": "https://github.com/addyosmani/agent-skills"
   },
   {
    "repo": "meta/astryx",
    "desc": "An open source design system that's fully customizable and agent ready",
    "language": "TypeScript",
-   "stars_today": "1,789",
+   "stars_today": "1,830",
    "url": "https://github.com/meta/astryx"
   }
  ],
  "papers": [
   {
-   "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
-   "url": "http://arxiv.org/abs/2611.14519v1",
-   "published": "2026-11-10T18:59:54Z",
-   "abstract": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be adapted, and what determines this. We adapted a foundation model, DINOv2, with strategies ranging from tuning only its bias terms to full fine-tuning, and compared it with U-Nets and ResU-Nets trained from scratch. Experiments covered colonoscopy, breast ultrasound and dermoscopy, with testing on held-out data from the training source and on independent datasets from other institutions. The adapted foundation model gene"
+   "title": "Learning a calibrated decision head from logged bandit feedback",
+   "url": "http://arxiv.org/abs/2611.15572v1",
+   "published": "2026-11-11T14:55:03Z",
+   "abstract": "A decision head reads a state and a list of options and returns a probability per option in one forward pass. Once deployed, it usually observes only whether the option it chose was right: logged bandit feedback. We adapt such a head, LoRA on Qwen3-0.6B-Base and 1.7B-Base, from that feedback and report three results. First, the Brier or log score of the sampled action's own probability is not a usable REINFORCE reward: every wrong action earns at least gold's reward, with a mean baseline the lowest-probability wrong action gets the largest advantage, and at two options the signal is zero; in one run it cut accuracy on ordered-scale questions from .636 to .111. Scoring the probability as a loss by the pathwise gradient avoids the collapse, as do the REINFORCE rewards r and r minus p. Second, with full labels, none of four tested bandit arms beat cross-entropy plus one temperature on mean "
   },
   {
-   "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
-   "url": "http://arxiv.org/abs/2611.14518v1",
-   "published": "2026-11-10T18:59:17Z",
-   "abstract": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models. In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by integrating diverse medical image datasets annotated for both anatomical structures and abnormalities. We first propose a student-teacher training strategy to effectively combine datasets with heterogeneous label spaces, mitigating catastrophic forgetting, and im proving feature learning. In addition, building on our previously pro posed example-based EM-DETR framework, we adapt it to jointly lea"
+   "title": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
+   "url": "http://arxiv.org/abs/2611.15569v1",
+   "published": "2026-11-11T14:54:19Z",
+   "abstract": "Reasoning vision-language models (VLMs) impose substantial KV cache demands from both large multimodal contexts and growing reasoning traces. Low-rank KV compression has emerged as a promising paradigm that stores low-dimensional latents of KV states and can be combined with quantization. However, existing low-rank methods often induce growing predictive policy drift from the dense model when compressing reasoning KV states, resulting in reasoning failures. We identify two key causes of this degradation: calibration-state mismatch between static contexts and on-policy reasoning states, and unequal error sensitivity across KV states. To address these challenges, we propose TraceKV, a training-free low-rank KV compression framework that unifies on-policy calibration, sensitivity-aware SVD, and global rank allocation under a single policy-preserving principle, substantially reducing policy-"
   },
   {
-   "title": "TorchCurves: Differentiable Parametric Curves",
-   "url": "http://arxiv.org/abs/2611.14516v1",
-   "published": "2026-11-10T18:58:52Z",
-   "abstract": "We present TorchCurves, a PyTorch library that treats vector-valued parametric curves as learnable primitives. Its central operation maps batches of scalar inputs to points on curves represented in B-spline or Legendre polynomial bases, with differentiation through both inputs and coefficients. Curve coefficients can be optimized jointly with the surrounding model or produced by another network. The library provides trainable modules, reusable basis modules, and a functional interface, supporting applications ranging from continuous feature embeddings to Kolmogorov-Arnold networks and functional regression. Its implementation combines classical evaluation algorithms with vectorized PyTorch operations, emphasizing readability and maintainability without custom hardware kernels. Timing experiments compare curve evaluation against NumPy and SciPy and KAN training against EfficientKAN across"
+   "title": "Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling",
+   "url": "http://arxiv.org/abs/2611.15568v1",
+   "published": "2026-11-11T14:53:50Z",
+   "abstract": "A benchmark score is commonly read as a proxy for model capability. We study the inverse problem: can a model be driven to a target score, and do its failures resemble those of a naturally weaker model? We operationalize believable performance reduction along three axes: target calibration, item-difficulty structure, and error-distribution similarity to a real weak reference. We introduce CapLadder, an IRT-calibrated suite of 1,985 items spanning mathematics, code, multiple-choice reasoning, and tool use. A simple weak-teacher LoRA dial reaches unseen target levels on reasoning with a 1.9-point held-out calibration error, whereas prompting, temperature, and weight noise cannot combine comparable range and precision. Yet on multiple choice, the dial converges to an answer-token attractor: up to 97% of its newly introduced errors land on one letter, with the attractor changing from D in Qw"
   },
   {
-   "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
-   "url": "http://arxiv.org/abs/2611.14515v1",
-   "published": "2026-11-10T18:58:46Z",
-   "abstract": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this information into guidance, but their design and adaptation are largely left to humans and tailored to specific domains. We introduce AutoScaffold, a unified AI-for-AI framework that turns a student's training experience into adaptive scaffolds, with minimal domain-specific information and no human intervention during training. A frozen teacher periodically examines this experience, diagnoses bottlenecks, and designs scaffolds in two forms: (i) strategies shared across a class of tasks and (ii) hints for individual hard tasks, adjusting the content and amount of support as the stu"
+   "title": "Observations Drift, Structures Remain: Structural Pretraining with Time Alignment for Electromagnetic Signals",
+   "url": "http://arxiv.org/abs/2611.15566v1",
+   "published": "2026-11-11T14:51:23Z",
+   "abstract": "Electromagnetic signal modeling is increasingly moving toward self-supervised pretraining on heterogeneous I/Q observations. However, an observed waveform is jointly shaped by signal generation, propagation environments, and acquisition processes, which mix reusable structural regularities with observation-specific variations. Existing methods usually pursue unified pretraining with reconstruction objectives on mixed observations. This heterogeneity creates two key mismatches for reconstruction pretraining: (1) appearance mismatch, induced by propagation-dependent waveform variations; and (2) temporal mismatch, induced by acquisition-dependent sampling coordinates. These mismatches make observation-specific appearances and sampling coordinates easier to reconstruct than stable signal structures, inducing observational shortcuts. We identify this failure mode as observation-biased pretrai"
   },
   {
-   "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
-   "url": "http://arxiv.org/abs/2611.14514v1",
-   "published": "2026-11-10T18:58:43Z",
-   "abstract": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supports. To recover that alternative, we introduce Contrastive Discovery, which replaces the single hypothesis with a contrast set, a scientific question paired with mutually exclusive and collectively exhaustive competing explanations. Each experiment is scored by how its evidence redistributes belief across the set, and the question is resolved when belief concentrates on one explanation. Because contrast sets change only the unit an agent proposes and scores, an existing agent can use them to re-evaluate evidence it has already collected or to guide its search. Across six d"
+   "title": "What Conformal Selection Can Certify in CRISPR Off-Target Design:Benchmark Leakage, Free Baselines, and a Finite-Sample Cohort Requirement",
+   "url": "http://arxiv.org/abs/2611.15555v1",
+   "published": "2026-11-11T14:39:10Z",
+   "abstract": "Conformal selection promises distribution-free, finite-sample control of the error rate of a decision, and has been proposed as a safety layer for machine-learning CRISPR guide design. We ask whether such a certificate is attainable from the validated off-target data that exist. The constraint is arithmetic: a conformal p-value cannot fall below one divided by the calibration cohort size plus one, so a Benjamini-Hochberg selection certifies a single candidate only when that cohort is at least the candidate pool size divided by the tolerated error rate. Public cohorts supply ten validated guides, whereas a pool of two thousand at a ten percent error rate needs twenty thousand; the accepted set is consequently empty in over ninety-six percent of splits. Two benchmarking findings explain why this went unnoticed. The standard CIRCLE-seq file lists ten guides under eighty on-target strings, s"
   },
   {
-   "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
-   "url": "http://arxiv.org/abs/2611.14511v1",
-   "published": "2026-11-10T18:56:32Z",
-   "abstract": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes. Expert chemists equipped with 3D visualization tools and physics-based scores perform near chance, highlighting the difficulty of interpreting available chemical signals. To investigate automated ranking, we introduce PyriteRep, a structured representation of molecular geometry, protein-ligand interactions, and physicochemical scores, and develop two LLM-based agents: PyriteReasoner, which directly compares poses through text-based reasoning, and PyriteFeaturizer, which generates executable code to construct features for logistic regression, optionally incorpo"
+   "title": "DafnyCert: Certifying Specification Strength in Dafny",
+   "url": "http://arxiv.org/abs/2611.15548v1",
+   "published": "2026-11-11T14:33:54Z",
+   "abstract": "Formally verifying a method with Dafny guarantees correctness relative to its specification. However, a specification may be too permissive, allowing multiple outputs for the same input, even when the implementation produces only one. In this paper, we propose checkable certificates that provide independently verifiable evidence of whether a specification is weak or strong. A certificate of weakness contains an alternative implementation that verifies against the original specification, together with a witness input on which the original and alternative implementations produce different results. A certificate of strength is produced by constructing a harness around the original method such that successfully verifying the harness guarantees that the specification allows at most one possible output for any given input. We present DafnyCert, a tool that automatically produces these certific"
   },
   {
-   "title": "When Does the Real Wiring Win? Testing connectome structure-function claims against unmeasured physiology",
-   "url": "http://arxiv.org/abs/2611.14508v1",
-   "published": "2026-11-10T18:55:48Z",
-   "abstract": "Connectome-constrained models are often used to argue that a measured wiring diagram outperforms shuffled or rewired wiring, and hence that structure shapes function. Such comparisons can confound wiring with how the models are tuned: a connectome fixes who connects to whom, not the excitability, gains or plasticity rates the model also needs, and modellers often tune these until the real-wiring model works. We separate three estimands: physiology tuned on the real wiring and transferred to nulls (P1), each wiring tuned on its own (P2), and P2 restricted to physiology consistent with independent data (P3). The biases involved are known in machine learning (under-tuned baselines, inherited weights, winner's curse); we measure what they do to biological conclusions, using synthetic ground truth, placebo nulls and three Drosophila circuit models. Some claims survive every protocol we test: "
+   "title": "Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss",
+   "url": "http://arxiv.org/abs/2611.15543v1",
+   "published": "2026-11-11T14:28:01Z",
+   "abstract": "LLM applications increasingly rely on translators and compatibility layers to move conversations across APIs. Yet a translated request can be accepted by the target API while silently losing information about instruction roles, tool interactions, error states, or generation controls. We introduce isloss, a deterministic oracle for testing conversation-information preservation across LLM API translations. It maps source and translated requests and replies to a shared intermediate representation, ConvIR, and applies explicit rules to distinguish legitimate representation changes from information loss. Unlike schema validation or reference-based differential testing, isloss requires neither a reference translation nor additional model calls. It also distinguishes avoidable loss from degradation caused by target API limitations. We evaluate isloss using specification-based fault injection, h"
   },
   {
-   "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
-   "url": "http://arxiv.org/abs/2611.14505v1",
-   "published": "2026-11-10T18:55:01Z",
-   "abstract": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weight-based systems are rarely compared on the same scale. We propose Continual-ARC, a lifelong stream built from the three ARC-AGI editions, whose tasks need no domain knowledge. The same tasks return after dormant gaps with fresh instances, while new tasks keep arriving. On each instance, the learner may pay for demonstrations, submit answers, or act inside the harness, with retries permitted on incorrect submissions, which are paid for. Each instance is scored based on the share of this feedback budget consumed. Since a learner may keep anything between instances, memory-ba"
+   "title": "Faithful in Steps: Improving Generalization and Citation in RAG via Query Decomposition",
+   "url": "http://arxiv.org/abs/2611.15538v1",
+   "published": "2026-11-11T14:22:09Z",
+   "abstract": "Retrieval-augment generation is a prevalent strategy to mitigate hallucinations of LLMs. The attributable RAG (RAGQ) generates quotes for its answers. The quotes indicate which input contexts support the RAG to derive the answers, enhancing the answer's verifiability and trustworthiness. However, existing RAGQs exhibit significant degradation when dealing with questions that require multi-hop reasoning and multi-modal understanding, suffering from over-citation, implicit entity identification failure, and poor generalization. In this paper, we propose a novel RAGQ framework, namely QDRAG. QDRAG breaks down the input question into atomic subquestions to identify the implicit entities. Then, the reranker prunes context distractors to eliminate the downstream over-citation. To facilitate query decomposition, we propose two zero-shot approaches: QD-C and QD-R, which guide the QD MLLM to deco"
   },
   {
-   "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
-   "url": "http://arxiv.org/abs/2611.14504v1",
-   "published": "2026-11-10T18:53:01Z",
-   "abstract": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site localization, including orthosteric/allosteric discrimination), and bond (covalent versus non-covalent engagement). All three capabilities generalize to out-of-distribution complexes. Bonbon was trained on protein-ligand sequences alone, without any task-specific supervision and without structural coordinates. We conducted controlled scaling experiments across six model scales from 42M to 1.6B para"
+   "title": "Analysis choices decide whether untrained networks beat trained ones at V1: a multiverse analysis of model-brain RSA",
+   "url": "http://arxiv.org/abs/2611.15533v1",
+   "published": "2026-11-11T14:18:23Z",
+   "abstract": "Untrained convolutional networks have been reported to rival trained networks as models of visual cortex, and we had reported an untrained-network advantage over backpropagation at V1 in THINGS fMRI, together with a dependence on evaluation resolution. Under a pre-specified ridge readout, the untrained network scored below the trained one at every pooling grid (median r difference -0.043 at g = 4, 0 of 5 seeds positive), and also in MSE skill and per-fold r. In exploratory analyses, across 36 combinations of unit normalisation, distance measure and voxel normalisation (28 distinct analyses), the sign of the V1 contrast depended on the analysis (intervals above 0 in 5 and below 0 in 9 distinct analyses), and in our networks the resolution dependence of the original convention appeared in only one cell. Raw correlation-distance representational similarity analysis (RSA) covaried with the a"
   },
   {
-   "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
-   "url": "http://arxiv.org/abs/2611.14493v1",
-   "published": "2026-11-10T18:50:06Z",
-   "abstract": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based LLM judging, text-only LLM judging with red-teaming, and deterministic heuristics), applied to two analytics agents in a controlled research setting using frozen execution traces. Phase 1 quantifies evaluation harness stability through repeated measurements, finding that 97% of configurations meet the stability threshold and that stability patterns are agent-independent. Phase 2 measures known risk detection on 72 ground-truth test cases, where the trace-based framework achieves the best precision-recall balance (F1=0.90) while text-only evaluation matches on recall but generates 5x more false"
+   "title": "MAGIC: Modality-Aware Gini Inspection for Clinical Hallucination Detection in LMMs",
+   "url": "http://arxiv.org/abs/2611.15530v1",
+   "published": "2026-11-11T14:16:43Z",
+   "abstract": "Recent advances in medical large multimodal models (LMMs) have brought promising progress to clinical decision support, yet hallucination, the generation of confident but clinically unverifiable outputs, poses a critical threat to the reliability demanded in high-stakes medical settings. Existing hallucination detection methods, predominantly designed for unimodal settings, fail to capture the visual-linguistic dynamics inherent to medical imaging. We formulate the problem of hallucination detection in LMMs as disproportionate distribution of attention weights across the modalities during answer token generation. We quantify modality-specific attention concentration across layers and heads using the Gini coefficient and demonstrate statistically significant redistribution of attention mass between visual and textual tokens in hallucinated responses. We leverage these features to train a "
   },
   {
-   "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
-   "url": "http://arxiv.org/abs/2611.14492v1",
-   "published": "2026-11-10T18:49:47Z",
-   "abstract": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM, selects the next step. The agent's reasoning, the explanation it writes with each tool call, often states why it took an action; the tool calls alone do not. ReTrace extracts the condition behind each step, merges these conditions across runs into a compact rule document, and generates an executable workflow from it. Only this last stage depends on the platform, so rule documents can be compiled for different orchestration platforms. On $79$ procedures from our production platform, ReTrace wor"
+   "title": "One Hierarchy, Many Sports: Hierarchy-Aligned Multi-Task Learning for Next-Shot Prediction",
+   "url": "http://arxiv.org/abs/2611.15529v1",
+   "published": "2026-11-11T14:15:43Z",
+   "abstract": "Next-shot prediction in racket sports requires learning from event data with different match structures, recorded attributes, and label vocabularies. Table tennis, badminton, and tennis nevertheless share a hierarchy in which shots form rallies and rallies form higher scoring units. We present MT-HTA, a hierarchy-aligned multi-task Transformer that uses this structure to jointly predict the attributes of the next shot. A temporal Transformer captures event progression, a feature-token path models interactions among semantic fields rather than along the time axis, and task-specific attention retrieves information from hierarchical summaries and player context. The architecture supports three- and four-level hierarchies and sport-dependent task sets. Across four datasets from three sports, the final MT-HTA achieves the highest mean task-averaged F1 among the compared main models. Ablations"
   },
   {
-   "title": "TimeSeek: Multi-Task and Multi-Domain Pretraining for Generalized Time Series Analytics",
-   "url": "http://arxiv.org/abs/2611.14491v1",
-   "published": "2026-11-10T18:49:26Z",
-   "abstract": "Time series analytics has been widely applied across various domains. While existing time series foundation models (TSFMs) have demonstrated promising results, they still face two major challenges: 1) Most TSFMs mainly rely on stacking Transformer layers to increase parameter size, lacking the ability to adaptively model complex time series patterns from multi-domain data. 2) Current TSFMs are primarily pre-trained for specific tasks, e.g., forecasting or anomaly detection, and a few models support multiple tasks, but they fail to fully leverage task specificity and commonality, resulting in suboptimal performance. To address these challenges, we propose TimeSeek, a novel generalized time series analytics model that adaptively models time series patterns from multi-domain data and unifies multiple tasks in pre-training. Conceptually, TimeSeek is guided by selective information sharing un"
+   "title": "An Approach to Hinton's Mother-Child Proposal: Neural Networks Learning and Preserving Care in a Finite World",
+   "url": "http://arxiv.org/abs/2611.15523v1",
+   "published": "2026-11-11T14:14:17Z",
+   "abstract": "Hinton proposed that artificial intelligence should be given \"maternal instincts\" and relate to us as a mother to her child. We argue that care must first be learned, with the network itself as the child. We construct this upbringing in a finite world and study whether care survives the mother's departure, new situations and further learning. The mechanism combines a vocabulary of harm, a learned measure of future acceptability and an execution veto. A finite role certificate supports transfer within a declared world family. When the hidden representation changes, an update is accepted only if a care readout recovers the required judgements with a prescribed margin and bounded weights. With a correct successor model, fixed exact role encoding and protected updates, the certified measure preserves the care boundary under arbitrary own reward. An explicit quotient condition transfers the f"
   }
  ]
 }
