@@ -1,0 +1,496 @@
+{
+ "date": "2026-11-14",
+ "summary": "今天这批条目表面散乱，共同主线是“信任赤字下的控制权回收”。FAA停飞、Nvidia硬件失踪、iPad开PPT要16次点击，说明大型系统与平台便利并不等于可靠；Coway净化器去云、uptime-kuma、tailscale、Haskell生态愿景和No AI Slop，则是对云依赖、黑箱平台与AI万能叙事的反弹。GitHub趋势里的代码审查、安全与交易分析工具，也在把AI从“魔法”拉回可审计的工程流程。我的判断是：被高估的是AI对知识生产的“解锁”效应和大厂生态的整合承诺——Gödel笔记本被AI解锁、JEPA世界模型等标题很抓眼，但600次实验和No AI Slop提醒我们，模型能力不等于可信产出。真正被低估的是可维护性、安全、可逆性和交互成本这些“无聊工程”。技术编辑应少追AI头条，多看谁在把系统做得可退出、可审计、可自托管。",
+ "movie": {
+  "title": "First Man",
+  "year": 2018,
+  "director": "Damien Chazelle",
+  "reason": "把注意力从持续输入里抽出来的校准",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "Thinking in Systems",
+  "author": "Donella H. Meadows",
+  "chapter": "Chapter 1: The Basics",
+  "reason": "先看反馈回路与延迟，再谈单变量优化",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "FAA Issues National Ground Stop",
+   "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
+   "published": "2026-11-13T21:05:53+00:00",
+   "summary": "Hacker News 上一条题为 FAA Issues National Ground Stop 的帖子引发关注，获得 860 分和 498 条评论，链接指向 FAA 发布的全国地面停飞通告。讨论围绕停飞的范围与原因、空管安全与航班运行影响、航空公司与旅客应对，以及监管机构信息发布和航空系统可靠性等话题展开。较高的互动量显示，技术社区对关键基础设施运行、应急响应和公共信息透明度有持续兴趣。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+   "published": "2026-11-12T22:03:09+00:00",
+   "summary": "这篇Hacker News热门讨论介绍作者逆向工程Coway空气净化器，试图绕开厂商云服务实现本地控制。文章涉及抓包分析设备与云端通信、识别接口和协议、复现控制命令，并讨论隐私、可靠性和设备所有权问题。评论区围绕固件与网络隔离、本地API稳定性、安全风险、保修和不同型号兼容性展开，也有人分享用代理或家庭自动化接管云流量的经验。讨论获得636分和188条评论，反映出用户对智能家居去云化和可维修性的持续关注。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+   "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+   "published": "2026-11-13T12:10:24+00:00",
+   "summary": "这篇Hacker News高热度讨论围绕1960年《Science》论文《Doomsday: Friday, 13 November, A.D. 2026》展开，该文曾用双曲增长模型拟合人口数据，并外推出2026年出现增长奇点式“末日”。在419分、295条评论中，参与者复盘这一预测为何落空，讨论模型假设、数据选择与外推风险，并延伸到AI加速增长和奇点叙事是否具有可比性。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+   "published": "2026-11-13T17:30:10+00:00",
+   "summary": "Hacker News上一条关于AI帮助解锁哥德尔笔记本的讨论获得285分和83条评论。所链接的《卫报》报道称，这些笔记可能包含数百条已被证明的定理，AI被用于整理和识别其中隐藏的数学发现。评论者关注AI在历史手稿识别、定理验证和数学史研究中的实际作用，也讨论机器辅助发现的可信度与局限。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+   "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+   "published": "2026-11-13T18:40:44+00:00",
+   "summary": "Hacker News 上这则讨论关注一批价值1140万美元的Nvidia硬件从加州运往德州途中失踪的报道。帖子获得241分和130条评论，评论者主要讨论高价值GPU运输中的安全风险、货运公司与承运人的责任划分、保险与追偿、封条和监控等防损措施，以及Nvidia硬件紧俏背景下盗窃和黑市销赃的可能性。也有人从物流链条和跨州运输监管角度分析案件为何难以防范。整体上，讨论把单起货物失踪事件延伸到对数据中心供应链安全和运输行业风险管理的关注。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+   "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
+   "published": "2026-11-13T18:18:37+00:00",
+   "summary": "这篇 Hacker News 讨论围绕一位教师抱怨学生在 iPad 上打开 PowerPoint 竟需要 16 次点击展开。相关帖子在教师社区引发共鸣，转到 Hacker News 后获得 217 分和 112 条评论。讨论集中批评教育科技中层层登录、云盘跳转和应用切换让简单任务变得繁琐，也涉及学校设备管理与软件设计如何拖慢课堂节奏。参与者认为应简化学生端流程，减少认证和跳转，让技术真正服务教学，而不是增加操作负担。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "After 600 experiments, here's what I discovered about JEPA world models",
+   "url": "https://haddyalchaer.com/jepa",
+   "published": "2026-11-13T17:55:28+00:00",
+   "summary": "该Hacker News讨论围绕作者用600次实验总结JEPA世界模型的发现展开，重点涉及潜在空间预测、表征坍塌、训练稳定性、超参数选择和规划能力。评论者关注实验可复现性、与生成式世界模型的对比、计算成本以及这类模型在机器人和决策任务中的实际价值，并讨论评估世界模型是否真正学到可泛化动态。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "A technical vision for the Haskell ecosystem",
+   "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+   "published": "2026-11-13T14:43:12+00:00",
+   "summary": "这则Hacker News讨论围绕Haskell生态的技术愿景展开，原帖来自Haskell Discourse，系统梳理生态未来可能的技术方向，并在Hacker News获得165分和77条评论。参与者就语言演进、工具链与库生态、社区协作及实施优先级交换意见，既肯定愿景价值，也讨论落地难点，反映开发者对Haskell长期发展的关注与分歧。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Big tech is here to let us down",
+   "url": "https://blog.jsweeting.me/big-tech-is-here-to-let-us-down",
+   "published": "2026-11-13T20:20:30+00:00",
+   "summary": "这篇Hacker News讨论以“大科技公司正在让我们失望”为主题，围绕大型科技平台在产品可靠性、隐私保护、开放生态和长期承诺上的表现展开批评。发帖者认为，用户对少数公司的过度依赖会放大平台关闭服务、改变规则或损害用户利益的风险，并引发对自托管、去中心化和更可持续替代方案的讨论。帖子获得161分和149条评论，评论中既有对科技巨头失望情绪的共鸣，也有对作者观点、迁移成本和现实可行性的质疑与补充。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "No AI Slop: A Manifesto",
+   "url": "https://www.slopmanifesto.com/",
+   "published": "2026-11-13T19:51:56+00:00",
+   "summary": "Hacker News 上围绕“No AI Slop: A Manifesto”展开讨论，该帖获得 144 分和 86 条评论。宣言反对 AI 批量生成的低质量、同质化内容污染信息生态，主张创作者对内容质量与来源负责，提高透明度，并推动平台和社区建立规范。评论区分歧集中在如何界定 AI 垃圾内容、AI 辅助写作与全自动生成的边界、是否应强制标注，以及平台治理和创作者责任应如何落实。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "published": "2026-11-14",
+   "summary": "alibaba/open-code-review 是阿里开源的一款用 Go 编写的代码审查工具，已在阿里大规模场景中经过实战检验，兼顾安全、快速与高效。它采用确定性流水线结合 LLM Agent 的混合架构，能够给出精确到行的审查评论，并内置覆盖空指针异常、线程安全、XSS 与 SQL 注入等多语言规则集，同时兼容 OpenAI 和 Anthropic。项目今日新增 206 星，适合希望提升代码审查自动化与准确性的团队使用。",
+   "categories": [
+    "Go"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "published": "2026-11-14",
+   "summary": "GoogleChrome 的 modern web guidance 源码项目是一个使用 TypeScript 开发的开源仓库，旨在帮助编码智能体持续掌握最新的 Web 最佳实践，让开发建议与浏览器平台演进保持同步。项目今日新增 1,875 个 Star，关注度较高，适合希望提升前端代码质量、跟进现代 Web 标准的开发者与工具作者了解和使用。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "published": "2026-11-14",
+   "summary": "openai/codex-security 是一个使用 TypeScript 开发的开源项目，提供 Codex Security 命令行工具和 TypeScript SDK，帮助开发者发现、验证并修复软件中的安全漏洞。项目今日新增 754 个 Star，可通过 npm 安装 @openai/codex-security 使用，适合集成到安全检测与修复流程中。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "published": "2026-11-14",
+   "summary": "ZhuLinsen/daily_stock_analysis 是一个基于 Python 的开源项目，面向多市场股票分析场景，利用大语言模型整合多源行情数据与实时新闻，提供智能分析、决策看板和自动推送功能。项目支持零成本定时运行，方便用户持续跟踪市场动态并获取分析结果。项目今日新增 272 星，体现出较高关注度。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "published": "2026-11-14",
+   "summary": "we-promise/sure 是 GitHub 上的开源个人理财应用，采用 Ruby 语言开发，主打人人可用、人人共建的理念，帮助用户管理个人财务。项目今日新增 944 颗星，说明近期受到较多关注。它以开放源代码方式提供，适合希望了解个人财务工具实现、参与协作改进或基于其代码进行二次开发的用户。",
+   "categories": [
+    "Ruby"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "published": "2026-11-14",
+   "summary": "backnotprop/plannotator 是一个使用 TypeScript 开发的开源项目，今日新增约 100 星。它定位为帮助用户持续跟进并掌控智能体工作流程的工作区，支持塑造方案、做出决策、制定计划、添加注释、审查代码以及与团队分享，并能一键把所有反馈发送给智能体，从而提升协作与迭代效率。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "published": "2026-11-14",
+   "summary": "louislam/uptime-kuma 是一个用 JavaScript 开发的开源自托管监控工具，界面美观，主要用于监测网站、服务和各类网络资源的可用性与响应状态，并可在异常时提供告警。项目支持自行部署，便于用户掌控监控数据和运行环境。今日该项目新增 61 星，关注度持续上升。",
+   "categories": [
+    "JavaScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "block/buzz",
+   "url": "https://github.com/block/buzz",
+   "published": "2026-11-14",
+   "summary": "block/buzz 是 GitHub 上的开源项目，定位为群体智能通信平台，采用 Rust 语言开发。项目致力于为多人协作与群体智能交流提供通信基础，借助 Rust 在性能、内存安全和并发方面的特性，探索更高效可靠的沟通方式。该项目今日新增 95 颗星，关注度持续上升，适合对群体协作、实时通信和 Rust 生态感兴趣的开发者了解与参与。",
+   "categories": [
+    "Rust"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "published": "2026-11-14",
+   "summary": "tradermonty/claude-trading-skills 是一个面向股票投资者和交易者的开源项目，使用 Python 开发，提供 Claude Code 技能，覆盖市场分析、技术图表、经济日历、股票筛选器和交易策略开发等场景。项目今日新增 60 星，说明关注度较高，适合希望借助 Claude 提升投研与交易策略工作效率的用户了解和试用。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "tailscale/tailcat",
+   "url": "https://github.com/tailscale/tailcat",
+   "published": "2026-11-14",
+   "summary": "tailscale/tailcat 是一个用 Go 语言开发的开源项目，定位类似 netcat，但连接通过 Tailscale 的数据平面传输，而不依赖 Tailscale 的控制平面。它适合在 Tailscale 数据通道上进行连接测试、调试或数据传输，结合了 netcat 简洁直接的用法与 Tailscale 数据平面的连通能力。项目今日新增 324 星，说明其思路和实用性正受到开发者关注。",
+   "categories": [
+    "Go"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Unbundling Multimodal Vision Encoding",
+   "url": "http://arxiv.org/abs/2611.17334v1",
+   "published": "2026-11-14",
+   "summary": "本文研究多模态语言模型的视觉编码设计。视觉编码器捆绑视觉先验、专用容量和融合前放置三项选择，难以隔离影响。作者在共同数据上从头预训练所有模型，并在匹配算力下比较视觉问答和语言基准。结果显示视觉先验并非必要，从头联合训练的编码器与预训练编码器表现相当，为拆解该设计提供受控证据。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+   "url": "http://arxiv.org/abs/2611.17332v1",
+   "published": "2026-11-14",
+   "summary": "本文介绍 ArchSpace，一个面向大语言模型架构研究的公开平台，旨在系统记录、评审和引用架构研究。文章指出，模型架构直接影响大模型的扩展行为、训练效率与推理成本，但工业界公开报告较少记录哪些设计成功、哪些被放弃及原因，学术界则受算力与基线不一致限制，难以验证改进能否扩展到更大规模。ArchSpace 要求每项提案记录实验与推理，接受社区评审，并被后续工作引用，从而在大规模训练前辅助评估想法。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+   "url": "http://arxiv.org/abs/2611.17329v1",
+   "published": "2026-11-14",
+   "summary": "机构投资组合需遵循投资政策声明所规定的资产配置约束，这些约束常以市场状态信息为条件。深度强化学习虽能优化财务表现，却通常不能保证规则合规，因此不适合实际部署。概率逻辑策略梯度等现有神经符号方法通过可微符号监督实现满足约束的强化学习，但假设动作空间有限且离散。本文提出受概率逻辑策略梯度启发的连续配置方法，利用重参数化蒙特卡洛采样估计策略自身执行动作满足投资授权的概率，并将其加入训练目标。推理阶段不设置事后强制执行机制，合规性通过训练学习获得。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+   "url": "http://arxiv.org/abs/2611.17323v1",
+   "published": "2026-11-14",
+   "summary": "该论文研究机器学习工程智能体能否在标签稀缺而未标注数据丰富的现实场景中利用无监督数据。作者提出Agentic Semi-Supervised Learning（AgentSSL），将半监督学习转化为程序搜索问题，考察智能体在有限监督下如何探索方案空间。实验发现，即便反馈较弱且计算量匹配，智能体仍能生成结合并调整现有半监督技术的代码，在12种设置中的8种超过最强人工基线，最高提升21.8%。但结果也表明，程序选择是AgentSSL的关键瓶颈，会导致性能下降。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Learning When Diffusion Language Models Should Regenerate",
+   "url": "http://arxiv.org/abs/2611.17320v1",
+   "published": "2026-11-14",
+   "summary": "论文研究扩散语言模型的重掩码修正问题。作者在数独任务诊断发现，隐藏状态包含词元置信度不能可靠揭示的错误信息，且上下文不变时单独重掩码错误常会复现。为此提出验证器 DiVR，预测部分生成序列最终是否正确，并依据模型自身轨迹的最终正确性训练，用来决定何时重生成文本块以及保留哪个候选，生成器本身保持不变。在 LLaDA 8B Base 的五个推理基准上，DiVR 将微调生成器平均准确率从35.3%提高到43.4%，成本为贪心解码的1.9至3.5倍，优于使用3.8至7.4倍成本的搜索基线。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+   "url": "http://arxiv.org/abs/2611.17316v1",
+   "published": "2026-11-14",
+   "summary": "本文介绍面向连续编码任务的记忆框架CoReMem。编码智能体在演化仓库上依次处理任务，并在下一任务未知时写入记忆，因此记忆选择需权衡未来有用性与写入读取成本，同时智能体要判断使用已有记忆能否节省执行努力。CoReMem通过测量记忆在下一任务上的实际价值来指导记忆设计与智能体适配，利用前瞻片段估值比较同一继承仓库状态下下一任务有无单条轨迹片段的表现，并据此构建以仓库位置和可执行检查为锚点的紧凑记忆。智能体适配则在 rollout 组内估计有无记忆时的策略上记忆价值，并用优先体现实际收益的奖励进行优化。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+   "url": "http://arxiv.org/abs/2611.17314v1",
+   "published": "2026-11-14",
+   "summary": "本文探究神经网络具备何种性质才能从有限经验中快速学习。研究对象是经元学习优化的网络，这类网络在训练中接触大量相关函数，以便后续学习相似函数。已有工作发现它们能快速掌握新函数，但其内部机制仍不清楚。受词向量中“国王减男人加女人近似女王”这类加法关系启发，作者在元学习网络的参数空间中寻找不同函数表示之间的加法类比关系，并考察这种组合结构如何与快速学习能力相联系，从而为理解元学习促成快速泛化的原因提供证据。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Sketching Language Models for Context Attribution",
+   "url": "http://arxiv.org/abs/2611.17313v1",
+   "published": "2026-11-14",
+   "summary": "本文研究语言模型的上下文归因，即移除提示中部分词元会如何改变模型输出。针对含 n 个词元的提示和固定测量函数，直接计算所有留一归因需 n 次模型评估。在稳定性假设下，作者提出一种草图算法，以 O(√log(1/ε)/ε) 次评估调用、以常数概率将所有留一归因估计到正比于 ε 的误差，并证明在预言机模型中与之匹配的下界。实验验证了与稳定性一致的系数衰减，并在小型语言模型检索任务上评估算法性能。技术上，该结果基于算术电路草图方法。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
+   "url": "https://www.youtube.com/watch?v=vlfCjWuv4es",
+   "published": "2026-11-12",
+   "summary": "Anthropic 的 Lydia Hallie 在视频中重新审视 Claude Code 最佳实践，能听到一线团队对既有用法假设的具体修正。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/vlfCjWuv4es/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Stop Shipping LLM Settings That Only Win on Paper - Rohan Pandey & Balaji Varadarajan, DigitalOcean",
+   "url": "https://www.youtube.com/watch?v=cWrYEBlWpcY",
+   "published": "2026-11-12",
+   "summary": "DigitalOcean讲者指出LLM配置不能只看论文指标，线上延迟和成本才是验收标准。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/cWrYEBlWpcY/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Inside Theranos with ex-Employee Tyler Shultz",
+   "url": "https://www.youtube.com/watch?v=iXWSYlAX5Lg",
+   "published": "2026-11-11",
+   "summary": "Theranos前员工亲述内部发现血液检测数据异常并举报的经过，能听到一线员工面对的具体压力。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/iXWSYlAX5Lg/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Is AI Now Good Enough To Cure Cancer? | YC Paper Club",
+   "url": "https://www.youtube.com/watch?v=-XL2gClQ2gg",
+   "published": "2026-11-08",
+   "summary": "这期YC Paper Club围绕“AI是否已足以治愈癌症”拆解论文，重点呈现模型能力边界与临床落地条件，而非泛泛谈前景。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/-XL2gClQ2gg/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "FAA Issues National Ground Stop",
+   "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
+   "published": "2026-11-14",
+   "summary": "该帖获860分和498条评论，讨论集中在全国地面停飞的范围与原因、空管安全、航班影响及监管信息发布透明度。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+   "published": "2026-11-14",
+   "summary": "文章抓包识别云端接口协议并复现控制命令，提供绕开云服务的本地控制路径，评论还讨论网络隔离与本地接口风险。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "GoogleChrome/modern-web-guidance-src",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+   "published": "2026-11-14",
+   "summary": "该项目以 TypeScript 实现，让编码智能体持续同步浏览器平台演进下的最新 Web 最佳实践，适合想提升前端代码质量、跟进现代标准的开发者和工具作者了解，今日新增 1,875 个 Star。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "we-promise/sure",
+   "url": "https://github.com/we-promise/sure",
+   "published": "2026-11-14",
+   "summary": "Ruby 开源个人理财应用可帮管理财务，适合了解实现、参与协作或二次开发，且今日新增 944 颗星。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}

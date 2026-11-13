@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "FAA Issues National Ground Stop",
+   "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
+   "points": 860,
+   "comments": 498,
+   "published": "2026-11-13T21:05:53+00:00",
+   "hn_id": "50489641"
+  },
+  {
+   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+   "points": 636,
+   "comments": 188,
+   "published": "2026-11-12T22:03:09+00:00",
+   "hn_id": "50474959"
+  },
+  {
+   "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+   "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+   "points": 419,
+   "comments": 295,
+   "published": "2026-11-13T12:10:24+00:00",
+   "hn_id": "50482379"
+  },
+  {
+   "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+   "points": 285,
+   "comments": 83,
+   "published": "2026-11-13T17:30:10+00:00",
+   "hn_id": "50486748"
+  },
+  {
+   "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+   "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+   "points": 241,
+   "comments": 130,
+   "published": "2026-11-13T18:40:44+00:00",
+   "hn_id": "50487864"
+  },
+  {
+   "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+   "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
+   "points": 217,
+   "comments": 112,
+   "published": "2026-11-13T18:18:37+00:00",
+   "hn_id": "50487522"
+  },
+  {
+   "title": "After 600 experiments, here's what I discovered about JEPA world models",
+   "url": "https://haddyalchaer.com/jepa",
+   "points": 190,
+   "comments": 32,
+   "published": "2026-11-13T17:55:28+00:00",
+   "hn_id": "50487185"
+  },
+  {
+   "title": "A technical vision for the Haskell ecosystem",
+   "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+   "points": 165,
+   "comments": 77,
+   "published": "2026-11-13T14:43:12+00:00",
+   "hn_id": "50484235"
+  },
+  {
+   "title": "Big tech is here to let us down",
+   "url": "https://blog.jsweeting.me/big-tech-is-here-to-let-us-down",
+   "points": 161,
+   "comments": 149,
+   "published": "2026-11-13T20:20:30+00:00",
+   "hn_id": "50489083"
+  },
+  {
+   "title": "No AI Slop: A Manifesto",
+   "url": "https://www.slopmanifesto.com/",
+   "points": 144,
+   "comments": 86,
+   "published": "2026-11-13T19:51:56+00:00",
+   "hn_id": "50488769"
+  },
+  {
+   "title": "FM-1 Workbench",
+   "url": "https://open.m-vave.com/fm1-workbench",
+   "points": 142,
+   "comments": 86,
+   "published": "2026-11-13T19:14:02+00:00",
+   "hn_id": "50488325"
+  },
+  {
+   "title": "OpenAI disbands its robotics team as its general models start running robots",
+   "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+   "points": 128,
+   "comments": 57,
+   "published": "2026-11-13T17:55:23+00:00",
+   "hn_id": "50487184"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+   "language": "Go",
+   "stars_today": "206",
+   "url": "https://github.com/alibaba/open-code-review"
+  },
+  {
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "desc": "Keep your coding agent up to date with the latest web best practices",
+   "language": "TypeScript",
+   "stars_today": "1,875",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+  },
+  {
+   "repo": "openai/codex-security",
+   "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+   "language": "TypeScript",
+   "stars_today": "754",
+   "url": "https://github.com/openai/codex-security"
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "language": "Python",
+   "stars_today": "272",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+  },
+  {
+   "repo": "we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "language": "Ruby",
+   "stars_today": "944",
+   "url": "https://github.com/we-promise/sure"
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "language": "TypeScript",
+   "stars_today": "100",
+   "url": "https://github.com/backnotprop/plannotator"
+  },
+  {
+   "repo": "louislam/uptime-kuma",
+   "desc": "A fancy self-hosted monitoring tool",
+   "language": "JavaScript",
+   "stars_today": "61",
+   "url": "https://github.com/louislam/uptime-kuma"
+  },
+  {
+   "repo": "block/buzz",
+   "desc": "A hive mind communication platform",
+   "language": "Rust",
+   "stars_today": "95",
+   "url": "https://github.com/block/buzz"
+  },
+  {
+   "repo": "tradermonty/claude-trading-skills",
+   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "language": "Python",
+   "stars_today": "60",
+   "url": "https://github.com/tradermonty/claude-trading-skills"
+  },
+  {
+   "repo": "tailscale/tailcat",
+   "desc": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+   "language": "Go",
+   "stars_today": "324",
+   "url": "https://github.com/tailscale/tailcat"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Unbundling Multimodal Vision Encoding",
+   "url": "http://arxiv.org/abs/2611.17334v1",
+   "published": "2026-11-12T18:59:54Z",
+   "abstract": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the multimodal backbone). Because published models also differ in data, architecture, and compute, comparing them cannot isolate the effect of each choice. We disentangle these choices via a controlled framework where we pretrain all models from scratch on common data and compare them on visual question answering and language benchmarks at matched lifetime compute. We find that the visual prior is not necessary; an encoder trained jointly from scratch is on par with a pretrained one, wi"
+  },
+  {
+   "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+   "url": "http://arxiv.org/abs/2611.17332v1",
+   "published": "2026-11-12T18:59:52Z",
+   "abstract": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why. In academia, limited compute and inconsistent baselines often restrict evaluations to small-scale, single-point comparisons, making it difficult to establish whether improvements hold at larger scales or translate into broader impact. ArchSpace addresses both gaps as a public platform for Recording, Reviewing, and Referencing Architecture Researc}: each proposal is recorded with its experiments and reasoning, reviewed by the community, and referenced by later work. To evaluate ideas before costly large-scale training, ArchSpace leverages s"
+  },
+  {
+   "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+   "url": "http://arxiv.org/abs/2611.17329v1",
+   "published": "2026-11-12T18:59:37Z",
+   "abstract": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment. Existing neurosymbolic methods such as Probabilistic Logic Policy Gradient (PLPG) offer constraint-satisfying reinforcement learning (RL) via differentiable symbolic supervision but assume a finite, discrete action space. We present a PLPG-inspired continuous allocation method that estimates the probability that the policy's own executed action satisfies the investment mandate, using reparameterized Monte Carlo sampling, and adds it to the training objective. No post-hoc enforcement mechanism intercepts actions at inference time and compliance is learned by the "
+  },
+  {
+   "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+   "url": "http://arxiv.org/abs/2611.17323v1",
+   "published": "2026-11-12T18:59:06Z",
+   "abstract": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant. In this work, we introduce Agentic Semi-Supervised Learning (AgentSSL), framing SSL as a program search problem and studying how agents navigate this space under limited supervision. We find that even under weak feedback and matched compute, agents can synthesize code that combines and adapts established SSL techniques, exceeding the strongest human-engineered baselines in 8 of 12 settings by up to +21.8%. However, our results identify program selection as a critical bottleneck in AgentSSL, where performance drop"
+  },
+  {
+   "title": "Learning When Diffusion Language Models Should Regenerate",
+   "url": "http://arxiv.org/abs/2611.17320v1",
+   "published": "2026-11-12T18:58:50Z",
+   "abstract": "Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error usually reproduces it when the surrounding context remains fixed. These findings motivate DiVR , a verifier that predicts whether a partially generated sequence will reach a correct answer. Trained on the final correctness of the model's own trajectories, DiVR decides when to regenerate a block and which alternative to retain, while the generator itself stays unchanged. On five reasoning benchmarks with LLaDA-8B-Base, DiVR raises the average accuracy of the fine-tuned generator from 35.3\\% to 43.4\\% at $1.9$-$3.5\\times$ the cost of greedy decoding, above search baselines that use $3.8$-$7.4\\tim"
+  },
+  {
+   "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+   "url": "http://arxiv.org/abs/2611.17316v1",
+   "published": "2026-11-12T18:58:22Z",
+   "abstract": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory saves effort as the task unfolds. We introduce Coding-Repository Memory (CoReMem), a cost-internalizing framework that guides memory design and actor adaptation through measured memory value on the next task. Prospective segment valuation compares runs of the next task with and without individual trajectory segments from the same inherited repository state, guiding a compact memory built around anchors: repository locations and executable checks. Actor adaptation estimates on-policy memory value within rollout groups with and without memory, using a reward that prioritizes r"
+  },
+  {
+   "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+   "url": "http://arxiv.org/abs/2611.17314v1",
+   "published": "2026-11-12T18:57:49Z",
+   "abstract": "Humans can learn rapidly from limited experience, while neural networks typically require extensive training. In this work, we investigate what properties of a neural network can enable it to learn rapidly. We study neural networks that have been optimized via meta-learning, a technique that exposes a network to many related functions to facilitate its subsequent learning of similar functions. Prior work has shown that these meta-learned networks can learn new functions rapidly, but how they do so remains unclear. To investigate their internal structure, we take inspiration from classic work demonstrating additive relationships among the learned vectors that neural networks use to represent words (e.g., \"king\" minus \"man\" plus \"woman\" approximates \"queen\"). Analogously, we look for additive relationships among a meta-learned network's \"representations\" of different functions; when a meta"
+  },
+  {
+   "title": "Sketching Language Models for Context Attribution",
+   "url": "http://arxiv.org/abs/2611.17313v1",
+   "published": "2026-11-12T18:57:48Z",
+   "abstract": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ model evaluations. Under a stability assumption, our algorithm estimates all LOO values to error proportional to $\\varepsilon$ with constant probability using $O(\\sqrt{\\log(1/\\varepsilon)}/\\varepsilon)$ evaluation calls. To complement our upper bound, we prove a matching $Ω(\\sqrt{\\log(1/\\varepsilon)}/\\varepsilon)$ lower bound on the number of evaluation calls in an oracle model. Empirically, we verify coefficient decay consistent with stability and evaluate the performance of our sketching algorithm on a small language-model retrieval task. Technically, our result is based on a sketching algorithm for arithmetic circuits whose Taylor coefficients satis"
+  },
+  {
+   "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+   "url": "http://arxiv.org/abs/2611.17309v1",
+   "published": "2026-11-12T18:56:56Z",
+   "abstract": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigates these issues but also offers advantages: built-in early stopping, compute that adapts to problem difficulty, fast training without differentiating through a solver, and interpretable weights that learn the constraints of the puzzle. Here we demonstrate this with a learned version of Hopfield &amp; Tank's energy from the 80s, which we term CRAM, solves 99.996% of Sudoku-Extreme and 100% of Maze-Unique test puzzles after 42 ms and 132 ms of training on one GPU, at least 1,000x faster than looped models on these tasks. CRAM also matches baseline looped models at their highest accuracy on Sudoku"
+  },
+  {
+   "title": "Quantifying structural stability of transparent models for general insurance pricing",
+   "url": "http://arxiv.org/abs/2611.17308v1",
+   "published": "2026-11-12T18:56:54Z",
+   "abstract": "The short duration of general insurance contracts leads to rapid distributional shifts in the data, warranting regular model updates. This process may yield a post-update model that differs considerably from the pre-update model in both predictions and structure. Structural stability is upstream of predictive stability, yet existing structural stability metrics are mostly restricted to simple decision trees. Thus, we first introduce the notion of functional transparency, characterising models with a prediction function that can be expressed as a sum of univariate functions for main effects and bivariate functions for pairwise interactions. Then, we propose the Mean Squared Shape function distance, a metric to quantify the structural stability of functionally transparent models, which are particularly relevant in actuarial science. Using three public auto insurance datasets, we present a "
+  },
+  {
+   "title": "Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning",
+   "url": "http://arxiv.org/abs/2611.17304v1",
+   "published": "2026-11-12T18:56:22Z",
+   "abstract": "Large language model (LLM) coding agents are increasingly asked not only to write code but to debug running systems from live runtime data. We report a field observation of one such agent (Claude Code) as it diagnosed eight database incidents in a production message-dispatch engine. In every incident whose root cause depended on runtime concurrency, the agent announced a cause, shipped a fix, and later walked it back, and each wrong guess cost a deploy-and-observe cycle. Mapping each incident to what the agent lacked, we find that access to production state was the most pervasive bottleneck. The missing access included live lock views, untruncated deadlock reports, read-only execution, and an explicit environment context. An access gap was present in all five concurrency-dependent incidents: alone in one, and in four combined with a reasoning error such as anchoring on an early cause, in"
+  },
+  {
+   "title": "Towards a Theory of Learnability via Debate",
+   "url": "http://arxiv.org/abs/2611.17303v1",
+   "published": "2026-11-12T18:55:58Z",
+   "abstract": "Debate has been recently proposed as a training protocol that is hoped to produce more aligned models even as model capabilities scale. The idea is that the human, instead of providing supervision in the form of labels, judges a debate between two models that compete to prove the correctness of opposite labels. It can be shown that functions of a much higher computational complexity can be correctly judged in this way, compared to the complexity of functions that can be directly evaluated using a computationally weak evaluator. This suggests that perhaps debate can be used to teach very complicated functions to models. However, previous work has largely ignored the fact that this is a training protocol, and simply analyzes the game being played between the two debaters for a known judge. We take the first steps towards understanding the learning problem implicit within the protocol, by f"
+  }
+ ]
+}

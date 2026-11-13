@@ -5,309 +5,301 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 04:05:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 23:04:38 GMT</lastBuildDate>
     <item>
-      <title>2026-11-13 Daily Brief</title>
-      <link>https://news.zhangyvjing.com/reports/2026-11-13.html</link>
-      <guid>https://news.zhangyvjing.com/reports/2026-11-13.html</guid>
-      <pubDate>Fri, 13 Nov 2026 04:05:10 GMT</pubDate>
-      <description>今天的条目看似散乱，主线却是“控制权回归”：从小旧设备上跑LLM、为刺绣机自建应用，到Rust、nvm、Node的常规演进，再到modder补完Quake 4、现代Web指南与安全工具，关注点都落在可移植、可修补、可退出的工具链上；Microsoft 365降级和订阅硬件则提醒中心化依赖的脆弱。相比之下，Gemini 4 Hydrogen、Anthropic IPO、Jensen Huang辞职这类标题更像注意力经济的高光，模型版本号、资本事件和高管传闻被高估为变革指标。它们未必带来可用性、可靠性和用户议价权的提升。真正被低估的是本地与小设备推理、自建替代、长期维护和社区补完——这些慢工程才决定生态韧性。AI叙事仍重要，但若只追逐发布节奏，就会忽略今天更硬的信号：谁能把能力交到用户手里，谁才配谈下一代平台。</description>
+      <title>2026-11-14 Daily Brief</title>
+      <link>https://news.zhangyvjing.com/reports/2026-11-14.html</link>
+      <guid>https://news.zhangyvjing.com/reports/2026-11-14.html</guid>
+      <pubDate>Fri, 13 Nov 2026 23:04:38 GMT</pubDate>
+      <description>今天这批条目表面散乱，共同主线是“信任赤字下的控制权回收”。FAA停飞、Nvidia硬件失踪、iPad开PPT要16次点击，说明大型系统与平台便利并不等于可靠；Coway净化器去云、uptime-kuma、tailscale、Haskell生态愿景和No AI Slop，则是对云依赖、黑箱平台与AI万能叙事的反弹。GitHub趋势里的代码审查、安全与交易分析工具，也在把AI从“魔法”拉回可审计的工程流程。我的判断是：被高估的是AI对知识生产的“解锁”效应和大厂生态的整合承诺——Gödel笔记本被AI解锁、JEPA世界模型等标题很抓眼，但600次实验和No AI Slop提醒我们，模型能力不等于可信产出。真正被低估的是可维护性、安全、可逆性和交互成本这些“无聊工程”。技术编辑应少追AI头条，多看谁在把系统做得可退出、可审计、可自托管。</description>
     </item>
     <item>
-      <title>Jensen Huang resigns</title>
-      <link>https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f</link>
-      <guid>https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f</guid>
+      <title>FAA Issues National Ground Stop</title>
+      <link>https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&amp;advn=111</link>
+      <guid>https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&amp;advn=111</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 13:52:29 GMT</pubDate>
-      <description>Hacker News 上一条题为 Jensen Huang resigns 的帖子获得 3122 分和 2918 条评论，热度极高。其链接指向美联社关于英伟达、Megaspeed、中国和新加坡以及黄仁勋的报道，而非简单辞职声明。讨论集中在标题是否误导、报道涉及的英伟达合规与地缘政治问题，以及黄仁勋和公司可能受到的监管与市场影响。</description>
+      <pubDate>Fri, 13 Nov 2026 21:05:53 GMT</pubDate>
+      <description>Hacker News 上一条题为 FAA Issues National Ground Stop 的帖子引发关注，获得 860 分和 498 条评论，链接指向 FAA 发布的全国地面停飞通告。讨论围绕停飞的范围与原因、空管安全与航班运行影响、航空公司与旅客应对，以及监管机构信息发布和航空系统可靠性等话题展开。较高的互动量显示，技术社区对关键基础设施运行、应急响应和公共信息透明度有持续兴趣。</description>
     </item>
     <item>
-      <title>Anthropic IPO</title>
-      <link>https://ipo.anthropic.com/us/</link>
-      <guid>https://ipo.anthropic.com/us/</guid>
+      <title>Reverse engineering my Coway air purifier to ditch the cloud</title>
+      <link>https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</link>
+      <guid>https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 11:46:41 GMT</pubDate>
-      <description>Hacker News 上出现题为 Anthropic IPO 的讨论，链接指向 ipo.anthropic.com/us/，获得 849 分和 823 条评论。该帖热度很高，社区主要围绕 Anthropic 是否筹备上市、潜在估值、商业模式、AI 安全治理以及上市对行业竞争格局的影响展开讨论，评论中既有对 AI 公司融资与透明度的关注，也有对其产品路线和市场前景的质疑与期待。</description>
+      <pubDate>Thu, 12 Nov 2026 22:03:09 GMT</pubDate>
+      <description>这篇Hacker News热门讨论介绍作者逆向工程Coway空气净化器，试图绕开厂商云服务实现本地控制。文章涉及抓包分析设备与云端通信、识别接口和协议、复现控制命令，并讨论隐私、可靠性和设备所有权问题。评论区围绕固件与网络隔离、本地API稳定性、安全风险、保修和不同型号兼容性展开，也有人分享用代理或家庭自动化接管云流量的经验。讨论获得636分和188条评论，反映出用户对智能家居去云化和可维修性的持续关注。</description>
     </item>
     <item>
-      <title>Service degradation on Microsoft 365</title>
-      <link>https://status.cloud.microsoft/</link>
-      <guid>https://status.cloud.microsoft/</guid>
+      <title>Doomsday: Friday, 13 November, A.D. 2026 (1960)</title>
+      <link>https://www.science.org/doi/10.1126/science.132.3436.1291</link>
+      <guid>https://www.science.org/doi/10.1126/science.132.3436.1291</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 18:20:48 GMT</pubDate>
-      <description>Hacker News 上关于 Microsoft 365 服务降级的讨论获得 595 分和 554 条评论，帖子指向微软云状态页。参与者主要围绕故障影响范围、状态页信息是否及时透明、企业过度依赖云办公套件的风险，以及 SLA、备份和监控策略展开交流，并分享运维经验与替代方案。</description>
+      <pubDate>Fri, 13 Nov 2026 12:10:24 GMT</pubDate>
+      <description>这篇Hacker News高热度讨论围绕1960年《Science》论文《Doomsday: Friday, 13 November, A.D. 2026》展开，该文曾用双曲增长模型拟合人口数据，并外推出2026年出现增长奇点式“末日”。在419分、295条评论中，参与者复盘这一预测为何落空，讨论模型假设、数据选择与外推风险，并延伸到AI加速增长和奇点叙事是否具有可比性。</description>
     </item>
     <item>
-      <title>Rust 1.100</title>
-      <link>https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/</link>
-      <guid>https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/</guid>
+      <title>AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems</title>
+      <link>https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</link>
+      <guid>https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 18:39:05 GMT</pubDate>
-      <description>Hacker News 上关于 Rust 1.100 发布的讨论获得 501 分和 209 条评论，参与者围绕新版本带来的语言与工具链变化、稳定性和兼容性、生态影响以及 Rust 的长期演进方向展开交流，既有对具体改进的关注，也有对版本节奏和实际采用成本的讨论，整体反映出开发者对 Rust 持续发展的浓厚兴趣。</description>
+      <pubDate>Fri, 13 Nov 2026 17:30:10 GMT</pubDate>
+      <description>Hacker News上一条关于AI帮助解锁哥德尔笔记本的讨论获得285分和83条评论。所链接的《卫报》报道称，这些笔记可能包含数百条已被证明的定理，AI被用于整理和识别其中隐藏的数学发现。评论者关注AI在历史手稿识别、定理验证和数学史研究中的实际作用，也讨论机器辅助发现的可信度与局限。</description>
     </item>
     <item>
-      <title>Gemini 4 Hydrogen</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/</link>
-      <guid>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/</guid>
+      <title>$11.4M in Nvidia hardware vanishes during shipment from CA to TX</title>
+      <link>https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</link>
+      <guid>https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 18:01:48 GMT</pubDate>
-      <description>Hacker News 上围绕谷歌博客发布的 Gemini 4 Hydrogen 展开技术讨论，帖子获得 483 分和 304 条评论。讨论集中在模型能力、基准表现、与竞品对比、实际应用、成本与可用性、安全对齐等方面。社区既关注发布信息，也对宣传口径和评测真实性提出质疑，并分享使用体验和迁移建议。</description>
+      <pubDate>Fri, 13 Nov 2026 18:40:44 GMT</pubDate>
+      <description>Hacker News 上这则讨论关注一批价值1140万美元的Nvidia硬件从加州运往德州途中失踪的报道。帖子获得241分和130条评论，评论者主要讨论高价值GPU运输中的安全风险、货运公司与承运人的责任划分、保险与追偿、封条和监控等防损措施，以及Nvidia硬件紧俏背景下盗窃和黑市销赃的可能性。也有人从物流链条和跨州运输监管角度分析案件为何难以防范。整体上，讨论把单起货物失踪事件延伸到对数据中心供应链安全和运输行业风险管理的关注。</description>
     </item>
     <item>
-      <title>Show HN: My $300 embroidery machine needed a subscription, so I built my own app</title>
-      <link>https://github.com/simpsoka/zigzag</link>
-      <guid>https://github.com/simpsoka/zigzag</guid>
+      <title>It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad</title>
+      <link>https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/</link>
+      <guid>https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 17:02:42 GMT</pubDate>
-      <description>Hacker News 上出现一则 Show HN 讨论，作者称自己花约 300 美元购买的绣花机竟需要订阅服务才能正常使用，于是开发了自建应用 Zigzag 并开源到 GitHub。帖子获得 386 分和 148 条评论，讨论围绕硬件订阅制、厂商锁定、逆向工程与开源替代方案展开，也涉及此类项目在兼容性、维护和用户体验上的挑战。</description>
+      <pubDate>Fri, 13 Nov 2026 18:18:37 GMT</pubDate>
+      <description>这篇 Hacker News 讨论围绕一位教师抱怨学生在 iPad 上打开 PowerPoint 竟需要 16 次点击展开。相关帖子在教师社区引发共鸣，转到 Hacker News 后获得 217 分和 112 条评论。讨论集中批评教育科技中层层登录、云盘跳转和应用切换让简单任务变得繁琐，也涉及学校设备管理与软件设计如何拖慢课堂节奏。参与者认为应简化学生端流程，减少认证和跳转，让技术真正服务教学，而不是增加操作负担。</description>
     </item>
     <item>
-      <title>Gemini 4 Hydrogen and Orchestrator</title>
-      <link>https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/</link>
-      <guid>https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/</guid>
+      <title>After 600 experiments, here's what I discovered about JEPA world models</title>
+      <link>https://haddyalchaer.com/jepa</link>
+      <guid>https://haddyalchaer.com/jepa</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 18:52:01 GMT</pubDate>
-      <description>Hacker News 上关于 Google Antigravity 博客发布 Gemini 4 Hydrogen 与 Orchestrator 的讨论获得 341 分和 87 条评论。讨论主要集中在 Gemini 4 Hydrogen 的模型能力、Orchestrator 如何协调多步骤任务以及在 Antigravity 平台中的集成方式，社区同时关注其实际可用性、性能表现和对开发工作流的影响。</description>
+      <pubDate>Fri, 13 Nov 2026 17:55:28 GMT</pubDate>
+      <description>该Hacker News讨论围绕作者用600次实验总结JEPA世界模型的发现展开，重点涉及潜在空间预测、表征坍塌、训练稳定性、超参数选择和规划能力。评论者关注实验可复现性、与生成式世界模型的对比、计算成本以及这类模型在机器人和决策任务中的实际价值，并讨论评估世界模型是否真正学到可泛化动态。</description>
     </item>
     <item>
-      <title>I'm making LLMs work on small and old devices</title>
-      <link>https://github.com/hyperionaidev/smolmaxxing/</link>
-      <guid>https://github.com/hyperionaidev/smolmaxxing/</guid>
+      <title>A technical vision for the Haskell ecosystem</title>
+      <link>https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</link>
+      <guid>https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 15:23:10 GMT</pubDate>
-      <description>Hacker News 上一条题为 I'm making LLMs work on small and old devices 的讨论获得 294 分和 101 条评论，作者在 GitHub 项目 smolmaxxing 中分享让大语言模型适配小型及老旧设备的尝试。讨论围绕量化、内存占用、推理速度和硬件限制等展开，社区既关注实际可行性，也探讨这类方案在真实场景中的效果与取舍。</description>
+      <pubDate>Fri, 13 Nov 2026 14:43:12 GMT</pubDate>
+      <description>这则Hacker News讨论围绕Haskell生态的技术愿景展开，原帖来自Haskell Discourse，系统梳理生态未来可能的技术方向，并在Hacker News获得165分和77条评论。参与者就语言演进、工具链与库生态、社区协作及实施优先级交换意见，既肯定愿景价值，也讨论落地难点，反映开发者对Haskell长期发展的关注与分歧。</description>
     </item>
     <item>
-      <title>Abandoned Quake 4 expansion finished by modders and now playable</title>
-      <link>https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64</link>
-      <guid>https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64</guid>
+      <title>Big tech is here to let us down</title>
+      <link>https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</link>
+      <guid>https://blog.jsweeting.me/big-tech-is-here-to-let-us-down</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 14:18:49 GMT</pubDate>
-      <description>Hacker News 上有一则讨论关注被放弃的 Quake 4 扩展内容由模组作者完成并现已可玩，帖子获得 248 分和 87 条评论。项目 OpenQ4 提供 Windows x64 版 0.14.1 下载，让玩家体验原本未完成的资料片内容。讨论涉及模组社区接手官方遗留项目、兼容性与安装体验，以及老游戏在社区维护下延续生命力的可能。</description>
+      <pubDate>Fri, 13 Nov 2026 20:20:30 GMT</pubDate>
+      <description>这篇Hacker News讨论以“大科技公司正在让我们失望”为主题，围绕大型科技平台在产品可靠性、隐私保护、开放生态和长期承诺上的表现展开批评。发帖者认为，用户对少数公司的过度依赖会放大平台关闭服务、改变规则或损害用户利益的风险，并引发对自托管、去中心化和更可持续替代方案的讨论。帖子获得161分和149条评论，评论中既有对科技巨头失望情绪的共鸣，也有对作者观点、迁移成本和现实可行性的质疑与补充。</description>
     </item>
     <item>
-      <title>Dwarf planet candidate appears which takes roughly 280 years to orbit our sun</title>
-      <link>https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/</link>
-      <guid>https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/</guid>
+      <title>No AI Slop: A Manifesto</title>
+      <link>https://www.slopmanifesto.com/</link>
+      <guid>https://www.slopmanifesto.com/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 19:05:33 GMT</pubDate>
-      <description>Hacker News 上围绕一则天文学报道展开讨论，该报道称天文学家在冥王星之外发现一个神秘天体，可能是新的矮行星候选者，其绕太阳公转周期约为280年。评论者关注其轨道特征、发现方法与观测证据，并讨论矮行星分类标准以及太阳系边缘天体如何影响现有模型。也有人提到远距离天体的探测难度和后续确认所需观测。整体讨论既肯定发现意义，也提醒对候选身份保持谨慎。</description>
+      <pubDate>Fri, 13 Nov 2026 19:51:56 GMT</pubDate>
+      <description>Hacker News 上围绕“No AI Slop: A Manifesto”展开讨论，该帖获得 144 分和 86 条评论。宣言反对 AI 批量生成的低质量、同质化内容污染信息生态，主张创作者对内容质量与来源负责，提高透明度，并推动平台和社区建立规范。评论区分歧集中在如何界定 AI 垃圾内容、AI 辅助写作与全自动生成的边界、是否应强制标注，以及平台治理和创作者责任应如何落实。</description>
+    </item>
+    <item>
+      <title>alibaba/open-code-review</title>
+      <link>https://github.com/alibaba/open-code-review</link>
+      <guid>https://github.com/alibaba/open-code-review</guid>
+      <category>github_trending</category>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>alibaba/open-code-review 是阿里开源的一款用 Go 编写的代码审查工具，已在阿里大规模场景中经过实战检验，兼顾安全、快速与高效。它采用确定性流水线结合 LLM Agent 的混合架构，能够给出精确到行的审查评论，并内置覆盖空指针异常、线程安全、XSS 与 SQL 注入等多语言规则集，同时兼容 OpenAI 和 Anthropic。项目今日新增 206 星，适合希望提升代码审查自动化与准确性的团队使用。</description>
     </item>
     <item>
       <title>GoogleChrome/modern-web-guidance-src</title>
       <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
       <guid>https://github.com/GoogleChrome/modern-web-guidance-src</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>GoogleChrome/modern-web-guidance-src 是 Google Chrome 团队在 GitHub 上开源的项目，使用 TypeScript 编写，旨在让编码代理及时掌握最新的 Web 最佳实践。项目今日新增 739 颗星，受到开发者关注。它把现代 Web 开发规范与建议整理为可供智能编程工具使用的指导内容，帮助编码助手在生成代码时遵循更新后的标准与做法，减少过时模式，提升开发质量与一致性。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>GoogleChrome 的 modern web guidance 源码项目是一个使用 TypeScript 开发的开源仓库，旨在帮助编码智能体持续掌握最新的 Web 最佳实践，让开发建议与浏览器平台演进保持同步。项目今日新增 1,875 个 Star，关注度较高，适合希望提升前端代码质量、跟进现代 Web 标准的开发者与工具作者了解和使用。</description>
     </item>
     <item>
       <title>openai/codex-security</title>
       <link>https://github.com/openai/codex-security</link>
       <guid>https://github.com/openai/codex-security</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>openai/codex-security 是 OpenAI 推出的开源安全工具，提供 Codex Security 命令行界面与 TypeScript SDK，用于发现、验证并修复安全漏洞。项目以 TypeScript 编写，已发布为 npm 包 @openai/codex-security，便于开发者集成到现有工作流中。该项目今日新增 643 颗星，关注度较高，适合需要自动化安全检测与修复能力的团队试用。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>openai/codex-security 是一个使用 TypeScript 开发的开源项目，提供 Codex Security 命令行工具和 TypeScript SDK，帮助开发者发现、验证并修复软件中的安全漏洞。项目今日新增 754 个 Star，可通过 npm 安装 @openai/codex-security 使用，适合集成到安全检测与修复流程中。</description>
     </item>
     <item>
-      <title>nvm-sh/nvm</title>
-      <link>https://github.com/nvm-sh/nvm</link>
-      <guid>https://github.com/nvm-sh/nvm</guid>
+      <title>ZhuLinsen/daily_stock_analysis</title>
+      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
+      <guid>https://github.com/ZhuLinsen/daily_stock_analysis</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>nvm-sh/nvm 是 GitHub 上的开源 Node.js 版本管理工具，项目以 Shell 编写，核心是一个符合 POSIX 规范的 bash 脚本，用于在同一台机器上安装、切换和管理多个处于活跃状态的 Node.js 版本。它帮助开发者在不同项目之间灵活切换运行时环境，避免版本冲突，提升开发与测试效率。该项目今日新增 63 星，受到开发者关注。</description>
-    </item>
-    <item>
-      <title>pookjw/HermesEnabler</title>
-      <link>https://github.com/pookjw/HermesEnabler</link>
-      <guid>https://github.com/pookjw/HermesEnabler</guid>
-      <category>github_trending</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>pookjw/HermesEnabler是一个使用Objective-C开发的开源项目，旨在让任意Apple Watch设备启用原本专属于爱马仕版本的表盘。该项目今日新增218颗星，说明其功能受到较多关注。对于希望在不更换设备的情况下体验爱马仕表盘的用户来说，这个项目提供了一种值得了解的实现思路。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>ZhuLinsen/dailystockanalysis 是一个基于 Python 的开源项目，面向多市场股票分析场景，利用大语言模型整合多源行情数据与实时新闻，提供智能分析、决策看板和自动推送功能。项目支持零成本定时运行，方便用户持续跟踪市场动态并获取分析结果。项目今日新增 272 星，体现出较高关注度。</description>
     </item>
     <item>
       <title>we-promise/sure</title>
       <link>https://github.com/we-promise/sure</link>
       <guid>https://github.com/we-promise/sure</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>we-promise/sure 是一个面向所有人的开源个人财务应用，强调由社区共同参与建设，适合希望自行管理收支与财务数据的用户。项目使用 Ruby 语言开发，目前在 GitHub 上获得广泛关注，今日新增 967 颗星，体现出个人理财工具与开源协作模式结合的吸引力。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>we-promise/sure 是 GitHub 上的开源个人理财应用，采用 Ruby 语言开发，主打人人可用、人人共建的理念，帮助用户管理个人财务。项目今日新增 944 颗星，说明近期受到较多关注。它以开放源代码方式提供，适合希望了解个人财务工具实现、参与协作改进或基于其代码进行二次开发的用户。</description>
     </item>
     <item>
-      <title>QwenLM/qwen-code</title>
-      <link>https://github.com/QwenLM/qwen-code</link>
-      <guid>https://github.com/QwenLM/qwen-code</guid>
+      <title>backnotprop/plannotator</title>
+      <link>https://github.com/backnotprop/plannotator</link>
+      <guid>https://github.com/backnotprop/plannotator</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>QwenLM/qwen-code 是一个运行在终端中的开源 AI 编程代理，主要使用 TypeScript 开发。它面向开发者提供命令行内的智能编码辅助，让用户可以直接在终端环境里与 AI 协作完成代码相关任务。该项目今日新增 151 个星标，体现出社区关注度正在上升。对于希望把 AI 编码能力融入日常开发流程的开发者来说，这是一个值得了解的开源选择。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>backnotprop/plannotator 是一个使用 TypeScript 开发的开源项目，今日新增约 100 星。它定位为帮助用户持续跟进并掌控智能体工作流程的工作区，支持塑造方案、做出决策、制定计划、添加注释、审查代码以及与团队分享，并能一键把所有反馈发送给智能体，从而提升协作与迭代效率。</description>
     </item>
     <item>
-      <title>ashhart/TensorFold</title>
-      <link>https://github.com/ashhart/TensorFold</link>
-      <guid>https://github.com/ashhart/TensorFold</guid>
+      <title>louislam/uptime-kuma</title>
+      <link>https://github.com/louislam/uptime-kuma</link>
+      <guid>https://github.com/louislam/uptime-kuma</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>TensorFold 是 GitHub 上的开源项目，使用 Zig 语言开发，定位为面向大语言模型的推理引擎，支持 Metal、CUDA 和 Vulkan 三种计算后端，便于在不同硬件平台上运行模型推理。项目今日新增 54 个 Star，显示出一定关注度。其目标是为 LLM 推理提供跨平台、轻量且可移植的实现方案。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>louislam/uptime-kuma 是一个用 JavaScript 开发的开源自托管监控工具，界面美观，主要用于监测网站、服务和各类网络资源的可用性与响应状态，并可在异常时提供告警。项目支持自行部署，便于用户掌控监控数据和运行环境。今日该项目新增 61 星，关注度持续上升。</description>
     </item>
     <item>
-      <title>nodejs/node</title>
-      <link>https://github.com/nodejs/node</link>
-      <guid>https://github.com/nodejs/node</guid>
+      <title>block/buzz</title>
+      <link>https://github.com/block/buzz</link>
+      <guid>https://github.com/block/buzz</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>nodejs/node 是 Node.js 官方开源仓库，提供基于 JavaScript 的运行时环境，让开发者能在浏览器之外运行 JavaScript，常用于服务端、命令行工具和网络应用开发。项目以 JavaScript 为主要语言，社区活跃、生态成熟，拥有完善文档和跨平台支持。今日新增 62 星，显示其持续受到关注。它适合构建高性能、可扩展的应用，也为现代前端工程和全栈开发提供重要基础设施。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>block/buzz 是 GitHub 上的开源项目，定位为群体智能通信平台，采用 Rust 语言开发。项目致力于为多人协作与群体智能交流提供通信基础，借助 Rust 在性能、内存安全和并发方面的特性，探索更高效可靠的沟通方式。该项目今日新增 95 颗星，关注度持续上升，适合对群体协作、实时通信和 Rust 生态感兴趣的开发者了解与参与。</description>
     </item>
     <item>
-      <title>addyosmani/agent-skills</title>
-      <link>https://github.com/addyosmani/agent-skills</link>
-      <guid>https://github.com/addyosmani/agent-skills</guid>
+      <title>tradermonty/claude-trading-skills</title>
+      <link>https://github.com/tradermonty/claude-trading-skills</link>
+      <guid>https://github.com/tradermonty/claude-trading-skills</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>addyosmani/agent-skills 是一个使用 JavaScript 开发的开源项目，旨在为 AI 编码代理提供生产级工程技能。项目今日新增 816 颗星，受到开发者广泛关注。它汇集面向实际工程场景的技能与规范，帮助 AI 代理在代码生成、审查和维护等任务中遵循更可靠的工程实践，从而提升开发效率与产出质量。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>tradermonty/claude-trading-skills 是一个面向股票投资者和交易者的开源项目，使用 Python 开发，提供 Claude Code 技能，覆盖市场分析、技术图表、经济日历、股票筛选器和交易策略开发等场景。项目今日新增 60 星，说明关注度较高，适合希望借助 Claude 提升投研与交易策略工作效率的用户了解和试用。</description>
     </item>
     <item>
-      <title>meta/astryx</title>
-      <link>https://github.com/meta/astryx</link>
-      <guid>https://github.com/meta/astryx</guid>
+      <title>tailscale/tailcat</title>
+      <link>https://github.com/tailscale/tailcat</link>
+      <guid>https://github.com/tailscale/tailcat</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>meta/astryx 是一个使用 TypeScript 开发的开源设计系统，主打完全可定制与面向智能体的使用体验。项目今日在 GitHub 新增 1830 星，显示出较高关注度。它为开发者提供可灵活调整的设计基础，并兼顾智能体场景下的集成与协作需求，适合希望构建统一界面体系并探索智能体应用的团队参考和使用。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>tailscale/tailcat 是一个用 Go 语言开发的开源项目，定位类似 netcat，但连接通过 Tailscale 的数据平面传输，而不依赖 Tailscale 的控制平面。它适合在 Tailscale 数据通道上进行连接测试、调试或数据传输，结合了 netcat 简洁直接的用法与 Tailscale 数据平面的连通能力。项目今日新增 324 星，说明其思路和实用性正受到开发者关注。</description>
     </item>
     <item>
-      <title>Learning a calibrated decision head from logged bandit feedback</title>
-      <link>http://arxiv.org/abs/2611.15572v1</link>
-      <guid>http://arxiv.org/abs/2611.15572v1</guid>
+      <title>Unbundling Multimodal Vision Encoding</title>
+      <link>http://arxiv.org/abs/2611.17334v1</link>
+      <guid>http://arxiv.org/abs/2611.17334v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>论文研究如何仅利用部署后记录到的bandit反馈来学习校准的决策头。决策头读取状态和选项列表并一次前向输出各选项概率，部署后通常只观察到所选选项是否正确。作者用LoRA在Qwen3-0.6B-Base和1.7B-Base上适配并报告结果。首先，采样动作自身概率的Brier或log评分不能作为可用的REINFORCE奖励，错误动作至少获得正确动作的奖励，均值基线会使最低概率错误动作获得最大优势，两选项时信号为零，一次运行还把有序尺度问题准确率从0.636降到0.111。将概率作为损失用路径梯度可避免崩溃，奖励r和r减p也可避免。其次，有完整标签时，四个bandit方法均未超过交叉熵加一个温度。摘要约220字内。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文研究多模态语言模型的视觉编码设计。视觉编码器捆绑视觉先验、专用容量和融合前放置三项选择，难以隔离影响。作者在共同数据上从头预训练所有模型，并在匹配算力下比较视觉问答和语言基准。结果显示视觉先验并非必要，从头联合训练的编码器与预训练编码器表现相当，为拆解该设计提供受控证据。</description>
     </item>
     <item>
-      <title>TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models</title>
-      <link>http://arxiv.org/abs/2611.15569v1</link>
-      <guid>http://arxiv.org/abs/2611.15569v1</guid>
+      <title>ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research</title>
+      <link>http://arxiv.org/abs/2611.17332v1</link>
+      <guid>http://arxiv.org/abs/2611.17332v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>面向推理视觉语言模型，KV缓存因多模态上下文和不断增长的推理轨迹而需求巨大。现有低秩KV压缩在压缩推理KV状态时容易产生预测策略漂移并导致推理失败，其主要原因包括静态上下文与在线策略推理状态之间的校准失配，以及不同KV状态误差敏感度不均。为此，TraceKV提出一种无需训练的低秩KV缓存压缩框架，将在线策略校准、敏感度感知SVD和全局秩分配统一在保持策略的原则下，在显著降低策略漂移的同时压缩缓存，从而维持推理性能。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文介绍 ArchSpace，一个面向大语言模型架构研究的公开平台，旨在系统记录、评审和引用架构研究。文章指出，模型架构直接影响大模型的扩展行为、训练效率与推理成本，但工业界公开报告较少记录哪些设计成功、哪些被放弃及原因，学术界则受算力与基线不一致限制，难以验证改进能否扩展到更大规模。ArchSpace 要求每项提案记录实验与推理，接受社区评审，并被后续工作引用，从而在大规模训练前辅助评估想法。</description>
     </item>
     <item>
-      <title>Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling</title>
-      <link>http://arxiv.org/abs/2611.15568v1</link>
-      <guid>http://arxiv.org/abs/2611.15568v1</guid>
+      <title>Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation</title>
+      <link>http://arxiv.org/abs/2611.17329v1</link>
+      <guid>http://arxiv.org/abs/2611.17329v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文研究大语言模型能否被可控降低到指定基准分数，并使失败模式类似自然弱模型。作者从目标校准、难度结构和与真实弱参考的错误分布相似性三方面界定可信性能降低，提出IRT校准的CapLadder基准，含1985道数学、代码、多选推理和工具使用题。实验发现，弱教师LoRA调节可在推理任务达到未见目标水平，留出校准误差1.9点，而提示、温度和权重噪声难以兼具范围与精度。但在</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>机构投资组合需遵循投资政策声明所规定的资产配置约束，这些约束常以市场状态信息为条件。深度强化学习虽能优化财务表现，却通常不能保证规则合规，因此不适合实际部署。概率逻辑策略梯度等现有神经符号方法通过可微符号监督实现满足约束的强化学习，但假设动作空间有限且离散。本文提出受概率逻辑策略梯度启发的连续配置方法，利用重参数化蒙特卡洛采样估计策略自身执行动作满足投资授权的概率，并将其加入训练目标。推理阶段不设置事后强制执行机制，合规性通过训练学习获得。</description>
     </item>
     <item>
-      <title>Observations Drift, Structures Remain: Structural Pretraining with Time Alignment for Electromagnetic Signals</title>
-      <link>http://arxiv.org/abs/2611.15566v1</link>
-      <guid>http://arxiv.org/abs/2611.15566v1</guid>
+      <title>AgentSSL: Can MLE Agents Leverage Unlabeled Data?</title>
+      <link>http://arxiv.org/abs/2611.17323v1</link>
+      <guid>http://arxiv.org/abs/2611.17323v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>电磁信号建模正转向异构I/Q观测的自监督预训练，但观测波形同时受信号生成、传播环境和采集过程影响，混合了可复用结构规律与观测特定变化。现有重建式统一预训练会因传播导致的外观差异和采集导致的时间坐标差异，优先拟合观测特定外观与采样坐标，形成观测捷径并偏离稳定信号结构。该文将这一失效模式识别为观测偏置预训练，并围绕结构预训练与时间对齐展开研究，旨在抑制外观漂移和时间错位带来的干扰，促使模型学习跨观测可复用的电磁信号结构表征。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该论文研究机器学习工程智能体能否在标签稀缺而未标注数据丰富的现实场景中利用无监督数据。作者提出Agentic Semi-Supervised Learning（AgentSSL），将半监督学习转化为程序搜索问题，考察智能体在有限监督下如何探索方案空间。实验发现，即便反馈较弱且计算量匹配，智能体仍能生成结合并调整现有半监督技术的代码，在12种设置中的8种超过最强人工基线，最高提升21.8%。但结果也表明，程序选择是AgentSSL的关键瓶颈，会导致性能下降。</description>
     </item>
     <item>
-      <title>What Conformal Selection Can Certify in CRISPR Off-Target Design:Benchmark Leakage, Free Baselines, and a Finite-Sample Cohort Requirement</title>
-      <link>http://arxiv.org/abs/2611.15555v1</link>
-      <guid>http://arxiv.org/abs/2611.15555v1</guid>
+      <title>Learning When Diffusion Language Models Should Regenerate</title>
+      <link>http://arxiv.org/abs/2611.17320v1</link>
+      <guid>http://arxiv.org/abs/2611.17320v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>该论文考察共形选择在CRISPR脱靶设计中究竟能提供何种安全认证。作者指出，共形p值存在一除以校准队列规模加一的下界，因此BH选择只有在校准队列不少于候选池规模除以容忍错误率时才能认证单个候选。公共队列仅提供十个验证引导，而两千候选池在百分之十错误率下需要两万样本，导致超过百分之九十六的数据划分中接受集为空。论文还分析基准泄漏与免费基线如何掩盖该问题，并强调有限样本队列要求。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>论文研究扩散语言模型的重掩码修正问题。作者在数独任务诊断发现，隐藏状态包含词元置信度不能可靠揭示的错误信息，且上下文不变时单独重掩码错误常会复现。为此提出验证器 DiVR，预测部分生成序列最终是否正确，并依据模型自身轨迹的最终正确性训练，用来决定何时重生成文本块以及保留哪个候选，生成器本身保持不变。在 LLaDA 8B Base 的五个推理基准上，DiVR 将微调生成器平均准确率从35.3%提高到43.4%，成本为贪心解码的1.9至3.5倍，优于使用3.8至7.4倍成本的搜索基线。</description>
     </item>
     <item>
-      <title>DafnyCert: Certifying Specification Strength in Dafny</title>
-      <link>http://arxiv.org/abs/2611.15548v1</link>
-      <guid>http://arxiv.org/abs/2611.15548v1</guid>
+      <title>CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation</title>
+      <link>http://arxiv.org/abs/2611.17316v1</link>
+      <guid>http://arxiv.org/abs/2611.17316v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>DafnyCert 关注 Dafny 方法验证中规范可能过于宽松的问题。即使实现相对规范正确，同一输入仍可能被规范允许多个输出。该工具自动生成可独立检查的证书，以证明规范是弱还是强。弱证书给出一个能通过原规范验证的替代实现，以及两者输出不同的见证输入。强证书则围绕原方法构造验证框架，若该框架验证成功，就说明规范对任意输入至多允许一个输出。DafnyCert 能自动产生这些证书，从而为规范强度提供可验证证据。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文介绍面向连续编码任务的记忆框架CoReMem。编码智能体在演化仓库上依次处理任务，并在下一任务未知时写入记忆，因此记忆选择需权衡未来有用性与写入读取成本，同时智能体要判断使用已有记忆能否节省执行努力。CoReMem通过测量记忆在下一任务上的实际价值来指导记忆设计与智能体适配，利用前瞻片段估值比较同一继承仓库状态下下一任务有无单条轨迹片段的表现，并据此构建以仓库位置和可执行检查为锚点的紧凑记忆。智能体适配则在 rollout 组内估计有无记忆时的策略上记忆价值，并用优先体现实际收益的奖励进行优化。</description>
     </item>
     <item>
-      <title>Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss</title>
-      <link>http://arxiv.org/abs/2611.15543v1</link>
-      <guid>http://arxiv.org/abs/2611.15543v1</guid>
+      <title>Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces</title>
+      <link>http://arxiv.org/abs/2611.17314v1</link>
+      <guid>http://arxiv.org/abs/2611.17314v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文介绍一种面向大语言模型API翻译的对话信息保持测试方法。跨API迁移对话时，翻译后的请求可能被目标接口正常接受，却静默丢失指令角色、工具交互、错误状态或生成控制等信息。作者提出确定性判定器isloss，将源端与翻译端的请求和回复映射到共享中间表示ConvIR，并通过显式规则区分合法表示变化与信息丢失。与模式校验和基于参考的差分测试不同，该方法无需参考翻译或额外模型调用，还能区分可避免丢失与目标API限制造成的退化。论文采用基于规范的故障注入进行评估。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文探究神经网络具备何种性质才能从有限经验中快速学习。研究对象是经元学习优化的网络，这类网络在训练中接触大量相关函数，以便后续学习相似函数。已有工作发现它们能快速掌握新函数，但其内部机制仍不清楚。受词向量中“国王减男人加女人近似女王”这类加法关系启发，作者在元学习网络的参数空间中寻找不同函数表示之间的加法类比关系，并考察这种组合结构如何与快速学习能力相联系，从而为理解元学习促成快速泛化的原因提供证据。</description>
     </item>
     <item>
-      <title>Faithful in Steps: Improving Generalization and Citation in RAG via Query Decomposition</title>
-      <link>http://arxiv.org/abs/2611.15538v1</link>
-      <guid>http://arxiv.org/abs/2611.15538v1</guid>
+      <title>Sketching Language Models for Context Attribution</title>
+      <link>http://arxiv.org/abs/2611.17313v1</link>
+      <guid>http://arxiv.org/abs/2611.17313v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>检索增强生成常用于缓解大语言模型幻觉，可归因RAG（RAGQ）通过为答案生成引文来标明支持答案的输入上下文，从而提升可验证性与可信度。但现有RAGQ在需要多跳推理和多模态理解的问题上性能明显下降，容易出现过度引用、隐式实体识别失败和泛化能力不足。本文提出QDRAG框架，先将输入问题分解为原子子问题以识别隐式实体，再利用重排序器剪除上下文干扰以消除下游过度引用。为促进查询分解，作者还提出QD-C和QD-R两种零样本方法，指导多模态大模型完成分解，旨在提升RAG的泛化性和引文质量。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文研究语言模型的上下文归因，即移除提示中部分词元会如何改变模型输出。针对含 n 个词元的提示和固定测量函数，直接计算所有留一归因需 n 次模型评估。在稳定性假设下，作者提出一种草图算法，以 O(√log(1/ε)/ε) 次评估调用、以常数概率将所有留一归因估计到正比于 ε 的误差，并证明在预言机模型中与之匹配的下界。实验验证了与稳定性一致的系数衰减，并在小型语言模型检索任务上评估算法性能。技术上，该结果基于算术电路草图方法。</description>
     </item>
     <item>
       <title>Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic</title>
       <link>https://www.youtube.com/watch?v=vlfCjWuv4es</link>
       <guid>https://www.youtube.com/watch?v=vlfCjWuv4es</guid>
       <category>youtube</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Anthropic 的 Lydia Hallie 在视频里重新拆解 Claude Code 的提示与工具调用习惯，能帮你判断哪些旧最佳实践该改。</description>
+      <pubDate>Wed, 11 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Anthropic 的 Lydia Hallie 在视频中重新审视 Claude Code 最佳实践，能听到一线团队对既有用法假设的具体修正。</description>
     </item>
     <item>
       <title>Stop Shipping LLM Settings That Only Win on Paper - Rohan Pandey &amp; Balaji Varadarajan, DigitalOcean</title>
       <link>https://www.youtube.com/watch?v=cWrYEBlWpcY</link>
       <guid>https://www.youtube.com/watch?v=cWrYEBlWpcY</guid>
       <category>youtube</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>DigitalOcean 的 Rohan Pandey 与 Balaji Varadarajan 提出“只在纸面胜出的 LLM 设置别上线”，用真实流量表现校验评测分数。</description>
-    </item>
-    <item>
-      <title>Your SKILL.md Is 70% Stuff the Model Already Knows - Nikolay Petrov, Intel</title>
-      <link>https://www.youtube.com/watch?v=yzx4IuEh_tU</link>
-      <guid>https://www.youtube.com/watch?v=yzx4IuEh_tU</guid>
-      <category>youtube</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Intel 的 Nikolay Petrov 用 70% 这个数字指出 SKILL.md 大半是模型已知内容，建议只保留模型真正不知道的关键差异。</description>
-    </item>
-    <item>
-      <title>Your Spec Has Bugs. Catch Them Before Your Agent Codes. - Rajath Mahendrappa Kotyal, AWS</title>
-      <link>https://www.youtube.com/watch?v=0EnLxIbAvYk</link>
-      <guid>https://www.youtube.com/watch?v=0EnLxIbAvYk</guid>
-      <category>youtube</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>AWS 讲者提出在 AI 代理写代码前先审查规格缺陷，避免错误需求被直接实现成代码。</description>
+      <pubDate>Wed, 11 Nov 2026 16:00:00 GMT</pubDate>
+      <description>DigitalOcean讲者指出LLM配置不能只看论文指标，线上延迟和成本才是验收标准。</description>
     </item>
     <item>
       <title>Inside Theranos with ex-Employee Tyler Shultz</title>
       <link>https://www.youtube.com/watch?v=iXWSYlAX5Lg</link>
       <guid>https://www.youtube.com/watch?v=iXWSYlAX5Lg</guid>
       <category>youtube</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>前Theranos员工Tyler Shultz亲述他如何发现爱迪生血液检测仪结果不可靠并向监管举报，能看清硅谷独角兽造假怎样被内部人戳破。</description>
+      <pubDate>Tue, 10 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Theranos前员工亲述内部发现血液检测数据异常并举报的经过，能听到一线员工面对的具体压力。</description>
     </item>
     <item>
-      <title>Jensen Huang resigns</title>
-      <link>https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f</link>
-      <guid>https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f</guid>
-      <category>news</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>2918条讨论辨明标题误导，链接实为美联社对英伟达合规及地缘政治风险、监管与市场影响的报道。</description>
+      <title>Is AI Now Good Enough To Cure Cancer? | YC Paper Club</title>
+      <link>https://www.youtube.com/watch?v=-XL2gClQ2gg</link>
+      <guid>https://www.youtube.com/watch?v=-XL2gClQ2gg</guid>
+      <category>youtube</category>
+      <pubDate>Sat, 07 Nov 2026 16:00:00 GMT</pubDate>
+      <description>这期YC Paper Club围绕“AI是否已足以治愈癌症”拆解论文，重点呈现模型能力边界与临床落地条件，而非泛泛谈前景。</description>
     </item>
     <item>
-      <title>Anthropic IPO</title>
-      <link>https://ipo.anthropic.com/us/</link>
-      <guid>https://ipo.anthropic.com/us/</guid>
+      <title>FAA Issues National Ground Stop</title>
+      <link>https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&amp;advn=111</link>
+      <guid>https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&amp;advn=111</guid>
       <category>news</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>849票、823条讨论围绕上市筹备、估值、商业模式与AI安全治理展开，并关注融资透明度和行业竞争。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该帖获860分和498条评论，讨论集中在全国地面停飞的范围与原因、空管安全、航班影响及监管信息发布透明度。</description>
     </item>
     <item>
-      <title>we-promise/sure</title>
-      <link>https://github.com/we-promise/sure</link>
-      <guid>https://github.com/we-promise/sure</guid>
+      <title>Reverse engineering my Coway air purifier to ditch the cloud</title>
+      <link>https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</link>
+      <guid>https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/</guid>
       <category>news</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>这款Ruby开发的开源个人财务应用让用户自行管理收支与财务数据，并由社区共同建设，今日新增967颗星。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>文章抓包识别云端接口协议并复现控制命令，提供绕开云服务的本地控制路径，评论还讨论网络隔离与本地接口风险。</description>
     </item>
     <item>
       <title>GoogleChrome/modern-web-guidance-src</title>
       <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
       <guid>https://github.com/GoogleChrome/modern-web-guidance-src</guid>
       <category>news</category>
-      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
-      <description>它把现代Web规范整理成智能编程工具可用的指导，帮助编码助手少用过时模式、提升一致性，今日新增739颗星。</description>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该项目以 TypeScript 实现，让编码智能体持续同步浏览器平台演进下的最新 Web 最佳实践，适合想提升前端代码质量、跟进现代标准的开发者和工具作者了解，今日新增 1,875 个 Star。</description>
+    </item>
+    <item>
+      <title>we-promise/sure</title>
+      <link>https://github.com/we-promise/sure</link>
+      <guid>https://github.com/we-promise/sure</guid>
+      <category>news</category>
+      <pubDate>Fri, 13 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Ruby 开源个人理财应用可帮管理财务，适合了解实现、参与协作或二次开发，且今日新增 944 颗星。</description>
     </item>
   </channel>
 </rss>
