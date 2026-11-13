@@ -1,0 +1,12 @@
+[11:53:47] === 开始 2026-11-13 ===
+[11:54:01] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-11-13.json
+[11:54:41] 并发摘要 28 条（4 路）用时 40s
+[11:54:41] HN 10 条，摘要成功 10
+[11:54:41] GH 10 条，摘要成功 10
+[11:54:41] 论文 8 篇，摘要成功 8
+Traceback (most recent call last):
+  File "/mnt/d/Basic/newsInAI/daily_run.py", line 432, in <module>
+    raise SystemExit(main())
+  File "/mnt/d/Basic/newsInAI/daily_run.py", line 313, in main
+    "published": f"{v['upload_date'][:4]}-{v['upload_date'][4:6]}-{v['upload_date'][6:]}",
+TypeError: 'NoneType' object is not subscriptable

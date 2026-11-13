@@ -1,6 +1,6 @@
 {
  "date": "2026-11-13",
- "summary": "今天的条目看似分散，主线其实是“控制权回收”：从给订阅制刺绣机自建应用、让LLM跑在小旧设备，到Rust、nvm、node、Quake 4 mod收尾和现代Web指南，都是对平台锁定、云依赖和黑箱升级的反弹；AI侧的Gemini、Qwen Code、codex-security、agent-skills则把竞争推向可编排、可审计的工程层。我的判断是，真正被高估的是“模型版本号加IPO/高管变动”的叙事，它们制造声量却不直接改善可用性；Anthropic IPO、Jensen Huang辞职这类标题与Microsoft 365故障并置，更说明资本和注意力会掩盖基础设施的脆弱。相对被低估的是离线与本地能力、可替换工具链和社区维护的长期价值。企业若只追逐最强模型而忽视退出成本和降级路径，下一次服务降级就会把AI红利打回原形。",
+ "summary": "今天的条目看似散乱，主线却是“控制权回归”：从小旧设备上跑LLM、为刺绣机自建应用，到Rust、nvm、Node的常规演进，再到modder补完Quake 4、现代Web指南与安全工具，关注点都落在可移植、可修补、可退出的工具链上；Microsoft 365降级和订阅硬件则提醒中心化依赖的脆弱。相比之下，Gemini 4 Hydrogen、Anthropic IPO、Jensen Huang辞职这类标题更像注意力经济的高光，模型版本号、资本事件和高管传闻被高估为变革指标。它们未必带来可用性、可靠性和用户议价权的提升。真正被低估的是本地与小设备推理、自建替代、长期维护和社区补完——这些慢工程才决定生态韧性。AI叙事仍重要，但若只追逐发布节奏，就会忽略今天更硬的信号：谁能把能力交到用户手里，谁才配谈下一代平台。",
  "movie": {
   "title": "Ikiru",
   "year": 1952,
@@ -27,7 +27,7 @@
    "title": "Jensen Huang resigns",
    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
    "published": "2026-11-12T13:52:29+00:00",
-   "summary": "这个 Hacker News 讨论以“Jensen Huang resigns”为标题，链接到美联社关于英伟达、Megaspeed、中国和新加坡的报道，获得 3110 分和 2907 条评论。评论区主要围绕标题是否准确、黄仁勋是否真的辞职、报道实际内容与标题之间的落差，以及英伟达在相关市场和监管议题上的处境展开。高热度显示用户对英伟达领导层和地缘业务话题非常关注。",
+   "summary": "Hacker News 上一条题为 Jensen Huang resigns 的帖子获得 3122 分和 2918 条评论，热度极高。其链接指向美联社关于英伟达、Megaspeed、中国和新加坡以及黄仁勋的报道，而非简单辞职声明。讨论集中在标题是否误导、报道涉及的英伟达合规与地缘政治问题，以及黄仁勋和公司可能受到的监管与市场影响。",
    "categories": [
     "hn"
    ],
@@ -40,7 +40,7 @@
    "title": "Anthropic IPO",
    "url": "https://ipo.anthropic.com/us/",
    "published": "2026-11-12T11:46:41+00:00",
-   "summary": "Hacker News 上出现题为“Anthropic IPO”的热门讨论，帖子链接到 ipo.anthropic.com/us/，目前获得 846 分和 823 条评论。讨论围绕 Anthropic 可能启动 IPO 的消息展开，社区用户关注其上市时机、估值水平、商业模式、与 OpenAI 等竞争对手的格局，以及人工智能公司融资和治理风险。较高的分数和评论数表明技术社区对头部 AI 公司资本化路径及其行业影响高度关注。",
+   "summary": "Hacker News 上出现题为 Anthropic IPO 的讨论，链接指向 ipo.anthropic.com/us/，获得 849 分和 823 条评论。该帖热度很高，社区主要围绕 Anthropic 是否筹备上市、潜在估值、商业模式、AI 安全治理以及上市对行业竞争格局的影响展开讨论，评论中既有对 AI 公司融资与透明度的关注，也有对其产品路线和市场前景的质疑与期待。",
    "categories": [
     "hn"
    ],
@@ -53,7 +53,7 @@
    "title": "Service degradation on Microsoft 365",
    "url": "https://status.cloud.microsoft/",
    "published": "2026-11-12T18:20:48+00:00",
-   "summary": "Hacker News 上一条题为 Service degradation on Microsoft 365 的讨论引发关注，帖子指向微软云状态页，已获得 587 分和 547 条评论。讨论主要聚焦此次服务降级的影响范围、状态页信息是否及时透明，以及企业对单一云办公套件的依赖风险。不少评论还涉及故障沟通、SLA 承诺、冗余设计和迁移成本，并反思大型云服务中断对日常协作与业务连续性的连锁影响。",
+   "summary": "Hacker News 上关于 Microsoft 365 服务降级的讨论获得 595 分和 554 条评论，帖子指向微软云状态页。参与者主要围绕故障影响范围、状态页信息是否及时透明、企业过度依赖云办公套件的风险，以及 SLA、备份和监控策略展开交流，并分享运维经验与替代方案。",
    "categories": [
     "hn"
    ],
@@ -66,7 +66,7 @@
    "title": "Rust 1.100",
    "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
    "published": "2026-11-12T18:39:05+00:00",
-   "summary": "Hacker News 上出现了关于 Rust 1.100 发布的技术讨论，帖子链接到 Rust 官方博客的发布公告，获得 490 分和 209 条评论。讨论围绕新版本带来的语言与工具链变化、升级兼容性、性能表现以及对现有项目的影响展开，也涉及社区对 Rust 演进节奏和生态维护的期待。",
+   "summary": "Hacker News 上关于 Rust 1.100 发布的讨论获得 501 分和 209 条评论，参与者围绕新版本带来的语言与工具链变化、稳定性和兼容性、生态影响以及 Rust 的长期演进方向展开交流，既有对具体改进的关注，也有对版本节奏和实际采用成本的讨论，整体反映出开发者对 Rust 持续发展的浓厚兴趣。",
    "categories": [
     "hn"
    ],
@@ -79,7 +79,7 @@
    "title": "Gemini 4 Hydrogen",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
    "published": "2026-11-12T18:01:48+00:00",
-   "summary": "Hacker News 上关于 Google 发布 Gemini 4 Hydrogen 的讨论帖获得 481 分和 304 条评论，关注度较高。讨论主要围绕新模型的能力边界、基准测试表现、与现有竞品的对比、API 成本和实际开发可用性展开，也有评论质疑发布信息的透明度与落地节奏。整体看，社区既对 Gemini 4 Hydrogen 的潜在改进表示期待，也对其能否在实际场景中稳定兑现宣传效果保持谨慎。",
+   "summary": "Hacker News 上围绕谷歌博客发布的 Gemini 4 Hydrogen 展开技术讨论，帖子获得 483 分和 304 条评论。讨论集中在模型能力、基准表现、与竞品对比、实际应用、成本与可用性、安全对齐等方面。社区既关注发布信息，也对宣传口径和评测真实性提出质疑，并分享使用体验和迁移建议。",
    "categories": [
     "hn"
    ],
@@ -92,7 +92,7 @@
    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
    "url": "https://github.com/simpsoka/zigzag",
    "published": "2026-11-12T17:02:42+00:00",
-   "summary": "Hacker News上一条Show HN帖子介绍，开发者因一台约300美元的绣花机必须依赖订阅服务，于是自行开发了开源应用zigzag作为替代并公开在GitHub。帖子获得380分和147条评论。讨论主要关注硬件被订阅制绑定带来的使用限制，以及用户通过自建软件夺回设备控制权的可行性，也涉及开源项目的维护、兼容性和厂商商业模式等话题。",
+   "summary": "Hacker News 上出现一则 Show HN 讨论，作者称自己花约 300 美元购买的绣花机竟需要订阅服务才能正常使用，于是开发了自建应用 Zigzag 并开源到 GitHub。帖子获得 386 分和 148 条评论，讨论围绕硬件订阅制、厂商锁定、逆向工程与开源替代方案展开，也涉及此类项目在兼容性、维护和用户体验上的挑战。",
    "categories": [
     "hn"
    ],
@@ -105,7 +105,7 @@
    "title": "Gemini 4 Hydrogen and Orchestrator",
    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
    "published": "2026-11-12T18:52:01+00:00",
-   "summary": "Hacker News 上关于 Gemini 4 Hydrogen 与 Orchestrator 的讨论获得 336 分和 86 条评论。帖子指向 Google Antigravity 博客，介绍这两个新发布。评论者主要关注模型能力提升、Orchestrator 在多步骤任务和开发流程中的编排作用，以及它们与现有工具和生态的整合。也有人讨论实际可用性、性能表现、成本和对开发者的影响。整体看，讨论既关注技术细节，也关心这类产品能否真正改变日常开发工作流。",
+   "summary": "Hacker News 上关于 Google Antigravity 博客发布 Gemini 4 Hydrogen 与 Orchestrator 的讨论获得 341 分和 87 条评论。讨论主要集中在 Gemini 4 Hydrogen 的模型能力、Orchestrator 如何协调多步骤任务以及在 Antigravity 平台中的集成方式，社区同时关注其实际可用性、性能表现和对开发工作流的影响。",
    "categories": [
     "hn"
    ],
@@ -118,7 +118,7 @@
    "title": "I'm making LLMs work on small and old devices",
    "url": "https://github.com/hyperionaidev/smolmaxxing/",
    "published": "2026-11-12T15:23:10+00:00",
-   "summary": "Hacker News上的一则技术讨论介绍了一个名为smolmaxxing的项目，目标是让大语言模型在小型和老旧设备上运行。帖子获得294分和101条评论，吸引开发者围绕模型压缩、内存占用、推理速度与硬件限制等话题展开交流，也探讨了在低资源环境中部署大语言模型的实际可行性、性能折衷以及潜在应用场景。",
+   "summary": "Hacker News 上一条题为 I'm making LLMs work on small and old devices 的讨论获得 294 分和 101 条评论，作者在 GitHub 项目 smolmaxxing 中分享让大语言模型适配小型及老旧设备的尝试。讨论围绕量化、内存占用、推理速度和硬件限制等展开，社区既关注实际可行性，也探讨这类方案在真实场景中的效果与取舍。",
    "categories": [
     "hn"
    ],
@@ -131,7 +131,7 @@
    "title": "Abandoned Quake 4 expansion finished by modders and now playable",
    "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
    "published": "2026-11-12T14:18:49+00:00",
-   "summary": "Hacker News 上一条关于 mod 社区完成被放弃的 Quake 4 扩展包的讨论获得 248 分和 87 条评论。帖子介绍 OpenQ4 项目发布 0.14.1 Windows x64 版本，使这个长期搁置的扩展内容现在可以游玩。讨论关注 modders 如何补齐未竟内容、处理兼容性与打包发布，也涉及老游戏扩展在社区维护下的可玩性和保存价值，链接指向 ModDB 下载页。",
+   "summary": "Hacker News 上有一则讨论关注被放弃的 Quake 4 扩展内容由模组作者完成并现已可玩，帖子获得 248 分和 87 条评论。项目 OpenQ4 提供 Windows x64 版 0.14.1 下载，让玩家体验原本未完成的资料片内容。讨论涉及模组社区接手官方遗留项目、兼容性与安装体验，以及老游戏在社区维护下延续生命力的可能。",
    "categories": [
     "hn"
    ],
@@ -144,7 +144,7 @@
    "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
    "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
    "published": "2026-11-12T19:05:33+00:00",
-   "summary": "Hacker News上围绕一则天文学发现展开讨论，相关帖子获得220分和102条评论。报道称天文学家在冥王星之外发现一个神秘天体，其绕太阳一周约需280年，可能属于新的矮行星候选。讨论涉及矮行星的判定标准、轨道特征与观测不确定性，也有人关注太阳系边缘天体的探测方式、命名和后续验证。",
+   "summary": "Hacker News 上围绕一则天文学报道展开讨论，该报道称天文学家在冥王星之外发现一个神秘天体，可能是新的矮行星候选者，其绕太阳公转周期约为280年。评论者关注其轨道特征、发现方法与观测证据，并讨论矮行星分类标准以及太阳系边缘天体如何影响现有模型。也有人提到远距离天体的探测难度和后续确认所需观测。整体讨论既肯定发现意义，也提醒对候选身份保持谨慎。",
    "categories": [
     "hn"
    ],
@@ -157,7 +157,7 @@
    "title": "GoogleChrome/modern-web-guidance-src",
    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
    "published": "2026-11-13",
-   "summary": "modern-web-guidance-src 是 GoogleChrome 在 GitHub 上开源的项目，使用 TypeScript 开发，旨在让编码智能体及时掌握最新 Web 最佳实践。项目帮助开发者把现代 Web 开发规范与建议提供给 AI 编程助手，使其生成的代码更符合当前标准。发布后获得较多关注，今日新增 739 星，适合关注 AI 辅助开发与前端工程实践的用户了解和使用。",
+   "summary": "GoogleChrome/modern-web-guidance-src 是 Google Chrome 团队在 GitHub 上开源的项目，使用 TypeScript 编写，旨在让编码代理及时掌握最新的 Web 最佳实践。项目今日新增 739 颗星，受到开发者关注。它把现代 Web 开发规范与建议整理为可供智能编程工具使用的指导内容，帮助编码助手在生成代码时遵循更新后的标准与做法，减少过时模式，提升开发质量与一致性。",
    "categories": [
     "TypeScript"
    ],
@@ -170,7 +170,7 @@
    "title": "openai/codex-security",
    "url": "https://github.com/openai/codex-security",
    "published": "2026-11-13",
-   "summary": "openai/codex-security 是 OpenAI 推出的开源安全工具，使用 TypeScript 编写，提供命令行界面和 TypeScript SDK 两种使用方式，帮助开发者在代码中查找、验证并修复安全漏洞。项目今日新增约 643 颗星，受到社区广泛关注。开发者可通过 npm 安装 @openai/codex-security 包快速集成到现有工作流中，在开发阶段及早发现潜在风险，提升代码安全性。该工具适合需要在持续集成或本地开发环境中自动化安全检测的团队使用。",
+   "summary": "openai/codex-security 是 OpenAI 推出的开源安全工具，提供 Codex Security 命令行界面与 TypeScript SDK，用于发现、验证并修复安全漏洞。项目以 TypeScript 编写，已发布为 npm 包 @openai/codex-security，便于开发者集成到现有工作流中。该项目今日新增 643 颗星，关注度较高，适合需要自动化安全检测与修复能力的团队试用。",
    "categories": [
     "TypeScript"
    ],
@@ -183,7 +183,7 @@
    "title": "nvm-sh/nvm",
    "url": "https://github.com/nvm-sh/nvm",
    "published": "2026-11-13",
-   "summary": "nvm 是一个在 GitHub 上开源的项目，全称为 Node Version Manager，主要用 Shell 编写。它提供符合 POSIX 规范的 bash 脚本，帮助开发者在同一台机器上安装、切换和管理多个处于活跃状态的 Node.js 版本，从而方便不同项目使用各自所需的运行环境。该项目今日新增 63 星，适合需要频繁处理 Node.js 版本兼容问题的开发者使用。",
+   "summary": "nvm-sh/nvm 是 GitHub 上的开源 Node.js 版本管理工具，项目以 Shell 编写，核心是一个符合 POSIX 规范的 bash 脚本，用于在同一台机器上安装、切换和管理多个处于活跃状态的 Node.js 版本。它帮助开发者在不同项目之间灵活切换运行时环境，避免版本冲突，提升开发与测试效率。该项目今日新增 63 星，受到开发者关注。",
    "categories": [
     "Shell"
    ],
@@ -196,7 +196,7 @@
    "title": "pookjw/HermesEnabler",
    "url": "https://github.com/pookjw/HermesEnabler",
    "published": "2026-11-13",
-   "summary": "pookjw/HermesEnabler 是一个使用 Objective-C 编写的开源项目，旨在让任意 Apple Watch 设备启用 Hermès 爱马仕表盘。该项目今日在 GitHub 上新增 218 颗星，受到较多关注。对于希望体验爱马仕专属表盘但使用普通 Apple Watch 的用户，它提供了一种实现方式，适合关注 Apple Watch 个性化与表盘扩展的开发者了解和研究。",
+   "summary": "pookjw/HermesEnabler是一个使用Objective-C开发的开源项目，旨在让任意Apple Watch设备启用原本专属于爱马仕版本的表盘。该项目今日新增218颗星，说明其功能受到较多关注。对于希望在不更换设备的情况下体验爱马仕表盘的用户来说，这个项目提供了一种值得了解的实现思路。",
    "categories": [
     "Objective-C"
    ],
@@ -209,7 +209,7 @@
    "title": "we-promise/sure",
    "url": "https://github.com/we-promise/sure",
    "published": "2026-11-13",
-   "summary": "we-promise/sure 是 GitHub 上的开源个人财务应用项目，采用 Ruby 语言开发，定位为面向所有人、也由所有人共同参与建设的财务管理工具。项目今日新增 967 星，关注度较高，适合希望了解或参与开源个人理财应用开发与社区协作的开发者关注。",
+   "summary": "we-promise/sure 是一个面向所有人的开源个人财务应用，强调由社区共同参与建设，适合希望自行管理收支与财务数据的用户。项目使用 Ruby 语言开发，目前在 GitHub 上获得广泛关注，今日新增 967 颗星，体现出个人理财工具与开源协作模式结合的吸引力。",
    "categories": [
     "Ruby"
    ],
@@ -222,7 +222,7 @@
    "title": "QwenLM/qwen-code",
    "url": "https://github.com/QwenLM/qwen-code",
    "published": "2026-11-13",
-   "summary": "QwenLM/qwen-code 是一个开源项目，采用 TypeScript 开发，定位为运行在终端中的 AI 编程代理。它让开发者可以直接在命令行环境里与 AI 协作完成编码任务，减少在编辑器与网页工具之间来回切换。项目今日新增 151 颗星，关注度持续上升。对于偏好终端工作流、希望把 AI 辅助编程融入日常开发流程的开发者来说，该项目提供了一个值得关注的开源选择。",
+   "summary": "QwenLM/qwen-code 是一个运行在终端中的开源 AI 编程代理，主要使用 TypeScript 开发。它面向开发者提供命令行内的智能编码辅助，让用户可以直接在终端环境里与 AI 协作完成代码相关任务。该项目今日新增 151 个星标，体现出社区关注度正在上升。对于希望把 AI 编码能力融入日常开发流程的开发者来说，这是一个值得了解的开源选择。",
    "categories": [
     "TypeScript"
    ],
@@ -235,7 +235,7 @@
    "title": "ashhart/TensorFold",
    "url": "https://github.com/ashhart/TensorFold",
    "published": "2026-11-13",
-   "summary": "TensorFold 是 GitHub 上的开源项目，使用 Zig 语言实现，定位为面向大语言模型的推理引擎，支持 Metal、CUDA 与 Vulkan 三种计算后端。该项目今日新增 54 颗星，显示出社区关注度。它旨在为不同硬件平台提供统一的模型推理能力，方便开发者在苹果设备、英伟达显卡以及支持 Vulkan 的环境中部署大语言模型。Zig 语言带来的底层控制与性能优势，使其在跨平台推理场景中具有一定吸引力。",
+   "summary": "TensorFold 是 GitHub 上的开源项目，使用 Zig 语言开发，定位为面向大语言模型的推理引擎，支持 Metal、CUDA 和 Vulkan 三种计算后端，便于在不同硬件平台上运行模型推理。项目今日新增 54 个 Star，显示出一定关注度。其目标是为 LLM 推理提供跨平台、轻量且可移植的实现方案。",
    "categories": [
     "Zig"
    ],
@@ -248,7 +248,7 @@
    "title": "nodejs/node",
    "url": "https://github.com/nodejs/node",
    "published": "2026-11-13",
-   "summary": "nodejs/node 是 Node.js 的官方开源仓库，主要使用 JavaScript 开发。该项目提供跨平台的 JavaScript 运行时，让开发者能够在服务器端和命令行环境中执行 JavaScript 代码，并围绕核心、标准库、工具链和文档持续演进。作为广泛使用的开源项目，它拥有活跃的社区协作和丰富的生态支持。今日该项目新增 62 星，简介为 Node.js JavaScript runtime，体现出开发者对高性能 JavaScript 运行时的持续关注。",
+   "summary": "nodejs/node 是 Node.js 官方开源仓库，提供基于 JavaScript 的运行时环境，让开发者能在浏览器之外运行 JavaScript，常用于服务端、命令行工具和网络应用开发。项目以 JavaScript 为主要语言，社区活跃、生态成熟，拥有完善文档和跨平台支持。今日新增 62 星，显示其持续受到关注。它适合构建高性能、可扩展的应用，也为现代前端工程和全栈开发提供重要基础设施。",
    "categories": [
     "JavaScript"
    ],
@@ -261,7 +261,7 @@
    "title": "addyosmani/agent-skills",
    "url": "https://github.com/addyosmani/agent-skills",
    "published": "2026-11-13",
-   "summary": "addyosmani/agent-skills 是一个面向 AI 编程代理的开源项目，使用 JavaScript 编写，主打为智能体提供生产级工程技能。项目旨在把真实软件开发中的规范、流程与最佳实践沉淀为可复用的能力，帮助 AI 编程代理更可靠地完成代码生成、审查与工程协作任务。凭借清晰的定位和实用价值，该项目今日新增 816 星，受到开发者关注。对于希望提升 AI 编程代理工程质量的团队，这是一个值得了解与跟进的开源资源。",
+   "summary": "addyosmani/agent-skills 是一个使用 JavaScript 开发的开源项目，旨在为 AI 编码代理提供生产级工程技能。项目今日新增 816 颗星，受到开发者广泛关注。它汇集面向实际工程场景的技能与规范，帮助 AI 代理在代码生成、审查和维护等任务中遵循更可靠的工程实践，从而提升开发效率与产出质量。",
    "categories": [
     "JavaScript"
    ],
@@ -274,7 +274,7 @@
    "title": "meta/astryx",
    "url": "https://github.com/meta/astryx",
    "published": "2026-11-13",
-   "summary": "meta/astryx 是一个使用 TypeScript 开发的开源设计系统，主打完全可定制和面向智能体就绪。项目今日新增 1830 星，显示出较高的社区关注度。它为开发者提供灵活可配置的组件与设计规范，便于构建风格统一的界面，同时适应 AI 代理参与开发与交互的场景。团队可以基于自身品牌和业务需求调整样式与行为，降低设计与开发协作成本。该项目适合关注设计系统、TypeScript 前端工程和智能体集成的开发者了解与试用。",
+   "summary": "meta/astryx 是一个使用 TypeScript 开发的开源设计系统，主打完全可定制与面向智能体的使用体验。项目今日在 GitHub 新增 1830 星，显示出较高关注度。它为开发者提供可灵活调整的设计基础，并兼顾智能体场景下的集成与协作需求，适合希望构建统一界面体系并探索智能体应用的团队参考和使用。",
    "categories": [
     "TypeScript"
    ],
@@ -287,7 +287,7 @@
    "title": "Learning a calibrated decision head from logged bandit feedback",
    "url": "http://arxiv.org/abs/2611.15572v1",
    "published": "2026-11-13",
-   "summary": "论文研究如何利用部署后仅能观察到所选选项是否正确这类日志型bandit反馈，来训练一次前向即可输出各选项概率的校准决策头，并在Qwen3小模型上用LoRA适配。作者发现，把采样动作自身概率的Brier或对数分数直接当作REINFORCE奖励并不可用：错误动作的奖励不低于正确动作，采用均值基线时最低概率的错误动作反而获得最大优势，二选一时信号为零，一次实验中还将有序尺度问题准确率从0.636降至0.111。将概率按路径梯度作为损失，或使用r与r减p奖励，可避免这种崩溃。在完整标签下，所测四种bandit方案均未超过交叉熵加单一温度校准的平均表现。",
+   "summary": "论文研究如何仅利用部署后记录到的bandit反馈来学习校准的决策头。决策头读取状态和选项列表并一次前向输出各选项概率，部署后通常只观察到所选选项是否正确。作者用LoRA在Qwen3-0.6B-Base和1.7B-Base上适配并报告结果。首先，采样动作自身概率的Brier或log评分不能作为可用的REINFORCE奖励，错误动作至少获得正确动作的奖励，均值基线会使最低概率错误动作获得最大优势，两选项时信号为零，一次运行还把有序尺度问题准确率从0.636降到0.111。将概率作为损失用路径梯度可避免崩溃，奖励r和r减p也可避免。其次，有完整标签时，四个bandit方法均未超过交叉熵加一个温度。摘要约220字内。",
    "categories": [
     "paper"
    ],
@@ -300,7 +300,7 @@
    "title": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
    "url": "http://arxiv.org/abs/2611.15569v1",
    "published": "2026-11-13",
-   "summary": "该论文关注推理视觉语言模型在长多模态上下文和不断增长的推理轨迹下产生的KV缓存压力。现有低秩KV压缩方法在压缩推理状态时容易偏离稠密模型的预测策略并导致推理失败，原因包括静态校准状态与在线策略推理状态不匹配以及不同KV状态误差敏感度不一致。为此，作者提出免训练的TraceKV框架，将在线策略校准、敏感度感知SVD和全局秩分配统一在保持策略的原则下，显著降低策略漂移并维持推理性能。",
+   "summary": "面向推理视觉语言模型，KV缓存因多模态上下文和不断增长的推理轨迹而需求巨大。现有低秩KV压缩在压缩推理KV状态时容易产生预测策略漂移并导致推理失败，其主要原因包括静态上下文与在线策略推理状态之间的校准失配，以及不同KV状态误差敏感度不均。为此，TraceKV提出一种无需训练的低秩KV缓存压缩框架，将在线策略校准、敏感度感知SVD和全局秩分配统一在保持策略的原则下，在显著降低策略漂移的同时压缩缓存，从而维持推理性能。",
    "categories": [
     "paper"
    ],
@@ -313,7 +313,7 @@
    "title": "Can We Make an LLM Dumber, or Is It Just Playing Dumb? An Empirical Study of Believable Performance Throttling",
    "url": "http://arxiv.org/abs/2611.15568v1",
    "published": "2026-11-13",
-   "summary": "本文研究模型评测的逆问题：能否把大模型驱动到指定目标分数，并使其失败模式接近自然弱模型。作者从目标校准、题目难度结构和与真实弱参考的误差分布相似性三个维度界定可信性能降低，并提出经IRT校准的CapLadder基准，含1985道数学、代码、多选推理和工具使用题。实验表明，弱教师LoRA调节可在推理任务上达到未见目标，留出校准误差1.9个百分点，而提示、温度和权重噪声难以兼顾范围与精度。但在多选上该调节会收敛到答案词元吸引子，新增错误最多97%集中于同一字母，且吸引子随模型变化。",
+   "summary": "本文研究大语言模型能否被可控降低到指定基准分数，并使失败模式类似自然弱模型。作者从目标校准、难度结构和与真实弱参考的错误分布相似性三方面界定可信性能降低，提出IRT校准的CapLadder基准，含1985道数学、代码、多选推理和工具使用题。实验发现，弱教师LoRA调节可在推理任务达到未见目标水平，留出校准误差1.9点，而提示、温度和权重噪声难以兼具范围与精度。但在",
    "categories": [
     "paper"
    ],
@@ -326,7 +326,7 @@
    "title": "Observations Drift, Structures Remain: Structural Pretraining with Time Alignment for Electromagnetic Signals",
    "url": "http://arxiv.org/abs/2611.15566v1",
    "published": "2026-11-13",
-   "summary": "针对异构I/Q观测上的电磁信号自监督预训练，现有方法多在混合观测上采用统一重建目标，却忽略了波形由信号生成、传播环境和采集过程共同塑造，其中可复用结构规律与观测特定变化相互混杂。传播相关的外观差异和采集相关的时间坐标差异分别造成外观失配与时间失配，使模型更容易重建观测特定外观和采样坐标，而非稳定信号结构，形成观测偏置预训练。为此，本文提出面向电磁信号的结构预训练与时间对齐方法，旨在抑制观测捷径，保留跨观测可迁移的结构规律。",
+   "summary": "电磁信号建模正转向异构I/Q观测的自监督预训练，但观测波形同时受信号生成、传播环境和采集过程影响，混合了可复用结构规律与观测特定变化。现有重建式统一预训练会因传播导致的外观差异和采集导致的时间坐标差异，优先拟合观测特定外观与采样坐标，形成观测捷径并偏离稳定信号结构。该文将这一失效模式识别为观测偏置预训练，并围绕结构预训练与时间对齐展开研究，旨在抑制外观漂移和时间错位带来的干扰，促使模型学习跨观测可复用的电磁信号结构表征。",
    "categories": [
     "paper"
    ],
@@ -339,7 +339,7 @@
    "title": "What Conformal Selection Can Certify in CRISPR Off-Target Design:Benchmark Leakage, Free Baselines, and a Finite-Sample Cohort Requirement",
    "url": "http://arxiv.org/abs/2611.15555v1",
    "published": "2026-11-13",
-   "summary": "本文考察保形选择在CRISPR脱靶设计中能证明什么。保形选择承诺有限样本下无分布控制决策错误率，但现有验证数据受算术约束。保形p值不低于校准队列大小加一的倒数，故Benjamini-Hochberg选择认证单个候选时，校准队列至少须为候选池规模除以容忍错误率。公共队列仅有十个验证向导，而两千候选在百分之十错误率下需要两万样本，导致超过百分之九十六的划分中接受集为空。论文还指出基准泄漏与免费基线问题，并强调有限样本",
+   "summary": "该论文考察共形选择在CRISPR脱靶设计中究竟能提供何种安全认证。作者指出，共形p值存在一除以校准队列规模加一的下界，因此BH选择只有在校准队列不少于候选池规模除以容忍错误率时才能认证单个候选。公共队列仅提供十个验证引导，而两千候选池在百分之十错误率下需要两万样本，导致超过百分之九十六的数据划分中接受集为空。论文还分析基准泄漏与免费基线如何掩盖该问题，并强调有限样本队列要求。",
    "categories": [
     "paper"
    ],
@@ -352,7 +352,7 @@
    "title": "DafnyCert: Certifying Specification Strength in Dafny",
    "url": "http://arxiv.org/abs/2611.15548v1",
    "published": "2026-11-13",
-   "summary": "本文提出 DafnyCert，用于生成可检查证书以证明 Dafny 规范的强度。Dafny 验证只保证实现相对于规范正确，但规范可能过于宽松，使同一输入允许多个输出。弱证书包含一个能通过原规范验证的替代实现，以及在原实现与替代实现上产生不同结果的见证输入。强证书则围绕原方法构造验证框架，若该框架验证成功，即可保证规范对任意输入至多允许一个输出。该工具可自动生成这些证书，为规范强弱提供可独立核验的证据。",
+   "summary": "DafnyCert 关注 Dafny 方法验证中规范可能过于宽松的问题。即使实现相对规范正确，同一输入仍可能被规范允许多个输出。该工具自动生成可独立检查的证书，以证明规范是弱还是强。弱证书给出一个能通过原规范验证的替代实现，以及两者输出不同的见证输入。强证书则围绕原方法构造验证框架，若该框架验证成功，就说明规范对任意输入至多允许一个输出。DafnyCert 能自动产生这些证书，从而为规范强度提供可验证证据。",
    "categories": [
     "paper"
    ],
@@ -365,7 +365,7 @@
    "title": "Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss",
    "url": "http://arxiv.org/abs/2611.15543v1",
    "published": "2026-11-13",
-   "summary": "LLM应用常借助翻译器和兼容层在不同API间迁移对话，但翻译请求可能被目标API接受却静默丢失指令角色、工具交互、错误状态或生成控制等信息。论文提出isloss，一种确定性判据，用于测试跨LLM API翻译的对话信息保持性。它将源与翻译后的请求和回复映射到共享中间",
+   "summary": "本文介绍一种面向大语言模型API翻译的对话信息保持测试方法。跨API迁移对话时，翻译后的请求可能被目标接口正常接受，却静默丢失指令角色、工具交互、错误状态或生成控制等信息。作者提出确定性判定器isloss，将源端与翻译端的请求和回复映射到共享中间表示ConvIR，并通过显式规则区分合法表示变化与信息丢失。与模式校验和基于参考的差分测试不同，该方法无需参考翻译或额外模型调用，还能区分可避免丢失与目标API限制造成的退化。论文采用基于规范的故障注入进行评估。",
    "categories": [
     "paper"
    ],
@@ -378,11 +378,81 @@
    "title": "Faithful in Steps: Improving Generalization and Citation in RAG via Query Decomposition",
    "url": "http://arxiv.org/abs/2611.15538v1",
    "published": "2026-11-13",
-   "summary": "本文介绍一种名为QDRAG的新型可归因检索增强生成框架，旨在提升多跳推理与多模态理解场景下的泛化能力和引用质量。现有可归因RAG方法在这些场景中容易出现过度引用、隐式实体识别失败和泛化性能下降等问题。QDRAG先将输入问题分解为原子子问题以识别隐式实体，再利用重排序器剪枝上下文干扰项，从而减少下游过度引用。为支持查询分解，作者还提出QD-C和QD-R两种零样本方法，用于指导多模态大模型完成分解。该框架有望增强答案的可验证性与可信度。",
+   "summary": "检索增强生成常用于缓解大语言模型幻觉，可归因RAG（RAGQ）通过为答案生成引文来标明支持答案的输入上下文，从而提升可验证性与可信度。但现有RAGQ在需要多跳推理和多模态理解的问题上性能明显下降，容易出现过度引用、隐式实体识别失败和泛化能力不足。本文提出QDRAG框架，先将输入问题分解为原子子问题以识别隐式实体，再利用重排序器剪除上下文干扰以消除下游过度引用。为促进查询分解，作者还提出QD-C和QD-R两种零样本方法，指导多模态大模型完成分解，旨在提升RAG的泛化性和引文质量。",
    "categories": [
     "paper"
    ],
    "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
+   "url": "https://www.youtube.com/watch?v=vlfCjWuv4es",
+   "published": "2026-11-13",
+   "summary": "Anthropic 的 Lydia Hallie 在视频里重新拆解 Claude Code 的提示与工具调用习惯，能帮你判断哪些旧最佳实践该改。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/vlfCjWuv4es/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Stop Shipping LLM Settings That Only Win on Paper - Rohan Pandey & Balaji Varadarajan, DigitalOcean",
+   "url": "https://www.youtube.com/watch?v=cWrYEBlWpcY",
+   "published": "2026-11-13",
+   "summary": "DigitalOcean 的 Rohan Pandey 与 Balaji Varadarajan 提出“只在纸面胜出的 LLM 设置别上线”，用真实流量表现校验评测分数。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/cWrYEBlWpcY/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Your SKILL.md Is 70% Stuff the Model Already Knows - Nikolay Petrov, Intel",
+   "url": "https://www.youtube.com/watch?v=yzx4IuEh_tU",
+   "published": "2026-11-13",
+   "summary": "Intel 的 Nikolay Petrov 用 70% 这个数字指出 SKILL.md 大半是模型已知内容，建议只保留模型真正不知道的关键差异。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/yzx4IuEh_tU/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Your Spec Has Bugs. Catch Them Before Your Agent Codes. - Rajath Mahendrappa Kotyal, AWS",
+   "url": "https://www.youtube.com/watch?v=0EnLxIbAvYk",
+   "published": "2026-11-13",
+   "summary": "AWS 讲者提出在 AI 代理写代码前先审查规格缺陷，避免错误需求被直接实现成代码。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/0EnLxIbAvYk/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Inside Theranos with ex-Employee Tyler Shultz",
+   "url": "https://www.youtube.com/watch?v=iXWSYlAX5Lg",
+   "published": "2026-11-13",
+   "summary": "前Theranos员工Tyler Shultz亲述他如何发现爱迪生血液检测仪结果不可靠并向监管举报，能看清硅谷独角兽造假怎样被内部人戳破。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/iXWSYlAX5Lg/hqdefault.jpg"
   },
   {
    "kind": "news",
@@ -391,7 +461,7 @@
    "title": "Jensen Huang resigns",
    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
    "published": "2026-11-13",
-   "summary": "评论辨析标题是否准确、黄仁勋是否辞职及报道落差，可了解英伟达在中国、新加坡市场和监管中的处境。",
+   "summary": "2918条讨论辨明标题误导，链接实为美联社对英伟达合规及地缘政治风险、监管与市场影响的报道。",
    "categories": [
     "pick"
    ],
@@ -404,7 +474,7 @@
    "title": "Anthropic IPO",
    "url": "https://ipo.anthropic.com/us/",
    "published": "2026-11-13",
-   "summary": "846票、823条评论讨论Anthropic可能启动IPO，涉及上市时机、估值、商业模式、与OpenAI竞争及融资治理风险。",
+   "summary": "849票、823条讨论围绕上市筹备、估值、商业模式与AI安全治理展开，并关注融资透明度和行业竞争。",
    "categories": [
     "pick"
    ],
@@ -417,7 +487,7 @@
    "title": "we-promise/sure",
    "url": "https://github.com/we-promise/sure",
    "published": "2026-11-13",
-   "summary": "Ruby开源个人财务应用今日新增967星，面向所有人共建，适合了解或参与开源个人理财开发与社区协作的开发者。",
+   "summary": "这款Ruby开发的开源个人财务应用让用户自行管理收支与财务数据，并由社区共同建设，今日新增967颗星。",
    "categories": [
     "pick"
    ],
@@ -430,7 +500,7 @@
    "title": "GoogleChrome/modern-web-guidance-src",
    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
    "published": "2026-11-13",
-   "summary": "它用TypeScript开源，把现代Web规范与建议提供给AI编程助手以生成更符合当前标准的代码，今日新增739个星标。",
+   "summary": "它把现代Web规范整理成智能编程工具可用的指导，帮助编码助手少用过时模式、提升一致性，今日新增739颗星。",
    "categories": [
     "pick"
    ],

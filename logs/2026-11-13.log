@@ -321,3 +321,28 @@
 [11:49:48] 精选 4 条
 [11:49:59] 内容写入 content/2026-11-13.json，共 32 条
 [11:49:59] build rc=0 items: 32 | kinds: ['github_trending', 'hacker_news', 'news', 'paper']
+[11:50:01] commit rc=0 [main ab53549] daily: 2026-11-13 自动更新（1 处降级）
+[11:50:04] push main rc=128 and the repository exists.
+[11:50:08] push gh-pages rc=128 and the repository exists.
+[11:50:08] === 完成，降级项 1 ===
+[11:50:08] 降级明细: 视频采集失败×1
+[11:53:47] === 开始 2026-11-13 ===
+[11:54:01] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-11-13.json
+[11:54:41] 并发摘要 28 条（4 路）用时 40s
+[11:54:41] HN 10 条，摘要成功 10
+[11:54:41] GH 10 条，摘要成功 10
+[11:54:41] 论文 8 篇，摘要成功 8
+[11:58:35] === 开始 2026-11-13 ===
+[11:58:50] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-11-13.json
+[11:59:17]   摘要不合规（229 字），重试
+[12:00:26]   摘要失败 HTTPError: HTTP Error 502: Bad Gateway
+[12:00:26] 并发摘要 28 条（4 路）用时 96s
+[12:00:26] HN 10 条，摘要成功 10
+[12:00:26] GH 10 条，摘要成功 10
+[12:00:26] 论文 8 篇，摘要成功 7
+[12:00:39]   自愈补回 [paper] Can We Make an LLM Dumber, or Is It 
+[12:00:39] 自愈完成：补回 1 条，摘要缺失清零
+[12:03:34] 视频 5 条
+[12:04:57] 精选 4 条
+[12:05:10] 内容写入 content/2026-11-13.json，共 37 条
+[12:05:10] build rc=0 items: 37 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']

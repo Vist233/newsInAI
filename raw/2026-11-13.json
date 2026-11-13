@@ -3,15 +3,15 @@
   {
    "title": "Jensen Huang resigns",
    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-   "points": 3110,
-   "comments": 2907,
+   "points": 3122,
+   "comments": 2918,
    "published": "2026-11-12T13:52:29+00:00",
    "hn_id": "50467087"
   },
   {
    "title": "Anthropic IPO",
    "url": "https://ipo.anthropic.com/us/",
-   "points": 846,
+   "points": 849,
    "comments": 823,
    "published": "2026-11-12T11:46:41+00:00",
    "hn_id": "50465829"
@@ -19,15 +19,15 @@
   {
    "title": "Service degradation on Microsoft 365",
    "url": "https://status.cloud.microsoft/",
-   "points": 587,
-   "comments": 547,
+   "points": 595,
+   "comments": 554,
    "published": "2026-11-12T18:20:48+00:00",
    "hn_id": "50471731"
   },
   {
    "title": "Rust 1.100",
    "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-   "points": 490,
+   "points": 501,
    "comments": 209,
    "published": "2026-11-12T18:39:05+00:00",
    "hn_id": "50472038"
@@ -35,7 +35,7 @@
   {
    "title": "Gemini 4 Hydrogen",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-   "points": 481,
+   "points": 483,
    "comments": 304,
    "published": "2026-11-12T18:01:48+00:00",
    "hn_id": "50471431"
@@ -43,16 +43,16 @@
   {
    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
    "url": "https://github.com/simpsoka/zigzag",
-   "points": 380,
-   "comments": 147,
+   "points": 386,
+   "comments": 148,
    "published": "2026-11-12T17:02:42+00:00",
    "hn_id": "50470488"
   },
   {
    "title": "Gemini 4 Hydrogen and Orchestrator",
    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-   "points": 336,
-   "comments": 86,
+   "points": 341,
+   "comments": 87,
    "published": "2026-11-12T18:52:01+00:00",
    "hn_id": "50472260"
   },
@@ -75,26 +75,26 @@
   {
    "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
    "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
-   "points": 220,
-   "comments": 102,
+   "points": 223,
+   "comments": 103,
    "published": "2026-11-12T19:05:33+00:00",
    "hn_id": "50472490"
   },
   {
+   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+   "url": "https://unemploymentlabs.com/checkpoint-forensics",
+   "points": 207,
+   "comments": 56,
+   "published": "2026-11-12T21:56:11+00:00",
+   "hn_id": "50474883"
+  },
+  {
    "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
    "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
-   "points": 201,
+   "points": 202,
    "comments": 2,
    "published": "2026-11-12T14:12:37+00:00",
    "hn_id": "50467460"
-  },
-  {
-   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-   "url": "https://unemploymentlabs.com/checkpoint-forensics",
-   "points": 198,
-   "comments": 55,
-   "published": "2026-11-12T21:56:11+00:00",
-   "hn_id": "50474883"
   }
  ],
  "github_trending": [

@@ -1,0 +1,14 @@
+[11:58:35] === 开始 2026-11-13 ===
+[11:58:50] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-11-13.json
+[11:59:17]   摘要不合规（229 字），重试
+[12:00:26]   摘要失败 HTTPError: HTTP Error 502: Bad Gateway
+[12:00:26] 并发摘要 28 条（4 路）用时 96s
+[12:00:26] HN 10 条，摘要成功 10
+[12:00:26] GH 10 条，摘要成功 10
+[12:00:26] 论文 8 篇，摘要成功 7
+[12:00:39]   自愈补回 [paper] Can We Make an LLM Dumber, or Is It 
+[12:00:39] 自愈完成：补回 1 条，摘要缺失清零
+[12:03:34] 视频 5 条
+[12:04:57] 精选 4 条
+[12:05:10] 内容写入 content/2026-11-13.json，共 37 条
+[12:05:10] build rc=0 items: 37 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
