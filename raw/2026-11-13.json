@@ -3,98 +3,98 @@
   {
    "title": "Jensen Huang resigns",
    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-   "points": 2638,
-   "comments": 2534,
+   "points": 2729,
+   "comments": 2604,
    "published": "2026-11-12T13:52:29+00:00",
    "hn_id": "50467087"
   },
   {
    "title": "Anthropic IPO",
    "url": "https://ipo.anthropic.com/us/",
-   "points": 767,
-   "comments": 762,
+   "points": 786,
+   "comments": 781,
    "published": "2026-11-12T11:46:41+00:00",
    "hn_id": "50465829"
   },
   {
    "title": "Gemini 4 Hydrogen",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-   "points": 411,
-   "comments": 273,
+   "points": 426,
+   "comments": 280,
    "published": "2026-11-12T18:01:48+00:00",
    "hn_id": "50471431"
   },
   {
    "title": "Service degradation on Microsoft 365",
    "url": "https://status.cloud.microsoft/",
-   "points": 365,
-   "comments": 348,
+   "points": 409,
+   "comments": 394,
    "published": "2026-11-12T18:20:48+00:00",
    "hn_id": "50471731"
   },
   {
    "title": "Why writing correct software is hard and why math (alone) won’t help us (2016)",
    "url": "https://pron.github.io/posts/correctness-and-complexity",
-   "points": 342,
-   "comments": 163,
+   "points": 348,
+   "comments": 166,
    "published": "2026-11-12T10:28:26+00:00",
    "hn_id": "50465352"
   },
   {
    "title": "Rust 1.100",
    "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-   "points": 262,
-   "comments": 129,
+   "points": 311,
+   "comments": 137,
    "published": "2026-11-12T18:39:05+00:00",
    "hn_id": "50472038"
   },
   {
-   "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
-   "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
-   "points": 249,
-   "comments": 185,
-   "published": "2026-11-12T16:29:13+00:00",
-   "hn_id": "50469994"
-  },
-  {
-   "title": "I'm making LLMs work on small and old devices",
-   "url": "https://github.com/hyperionaidev/smolmaxxing/",
-   "points": 249,
-   "comments": 86,
-   "published": "2026-11-12T15:23:10+00:00",
-   "hn_id": "50468888"
-  },
-  {
    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
    "url": "https://github.com/simpsoka/zigzag",
-   "points": 243,
-   "comments": 101,
+   "points": 264,
+   "comments": 113,
    "published": "2026-11-12T17:02:42+00:00",
    "hn_id": "50470488"
   },
   {
-   "title": "Abandoned Quake 4 expansion finished by modders and now playable",
-   "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
-   "points": 227,
-   "comments": 77,
-   "published": "2026-11-12T14:18:49+00:00",
-   "hn_id": "50467618"
+   "title": "I'm making LLMs work on small and old devices",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "points": 263,
+   "comments": 88,
+   "published": "2026-11-12T15:23:10+00:00",
+   "hn_id": "50468888"
   },
   {
    "title": "Gemini 4 Hydrogen and Orchestrator",
    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-   "points": 211,
-   "comments": 55,
+   "points": 238,
+   "comments": 58,
    "published": "2026-11-12T18:52:01+00:00",
    "hn_id": "50472260"
   },
   {
+   "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+   "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+   "points": 230,
+   "comments": 80,
+   "published": "2026-11-12T14:18:49+00:00",
+   "hn_id": "50467618"
+  },
+  {
    "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
    "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
-   "points": 171,
+   "points": 177,
    "comments": 2,
    "published": "2026-11-12T14:12:37+00:00",
    "hn_id": "50467460"
+  },
+  {
+   "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+   "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
+   "points": 169,
+   "comments": 79,
+   "published": "2026-11-12T19:05:33+00:00",
+   "hn_id": "50472490"
   }
  ],
  "github_trending": [

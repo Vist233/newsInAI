@@ -148,3 +148,160 @@
 [07:27:57] Insight 失败 HTTPError
 [07:27:57] 内容写入 content/2026-11-13.json，共 36 条
 [07:27:58] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[07:28:00] commit rc=0 [main 8532adb] daily: 2026-11-13 自动更新（30 处降级）
+[07:28:02] push main rc=128 and the repository exists.
+[07:28:08] push gh-pages rc=128 and the repository exists.
+[07:28:08] === 完成，降级项 30 ===
+[07:28:08] 降级明细: HN 摘要缺失×10, GH 摘要缺失×10, 论文摘要缺失×8, Insight 失败×1, Insight 降级×1
+[07:45:22] === 开始 2026-11-13 ===
+[07:45:32] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-11-13.json
+[07:45:42]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:45:42]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:45:42]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:45:42]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:45:53]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:45:53]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:45:53]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:45:53]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:03]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:04]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:04]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:04]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:14]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:14]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:14]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:14]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:24]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:24]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:25]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:25]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:35]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:35]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:35]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:35]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:45]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:45]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:46]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:46]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:46:46] 并发摘要 28 条（4 路）用时 74s
+[07:46:46] HN 10 条，摘要成功 0
+[07:46:46] GH 10 条，摘要成功 0
+[07:46:46] 论文 8 篇，摘要成功 0
+[07:46:56]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:47:10]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:47:26]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:47:35]   自愈失败 [hn] Jensen Huang resigns
+[07:47:46]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:48:00]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:48:16]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:48:25]   自愈失败 [hn] Anthropic IPO
+[07:48:35]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:48:49]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:49:05]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:49:14]   自愈失败 [hn] Gemini 4 Hydrogen
+[07:49:25]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:49:38]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:49:55]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:50:04]   自愈失败 [hn] Service degradation on Microsoft 365
+[07:50:14]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:50:28]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:50:45]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:50:54]   自愈失败 [hn] Why writing correct software is hard
+[07:51:04]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:51:18]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:51:35]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:51:44]   自愈失败 [hn] Rust 1.100
+[07:51:55]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:52:09]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:52:25]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:52:34]   自愈失败 [hn] Show HN: My $300 embroidery machine 
+[07:52:45]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:52:58]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:53:15]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:53:24]   自愈失败 [hn] I'm making LLMs work on small and ol
+[07:53:34]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:53:48]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:54:04]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:54:13]   自愈失败 [hn] Gemini 4 Hydrogen and Orchestrator
+[07:54:24]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:54:38]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:54:54]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:55:03]   自愈失败 [hn] Abandoned Quake 4 expansion finished
+[07:55:14]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:55:27]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:55:44]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:55:53]   自愈失败 [gh] GoogleChrome/modern-web-guidance-src
+[07:56:04]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:56:17]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:56:34]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:56:43]   自愈失败 [gh] openai/codex-security
+[07:56:53]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:57:07]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:57:24]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:57:33]   自愈失败 [gh] nvm-sh/nvm
+[07:57:44]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:57:58]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:58:14]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:58:23]   自愈失败 [gh] pookjw/HermesEnabler
+[07:58:34]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:58:48]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:59:05]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:59:14]   自愈失败 [gh] we-promise/sure
+[07:59:25]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:59:38]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[07:59:55]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:00:04]   自愈失败 [gh] QwenLM/qwen-code
+[08:00:15]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:00:29]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:00:46]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:00:55]   自愈失败 [gh] ashhart/TensorFold
+[08:01:06]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:01:20]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:01:36]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:01:45]   自愈失败 [gh] nodejs/node
+[08:01:56]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:02:10]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:02:26]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:02:35]   自愈失败 [gh] addyosmani/agent-skills
+[08:02:46]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:03:00]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:03:17]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:03:26]   自愈失败 [gh] meta/astryx
+[08:03:36]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:03:50]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:04:06]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:04:15]   自愈失败 [paper] Medical Image Segmentation: Foundati
+[08:04:26]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:04:39]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:04:56]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:05:05]   自愈失败 [paper] Toward Foundation Detection Models v
+[08:05:15]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:05:29]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:05:46]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:05:55]   自愈失败 [paper] TorchCurves: Differentiable Parametr
+[08:06:05]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:06:19]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:06:35]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:06:44]   自愈失败 [paper] AutoScaffold: AI-Guided Scaffolding 
+[08:06:55]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:07:08]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:07:25]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:07:34]   自愈失败 [paper] Contrastive Discovery: Open-Ended Sc
+[08:07:44]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:07:58]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:08:15]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:08:24]   自愈失败 [paper] Pyrite: Building and Benchmarking Pr
+[08:08:34]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:08:48]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:09:05]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:09:14]   自愈失败 [paper] When Does the Real Wiring Win? Testi
+[08:09:24]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:09:38]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:09:55]   摘要失败 HTTPError: HTTP Error 429: Too Many Requests
+[08:10:04]   自愈失败 [paper] Continual-ARC: Measuring Skill Acqui
+[08:10:04] 自愈后仍有 28 条缺摘要（已尽力，不阻断发布）
+[08:12:14] 视频 4 条
+[08:12:46] 精选 4 条
+[08:12:57] Insight 失败 HTTPError
+[08:12:57] 内容写入 content/2026-11-13.json，共 36 条
+[08:12:57] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
