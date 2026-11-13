@@ -5,12 +5,12 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 23:27:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 00:12:57 GMT</lastBuildDate>
     <item>
       <title>2026-11-13 Daily Brief</title>
       <link>https://news.zhangyvjing.com/reports/2026-11-13.html</link>
       <guid>https://news.zhangyvjing.com/reports/2026-11-13.html</guid>
-      <pubDate>Thu, 12 Nov 2026 23:27:58 GMT</pubDate>
+      <pubDate>Fri, 13 Nov 2026 00:12:57 GMT</pubDate>
       <description>今天的输入集中在 Jensen Huang resigns；Anthropic IPO；Gemini 4 Hydrogen；Service degradation on Microsoft 365；Why writing correct software i 这几条上。判断留白比硬凑更诚实：模型侧今天没有给出可用的综合。</description>
     </item>
     <item>
@@ -62,11 +62,11 @@
       <description></description>
     </item>
     <item>
-      <title>Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep</title>
-      <link>https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep</link>
-      <guid>https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep</guid>
+      <title>Show HN: My $300 embroidery machine needed a subscription, so I built my own app</title>
+      <link>https://github.com/simpsoka/zigzag</link>
+      <guid>https://github.com/simpsoka/zigzag</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 16:29:13 GMT</pubDate>
+      <pubDate>Thu, 12 Nov 2026 17:02:42 GMT</pubDate>
       <description></description>
     </item>
     <item>
@@ -78,11 +78,11 @@
       <description></description>
     </item>
     <item>
-      <title>Show HN: My $300 embroidery machine needed a subscription, so I built my own app</title>
-      <link>https://github.com/simpsoka/zigzag</link>
-      <guid>https://github.com/simpsoka/zigzag</guid>
+      <title>Gemini 4 Hydrogen and Orchestrator</title>
+      <link>https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/</link>
+      <guid>https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 12 Nov 2026 17:02:42 GMT</pubDate>
+      <pubDate>Thu, 12 Nov 2026 18:52:01 GMT</pubDate>
       <description></description>
     </item>
     <item>
