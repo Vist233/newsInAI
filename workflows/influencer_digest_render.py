@@ -30,6 +30,29 @@ ISSUE_MONITOR_QUEUE_URL = f"{ISSUE_MONITOR_URL}?view=queue"
 ARXIV_CATEGORY_RE = re.compile(r"^[a-z]+(?:-[a-z]+)*\.[A-Z][A-Za-z-]*$")
 
 
+def _insight_html(summary: str) -> str:
+    """三段式 Insight：今天 / 转向 / 对你；不成形就退回单段。"""
+    import re as _re
+    text = summary or ""
+    labels = ("今天", "转向", "对你")
+    found = {}
+    for name in labels:
+        m = _re.search(rf"{name}\s*[：:]\s*([^\n]+)", text)
+        if m and m.group(1).strip():
+            found[name] = m.group(1).strip()
+    if len(found) < 2:
+        return f'<div class="summary">{escape(text)}</div>'
+    rows = []
+    for name in labels:
+        if name in found:
+            rows.append(
+                '<div class="insight-row">'
+                f'<span class="insight-label">{name}</span>'
+                f'<p class="insight-text">{escape(found[name])}</p>'
+                '</div>')
+    return '<div class="insight">' + "".join(rows) + '</div>'
+
+
 class SiteRenderer:
     def __init__(self, site_dir: Path = DEFAULT_SITE_DIR):
         self.site_dir = site_dir
@@ -196,6 +219,10 @@ class SiteRenderer:
       height:20px;
       transform:translateY(-1px);
     }}
+    .insight {{ display: flex; flex-direction: column; gap: 14px; }}
+    .insight-row {{ display: grid; grid-template-columns: 48px 1fr; gap: 14px; align-items: start; border-left: 1px solid rgba(60,56,50,.18); padding-left: 14px; }}
+    .insight-label {{ font-size: 11px; letter-spacing: .12em; color: #8a8378; padding-top: 3px; }}
+    .insight-text {{ margin: 0; font-size: 15.5px; line-height: 1.75; color: #2e2b26; }}
     .summary {{
       white-space:pre-wrap;
       line-height:1.75;
@@ -486,7 +513,7 @@ class SiteRenderer:
   </section>
   <section>
     <div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div>
-    <div class="summary">{escape(payload["summary"])}</div>
+    {_insight_html(payload["summary"])}
   </section>
   {section_html or "<section><p>今天没有新增条目。</p></section>"}
   {issue_monitor_html}

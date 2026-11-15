@@ -17,13 +17,14 @@ import time
 import urllib.request
 import uuid
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-GATEWAY = "https://opencode.ai/zen/go/v1"
-MODEL = "deepseek-v4.1-flash"
+GATEWAY = os.environ.get("BRIEF_GATEWAY", "http://127.0.0.1:33425/v1")
+MODEL = os.environ.get("BRIEF_MODEL", "any/deepseekflash")
 CONCURRENCY = int(os.environ.get("CONCURRENCY", "4"))
 REQ_TIMEOUT = int(os.environ.get("REQ_TIMEOUT", "300"))
 LOG = ROOT / "logs"
@@ -38,6 +39,11 @@ def log(msg: str) -> None:
 
 
 def api_key() -> str:
+    env = os.environ.get("BRIEF_API_KEY")
+    if env:
+        return env
+    if "127.0.0.1" in GATEWAY or "host.docker.internal" in GATEWAY:
+        return "sk-local"  # magpie 本地网关不校验密钥
     key = json.loads((Path.home() / ".pi/agent/auth.json").read_text())["opencode-go"]["key"]
     if not key:
         raise RuntimeError("OpenCode Go credential is unavailable")
@@ -253,6 +259,34 @@ def main() -> int:
                       "summary": s, "categories": ["paper"], "priority": "normal"})
     log(f"论文 {len(pp_sel)} 篇，摘要成功 {n_pp}")
 
+    # 6.4) 自愈：并发轮里失败/空白的条目，串行重跑（更大预算 + 退避），直到补上
+    repaired = 0
+    for idx, (kind, title, extra) in enumerate(specs):
+        if idx >= len(items):
+            break
+        if len(items[idx].get("summary") or "") >= 20:
+            continue
+        for attempt in range(3):
+            try:
+                out = summarize(kind, title, extra, key, 60, 220)
+            except Exception:
+                out = ""
+            if len(out) >= 20:
+                items[idx]["summary"] = out
+                repaired += 1
+                log(f"  自愈补回 [{kind}] {str(title)[:36]}")
+                break
+            time.sleep(3 + attempt * 3)
+        else:
+            log(f"  自愈失败 [{kind}] {str(title)[:36]}")
+    still = sum(1 for i in items[:len(specs)] if len(i.get("summary") or "") < 20)
+    if still == 0:
+        errors = [e for e in errors if "摘要缺失" not in e]
+        if repaired:
+            log(f"自愈完成：补回 {repaired} 条，摘要缺失清零")
+    else:
+        log(f"自愈后仍有 {still} 条缺摘要（已尽力，不阻断发布）")
+
     # 5) 视频（近 14 天，取 5）
     try:
         import collect as C
@@ -275,9 +309,13 @@ def main() -> int:
     with ThreadPoolExecutor(max_workers=CONCURRENCY) as ex:
         whys = list(ex.map(lambda v: why_line(yt_prompt(v), key), vids))
     for v, why in zip(vids, whys):
+        # flat-playlist 回退路径下拿不到 upload_date，用当天日期兜底，别让整条流水线崩
+        ud = v.get("upload_date") or ""
+        published = (f"{ud[:4]}-{ud[4:6]}-{ud[6:]}" if len(ud) >= 8
+                     else datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat())
         items.append({"kind": "youtube", "source_id": "yt", "source_name": v["channel"],
                       "title": v["title"], "url": v["url"],
-                      "published": f"{v['upload_date'][:4]}-{v['upload_date'][4:6]}-{v['upload_date'][6:]}",
+                      "published": published,
                       "summary": why, "categories": ["video"], "priority": "normal",
                       "image_url": f"https://i.ytimg.com/vi/{v['url'].rsplit('=',1)[-1]}/hqdefault.jpg"})
     log(f"视频 {len(vids)} 条")
@@ -316,13 +354,21 @@ def main() -> int:
     heads = "；".join(i["title"] for i in items[:8])
     try:
         insight = clean(ask(
-            "你是技术编辑。根据下面今天的条目，写一段 200-320 字的简体中文判断，"
-            "要有观点、指出共同主线、说明什么被高估。只输出正文，不要标题、不要列表。\n\n"
+            "你是技术编辑。根据下面今天的条目，输出三段，每段以固定标签开头，不要标题、不要编号、不要加粗：\n"
+            "今天：用三句说清今天真正发生的事，每句必须带具体主体（公司/项目/数字），不用形容词。\n"
+            "转向：一句判断，说整体正在往哪边转。必须能回答『和三个月前比，什么变了』，不要写『共同主线是』『值得关注』这种套话。\n"
+            "对你：一句，说这个转向对一个做 Agent 工程的人意味着什么具体动作。\n"
+            "三段各一行，总长不超过 260 字。只能用在给出的条目里出现的事实。\n\n"
             + "\n".join(f"- [{i['kind']}] {i['title']}" for i in items[:20]), key, 2000))
     except Exception as e:
         insight = ""
         errors.append("Insight 失败")
         log(f"Insight 失败 {type(e).__name__}")
+    for _tag in ("今天：", "转向：", "对你："):
+        if _tag not in insight:
+            insight = ""
+            errors.append("Insight 格式不符")
+            break
     if cjk_len(insight) < 120:
         insight = f"今天的输入集中在 {heads[:120]} 这几条上。判断留白比硬凑更诚实：模型侧今天没有给出可用的综合。"
         errors.append("Insight 降级")
@@ -374,6 +420,12 @@ def main() -> int:
 
     rc, out = git("push", "origin", "main")
     log(f"push main rc={rc} {out.splitlines()[-1] if out else ''}")
+    for attempt in range(2, 5):                 # 推送失败自动重试，避免网络抖动丢一天
+        if rc == 0:
+            break
+        time.sleep(15 * attempt)
+        rc, out = git("push", "origin", "main")
+        log(f"push main 重试{attempt} rc={rc} {out.splitlines()[-1] if out else ''}")
 
     # gh-pages
     wt = Path("/tmp/newsinai-gh")
@@ -386,7 +438,37 @@ def main() -> int:
                         "commit", "-m", f"publish: {day}"], cwd=wt, capture_output=True)
         r2 = subprocess.run(["git", "push", "origin", "gh-pages"], cwd=wt, capture_output=True, text=True)
         log(f"push gh-pages rc={r2.returncode} {(r2.stdout + r2.stderr).strip().splitlines()[-1] if (r2.stdout or r2.stderr) else ''}")
+        for attempt in range(2, 5):
+            if r2.returncode == 0:
+                break
+            time.sleep(15 * attempt)
+            r2 = subprocess.run(["git", "push", "origin", "gh-pages"], cwd=wt, capture_output=True, text=True)
+            log(f"push gh-pages 重试{attempt} rc={r2.returncode}")
         subprocess.run(["bash", "-c", f"cd {ROOT} && git worktree remove {wt} --force"], capture_output=True)
+
+    # 11) 站点验证：抓一次公网页面，确认日期已经是今天
+    try:
+        import urllib.request as _u
+        proxy = os.environ.get("https_proxy") or "http://127.0.0.1:7897"
+        opener = _u.build_opener(_u.ProxyHandler({"http": proxy, "https": proxy}))
+        ok = False
+        for _ in range(6):
+            time.sleep(20)
+            try:
+                with opener.open(_u.Request("https://zhangyvjing.com/newsInAI/daily/",
+                                            headers={"User-Agent": "Mozilla/5.0"}), timeout=25) as resp:
+                    html = resp.read(300000).decode("utf-8", "replace")
+                if day in html:
+                    log(f"站点验证：{day} 已上线")
+                    ok = True
+                    break
+            except Exception:
+                continue
+        if not ok:
+            log(f"站点验证失败：{day} 未在页面上出现（可能 Pages 还在构建）")
+            errors.append("站点未验证")
+    except Exception as exc:
+        log(f"站点验证异常 {type(exc).__name__}")
 
     log(f"=== 完成，降级项 {len(errors)} ===")
     if errors:

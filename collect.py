@@ -162,6 +162,24 @@ def youtube_channels(channels: list[str], per_channel: int = 3, days: int = 14) 
             if not vid:
                 continue
             meta = _yt_meta(vid)
+            # YouTube 现在对未登录的逐视频抽取要求 “Sign in to confirm you're not a bot”，
+            # _yt_meta 会返回 {}。此时退回 flat-playlist 已有字段，不要让整条链路归零。
+            flat = e if isinstance(e, dict) else {}
+            if not isinstance(meta, dict) or not meta:
+                if not flat.get("title"):
+                    continue
+                out.append({
+                    "title": flat.get("title", ""),
+                    "url": f"https://www.youtube.com/watch?v={vid}",
+                    "channel": flat.get("channel") or flat.get("uploader") or listing.get("channel") or listing.get("uploader") or "",
+                    "duration_s": flat.get("duration") or 0,
+                    "views": flat.get("view_count") or 0,
+                    "upload_date": None,
+                    "description": "",
+                })
+                if len([v for v in out if v["channel"] == (flat.get("channel") or "")]) >= per_channel:
+                    break
+                continue
             if not _recent(str(meta.get("upload_date") or ""), days):
                 continue
             out.append({
