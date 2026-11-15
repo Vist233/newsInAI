@@ -109,6 +109,12 @@ class SiteRenderer:
             json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
         )
         html = self._html(payload)
+        try:
+            import extra_sections as _extra
+            if extra_html and "</style>" in html:
+                html = html.replace("</style>", _extra.CSS + "\n</style>", 1)
+        except ImportError:
+            pass
         rss = self._rss(payload)
         report_path.write_text(html, encoding="utf-8")
         index_path.write_text(html, encoding="utf-8")
