@@ -5,12 +5,12 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2026 03:48:04 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 04:54:17 GMT</lastBuildDate>
     <item>
       <title>2026-11-15 Daily Brief</title>
       <link>https://news.zhangyvjing.com/reports/2026-11-15.html</link>
       <guid>https://news.zhangyvjing.com/reports/2026-11-15.html</guid>
-      <pubDate>Sun, 15 Nov 2026 03:48:04 GMT</pubDate>
+      <pubDate>Sun, 15 Nov 2026 04:54:17 GMT</pubDate>
       <description>今天：Lovable apps暴露护照信息和超过20万条私信；意大利对Meta罚款8.87亿美元，涉Android用户数据访问；LinkedIn和Monster在CBC调查后下架超过1000条假招聘。 转向：和三个月前比，隐私争议从表态变成Meta被罚8.87亿美元、Lovable暴露20万条私信、LinkedIn和Monster下架1000条假招聘，监管与平台开始用金额和下架处理数据访问。 对你：做Agent工程的人应把chrome-devtools-mcp和ag-ui接入前先设数据访问白名单、对私信和护照字段脱敏，并记录每次工具调用。</description>
     </item>
     <item>

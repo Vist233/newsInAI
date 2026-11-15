@@ -13,6 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import extra_sections
 from workflows.influencer_digest_models import (  # noqa: E402
     BookChapterRecommendation,
     DigestItem,
@@ -67,6 +68,7 @@ def main() -> int:
         movie,
         book,
         issue_monitor=payload.get("issue_monitor"),
+        extra_html=extra_sections.build(),
     )
     print("index:", paths["index"])
     print("items:", len(items), "| kinds:", sorted({i.kind for i in items}))

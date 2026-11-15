@@ -65,6 +65,7 @@ class SiteRenderer:
         book: BookChapterRecommendation | None = None,
         *,
         issue_monitor: Dict[str, Any] | None = None,
+        extra_html: str = "",
     ) -> Dict[str, Path]:
         today = datetime.now(LOCAL_TZ).strftime("%Y-%m-%d")
         reports_dir = self.site_dir / "reports"
@@ -96,6 +97,7 @@ class SiteRenderer:
             "movie": asdict(movie),
             "book": asdict(book) if book else None,
             "issue_monitor": issue_monitor,
+            "extra_html": extra_html,
             "items": item_payload,
         }
         json_path = self.site_dir / "latest.json"
@@ -120,6 +122,7 @@ class SiteRenderer:
 
     def _html(self, payload: Dict[str, Any]) -> str:
         payload = self._sanitize_payload(payload)
+        extra_html = payload.get("extra_html", "") or ""
         sections = [
             ("news", "02", "Worth Reading", "我的挑选 · 今日值得看"),
             ("hacker_news", "03", "Hacker News", ""),
@@ -517,6 +520,7 @@ class SiteRenderer:
   </section>
   {section_html or "<section><p>今天没有新增条目。</p></section>"}
   {issue_monitor_html}
+  {extra_html}
   <footer class="brief-footer">
     <a href="/history/">History</a>
     <span class="footer-sep">·</span>
