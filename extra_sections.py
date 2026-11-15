@@ -55,12 +55,12 @@ def _strip_cron_header(text: str) -> str:
 
 # ---------- 统一组件 ----------
 
-def _section(no: str, title: str, subtitle: str, body: str) -> str:
+def _section(no: str, title: str, subtitle: str = "", body: str = "") -> str:
+    sub = f'<p class="section-subtitle">{esc(subtitle)}</p>' if subtitle else ""
     return (
         "<section>"
         f'<div class="section-head"><span class="section-no">{no}</span><h2>{esc(title)}</h2></div>'
-        f'<p class="section-subtitle">{esc(subtitle)}</p>'
-        f'<div class="ledger">{body}</div>'
+        f"{sub}<div class='ledger'>{body}</div>"
         "</section>"
     )
 
@@ -175,21 +175,18 @@ def radar_html(date: str) -> str:
 
     if not segs:
         return ""
-    return _section("09", "方向雷达", "钱去哪 / 能做什么 / 名人原句",
-                    "".join(c + b for c, b in segs))
+    return _section("09", "方向雷达", "", "".join(c + b for c, b in segs))
 
 
 # ---------- 10 岗位雷达 ----------
 
-def jobs_html(date: str) -> str:
-    p = JOBS / f"{date}.jsonl"
-    if not p.exists():
-        cand = sorted(JOBS.glob("*.jsonl"))
-        if not cand:
-            return ""
-        p = cand[-1]
+def _load_jobs(path: Path) -> list[dict]:
     rows, seen = [], set()
-    for line in p.read_text(encoding="utf-8").splitlines():
+    try:
+        lines = path.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return []
+    for line in lines:
         try:
             r = json.loads(line)
         except json.JSONDecodeError:
@@ -199,28 +196,120 @@ def jobs_html(date: str) -> str:
             continue
         seen.add(k)
         rows.append(r)
+    return rows
+
+
+def _prev_snapshot(date: str) -> tuple[str, list[dict]] | tuple[None, list]:
+    cand = sorted(p for p in JOBS.glob("2*.jsonl") if p.stem < date)
+    if not cand:
+        return None, []
+    return cand[-1].stem, _load_jobs(cand[-1])
+
+
+def _donut(parts: list[tuple[str, int, str]], size: int = 150) -> str:
+    total = sum(n for _, n, _ in parts) or 1
+    r = 54
+    c = 2 * 3.141592653589793 * r
+    cx = cy = size / 2
+    off = 0.0
+    segs = []
+    for name, n, color in parts:
+        ln = c * n / total
+        segs.append(
+            f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{color}" stroke-width="18" '
+            f'stroke-dasharray="{ln:.2f} {c - ln:.2f}" stroke-dashoffset="{(-off):.2f}" '
+            f'transform="rotate(-90 {cx} {cy})"><title>{esc(name)} {n} · {n/total*100:.1f}%</title></circle>')
+        off += ln
+    return (f'<svg class="donut" viewBox="0 0 {size} {size}" width="{size}" height="{size}" '
+            f'role="img" aria-label="岗位方向占比">{"".join(segs)}</svg>')
+
+
+def jobs_html(date: str) -> str:
+    p = JOBS / f"{date}.jsonl"
+    if not p.exists():
+        cand = sorted(JOBS.glob("2*.jsonl"))
+        if not cand:
+            return ""
+        p = cand[-1]
+    rows = _load_jobs(p)
     if not rows:
         return ""
 
-    by_dir: dict[str, list] = {}
+    today_counts: dict[str, int] = {}
     for r in rows:
-        by_dir.setdefault(r.get("direction") or "其他", []).append(r)
+        d = r.get("direction") or "其他"
+        today_counts[d] = today_counts.get(d, 0) + 1
+    total = len(rows)
 
-    body = [_cap(0, f"今日 {len(rows)} 条 · {len(by_dir)} 个方向")]
-    for d, rs in sorted(by_dir.items(), key=lambda kv: -len(kv[1]))[:5]:
-        first = rs[0]
-        title = f'<a href="{esc(first.get("url",""))}">{esc(cut(first.get("title",""), 26))}</a>'
-        meta = " · ".join(x for x in [first.get("company", ""), first.get("area", "")] if x)
-        note = f"{len(rs)} 条 · {title}" + (
-            f'<span class="led-dim"> {esc(cut(meta, 22))}</span>' if meta else "")
-        body.append(f'<div class="led-row"><div class="led-key">{esc(d)}</div>'
-                    f'<div class="led-val"><p>{note}</p></div></div>')
-    return _section("10", "岗位雷达", "只放当天在招，按方向归并", "".join(body))
+    prev_date, prev_rows = _prev_snapshot(p.stem)
+    prev_counts: dict[str, int] = {}
+    for r in prev_rows:
+        d = r.get("direction") or "其他"
+        prev_counts[d] = prev_counts.get(d, 0) + 1
+    prev_total = len(prev_rows)
+    gap_days = None
+    if prev_date:
+        gap_days = (dt.date.fromisoformat(p.stem) - dt.date.fromisoformat(prev_date)).days
+
+    ranked = sorted(today_counts.items(), key=lambda kv: -kv[1])
+    top = ranked[:6]
+    rest = sum(n for _, n in ranked[6:])
+    parts = [(d, n, c) for (d, n), c in zip(top, ("#1c1c1c", "#4a463f", "#6e6c66",
+                                                   "#8a8378", "#a8a29a", "#c9c5bc"))]
+    if rest:
+        parts.append(("其他", rest, "#e6e3dc"))
+    top_dir, top_n = ranked[0] if ranked else ("—", 0)
+
+    def pct(n: int) -> str:
+        return f"{n / total * 100:.1f}%"
+
+    def delta(n: int, d: str) -> str:
+        if not prev_total:
+            return "—"
+        base = prev_counts.get(d, 0)
+        if base == 0:
+            return "新增" if n else "—"
+        v = (n - base) / base * 100
+        return f"{v:+.0f}%"
+
+    overall = ""
+    if prev_total:
+        v = (total - prev_total) / prev_total * 100
+        overall = f'环比 <b>{v:+.1f}%</b>'
+    ratio_note = ""
+    if gap_days and gap_days > 1:
+        ratio_note = f'（上次快照 {prev_date}，间隔 {gap_days} 天）'
+
+    days_have = len([q for q in JOBS.glob("2*.jsonl") if q.stem <= p.stem])
+    head = (
+        '<div class="stat-top">'
+        f'<div class="stat-num">{total}</div>'
+        '<div class="stat-meta">'
+        f'<span>{overall}</span>'
+        f'<span>昨日 {prev_total}</span>'
+        f'<span>最大方向 {esc(top_dir)} {pct(top_n)}</span>'
+        f'<span class="stat-dim">同比：数据累计 {days_have}/7 天</span>'
+        '</div></div>'
+    )
+
+    table = ['<div class="jobs-table">',
+             '<div class="jobs-row jobs-head"><div>方向</div><div>条数</div><div>占比</div><div>环比</div></div>']
+    for d, n in ranked:
+        table.append(
+            f'<div class="jobs-row"><div class="jobs-dir">{esc(d)}</div>'
+            f'<div class="jobs-n">{n}</div><div class="jobs-n">{pct(n)}</div>'
+            f'<div class="jobs-n">{delta(n, d)}</div></div>')
+    table.append("</div>")
+
+    body = head + '<div class="stat-body">' + _donut(parts) + "".join(table) + "</div>"
+    if ratio_note:
+        body += f'<p class="stat-dim">{esc(ratio_note)}</p>'
+    return _section("10", "岗位", "", body)
 
 
 # ---------- 11 / 12 简报 ----------
 
-def cron_digest_html(date: str, job_dir: Path, no: str, title: str, sub: str, limit: int = 4) -> str:
+def cron_digest_html(date: str, job_dir: Path, no: str, title: str, sub: str = "", limit: int = 4) -> str:
     """宏观内参：每条「标签：结论」拆成左标签 + 右一句。"""
     p = _latest(job_dir, date)
     if not p:
@@ -247,7 +336,7 @@ def cron_digest_html(date: str, job_dir: Path, no: str, title: str, sub: str, li
     return _section(no, title, sub, "".join(rows))
 
 
-def issues_html(date: str, job_dir: Path, no: str, title: str, sub: str, limit: int = 5) -> str:
+def issues_html(date: str, job_dir: Path, no: str, title: str, sub: str = "", limit: int = 5) -> str:
     """Issue 日报：仓库名做左标签，右侧放最新一条未被 PR 关联的 issue。"""
     p = _latest(job_dir, date)
     if not p:
@@ -289,58 +378,72 @@ def build(date: str | None = None) -> str:
     return "".join([
         radar_html(date),
         jobs_html(date),
-        cron_digest_html(date, MACRO_JOB, "11", "宏观内参", "政策与科技商业，只留结论"),
-        issues_html(date, ISSUE_JOB, "12", "Issue 日报", "开源仓库里真实在痛的地方"),
+        cron_digest_html(date, MACRO_JOB, "11", "宏观内参"),
+        issues_html(date, ISSUE_JOB, "12", "Issue 日报"),
     ])
 
 
 CSS = """
+  /* 台账行：与主站 item 同一字号阶梯（标题 15 / 正文 14 / 标签 11） */
   .ledger { border-top: 1px solid var(--line-strong); }
   .led-cap {
-    display: flex; gap: 10px; align-items: baseline; padding: 16px 0 8px;
-    font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .14em;
-    text-transform: uppercase; color: var(--muted);
+    display: flex; gap: 10px; align-items: baseline; padding: 15px 0 7px;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
   }
   .led-cap span { color: var(--ink); }
   .led-row {
-    display: grid; grid-template-columns: 190px minmax(0, 1fr);
-    gap: 20px; padding: 12px 0; border-top: 1px solid var(--line); align-items: start;
+    display: grid; grid-template-columns: 180px minmax(0, 1fr);
+    gap: 18px; padding: 11px 0; border-top: 1px solid var(--line); align-items: start;
   }
-  .led-key { font-size: 14px; font-weight: 600; line-height: 1.55; color: var(--ink); }
-  .led-key-mono {
-    font-family: var(--font-mono); font-weight: 400; font-size: 12px;
-    color: var(--muted); padding-top: 3px;
-  }
+  .led-key { font-size: 15px; font-weight: 500; line-height: 1.5; color: var(--ink); }
+  .led-key-mono { font-family: var(--font-mono); font-weight: 400; font-size: 12px; color: var(--muted); padding-top: 4px; }
   .led-val { min-width: 0; }
-  .led-val p { margin: 0; font-size: 13.5px; line-height: 1.65; color: var(--muted); }
+  .led-val p { margin: 0; font-size: 14px; line-height: 1.62; color: var(--muted); }
   .led-val a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
   .led-val a:hover { border-bottom-color: var(--ink); }
   .led-dim { color: var(--muted); font-size: 12px; }
-  .led-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }
+  .led-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
   .led-tags span {
-    font-family: var(--font-mono); font-size: 10.5px; color: var(--muted);
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
     border: 1px solid var(--line); padding: 1px 6px;
   }
   .led-quote {
-    margin: 12px 0 0; padding: 0 0 0 16px; border-left: 2px solid var(--ink);
-    font-size: 14.5px; line-height: 1.7; color: var(--ink);
+    margin: 10px 0 0; padding: 0 0 0 16px; border-left: 2px solid var(--ink);
+    font-size: 15px; line-height: 1.7; color: var(--ink);
   }
   .led-quote cite {
-    display: block; margin-top: 7px; font-style: normal;
+    display: block; margin-top: 6px; font-style: normal;
     font-family: var(--font-mono); font-size: 11px; color: var(--muted);
   }
   .led-quote cite a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); }
-  .led-line { margin: 14px 0 0; font-size: 15px; line-height: 1.7; color: var(--ink); }
+  .led-line { margin: 12px 0 0; font-size: 15px; line-height: 1.7; color: var(--ink); }
+
+  /* 岗位统计 */
+  .stat-top { display: flex; align-items: flex-end; gap: 20px; padding: 6px 0 18px; }
+  .stat-num { font-family: var(--font-mono); font-size: 44px; line-height: 1; color: var(--ink); letter-spacing: -.02em; }
+  .stat-meta { display: flex; flex-wrap: wrap; gap: 16px; padding-bottom: 4px; font-size: 13px; color: var(--muted); }
+  .stat-meta b { font-family: var(--font-mono); font-weight: 400; color: var(--ink); }
+  .stat-dim { color: var(--muted); font-size: 12px; }
+  .stat-body { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 32px; align-items: start; border-top: 1px solid var(--line); padding-top: 18px; }
+  .donut { display: block; }
+  .jobs-table { min-width: 0; }
+  .jobs-row {
+    display: grid; grid-template-columns: minmax(0, 1fr) 64px 64px 64px;
+    gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line);
+    font-size: 14px; align-items: baseline;
+  }
+  .jobs-head {
+    border-bottom: 1px solid var(--line-strong); color: var(--muted);
+    font-family: var(--font-mono); font-size: 11px; padding-bottom: 6px;
+  }
+  .jobs-dir { color: var(--ink); }
+  .jobs-n { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); text-align: right; }
+  .jobs-head div:nth-child(n+2) { text-align: right; }
 
   @media (max-width: 760px) {
-    .led-row { grid-template-columns: 1fr; gap: 5px; }
+    .led-row { grid-template-columns: 1fr; gap: 4px; }
     .led-key-mono { padding-top: 0; }
+    .stat-body { grid-template-columns: 1fr; gap: 16px; }
+    .stat-num { font-size: 36px; }
   }
 """
-
-
-if __name__ == "__main__":
-    out = build()
-    print(f"生成 {len(out)} 字符 · 行数 {out.count('led-row')}")
-    for tag in ("09", "10", "11", "12"):
-        print(tag, "有" if f'section-no">{tag}' in out else "无")
