@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+   "points": 780,
+   "comments": 473,
+   "published": "2026-11-16T13:39:07+00:00",
+   "hn_id": "50517488"
+  },
+  {
+   "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+   "points": 657,
+   "comments": 523,
+   "published": "2026-11-16T18:31:30+00:00",
+   "hn_id": "50521045"
+  },
+  {
+   "title": "Software is breaking down at a systemic level",
+   "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+   "points": 306,
+   "comments": 192,
+   "published": "2026-11-16T18:17:17+00:00",
+   "hn_id": "50520866"
+  },
+  {
+   "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+   "points": 285,
+   "comments": 112,
+   "published": "2026-11-16T11:39:31+00:00",
+   "hn_id": "50516473"
+  },
+  {
+   "title": "Jiff 1.0: A datetime library for Rust",
+   "url": "https://burntsushi.net/jiff/",
+   "points": 270,
+   "comments": 58,
+   "published": "2026-11-16T16:53:39+00:00",
+   "hn_id": "50519744"
+  },
+  {
+   "title": "Frame – 31.5\" color ePaper display",
+   "url": "https://trmnl.com/blog/introducing-frame",
+   "points": 242,
+   "comments": 162,
+   "published": "2026-11-16T16:23:22+00:00",
+   "hn_id": "50519354"
+  },
+  {
+   "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+   "url": "https://www.cs.cmu.edu/learn/",
+   "points": 236,
+   "comments": 49,
+   "published": "2026-11-16T20:43:36+00:00",
+   "hn_id": "50522980"
+  },
+  {
+   "title": "Nvidia was in trouble before the Jensen Huang mess",
+   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+   "points": 234,
+   "comments": 221,
+   "published": "2026-11-16T15:24:09+00:00",
+   "hn_id": "50518567"
+  },
+  {
+   "title": "Grazing sheep in fields with solar arrays",
+   "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+   "points": 182,
+   "comments": 169,
+   "published": "2026-11-16T17:27:46+00:00",
+   "hn_id": "50520182"
+  },
+  {
+   "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+   "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+   "points": 169,
+   "comments": 118,
+   "published": "2026-11-16T13:18:22+00:00",
+   "hn_id": "50517321"
+  },
+  {
+   "title": "BugMeNot Has Closed",
+   "url": "https://www.bugmenot.com/",
+   "points": 143,
+   "comments": 77,
+   "published": "2026-11-16T21:32:17+00:00",
+   "hn_id": "50523601"
+  },
+  {
+   "title": "Rust changed me as a developer",
+   "url": "https://blog.startifact.com/posts/how-rust-changed-me/",
+   "points": 114,
+   "comments": 60,
+   "published": "2026-11-16T20:16:50+00:00",
+   "hn_id": "50522563"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "ag-ui-protocol/ag-ui",
+   "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+   "language": "TypeScript",
+   "stars_today": "790",
+   "url": "https://github.com/ag-ui-protocol/ag-ui"
+  },
+  {
+   "repo": "backnotprop/plannotator",
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "language": "TypeScript",
+   "stars_today": "689",
+   "url": "https://github.com/backnotprop/plannotator"
+  },
+  {
+   "repo": "dream-num/univer",
+   "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "language": "TypeScript",
+   "stars_today": "1,878",
+   "url": "https://github.com/dream-num/univer"
+  },
+  {
+   "repo": "tradermonty/claude-trading-skills",
+   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "language": "Python",
+   "stars_today": "841",
+   "url": "https://github.com/tradermonty/claude-trading-skills"
+  },
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "language": "Python",
+   "stars_today": "1,057",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter"
+  },
+  {
+   "repo": "getarcaneapp/arcane",
+   "desc": "Modern Docker Management, Designed for Everyone",
+   "language": "Go",
+   "stars_today": "31",
+   "url": "https://github.com/getarcaneapp/arcane"
+  },
+  {
+   "repo": "DeanChensj/jiangshan-map",
+   "desc": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes",
+   "language": "JavaScript",
+   "stars_today": "285",
+   "url": "https://github.com/DeanChensj/jiangshan-map"
+  },
+  {
+   "repo": "google-labs-code/stitch-skills",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "language": "TypeScript",
+   "stars_today": "540",
+   "url": "https://github.com/google-labs-code/stitch-skills"
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "language": "Python",
+   "stars_today": "122",
+   "url": "https://github.com/mvanhorn/last30days-skill"
+  },
+  {
+   "repo": "NVIDIA/SkillEvaluator",
+   "desc": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+   "language": "Python",
+   "stars_today": "953",
+   "url": "https://github.com/NVIDIA/SkillEvaluator"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Title: Imitation Bootstrapped Multi-Agent Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2611.18543",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+   "url": "https://arxiv.org/abs/2611.18533",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Alignment by Socialization: Learning Tradeoffs Under Selection",
+   "url": "https://arxiv.org/abs/2611.18531",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+   "url": "https://arxiv.org/abs/2611.18514",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
+   "url": "https://arxiv.org/abs/2611.18494",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Typing Matters: Muscle, Language and Typing Behaviour in Live Keystroke Decoding from sEMG",
+   "url": "https://arxiv.org/abs/2611.18464",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
+   "url": "https://arxiv.org/abs/2611.18458",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Towards Explainable Sleep Stage Classification using Single-Channel Electroencephalogram",
+   "url": "https://arxiv.org/abs/2611.18434",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: LECAT: Measuring LLM Category Learning from Pretraining Data",
+   "url": "https://arxiv.org/abs/2611.18419",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: Smart Home Agents Make Capable but Unpredictable Grid Operators",
+   "url": "https://arxiv.org/abs/2611.18395",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: VelServe: Taming Decode Jitters in LLM Inference with Tail-Calibrated Scheduling",
+   "url": "https://arxiv.org/abs/2611.18392",
+   "published": "",
+   "abstract": ""
+  },
+  {
+   "title": "Title: VLAN: Vision-Language Accessible Navigation",
+   "url": "https://arxiv.org/abs/2611.18346",
+   "published": "",
+   "abstract": ""
+  }
+ ]
+}

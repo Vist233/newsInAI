@@ -1,0 +1,510 @@
+{
+ "date": "2026-11-17",
+ "summary": "今天：Amazon 的 Black Friday 和 Cyber Monday “deals” 未带来节省；JPMorgan Chase 的技术问题触发美国银行在线银行延迟；Microsoft 把邮件中断归因于 7 月修复引入的软件缺陷。 转向：和三个月前比，公开案例从模型能力展示转向已上线系统故障与缺陷归因，GitHub 趋势里的 Agent 项目集中在协议、技能和评估。 对你：把 Agent 的技能调用、依赖升级和故障场景纳入回归评估，每次变更先跑这套评估。",
+ "movie": {
+  "title": "Moneyball",
+  "year": 2011,
+  "director": "Bennett Miller",
+  "reason": "旧评价体系失灵时，怎么用证据重新决定下注",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "The Craft of Research",
+  "author": "Wayne C. Booth 等",
+  "chapter": "Making Good Arguments",
+  "reason": "论点、理由、证据、反驳拆成可检查的结构",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+   "published": "2026-11-16T13:39:07+00:00",
+   "summary": "Hacker News上一条关于亚马逊黑五和网一促销的调查讨论获得780分和473条评论。Groundwork Collaborative调查指出，亚马逊在这两个购物节宣传的优惠中近三分之一并未让消费者省钱，引发社区对促销标签、价格透明度和平台责任的讨论。参与者关注折扣原价是否可信、算法定价和监管必要性，也讨论消费者如何识别伪优惠并保护自身权益。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+   "published": "2026-11-16T18:31:30+00:00",
+   "summary": "Hacker News 上围绕一则 AP 报道展开讨论，该报道称摩根大通出现技术问题，导致美国多家银行的在线银行服务延迟。帖子获得 657 分和 523 条评论，评论主要关注银行系统可靠性、故障影响范围、集中化基础设施风险以及冗余和恢复能力，也有人讨论用户应对方式和监管透明度。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Software is breaking down at a systemic level",
+   "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+   "published": "2026-11-16T18:17:17+00:00",
+   "summary": "这篇Hacker News讨论围绕文章《Software is breaking down at a systemic level》展开，帖子获得306分和192条评论。文章主张软件故障并非孤立缺陷，而是复杂度累积、依赖链膨胀、组织激励短视和维护不足共同造成的系统性问题。评论者就此争论责任归属，讨论工程文化、测试与可观测性、工具治理以及经济激励如何影响软件质量，也有人质疑软件是否真的比过去更糟。整体讨论反映出开发者对现代软件生态脆弱性的普遍焦虑。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+   "published": "2026-11-16T11:39:31+00:00",
+   "summary": "在Hacker News上，一篇回顾2007年文章的技术讨论获得285分和112条评论。文章介绍老款ThinkPad电源键的隐藏代码，可在笔记本看似彻底无法开机时触发底层复位并让其恢复。评论区读者分享类似救机经历，讨论该操作背后的嵌入式控制器原理、适用机型与潜在风险，也感慨早期ThinkPad设计留下的可维护性和维修文化。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Jiff 1.0: A datetime library for Rust",
+   "url": "https://burntsushi.net/jiff/",
+   "published": "2026-11-16T16:53:39+00:00",
+   "summary": "Hacker News 上关于 Jiff 1.0 的讨论获得 270 分和 58 条评论，主题是 BurntSushi 发布的 Rust 日期时间库。讨论重点关注该库对时区和夏令时的处理、API 设计的安全性、性能表现以及与 chrono、time 等现有库的对比，也涉及迁移成本、生态影响和日期时间编程中的常见陷阱。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Frame – 31.5\" color ePaper display",
+   "url": "https://trmnl.com/blog/introducing-frame",
+   "published": "2026-11-16T16:23:22+00:00",
+   "summary": "Hacker News上关于TRMNL Frame的讨论获得242分和162条评论，核心是31.5英寸彩色电子纸显示屏。讨论关注大尺寸彩色墨水屏的实际显示效果、刷新速度、功耗和价格，也将其与普通显示器及小尺寸电子纸产品比较。评论还探讨家庭信息面板、办公看板等场景，以及内容更新方式和长期使用成本，整体体现开发者对大屏低功耗显示设备的好奇与对产品成熟度的审慎评估。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+   "url": "https://www.cs.cmu.edu/learn/",
+   "published": "2026-11-16T20:43:36+00:00",
+   "summary": "Hacker News 上一条关于卡内基梅隆大学将计算机科学课程免费发布到 YouTube 的讨论获得 236 分和 49 条评论。帖子指向该校学习页面，介绍可公开访问的课程资源。评论者围绕免费公开课的学习价值、课程难度、与正式学位和证书的区别、自学路径以及高校开放教育资源的可持续性展开交流。该讨论反映出开发者对高质量计算机科学教育资源的持续关注。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Nvidia was in trouble before the Jensen Huang mess",
+   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+   "published": "2026-11-16T15:24:09+00:00",
+   "summary": "Hacker News 上围绕 Wired 文章展开讨论，核心观点是 Nvidia 在黄仁勋相关风波之前就已面临麻烦。评论者争论公司的问题究竟来自竞争加剧、客户自研芯片、供应链压力和估值预期，还是被文章夸大。讨论也聚焦 Nvidia 的护城河是否仍然稳固，以及黄仁勋个人争议对公司的实际影响有多大。该帖获得 234 分和 221 条评论，整体呈现技术社区对 Nvidia 长期风险与短期舆论冲击的不同判断。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Grazing sheep in fields with solar arrays",
+   "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+   "published": "2026-11-16T17:27:46+00:00",
+   "summary": "这篇Hacker News讨论围绕在太阳能阵列间放牧羊群展开，引用康奈尔大学报道称这种做法可为农民带来经济与生态双重收益。评论者从农业光伏的实际运营出发，讨论羊群管理、草高控制、防火、板下遮阴与土壤健康，也关注放牧合同、租金分配、动物福利和光伏设备损坏风险。有人认为双重土地利用能缓解土地争议并降低维护成本，另一些人提醒需因地制宜，做好围栏和水源规划，避免把复杂农业问题简单化。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+   "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+   "published": "2026-11-16T13:18:22+00:00",
+   "summary": "Hacker News 上围绕微软将大规模邮件服务中断归咎于七月修复引入的软件缺陷展开讨论，该帖获得169分和118条评论。参与者关注补丁回归如何绕过测试并波及大量用户，也讨论云服务变更管理和故障排查的教训，以及企业邮件依赖单一平台的风险。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "ag-ui-protocol/ag-ui",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "published": "2026-11-17",
+   "summary": "AG UI 是一个面向智能体与前端应用交互的开源协议项目。它致力于把 AI Agent 带入前端应用，为开发者提供统一的交互方式，让智能体能力更自然地融入用户界面。项目使用 TypeScript 编写，今日在 GitHub 新增 790 星，受到较多关注。适合需要构建智能体驱动前端体验的开发者参考和使用。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "published": "2026-11-17",
+   "summary": "backnotprop/plannotator 是一个使用 TypeScript 开发的开源工作区，帮助开发者持续跟进并掌控智能体。它支持梳理需求、做出决策、制定计划、添加标注、审查代码以及与团队共享，并能一键把所有反馈发送给智能体，减少来回沟通成本。项目今日新增 689 星，适合需要将人机协作、代码评审和团队反馈整合到同一流程中的开发场景。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "published": "2026-11-17",
+   "summary": "Univer 是 dream-num 在 GitHub 上开源的项目，使用 TypeScript 开发，提供可扩展的 Office SDK，帮助开发者在自己的产品中构建面向人与 AI 智能体的 AI 办公能力，覆盖文档编辑、表格计算、多人协作和文件处理等场景。项目基于可扩展的开源核心，便于集成和二次开发，今日新增约 1878 星，受到较多关注。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "published": "2026-11-17",
+   "summary": "tradermonty/claude-trading-skills 是一个使用 Python 开发的开源项目，为股票投资者和交易者提供 Claude Code 技能，覆盖市场分析、技术图表、经济日历、股票筛选器和交易策略开发等场景，帮助用户借助 Claude 提升投研与交易工作效率。该项目今日新增 841 星，受到较多关注。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "published": "2026-11-17",
+   "summary": "elementalsouls/Claude-BugHunter 是一个面向漏洞挖掘和外部红队工作的 Claude Code 技能包，使用 Python 编写，今日新增 1057 星。项目提供 82 项技能、15 个斜杠命令，并围绕 24 类核心漏洞整理了 681 个已披露报告模式，还包含企业身份与基础设施攻击矩阵，适合安全研究人员和红队人员参考使用。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "getarcaneapp/arcane",
+   "url": "https://github.com/getarcaneapp/arcane",
+   "published": "2026-11-17",
+   "summary": "Arcane 是一个面向所有人设计的现代 Docker 管理开源项目，使用 Go 语言开发，旨在以简洁直观的方式降低容器管理门槛。项目今日新增 31 颗星，关注度持续上升，适合希望高效管理 Docker 环境、简化日常运维流程的开发者和运维人员使用。",
+   "categories": [
+    "Go"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "DeanChensj/jiangshan-map",
+   "url": "https://github.com/DeanChensj/jiangshan-map",
+   "published": "2026-11-17",
+   "summary": "江山时序是一个基于 JavaScript 开发的开源中国历史交互地图项目，今日新增 285 星。它提供从公元前 403 年至今的时间轴，覆盖 18 个朝代和 198 个疆域快照，并呈现古今地名沿革与古典诗词路线。用户可通过地图与时间轴直观查看中国历史疆域和地名的变迁。",
+   "categories": [
+    "JavaScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "published": "2026-11-17",
+   "summary": "google-labs-code/stitch-skills 是一个使用 TypeScript 编写的开源项目，今日新增 540 星。它提供一套面向 Stitch MCP server 的 Agent Skills 库，每个技能都遵循 Agent Skills 开放标准，从而可与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容使用，帮助开发者在不同代理环境中复用标准化技能。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "published": "2026-11-17",
+   "summary": "这是一个用 Python 编写的开源项目，为 AI agent 提供研究技能，可围绕任意主题自动检索 Reddit、X、YouTube、Hacker News、Polymarket 以及公开网页等多个信息源，汇总近 30 天的相关内容，再综合生成有事实依据的结构化摘要。它适合需要快速掌握话题动态与舆情走向的场景，今日新增 122 星，热度上升明显，开发者可直接接入现有 agent 流程使用。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "NVIDIA/SkillEvaluator",
+   "url": "https://github.com/NVIDIA/SkillEvaluator",
+   "published": "2026-11-17",
+   "summary": "NVIDIA/SkillEvaluator 是一个用 Python 开发的开源项目，提供多层框架用于评估 AI agent 的技能与插件。它包含质量门控、语义重叠检测、合成评估数据集生成以及实时 agent 评估等能力，可衡量技能对 agent 行为的具体影响。项目今日新增 953 星，适合需要系统化验证技能质量与插件效果的开发者使用。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2611.18543",
+   "published": "2026-11-17",
+   "summary": "本文提出一种模仿自举的多智能体强化学习方法，将模仿学习与多智能体强化学习相结合，利用示范行为为策略学习提供初始引导，并通过自举机制逐步提升智能体之间的协同决策能力。该方法旨在缓解多智能体环境中探索困难、奖励稀疏和联合策略学习不稳定等问题，在训练早期借助模仿信号获得有效指导，随后由强化学习不断改进策略，从而提高多智能体协作学习的效率与稳定性。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+   "url": "https://arxiv.org/abs/2611.18533",
+   "published": "2026-11-17",
+   "summary": "本文提出 ModHarness-RL，将智能体强化学习中通常由人工设计的执行框架重新理解为可学习且可演化的程序。方法把框架拆分为可组合模块，并借助强化学习让智能体在任务交互中同时优化策略与框架程序，使框架能够根据任务反馈动态调整。该研究旨在减少人工设计依赖，提升智能体在复杂环境中的适应性与泛化能力，并为框架与策略的协同进化提供新思路。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+   "url": "https://arxiv.org/abs/2611.18531",
+   "published": "2026-11-17",
+   "summary": "本文提出一种称为社会化的对齐视角，将人工智能系统的价值对齐理解为智能体在群体互动与选择压力下逐步学习权衡的过程。与把对齐视为固定目标优化的做法不同，该研究关注智能体如何在多主体环境中通过社会化互动形成规范，并在竞争与合作的选择机制中习得不同价值之间的取舍。论文分析选择如何塑造行为与策略，讨论这种学习动态对多智能体系统对齐的启示，并指出对齐需要处理价值冲突与适应性权衡。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+   "url": "https://arxiv.org/abs/2611.18514",
+   "published": "2026-11-17",
+   "summary": "本文探讨机制可解释性能否帮助解释大语言模型智能体失败，并以网页元素幻觉为案例展开研究。论文关注智能体在网页交互任务中错误识别或虚构页面元素的现象，尝试利用机制可解释性方法分析模型内部表征与计算过程，评估其揭示失败成因的能力，并讨论该方法在智能体可靠性诊断中的价值与局限。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
+   "url": "https://arxiv.org/abs/2611.18494",
+   "published": "2026-11-17",
+   "summary": "本文提出ARCHER框架，用于提升小语言模型的可执行推理能力。针对现有模型往往只模仿教师模型生成的推理理由、却难以将推理步骤真正落实为可计算操作的问题，ARCHER将推理过程转化为可执行的结构化操作序列，并通过训练与验证机制增强步骤的可执行性和结果一致性。该方法旨在让小型模型在有限参数条件下获得更稳健的推理能力，减少对冗长自然语言理由的依赖，同时提高答案的可验证性与泛化表现。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Typing Matters: Muscle, Language and Typing Behaviour in Live Keystroke Decoding from sEMG",
+   "url": "https://arxiv.org/abs/2611.18464",
+   "published": "2026-11-17",
+   "summary": "该论文研究基于表面肌电的实时击键解码中肌肉活动、语言内容和打字行为的影响。作者围绕在线解码场景，分析不同肌肉信号、语言材料与打字模式如何作用于识别性能，并强调打字任务本身对解码效果具有重要意义。研究结果表明，仅依赖肌肉信号难以充分支撑稳定解码，需要综合考虑语言与行为因素，以提升实时击键识别的鲁棒性。该工作为肌电人机交互、可穿戴键盘和自然文本输入提供了参考。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
+   "url": "https://arxiv.org/abs/2611.18458",
+   "published": "2026-11-17",
+   "summary": "本文关注基于世界模型的升压药决策支持中模拟患者反应何时可信的问题，提出支持门控机制，根据当前患者状态是否处于模型可信支持范围来决定是否采信模拟预测，以降低分布外情形下的误导风险。方法将支持度估计与决策支持流程结合，在模型预测不可靠时触发保守回退，并评估模拟响应保真度及其对临床决策的影响，强调可信度校准对重症监护血管活性药物管理的重要性。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Towards Explainable Sleep Stage Classification using Single-Channel Electroencephalogram",
+   "url": "https://arxiv.org/abs/2611.18434",
+   "published": "2026-11-17",
+   "summary": "本文围绕基于单通道脑电信号的睡眠阶段分类展开，关注自动睡眠分期模型的可解释性问题。针对多导睡眠图采集复杂、深度模型决策过程不透明等不足，研究旨在利用单通道脑电实现有效的睡眠阶段识别，并通过可解释性分析揭示模型所依赖的脑电特征与判别依据，从而提升自动睡眠评估在临床和研究场景中的可信度与可用性。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
+   "url": "https://www.youtube.com/watch?v=JNexz3Tbiu8",
+   "published": "2026-11-17",
+   "summary": "这个视频用“先造工坊再造软件工厂”的结论，讲清工具化前为何要保留开发者判断空间。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/JNexz3Tbiu8/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
+   "url": "https://www.youtube.com/watch?v=0LeT996Hz3E",
+   "published": "2026-11-17",
+   "summary": "Zach Lloyd 用 Warp 说明编码智能体要像系统一样可观测、可测试、可迭代。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/0LeT996Hz3E/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "How to build an agent that builds the culture — Zach Bruggeman, Ramp",
+   "url": "https://www.youtube.com/watch?v=MDI81OaZAD4",
+   "published": "2026-11-17",
+   "summary": "Ramp 的 Zach Bruggeman 讲清：内部 agent 能靠日常决策把公司文化固化，而不只是提效工具。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/MDI81OaZAD4/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Let's Open Source the World — Brandon Thomas, ArtCraft",
+   "url": "https://www.youtube.com/watch?v=UCL4K36SHp0",
+   "published": "2026-11-16",
+   "summary": "讲者把“开源世界”拆成内部工具逐步公开、用外部贡献反哺产品的落地方法，适合想推进开源战略的团队。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/UCL4K36SHp0/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "The Rise Of AI Coworkers",
+   "url": "https://www.youtube.com/watch?v=y1-9yeYLJUo",
+   "published": "2026-11-14",
+   "summary": "视频把“AI同事”定义为能接手完整任务的协作角色，并指出企业需重写流程、权限和考核，而非只配聊天工具。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/y1-9yeYLJUo/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+   "published": "2026-11-17",
+   "summary": "调查指出，亚马逊黑五和网一近三分之一宣传优惠未省钱，讨论还涉及原价可信度、算法定价与",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+   "published": "2026-11-17",
+   "summary": "摩根大通技术故障致美国多家银行在线服务延迟；讨论集中在系统可靠性、集中化基础设施风险、冗余恢复及监管透明度。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "published": "2026-11-17",
+   "summary": "它基于 TypeScript 的可扩展开源核心提供 Office SDK，覆盖文档编辑、表格计算、多人协作和文件处理，并面向人与 AI 智能体，今日新增星标 1,878 个。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "published": "2026-11-17",
+   "summary": "它汇总82项技能、15个斜杠命令与24类漏洞的681个报告模式，并附企业身份及基础设施攻击矩阵。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}

@@ -9,3 +9,9 @@
 [07:06:15] 精选 4 条
 [07:06:28] 内容写入 content/2026-11-16.json，共 36 条
 [07:06:28] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[07:06:30] commit rc=0 [main fc80da8] daily: 2026-11-16 自动更新（1 处降级）
+[07:06:35] push main rc=0    39f7ec6..fc80da8  main -> main
+[07:06:41] push gh-pages rc=0 Everything up-to-date
+[07:07:24] 站点验证：2026-11-16 已上线
+[07:07:24] === 完成，降级项 1 ===
+[07:07:24] 降级明细: Insight 降级×1
