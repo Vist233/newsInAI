@@ -354,21 +354,45 @@ def main() -> int:
     heads = "；".join(i["title"] for i in items[:8])
     try:
         insight = clean(ask(
-            "你是技术编辑。根据下面今天的条目，输出三段，每段以固定标签开头，不要标题、不要编号、不要加粗：\n"
-            "今天：用三句说清今天真正发生的事，每句必须带具体主体（公司/项目/数字），不用形容词。\n"
-            "转向：一句判断，说整体正在往哪边转。必须能回答『和三个月前比，什么变了』，不要写『共同主线是』『值得关注』这种套话。\n"
-            "对你：一句，说这个转向对一个做 Agent 工程的人意味着什么具体动作。\n"
-            "三段各一行，总长不超过 260 字。只能用在给出的条目里出现的事实。\n\n"
+            "你是给一个做 Agent 工程的读者写内部判断的技术编辑。读下面条目，输出三行，每行以标签开头，\n"
+            "不要标题、不要编号、不要加粗、不要客套。\n"
+            "今天：四到六句。每句是一个具体事实：主体（公司/项目/人名）+ 发生了什么 + 关键数字（金额/比例/版本/时长）。\n"
+            "     不许写形容词和评价，不许把条目标题换个说法重写一遍。\n"
+            "转向：两句。第一句必须点名一个三个月前的具体事件做对照，说清哪一类行为变了；\n"
+            "     第二句给出方向（变多/变少/从 A 转 B），不许写『共同主线』『值得关注』。\n"
+            "对你：一句可执行动作，必须落到具体对象（哪个仓库/哪个指标/哪份配置/跑哪条命令），\n"
+            "     不许写『要重视』『需关注』『加强』这类空话。\n"
+            "禁止出现的词：值得关注、值得注意、反映出、背后、整体来看、共同主线、这说明、标志着、\n"
+            "本质上、进一步、同时、此外、不难看出、总而言之、由此可见、值得注意的是。\n"
+            "只允许使用条目里出现的事实，不许补充常识。每行不超过 120 字。\n\n"
             + "\n".join(f"- [{i['kind']}] {i['title']}" for i in items[:20]), key, 2000))
     except Exception as e:
         insight = ""
         errors.append("Insight 失败")
         log(f"Insight 失败 {type(e).__name__}")
+    BANNED = ("值得关注", "值得注意", "反映出", "背后", "整体来看", "共同主线", "这说明",
+              "标志着", "本质上", "进一步", "同时", "此外", "不难看出", "总而言之", "由此可见")
     for _tag in ("今天：", "转向：", "对你："):
         if _tag not in insight:
             insight = ""
             errors.append("Insight 格式不符")
             break
+    if insight:
+        hits = [w for w in BANNED if w in insight]
+        if hits:
+            errors.append("Insight 含套话" + "/".join(hits))
+            log(f"Insight 含套话：{hits}，重写一次")
+            try:
+                insight = clean(ask(
+                    "上一版出现这些套话：" + "、".join(hits) + "。重写，规则不变：今天=4-6 句硬事实带数字；"
+                    "转向=2 句，第一句点名三个月前的具体事件做对照；对你=1 句落到具体文件或命令。"
+                    "禁止这些词。每行不超过 120 字。\n\n"
+                    + "\n".join(f"- [{i['kind']}] {i['title']}" for i in items[:20]), key, 2000))
+            except Exception as e:
+                log(f"Insight 重写失败 {type(e).__name__}")
+            still = [w for w in BANNED if w in insight]
+            if still:
+                errors.append("Insight 重写仍含套话")
     if cjk_len(insight) < 120:
         insight = f"今天的输入集中在 {heads[:120]} 这几条上。判断留白比硬凑更诚实：模型侧今天没有给出可用的综合。"
         errors.append("Insight 降级")

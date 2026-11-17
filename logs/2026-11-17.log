@@ -25,3 +25,25 @@
 [21:11:54] Insight 失败 HTTPError
 [21:11:54] 内容写入 content/2026-11-17.json，共 36 条
 [21:11:54] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[21:11:57] commit rc=0 [main 4af8a3f] daily: 2026-11-17 自动更新（3 处降级）
+[21:12:02] push main rc=0    68c033e..4af8a3f  main -> main
+[21:12:11] push gh-pages rc=0 Everything up-to-date
+[21:12:35] 站点验证：2026-11-17 已上线
+[21:12:35] === 完成，降级项 3 ===
+[21:12:35] 降级明细: Insight 失败×1, Insight 格式不符×1, Insight 降级×1
+[21:17:17] insight 今天: 358 字
+[21:17:59] insight 转向: 93 字
+[21:18:44] insight 对你: 76 字
+[21:18:44] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[21:18:45] commit rc=0 [main 33a3210] insight: 2026-11-17 重算
+[21:18:52] push main rc=0    4af8a3f..33a3210  main -> main
+[21:19:56] push gh-pages rc=0 Everything up-to-date
+[21:22:33] insight 今天 第1次失败 HTTPError
+[21:24:12] insight 今天 第2次失败 HTTPError
+[21:24:23] insight 今天: 201 字
+[21:24:32] insight 转向: 107 字
+[21:25:05] insight 对你 长度 121 不在 15-120，重试
+[21:25:31] insight 对你: 103 字
+[21:25:32] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[21:25:33] commit rc=0 [main c833dde] insight: 2026-11-17 重算
+[21:25:38] push main rc=128 and the repository exists.

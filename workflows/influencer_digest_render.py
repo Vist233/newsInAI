@@ -33,15 +33,19 @@ ARXIV_CATEGORY_RE = re.compile(r"^[a-z]+(?:-[a-z]+)*\.[A-Z][A-Za-z-]*$")
 def _insight_html(summary: str) -> str:
     """三段式 Insight：今天 / 转向 / 对你；不成形就退回单段。"""
     import re as _re
-    text = summary or ""
+    text = (summary or "").strip()
     labels = ("今天", "转向", "对你")
+    pat = _re.compile(r"(今天|转向|对你)\s*[：:]\s*")
     found = {}
-    for name in labels:
-        m = _re.search(rf"{name}\s*[：:]\s*([^\n]+)", text)
-        if m and m.group(1).strip():
-            found[name] = m.group(1).strip()
+    parts = pat.split(text)
+    if len(parts) >= 3:
+        for i in range(1, len(parts) - 1, 2):
+            name, body = parts[i], (parts[i + 1] or "").strip()
+            if name in labels and body:
+                found[name] = body
     if len(found) < 2:
-        return f'<div class="summary">{escape(text)}</div>'
+        # 没有标签或只有一段：去掉残留标签，整段显示一次
+        return '<div class="summary">' + escape(pat.sub('', text).strip()) + '</div>'
     rows = []
     for name in labels:
         if name in found:
@@ -520,10 +524,8 @@ class SiteRenderer:
       </div>
     </div>
   </section>
-  <section>
-    <div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div>
-    {_insight_html(payload["summary"])}
-  </section>
+  {(lambda _s: ('<section><div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div>'
+                + _s + '</section>') if _s else '')(_insight_html(payload["summary"]))}
   {section_html or "<section><p>今天没有新增条目。</p></section>"}
   {issue_monitor_html}
   {extra_html}
