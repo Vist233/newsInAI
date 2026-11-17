@@ -1,0 +1,825 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Brief · 2026-11-18</title>
+  <link rel="icon" href="/logo.png">
+  <style>
+    :root {
+      --paper:#f1f0ec;
+      --field:#e6e3dc;
+      --ink:#111111;
+      --muted:#6e6c66;
+      --line:#c9c5bc;
+      --line-strong:#1c1c1c;
+      --signal:#d8ff3e;
+      --signal-soft:rgba(216,255,62,.34);
+      --font-sans:Inter,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+      --font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+      --item-no-width:52px;
+      --item-gap:18px;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family:var(--font-sans);
+      background:
+        linear-gradient(rgba(201,197,188,.34) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201,197,188,.34) 1px, transparent 1px),
+        var(--paper);
+      background-size:48px 48px,48px 48px,auto;
+      color:var(--ink);
+    }
+    main {
+      max-width:1120px;
+      margin:56px auto;
+      padding:42px 20px 72px;
+      background:var(--paper);
+      box-shadow:0 0 0 12px var(--paper);
+      position:relative;
+    }
+    header {
+      border-bottom:1px solid var(--line-strong);
+      padding-bottom:28px;
+      margin-bottom:0;
+    }
+    .eyebrow,.date,.meta,.tags,.section-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:12px;
+      letter-spacing:0;
+    }
+    .identity {
+      font-family:var(--font-sans);
+      color:var(--ink);
+      font-size:clamp(36px,8vw,86px);
+      line-height:.92;
+      font-weight:800;
+      margin:8px 0 6px;
+      letter-spacing:0;
+    }
+    h1 { font-size:clamp(32px,7vw,74px); line-height:.92; margin:0; letter-spacing:0; font-weight:800; }
+    .hollow { color:transparent; -webkit-text-stroke:1.2px var(--ink); }
+    h2 { font-size:18px; margin:0; }
+    section { border-top:1px solid var(--line-strong); padding:34px 0; background:var(--paper); }
+    header + section { border-top:0; }
+    .section-head { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+    .section-no {
+      background:var(--signal);
+      color:var(--ink);
+      padding:2px 6px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:30px;
+      height:20px;
+      transform:translateY(-1px);
+    }
+    .insight { display: flex; flex-direction: column; gap: 14px; }
+    .insight-row { display: grid; grid-template-columns: 48px 1fr; gap: 14px; align-items: start; border-left: 1px solid rgba(60,56,50,.18); padding-left: 14px; }
+    .insight-label { font-size: 11px; letter-spacing: .12em; color: #8a8378; padding-top: 3px; }
+    .insight-text { margin: 0; font-size: 15.5px; line-height: 1.75; color: #2e2b26; }
+    .summary {
+      white-space:pre-wrap;
+      line-height:1.75;
+      font-size:16px;
+    }
+    .section-subtitle { margin:0 0 16px 0; color:var(--muted); font-size:13px; }
+    .feature-card {
+      display:grid;
+      grid-template-columns:260px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .feature-stack {
+      display:grid;
+      gap:22px;
+    }
+    .feature-art {
+      min-height:150px;
+      border:1px solid var(--line-strong);
+      background:
+        linear-gradient(135deg, rgba(216,255,62,.52), transparent 42%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+      padding:14px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+    .feature-art-title {
+      font-size:28px;
+      line-height:.98;
+      font-weight:800;
+    }
+    .feature-art-meta {
+      font-family:var(--font-mono);
+      font-size:12px;
+      color:var(--ink);
+    }
+    .book-art {
+      background:
+        linear-gradient(135deg, rgba(17,17,17,.08), transparent 44%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+    }
+    .movie-info p { margin:0 0 10px; }
+    .movie-title { font-size:20px; line-height:1.25; }
+    .movie-reason { line-height:1.75; max-width:720px; }
+    .book-title { font-size:20px; line-height:1.25; margin:0 0 10px; }
+    .book-chapter { margin:0 0 10px; color:var(--ink); line-height:1.5; }
+    .book-reason { margin:0; line-height:1.75; max-width:720px; }
+    .items { border-top:0; }
+    .item {
+      display:grid;
+      grid-template-columns:var(--item-no-width) minmax(0,1fr);
+      gap:var(--item-gap);
+      border-bottom:1px solid var(--line);
+      padding:16px 0;
+      align-items:start;
+    }
+    .item:last-child {
+      border-bottom:0;
+      padding-bottom:0;
+    }
+    .item-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.35;
+      padding-top:2px;
+    }
+    .item-main { min-width:0; }
+    .title-line {
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:14px;
+      width:100%;
+    }
+    .title-link {
+      color:var(--ink);
+      font-size:17px;
+      line-height:1.35;
+      text-decoration-thickness:1px;
+      text-underline-offset:4px;
+      flex:1;
+      min-width:0;
+    }
+    .item a:hover { background:var(--signal-soft); }
+    .inline-time {
+      flex:0 0 auto;
+      white-space:nowrap;
+      text-align:right;
+    }
+    .item a { color:var(--ink); }
+    .item a:hover { background:var(--signal-soft); }
+    .source-line {
+      margin-top:6px;
+      min-height:16px;
+    }
+    .media-layout {
+      display:grid;
+      grid-template-columns:220px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .media-body {
+      min-height:100%;
+      display:flex;
+      flex-direction:column;
+    }
+    .video-meta {
+      margin-top:auto;
+    }
+    .thumb {
+      display:block;
+      width:100%;
+      aspect-ratio:16/9;
+      object-fit:cover;
+      border:1px solid var(--line-strong);
+      background:var(--field);
+    }
+    .description {
+      margin-top:8px;
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.65;
+      display:-webkit-box;
+      -webkit-line-clamp:3;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+    .monitor-link-row {
+      display:grid;
+      grid-template-columns:minmax(0,1fr) auto;
+      gap:20px;
+      align-items:center;
+    }
+    .monitor-title {
+      font-size:18px;
+      line-height:1.25;
+      margin:0 0 5px;
+    }
+    .monitor-overview {
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.55;
+      max-width:540px;
+      margin:0;
+    }
+    .monitor-facts {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:10px;
+      margin-top:14px;
+      max-width:620px;
+    }
+    .monitor-fact {
+      min-width:0;
+      padding:10px 12px;
+      border-top:2px solid var(--signal);
+      background:var(--field);
+    }
+    .monitor-fact-label {
+      display:block;
+      color:var(--muted);
+      font:10px/1.2 var(--font-mono);
+      letter-spacing:.04em;
+      text-transform:uppercase;
+    }
+    .monitor-fact-value {
+      display:block;
+      color:var(--ink);
+      font-size:25px;
+      font-weight:800;
+      line-height:1.1;
+      margin:5px 0 3px;
+    }
+    .monitor-fact-copy {
+      display:block;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.35;
+    }
+    .monitor-link {
+      display:inline-flex;
+      align-items:center;
+      border:1px solid var(--ink);
+      background:var(--field);
+      color:var(--ink);
+      padding:8px 10px;
+      font:12px/1 var(--font-mono);
+      text-decoration:none;
+      max-width:100%;
+      overflow-wrap:anywhere;
+    }
+    .monitor-link:hover {
+      background:var(--signal);
+      color:var(--ink);
+    }
+    .brief-footer {
+          margin-top:42px;
+          padding-top:18px;
+          border-top:1px solid var(--line);
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          font:12px/1 var(--font-mono);
+        }
+        .brief-footer a {
+          color:var(--muted);
+          text-decoration:none;
+        }
+        .brief-footer a:hover {
+          color:var(--ink);
+          text-decoration:underline;
+          text-decoration-color:var(--signal);
+          text-underline-offset:4px;
+        }
+        .brief-footer .footer-sep {
+          color:var(--muted);
+          margin: 0 10px;
+          user-select:none;
+          pointer-events:none;
+        }
+        @media (max-width:720px) {
+          .brief-footer .footer-sep { margin: 0 8px; }
+        }
+    @media (max-width:720px) {
+      :root {
+        --item-no-width:38px;
+      }
+      .title-line {
+        flex-direction:column;
+        align-items:flex-start;
+        gap:4px;
+      }
+      .inline-time {
+        text-align:left;
+      }
+      .media-layout { grid-template-columns:1fr; }
+      .feature-card { grid-template-columns:1fr; }
+      .monitor-link-row {
+        grid-template-columns:1fr;
+        grid-template-areas:"action" "details";
+      }
+      .monitor-copy { grid-area:details; }
+      .monitor-facts { grid-template-columns:repeat(3,minmax(0,1fr)); }
+      .monitor-link { grid-area:action; }
+      .monitor-link { justify-self:start; }
+    }
+  
+  /* 台账行：与主站 item 同一字号阶梯（标题 15 / 正文 14 / 标签 11） */
+  .ledger { border-top: 1px solid var(--line-strong); }
+  .led-cap {
+    display: flex; gap: 10px; align-items: baseline; padding: 15px 0 7px;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+  }
+  .led-cap span { color: var(--ink); }
+  .led-row {
+    display: grid; grid-template-columns: 180px minmax(0, 1fr);
+    gap: 18px; padding: 11px 0; border-top: 1px solid var(--line); align-items: start;
+  }
+  .led-key { font-size: 15px; font-weight: 500; line-height: 1.5; color: var(--ink); }
+  .led-key-mono { font-family: var(--font-mono); font-weight: 400; font-size: 12px; color: var(--muted); padding-top: 4px; }
+  .led-val { min-width: 0; }
+  .led-val p { margin: 0; font-size: 14px; line-height: 1.62; color: var(--muted); }
+  .led-val a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .led-val a:hover { border-bottom-color: var(--ink); }
+  .led-dim { color: var(--muted); font-size: 12px; }
+  .led-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .led-tags span {
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+    border: 1px solid var(--line); padding: 1px 6px;
+  }
+  .led-quote {
+    margin: 10px 0 0; padding: 0 0 0 16px; border-left: 2px solid var(--ink);
+    font-size: 15px; line-height: 1.7; color: var(--ink);
+  }
+  .led-quote cite {
+    display: block; margin-top: 6px; font-style: normal;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+  }
+  .led-quote cite a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .led-line { margin: 12px 0 0; font-size: 15px; line-height: 1.7; color: var(--ink); }
+
+  /* 岗位统计 */
+  .stat-top { display: flex; align-items: flex-end; gap: 20px; padding: 6px 0 18px; }
+  .stat-num { font-family: var(--font-mono); font-size: 44px; line-height: 1; color: var(--ink); letter-spacing: -.02em; }
+  .stat-meta { display: flex; flex-wrap: wrap; gap: 16px; padding-bottom: 4px; font-size: 13px; color: var(--muted); }
+  .stat-meta b { font-family: var(--font-mono); font-weight: 400; color: var(--ink); }
+  .stat-dim { color: var(--muted); font-size: 12px; }
+  .stat-body { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 32px; align-items: start; border-top: 1px solid var(--line); padding-top: 18px; }
+  .donut { display: block; }
+  .jobs-table { min-width: 0; }
+  .jobs-row {
+    display: grid; grid-template-columns: minmax(0, 1fr) 64px 64px 64px;
+    gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line);
+    font-size: 14px; align-items: baseline;
+  }
+  .jobs-head {
+    border-bottom: 1px solid var(--line-strong); color: var(--muted);
+    font-family: var(--font-mono); font-size: 11px; padding-bottom: 6px;
+  }
+  .jobs-dir { color: var(--ink); }
+  .jobs-n { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); text-align: right; }
+  .jobs-head div:nth-child(n+2) { text-align: right; }
+
+  @media (max-width: 760px) {
+    .led-row { grid-template-columns: 1fr; gap: 4px; }
+    .led-key-mono { padding-top: 0; }
+    .stat-body { grid-template-columns: 1fr; gap: 16px; }
+    .stat-num { font-size: 36px; }
+  }
+
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="identity">ZhangYvJing's</div>
+    <h1><span class="hollow">Daily Brief</span></h1>
+  </header>
+  <section class="feature-picks">
+    <div class="section-head"><span class="section-no">00</span><h2>Film / Book Chapter</h2></div>
+    <div class="feature-stack">
+      <div class="feature-card">
+        <div class="feature-art">
+          <div class="feature-art-title">Ikiru</div>
+          <div class="feature-art-meta">1952 / 黑泽明</div>
+        </div>
+        <div class="movie-info">
+          <p class="movie-title"><strong>Ikiru (1952)</strong> · 黑泽明</p>
+          <p class="movie-reason">提醒时间该压在哪件事上</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-art book-art">
+          <div class="feature-art-title">Thinking in Systems</div>
+          <div class="feature-art-meta">Donella H. Meadows</div>
+        </div>
+        <div class="movie-info">
+          <p class="book-title"><strong>Thinking in Systems</strong> · Donella H. Meadows</p>
+          <p class="book-chapter">Chapter 1: The Basics</p>
+          <p class="book-reason">先看反馈回路与延迟，再谈单变量优化</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section><div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div><div class="insight"><div class="insight-row"><span class="insight-label">今天</span><p class="insight-text">英伟达营收达到1040亿美元，并停止单独披露新加坡销售数据。FrontierHarness Eval v1.1 由 Runta 发布，用统一评测比较不同模型在不同执行框架下的表现。Phrack 第73期已发布，收录漏洞研究、逆向工程、系统底层和网络安全文章。Claude-BugHunter 以 Python</p></div><div class="insight-row"><span class="insight-label">转向</span><p class="insight-text">FrontierHarness Eval v1.1 把同一模型放进不同执行框架下对比，评测行为从比较模型本身改为把 harness 当作可比变量。这类比较会变多，选型判断从挑模型转向挑模型与 harness 的配对。</p></div><div class="insight-row"><span class="insight-label">对你</span><p class="insight-text">在 Sakura Code / Pi 上用 FrontierHarness Eval v1.1 的统一评测方法运行一轮 Terminal-Bench 的 harness 对比，并在结果里记录成本和延迟差异。</p></div></div></section>
+  <section>
+    <div class="section-head"><span class="section-no">02</span><h2>Worth Reading</h2></div>
+    <p class="section-subtitle">我的挑选 · 今日值得看</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html">New Evidence Shows School Phone Bans Are Gradually Improving Test Scores</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">它给出学校手机禁令后成绩逐步改善的新证据，并汇集1106票、545条讨论对因果与执行成本的争论。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://openai.com/index/introducing-gpt-6-2-astra-sol/">GPT‑6.2 Astra and Sol</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">讨论比较Astra与Sol在推理、编程和长上下文上的表现</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/dream-num/univer">dream-num/univer</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">它基于TypeScript和Univer Office SDK，把编辑、计算、协作与文件处理接入产品并服务人与</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">它整合82项技能、15个命令和24类漏洞的681条公开报告模式，内置企业身份与基础设施攻击矩阵，今日新增星标1007个，便于授权测试复用真实案例。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">03</span><h2>Hacker News</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html">New Evidence Shows School Phone Bans Are Gradually Improving Test Scores</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17T11:45:51+00:00">2026-11-17T11:45:51+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上这篇讨论围绕纽约时报报道的新证据展开，该证据显示学校实施手机禁令后考试成绩逐步改善。帖子获得1106分和545条评论，评论者重点争论研究能否证明因果、禁令执行成本、学生自控与课堂注意力、家长沟通、紧急联系需求、数字素养教育以及不同学校间的公平差异。有人认为统一限制能减少干扰并改善学习氛围，也有人担心简单没收手机治标不治本，主张配套教学管理和透明规则。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://openai.com/index/introducing-gpt-6-2-astra-sol/">GPT‑6.2 Astra and Sol</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17T17:46:43+00:00">2026-11-17T17:46:43+00:00</time></span></div>
+    
+    <div class="description">OpenAI 发布 GPT-6.2 Astra 与 Sol 的公告在 Hacker News 上引发热议，帖子获得 976 分和 603 条评论，迅速登上首页。讨论集中在两个版本的定位差异，不少人比较 Astra 与 Sol 在推理、编程和长上下文任务上的实际表现，并质疑官方基准是否具有代表性。也有评论关注定价、API 可用性和迁移成本，担心频繁的小版本迭代让开发者难以跟进。部分用户讨论命名策略与安全对齐问题，认为公告对训练细节披露不足。整体氛围既有对能力提升的认可，也有对营销话术和评测透明度的审慎批评。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://developer.apple.com/system-status/">Apple Services Down</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17T17:47:14+00:00">2026-11-17T17:47:14+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上出现了一则题为 Apple Services Down 的技术讨论，链接指向苹果开发者系统状态页面，显示部分 Apple 服务出现中断。该帖子获得 573 分和 314 条评论，关注度较高。讨论中，用户主要交流受影响服务的范围、状态页面的更新情况，以及服务中断对开发者工作流、应用发布和日常使用可能造成的影响，同时也在等待苹果方面进一步恢复和说明。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down">Highly classified US national security communications network goes down</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17T15:38:28+00:00">2026-11-17T15:38:28+00:00</time></span></div>
+    
+    <div class="description">Hacker News用户围绕CNN报道美国高度机密国家安全通信网络宕机一事展开讨论，该帖获得385分和496条评论。讨论关注此类关键系统为何会中断、冗余与故障转移是否充分、影响范围及安全风险，并延伸到政府系统透明度、承包商责任和民用通信基础设施韧性等话题。由于公开信息有限，评论中对事故原因和后果存在不同推测。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://runta.com/blog/introducing-frontierharness-eval-v1-1/">What is the best harness for each model?</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17T14:53:43+00:00">2026-11-17T14:53:43+00:00</time></span></div>
+    
+    <div class="description">这则 Hacker News 讨论围绕“每个模型最适合哪种 harness”展开，介绍 Runta 发布的 FrontierHarness Eval v1.1，尝试用统一评测比较不同模型在不同执行框架下的表现。帖子获得 311 分和 109 条评论，参与者关注评测方法是否公平、结果能否复现、成本与延迟差异，以及 harness 选择对模型能力呈现的影响。讨论也涉及如何避免把框架优势误判为模型优势，并为实际部署中的选型提供参考。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf">Nvidia stopped disclosing Singapore sales as revenues hit $104B</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17T17:12:06+00:00">2026-11-17T17:12:06+00:00</time></span></div>
+    
+    <div class="description">这条 Hacker News 讨论围绕英伟达在营收达到1040亿美元之际停止单独披露新加坡销售数据展开，帖子获得282分和153条评论。评论主要关注新加坡作为区域结算与转运枢纽是否掩盖了芯片最终流向，出口管制下的合规透明度，以及投资者是否因信息披露减少而更难追踪AI芯片销售。也有人认为区域收入归属复杂，不宜过度解读单一数据。讨论还涉及地缘政治敏感性、监管套利风险和公司财报披露选择的影响。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://calif.io/java4shell/">Java4Shell: RCE in OpenJDK when processing Base64</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17T21:11:28+00:00">2026-11-17T21:11:28+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上这篇题为 Java4Shell 的帖子介绍 OpenJDK 在处理 Base64 时可能触发远程代码执行的问题，获得 248 分和 75 条评论。讨论聚焦漏洞触发条件、受影响版本、实际利用门槛以及修复与缓解方案，也有评论质疑 Java4Shell 的命名和风险是否被夸大。整体反映开发者对 Java 生态安全与依赖升级的高度关注。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/">How the Claude Code team thinks about verification</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17T10:20:40+00:00">2026-11-17T10:20:40+00:00</time></span></div>
+    
+    <div class="description">Hacker News上这篇讨论围绕Claude Code团队如何思考验证展开，帖子获得246分和192条评论。讨论重点包括AI编程助手生成代码后如何通过测试、静态检查、代码审查和人工监督确认结果可靠，以及验证在代理工作流中的成本、自动化程度和信任边界。评论者还讨论了验证责任归属、工具链集成和过度依赖自动化的风险。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/">MAI Code 2 and Code 2 Flash</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17T18:25:13+00:00">2026-11-17T18:25:13+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上围绕微软发布的 MAI Code 2 与 MAI Code 2 Flash 展开讨论，帖子获得 238 分和 111 条评论。参与者关注两款模型在代码生成、推理能力、响应速度与成本之间的取舍，并将其与现有编程助手和竞品比较。评论中既有对 Flash 版本实用性和部署前景的期待，也有对基准透明度、真实开发场景表现及长期可靠性的质疑，整体讨论热度较高。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://phrack.org/issues/73/introduction_md">Phrack 73 Released</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17T18:31:25+00:00">2026-11-17T18:31:25+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上出现了 Phrack 第 73 期发布的链接，帖子获得 207 分和 20 条评论，引发安全研究者和黑客文化爱好者的关注。Phrack 是历史悠久的技术刊物，长期刊登漏洞研究、逆向工程、系统底层和网络安全相关文章。此次讨论围绕新一期内容、技术写作价值以及黑客社区的知识传承展开，反映出读者对高质量安全研究和低层技术细节的持续兴趣。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">04</span><h2>GitHub Trending</h2></div>
+    <p class="section-subtitle">Daily · Top 10</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">Claude-BugHunter 是一个面向漏洞挖掘与外部红队工作的 Claude Code 技能包，使用 Python 编写。它整合了 82 项技能、15 个斜杠命令，并围绕 24 类核心漏洞整理了 681 条公开披露报告的模式，同时内置企业身份与基础设施攻击矩阵，帮助安全研究人员在授权测试中更高效地复用真实案例经验。项目今日新增约一千颗星，热度较高。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">last30days-skill 是一个用 Python 编写的 AI 智能体技能，能够围绕任意主题在 Reddit、X、YouTube、Hacker News、Polymarket 以及普通网页等多个平台上展开调研，再把搜集到的信息综合成一份有事实依据的摘要。该项目今日新增 772 颗星，适合需要快速掌握某话题近期讨论动态与舆论走向的用户，可显著减少跨平台手动检索的时间成本，并提升信息汇总的效率与可靠性。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/alibaba/open-code-review">alibaba/open-code-review</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">阿里巴巴开源项目open-code-review使用Go语言开发，今日新增764颗星。它是一款安全、快速且高效的代码审查工具，已在阿里巴巴的大规模场景中经过实践检验。项目采用确定性流水线与LLM Agent相结合的混合架构，能够给出精确到行级的评论，并内置覆盖多种语言的规则集，可检测空指针异常、线程安全、跨站脚本和SQL注入等问题，同时兼容OpenAI与Anthropic接口。</div>
+    <div class="meta source-line">Go</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/Tencent/LoopForge">Tencent/LoopForge</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">腾讯开源项目LoopForge采用Go语言开发，面向编码代理交付提供自托管工作流。它可通过脚本编排CodeBuddy、Codex和Claude Code等编码助手，并设置人工审批门控制关键环节，同时包含面向本地编码助手的工作流方案。项目今日新增590颗星，适合需要统一调度多种编码代理并保留人工审核能力的团队使用。</div>
+    <div class="meta source-line">Go</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/dream-num/univer">dream-num/univer</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">dream-num/univer 是一个基于 TypeScript 开发的开源项目，旨在通过 Univer Office SDK 帮助开发者构建自己的 AI 办公能力。它可将编辑、计算、协作和文件处理引入产品，同时服务人与 AI 智能体。项目建立在可扩展的开源核心之上，便于集成和二次开发。该项目今日新增 1776 星，受到较多关注。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/getarcaneapp/arcane">getarcaneapp/arcane</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">getarcaneapp/arcane 是一个面向所有人的现代 Docker 管理开源项目，使用 Go 语言开发。它致力于简化容器与镜像等 Docker 资源的日常管理，让不同经验水平的用户都能更轻松地上手和使用。项目今日新增 654 颗星，社区关注度较高。整体定位清晰，适合希望以更直观方式管理 Docker 环境的开发者和运维人员。</div>
+    <div class="meta source-line">Go</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/google-labs-code/stitch-skills">google-labs-code/stitch-skills</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">这个名为 Stitch Skills 的开源项目采用 TypeScript 开发，提供一套面向 Stitch MCP 服务器的 Agent Skills 库。每项技能都遵循 Agent Skills 开放标准，可与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容，方便开发者复用和扩展智能体能力。项目今日新增 350 星，受到较多关注。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/cursor/plugins">cursor/plugins</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">cursor/plugins 是 GitHub 上的开源项目，主要提供 Cursor 插件规范以及官方插件集合，项目使用 TypeScript 编写。它面向希望了解、开发或集成 Cursor 插件的开发者，通过规范说明和官方示例帮助统一插件实现方式，降低开发与使用门槛。该项目今日新增 196 星，关注度较高，适合需要扩展 Cursor 能力或研究其插件生态的开发者参考。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/obra/superpowers">obra/superpowers</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">obra/superpowers 是一个以 Shell 为主要实现语言的开源项目，提供可实际落地的智能体技能框架与软件开发方法论。项目今日新增 598 颗星，受到社区关注。它面向使用智能体开展软件开发的场景，强调技能组织与方法实践的结合，帮助开发者建立可复用、可执行的工作流程，并为智能体协作开发提供结构化参考。</div>
+    <div class="meta source-line">Shell</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/ag-ui-protocol/ag-ui">ag-ui-protocol/ag-ui</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">AG-UI 是一个用 TypeScript 实现的开源协议项目，旨在定义智能体与用户交互的标准方式，帮助开发者把 AI Agent 接入前端应用。它关注 Agent 与界面之间的通信和状态同步，为构建可交互的智能体应用提供统一协议层。项目今日新增 1444 星，社区关注度较高，适合需要在前端集成智能体能力并希望降低对接成本的开发者参考和使用。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">05</span><h2>YouTube</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=9RKrSF9d2SE"><img class="thumb" src="https://i.ytimg.com/vi/9RKrSF9d2SE/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=9RKrSF9d2SE">2026 in LLMs — Simon Willison, Datasette</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17">2026-11-17</time></span></div>
+        <div class="description">Simon Willison 用 Datasette 把 LLM 输出转成可查询表，并据此说明可验证的数据管道比模型规模更关键。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=IPh9YsWvDQk"><img class="thumb" src="https://i.ytimg.com/vi/IPh9YsWvDQk/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=IPh9YsWvDQk">New Ways of Working with Codex — Dominik Kundel &amp; Charlie Guo, OpenAI</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-17">2026-11-17</time></span></div>
+        <div class="description">OpenAI 的 Dominik Kundel 与 Charlie Guo 用 Codex 拆解真实</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=y1-9yeYLJUo"><img class="thumb" src="https://i.ytimg.com/vi/y1-9yeYLJUo/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=y1-9yeYLJUo">The Rise Of AI Coworkers</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-14">2026-11-14</time></span></div>
+        <div class="description">视频用“AI coworkers”概念，论证AI会从单点工具变成承担端到端任务的协作</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=iXWSYlAX5Lg"><img class="thumb" src="https://i.ytimg.com/vi/iXWSYlAX5Lg/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=iXWSYlAX5Lg">The Whistleblower Who Took on Theranos</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-11">2026-11-11</time></span></div>
+        <div class="description">Theranos举报人用内部邮件和实验室数据揭露血检骗局，并讲清自己遭诉讼威胁的代价。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">08</span><h2>Papers</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.21608v1">Latent Lattice Language Models</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">本文提出 Latent Lattice Language Models，通过增加模型维持的活跃计算状态数量来提升每词元计算容量，而非仅依赖更深的层、循环层或潜在推理步骤。作者引入 Lattice of Latents，一组逐层水平潜在流，沿时间循环运行，并与穿过深度的垂直残差流并行。类似超连接、mHC 以及注意力或值残差，该结构增强残差流，但不同于在深度方向增加或重路由残差路径，它提供跨词元持久的伴随计算状态。与混合 Transformer-SSM 架构不同，这些潜在状态并非主要作为序列混合的内部记忆，而是直接条件化垂直流。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.21605v1">ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">该论文针对超高清图像视觉代理容易凭常识作答而不读取证据的问题，提出跨输入相对策略优化CrossRPO。该方法利用对比集训练代理：同一问题对应多张仅在小区域证据上不同的图像，答案随证据变化，因此只有真正读取证据才能解决整套问题。CrossRPO以整套正确性为奖励，并证明不会强化仅靠常识答对的集合。作者通过编辑21至120兆像素图像中的小目标构建训练集ViRA-Train和评测集ViRA-Bench，并进一步拍摄补充数据，以推动超高清视觉代理研究。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.21602v1">Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">该研究评估美国国家飓风中心热带气旋讨论文本对强度预报的附加价值。研究选取2002至2023年大西洋和东太平洋共637个热带气旋，分析讨论文本及其与SHIPS和ERA5十米风场中13个环境预测因子的组合，并采用三种建模方法预报24至120小时强度变化。基于文本的端到端深度学习框架显示，仅使用讨论文本在24小时强度预报上的价值可与SHIPS预测因子相当。将讨论信息加入由五个此类模型组成的集合后，可降低24小时强度预报的平均绝对误差。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.21600v1">How VLMs Plan What&#x27;s Next</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">论文研究视觉语言模型描述图像时如何规划下一个对象。模型一次命名一个对象且很少重复，但顺序规划机制尚不明确。作者刻画模型在观察前决定看向何处的四部分机制。绑定头将相关文本词元与图像匹配并解析为指向对应区域的指针，同一绑定头把每个书面答案绑定到来源区域并转化为进度信号光标，表示列表中已写入图像的位置。选择步骤选取光标后最近的未写区域或停止。注视头执行所选指针并返回该处概念，语言头和后期多层感知机将其转为问题语言中的词。作者验证了每个部分。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.21599v1">Hyperlyve: Parallelized Enumeration and Exact Lyapunov Stability Certification for Deep ReLU Networks</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">本文介绍Hyperlyve框架，用于证明非线性动力系统的渐近稳定性，包括含神经网络控制器的系统。Hyperlyve在反例引导归纳综合循环中学习并形式化认证连续分段仿射神经Lyapunov函数，其关键创新是并行枚举深度网络ReLU激活形成的超平面排列，并认证每个多面体区域内的Lyapunov条件。作者推导了可靠且完备的区域测试，在感兴趣的紧致域内验证精确光滑动力学的渐近稳定性，而不是分段线性近似，并形式化刻画了连续分段仿射神经Lyapunov验证问题的计算复杂度。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.21598v1">Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">持续强化学习要求智能体在适应环境变化的同时保留此前已遇动态下的性能。该研究考察进化搜索产生的专家能否与环境检测和失败驱动搜索结合，形成可复用记忆。作者提出进化神经可塑性智能体ENA，它无需梯度即可进化小型神经网络，按检测到的动态机制归档选定策略，并通过贝叶斯策略复用进行检索。在非平稳CartPole和HalfCheetah环境中评估后，30次重复的CartPole消融实验显示，完整架构在五个测试环境中的平均成功率达到83.2%。在学会较难CartPole环境的变体中，完整架构表现出最一致的保持能力，选择消融实验也进一步考察了策略选择的作用。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.21597v1">Optimal Autoregressive Chain-of-Thought Learning via Bagging</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">本文研究在给定由目标自回归下一词生成器产生、长度为T的思维链演示时，如何从函数类中学习该生成器。作者提出一种基于bagging的简单算法，对训练数据的自助采样训练满足思维链一致性的生成器，并以多数投票组合输出。针对二元词元集，算法达到最优样本复杂度O((dVC+log(1/δ))/ε)，且与思维链长度T无关；针对有限词元集，则以图维数dG替代VC维，样本复杂度在log|Σ|因子内最优。多数投票集成所需生成器数量为O(log(T/δ))，并可蒸馏为单个生成器。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.21596v1">SADL: On the Demand-Supply Geometry of Representation Collapse</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+    
+    <div class="description">该论文研究联合嵌入预测架构中投影器输出受约束仍无法避免表征坍缩的问题。作者发现从初始化起编码器表征就被不同输入共享的分量主导，批归一化投影器会移除该分量，使投影器后的正则化无法纠正，表征差异持续缩小直至坍缩。为此提出供需损失SADL，在保留原训练目标的同时直接约束编码器。SADL比较投影器输出所需求的表征差异与编码器能够保留并传递的差异，仅在供给不足需求时施加约束，可兼容不同需求正则器，且不引入辅助网络。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article></div>
+  </section>
+  
+  <section><div class="section-head"><span class="section-no">09</span><h2>方向雷达</h2></div><div class='ledger'><div class="led-cap"><span>01</span>钱去哪了</div><div class="led-row"><div class="led-key">欧洲深科技</div><div class="led-val"><p>欧洲本土大额基金补齐后期资本，押注深科技巨头</p><div class="led-tags"><span>Plural、Helsing</span></div></div></div><div class="led-row"><div class="led-key">AI安全</div><div class="led-val"><p>产品上线三个月即达十亿美元估值，资本抢跑</p><div class="led-tags"><span>Corma、Apollo Research</span></div></div></div><div class="led-row"><div class="led-key">AI原生CRM</div><div class="led-val"><p>老牌SaaS团队出走创业，押注AI重写CRM</p><div class="led-tags"><span>Dreamteam、Freshworks</span></div></div></div><div class="led-cap"><span>02</span>我能做什么开源项目</div><div class="led-row"><div class="led-key led-key-mono"><strong>datasette-local-llm</strong></div><div class="led-val"><p>本地模型接入Datasette Agent配置繁琐，需一条命令…</p><div class="led-tags"><span>MVP 自动探测Ollama/LM Studio端点，生成data…</span><span>栈 Python, Datasette, Ollama API</span></div></div></div><div class="led-row"><div class="led-key led-key-mono"><strong>agent-prompt-audit</strong></div><div class="led-val"><p>模型行为受外部审查，个人开发者也需要可查的调用日志</p><div class="led-tags"><span>MVP 代理拦截LLM请求，把prompt与响应写入SQLite…</span><span>栈 Python, SQLite, Datasette</span></div></div></div><div class="led-cap"><span>03</span>名人原句</div><blockquote class="led-quote">Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data.<cite>Simon Willison · Simon Willison's Weblog · <a href="https://simonwillison.net/2026/Nov/15/datasette-agent/">原文</a></cite></blockquote><div class="led-cap"><span>04</span>一句话</div><p class="led-line">欧洲深科技基金扩容、AI安全估值狂飙，个人开发者机会在本地模型与调用审计工具。</p></div></section><section><div class="section-head"><span class="section-no">10</span><h2>岗位</h2></div><div class='ledger'><div class="stat-top"><div class="stat-num">196</div><div class="stat-meta"><span>环比 <b>-4.9%</b></span><span>昨日 206</span><span>最大方向 后端/服务端 16.3%</span><span class="stat-dim">同比：数据累计 6/7 天</span></div></div><div class="stat-body"><svg class="donut" viewBox="0 0 150 150" width="150" height="150" role="img" aria-label="岗位方向占比"><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#1c1c1c" stroke-width="18" stroke-dasharray="55.39 283.90" stroke-dashoffset="-0.00" transform="rotate(-90 75.0 75.0)"><title>后端/服务端 32 · 16.3%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#4a463f" stroke-width="18" stroke-dasharray="53.66 285.63" stroke-dashoffset="-55.39" transform="rotate(-90 75.0 75.0)"><title>基础设施/运维 31 · 15.8%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#6e6c66" stroke-width="18" stroke-dasharray="48.47 290.82" stroke-dashoffset="-109.06" transform="rotate(-90 75.0 75.0)"><title>芯片/半导体 28 · 14.3%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#8a8378" stroke-width="18" stroke-dasharray="45.01 294.28" stroke-dashoffset="-157.53" transform="rotate(-90 75.0 75.0)"><title>硬件/嵌入式 26 · 13.3%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#a8a29a" stroke-width="18" stroke-dasharray="38.08 301.21" stroke-dashoffset="-202.54" transform="rotate(-90 75.0 75.0)"><title>前端/全栈 22 · 11.2%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#c9c5bc" stroke-width="18" stroke-dasharray="36.35 302.94" stroke-dashoffset="-240.62" transform="rotate(-90 75.0 75.0)"><title>数据 21 · 10.7%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#e6e3dc" stroke-width="18" stroke-dasharray="62.32 276.97" stroke-dashoffset="-276.97" transform="rotate(-90 75.0 75.0)"><title>其他 36 · 18.4%</title></circle></svg><div class="jobs-table"><div class="jobs-row jobs-head"><div>方向</div><div>条数</div><div>占比</div><div>环比</div></div><div class="jobs-row"><div class="jobs-dir">后端/服务端</div><div class="jobs-n">32</div><div class="jobs-n">16.3%</div><div class="jobs-n">-14%</div></div><div class="jobs-row"><div class="jobs-dir">基础设施/运维</div><div class="jobs-n">31</div><div class="jobs-n">15.8%</div><div class="jobs-n">+11%</div></div><div class="jobs-row"><div class="jobs-dir">芯片/半导体</div><div class="jobs-n">28</div><div class="jobs-n">14.3%</div><div class="jobs-n">+0%</div></div><div class="jobs-row"><div class="jobs-dir">硬件/嵌入式</div><div class="jobs-n">26</div><div class="jobs-n">13.3%</div><div class="jobs-n">-4%</div></div><div class="jobs-row"><div class="jobs-dir">前端/全栈</div><div class="jobs-n">22</div><div class="jobs-n">11.2%</div><div class="jobs-n">-21%</div></div><div class="jobs-row"><div class="jobs-dir">数据</div><div class="jobs-n">21</div><div class="jobs-n">10.7%</div><div class="jobs-n">+50%</div></div><div class="jobs-row"><div class="jobs-dir">算法/AI</div><div class="jobs-n">19</div><div class="jobs-n">9.7%</div><div class="jobs-n">-21%</div></div><div class="jobs-row"><div class="jobs-dir">测试/质量</div><div class="jobs-n">17</div><div class="jobs-n">8.7%</div><div class="jobs-n">-15%</div></div></div></div></div></section><section><div class="section-head"><span class="section-no">11</span><h2>宏观内参</h2></div><div class='ledger'><div class="led-row"><div class="led-key">宏观/流动性</div><div class="led-val"><p>美联储 10/28 发布 FOMC 声明、9/15-16 会议经济预测已公开，但抓取素材仅含标题，利率与点阵图…</p></div></div><div class="led-row"><div class="led-key">政策/合规</div><div class="led-val"><p>美国把 AI 芯片出口管制从「卖硬件」延伸到「租算力」——临时规则（interim rule）要求企业凡可能向…</p></div></div><div class="led-row"><div class="led-key">巨头/产业</div><div class="led-val"><p>Nvidia 由临时 CEO、原 CFO Colette Kress 于周二发布 Q3 财报，公司处于治理动荡…</p></div></div><div class="led-row"><div class="led-key">信源与可靠度</div><div class="led-val"><p>TechCrunch（[链接](https://techcrunch.com/2026/11/16/us-ti…</p></div></div></div></section><section><div class="section-head"><span class="section-no">12</span><h2>Issue 日报</h2></div><div class='ledger'><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11720</a> [今天] [Bug] PostgresDb: a failed first CREATE TAB…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11719</a> [今天] [Bug] Qdrant.insert ignores batch_size and…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12101</a> [4d] Make `developer` opt-in for OpenAI-compatib…<span class="led-dim"> 2 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12096</a> [4d] /login llama.cpp connection store doesn't p…<span class="led-dim"> 3 评</span></p></div></div></div></section>
+  <footer class="brief-footer">
+    <a href="/history/">History</a>
+    <span class="footer-sep">·</span>
+    <a href="/rss.xml">RSS</a>
+  </footer>
+</main>
+<script>
+(function() {
+  function relative(iso) {
+    const then = new Date(iso);
+    if (isNaN(then.getTime())) return iso;
+    const diff = Math.floor((Date.now() - then.getTime()) / 1000);
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return Math.floor(diff / 60) + ' min ago';
+    if (diff < 86400) return Math.floor(diff / 3600) + ' hr ago';
+    if (diff < 2592000) return Math.floor(diff / 86400) + ' d ago';
+    const months = Math.floor(diff / 2592000);
+    if (months < 12) return months + ' mo ago';
+    return Math.floor(months / 12) + ' yr ago';
+  }
+  document.querySelectorAll('.rel-time').forEach(el => {
+    const iso = el.getAttribute('datetime');
+    if (iso) el.textContent = relative(iso);
+  });
+})();
+</script>
+</body>
+</html>
