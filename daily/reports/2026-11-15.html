@@ -334,7 +334,71 @@
       .monitor-link { grid-area:action; }
       .monitor-link { justify-self:start; }
     }
-  </style>
+  
+  /* 台账行：与主站 item 同一字号阶梯（标题 15 / 正文 14 / 标签 11） */
+  .ledger { border-top: 1px solid var(--line-strong); }
+  .led-cap {
+    display: flex; gap: 10px; align-items: baseline; padding: 15px 0 7px;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+  }
+  .led-cap span { color: var(--ink); }
+  .led-row {
+    display: grid; grid-template-columns: 180px minmax(0, 1fr);
+    gap: 18px; padding: 11px 0; border-top: 1px solid var(--line); align-items: start;
+  }
+  .led-key { font-size: 15px; font-weight: 500; line-height: 1.5; color: var(--ink); }
+  .led-key-mono { font-family: var(--font-mono); font-weight: 400; font-size: 12px; color: var(--muted); padding-top: 4px; }
+  .led-val { min-width: 0; }
+  .led-val p { margin: 0; font-size: 14px; line-height: 1.62; color: var(--muted); }
+  .led-val a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .led-val a:hover { border-bottom-color: var(--ink); }
+  .led-dim { color: var(--muted); font-size: 12px; }
+  .led-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .led-tags span {
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+    border: 1px solid var(--line); padding: 1px 6px;
+  }
+  .led-quote {
+    margin: 10px 0 0; padding: 0 0 0 16px; border-left: 2px solid var(--ink);
+    font-size: 15px; line-height: 1.7; color: var(--ink);
+  }
+  .led-quote cite {
+    display: block; margin-top: 6px; font-style: normal;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+  }
+  .led-quote cite a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .led-line { margin: 12px 0 0; font-size: 15px; line-height: 1.7; color: var(--ink); }
+
+  /* 岗位统计 */
+  .stat-top { display: flex; align-items: flex-end; gap: 20px; padding: 6px 0 18px; }
+  .stat-num { font-family: var(--font-mono); font-size: 44px; line-height: 1; color: var(--ink); letter-spacing: -.02em; }
+  .stat-meta { display: flex; flex-wrap: wrap; gap: 16px; padding-bottom: 4px; font-size: 13px; color: var(--muted); }
+  .stat-meta b { font-family: var(--font-mono); font-weight: 400; color: var(--ink); }
+  .stat-dim { color: var(--muted); font-size: 12px; }
+  .stat-body { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 32px; align-items: start; border-top: 1px solid var(--line); padding-top: 18px; }
+  .donut { display: block; }
+  .jobs-table { min-width: 0; }
+  .jobs-row {
+    display: grid; grid-template-columns: minmax(0, 1fr) 64px 64px 64px;
+    gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line);
+    font-size: 14px; align-items: baseline;
+  }
+  .jobs-head {
+    border-bottom: 1px solid var(--line-strong); color: var(--muted);
+    font-family: var(--font-mono); font-size: 11px; padding-bottom: 6px;
+  }
+  .jobs-dir { color: var(--ink); }
+  .jobs-n { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); text-align: right; }
+  .jobs-head div:nth-child(n+2) { text-align: right; }
+
+  @media (max-width: 760px) {
+    .led-row { grid-template-columns: 1fr; gap: 4px; }
+    .led-key-mono { padding-top: 0; }
+    .stat-body { grid-template-columns: 1fr; gap: 16px; }
+    .stat-num { font-size: 36px; }
+  }
+
+</style>
 </head>
 <body>
 <main>
@@ -733,6 +797,7 @@
 </article></div>
   </section>
   
+  <section><div class="section-head"><span class="section-no">09</span><h2>方向雷达</h2></div><div class='ledger'><div class="led-cap"><span>01</span>钱去哪了</div><div class="led-row"><div class="led-key">AI智能体平台</div><div class="led-val"><p>企业要把智能体管起来，模型无关的编排层开始收租</p><div class="led-tags"><span>LangChain、LangSmith</span></div></div></div><div class="led-row"><div class="led-key">AI算力租赁</div><div class="led-val"><p>客户预付款加贷款硬撑千亿级基建，赌推理需求</p><div class="led-tags"><span>Nebius、Nvidia</span></div></div></div><div class="led-row"><div class="led-key">AI融资退潮</div><div class="led-val"><p>黄仁勋离场，热钱失去锚点，估值与支票同步缩水</p><div class="led-tags"><span>Nvidia</span></div></div></div><div class="led-cap"><span>02</span>我能做什么开源项目</div><div class="led-row"><div class="led-key led-key-mono"><strong>llm-price-watch</strong></div><div class="led-val"><p>Gemini 4 定价混乱且 12 月集体涨价，开发者需要盯价</p><div class="led-tags"><span>MVP 抓取主流模型定价页，diff 变更后推送邮件或 webho…</span><span>栈 Python+SQLite+Playwright</span></div></div></div><div class="led-row"><div class="led-key led-key-mono"><strong>prompt-cost-diff</strong></div><div class="led-val"><p>同一提示词跨模型跑，成本与质量差异没人量化对比</p><div class="led-tags"><span>MVP CLI 输入提示词，跑三家模型，并排输出结果、token…</span><span>栈 Python+llm CLI+SQLite</span></div></div></div><div class="led-cap"><span>03</span>一句话</div><p class="led-line">钱从模型层退向智能体与算力，黄仁勋离场让融资更冷，工具层机会在成本透明。</p></div></section><section><div class="section-head"><span class="section-no">10</span><h2>岗位</h2></div><div class='ledger'><div class="stat-top"><div class="stat-num">180</div><div class="stat-meta"><span>环比 <b>-3.7%</b></span><span>昨日 187</span><span>最大方向 后端/服务端 19.4%</span><span class="stat-dim">同比：数据累计 4/7 天</span></div></div><div class="stat-body"><svg class="donut" viewBox="0 0 150 150" width="150" height="150" role="img" aria-label="岗位方向占比"><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#1c1c1c" stroke-width="18" stroke-dasharray="65.97 273.32" stroke-dashoffset="-0.00" transform="rotate(-90 75.0 75.0)"><title>后端/服务端 35 · 19.4%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#4a463f" stroke-width="18" stroke-dasharray="52.78 286.51" stroke-dashoffset="-65.97" transform="rotate(-90 75.0 75.0)"><title>基础设施/运维 28 · 15.6%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#6e6c66" stroke-width="18" stroke-dasharray="50.89 288.40" stroke-dashoffset="-118.75" transform="rotate(-90 75.0 75.0)"><title>芯片/半导体 27 · 15.0%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#8a8378" stroke-width="18" stroke-dasharray="41.47 297.82" stroke-dashoffset="-169.65" transform="rotate(-90 75.0 75.0)"><title>前端/全栈 22 · 12.2%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#a8a29a" stroke-width="18" stroke-dasharray="41.47 297.82" stroke-dashoffset="-211.12" transform="rotate(-90 75.0 75.0)"><title>硬件/嵌入式 22 · 12.2%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#c9c5bc" stroke-width="18" stroke-dasharray="37.70 301.59" stroke-dashoffset="-252.58" transform="rotate(-90 75.0 75.0)"><title>算法/AI 20 · 11.1%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#e6e3dc" stroke-width="18" stroke-dasharray="49.01 290.28" stroke-dashoffset="-290.28" transform="rotate(-90 75.0 75.0)"><title>其他 26 · 14.4%</title></circle></svg><div class="jobs-table"><div class="jobs-row jobs-head"><div>方向</div><div>条数</div><div>占比</div><div>环比</div></div><div class="jobs-row"><div class="jobs-dir">后端/服务端</div><div class="jobs-n">35</div><div class="jobs-n">19.4%</div><div class="jobs-n">+6%</div></div><div class="jobs-row"><div class="jobs-dir">基础设施/运维</div><div class="jobs-n">28</div><div class="jobs-n">15.6%</div><div class="jobs-n">+4%</div></div><div class="jobs-row"><div class="jobs-dir">芯片/半导体</div><div class="jobs-n">27</div><div class="jobs-n">15.0%</div><div class="jobs-n">+0%</div></div><div class="jobs-row"><div class="jobs-dir">前端/全栈</div><div class="jobs-n">22</div><div class="jobs-n">12.2%</div><div class="jobs-n">+0%</div></div><div class="jobs-row"><div class="jobs-dir">硬件/嵌入式</div><div class="jobs-n">22</div><div class="jobs-n">12.2%</div><div class="jobs-n">-19%</div></div><div class="jobs-row"><div class="jobs-dir">算法/AI</div><div class="jobs-n">20</div><div class="jobs-n">11.1%</div><div class="jobs-n">-5%</div></div><div class="jobs-row"><div class="jobs-dir">测试/质量</div><div class="jobs-n">14</div><div class="jobs-n">7.8%</div><div class="jobs-n">-22%</div></div><div class="jobs-row"><div class="jobs-dir">数据</div><div class="jobs-n">12</div><div class="jobs-n">6.7%</div><div class="jobs-n">+0%</div></div></div></div></div></section><section><div class="section-head"><span class="section-no">11</span><h2>宏观内参</h2></div><div class='ledger'><div class="led-row"><div class="led-key">宏观/流动性</div><div class="led-val"><p>素材中仅抓到美联储 10 月 28 日 FOMC 声明页与 9 月 16 日经济预测（SEP）发布页，声明正文…</p></div></div><div class="led-row"><div class="led-key">政策/合规</div><div class="led-val"><p>意大利就 Android 用户数据访问问题对 Meta 罚款 8.87 亿美元；美联储对 American E…</p></div></div><div class="led-row"><div class="led-key">巨头/产业</div><div class="led-val"><p>Jensen Huang 辞任 Nvidia CEO，要求其复职的请愿签名已超 115,000；LangCha…</p></div></div><div class="led-row"><div class="led-key">信源与可靠度</div><div class="led-val"><p>TechCrunch 多篇追踪 + 时间线（二手报道，事实层可靠度中高）；Stratechery 评论（观点…</p></div></div></div></section><section><div class="section-head"><span class="section-no">12</span><h2>Issue 日报</h2></div><div class='ledger'><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11681</a> [今天] [Bug] StepInput.to_dict() drops falsy previ…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11678</a> [今天] [Bug] FileTools.read_file counts a trailing…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12148</a> [1d] Mistral Large 4 hangs when trying to use to…<span class="led-dim"> 4 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12124</a> [1d] hitting codex websocket 60min connection li…<span class="led-dim"> 2 评</span></p></div></div></div></section>
   <footer class="brief-footer">
     <a href="/history/">History</a>
     <span class="footer-sep">·</span>
