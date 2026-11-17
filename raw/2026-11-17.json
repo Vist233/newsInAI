@@ -1,246 +1,246 @@
 {
  "hacker_news": [
   {
-   "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
-   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
-   "points": 780,
-   "comments": 473,
-   "published": "2026-11-16T13:39:07+00:00",
-   "hn_id": "50517488"
-  },
-  {
-   "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
-   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-   "points": 657,
-   "comments": 523,
-   "published": "2026-11-16T18:31:30+00:00",
-   "hn_id": "50521045"
-  },
-  {
-   "title": "Software is breaking down at a systemic level",
-   "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
-   "points": 306,
-   "comments": 192,
-   "published": "2026-11-16T18:17:17+00:00",
-   "hn_id": "50520866"
-  },
-  {
-   "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
-   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
-   "points": 285,
-   "comments": 112,
-   "published": "2026-11-16T11:39:31+00:00",
-   "hn_id": "50516473"
-  },
-  {
-   "title": "Jiff 1.0: A datetime library for Rust",
-   "url": "https://burntsushi.net/jiff/",
-   "points": 270,
-   "comments": 58,
-   "published": "2026-11-16T16:53:39+00:00",
-   "hn_id": "50519744"
-  },
-  {
-   "title": "Frame – 31.5\" color ePaper display",
-   "url": "https://trmnl.com/blog/introducing-frame",
-   "points": 242,
-   "comments": 162,
-   "published": "2026-11-16T16:23:22+00:00",
-   "hn_id": "50519354"
-  },
-  {
    "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
    "url": "https://www.cs.cmu.edu/learn/",
-   "points": 236,
-   "comments": 49,
+   "points": 1733,
+   "comments": 233,
    "published": "2026-11-16T20:43:36+00:00",
    "hn_id": "50522980"
   },
   {
-   "title": "Nvidia was in trouble before the Jensen Huang mess",
-   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-   "points": 234,
-   "comments": 221,
-   "published": "2026-11-16T15:24:09+00:00",
-   "hn_id": "50518567"
+   "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+   "points": 790,
+   "comments": 659,
+   "published": "2026-11-16T18:31:30+00:00",
+   "hn_id": "50521045"
   },
   {
-   "title": "Grazing sheep in fields with solar arrays",
-   "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
-   "points": 182,
-   "comments": 169,
-   "published": "2026-11-16T17:27:46+00:00",
-   "hn_id": "50520182"
+   "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "points": 647,
+   "comments": 508,
+   "published": "2026-11-16T22:58:20+00:00",
+   "hn_id": "50524736"
   },
   {
-   "title": "Microsoft blames monster email outage on software defect introduced in July fix",
-   "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-   "points": 169,
-   "comments": 118,
-   "published": "2026-11-16T13:18:22+00:00",
-   "hn_id": "50517321"
-  },
-  {
-   "title": "BugMeNot Has Closed",
+   "title": "BugMeNot has closed",
    "url": "https://www.bugmenot.com/",
-   "points": 143,
-   "comments": 77,
+   "points": 603,
+   "comments": 271,
    "published": "2026-11-16T21:32:17+00:00",
    "hn_id": "50523601"
   },
   {
-   "title": "Rust changed me as a developer",
-   "url": "https://blog.startifact.com/posts/how-rust-changed-me/",
-   "points": 114,
-   "comments": 60,
-   "published": "2026-11-16T20:16:50+00:00",
-   "hn_id": "50522563"
+   "title": "Frame – 31.5\" color ePaper display",
+   "url": "https://trmnl.com/blog/introducing-frame",
+   "points": 455,
+   "comments": 318,
+   "published": "2026-11-16T16:23:22+00:00",
+   "hn_id": "50519354"
+  },
+  {
+   "title": "Optimizely compromised, served malware on Zoom, GitLab",
+   "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+   "points": 431,
+   "comments": 182,
+   "published": "2026-11-16T23:00:34+00:00",
+   "hn_id": "50524767"
+  },
+  {
+   "title": "Jiff 1.0: A datetime library for Rust",
+   "url": "https://burntsushi.net/jiff/",
+   "points": 402,
+   "comments": 88,
+   "published": "2026-11-16T16:53:39+00:00",
+   "hn_id": "50519744"
+  },
+  {
+   "title": "What is w2rt6byl5nf1opmc-a.com?",
+   "url": "https://jack.cab/blog/siterate",
+   "points": 370,
+   "comments": 154,
+   "published": "2026-11-16T13:51:38+00:00",
+   "hn_id": "50517602"
+  },
+  {
+   "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+   "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+   "points": 353,
+   "comments": 266,
+   "published": "2026-11-16T13:18:22+00:00",
+   "hn_id": "50517321"
+  },
+  {
+   "title": "OpenCode Browse",
+   "url": "https://opencode.ai/product/browse",
+   "points": 295,
+   "comments": 167,
+   "published": "2026-11-16T21:20:37+00:00",
+   "hn_id": "50523459"
+  },
+  {
+   "title": "Grazing sheep in fields with solar arrays",
+   "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+   "points": 287,
+   "comments": 289,
+   "published": "2026-11-16T17:27:46+00:00",
+   "hn_id": "50520182"
+  },
+  {
+   "title": "Chemistry is Actually Geometry",
+   "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+   "points": 255,
+   "comments": 117,
+   "published": "2026-11-16T20:22:18+00:00",
+   "hn_id": "50522643"
   }
  ],
  "github_trending": [
   {
-   "repo": "ag-ui-protocol/ag-ui",
-   "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-   "language": "TypeScript",
-   "stars_today": "790",
-   "url": "https://github.com/ag-ui-protocol/ag-ui"
-  },
-  {
-   "repo": "backnotprop/plannotator",
-   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-   "language": "TypeScript",
-   "stars_today": "689",
-   "url": "https://github.com/backnotprop/plannotator"
-  },
-  {
-   "repo": "dream-num/univer",
-   "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-   "language": "TypeScript",
-   "stars_today": "1,878",
-   "url": "https://github.com/dream-num/univer"
-  },
-  {
-   "repo": "tradermonty/claude-trading-skills",
-   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-   "language": "Python",
-   "stars_today": "841",
-   "url": "https://github.com/tradermonty/claude-trading-skills"
-  },
-  {
    "repo": "elementalsouls/Claude-BugHunter",
    "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
    "language": "Python",
-   "stars_today": "1,057",
+   "stars_today": "1,007",
    "url": "https://github.com/elementalsouls/Claude-BugHunter"
-  },
-  {
-   "repo": "getarcaneapp/arcane",
-   "desc": "Modern Docker Management, Designed for Everyone",
-   "language": "Go",
-   "stars_today": "31",
-   "url": "https://github.com/getarcaneapp/arcane"
-  },
-  {
-   "repo": "DeanChensj/jiangshan-map",
-   "desc": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes",
-   "language": "JavaScript",
-   "stars_today": "285",
-   "url": "https://github.com/DeanChensj/jiangshan-map"
-  },
-  {
-   "repo": "google-labs-code/stitch-skills",
-   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-   "language": "TypeScript",
-   "stars_today": "540",
-   "url": "https://github.com/google-labs-code/stitch-skills"
   },
   {
    "repo": "mvanhorn/last30days-skill",
    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
    "language": "Python",
-   "stars_today": "122",
+   "stars_today": "772",
    "url": "https://github.com/mvanhorn/last30days-skill"
   },
   {
-   "repo": "NVIDIA/SkillEvaluator",
-   "desc": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-   "language": "Python",
-   "stars_today": "953",
-   "url": "https://github.com/NVIDIA/SkillEvaluator"
+   "repo": "alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+   "language": "Go",
+   "stars_today": "764",
+   "url": "https://github.com/alibaba/open-code-review"
+  },
+  {
+   "repo": "Tencent/LoopForge",
+   "desc": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+   "language": "Go",
+   "stars_today": "590",
+   "url": "https://github.com/Tencent/LoopForge"
+  },
+  {
+   "repo": "dream-num/univer",
+   "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "language": "TypeScript",
+   "stars_today": "1,776",
+   "url": "https://github.com/dream-num/univer"
+  },
+  {
+   "repo": "getarcaneapp/arcane",
+   "desc": "Modern Docker Management, Designed for Everyone",
+   "language": "Go",
+   "stars_today": "654",
+   "url": "https://github.com/getarcaneapp/arcane"
+  },
+  {
+   "repo": "google-labs-code/stitch-skills",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "language": "TypeScript",
+   "stars_today": "350",
+   "url": "https://github.com/google-labs-code/stitch-skills"
+  },
+  {
+   "repo": "cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "language": "TypeScript",
+   "stars_today": "196",
+   "url": "https://github.com/cursor/plugins"
+  },
+  {
+   "repo": "obra/superpowers",
+   "desc": "An agentic skills framework &amp; software development methodology that works.",
+   "language": "Shell",
+   "stars_today": "1,905",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "repo": "ag-ui-protocol/ag-ui",
+   "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+   "language": "TypeScript",
+   "stars_today": "1,444",
+   "url": "https://github.com/ag-ui-protocol/ag-ui"
   }
  ],
  "papers": [
   {
-   "title": "Title: Imitation Bootstrapped Multi-Agent Reinforcement Learning",
-   "url": "https://arxiv.org/abs/2611.18543",
-   "published": "",
-   "abstract": ""
+   "title": "Latent Lattice Language Models",
+   "url": "http://arxiv.org/abs/2611.21608v1",
+   "published": "2026-11-16T18:59:38Z",
+   "abstract": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently along time, alongside the vertical residual stream that flows through depth. Like hyper-connections, mHC, and attention or value residuals, the Lattice enhances the residual stream, but rather than adding or rerouting residual pathways through depth, it provides companion computational states that persist across tokens. Unlike hybrid Transformer-SSM architectures, whose recurrent states primarily serve as internal memory for sequence mixing, these latents directly condition the vertical stream's "
   },
   {
-   "title": "Title: ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
-   "url": "https://arxiv.org/abs/2611.18533",
-   "published": "",
-   "abstract": ""
+   "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+   "url": "http://arxiv.org/abs/2611.21605v1",
+   "published": "2026-11-16T18:59:04Z",
+   "abstract": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on contrast sets. A contrast set asks one question about several versions of an image that differ only in a small region with the evidence and have different answers, so only reading the evidence solves the whole set. CrossRPO rewards solving the whole set, and we prove that it does not reinforce a set answered from common sense. We build contrast sets for training (ViRA-Train) and evaluation (ViRA-Bench) by editing one small object in images of 21 to 120 megapixels, and we photograph further sets w"
   },
   {
-   "title": "Title: Alignment by Socialization: Learning Tradeoffs Under Selection",
-   "url": "https://arxiv.org/abs/2611.18531",
-   "published": "",
-   "abstract": ""
+   "title": "Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction",
+   "url": "http://arxiv.org/abs/2611.21602v1",
+   "published": "2026-11-16T18:58:55Z",
+   "abstract": "The National Hurricane Center routinely releases Tropical Cyclone Discussions that offer insights into its tropical cyclone forecasts. This study examines the added value of these discussions for intensity forecasting beyond a set of numerical predictors. For 637 Atlantic and eastern North Pacific tropical cyclones from the 2002-2023 hurricane seasons, we analyze the discussion text and its combination with 13 hurricane environmental predictors from SHIPS and ERA5 10-meter wind fields, for forecasting intensity changes at lead times of 24 to 120 hours using three modeling methods. In one approach, an end-to-end deep learning framework for the text shows that the discussions alone offer comparable value for 24-hour intensity forecasts to the SHIPS predictors. Adding discussion information to the SHIPS predictors in an ensemble of five such models reduces the mean absolute error of 24-hour"
   },
   {
-   "title": "Title: Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
-   "url": "https://arxiv.org/abs/2611.18514",
-   "published": "",
-   "abstract": ""
+   "title": "How VLMs Plan What's Next",
+   "url": "http://arxiv.org/abs/2611.21600v1",
+   "published": "2026-11-16T18:58:30Z",
+   "abstract": "When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM uses to decide where to look before it looks. The mechanism has four main parts. First, binding heads match the relevant text tokens against the image and resolve them into pointers to the matched image region. Second, the same binding heads bind each written answer to the region it came from, and the model turns it into a progress signal: a cursor, the position in the image up to which the list has been written. Third, a select step chooses the nearest unwritten region after the cursor, or stops. Finally, gaze heads execute the chosen pointer and return a concept of what is drawn there, which language heads and the late MLPs turn into a word in the language of the question. We validate eac"
   },
   {
-   "title": "Title: ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
-   "url": "https://arxiv.org/abs/2611.18494",
-   "published": "",
-   "abstract": ""
+   "title": "Hyperlyve: Parallelized Enumeration and Exact Lyapunov Stability Certification for Deep ReLU Networks",
+   "url": "http://arxiv.org/abs/2611.21599v1",
+   "published": "2026-11-16T18:58:29Z",
+   "abstract": "We introduce Hyperlyve (Hyperplane Partitioned Lyapunov Verification and Enumeration), a framework for proving the asymptotic stability of nonlinear dynamical systems, including those with neural network controllers. Hyperlyve learns and formally certifies continuous piecewise-affine (CPA) neural Lyapunov functions within a counterexample-guided inductive synthesis (CEGIS) loop. Hyperlyve's key innovation is a parallel algorithm that enumerates the hyperplane arrangement formed by the ReLU activations of deep networks and certifies that Lyapunov conditions hold within each polyhedral region. We derive sound and complete regional tests to verify the asymptotic stability of the exact smooth dynamics (rather than a piecewise-linear approximation) within a compact domain of interest. Furthermore, we formally characterize the computational complexity of the CPA neural Lyapunov verification pr"
   },
   {
-   "title": "Title: Typing Matters: Muscle, Language and Typing Behaviour in Live Keystroke Decoding from sEMG",
-   "url": "https://arxiv.org/abs/2611.18464",
-   "published": "",
-   "abstract": ""
+   "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
+   "url": "http://arxiv.org/abs/2611.21598v1",
+   "published": "2026-11-16T18:58:20Z",
+   "abstract": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural networks without gradients, archives selected policies by detected dynamic regime, and retrieves them through Bayesian policy reuse. The architecture was evaluated in non-stationary CartPole and HalfCheetah environments. In the 30-replicate CartPole ablation, the complete architecture achieved a mean success rate of 83.2% across the five test environments. Among variants that learned the harder CartPole environments, the complete architecture showed the most consistent retention. A selection ablation also showed that"
   },
   {
-   "title": "Title: When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
-   "url": "https://arxiv.org/abs/2611.18458",
-   "published": "",
-   "abstract": ""
+   "title": "Optimal Autoregressive Chain-of-Thought Learning via Bagging",
+   "url": "http://arxiv.org/abs/2611.21597v1",
+   "published": "2026-11-16T18:58:07Z",
+   "abstract": "We study how to learn an autoregressive next-token generator $f\\colonΣ^\\star\\toΣ$ from a class $\\mathcal{F}$, given chain-of-thought (CoT) demonstrations of length $T$ generated by $f$. We present a simple algorithm based on bagging, which outputs a majority vote of generators that are trained to be CoT-consistent on bootstrap samples of the training data. For binary token sets, it achieves the optimal sample complexity of $O((d_{\\mathrm{VC}}+\\log(1/δ))/ε)$, independent of the CoT length $T$, where $d_{\\mathrm{VC}}$ is the VC dimension of $\\mathcal{F}$. For finite token sets $Σ$, the VC dimension is replaced by a multiclass analogue, the Graph dimension $d_{\\mathrm{G}}$, and the sample complexity is optimal up to a $\\log|Σ|$ factor. The number of generators in the majority-vote ensemble is $O(\\log(T/δ))$, and we show that the ensemble can be distilled into a single generator in $\\mathcal"
   },
   {
-   "title": "Title: Towards Explainable Sleep Stage Classification using Single-Channel Electroencephalogram",
-   "url": "https://arxiv.org/abs/2611.18434",
-   "published": "",
-   "abstract": ""
+   "title": "SADL: On the Demand-Supply Geometry of Representation Collapse",
+   "url": "http://arxiv.org/abs/2611.21596v1",
+   "published": "2026-11-16T18:58:03Z",
+   "abstract": "In Joint-Embedding Predictive Architectures (JEPAs), a well-constrained projector output does not by itself prevent representation collapse. We find that, from initialization, the encoder representation is dominated by a component shared by different inputs. A batch-normalized projector removes this component, so regularization after the projector cannot correct it, and the differences between representations shrink until they collapse. We propose SADL (Supply And Demand Loss), which keeps the original training objective and constrains the encoder directly when needed. SADL compares the representation differences that the projector output demands with the differences the encoder can retain and pass on to the projector, and adds a constraint on the encoder only when supply falls short of demand. It works with different Demand Regularizers and introduces no auxiliary networks, additional t"
   },
   {
-   "title": "Title: LECAT: Measuring LLM Category Learning from Pretraining Data",
-   "url": "https://arxiv.org/abs/2611.18419",
-   "published": "",
-   "abstract": ""
+   "title": "Surrogate-Assisted Compact-Model Extraction for SKY130 CMOS at 77 K",
+   "url": "http://arxiv.org/abs/2611.21594v1",
+   "published": "2026-11-16T18:57:06Z",
+   "abstract": "Cryogenic circuit design requires compact transistor models that reproduce measured low-temperature behavior and run in standard circuit simulators. We fit BSIM4 parameters to measured I-V curves of SkyWater 130 nm (SKY130) transistors at 77 K using a neural surrogate of NGSpice. The surrogate maps compact-model parameters and device geometry to the complete set of output and transfer characteristics. Extraction is a bounded least-squares search: a bank of NGSpice simulations supplies initial candidates, finite differences of the surrogate supply the local Jacobian, and NGSpice re-simulates the resulting cards before selection. On 18 measured geometries, we compare a search over seven card parameters with a search over 43 parameters selected by NGSpice sensitivity. Relative to NGSpice re-simulations of the previously released cards, the two searches reduce the in-sample mean relative roo"
   },
   {
-   "title": "Title: Smart Home Agents Make Capable but Unpredictable Grid Operators",
-   "url": "https://arxiv.org/abs/2611.18395",
-   "published": "",
-   "abstract": ""
+   "title": "Beyond Job Titles: Interpreting Early-Career Job Advertisements with Sparse Autoencoders and Semantic Clustering",
+   "url": "http://arxiv.org/abs/2611.21586v1",
+   "published": "2026-11-16T18:54:40Z",
+   "abstract": "Job titles and job descriptions alone provide limited insight into how technical roles differ in a changing job market. To assess how such roles differ in their work and industry applications, we design and compare two methods based on deep learning and transformer representations using 36,081 early-career job postings collected from LinkedIn in the United States between December 2025 and October 2026. We first apply PERC, short for Preprocessing (P), Embedding (E), Dimensionality Reduction (R) and Clustering (C). We employ GPT-6 Luna to classify job description passages into Team context, Role task and Qualifications. We then create combinations of these sections and examine whether embedding and clustering the segmented passages produce meaningful semantic clusters about different job roles. We use Maximum Mean Discrepancy (MMD) to rank observed differences between embedding distributi"
   },
   {
-   "title": "Title: VelServe: Taming Decode Jitters in LLM Inference with Tail-Calibrated Scheduling",
-   "url": "https://arxiv.org/abs/2611.18392",
-   "published": "",
-   "abstract": ""
+   "title": "CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism Layouts",
+   "url": "http://arxiv.org/abs/2611.21584v1",
+   "published": "2026-11-16T18:54:07Z",
+   "abstract": "Training with MXFP4, a 4-bit microscaling format, is non-deterministic: identical inputs can produce different results across parallelism layouts and GPU vendors. These differences complicate debugging and training audits and can cause training and inference engines to disagree. We present CertiSum to make MXFP4 training bitwise invariant across runs, parallelism layouts, and GPU vendors. Its key insight is that native FP32 accumulation of MXFP4 products is often already exact for every summation order. CertiSum collects statistics during quantization to certify native matrix multiplication results, recomputes uncertified outputs exactly, and uses exact kernels directly where certification rarely succeeds. CertiSum keeps quantization blocks unchanged across layouts and merges partial sums without rounding, including in attention and weight-gradient computation. In 200-step Qwen3-8B-Base "
   },
   {
-   "title": "Title: VLAN: Vision-Language Accessible Navigation",
-   "url": "https://arxiv.org/abs/2611.18346",
-   "published": "",
-   "abstract": ""
+   "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+   "url": "http://arxiv.org/abs/2611.21579v1",
+   "published": "2026-11-16T18:49:56Z",
+   "abstract": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plausible descriptions do not guarantee deployable software or verifiable objectives. We present ScenarioForge, which turns high-level requirements into resource-grounded topologies, services, traffic, segmentation, and challenge chains, then instantiates and validates them in the Common Open Research Emulator (CORE). The ScenarioForge Execution Dataset contains 226 materialized scenarios covering 294 Vulhub images and all 85 custom-built challenge-resource generators developed with our AI-assisted scaffolding. All 226 passed construction, preview, sequencing, deployment, strict runtime validation, and live artifact checks; their 867 steps, each an indiv"
   }
  ]
 }

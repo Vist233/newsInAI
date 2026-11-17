@@ -8,3 +8,20 @@
 [07:05:04] 精选 4 条
 [07:05:32] 内容写入 content/2026-11-17.json，共 37 条
 [07:05:32] build rc=0 items: 37 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[07:05:34] commit rc=0 [main 68c033e] daily: 2026-11-17 自动更新
+[07:05:39] push main rc=0    fc80da8..68c033e  main -> main
+[07:05:46] push gh-pages rc=0 Everything up-to-date
+[07:06:07] 站点验证：2026-11-17 已上线
+[07:06:07] === 完成，降级项 0 ===
+[21:02:41] === 开始 2026-11-17 ===
+[21:03:08] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-11-17.json
+[21:03:50]   摘要不合规（231 字），重试
+[21:03:58] 并发摘要 28 条（4 路）用时 50s
+[21:03:58] HN 10 条，摘要成功 10
+[21:03:58] GH 10 条，摘要成功 10
+[21:03:58] 论文 8 篇，摘要成功 8
+[21:08:11] 视频 4 条
+[21:10:10] 精选 4 条
+[21:11:54] Insight 失败 HTTPError
+[21:11:54] 内容写入 content/2026-11-17.json，共 36 条
+[21:11:54] build rc=0 items: 36 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
