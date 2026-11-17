@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "summary": "今天：卡内基梅隆大学将计算机科学课程免费发布到 YouTube，Hacker News 帖子获得 1733 分和 233 条评论。摩根大通技术故障导致美国多家银行在线银行服务延迟，Hacker News 帖子获得 790 分和 659 条评论。Windows 11 收集用户使用哪些编程代理和开发者工具的遥测数据，Hacker News 讨论获得 647 分和 508 条评论。BugMeNot 关闭，Hacker News 讨论获得 603 分和 271 条评论。TRMNL 推出 31.5 英寸彩色电子纸显示屏 Frame，Hacker News 讨论获得 455 分和 318 条评论。BurntSushi 发布 Rust 日期时间库 Jiff 1.0，Hacker News 帖子获得 402 分和 88 条评论。\n转向：对照微软将大规模邮件服务中断归因于七月一次修复引入的软件缺陷，HN 讨论的焦点从故障影响转向更新质量、测试与回滚机制是否充分。方向是变多：围绕频繁更新与稳定性平衡、事后透明度的追问增加。\n对你：对 alibaba/open-code-review 仓库，在根目录跑 go test ./...，把失败包数记到 README.md 的构建状态一栏。",
+ "summary": "今天：elementalsouls/Claude-BugHunter 用 Python 开发，为 Claude Code 提供包含 82 项技能和 15 个斜杠命令的漏洞挖掘技能包。该技能包覆盖 24 类核心漏洞，并收录 681 个已披露报告模式。BurntSushi 发布 Rust 日期时间库 Jiff 1.0，处理时区、夏令时、闰秒和日历。TRMNL 推出 31.5 英寸彩色电子纸显示屏 Frame。\n转向：相较七月一次修复中引入软件缺陷并引发微软大规模邮件中断，这次讨论把云服务更新质量、测试与回滚机制是否充分摆到前面，行为从默认接受频繁更新转向追问更新与回滚。方向是从频繁更新转稳定性与可回滚性，对更新质量的审视变多。\n对你：在 Tencent/LoopForge 的本地工作流脚本里加审批门失败重试成功率计数，分别跑 CodeBuddy、Codex、Claude Code 三路同一任务，记录脚本审批门触发次数和失败后重试成功数。",
  "movie": {
   "title": "Moneyball",
   "year": 2011,
