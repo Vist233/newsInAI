@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Unauthenticated remote code execution in Nginx",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "points": 974,
+   "comments": 450,
+   "published": "2026-11-18T15:19:55+00:00",
+   "hn_id": "50547374"
+  },
+  {
+   "title": "DNS resolvers are the wrong place to fight piracy",
+   "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+   "points": 541,
+   "comments": 198,
+   "published": "2026-11-18T13:18:02+00:00",
+   "hn_id": "50545958"
+  },
+  {
+   "title": "Inside Deutsche Bank",
+   "url": "https://www.inside-db.com/",
+   "points": 486,
+   "comments": 179,
+   "published": "2026-11-18T15:38:33+00:00",
+   "hn_id": "50547620"
+  },
+  {
+   "title": "Seven new models at scalable price-performance",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "points": 383,
+   "comments": 263,
+   "published": "2026-11-18T16:08:24+00:00",
+   "hn_id": "50548021"
+  },
+  {
+   "title": "Energy-Based Reasoners: 385x more efficient inference",
+   "url": "https://energy-based-reasoners.github.io/",
+   "points": 293,
+   "comments": 49,
+   "published": "2026-11-18T09:29:32+00:00",
+   "hn_id": "50543989"
+  },
+  {
+   "title": "AI agents ask better questions than KPMG accountants in audit trial",
+   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+   "points": 285,
+   "comments": 132,
+   "published": "2026-11-18T15:49:34+00:00",
+   "hn_id": "50547777"
+  },
+  {
+   "title": "Gemini 4 Neon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "points": 267,
+   "comments": 257,
+   "published": "2026-11-18T21:34:07+00:00",
+   "hn_id": "50552424"
+  },
+  {
+   "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
+   "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+   "points": 215,
+   "comments": 163,
+   "published": "2026-11-18T14:43:52+00:00",
+   "hn_id": "50546914"
+  },
+  {
+   "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
+   "points": 163,
+   "comments": 112,
+   "published": "2026-11-18T16:06:21+00:00",
+   "hn_id": "50548004"
+  },
+  {
+   "title": "Genie 4 is now available",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+   "points": 157,
+   "comments": 133,
+   "published": "2026-11-18T18:49:51+00:00",
+   "hn_id": "50550415"
+  },
+  {
+   "title": "F-22 Next-Generation micro–Data Transfer Cartridge (mDTC)",
+   "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
+   "points": 135,
+   "comments": 97,
+   "published": "2026-11-18T15:35:44+00:00",
+   "hn_id": "50547583"
+  },
+  {
+   "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
+   "url": "https://exitpath-ruddy.vercel.app/",
+   "points": 129,
+   "comments": 33,
+   "published": "2026-11-18T16:04:43+00:00",
+   "hn_id": "50547980"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "language": "Python",
+   "stars_today": "2,322",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter"
+  },
+  {
+   "repo": "cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "language": "TypeScript",
+   "stars_today": "315",
+   "url": "https://github.com/cursor/plugins"
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "language": "Python",
+   "stars_today": "384",
+   "url": "https://github.com/HKUDS/CLI-Anything"
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "language": "Python",
+   "stars_today": "1,062",
+   "url": "https://github.com/mvanhorn/last30days-skill"
+  },
+  {
+   "repo": "getarcaneapp/arcane",
+   "desc": "Modern Docker Management, Designed for Everyone",
+   "language": "Go",
+   "stars_today": "547",
+   "url": "https://github.com/getarcaneapp/arcane"
+  },
+  {
+   "repo": "NVIDIA/SkillEvaluator",
+   "desc": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+   "language": "Python",
+   "stars_today": "323",
+   "url": "https://github.com/NVIDIA/SkillEvaluator"
+  },
+  {
+   "repo": "nvm-sh/nvm",
+   "desc": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+   "language": "Shell",
+   "stars_today": "111",
+   "url": "https://github.com/nvm-sh/nvm"
+  },
+  {
+   "repo": "astral-sh/uv",
+   "desc": "An extremely fast Python package and project manager, written in Rust.",
+   "language": "Rust",
+   "stars_today": "260",
+   "url": "https://github.com/astral-sh/uv"
+  },
+  {
+   "repo": "google-research/paper-orchestra",
+   "desc": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+   "language": "Python",
+   "stars_today": "1,529",
+   "url": "https://github.com/google-research/paper-orchestra"
+  },
+  {
+   "repo": "google-labs-code/stitch-skills",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "language": "TypeScript",
+   "stars_today": "369",
+   "url": "https://github.com/google-labs-code/stitch-skills"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+   "url": "http://arxiv.org/abs/2611.23229v1",
+   "published": "2026-11-17T18:59:37Z",
+   "abstract": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrophic forgetting of the tails of the data distribution. To prevent this collapse, we introduce Ambient SFT, a principled framework for leveraging imperfect predictions to augment the fine-tuning set. In our method, a \"frozen\" version of the pre-trained model serves as a noisy teacher that the fine-tuned model must match at a coarse level. In particular, we require that the high-temperature versions of the conditional distributions produced by the post-training model should match the high-temperature versions of the pre-training ones. The temperature hyperparameter controls the level of trust in "
+  },
+  {
+   "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
+   "url": "http://arxiv.org/abs/2611.23228v1",
+   "published": "2026-11-17T18:59:27Z",
+   "abstract": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), are attractive for this setting, but maintaining a sliding window is expensive. The reason is that recurrent layers combine all past frames into a shared state, so expiring old frames normally requires re-running the entire window through the model. We observe that the recurrent update is affine in the state with input-dependent coefficients, so the effect of each frame can be captured as a transformation that composes associatively. We present Spool, a training-free framework that caches per-frame state transformations and composes them efficiently as the window advances, re"
+  },
+  {
+   "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+   "url": "http://arxiv.org/abs/2611.23225v1",
+   "published": "2026-11-17T18:58:40Z",
+   "abstract": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions. Its open-book benchmark inventory contains 1,073 items, including 499 with automatic finite-answer checking. For retrieval-augmented generation, it provides 1,371 section records linked to textbook sources and PDF locations, together with a local lexical retriever. Training-data preparation is illustrated by 21 private, source-linked examples. For agents, it exposes 19 calculation tools with specified inputs and finite domains, connecting tool use to textbook derivations. We illustrate these uses through specific questions, retrieved pas"
+  },
+  {
+   "title": "An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization",
+   "url": "http://arxiv.org/abs/2611.23221v1",
+   "published": "2026-11-17T18:57:16Z",
+   "abstract": "In this paper, we study a class of constrained convex finite-sum optimization problems. In many practical applications, all or some of the constraints are hard constraints that represent imperative requirements. Consequently, any desirable approximate solution must (nearly) satisfy these constraints. Motivated by this, we focus on computing an $ε$-$surely\\ feasible\\ stochastic\\ optimal$ ($ε$-SFSO) solution, in which the constraint violation is deterministically bounded by $ε$, and the expected optimality gap is at most $ε$. While a recently proposed stochastic variance-reduced first-order penalty method can compute an $ε$-SFSO solution, there remains a significant gap between its first-order oracle complexity for computing an $ε$-SFSO solution and that for computing an $ε$-$expected\\ feasible\\ stochastic\\ optimal$ solution, where both the expected constraint violation and the expected op"
+  },
+  {
+   "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+   "url": "http://arxiv.org/abs/2611.23219v1",
+   "published": "2026-11-17T18:57:10Z",
+   "abstract": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an autonomous paradigm in which, given basic primitives, resources, and a general goal for self-improvement, agents construct their own self-learning algorithm for context-based optimization. Using the setting of gameplay as a testbed, a frozen LLM agent is given a compute budget and tools for collecting experience and updating text documents, and allowed to freely experiment without an externally imposed loop or access to real-world data. We find that sufficiently capable models do self-improve under these conditions, demonstrating strategies that align with clas"
+  },
+  {
+   "title": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
+   "url": "http://arxiv.org/abs/2611.23218v1",
+   "published": "2026-11-17T18:57:08Z",
+   "abstract": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instruct. The head map correlates at $ρ= -0.950$ and $-0.768$ with a label-blind response-length map, apparently identifying a surface confound. An intervention that breaks the length-label coupling rejects this reading: with the prompt held fixed, response length explains 1% of the statistic's variance. What does explain it is prompt identity, at 64% of variance, in an ordering that is not monotonic in length. Within any fixed prompt the fairness label, response length and the presence of a protected-group token are collinear at $φ= 0.95$, partly by definition of the labelling rule, so no observati"
+  },
+  {
+   "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
+   "url": "http://arxiv.org/abs/2611.23216v1",
+   "published": "2026-11-17T18:56:42Z",
+   "abstract": "New coding models advertise themselves on score improvements of coding benchmarks. Yet no study has tested if a model that scores higher on these benchmarks gets more real work done. On June 12, 2026, a U.S. export control directive banned access to Claude Fable 5 for 19 days, which forced users to switch to other models. During this time, most former Fable 5 users switched to Opus 4.8 (11 points lower on SWE-Bench Pro compared to Fable 5). We treat this suspension as a natural experiment, where the people and projects stayed the same and only the model changed, so we could isolate the effect of Fable 5 on user productivity. We tracked GitHub pull requests of 297 Fable 5 users before, during, and after the suspension. We used 8,908 developers who stayed on Opus 4.8 all the time as the control group. We also repeated the comparison across five model upgrades before and after the suspensio"
+  },
+  {
+   "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+   "url": "http://arxiv.org/abs/2611.23211v1",
+   "published": "2026-11-17T18:50:22Z",
+   "abstract": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds a self-supervised objective to impairment prediction: alongside predicting the impairment label as a masked token, it reconstructs masked gaze and trajectory. To probe the effects of different modalities and types of impairments on model inference, we introduce DIVERT, a driving-simulator dataset containing 103 hours of driving data (n = 109) with ten impairment inductions spanning cognitive, visual, and emotional states, recorded with gaze, vehicle state, and scene video. We demonstrate how ID-MAE affords significant improvements in impairment inference results on both the"
+  },
+  {
+   "title": "Distortion-Free Semantic Watermarks for Black-Box Generative Models",
+   "url": "http://arxiv.org/abs/2611.23208v1",
+   "published": "2026-11-17T18:49:17Z",
+   "abstract": "We present a provably distortion-free semantic watermarking algorithm that requires only black-box sampling access to a generative model and black-box access to a semantic embedding. A watermark is called distortion-free if, averaged over its secret detection key, it leaves the generator's output distribution unchanged; this provides a formal guarantee that watermarking does not reduce output quality. Conventional such watermarks are often brittle to transformations. This is especially problematic for images, where benign operations such as compression, cropping, or resizing change the entire pixel representation. Semantic watermarks therefore require detection to be robust to content-preserving transformations. Previous methods combining these properties rely heavily on specific white-box properties of the underlying model: either to autoregressive text generation or to diffusion-specif"
+  },
+  {
+   "title": "Reading Scene States: Uncovering Safety Failures in Vision-Language Models",
+   "url": "http://arxiv.org/abs/2611.23206v1",
+   "published": "2026-11-17T18:48:02Z",
+   "abstract": "Vision-language models (VLMs) can provide harmful assistance by interpreting visual events, even without an explicit request for the underlying harmful objective. We identify this \\textbf{scene-state safety vulnerability} and introduce \\textbf{SceneSafetyBench}, comprising 375 image--question pairs spanning Initial, Medium, and Ultimate scene states and five visual presentations. Across eight VLMs, scene-state inputs elicit harmful assistance with attack success rates (ASRs) of 45.6--72.3\\%. Comparative analysis across three VLMs shows that scene-state inputs most closely resemble QR-related images in their layer-wise safety-related signal profiles, while exhibiting lower average late-layer readouts and distinct signal dynamics during generation. To turn this vulnerability into a systematic attack, we propose \\textbf{S3TA}, which translates harmful objectives into scene states, queries i"
+  },
+  {
+   "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
+   "url": "http://arxiv.org/abs/2611.23205v1",
+   "published": "2026-11-17T18:47:37Z",
+   "abstract": "Small language models that run on a laptop are attractive for writing signal-processing code offline, but they make systematic errors on digital signal processing (DSP) conventions. We apply supervised fine-tuning (SFT) to the Gemma 4 edge models E2B and E4B with 66 checked examples covering 11 signal-processing MATLAB subtasks, using low-rank adaptation (LoRA) and quantized LoRA (QLoRA) on the integrated GPU (iGPU) of a laptop, and deploy the 8-bit integer (int8) models with the adapters through OpenVINO. On held-out variants scored by deterministic checkers, the pass rate rises from 18/66 to 37/66 (LoRA) and 37/66 (QLoRA) for E2B and from 32/66 to 47/66 for E4B (QLoRA). Reading all 159 failing programs shows that the adapters remove most errors of convention, such as the sign of a lag, units and array shapes, but few errors in building signals and noise. Applied at run time, the adapte"
+  },
+  {
+   "title": "Identifying and Repairing Energy Smells with Agent Skills",
+   "url": "http://arxiv.org/abs/2611.23203v1",
+   "published": "2026-11-17T18:45:42Z",
+   "abstract": "Energy smells are inefficient implementations that waste energy. Once code reaches production, these smells become costlier and riskier to fix, so energy efficiency checks should shift left, i.e., move earlier in the development lifecycle, to where code is written. Existing energy smell tools rely on fixed static rules and do not measure energy savings, whereas LLM-based optimizers mostly target execution time and rarely ground their changes in concrete smell definitions. To address both limitations, we present DR. GREENS, an agent skill that detects and repairs energy smells in Python code within the developer's coding environment. The skill grounds the coding agent in our taxonomy of 12 energy smells and 65 root causes, augmented with repair guidance drawn from 230 measured cases. The skill also encapsulates a static analyzer and an independent verifier to confirm behavior preservation"
+  }
+ ]
+}
