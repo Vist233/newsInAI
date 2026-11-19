@@ -1,0 +1,510 @@
+{
+ "date": "2026-11-20",
+ "summary": "今天：路透社报道 Anthropic 登陆纳斯达克首日估值达 2 万亿美元。 欧洲委员会向 4 万多名员工推广 Matrix 开源通信协议。 在 Claude Code 侧，Claude-BugHunter 用 Python 提供 82 个技能、15 个斜杠命令和跨 24 个核心漏洞类别的 681 个已披露报告模式。 jingyaogong/minimind 的完整训练流程与代码支持在约两小时内从零训练 64M 参数大语言模型。 统一 API 方面，Firecrawl 覆盖搜索、网页抓取和 550 多个数据源接入。\n转向：HKUDS/CLI-Anything 把现有软件能力转成智能体可用的命令行接口，而 Claude-BugHunter 仍以 Claude Code 的 82 个技能和 15 个斜杠命令组织漏洞挖掘能力，工具调用的落点从编码助手内技能包移向软件原生 CLI 入口。 这种转向变多：从助手内技能/命令集合转向通用 CLI 与多源接入。\n对你：把 cathrynlavery/diagram-design 的 Pi 图表适配接入 Sakura",
+ "movie": {
+  "title": "Her",
+  "year": 2013,
+  "director": "Spike Jonze",
+  "reason": "把抽象的 AI 讨论拉回真实关系与投射",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "A Philosophy of Software Design",
+  "author": "John Ousterhout",
+  "chapter": "Chapter 2: The Nature of Complexity",
+  "reason": "把复杂度当成要管理的对象，而不是代码行数",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Anthropic hits $2T in Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "published": "2026-11-19T17:02:40+00:00",
+   "summary": "Hacker News 上围绕路透社报道 Anthropic 登陆纳斯达克首日估值达 2 万亿美元展开热烈讨论，帖子获 767 分和 1426 条评论。社区重点争论这一估值是否反映真实收入与增长前景，AI 商业模式能否支撑高投入，以及 Anthropic 与 OpenAI 的竞争格局。不少评论还关注 AI 安全、监管风险和资本市场泡沫，并讨论此事对行业融资、人才流动和科技就业的潜在影响。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "How the European Commission rolled out Matrix to more than 40k staff",
+   "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+   "published": "2026-11-19T10:58:29+00:00",
+   "summary": "这则Hacker News讨论围绕欧洲委员会向四万多名员工推广Matrix开源通信协议展开，帖子获634分和305条评论。讨论关注大规模部署中的数据主权与控制、互操作性、迁移成本、运维经验以及与商业通信方案的比较，也涉及开源治理和公共部门采用去中心化通信的实际挑战。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "UK government forced to admit it issued Apple a secret encryption order",
+   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+   "published": "2026-11-19T16:21:03+00:00",
+   "summary": "Hacker News 讨论围绕英国政府被迫承认曾向苹果发出秘密加密命令展开，评论聚焦政府要求削弱端到端加密或提供后门对用户隐私和安全的冲击，以及秘密法律命令缺乏透明度的问题。也有人讨论苹果可能的法律抗争、跨境数据与云服务影响，并担忧此类先例促使更多国家效仿。讨论还涉及技术可行性、执法需求与密码学安全之间的张力。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+   "published": "2026-11-19T17:25:33+00:00",
+   "summary": "Hacker News上一条关于New Scientist报道的讨论获得387分和53条评论，内容是三名胰腺癌患者接受病毒注射后肿瘤进展被遏制。讨论既关注溶瘤病毒疗法的潜在希望，也强调样本仅三人、缺乏对照、随访有限，不能据此推断普遍疗效。评论者还围绕试验设计、病毒递送、免疫反应、安全性以及媒体标题是否夸大展开争论，呼吁区分早期信号与临床结论。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+   "url": "https://verialabs.com/ruby2shell/",
+   "published": "2026-11-19T05:09:11+00:00",
+   "summary": "Hacker News上围绕Verial Labs文章《Ruby2ßhell: Pre-authentication RCE on stock Rails》展开技术讨论，该帖获得366分和155条评论。文章声称在默认配置的Rails应用上存在预认证远程代码执行漏洞，社区重点讨论漏洞触发条件、默认配置是否真的受影响、实际利用难度、披露方式以及修复和缓解建议，并对其影响范围和严重性提出不同看法。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Everything you need to survive and rebuild society",
+   "url": "https://lastbook.org/",
+   "published": "2026-11-19T14:47:18+00:00",
+   "summary": "Hacker News 上有一个讨论介绍 lastbook.org，标题为“生存并重建社会所需的一切”，获得330分和179条评论。讨论围绕这份资源是否真的能在灾难后帮助人们维持生存并重建文明展开，评论者关注其内容覆盖面、知识实用性和现实可行性，也争论单一资料能否替代分散的专业知识与社会协作。整体来看，帖子既呈现了对文明韧性的兴趣，也反映了对把复杂重建过程浓缩成一套手册的怀疑。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Someone reported java4shell bug in September 2026",
+   "url": "https://github.com/openjdk/jdk/pull/32781",
+   "published": "2026-11-19T11:47:03+00:00",
+   "summary": "Hacker News 上出现一则关于“java4shell”漏洞的报告讨论，称该问题在2026年9月被提交，相关链接指向 OpenJDK JDK 的 PR 32781。该帖获得325分和86条评论，社区围绕漏洞真实性、影响范围、修复方案及披露流程展开争论。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "published": "2026-11-19T17:30:44+00:00",
+   "summary": "Hacker News 上围绕 Anthropic 研究文章展开讨论，该文章称 Claude 解决了黑洞物理中的两个开放问题。帖子获得 322 分和 144 条评论，社区关注点包括 AI 在理论物理中的实际贡献、结果如何验证、研究是否可复现，以及这类宣称对科研工作流和同行评审意味着什么。讨论既有人对 AI 辅助科学发现表示兴趣，也有人强调需区分模型输出与经严格检验的物理论证。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "What's New in PHP 8.6",
+   "url": "https://www.php.net/releases/8.6/en.php",
+   "published": "2026-11-19T09:27:15+00:00",
+   "summary": "Hacker News 上出现关于 PHP 8.6 新版本的讨论帖，链接指向 PHP 官方发布说明页面，帖子获得 261 分和 125 条评论。讨论围绕 PHP 8.6 的新特性、语言演进方向、升级兼容性与实际使用体验展开，也反映出开发者对 PHP 生态持续变化的关注。社区评论既有对新功能的期待，也有对迁移成本和版本节奏的讨论。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Distributed, high-performance blob storage on SQLite",
+   "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+   "published": "2026-11-19T08:39:45+00:00",
+   "summary": "Hacker News 上正在讨论 Zerodha 技术博客介绍如何基于 SQLite 构建分布式高性能 blob 存储的文章，帖子获得 244 分和 66 条评论。讨论主要围绕这一架构的取舍展开，包括 SQLite 在分布式环境下的并发、一致性和运维复杂度，与对象存储等方案的对比，以及它在中小规模场景中的实用性和性能表现。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "published": "2026-11-20",
+   "summary": "Claude-BugHunter 是一个用 Python 编写的开源项目，为 Claude Code 提供用于漏洞挖掘和外部红队工作的技能包。它包含 82 个技能、15 个斜杠命令，以及跨 24 个核心漏洞类别整理的 681 个已披露报告模式，并附带企业身份与基础设施攻击矩阵，帮助安全研究人员在授权测试中更系统地复用真实案例经验、组织攻击思路并提升漏洞发现的效率与覆盖面。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "published": "2026-11-20",
+   "summary": "obra/superpowers 是一个在 GitHub 上开源的项目，主要使用 Shell 语言开发，定位为可实际运行的智能体技能框架与软件开发方法论。项目简介强调该框架与方法论能够真正落地生效，帮助开发者组织智能体能力并规范软件开发流程。今日该项目新增 2029 颗星，显示出社区对其理念与实用性的关注。对于希望探索智能体技能体系与开发方法论的开发者而言，该项目提供了一个值得参考的开源实现。",
+   "categories": [
+    "Shell"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "published": "2026-11-20",
+   "summary": "HKUDS/CLI-Anything 是一个用 Python 开发的开源项目，目标是让所有软件都能原生支持智能体调用。项目以 CLI 为核心，帮助开发者把现有软件能力转化为智能体可用的命令行接口，从而降低集成门槛并扩展自动化场景。项目同时提供 CLI-Hub 入口 clianything.cc，方便用户了解和接入相关能力。该项目今日新增 899 星，说明其方向受到社区关注。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "published": "2026-11-20",
+   "summary": "jingyaogong/minimind 是一个使用 Python 编写的开源项目，目标是帮助开发者在大约两小时内从零训练出属于自己的 64M 参数大语言模型。项目提供完整训练流程与代码，降低大模型训练门槛，适合学习、实验和快速验证想法。该项目今日新增 301 星，受到较多关注，体现了社区对轻量级大模型训练实践的浓厚兴趣。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "published": "2026-11-20",
+   "summary": "cursor/plugins 是 GitHub 上的一个开源项目，主要使用 TypeScript 编写，提供 Cursor 插件规范以及官方插件。该项目今日新增 383 星，受到较多开发者关注。它有助于开发者了解 Cursor 插件的开发方式和官方实现，适合希望参与插件生态或基于规范进行扩展的用户参考。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "published": "2026-11-20",
+   "summary": "Firecrawl 是一个用 TypeScript 编写的开源项目，定位为让智能体更聪明的知识基础设施。它通过统一 API 提供搜索、网页抓取以及 550 多个数据源接入能力，帮助开发者更方便地为 AI 智能体获取和整合外部知识。该项目今日新增 795 星，受到较多关注，适合需要构建检索、数据采集与多源信息接入流程的智能体应用。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "nginx/nginx",
+   "url": "https://github.com/nginx/nginx",
+   "published": "2026-11-20",
+   "summary": "nginx/nginx 是 NGINX 官方开源代码仓库，主要使用 C 语言开发，包含高性能 Web 服务器、反向代理、负载均衡和 HTTP 缓存等核心功能源码。该项目今日新增 66 星，受到开发者持续关注，适合用于学习研究、二次开发及生产环境部署参考。",
+   "categories": [
+    "C"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "published": "2026-11-20",
+   "summary": "OpenVINO 是 GitHub 上 openvinotoolkit 组织维护的开源 AI 推理优化与部署工具包，主要使用 C++ 开发。它面向多种硬件平台提供模型转换、性能优化和推理加速能力，帮助开发者更高效地部署计算机视觉、生成式 AI 等应用。项目今日新增 246 星，受到较多关注，适合需要跨平台、高性能 AI 推理落地的开发者使用。",
+   "categories": [
+    "C++"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "published": "2026-11-20",
+   "summary": "cathrynlavery 的 diagram-design 是一个面向 AI 编程助手场景的开源图表设计项目，今日新增约 402 星。它为主流编码工具如 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 提供编辑风格的图表方案，共包含 45 种图表类型。所有输出均为自包含的 HTML 加 SVG，不依赖外部资源，也不使用阴影效果，力求摆脱常见的 Mermaid 图表粗糙感，让生成的图示更整洁、更专业。",
+   "categories": [
+    "HTML"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "published": "2026-11-20",
+   "summary": "这是一个用 Python 编写的 AI agent 技能，能够针对任意话题自动在 Reddit、X、YouTube、Hacker News、Polymarket 以及普通网页等多个平台搜集信息，再把这些来源的内容综合成一份有据可依的摘要。项目今日新增约 952 颗星，适合需要快速了解某个话题近期讨论与舆情动向的用户。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Jailbreak Detection on Large Language Models via Contrastive Prototype Structures",
+   "url": "http://arxiv.org/abs/2611.24936v1",
+   "published": "2026-11-20",
+   "summary": "本文研究对比学习表示能否在无需额外训练下游分类器的情况下支持大语言模型越狱检测，并提出基于原型推断的越狱检测方法JDPI。该方法利用二元安全标签构建有害与良性原型，并根据样本到原型的相对距离进行预测。JDPI仅使用二元安全标签完成编码器适配、原型构建和验证，由于避免为下游分类器单独划分训练集，其所需标注样本少于分类器基线。在覆盖不同输入格式的四个基准上，对比微调使JDPI检测准确率提升9.1至18.0个百分点，并在相同编码器下取得略高表现。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+   "url": "http://arxiv.org/abs/2611.24932v1",
+   "published": "2026-11-20",
+   "summary": "论文探讨人机共同决策时人类评审者何时仍有价值，提出以元认知校准为核心的评审者价值特质理论。该理论主张，人类价值取决于其行为信心与实际判断正确性之间的对齐程度，而非活跃度、速度、同意率或资历。校准会在行为遥测中留下痕迹，但这些痕迹单独并不足以诊断，因为校准专家的快速少修订特征在结果验证前可能与自信新手难以区分。人类校准与模型自知属于同一构念，因此联合系统应在每个项目上优先采纳校准更好的一方，并关注个体差异。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+   "url": "http://arxiv.org/abs/2611.24927v1",
+   "published": "2026-11-20",
+   "summary": "本文聚焦构建和部署人工智能系统的组织网络，指出人工智能栈各层虽较易理解，但跨层参与者与组件之间的关系仍缺乏系统记录。作者关注供应链集中化、权力集中、瓶颈、级联故障、问责碎片化和风险等问题，并介绍其绘制人工智能供应链的流程。该流程产出主要贡献：一个多层级、大规模的数据集，记录人工智能生态中的参与者和关系，并标注日期、描述、类型、标签等信息。这项工作为系统审视人工智能供应链的组织依赖、脆弱性和市场集中迈出一步。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+   "url": "http://arxiv.org/abs/2611.24924v1",
+   "published": "2026-11-20",
+   "summary": "现有智能体工具链演化方法常忽视隐式需求与交互需求，且依赖单一演化智能体修改工具链并以基准分数筛选变更，容易产生狭窄补丁和面向特定基准的局部最优。为此，论文提出以需求为中心的智能体工具链工程测试版AHE-Beta，将真实工程实践引入工具链演化。该循环包括三步：由模拟用户在多轮使用中提出需求问题并驱动评估；由团队协作将需求实现为可泛化修改而非任务特定补丁；再依据需求驱动选择并合并候选变更。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation",
+   "url": "http://arxiv.org/abs/2611.24908v1",
+   "published": "2026-11-20",
+   "summary": "本文研究两层神经网络在多指标教师模型上用随机梯度下降训练时，第一层中与教师子空间正交的参数如何影响泛化。作者将第一层权重分解为与教师对齐的信号分量和正交补分量，并在比例极限下分析其与第二层的联合随机梯度下降动力学。结果表明，正交补上的更新初始呈各向同性，但训练动态会在补Gram矩阵中诱导出依赖教师的谱尖峰。这种涌现的各向异性提供了表示方差被放大并导致泛化退化的具体机制。为隔离该效应，作者引入可解析处理的Decomposed Dynamics代理模型，其渐近测试误差动态与随机梯度下降一致。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Equivariant Modeling with Polynomial Features via Minimal Homogeneous Generators",
+   "url": "http://arxiv.org/abs/2611.24896v1",
+   "published": "2026-11-20",
+   "summary": "本文提出一个通用框架，用于建模和学习有限维半单实群表示之间的等变函数，并统一了多个应用领域中发展出的构造。模型由等变多项式特征的线性组合构成，其系数为不变多项式特征的任意可学习函数。特征选取不变代数及协变模在不变代数上的最小齐次生成元，并限制到指定次数。作者还提供Python软件包，可自动计算这些特征并将所得模型拟合到训练数据。特征计算算法需要输入和输出表示的显式同型分解以及不可约表示张量积的显式Clebsch-Gordan分解，相较于替代方法实现了加速。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "On Evaluating User Simulators for Interactive Agents",
+   "url": "http://arxiv.org/abs/2611.24892v1",
+   "published": "2026-11-20",
+   "summary": "用户模拟器为评估交互式智能体提供了可扩展途径，但其质量如何评估仍缺乏充分研究，尤其现有用户模拟器评估框架能否可靠识别模拟用户行为中的实质性失败尚不明确。为此，该论文对评估指标本身进行元评估，通过有意扰动模拟重放来引入改变目标、遗漏约束、过早停止以及接受破损工作等失败，再检验指标是否惩罚这些失败。结果表明，三项先前研究中的评估方法在十种扰动中仅能检测出五到六种，其组合得分甚至更偏好被指示接受破损工作的人群，而非未修改的对照组。这说明当前模拟器评估存在明显局限。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
+   "url": "http://arxiv.org/abs/2611.24891v1",
+   "published": "2026-11-20",
+   "summary": "本文提出Cap-and-Track，用于在服务容量变化时优化大语言模型推理请求调度。固定调度速率会因集群扩缩和请求大小变化而过时，且生成输出长度未知、共享资源池可能损失容量。该方法将异步推理分布于外部服务容量与内部GPU之间，利用后端拒绝信号反映当前准入上限，并通过持久优先队列暂存超额请求以便重试。Cap在饱和资源处执行快速失败准入检查，Track调度器仅依据拒绝向上探测并退避，无需预测输出长度或重新调整集群级速率。Meta流量整形器已在帖子与直播视频理解中采用每副本Cap加Track，并在同流量生产A/B测试中运行。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent",
+   "url": "https://www.youtube.com/watch?v=xRJMiaUoD_8",
+   "published": "2026-11-19",
+   "summary": "Thariq Shihipar 把“苦涩教训”讲成算力与算法取舍的判断框架，可校准技术路线。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/xRJMiaUoD_8/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "What it takes to set intelligence free — Fabian Hedin, CTO, Lovable",
+   "url": "https://www.youtube.com/watch?v=pZWPq_ZAmM4",
+   "published": "2026-11-19",
+   "summary": "Lovable CTO 用工程取舍说明，释放智能要把产品、组织和模型能力一起重做。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/pZWPq_ZAmM4/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?",
+   "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+   "published": "2026-11-19",
+   "summary": "看罗宾·汉森用“减速会拉长危险窗口、加速反而更安全”的结论与雅各布·考克森就AI暂停政策正面交锋。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/lwfewYL7X0o/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Ramp’s Bet on the 100x Employee",
+   "url": "https://www.youtube.com/watch?v=0Hvs6-XODgU",
+   "published": "2026-11-18",
+   "summary": "Ramp 在视频里用“100x 员工”的招聘与授权方法，说明一个人如何借 AI 承担原先十人团队的产出。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/0Hvs6-XODgU/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Anthropic",
+   "title": "Why we built Anthropic",
+   "url": "https://www.youtube.com/watch?v=sof3vW4mHTs",
+   "published": "2026-11-19",
+   "summary": "Dario Amodei 在片中讲清 Anthropic 因何把 AI 安全设为首要目标，并复盘团队从 OpenAI 分流的决策节点。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/sof3vW4mHTs/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Anthropic hits $2T in Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "published": "2026-11-20",
+   "summary": "767分、1426条讨论集中辩论首日2万亿美元估值能否由真实收入与增长支撑，以及AI高投入模式与OpenAI竞争是否成立。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "How the European Commission rolled out Matrix to more than 40k staff",
+   "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+   "published": "2026-11-20",
+   "summary": "讨论呈现公共部门大规模迁移到开源通信协议时，在数据主权、互操作性、迁移成本与运维上的实际经验与挑战。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "published": "2026-11-20",
+   "summary": "该项目给出可实际运行的智能体技能框架与开发方法论，强调落地生效，能帮助组织智能体能力并规范开发流程。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "published": "2026-11-20",
+   "summary": "它含82个技能、15个斜杠命令和覆盖24类漏洞的681个报告模式，便于授权测试复用真实案例。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Daily Brief · 2026-11-19</title>
+  <title>Daily Brief · 2026-11-20</title>
   <link rel="icon" href="/logo.png">
   <style>
     :root {
@@ -411,64 +411,64 @@
     <div class="feature-stack">
       <div class="feature-card">
         <div class="feature-art">
-          <div class="feature-art-title">First Man</div>
-          <div class="feature-art-meta">2018 / Damien Chazelle</div>
+          <div class="feature-art-title">Her</div>
+          <div class="feature-art-meta">2013 / Spike Jonze</div>
         </div>
         <div class="movie-info">
-          <p class="movie-title"><strong>First Man (2018)</strong> · Damien Chazelle</p>
-          <p class="movie-reason">把注意力从持续输入里抽出来的校准</p>
+          <p class="movie-title"><strong>Her (2013)</strong> · Spike Jonze</p>
+          <p class="movie-reason">把抽象的 AI 讨论拉回真实关系与投射</p>
         </div>
       </div>
       <div class="feature-card">
         <div class="feature-art book-art">
-          <div class="feature-art-title">The Effective Engineer</div>
-          <div class="feature-art-meta">Edmond Lau</div>
+          <div class="feature-art-title">A Philosophy of Software Design</div>
+          <div class="feature-art-meta">John Ousterhout</div>
         </div>
         <div class="movie-info">
-          <p class="book-title"><strong>The Effective Engineer</strong> · Edmond Lau</p>
-          <p class="book-chapter">Focus on High-Leverage Activities</p>
-          <p class="book-reason">讲杠杆与高产出习惯</p>
+          <p class="book-title"><strong>A Philosophy of Software Design</strong> · John Ousterhout</p>
+          <p class="book-chapter">Chapter 2: The Nature of Complexity</p>
+          <p class="book-reason">把复杂度当成要管理的对象，而不是代码行数</p>
         </div>
       </div>
     </div>
   </section>
-  <section><div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div><div class="insight"><div class="insight-row"><span class="insight-label">今天</span><p class="insight-text">Claude-BugHunter 是 Python 开发的 Claude Code 技能包，内置 82 个技能、15 个斜杠命令、681 条公开披露报告中的攻防模式，覆盖 24 类核心漏洞。NVIDIA 的 SkillEvaluator 提供质量门、语义重叠检测、合成评估数据集生成和实时智能体评估，用于衡量技能对智能体行为的影响。google-labs-code 的 stitch-skills 按 Agent Skills 开放标准提供 TypeScript 技能库，可接入 Antigravity、Gemini CLI、Claude Code 等。KVM x86 补丁在模拟 INIT 时无条件重置 MMU 上下文，对应 CVE-2026-99312。Spool 论文研究有界历史帧窗口内的混合视觉语言模型流式推理，指出递归层将过去帧压缩为共享状态，过期旧帧通常需要重跑整个窗口。</p></div><div class="insight-row"><span class="insight-label">转向</span><p class="insight-text">Claude-BugHunter 用 82 个技能、15 个斜杠命令和 681 条公开报告模式直接复用攻防经验，NVIDIA/SkillEvaluator 则把技能与插件放进质量门、语义重叠检测、合成评估数据集和实时智能体评估里衡量其如何影响智能体行为，技能侧行为从“先收集复用”变成“先评估影响”。方向是技能建设从堆技能包转向带质量门和实时行为评估的接入流程。</p></div><div class="insight-row"><span class="insight-label">对你</span><p class="insight-text">在 Sakura Code 的 tool registry 单测里接 NVIDIA/SkillEvaluator 跑语义重叠检测，把工具对重叠率作为 Pi 工具 schema 去重的合入门槛。</p></div></div></section>
+  <section><div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div><div class="insight"><div class="insight-row"><span class="insight-label">今天</span><p class="insight-text">路透社报道 Anthropic 登陆纳斯达克首日估值达 2 万亿美元。 欧洲委员会向 4 万多名员工推广 Matrix 开源通信协议。 在 Claude Code 侧，Claude-BugHunter 用 Python 提供 82 个技能、15 个斜杠命令和跨 24 个核心漏洞类别的 681 个已披露报告模式。 jingyaogong/minimind 的完整训练流程与代码支持在约两小时内从零训练 64M 参数大语言模型。 统一 API 方面，Firecrawl 覆盖搜索、网页抓取和 550 多个数据源接入。</p></div><div class="insight-row"><span class="insight-label">转向</span><p class="insight-text">HKUDS/CLI-Anything 把现有软件能力转成智能体可用的命令行接口，而 Claude-BugHunter 仍以 Claude Code 的 82 个技能和 15 个斜杠命令组织漏洞挖掘能力，工具调用的落点从编码助手内技能包移向软件原生 CLI 入口。 这种转向变多：从助手内技能/命令集合转向通用 CLI 与多源接入。</p></div><div class="insight-row"><span class="insight-label">对你</span><p class="insight-text">把 cathrynlavery/diagram-design 的 Pi 图表适配接入 Sakura</p></div></div></section>
   <section>
     <div class="section-head"><span class="section-no">02</span><h2>Worth Reading</h2></div>
     <p class="section-subtitle">我的挑选 · 今日值得看</p>
     <div class="items"><article class="item">
   <div class="item-no">01</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities">Unauthenticated remote code execution in Nginx</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/">Anthropic hits $2T in Nasdaq debut</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     <div class="meta source-line">我的挑选</div>
-    <div class="description">讨论梳理Nginx HTTP/2漏洞的触发条件、受影响版本与利用难度，并给出暴露面评估、升级缓解、修复验证及应急响应建议。</div>
+    <div class="description">767分、1426条讨论集中辩论首日2万亿美元估值能否由真实收入与增长支撑，以及AI高投入模式与OpenAI竞争是否成立。</div>
     <div class="meta source-line">pick</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">02</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://techstackups.com/articles/quad9-leaves-france-dns-blocking/">DNS resolvers are the wrong place to fight piracy</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/">How the European Commission rolled out Matrix to more than 40k staff</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     <div class="meta source-line">我的挑选</div>
-    <div class="description">讨论以Quad9退出法国为例，指出DNS封锁易被绕过且损害隐私安全与中立，应转向版权执法和网站下架。</div>
+    <div class="description">讨论呈现公共部门大规模迁移到开源通信协议时，在数据主权、互操作性、迁移成本与运维上的实际经验与挑战。</div>
     <div class="meta source-line">pick</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">03</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/obra/superpowers">obra/superpowers</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     <div class="meta source-line">我的挑选</div>
-    <div class="description">它内置82个技能和15个斜杠命令，汇总681条公开报告攻防模式、覆盖24类核心漏洞，便于快速复用成熟经验。</div>
+    <div class="description">该项目给出可实际运行的智能体技能框架与开发方法论，强调落地生效，能帮助组织智能体能力并规范开发流程。</div>
     <div class="meta source-line">pick</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">04</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     <div class="meta source-line">我的挑选</div>
-    <div class="description">它跨多个社交与预测平台检索近期讨论，交叉比对生成可溯源摘要，今日新增1062星标。</div>
+    <div class="description">它含82个技能、15个斜杠命令和覆盖24类漏洞的681个报告模式，便于授权测试复用真实案例。</div>
     <div class="meta source-line">pick</div>
   </div>
 </article></div>
@@ -479,90 +479,90 @@
     <div class="items"><article class="item">
   <div class="item-no">01</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities">Unauthenticated remote code execution in Nginx</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18T15:19:55+00:00">2026-11-18T15:19:55+00:00</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/">Anthropic hits $2T in Nasdaq debut</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19T17:02:40+00:00">2026-11-19T17:02:40+00:00</time></span></div>
     
-    <div class="description">Hacker News 上关于 Nginx 未认证远程代码执行漏洞的讨论获得 974 分和 450 条评论，链接指向 Wiz 博客对 Nginx HTTP/2 相关漏洞的分析。参与者围绕漏洞触发条件、受影响版本、实际利用难度、暴露面评估、缓解与升级建议展开讨论，也关注生产环境中反向代理和网关的风险，以及如何验证修复效果和制定应急响应策略。</div>
+    <div class="description">Hacker News 上围绕路透社报道 Anthropic 登陆纳斯达克首日估值达 2 万亿美元展开热烈讨论，帖子获 767 分和 1426 条评论。社区重点争论这一估值是否反映真实收入与增长前景，AI 商业模式能否支撑高投入，以及 Anthropic 与 OpenAI 的竞争格局。不少评论还关注 AI 安全、监管风险和资本市场泡沫，并讨论此事对行业融资、人才流动和科技就业的潜在影响。</div>
     <div class="meta source-line">hn</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">02</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://techstackups.com/articles/quad9-leaves-france-dns-blocking/">DNS resolvers are the wrong place to fight piracy</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18T13:18:02+00:00">2026-11-18T13:18:02+00:00</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/">How the European Commission rolled out Matrix to more than 40k staff</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19T10:58:29+00:00">2026-11-19T10:58:29+00:00</time></span></div>
     
-    <div class="description">这篇Hacker News讨论围绕文章《DNS解析器不是打击盗版的地方》展开，焦点是Quad9因法国法院要求屏蔽盗版网站而退出法国。评论者普遍认为，把DNS解析器当作反盗版和内容审查工具会损害隐私、安全与互联网基础设施的中立性，而且封锁容易被绕过，实际效果有限；更合适的做法应是从版权执法和网站下架等环节入手。该讨论获得541分和198条评论。</div>
+    <div class="description">这则Hacker News讨论围绕欧洲委员会向四万多名员工推广Matrix开源通信协议展开，帖子获634分和305条评论。讨论关注大规模部署中的数据主权与控制、互操作性、迁移成本、运维经验以及与商业通信方案的比较，也涉及开源治理和公共部门采用去中心化通信的实际挑战。</div>
     <div class="meta source-line">hn</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">03</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://www.inside-db.com/">Inside Deutsche Bank</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18T15:38:33+00:00">2026-11-18T15:38:33+00:00</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/">UK government forced to admit it issued Apple a secret encryption order</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19T16:21:03+00:00">2026-11-19T16:21:03+00:00</time></span></div>
     
-    <div class="description">这篇Hacker News讨论以“Inside Deutsche Bank”为题，链接指向inside-db.com，获得486分和179条评论。参与者围绕德意志银行对外展示的内部技术平台、工程实践和组织文化展开交流，既关注银行如何呈现自身技术能力，也讨论大型金融机构在透明度、招聘和技术转型方面面临的挑战。评论中既有对网站内容和设计的好奇，也有对银行技术栈与行业惯例的质疑。整体热度较高，反映出技术社区对传统金融巨头内部工程实践的持续兴趣。</div>
+    <div class="description">Hacker News 讨论围绕英国政府被迫承认曾向苹果发出秘密加密命令展开，评论聚焦政府要求削弱端到端加密或提供后门对用户隐私和安全的冲击，以及秘密法律命令缺乏透明度的问题。也有人讨论苹果可能的法律抗争、跨境数据与云服务影响，并担忧此类先例促使更多国家效仿。讨论还涉及技术可行性、执法需求与密码学安全之间的张力。</div>
     <div class="meta source-line">hn</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">04</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://microsoft.ai/news/microsoft-ignite-2026/">Seven new models at scalable price-performance</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18T16:08:24+00:00">2026-11-18T16:08:24+00:00</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/">Pancreatic cancer halted by virus injection in three patients</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19T17:25:33+00:00">2026-11-19T17:25:33+00:00</time></span></div>
     
-    <div class="description">该讨论聚焦微软在 Ignite 2026 上发布的七款新 AI 模型，主打可扩展的性价比。评论者主要比较这些模型与 OpenAI、Anthropic 及谷歌同类产品的价格和性能，部分开发者认为其在成本和吞吐量上具备竞争力，适合大规模部署；另一些人则质疑公开基准的代表性，担心实际使用中的延迟与稳定性。讨论还涉及微软自研模型的战略意图及其对开发者生态的影响，整体氛围既有期待也有审慎。</div>
+    <div class="description">Hacker News上一条关于New Scientist报道的讨论获得387分和53条评论，内容是三名胰腺癌患者接受病毒注射后肿瘤进展被遏制。讨论既关注溶瘤病毒疗法的潜在希望，也强调样本仅三人、缺乏对照、随访有限，不能据此推断普遍疗效。评论者还围绕试验设计、病毒递送、免疫反应、安全性以及媒体标题是否夸大展开争论，呼吁区分早期信号与临床结论。</div>
     <div class="meta source-line">hn</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">05</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://energy-based-reasoners.github.io/">Energy-Based Reasoners: 385x more efficient inference</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18T09:29:32+00:00">2026-11-18T09:29:32+00:00</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://verialabs.com/ruby2shell/">Ruby2ßhell: Pre-authentication RCE on stock Rails</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19T05:09:11+00:00">2026-11-19T05:09:11+00:00</time></span></div>
     
-    <div class="description">Hacker News 上出现关于 Energy-Based Reasoners 的技术讨论，项目主页称其推理效率最高提升 385 倍，帖子获得 293 分和 49 条评论。讨论集中在基于能量的推理方法如何实现加速、基准测试是否公平、与传统推理器相比的适用边界，以及代码和实验的可复现性。社区既关注其潜在价值，也质疑宣传数字在真实任务中的稳健性。</div>
+    <div class="description">Hacker News上围绕Verial Labs文章《Ruby2ßhell: Pre-authentication RCE on stock Rails》展开技术讨论，该帖获得366分和155条评论。文章声称在默认配置的Rails应用上存在预认证远程代码执行漏洞，社区重点讨论漏洞触发条件、默认配置是否真的受影响、实际利用难度、披露方式以及修复和缓解建议，并对其影响范围和严重性提出不同看法。</div>
     <div class="meta source-line">hn</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">06</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/">AI agents ask better questions than KPMG accountants in audit trial</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18T15:49:34+00:00">2026-11-18T15:49:34+00:00</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://lastbook.org/">Everything you need to survive and rebuild society</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19T14:47:18+00:00">2026-11-19T14:47:18+00:00</time></span></div>
     
-    <div class="description">Hacker News上一条关于审计试验的讨论引发关注，标题称AI代理在审计中提出的问题质量超过毕马威会计师。帖子获得285分和132条评论。社区讨论集中在AI提问能力是否真的优于人类专家、审计场景对解释性和责任的要求、模型幻觉与数据隐私风险，以及这类试验能否推广到真实业务流程。部分评论也质疑实验设计和结论代表性，认为应区分提出好问题与完成审计判断。整体看，讨论既认可AI在梳理线索和生成追问上的潜力，也强调专业监督和可验证证据仍不可少。</div>
+    <div class="description">Hacker News 上有一个讨论介绍 lastbook.org，标题为“生存并重建社会所需的一切”，获得330分和179条评论。讨论围绕这份资源是否真的能在灾难后帮助人们维持生存并重建文明展开，评论者关注其内容覆盖面、知识实用性和现实可行性，也争论单一资料能否替代分散的专业知识与社会协作。整体来看，帖子既呈现了对文明韧性的兴趣，也反映了对把复杂重建过程浓缩成一套手册的怀疑。</div>
     <div class="meta source-line">hn</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">07</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/">Gemini 4 Neon</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18T21:34:07+00:00">2026-11-18T21:34:07+00:00</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/openjdk/jdk/pull/32781">Someone reported java4shell bug in September 2026</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19T11:47:03+00:00">2026-11-19T11:47:03+00:00</time></span></div>
     
-    <div class="description">Hacker News 上关于 Google 发布 Gemini 4 Neon 的讨论获得 267 分和 257 条评论，链接指向 Google 官方博客的介绍文章。讨论主要围绕该模型的实际能力、基准表现、与竞品的对比、API 定价和开发者接入体验展开，也涉及官方宣传与真实使用感受之间的差距，以及它对现有模型竞争格局可能产生的影响。</div>
+    <div class="description">Hacker News 上出现一则关于“java4shell”漏洞的报告讨论，称该问题在2026年9月被提交，相关链接指向 OpenJDK JDK 的 PR 32781。该帖获得325分和86条评论，社区围绕漏洞真实性、影响范围、修复方案及披露流程展开争论。</div>
     <div class="meta source-line">hn</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">08</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026">The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18T14:43:52+00:00">2026-11-18T14:43:52+00:00</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://www.anthropic.com/research/claude-black-hole-physics">Claude solves two open problems in the physics of black holes</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19T17:30:44+00:00">2026-11-19T17:30:44+00:00</time></span></div>
     
-    <div class="description">Hacker News 上围绕剑桥词典将 human 选为2026年度词展开讨论，该帖获得215分和163条评论。参与者关注这一选择在人工智能快速发展的语境下意味着什么，讨论人类与机器的边界、人的独特性以及语言如何反映社会焦虑，也有人从词典年度词的评选标准和传播效果角度提出看法。</div>
+    <div class="description">Hacker News 上围绕 Anthropic 研究文章展开讨论，该文章称 Claude 解决了黑洞物理中的两个开放问题。帖子获得 322 分和 144 条评论，社区关注点包括 AI 在理论物理中的实际贡献、结果如何验证、研究是否可复现，以及这类宣称对科研工作流和同行评审意味着什么。讨论既有人对 AI 辅助科学发现表示兴趣，也有人强调需区分模型输出与经严格检验的物理论证。</div>
     <div class="meta source-line">hn</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">09</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://www.cve.org/CVERecord?id=CVE-2026-99312">KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18T16:06:21+00:00">2026-11-18T16:06:21+00:00</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://www.php.net/releases/8.6/en.php">What&#x27;s New in PHP 8.6</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19T09:27:15+00:00">2026-11-19T09:27:15+00:00</time></span></div>
     
-    <div class="description">Hacker News 上围绕 KVM x86 补丁展开讨论，该补丁在模拟 INIT 时无条件重置 MMU 上下文，对应 CVE-2026-99312。评论关注漏洞触发条件、对虚拟化环境的影响以及修复是否应无条件执行，并讨论 INIT 模拟与 MMU 状态同步的边界。帖子获 163 分和 112 条评论，反映出虚拟化安全修复受到关注。</div>
+    <div class="description">Hacker News 上出现关于 PHP 8.6 新版本的讨论帖，链接指向 PHP 官方发布说明页面，帖子获得 261 分和 125 条评论。讨论围绕 PHP 8.6 的新特性、语言演进方向、升级兼容性与实际使用体验展开，也反映出开发者对 PHP 生态持续变化的关注。社区评论既有对新功能的期待，也有对迁移成本和版本节奏的讨论。</div>
     <div class="meta source-line">hn</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">10</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/">Genie 4 is now available</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18T18:49:51+00:00">2026-11-18T18:49:51+00:00</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://zerodha.tech/blog/high-performance-distributed-blob-storage/">Distributed, high-performance blob storage on SQLite</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19T08:39:45+00:00">2026-11-19T08:39:45+00:00</time></span></div>
     
-    <div class="description">Hacker News 上关于 Google DeepMind 发布 Genie 4 的讨论获得 157 分和 133 条评论。社区关注这一生成式世界模型在交互式环境生成方面的进展，讨论其演示效果、可用范围、训练数据与算力成本，以及它与游戏引擎和现有世界模型的差异。也有人担心版权、安全、商业化落地和对游戏开发流程的影响，并期待更多技术细节与独立评测。</div>
+    <div class="description">Hacker News 上正在讨论 Zerodha 技术博客介绍如何基于 SQLite 构建分布式高性能 blob 存储的文章，帖子获得 244 分和 66 条评论。讨论主要围绕这一架构的取舍展开，包括 SQLite 在分布式环境下的并发、一致性和运维复杂度，与对象存储等方案的对比，以及它在中小规模场景中的实用性和性能表现。</div>
     <div class="meta source-line">hn</div>
   </div>
 </article></div>
@@ -573,91 +573,91 @@
     <div class="items"><article class="item">
   <div class="item-no">01</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">Claude-BugHunter 是一个面向漏洞挖掘与外部红队工作的 Claude Code 技能包，使用 Python 开发。它内置 82 个技能和 15 个斜杠命令，整理了 681 条来自已公开披露报告的攻防模式，覆盖 24 类核心漏洞，并提供企业身份与基础设施攻击矩阵，帮助安全人员在实战中快速复用成熟经验。该项目今日新增 2322 颗星，关注度很高。</div>
+    <div class="description">Claude-BugHunter 是一个用 Python 编写的开源项目，为 Claude Code 提供用于漏洞挖掘和外部红队工作的技能包。它包含 82 个技能、15 个斜杠命令，以及跨 24 个核心漏洞类别整理的 681 个已披露报告模式，并附带企业身份与基础设施攻击矩阵，帮助安全研究人员在授权测试中更系统地复用真实案例经验、组织攻击思路并提升漏洞发现的效率与覆盖面。</div>
     <div class="meta source-line">Python</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">02</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/cursor/plugins">cursor/plugins</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/obra/superpowers">obra/superpowers</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">cursor/plugins 是 Cursor 在 GitHub 上开源的项目，主要提供插件规范与官方插件，使用 TypeScript 编写，今日新增 315 星，受到开发者关注。该项目为开发者构建和集成 Cursor 插件提供参考与官方实现，有助于统一插件开发方式、降低接入成本，并推动 Cursor 插件生态的扩展与完善。</div>
-    <div class="meta source-line">TypeScript</div>
+    <div class="description">obra/superpowers 是一个在 GitHub 上开源的项目，主要使用 Shell 语言开发，定位为可实际运行的智能体技能框架与软件开发方法论。项目简介强调该框架与方法论能够真正落地生效，帮助开发者组织智能体能力并规范软件开发流程。今日该项目新增 2029 颗星，显示出社区对其理念与实用性的关注。对于希望探索智能体技能体系与开发方法论的开发者而言，该项目提供了一个值得参考的开源实现。</div>
+    <div class="meta source-line">Shell</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">03</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/HKUDS/CLI-Anything">HKUDS/CLI-Anything</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/HKUDS/CLI-Anything">HKUDS/CLI-Anything</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">HKUDS/CLI-Anything 是一个用 Python 开发的开源项目，目标是让所有软件成为智能体原生，使各类命令行工具和软件更容易被 AI 智能体直接调用与集成。项目今日新增 384 星，受到较多关注。其配套 CLI-Hub 地址为 https://clianything.cc/，可用于了解和接入相关能力。</div>
+    <div class="description">HKUDS/CLI-Anything 是一个用 Python 开发的开源项目，目标是让所有软件都能原生支持智能体调用。项目以 CLI 为核心，帮助开发者把现有软件能力转化为智能体可用的命令行接口，从而降低集成门槛并扩展自动化场景。项目同时提供 CLI-Hub 入口 clianything.cc，方便用户了解和接入相关能力。该项目今日新增 899 星，说明其方向受到社区关注。</div>
     <div class="meta source-line">Python</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">04</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">last30days-skill 是一个用 Python 编写的开源 AI 智能体技能，能够围绕任意主题，在 Reddit、X、YouTube、Hacker News、Polymarket 以及整个网络等多个平台上检索近期讨论与信息，再将收集到的内容交叉比对并整合，最终生成一份有据可依、来源可溯的摘要。它适合需要快速掌握某个话题近期动向与舆论走势的用户，也方便开发者直接接入自己的智能体工作流。项目今日新增 1062 星，关注度较高。</div>
+    <div class="description">jingyaogong/minimind 是一个使用 Python 编写的开源项目，目标是帮助开发者在大约两小时内从零训练出属于自己的 64M 参数大语言模型。项目提供完整训练流程与代码，降低大模型训练门槛，适合学习、实验和快速验证想法。该项目今日新增 301 星，受到较多关注，体现了社区对轻量级大模型训练实践的浓厚兴趣。</div>
     <div class="meta source-line">Python</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">05</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/getarcaneapp/arcane">getarcaneapp/arcane</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/cursor/plugins">cursor/plugins</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">Arcane 是一个面向所有人的现代 Docker 管理开源项目，使用 Go 语言开发，今日在 GitHub 新增 547 星，受到社区关注。它致力于简化容器、镜像等 Docker 资源的日常管理，降低使用门槛，让开发者、运维人员乃至初学者都能更直观地操作和掌控容器环境。项目强调现代体验与易用性，适合希望提升 Docker 管理效率的个人与团队尝试。</div>
-    <div class="meta source-line">Go</div>
+    <div class="description">cursor/plugins 是 GitHub 上的一个开源项目，主要使用 TypeScript 编写，提供 Cursor 插件规范以及官方插件。该项目今日新增 383 星，受到较多开发者关注。它有助于开发者了解 Cursor 插件的开发方式和官方实现，适合希望参与插件生态或基于规范进行扩展的用户参考。</div>
+    <div class="meta source-line">TypeScript</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">06</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/NVIDIA/SkillEvaluator">NVIDIA/SkillEvaluator</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">NVIDIA/SkillEvaluator 是一个基于 Python 的开源多层级框架，用于评估 AI 智能体技能与插件。它提供质量门、语义重叠检测、合成评估数据集生成以及实时智能体评估能力，可衡量技能如何影响智能体行为。项目今日新增 323 星，适合需要系统化验证技能与插件质量的开发者使用。</div>
-    <div class="meta source-line">Python</div>
+    <div class="description">Firecrawl 是一个用 TypeScript 编写的开源项目，定位为让智能体更聪明的知识基础设施。它通过统一 API 提供搜索、网页抓取以及 550 多个数据源接入能力，帮助开发者更方便地为 AI 智能体获取和整合外部知识。该项目今日新增 795 星，受到较多关注，适合需要构建检索、数据采集与多源信息接入流程的智能体应用。</div>
+    <div class="meta source-line">TypeScript</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">07</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/nvm-sh/nvm">nvm-sh/nvm</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/nginx/nginx">nginx/nginx</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">nvm-sh/nvm 是一个在 GitHub 上广受欢迎的开源项目，使用 Shell 编写，提供 Node Version Manager 功能。它是一套符合 POSIX 规范的 bash 脚本，帮助开发者在同一台机器上安装、切换和管理多个处于活跃状态的 Node.js 版本，从而方便适配不同项目对运行时版本的要求。项目今日新增 111 星，体现出社区对其实用性和稳定性的持续关注。</div>
-    <div class="meta source-line">Shell</div>
+    <div class="description">nginx/nginx 是 NGINX 官方开源代码仓库，主要使用 C 语言开发，包含高性能 Web 服务器、反向代理、负载均衡和 HTTP 缓存等核心功能源码。该项目今日新增 66 星，受到开发者持续关注，适合用于学习研究、二次开发及生产环境部署参考。</div>
+    <div class="meta source-line">C</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">08</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/astral-sh/uv">astral-sh/uv</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/openvinotoolkit/openvino">openvinotoolkit/openvino</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">astral-sh/uv 是一个用 Rust 编写的开源 Python 包与项目管理工具，主打极快的执行速度，旨在为 Python 开发者提供高效的依赖安装、项目管理和环境管理体验。项目在 GitHub 上今日新增 260 星，受到较多关注。其以 Rust 实现核心性能优势，适合希望提升 Python 工作流效率的用户了解和试用。</div>
-    <div class="meta source-line">Rust</div>
+    <div class="description">OpenVINO 是 GitHub 上 openvinotoolkit 组织维护的开源 AI 推理优化与部署工具包，主要使用 C++ 开发。它面向多种硬件平台提供模型转换、性能优化和推理加速能力，帮助开发者更高效地部署计算机视觉、生成式 AI 等应用。项目今日新增 246 星，受到较多关注，适合需要跨平台、高性能 AI 推理落地的开发者使用。</div>
+    <div class="meta source-line">C++</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">09</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/google-research/paper-orchestra">google-research/paper-orchestra</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/cathrynlavery/diagram-design">cathrynlavery/diagram-design</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">google-research/paper-orchestra 是 GitHub 上的开源项目，使用 Python 开发，提供面向自动化 AI 研究论文写作的多智能体框架。该项目通过多个智能体协作完成论文写作相关流程，今日新增 1529 星，受到广泛关注。</div>
-    <div class="meta source-line">Python</div>
+    <div class="description">cathrynlavery 的 diagram-design 是一个面向 AI 编程助手场景的开源图表设计项目，今日新增约 402 星。它为主流编码工具如 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 提供编辑风格的图表方案，共包含 45 种图表类型。所有输出均为自包含的 HTML 加 SVG，不依赖外部资源，也不使用阴影效果，力求摆脱常见的 Mermaid 图表粗糙感，让生成的图示更整洁、更专业。</div>
+    <div class="meta source-line">HTML</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">10</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="https://github.com/google-labs-code/stitch-skills">google-labs-code/stitch-skills</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">google-labs-code/stitch-skills 是一个使用 TypeScript 开发的开源项目，提供一套面向 Stitch MCP 服务器的 Agent Skills 库。每个技能都遵循 Agent Skills 开放标准，因此可与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码智能体兼容使用。项目今日新增 369 星，适合希望为多种编程代理统一扩展能力的开发者参考和集成。</div>
-    <div class="meta source-line">TypeScript</div>
+    <div class="description">这是一个用 Python 编写的 AI agent 技能，能够针对任意话题自动在 Reddit、X、YouTube、Hacker News、Polymarket 以及普通网页等多个平台搜集信息，再把这些来源的内容综合成一份有据可依的摘要。项目今日新增约 952 颗星，适合需要快速了解某个话题近期讨论与舆情动向的用户。</div>
+    <div class="meta source-line">Python</div>
   </div>
 </article></div>
   </section>
@@ -668,10 +668,10 @@
   <div class="item-no">01</div>
   <div class="item-main">
     <div class="media-layout">
-      <div><a href="https://www.youtube.com/watch?v=fTHByDwTxGM"><img class="thumb" src="https://i.ytimg.com/vi/fTHByDwTxGM/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div><a href="https://www.youtube.com/watch?v=xRJMiaUoD_8"><img class="thumb" src="https://i.ytimg.com/vi/xRJMiaUoD_8/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
       <div class="media-body">
-        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=fTHByDwTxGM">Post-Training Gemini 4 for Real Engineering Work — Melvin Johnson, Google DeepMind</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
-        <div class="description">Melvin Johnson 来自 Google DeepMind，讲 Gemini 4 后训练在真实工程任务中的流程与取舍，能听到可复用的落地细节。</div>
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=xRJMiaUoD_8">The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+        <div class="description">Thariq Shihipar 把“苦涩教训”讲成算力与算法取舍的判断框架，可校准技术路线。</div>
         <div class="video-meta"><div class="meta source-line">video</div></div>
       </div>
     </div>
@@ -681,10 +681,10 @@
   <div class="item-no">02</div>
   <div class="item-main">
     <div class="media-layout">
-      <div><a href="https://www.youtube.com/watch?v=U92J5mCDLMc"><img class="thumb" src="https://i.ytimg.com/vi/U92J5mCDLMc/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div><a href="https://www.youtube.com/watch?v=pZWPq_ZAmM4"><img class="thumb" src="https://i.ytimg.com/vi/pZWPq_ZAmM4/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
       <div class="media-body">
-        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=U92J5mCDLMc">40x More Merged PRs With 2.7x the Engineers — Walden Yan, Cognition</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
-        <div class="description">Cognition 工程师仅增2.7倍就把合并PR做到40倍，可看其评审</div>
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=pZWPq_ZAmM4">What it takes to set intelligence free — Fabian Hedin, CTO, Lovable</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+        <div class="description">Lovable CTO 用工程取舍说明，释放智能要把产品、组织和模型能力一起重做。</div>
         <div class="video-meta"><div class="meta source-line">video</div></div>
       </div>
     </div>
@@ -694,10 +694,10 @@
   <div class="item-no">03</div>
   <div class="item-main">
     <div class="media-layout">
-      <div><a href="https://www.youtube.com/watch?v=0Hvs6-XODgU"><img class="thumb" src="https://i.ytimg.com/vi/0Hvs6-XODgU/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div><a href="https://www.youtube.com/watch?v=lwfewYL7X0o"><img class="thumb" src="https://i.ytimg.com/vi/lwfewYL7X0o/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
       <div class="media-body">
-        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=0Hvs6-XODgU">Ramp’s Bet on the 100x Employee</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
-        <div class="description">因为它把Ramp押注“100x员工”背后的AI工具、招聘标准与绩效衡量方法讲成了可复用的操作框架。</div>
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=lwfewYL7X0o">Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+        <div class="description">看罗宾·汉森用“减速会拉长危险窗口、加速反而更安全”的结论与雅各布·考克森就AI暂停政策正面交锋。</div>
         <div class="video-meta"><div class="meta source-line">video</div></div>
       </div>
     </div>
@@ -707,10 +707,23 @@
   <div class="item-no">04</div>
   <div class="item-main">
     <div class="media-layout">
-      <div><a href="https://www.youtube.com/watch?v=y1-9yeYLJUo"><img class="thumb" src="https://i.ytimg.com/vi/y1-9yeYLJUo/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div><a href="https://www.youtube.com/watch?v=0Hvs6-XODgU"><img class="thumb" src="https://i.ytimg.com/vi/0Hvs6-XODgU/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
       <div class="media-body">
-        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=y1-9yeYLJUo">The Rise Of AI Coworkers</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-14">2026-11-14</time></span></div>
-        <div class="description">它把AI从工具重新定义为“同事”，并给出任务分配与责任归属的具体方法，能帮团队重设岗位分工。</div>
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=0Hvs6-XODgU">Ramp’s Bet on the 100x Employee</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-18">2026-11-18</time></span></div>
+        <div class="description">Ramp 在视频里用“100x 员工”的招聘与授权方法，说明一个人如何借 AI 承担原先十人团队的产出。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=sof3vW4mHTs"><img class="thumb" src="https://i.ytimg.com/vi/sof3vW4mHTs/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=sof3vW4mHTs">Why we built Anthropic</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+        <div class="description">Dario Amodei 在片中讲清 Anthropic 因何把 AI 安全设为首要目标，并复盘团队从 OpenAI 分流的决策节点。</div>
         <div class="video-meta"><div class="meta source-line">video</div></div>
       </div>
     </div>
@@ -723,78 +736,78 @@
     <div class="items"><article class="item">
   <div class="item-no">01</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.23229v1">Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.24936v1">Jailbreak Detection on Large Language Models via Contrastive Prototype Structures</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">针对自回归语言模型后训练数据规模较小易导致过拟合和遗忘数据分布尾部的问题，本文提出Ambient SFT框架，通过利用不完美预测扩充微调数据。该方法将冻结的预训练模型作为噪声教师，要求微调后模型生成的条件分布在高温下与预训练模型的高温分布进行粗粒度匹配，并由温度超参数控制对预训练知识的信任程度，从而提升监督微调的数据效率并缓解分布尾部遗忘。</div>
+    <div class="description">本文研究对比学习表示能否在无需额外训练下游分类器的情况下支持大语言模型越狱检测，并提出基于原型推断的越狱检测方法JDPI。该方法利用二元安全标签构建有害与良性原型，并根据样本到原型的相对距离进行预测。JDPI仅使用二元安全标签完成编码器适配、原型构建和验证，由于避免为下游分类器单独划分训练集，其所需标注样本少于分类器基线。在覆盖不同输入格式的四个基准上，对比微调使JDPI检测准确率提升9.1至18.0个百分点，并在相同编码器下取得略高表现。</div>
     <div class="meta source-line">paper</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">02</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.23228v1">Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.24932v1">Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">该论文面向视觉无障碍代理和机器人等需要低延迟回答近期视频问题的应用，研究在有界历史帧窗口内进行流式推理的混合视觉语言模型。此类模型交错使用注意力和门控DeltaNet等线性递归层，但维护滑动窗口代价高昂，因为递归层将所有过去帧压缩为共享状态，过期旧帧通常需要重新运行整个窗口。作者观察到递归更新对状态是仿射的，且系数依赖输入，因此每帧影响可表示为可结合组合的变换。基于此提出免训练框架Spool，缓存逐帧状态变换，并随窗口推进高效组合这些变换，从而避免重复计算整个窗口，降低流式推理延迟。</div>
+    <div class="description">论文探讨人机共同决策时人类评审者何时仍有价值，提出以元认知校准为核心的评审者价值特质理论。该理论主张，人类价值取决于其行为信心与实际判断正确性之间的对齐程度，而非活跃度、速度、同意率或资历。校准会在行为遥测中留下痕迹，但这些痕迹单独并不足以诊断，因为校准专家的快速少修订特征在结果验证前可能与自信新手难以区分。人类校准与模型自知属于同一构念，因此联合系统应在每个项目上优先采纳校准更好的一方，并关注个体差异。</div>
     <div class="meta source-line">paper</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">03</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.23225v1">StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.24927v1">Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">StringQFT是面向量子场论弦构造的多用途教科书资源与AI辅助理论物理基础设施，包含18卷190章3795页，覆盖膜探针、膜网、几何工程、F理论、包裹M5膜和精确世界面构造。其开放书基准含1073项，499项可自动检查有限答案；检索增强生成提供1371条章节记录、教材与PDF链接及本地词汇检索器；训练数据准备以21个来源链接示例说明；智能体可使用19个输入和有限域明确的计算工具，将工具调用与教材推导相连，并通过具体问题展示这些用途。</div>
+    <div class="description">本文聚焦构建和部署人工智能系统的组织网络，指出人工智能栈各层虽较易理解，但跨层参与者与组件之间的关系仍缺乏系统记录。作者关注供应链集中化、权力集中、瓶颈、级联故障、问责碎片化和风险等问题，并介绍其绘制人工智能供应链的流程。该流程产出主要贡献：一个多层级、大规模的数据集，记录人工智能生态中的参与者和关系，并标注日期、描述、类型、标签等信息。这项工作为系统审视人工智能供应链的组织依赖、脆弱性和市场集中迈出一步。</div>
     <div class="meta source-line">paper</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">04</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.23221v1">An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.24924v1">Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">本文研究约束凸有限和优化问题，其中部分或全部约束为必须满足的硬约束，因此近似解需几乎可行。论文关注计算ε确定可行随机最优解，使约束违反量确定不超过ε且期望最优性差距不超过ε。针对现有随机方差缩减一阶罚方法在计算此类解与期望可行随机最优解之间的一阶oracle复杂度差距，提出不精确随机方差缩减梯度方法，以在保证硬约束可控违反的同时降低计算代价。</div>
+    <div class="description">现有智能体工具链演化方法常忽视隐式需求与交互需求，且依赖单一演化智能体修改工具链并以基准分数筛选变更，容易产生狭窄补丁和面向特定基准的局部最优。为此，论文提出以需求为中心的智能体工具链工程测试版AHE-Beta，将真实工程实践引入工具链演化。该循环包括三步：由模拟用户在多轮使用中提出需求问题并驱动评估；由团队协作将需求实现为可泛化修改而非任务特定补丁；再依据需求驱动选择并合并候选变更。</div>
     <div class="meta source-line">paper</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">05</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.23219v1">Do LLM Agents Still Need to Be Told How to Self-Improve?</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.24908v1">Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">本文研究一个自主式自我改进范式，即在给定基本原语、资源和一般性自我改进目标后，让智能体自行构建基于上下文优化的自学习算法。作者以游戏为试验场景，向冻结的大语言模型智能体提供计算预算以及收集经验、更新文本文档的工具，使其在没有外部 imposed 循环、也无法访问真实世界数据的条件下自由尝试。研究发现，能力足够强的模型能够在这种条件下实现自我改进，并展现出与经典策略相符的做法。这一结果说明，随着模型能力提升，自我改进过程中人类对具体方法的指定可能不再是必要条件。</div>
+    <div class="description">本文研究两层神经网络在多指标教师模型上用随机梯度下降训练时，第一层中与教师子空间正交的参数如何影响泛化。作者将第一层权重分解为与教师对齐的信号分量和正交补分量，并在比例极限下分析其与第二层的联合随机梯度下降动力学。结果表明，正交补上的更新初始呈各向同性，但训练动态会在补Gram矩阵中诱导出依赖教师的谱尖峰。这种涌现的各向异性提供了表示方差被放大并导致泛化退化的具体机制。为隔离该效应，作者引入可解析处理的Decomposed Dynamics代理模型，其渐近测试误差动态与随机梯度下降一致。</div>
     <div class="meta source-line">paper</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">06</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.23218v1">What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.24896v1">Equivariant Modeling with Polynomial Features via Minimal Homogeneous Generators</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">该论文审计大语言模型中注意力头级社会偏见归因的可识别性。现有方法通过公平指标效果验证头部选择与消融，却未证明选择头的统计量确实测量偏见。作者在Qwen-2.5-7B-Instruct和Llama-3.1-8B-Instruct上发现头部图与标签盲响应长度图高度相关，相关系数为-0.950和-0.768，看似表面混淆。但固定提示的干预显示响应长度仅解释统计量方差的1%，提示身份解释64%，且排序并非长度单调。固定提示内公平标签、响应长度与受保护群体标记高度共线，部分源于标注规则，因此观察数据无法识别头部级偏见归因。</div>
+    <div class="description">本文提出一个通用框架，用于建模和学习有限维半单实群表示之间的等变函数，并统一了多个应用领域中发展出的构造。模型由等变多项式特征的线性组合构成，其系数为不变多项式特征的任意可学习函数。特征选取不变代数及协变模在不变代数上的最小齐次生成元，并限制到指定次数。作者还提供Python软件包，可自动计算这些特征并将所得模型拟合到训练数据。特征计算算法需要输入和输出表示的显式同型分解以及不可约表示张量积的显式Clebsch-Gordan分解，相较于替代方法实现了加速。</div>
     <div class="meta source-line">paper</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">07</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.23216v1">Higher-Scoring Coding Models Did Not Get More Work Done</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.24892v1">On Evaluating User Simulators for Interactive Agents</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">该论文检验编码基准分数更高的模型是否真的带来更多实际工作产出。研究利用2026年6月12日起美国出口管制导致Claude Fable 5被禁用19天的自然实验，此时用户和项目基本不变而模型被迫更换。多数原Fable 5用户转向SWE Bench Pro分数低11分的Opus 4.8。作者追踪297名受影响用户的GitHub拉取请求，并以8908名始终使用Opus 4.8的开发者作为对照，比较禁用前后及五次模型升级期间的生产力变化。结果指向更高基准分数并未转化为更多完成工作。</div>
+    <div class="description">用户模拟器为评估交互式智能体提供了可扩展途径，但其质量如何评估仍缺乏充分研究，尤其现有用户模拟器评估框架能否可靠识别模拟用户行为中的实质性失败尚不明确。为此，该论文对评估指标本身进行元评估，通过有意扰动模拟重放来引入改变目标、遗漏约束、过早停止以及接受破损工作等失败，再检验指标是否惩罚这些失败。结果表明，三项先前研究中的评估方法在十种扰动中仅能检测出五到六种，其组合得分甚至更偏好被指示接受破损工作的人群，而非未修改的对照组。这说明当前模拟器评估存在明显局限。</div>
     <div class="meta source-line">paper</div>
   </div>
 </article>
 <article class="item">
   <div class="item-no">08</div>
   <div class="item-main">
-    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.23211v1">Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.24891v1">Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20">2026-11-20</time></span></div>
     
-    <div class="description">该论文针对驾驶中人类认知状态、注视与行为同环境存在细微交互但认知状态标注成本高的问题，提出多模态掩码扩散自编码器ID-MAE，在损伤预测任务中引入自监督目标，既将损伤标签作为掩码标记进行预测，也重建被掩码的注视和轨迹。为考察不同模态与损伤类型对模型推理的影响，作者构建DIVERT驾驶模拟器数据集，包含109名参与者的103小时驾驶数据，覆盖认知、视觉和情绪三类共十种损伤诱导，并同步记录注视、车辆状态和场景视频。实验表明ID-MAE能显著提升损伤推断效果。</div>
+    <div class="description">本文提出Cap-and-Track，用于在服务容量变化时优化大语言模型推理请求调度。固定调度速率会因集群扩缩和请求大小变化而过时，且生成输出长度未知、共享资源池可能损失容量。该方法将异步推理分布于外部服务容量与内部GPU之间，利用后端拒绝信号反映当前准入上限，并通过持久优先队列暂存超额请求以便重试。Cap在饱和资源处执行快速失败准入检查，Track调度器仅依据拒绝向上探测并退避，无需预测输出长度或重新调整集群级速率。Meta流量整形器已在帖子与直播视频理解中采用每副本Cap加Track，并在同流量生产A/B测试中运行。</div>
     <div class="meta source-line">paper</div>
   </div>
 </article></div>
   </section>
   
-  <section><div class="section-head"><span class="section-no">09</span><h2>方向雷达</h2></div><div class='ledger'><div class="led-cap"><span>01</span>钱去哪了</div><div class="led-row"><div class="led-key">垂直AI代理</div><div class="led-val"><p>通用助手难变现，资本押注懂行业上下文的代理</p><div class="led-tags"><span>Model ML、Pedestal AI、Voyage Labs</span></div></div></div><div class="led-row"><div class="led-key">AI制药</div><div class="led-val"><p>单笔50亿美元，赌AI把候选药推进临床</p><div class="led-tags"><span>Isomorphic Labs</span></div></div></div><div class="led-row"><div class="led-key">AI安全</div><div class="led-val"><p>产品上线三个月即10亿美元估值，需求真实</p><div class="led-tags"><span>Corma</span></div></div></div><div class="led-cap"><span>02</span>我能做什么开源项目</div><div class="led-row"><div class="led-key led-key-mono"><strong>agent-sandbox-runner</strong></div><div class="led-val"><p>编码代理本地跑代码风险高，外部沙箱成刚需</p><div class="led-tags"><span>MVP CLI把代理生成的脚本丢进容器执行，回传stdout与文件…</span><span>栈 Python + Docker/gVisor</span></div></div></div><div class="led-row"><div class="led-key led-key-mono"><strong>sqlite-map-viewer</strong></div><div class="led-val"><p>Datasette刚出MapLibre插件，地理数据可视化正起量</p><div class="led-tags"><span>MVP 拖入SQLite或CSV，自动识别经纬度列，渲染MapLi…</span><span>栈 Python + MapLibre GL JS</span></div></div></div><div class="led-cap"><span>03</span>名人原句</div><blockquote class="led-quote">I backported a minor security fix from 1.0a43<cite>Simon Willison · Simon Willison's Weblog · <a href="https://simonwillison.net/2026/Nov/15/datasette-2/">原文</a></cite></blockquote><div class="led-cap"><span>04</span>一句话</div><p class="led-line">钱涌向垂直行业AI代理与AI制药，独立开发者可从代理沙箱与数据可视化切入。</p></div></section><section><div class="section-head"><span class="section-no">10</span><h2>岗位</h2></div><div class='ledger'><div class="stat-top"><div class="stat-num">207</div><div class="stat-meta"><span>环比 <b>+5.6%</b></span><span>昨日 196</span><span>最大方向 后端/服务端 17.4%</span><span class="stat-dim">同比：数据累计 7/7 天</span></div></div><div class="stat-body"><svg class="donut" viewBox="0 0 150 150" width="150" height="150" role="img" aria-label="岗位方向占比"><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#1c1c1c" stroke-width="18" stroke-dasharray="59.01 280.28" stroke-dashoffset="-0.00" transform="rotate(-90 75.0 75.0)"><title>后端/服务端 36 · 17.4%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#4a463f" stroke-width="18" stroke-dasharray="50.81 288.48" stroke-dashoffset="-59.01" transform="rotate(-90 75.0 75.0)"><title>基础设施/运维 31 · 15.0%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#6e6c66" stroke-width="18" stroke-dasharray="47.53 291.76" stroke-dashoffset="-109.82" transform="rotate(-90 75.0 75.0)"><title>硬件/嵌入式 29 · 14.0%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#8a8378" stroke-width="18" stroke-dasharray="45.89 293.40" stroke-dashoffset="-157.35" transform="rotate(-90 75.0 75.0)"><title>芯片/半导体 28 · 13.5%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#a8a29a" stroke-width="18" stroke-dasharray="39.34 299.95" stroke-dashoffset="-203.25" transform="rotate(-90 75.0 75.0)"><title>前端/全栈 24 · 11.6%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#c9c5bc" stroke-width="18" stroke-dasharray="39.34 299.95" stroke-dashoffset="-242.59" transform="rotate(-90 75.0 75.0)"><title>算法/AI 24 · 11.6%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#e6e3dc" stroke-width="18" stroke-dasharray="57.37 281.92" stroke-dashoffset="-281.92" transform="rotate(-90 75.0 75.0)"><title>其他 35 · 16.9%</title></circle></svg><div class="jobs-table"><div class="jobs-row jobs-head"><div>方向</div><div>条数</div><div>占比</div><div>环比</div></div><div class="jobs-row"><div class="jobs-dir">后端/服务端</div><div class="jobs-n">36</div><div class="jobs-n">17.4%</div><div class="jobs-n">+12%</div></div><div class="jobs-row"><div class="jobs-dir">基础设施/运维</div><div class="jobs-n">31</div><div class="jobs-n">15.0%</div><div class="jobs-n">+0%</div></div><div class="jobs-row"><div class="jobs-dir">硬件/嵌入式</div><div class="jobs-n">29</div><div class="jobs-n">14.0%</div><div class="jobs-n">+12%</div></div><div class="jobs-row"><div class="jobs-dir">芯片/半导体</div><div class="jobs-n">28</div><div class="jobs-n">13.5%</div><div class="jobs-n">+0%</div></div><div class="jobs-row"><div class="jobs-dir">前端/全栈</div><div class="jobs-n">24</div><div class="jobs-n">11.6%</div><div class="jobs-n">+9%</div></div><div class="jobs-row"><div class="jobs-dir">算法/AI</div><div class="jobs-n">24</div><div class="jobs-n">11.6%</div><div class="jobs-n">+26%</div></div><div class="jobs-row"><div class="jobs-dir">测试/质量</div><div class="jobs-n">19</div><div class="jobs-n">9.2%</div><div class="jobs-n">+12%</div></div><div class="jobs-row"><div class="jobs-dir">数据</div><div class="jobs-n">16</div><div class="jobs-n">7.7%</div><div class="jobs-n">-24%</div></div></div></div></div></section><section><div class="section-head"><span class="section-no">11</span><h2>宏观内参</h2></div><div class='ledger'><div class="led-row"><div class="led-key">宏观/流动性</div><div class="led-val"><p>今日抓取到的美联储素材仅为 FOMC 声明与 9 月经济预测摘要的发布页，未含利率决议数值与点阵图数据，不做推…</p></div></div><div class="led-row"><div class="led-key">政策/合规</div><div class="led-val"><p>SEC 据 WSJ 报道对 Nvidia 展开调查（[9]），同时 Nvidia 临时 CEO 确认停止向中国…</p></div></div><div class="led-row"><div class="led-key">巨头/产业</div><div class="led-val"><p>Nvidia 私募投资组合 9 个月内近翻三倍至 650 亿美元（[3]），但创始人 Jensen Huang…</p></div></div><div class="led-row"><div class="led-key">信源与可靠度</div><div class="led-val"><p>TechCrunch 多篇 + CNBC 财报电话会报道 + WSJ 转述（SEC 调查为"据报道"，二次信源…</p></div></div></div></section><section><div class="section-head"><span class="section-no">12</span><h2>Issue 日报</h2></div><div class='ledger'><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11737</a> [今天] [Feature Request] SocialScrape toolkit (pro…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11733</a> [今天] [feat] Add Sarvam AI as a model provider<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12245</a> [今天] /login provider search keeps the old select…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12101</a> [5d] Make `developer` opt-in for OpenAI-compatib…<span class="led-dim"> 2 评</span></p></div></div></div></section>
+  <section><div class="section-head"><span class="section-no">09</span><h2>方向雷达</h2></div><div class='ledger'><div class="led-cap"><span>01</span>钱去哪了</div><div class="led-row"><div class="led-key">具身数据</div><div class="led-val"><p>美国机器人公司缺训练数据，印度团队低成本供给</p><div class="led-tags"><span>Humyn Labs、Toyota Woven Capital</span></div></div></div><div class="led-row"><div class="led-key">AI 财务</div><div class="led-val"><p>AI agent 接管报销与采购，企业愿意为合规付费</p><div class="led-tags"><span>Payhawk、Pedestal AI</span></div></div></div><div class="led-row"><div class="led-key">AI 安全</div><div class="led-val"><p>产品上线三个月即十亿美元估值，安全预算刚性</p><div class="led-tags"><span>Corma、Science Corp</span></div></div></div><div class="led-cap"><span>02</span>我能做什么开源项目</div><div class="led-row"><div class="led-key led-key-mono"><strong>agent-sandbox</strong></div><div class="led-val"><p>编码 agent 本地执行代码风险高，外部沙箱成刚需</p><div class="led-tags"><span>MVP 一条命令把 agent 生成的脚本放进隔离容器跑，限制网络…</span><span>栈 Go + Docker/gVisor</span></div></div></div><div class="led-row"><div class="led-key led-key-mono"><strong>token-cost-meter</strong></div><div class="led-val"><p>新模型缓存价差数倍，长会话 agent 成本没人算得清</p><div class="led-tags"><span>MVP 解析 Codex/Claude 会话日志，按缓存命中价算出…</span><span>栈 Python + SQLite + Rich</span></div></div></div><div class="led-cap"><span>03</span>一句话</div><p class="led-line">钱涌向具身数据、AI 财务与安全，开发者机会在 agent 沙箱与成本计量。</p></div></section><section><div class="section-head"><span class="section-no">10</span><h2>岗位</h2></div><div class='ledger'><div class="stat-top"><div class="stat-num">203</div><div class="stat-meta"><span>环比 <b>-1.9%</b></span><span>昨日 207</span><span>最大方向 后端/服务端 18.2%</span><span class="stat-dim">同比：数据累计 8/7 天</span></div></div><div class="stat-body"><svg class="donut" viewBox="0 0 150 150" width="150" height="150" role="img" aria-label="岗位方向占比"><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#1c1c1c" stroke-width="18" stroke-dasharray="61.84 277.45" stroke-dashoffset="-0.00" transform="rotate(-90 75.0 75.0)"><title>后端/服务端 37 · 18.2%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#4a463f" stroke-width="18" stroke-dasharray="53.48 285.81" stroke-dashoffset="-61.84" transform="rotate(-90 75.0 75.0)"><title>基础设施/运维 32 · 15.8%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#6e6c66" stroke-width="18" stroke-dasharray="46.80 292.49" stroke-dashoffset="-115.33" transform="rotate(-90 75.0 75.0)"><title>芯片/半导体 28 · 13.8%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#8a8378" stroke-width="18" stroke-dasharray="45.13 294.16" stroke-dashoffset="-162.12" transform="rotate(-90 75.0 75.0)"><title>硬件/嵌入式 27 · 13.3%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#a8a29a" stroke-width="18" stroke-dasharray="38.44 300.85" stroke-dashoffset="-207.25" transform="rotate(-90 75.0 75.0)"><title>前端/全栈 23 · 11.3%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#c9c5bc" stroke-width="18" stroke-dasharray="36.77 302.52" stroke-dashoffset="-245.69" transform="rotate(-90 75.0 75.0)"><title>测试/质量 22 · 10.8%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#e6e3dc" stroke-width="18" stroke-dasharray="56.83 282.46" stroke-dashoffset="-282.46" transform="rotate(-90 75.0 75.0)"><title>其他 34 · 16.7%</title></circle></svg><div class="jobs-table"><div class="jobs-row jobs-head"><div>方向</div><div>条数</div><div>占比</div><div>环比</div></div><div class="jobs-row"><div class="jobs-dir">后端/服务端</div><div class="jobs-n">37</div><div class="jobs-n">18.2%</div><div class="jobs-n">+3%</div></div><div class="jobs-row"><div class="jobs-dir">基础设施/运维</div><div class="jobs-n">32</div><div class="jobs-n">15.8%</div><div class="jobs-n">+3%</div></div><div class="jobs-row"><div class="jobs-dir">芯片/半导体</div><div class="jobs-n">28</div><div class="jobs-n">13.8%</div><div class="jobs-n">+0%</div></div><div class="jobs-row"><div class="jobs-dir">硬件/嵌入式</div><div class="jobs-n">27</div><div class="jobs-n">13.3%</div><div class="jobs-n">-7%</div></div><div class="jobs-row"><div class="jobs-dir">前端/全栈</div><div class="jobs-n">23</div><div class="jobs-n">11.3%</div><div class="jobs-n">-4%</div></div><div class="jobs-row"><div class="jobs-dir">测试/质量</div><div class="jobs-n">22</div><div class="jobs-n">10.8%</div><div class="jobs-n">+16%</div></div><div class="jobs-row"><div class="jobs-dir">算法/AI</div><div class="jobs-n">20</div><div class="jobs-n">9.9%</div><div class="jobs-n">-17%</div></div><div class="jobs-row"><div class="jobs-dir">数据</div><div class="jobs-n">14</div><div class="jobs-n">6.9%</div><div class="jobs-n">-12%</div></div></div></div></div></section><section><div class="section-head"><span class="section-no">11</span><h2>宏观内参</h2></div><div class='ledger'><div class="led-row"><div class="led-key">宏观/流动性</div><div class="led-val"><p>过去 24 小时无新增货币政策素材；素材库内最近两份为 10 月 28 日 FOMC 声明与 9 月 15-1…</p></div></div><div class="led-row"><div class="led-key">政策/合规</div><div class="led-val"><p>Nvidia 临时 CEO 交接期叠加创始人的国会日程——Jensen Huang 已同意出席参议院银行委员会…</p></div></div><div class="led-row"><div class="led-key">巨头/产业</div><div class="led-val"><p>Anthropic IPO 募资逾 810 亿美元，为史上最大 IPO、超过 SpaceX，股票代码 ANT…</p></div></div><div class="led-row"><div class="led-key">信源与可靠度</div><div class="led-val"><p>CNBC 三篇独立报道（IPO 定价、散户认购、早期投资人），高；具体发行价与估值未在摘要中给出。</p></div></div></div></section><section><div class="section-head"><span class="section-no">12</span><h2>Issue 日报</h2></div><div class='ledger'><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11759</a> [今天] [feat] Add Infer as a model provider<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11758</a> [今天] [Feature Request] Cookbook for a custom use…<span class="led-dim"> 0 评</span></p></div></div></div></section>
   <footer class="brief-footer">
     <a href="/history/">History</a>
     <span class="footer-sep">·</span>
