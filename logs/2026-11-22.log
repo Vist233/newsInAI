@@ -1,0 +1,18 @@
+[07:00:14] === 开始 2026-11-22 ===
+[07:00:36] collect rc=0 写入 /mnt/d/Basic/newsInAI/raw/2026-11-22.json
+[07:01:13]   摘要不合规（243 字），重试
+[07:02:03]   摘要失败 HTTPError: HTTP Error 502: Bad Gateway
+[07:02:03] 并发摘要 28 条（4 路）用时 88s
+[07:02:03] HN 10 条，摘要成功 10
+[07:02:03] GH 10 条，摘要成功 10
+[07:02:03] 论文 8 篇，摘要成功 7
+[07:02:12]   自愈补回 [paper] PlayCraft: Designing Engaging Games 
+[07:02:12] 自愈完成：补回 1 条，摘要缺失清零
+[07:04:44] 视频 5 条
+[07:05:20] 精选 4 条
+[07:05:33] insight 今天 307 字
+[07:06:54] insight 转向 第1次失败 HTTPError
+[07:07:08] insight 转向 148 字
+[07:07:23] insight 对你 79 字
+[07:07:23] 内容写入 content/2026-11-22.json，共 37 条
+[07:07:23] build rc=0 items: 37 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
