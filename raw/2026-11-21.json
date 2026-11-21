@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+   "url": "https://alpo.ge/remark.pdf",
+   "points": 2359,
+   "comments": 1598,
+   "published": "2026-11-20T14:16:21+00:00",
+   "hn_id": "50574968"
+  },
+  {
+   "title": "Hurried Announcement: Alessandro Masullo GRH",
+   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+   "points": 1555,
+   "comments": 708,
+   "published": "2026-11-20T18:33:14+00:00",
+   "hn_id": "50579568"
+  },
+  {
+   "title": "Inkling 2 Mini",
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "points": 675,
+   "comments": 107,
+   "published": "2026-11-20T20:12:19+00:00",
+   "hn_id": "50581260"
+  },
+  {
+   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "url": "https://architectlabs.com/blog/frostbite",
+   "points": 626,
+   "comments": 326,
+   "published": "2026-11-20T10:01:41+00:00",
+   "hn_id": "50572503"
+  },
+  {
+   "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+   "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+   "points": 624,
+   "comments": 293,
+   "published": "2026-11-20T09:43:19+00:00",
+   "hn_id": "50572355"
+  },
+  {
+   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+   "url": "https://signal.org/blog/protecting-your-privacy/",
+   "points": 509,
+   "comments": 303,
+   "published": "2026-11-20T09:42:16+00:00",
+   "hn_id": "50572348"
+  },
+  {
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "url": "https://arxiv.org/abs/2611.21885",
+   "points": 340,
+   "comments": 111,
+   "published": "2026-11-20T16:29:06+00:00",
+   "hn_id": "50577265"
+  },
+  {
+   "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+   "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+   "points": 339,
+   "comments": 139,
+   "published": "2026-11-20T17:21:36+00:00",
+   "hn_id": "50578358"
+  },
+  {
+   "title": "We promoted developers into architects without informing them",
+   "url": "https://manidoraisamy.com/developer-to-architect.html",
+   "points": 295,
+   "comments": 183,
+   "published": "2026-11-20T18:17:51+00:00",
+   "hn_id": "50579331"
+  },
+  {
+   "title": "Finite-time blow-up for the Navier–Stokes equations",
+   "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+   "points": 258,
+   "comments": 82,
+   "published": "2026-11-20T15:34:31+00:00",
+   "hn_id": "50576232"
+  },
+  {
+   "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+   "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+   "points": 220,
+   "comments": 111,
+   "published": "2026-11-20T20:22:41+00:00",
+   "hn_id": "50581438"
+  },
+  {
+   "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+   "url": "https://scottaaronson.blog/?p=10344",
+   "points": 218,
+   "comments": 179,
+   "published": "2026-11-20T20:03:07+00:00",
+   "hn_id": "50581084"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "language": "Python",
+   "stars_today": "1,622",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter"
+  },
+  {
+   "repo": "obra/superpowers",
+   "desc": "An agentic skills framework &amp; software development methodology that works.",
+   "language": "Shell",
+   "stars_today": "890",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "language": "Python",
+   "stars_today": "773",
+   "url": "https://github.com/HKUDS/CLI-Anything"
+  },
+  {
+   "repo": "jingyaogong/minimind",
+   "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+   "language": "Python",
+   "stars_today": "847",
+   "url": "https://github.com/jingyaogong/minimind"
+  },
+  {
+   "repo": "cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "language": "TypeScript",
+   "stars_today": "299",
+   "url": "https://github.com/cursor/plugins"
+  },
+  {
+   "repo": "firecrawl/firecrawl",
+   "desc": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+   "language": "TypeScript",
+   "stars_today": "1,241",
+   "url": "https://github.com/firecrawl/firecrawl"
+  },
+  {
+   "repo": "nginx/nginx",
+   "desc": "The official NGINX Open Source repository.",
+   "language": "C",
+   "stars_today": "246",
+   "url": "https://github.com/nginx/nginx"
+  },
+  {
+   "repo": "openvinotoolkit/openvino",
+   "desc": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "language": "C++",
+   "stars_today": "217",
+   "url": "https://github.com/openvinotoolkit/openvino"
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "language": "HTML",
+   "stars_today": "636",
+   "url": "https://github.com/cathrynlavery/diagram-design"
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "language": "Python",
+   "stars_today": "681",
+   "url": "https://github.com/mvanhorn/last30days-skill"
+  }
+ ],
+ "papers": [
+  {
+   "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+   "url": "http://arxiv.org/abs/2611.26627v1",
+   "published": "2026-11-19T18:59:53Z",
+   "abstract": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of these gains an input-independent shift explains, we probe each RL-tuned model with a deliberately simple parameterization: a fixed set of steering vectors added to the block outputs of the frozen base model. On SD3.5-M, these vectors hold 65x fewer parameters than the RL-tuned LoRA (0.29M against 18.8M). We fit them to match the velocity predictions of public RL-tuned checkpoints, with no reward in the objective. Although the vectors are identical for every prompt, token, and sampling seed, they "
+  },
+  {
+   "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+   "url": "http://arxiv.org/abs/2611.26624v1",
+   "published": "2026-11-19T18:59:34Z",
+   "abstract": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play experience to revise them for mastery. Starting from an initial game, PlayCraft alternates between playing and crafting. In the playing stage, a player agent watches the game screen, uses the controls, and pursues the game objective over repeated episodes while retaining memory. After each episode, it reports its progress, outcomes, decisions, and reflections. In the crafting stage, a crafter agent uses these reports to revise the game. It estimates player abilities, predicts performance at different proficiency levels, and compares those predictions with a target learning progr"
+  },
+  {
+   "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+   "url": "http://arxiv.org/abs/2611.26619v1",
+   "published": "2026-11-19T18:58:31Z",
+   "abstract": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory. The Transparent Cache Pool redistributes physical pages among cache components behind fixed virtual addresses, preserving cache layouts and backend interfaces. The Cache Streamer uses computation intervals provided by bounded-state layers to prefetch the next global-attention layer's prefix into GPU slots shared across global-attention layers, reducing GPU residency while overlapping layer-wise transfers with computation. Generated KV remains resident. The Request Scheduler selects resident or streamed"
+  },
+  {
+   "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+   "url": "http://arxiv.org/abs/2611.26617v1",
+   "published": "2026-11-19T18:58:14Z",
+   "abstract": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O$^{2}$LaF, built on a simple principle: one prior, two dynamics. We initialize both models from the same pretrained video DiT and adapt them to their distinct roles: a feed-forward transition encoder with learnable action queries for inverse dynamics, and a causal, action-conditioned video generator for forward dynamics. By controlling information access and optimizing both dynamics end-to-end through a compact bottleneck, O$^{2}$LaF learns transferable actions from unlabeled videos. Across navigation and robotic manipulation, O$^{2}$LaF sets a"
+  },
+  {
+   "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+   "url": "http://arxiv.org/abs/2611.26613v1",
+   "published": "2026-11-19T18:57:25Z",
+   "abstract": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fail. In this paper, we present a systematic action-level analysis of frontier agents on direct robot control across 12 manipulation benchmarks. We introduce AgentRoboCritic, an intent-grounded critique framework in which the policy agent states a local intent alongside each action, and a critic evaluates the action's outcome and failure mode against this intent. Our action-level analysis demonstrates the promising capabilities of frontier agents on direct robot control, including closed-loop recovery from local execution failures, reliable semantic grounding across diverse sc"
+  },
+  {
+   "title": "Bio-PM-Guided Synthetic IMU Generation",
+   "url": "http://arxiv.org/abs/2611.26607v1",
+   "published": "2026-11-19T18:56:25Z",
+   "abstract": "Collecting and labeling inertial measurement unit (IMU) data for human activity recognition (HAR) is expensive, and models trained on one group of subjects often fail to generalize to unseen individuals. Even with balanced data, classifiers struggle to distinguish dynamically similar activity classes and benefit from targeted augmentation. We explore whether synthetic IMU data generated in the representation space of a pretrained biosignal encoder, Bio-PM \\cite{b1}, can serve as a practical augmentation source. Rather than synthesizing raw signals, we leverage Bio-PM's frozen encoder to convert 10-second IMU windows into token embedding sequences and train class-conditional decoders in this space: (1) an autoregressive transformer decoder that predicts tokens sequentially, and (2) a diffusion decoder that learns the token distribution through a denoising objective. We analyze generation "
+  },
+  {
+   "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+   "url": "http://arxiv.org/abs/2611.26603v1",
+   "published": "2026-11-19T18:55:41Z",
+   "abstract": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces depth maps that are metrically accurate, sharp, and temporally consistent all at once, outperforming prior work in all of these dimensions. We release a family of models that define a new Pareto frontier in terms of metric accuracy, sharpness, temporal consistency, and runtime. We release code and weights at https://apple-aiml-research.github.io/ml-depth-pro-2/"
+  },
+  {
+   "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+   "url": "http://arxiv.org/abs/2611.26601v1",
+   "published": "2026-11-19T18:54:19Z",
+   "abstract": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports and disclosures and are rarely comparable. We introduce a framework that rates these capabilities on an autonomy scale modeled on the levels of driving automation, and qualifies each claim by its correctness, its availability and the strength of its evidence. We use this framework to systematize the published evidence on LLM capability in vulnerability research. We find that agents discovered, validated, and patched vulnerabilities in real-world software without human intervention before the restricted frontier models of 2026, and that open-weight models subsequently attained comparable autonomy"
+  },
+  {
+   "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
+   "url": "http://arxiv.org/abs/2611.26598v1",
+   "published": "2026-11-19T18:52:57Z",
+   "abstract": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which features to acquire under a budget. Existing AFA methods train this policy by optimizing a self-constructed utility target rather than distilling an explicit teacher. We construct this teacher explicitly. At training time the label and the unobserved feature values are available, and together they determine the teacher in closed form: an oracle that ranks every candidate by its effect on the downstream predictor's error. OracleImitator distills this ranking into a deployable policy by soft-target imitation. Across multimodal medical diagnosis and the AFABench benchmark, OracleImitator matches or outperforms existing AFA methods across the budget range, recov"
+  },
+  {
+   "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+   "url": "http://arxiv.org/abs/2611.26596v1",
+   "published": "2026-11-19T18:52:18Z",
+   "abstract": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (PGX), a framework that offloads temporal and precision control to two classical training-free components, allowing the VLA to focus on stage-specific skill dynamics. PGX decomposes long-horizon loco-manipulation into three layers: (i) a predicate-based state machine governs task progression, using physical predicates to gate phase transitions, trigger recovery, and coordinate navigation and waiting. Shared predicate semantics connect offline demonstration segmentation, online execution, and stage-wise evaluation; (ii) VLA skills operate within active manipulation phases, with flat or stage-tra"
+  },
+  {
+   "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
+   "url": "http://arxiv.org/abs/2611.26592v1",
+   "published": "2026-11-19T18:47:51Z",
+   "abstract": "Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's inequality. Prior constructions assume sampled rollouts are conditionally independent. We show this assumption fails in practice: reasoning streams are positively correlated through shared reasoning prefixes or across-prompt heterogeneity, changing not merely certificate efficiency but the hypothesis certified. Modeling dependence via a per-unit latent state (the random-effects / intraclass-correlation structure) induces exchangeable, equi-correlated increments with correlation $ρ$. Correlation splits the single null into a realized null about the drawn belief and a population null about average model behavior, which coincide only when $ρ=0$. We show: (i) "
+  },
+  {
+   "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+   "url": "http://arxiv.org/abs/2611.26590v1",
+   "published": "2026-11-19T18:46:50Z",
+   "abstract": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map intermediate states to a shared semantic space defined by the decoder's output vocabulary to compare concept accessibility across modalities. MC-Lens supports internal concept interventions to examine the role of accessed concepts in downstream computation. (i) Accessibility and selective access. Multimodal concept information is readable in intermediate states and selectively accessible as tasks r"
+  }
+ ]
+}

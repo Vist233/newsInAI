@@ -5,309 +5,309 @@
     <link>https://news.zhangyvjing.com/</link>
     <description>Combined feed for Hacker News, GitHub Trending, YouTube, X/Twitter, Bilibili, and paper selections from the Daily Brief.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 23:06:45 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 01:52:38 GMT</lastBuildDate>
     <item>
-      <title>2026-11-20 Daily Brief</title>
-      <link>https://news.zhangyvjing.com/reports/2026-11-20.html</link>
-      <guid>https://news.zhangyvjing.com/reports/2026-11-20.html</guid>
-      <pubDate>Thu, 19 Nov 2026 23:06:45 GMT</pubDate>
-      <description>今天：路透社报道 Anthropic 登陆纳斯达克首日估值达 2 万亿美元。 欧洲委员会向 4 万多名员工推广 Matrix 开源通信协议。 在 Claude Code 侧，Claude-BugHunter 用 Python 提供 82 个技能、15 个斜杠命令和跨 24 个核心漏洞类别的 681 个已披露报告模式。 jingyaogong/minimind 的完整训练流程与代码支持在约两小时内从零训练 64M 参数大语言模型。 统一 API 方面，Firecrawl 覆盖搜索、网页抓取和 550 多个数据源接入。 转向：HKUDS/CLI-Anything 把现有软件能力转成智能体可用的命令行接口，而 Claude-BugHunter 仍以 Claude Code 的 82 个技能和 15 个斜杠命令组织漏洞挖掘能力，工具调用的落点从编码助手内技能包移向软件原生 CLI 入口。 这种转向变多：从助手内技能/命令集合转向通用 CLI 与多源接入。 对你：把 cathrynlavery/diagram-design 的 Pi 图表适配接入 Sakura</description>
+      <title>2026-11-21 Daily Brief</title>
+      <link>https://news.zhangyvjing.com/reports/2026-11-21.html</link>
+      <guid>https://news.zhangyvjing.com/reports/2026-11-21.html</guid>
+      <pubDate>Sat, 21 Nov 2026 01:52:38 GMT</pubDate>
+      <description>今天：elementalsouls/Claude-BugHunter 发布 Python 开源项目，为 Claude Code 提供 82 项技能和 15 个斜杠命令，并围绕 24 类核心漏洞整理 681 条公开披露报告中的模式。jingyaogong/minimind 用 Python 实现从零训练 64M 参数小型大模型的流程，项目说明训练时长 转向：obra/superpowers 把智能体能力收进可复用技能包，今天的 CLI-Anything 改走统一命令行接口让智能体直接调用各类软件，变化的是工具接入的落点。方向是从逐项预置技能转向统一 CLI 入口。 对你：用 curl -s https://clianything.cc 验证 HKUDS/CLI-Anything 的 CLI-Hub 入口后，把它接进 Pi 的工具调用清单跑一轮 Sakura Code 回归，记录工具调用失败率与故障恢复耗时。</description>
     </item>
     <item>
-      <title>Anthropic hits $2T in Nasdaq debut</title>
-      <link>https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/</link>
-      <guid>https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/</guid>
+      <title>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</title>
+      <link>https://alpo.ge/remark.pdf</link>
+      <guid>https://alpo.ge/remark.pdf</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 19 Nov 2026 17:02:40 GMT</pubDate>
-      <description>Hacker News 上围绕路透社报道 Anthropic 登陆纳斯达克首日估值达 2 万亿美元展开热烈讨论，帖子获 767 分和 1426 条评论。社区重点争论这一估值是否反映真实收入与增长前景，AI 商业模式能否支撑高投入，以及 Anthropic 与 OpenAI 的竞争格局。不少评论还关注 AI 安全、监管风险和资本市场泡沫，并讨论此事对行业融资、人才流动和科技就业的潜在影响。</description>
+      <pubDate>Fri, 20 Nov 2026 14:16:21 GMT</pubDate>
+      <description>Hacker News 上一条关于 Levent Alpöge 声称证明广义黎曼猜想的 PDF 引发激烈讨论，帖子获得 2359 分和 1598 条评论。社区成员围绕该证明的数学严谨性、是否经过同行评审、可能存在的漏洞以及重大猜想声明通常需要的验证周期展开争论，也有人讨论若证明成立对密码学和数论的影响，并提醒在专家正式审查前应保持谨慎。</description>
     </item>
     <item>
-      <title>How the European Commission rolled out Matrix to more than 40k staff</title>
-      <link>https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/</link>
-      <guid>https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/</guid>
+      <title>Hurried Announcement: Alessandro Masullo GRH</title>
+      <link>https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/</link>
+      <guid>https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 19 Nov 2026 10:58:29 GMT</pubDate>
-      <description>这则Hacker News讨论围绕欧洲委员会向四万多名员工推广Matrix开源通信协议展开，帖子获634分和305条评论。讨论关注大规模部署中的数据主权与控制、互操作性、迁移成本、运维经验以及与商业通信方案的比较，也涉及开源治理和公共部门采用去中心化通信的实际挑战。</description>
+      <pubDate>Fri, 20 Nov 2026 18:33:14 GMT</pubDate>
+      <description>Hacker News 上这条讨论指向数学博客的一则仓促公告，称 Alessandro Masullo 与广义黎曼猜想 GRH 有关，帖子获得1555分和708条评论。讨论集中在公告是否可信、证明是否经过同行评审、技术论证细节以及数学社区如何回应非正式发布，也涉及对重大数学声明的审慎态度和验证路径。</description>
     </item>
     <item>
-      <title>UK government forced to admit it issued Apple a secret encryption order</title>
-      <link>https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/</link>
-      <guid>https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/</guid>
+      <title>Inkling 2 Mini</title>
+      <link>https://thinkingmachines.ai/news/inkling-2-mini/</link>
+      <guid>https://thinkingmachines.ai/news/inkling-2-mini/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 19 Nov 2026 16:21:03 GMT</pubDate>
-      <description>Hacker News 讨论围绕英国政府被迫承认曾向苹果发出秘密加密命令展开，评论聚焦政府要求削弱端到端加密或提供后门对用户隐私和安全的冲击，以及秘密法律命令缺乏透明度的问题。也有人讨论苹果可能的法律抗争、跨境数据与云服务影响，并担忧此类先例促使更多国家效仿。讨论还涉及技术可行性、执法需求与密码学安全之间的张力。</description>
+      <pubDate>Fri, 20 Nov 2026 20:12:19 GMT</pubDate>
+      <description>Hacker News 上关于 Inkling 2 Mini 的讨论获得 675 分和 107 条评论，热度较高。讨论主要围绕这款新模型的定位、实际能力与运行效率展开，不少评论将其与现有小型模型对比，关注它在推理成本、部署便利性和适用场景上的取舍。也有人讨论发布方的技术路线、评测可信度以及开发者能否方便试用。整体看，社区既对小型模型的新进展保持兴趣，也期待更多独立测试和真实用例来验证其表现。</description>
     </item>
     <item>
-      <title>Pancreatic cancer halted by virus injection in three patients</title>
-      <link>https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/</link>
-      <guid>https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/</guid>
+      <title>Frostbite: A new CPU architecture discovered, designed and verified by AI</title>
+      <link>https://architectlabs.com/blog/frostbite</link>
+      <guid>https://architectlabs.com/blog/frostbite</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 19 Nov 2026 17:25:33 GMT</pubDate>
-      <description>Hacker News上一条关于New Scientist报道的讨论获得387分和53条评论，内容是三名胰腺癌患者接受病毒注射后肿瘤进展被遏制。讨论既关注溶瘤病毒疗法的潜在希望，也强调样本仅三人、缺乏对照、随访有限，不能据此推断普遍疗效。评论者还围绕试验设计、病毒递送、免疫反应、安全性以及媒体标题是否夸大展开争论，呼吁区分早期信号与临床结论。</description>
+      <pubDate>Fri, 20 Nov 2026 10:01:41 GMT</pubDate>
+      <description>Hacker News 上引发热议的讨论介绍 Architect Labs 博客所称由 AI 发现、设计并验证的新 CPU 架构 Frostbite，帖子获得 626 分和 326 条评论。讨论集中在 AI 参与芯片架构设计的可信度、验证流程是否充分、实际性能与可复现性，以及这项工作究竟是真正的新架构还是自动化搜索与优化的包装。社区既关注其潜在价值，也质疑证据、基准和工程可行性。</description>
     </item>
     <item>
-      <title>Ruby2ßhell: Pre-authentication RCE on stock Rails</title>
-      <link>https://verialabs.com/ruby2shell/</link>
-      <guid>https://verialabs.com/ruby2shell/</guid>
+      <title>If you can't explain something in simple terms, you don't understand it (2017)</title>
+      <link>https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</link>
+      <guid>https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 19 Nov 2026 05:09:11 GMT</pubDate>
-      <description>Hacker News上围绕Verial Labs文章《Ruby2ßhell: Pre-authentication RCE on stock Rails》展开技术讨论，该帖获得366分和155条评论。文章声称在默认配置的Rails应用上存在预认证远程代码执行漏洞，社区重点讨论漏洞触发条件、默认配置是否真的受影响、实际利用难度、披露方式以及修复和缓解建议，并对其影响范围和严重性提出不同看法。</description>
+      <pubDate>Fri, 20 Nov 2026 09:43:19 GMT</pubDate>
+      <description>Hacker News 上围绕这篇2017年文章展开讨论，核心观点是若不能用简单语言解释某事，就说明尚未真正理解它。帖子获得624分和293条评论。讨论集中在简化解释与深刻理解是否等价，有人认为简化能检验掌握程度，也有人指出复杂领域难以完全简化，过度简化可能丢失关键细节，教学表达与专业理解并不完全重合。</description>
     </item>
     <item>
-      <title>Everything you need to survive and rebuild society</title>
-      <link>https://lastbook.org/</link>
-      <guid>https://lastbook.org/</guid>
+      <title>Restricting AI agents in mobile operating systems platforms from capturing data</title>
+      <link>https://signal.org/blog/protecting-your-privacy/</link>
+      <guid>https://signal.org/blog/protecting-your-privacy/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 19 Nov 2026 14:47:18 GMT</pubDate>
-      <description>Hacker News 上有一个讨论介绍 lastbook.org，标题为“生存并重建社会所需的一切”，获得330分和179条评论。讨论围绕这份资源是否真的能在灾难后帮助人们维持生存并重建文明展开，评论者关注其内容覆盖面、知识实用性和现实可行性，也争论单一资料能否替代分散的专业知识与社会协作。整体来看，帖子既呈现了对文明韧性的兴趣，也反映了对把复杂重建过程浓缩成一套手册的怀疑。</description>
+      <pubDate>Fri, 20 Nov 2026 09:42:16 GMT</pubDate>
+      <description>Hacker News 上围绕 Signal 博文展开热议，主题是移动操作系统平台如何限制 AI 代理捕获数据。讨论关注屏幕读取、录音、通知访问等敏感权限应如何隔离，用户知情同意和平台责任如何落实，以及隐私保护与无障碍、自动化功能之间的冲突。该帖获得 509 分和 303 条评论，反映出开发者对 AI 代理权限边界和移动端隐私架构的高度关注。</description>
     </item>
     <item>
-      <title>Someone reported java4shell bug in September 2026</title>
-      <link>https://github.com/openjdk/jdk/pull/32781</link>
-      <guid>https://github.com/openjdk/jdk/pull/32781</guid>
+      <title>Language Models Can Rewrite Their Own Weights</title>
+      <link>https://arxiv.org/abs/2611.21885</link>
+      <guid>https://arxiv.org/abs/2611.21885</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 19 Nov 2026 11:47:03 GMT</pubDate>
-      <description>Hacker News 上出现一则关于“java4shell”漏洞的报告讨论，称该问题在2026年9月被提交，相关链接指向 OpenJDK JDK 的 PR 32781。该帖获得325分和86条评论，社区围绕漏洞真实性、影响范围、修复方案及披露流程展开争论。</description>
+      <pubDate>Fri, 20 Nov 2026 16:29:06 GMT</pubDate>
+      <description>Hacker News上围绕论文《语言模型能重写自身权重》展开热议，帖子获得340分和111条评论。讨论集中在模型通过生成更新指令直接修改参数是否可行，以及它与传统微调的区别。评论者关注自我改写能否带来持续学习，还是只是针对特定任务的技巧；也有人担心安全性和可解释性，认为需要严格评估和沙箱限制。还有人质疑实验规模和泛化能力，强调应区分推理时适应与真正权重更新。整体氛围既兴奋又谨慎。</description>
     </item>
     <item>
-      <title>Claude solves two open problems in the physics of black holes</title>
-      <link>https://www.anthropic.com/research/claude-black-hole-physics</link>
-      <guid>https://www.anthropic.com/research/claude-black-hole-physics</guid>
+      <title>Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis</title>
+      <link>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</link>
+      <guid>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 19 Nov 2026 17:30:44 GMT</pubDate>
-      <description>Hacker News 上围绕 Anthropic 研究文章展开讨论，该文章称 Claude 解决了黑洞物理中的两个开放问题。帖子获得 322 分和 144 条评论，社区关注点包括 AI 在理论物理中的实际贡献、结果如何验证、研究是否可复现，以及这类宣称对科研工作流和同行评审意味着什么。讨论既有人对 AI 辅助科学发现表示兴趣，也有人强调需区分模型输出与经严格检验的物理论证。</description>
+      <pubDate>Fri, 20 Nov 2026 17:21:36 GMT</pubDate>
+      <description>Hacker News上这条讨论聚焦陶哲轩博客文章，该文探讨无外力欧拉奇点、无外力纳维-斯托克斯奇点与广义黎曼假设之间的潜在联系，评论者围绕证明思路、流体方程正则性、跨领域类比的可靠性及其数学意义展开争论，帖子获得339分和139条评论，反映出读者对难题进展和陶哲轩解释的高度关注。</description>
     </item>
     <item>
-      <title>What's New in PHP 8.6</title>
-      <link>https://www.php.net/releases/8.6/en.php</link>
-      <guid>https://www.php.net/releases/8.6/en.php</guid>
+      <title>We promoted developers into architects without informing them</title>
+      <link>https://manidoraisamy.com/developer-to-architect.html</link>
+      <guid>https://manidoraisamy.com/developer-to-architect.html</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 19 Nov 2026 09:27:15 GMT</pubDate>
-      <description>Hacker News 上出现关于 PHP 8.6 新版本的讨论帖，链接指向 PHP 官方发布说明页面，帖子获得 261 分和 125 条评论。讨论围绕 PHP 8.6 的新特性、语言演进方向、升级兼容性与实际使用体验展开，也反映出开发者对 PHP 生态持续变化的关注。社区评论既有对新功能的期待，也有对迁移成本和版本节奏的讨论。</description>
+      <pubDate>Fri, 20 Nov 2026 18:17:51 GMT</pubDate>
+      <description>这篇Hacker News讨论围绕公司把开发者提升为架构师却未明确告知其角色变化展开。作者认为这种无声晋升容易让当事人仍按原有方式工作，同时承担更高协调和决策责任，却缺少相应授权、培训与反馈。评论区结合组织管理、职业发展和架构职责边界展开争论，有人强调应正式沟通新角色，有人指出架构师需要实践支持而非头衔。该帖获得295分和183条评论。</description>
     </item>
     <item>
-      <title>Distributed, high-performance blob storage on SQLite</title>
-      <link>https://zerodha.tech/blog/high-performance-distributed-blob-storage/</link>
-      <guid>https://zerodha.tech/blog/high-performance-distributed-blob-storage/</guid>
+      <title>Finite-time blow-up for the Navier–Stokes equations</title>
+      <link>https://github.com/tristanbuckmaster/navier-stokes/</link>
+      <guid>https://github.com/tristanbuckmaster/navier-stokes/</guid>
       <category>hacker_news</category>
-      <pubDate>Thu, 19 Nov 2026 08:39:45 GMT</pubDate>
-      <description>Hacker News 上正在讨论 Zerodha 技术博客介绍如何基于 SQLite 构建分布式高性能 blob 存储的文章，帖子获得 244 分和 66 条评论。讨论主要围绕这一架构的取舍展开，包括 SQLite 在分布式环境下的并发、一致性和运维复杂度，与对象存储等方案的对比，以及它在中小规模场景中的实用性和性能表现。</description>
+      <pubDate>Fri, 20 Nov 2026 15:34:31 GMT</pubDate>
+      <description>Hacker News 上关于纳维斯托克斯方程有限时间爆破的讨论获得 258 分和 82 条评论，热度较高。帖子指向一个 GitHub 仓库，发布者声称给出该方程在有限时间内发生爆破的结果，并公开相关代码与材料。评论者主要关注证明思路是否严密、数值实验能否支持结论、代码是否可复现，以及这一结果与千禧年难题和流体力学直觉之间的关系。也有人讨论预印本审阅、计算误差和形式化验证等问题，整体呈现对数学论证与工程复现的双重审视。</description>
     </item>
     <item>
       <title>elementalsouls/Claude-BugHunter</title>
       <link>https://github.com/elementalsouls/Claude-BugHunter</link>
       <guid>https://github.com/elementalsouls/Claude-BugHunter</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Claude-BugHunter 是一个用 Python 编写的开源项目，为 Claude Code 提供用于漏洞挖掘和外部红队工作的技能包。它包含 82 个技能、15 个斜杠命令，以及跨 24 个核心漏洞类别整理的 681 个已披露报告模式，并附带企业身份与基础设施攻击矩阵，帮助安全研究人员在授权测试中更系统地复用真实案例经验、组织攻击思路并提升漏洞发现的效率与覆盖面。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Claude-BugHunter 是一个基于 Python 的开源项目，为 Claude Code 提供面向漏洞挖掘与外部红队作业的技能包。它内含 82 项技能和 15 个斜杠命令，并围绕 24 类核心漏洞整理了 681 条公开披露报告中的模式，此外还附带企业身份与基础设施攻击矩阵，便于安全人员在实战中快速调用结构化经验。项目今日新增约 1622 颗星，关注度较高，适合从事漏洞研究、渗透测试与红队评估的人员参考使用。</description>
     </item>
     <item>
       <title>obra/superpowers</title>
       <link>https://github.com/obra/superpowers</link>
       <guid>https://github.com/obra/superpowers</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>obra/superpowers 是一个在 GitHub 上开源的项目，主要使用 Shell 语言开发，定位为可实际运行的智能体技能框架与软件开发方法论。项目简介强调该框架与方法论能够真正落地生效，帮助开发者组织智能体能力并规范软件开发流程。今日该项目新增 2029 颗星，显示出社区对其理念与实用性的关注。对于希望探索智能体技能体系与开发方法论的开发者而言，该项目提供了一个值得参考的开源实现。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>obra/superpowers 是一个以 Shell 为主要实现语言的开源项目，定位为可落地的智能体技能框架与软件开发方法论。它试图把智能体能力组织成可复用的技能，并为软件开发流程提供系统化方法，帮助开发者更高效地构建和协作。项目今日新增 890 颗星，说明其近期受到较多关注，适合对智能体工作流和工程实践感兴趣的开发者了解与尝试。</description>
     </item>
     <item>
       <title>HKUDS/CLI-Anything</title>
       <link>https://github.com/HKUDS/CLI-Anything</link>
       <guid>https://github.com/HKUDS/CLI-Anything</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>HKUDS/CLI-Anything 是一个用 Python 开发的开源项目，目标是让所有软件都能原生支持智能体调用。项目以 CLI 为核心，帮助开发者把现有软件能力转化为智能体可用的命令行接口，从而降低集成门槛并扩展自动化场景。项目同时提供 CLI-Hub 入口 clianything.cc，方便用户了解和接入相关能力。该项目今日新增 899 星，说明其方向受到社区关注。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>CLI-Anything 是 GitHub 上 HKUDS 团队开源的项目，使用 Python 编写，今日新增 773 星。项目旨在让所有软件成为智能体原生应用，通过统一命令行接口帮助 AI 智能体调用各类软件，降低集成门槛并扩展自动化工作流。项目提供 CLI-Hub 入口 https://clianything.cc/ 供了解和使用。</description>
     </item>
     <item>
       <title>jingyaogong/minimind</title>
       <link>https://github.com/jingyaogong/minimind</link>
       <guid>https://github.com/jingyaogong/minimind</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>jingyaogong/minimind 是一个使用 Python 编写的开源项目，目标是帮助开发者在大约两小时内从零训练出属于自己的 64M 参数大语言模型。项目提供完整训练流程与代码，降低大模型训练门槛，适合学习、实验和快速验证想法。该项目今日新增 301 星，受到较多关注，体现了社区对轻量级大模型训练实践的浓厚兴趣。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>jingyaogong/minimind 是一个用 Python 实现的开源大模型训练项目，主打在两小时内从零训练出 64M 参数的小型大模型。项目今日新增 847 星，关注度较高。它适合希望理解语言模型训练流程的开发者学习与实践，可帮助用户快速上手数据准备、模型训练和结果验证等环节。</description>
     </item>
     <item>
       <title>cursor/plugins</title>
       <link>https://github.com/cursor/plugins</link>
       <guid>https://github.com/cursor/plugins</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>cursor/plugins 是 GitHub 上的一个开源项目，主要使用 TypeScript 编写，提供 Cursor 插件规范以及官方插件。该项目今日新增 383 星，受到较多开发者关注。它有助于开发者了解 Cursor 插件的开发方式和官方实现，适合希望参与插件生态或基于规范进行扩展的用户参考。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>cursor/plugins 是一个托管在 GitHub 上的开源项目，主要提供 Cursor 插件规范以及官方插件实现，项目使用 TypeScript 编写。该仓库可帮助开发者了解 Cursor 插件的接口约定、开发方式和官方示例，便于围绕 Cursor 生态构建和扩展插件功能。项目今日新增 299 星，说明其近期受到较多开发者关注，适合需要参与 Cursor 插件开发或了解官方插件实现的人员参考。</description>
     </item>
     <item>
       <title>firecrawl/firecrawl</title>
       <link>https://github.com/firecrawl/firecrawl</link>
       <guid>https://github.com/firecrawl/firecrawl</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Firecrawl 是一个用 TypeScript 编写的开源项目，定位为让智能体更聪明的知识基础设施。它通过统一 API 提供搜索、网页抓取以及 550 多个数据源接入能力，帮助开发者更方便地为 AI 智能体获取和整合外部知识。该项目今日新增 795 星，受到较多关注，适合需要构建检索、数据采集与多源信息接入流程的智能体应用。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>firecrawl/firecrawl 是一个用 TypeScript 开发的开源项目，定位为让智能体更聪明的知识基础设施。它通过统一 API 提供搜索、抓取和访问 550 多个数据提供方的能力，帮助开发者更便捷地为智能体接入外部知识来源。项目今日新增 1241 星，受到较多关注，适合需要构建智能体知识获取与网页数据访问流程的开发者了解和使用。</description>
     </item>
     <item>
       <title>nginx/nginx</title>
       <link>https://github.com/nginx/nginx</link>
       <guid>https://github.com/nginx/nginx</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>nginx/nginx 是 NGINX 官方开源代码仓库，主要使用 C 语言开发，包含高性能 Web 服务器、反向代理、负载均衡和 HTTP 缓存等核心功能源码。该项目今日新增 66 星，受到开发者持续关注，适合用于学习研究、二次开发及生产环境部署参考。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>nginx/nginx 是 NGINX 官方开源代码仓库，项目主要使用 C 语言开发，今日新增 246 星。它提供高性能 Web 服务器、反向代理、负载均衡和邮件代理等核心能力，代码开放透明，便于开发者学习、部署和参与贡献，是了解与使用 NGINX 的重要入口。</description>
     </item>
     <item>
       <title>openvinotoolkit/openvino</title>
       <link>https://github.com/openvinotoolkit/openvino</link>
       <guid>https://github.com/openvinotoolkit/openvino</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>OpenVINO 是 GitHub 上 openvinotoolkit 组织维护的开源 AI 推理优化与部署工具包，主要使用 C++ 开发。它面向多种硬件平台提供模型转换、性能优化和推理加速能力，帮助开发者更高效地部署计算机视觉、生成式 AI 等应用。项目今日新增 246 星，受到较多关注，适合需要跨平台、高性能 AI 推理落地的开发者使用。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>openvinotoolkit/openvino 是一个使用 C++ 开发的开源工具包，主要用于优化和部署人工智能推理。该项目在 GitHub 上今日新增 217 星，受到较多关注。OpenVINO 面向 AI 推理场景，可帮助开发者对模型进行优化并在不同硬件平台上完成部署，从而提升推理效率并简化应用落地流程。</description>
     </item>
     <item>
       <title>cathrynlavery/diagram-design</title>
       <link>https://github.com/cathrynlavery/diagram-design</link>
       <guid>https://github.com/cathrynlavery/diagram-design</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>cathrynlavery 的 diagram-design 是一个面向 AI 编程助手场景的开源图表设计项目，今日新增约 402 星。它为主流编码工具如 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 提供编辑风格的图表方案，共包含 45 种图表类型。所有输出均为自包含的 HTML 加 SVG，不依赖外部资源，也不使用阴影效果，力求摆脱常见的 Mermaid 图表粗糙感，让生成的图示更整洁、更专业。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>cathrynlavery/diagram-design 是一个面向 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑风格图表设计开源项目，采用 HTML 语言实现，今日新增 636 星。项目提供 45 种图表类型，使用自包含的 HTML 与 SVG 构建，不依赖阴影效果，并强调避免粗糙的 Mermaid 生成效果，适合需要清晰、精致且可直接使用的图表设计场景。</description>
     </item>
     <item>
       <title>mvanhorn/last30days-skill</title>
       <link>https://github.com/mvanhorn/last30days-skill</link>
       <guid>https://github.com/mvanhorn/last30days-skill</guid>
       <category>github_trending</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>这是一个用 Python 编写的 AI agent 技能，能够针对任意话题自动在 Reddit、X、YouTube、Hacker News、Polymarket 以及普通网页等多个平台搜集信息，再把这些来源的内容综合成一份有据可依的摘要。项目今日新增约 952 颗星，适合需要快速了解某个话题近期讨论与舆情动向的用户。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该项目是一个用Python编写的开源AI智能体技能，可围绕任意主题检索Reddit、X、YouTube、Hacker News、Polymarket以及网页上的相关信息，并将多来源内容综合成有事实依据的摘要。它今日新增681个Star，说明其跨平台调研与信息整合能力受到关注，适合需要快速了解话题近期动态的用户。</description>
     </item>
     <item>
-      <title>Jailbreak Detection on Large Language Models via Contrastive Prototype Structures</title>
-      <link>http://arxiv.org/abs/2611.24936v1</link>
-      <guid>http://arxiv.org/abs/2611.24936v1</guid>
+      <title>RL Post-Training in Diffusion Transformers Is Activation Steering</title>
+      <link>http://arxiv.org/abs/2611.26627v1</link>
+      <guid>http://arxiv.org/abs/2611.26627v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文研究对比学习表示能否在无需额外训练下游分类器的情况下支持大语言模型越狱检测，并提出基于原型推断的越狱检测方法JDPI。该方法利用二元安全标签构建有害与良性原型，并根据样本到原型的相对距离进行预测。JDPI仅使用二元安全标签完成编码器适配、原型构建和验证，由于避免为下游分类器单独划分训练集，其所需标注样本少于分类器基线。在覆盖不同输入格式的四个基准上，对比微调使JDPI检测准确率提升9.1至18.0个百分点，并在相同编码器下取得略高表现。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该论文研究扩散Transformer的强化学习后训练为何能提升视觉质量、文本渲染和组合准确度。作者提出一种输入无关的简化参数化方法，在冻结基模型的模块输出上加入固定 steering 向量，并用其拟合公开强化学习检查点的速度预测，目标中不含奖励。在 SD3.5-M 上，这些向量仅 0.29M 参数，约为强化学习调优 LoRA 18.8M 参数量的六十五分之一。尽管这些向量对所有提示、词元和采样种子都相同，论文据此考察强化学习后训练收益在多大程度上可由激活引导解释。</description>
     </item>
     <item>
-      <title>Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems</title>
-      <link>http://arxiv.org/abs/2611.24932v1</link>
-      <guid>http://arxiv.org/abs/2611.24932v1</guid>
+      <title>PlayCraft: Designing Engaging Games from Agent Play Experience</title>
+      <link>http://arxiv.org/abs/2611.26624v1</link>
+      <guid>http://arxiv.org/abs/2611.26624v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>论文探讨人机共同决策时人类评审者何时仍有价值，提出以元认知校准为核心的评审者价值特质理论。该理论主张，人类价值取决于其行为信心与实际判断正确性之间的对齐程度，而非活跃度、速度、同意率或资历。校准会在行为遥测中留下痕迹，但这些痕迹单独并不足以诊断，因为校准专家的快速少修订特征在结果验证前可能与自信新手难以区分。人类校准与模型自知属于同一构念，因此联合系统应在每个项目上优先采纳校准更好的一方，并关注个体差异。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>该论文提出PlayCraft，一个自动框架，利用基于视觉的智能体试玩游戏，并依据其详细游玩经验修订游戏，以提升游戏的精通感与参与度。PlayCraft从初始游戏出发，交替进行游玩与制作两个阶段。游玩阶段中，玩家智能体观察游戏画面、使用控制并反复追求游戏目标，同时保留记忆，每回合结束后报告进展、结果、决策与反思。制作阶段中，制作者智能体依据这些报告修订游戏，估计玩家能力，预测不同熟练水平下的表现，并将预测与目标学习进程进行比较，从而自动设计更具参与感的游戏。</description>
     </item>
     <item>
-      <title>Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem</title>
-      <link>http://arxiv.org/abs/2611.24927v1</link>
-      <guid>http://arxiv.org/abs/2611.24927v1</guid>
+      <title>TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming</title>
+      <link>http://arxiv.org/abs/2611.26619v1</link>
+      <guid>http://arxiv.org/abs/2611.26619v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文聚焦构建和部署人工智能系统的组织网络，指出人工智能栈各层虽较易理解，但跨层参与者与组件之间的关系仍缺乏系统记录。作者关注供应链集中化、权力集中、瓶颈、级联故障、问责碎片化和风险等问题，并介绍其绘制人工智能供应链的流程。该流程产出主要贡献：一个多层级、大规模的数据集，记录人工智能生态中的参与者和关系，并标注日期、描述、类型、标签等信息。这项工作为系统审视人工智能供应链的组织依赖、脆弱性和市场集中迈出一步。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>混合架构已成为开源权重语言模型的主流，其全局注意力层与有界状态层形成异构缓存，需求随上下文长度和并发度变化。TideCache是面向CPU与GPU超级芯片的服务系统，包含三个组件，用于在缓存间分配GPU内存并管理其在GPU与主机内存间的驻留。透明缓存池在固定虚拟地址后重分配物理页，保持缓存布局与后端接口不变。缓存流器利用有界状态层提供的计算间隔，将下一全局注意力层前缀预取到全局注意力层共享的GPU槽位，在降低GPU驻留的同时使分层传输与计算重叠，生成的KV保持驻留。请求调度器选择驻留或流式策略。</description>
     </item>
     <item>
-      <title>Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses</title>
-      <link>http://arxiv.org/abs/2611.24924v1</link>
-      <guid>http://arxiv.org/abs/2611.24924v1</guid>
+      <title>One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning</title>
+      <link>http://arxiv.org/abs/2611.26617v1</link>
+      <guid>http://arxiv.org/abs/2611.26617v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>现有智能体工具链演化方法常忽视隐式需求与交互需求，且依赖单一演化智能体修改工具链并以基准分数筛选变更，容易产生狭窄补丁和面向特定基准的局部最优。为此，论文提出以需求为中心的智能体工具链工程测试版AHE-Beta，将真实工程实践引入工具链演化。该循环包括三步：由模拟用户在多轮使用中提出需求问题并驱动评估；由团队协作将需求实现为可泛化修改而非任务特定补丁；再依据需求驱动选择并合并候选变更。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>视频能揭示世界变化却缺少动作。O2LaF以“一先验两动力学”用预训练视频DiT同时提供逆、正动力学先验：逆动力学为带可学习动作查询的前馈转移编码器，正动力学为因果动作条件视频生成器；经信息访问控制与紧凑瓶颈端到端优化，从无标签视频学习可迁移动作，在导航和机器人操作中表现突出。</description>
     </item>
     <item>
-      <title>Decomposing SGD Dynamics in Neural Networks: Teacher-Induced Spikes and Variance Inflation</title>
-      <link>http://arxiv.org/abs/2611.24908v1</link>
-      <guid>http://arxiv.org/abs/2611.24908v1</guid>
+      <title>AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control</title>
+      <link>http://arxiv.org/abs/2611.26613v1</link>
+      <guid>http://arxiv.org/abs/2611.26613v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文研究两层神经网络在多指标教师模型上用随机梯度下降训练时，第一层中与教师子空间正交的参数如何影响泛化。作者将第一层权重分解为与教师对齐的信号分量和正交补分量，并在比例极限下分析其与第二层的联合随机梯度下降动力学。结果表明，正交补上的更新初始呈各向同性，但训练动态会在补Gram矩阵中诱导出依赖教师的谱尖峰。这种涌现的各向异性提供了表示方差被放大并导致泛化退化的具体机制。为隔离该效应，作者引入可解析处理的Decomposed Dynamics代理模型，其渐近测试误差动态与随机梯度下降一致。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文系统分析前沿多模态语言智能体直接通过低层数值动作控制机器人的能力。现有基准仅报告回合级成功率，难以揭示智能体如何成功以及何处失败。作者在12个操作基准上开展动作级分析，并提出AgentRoboCritic意图接地评判框架，让策略智能体在执行每个动作时陈述局部意图，由评判器依据该意图评估动作结果与失败模式。分析表明，此类智能体在直接机器人控制上具有前景，包括局部执行失败的闭环恢复和跨多样场景的可靠语义接地。</description>
     </item>
     <item>
-      <title>Equivariant Modeling with Polynomial Features via Minimal Homogeneous Generators</title>
-      <link>http://arxiv.org/abs/2611.24896v1</link>
-      <guid>http://arxiv.org/abs/2611.24896v1</guid>
+      <title>Bio-PM-Guided Synthetic IMU Generation</title>
+      <link>http://arxiv.org/abs/2611.26607v1</link>
+      <guid>http://arxiv.org/abs/2611.26607v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文提出一个通用框架，用于建模和学习有限维半单实群表示之间的等变函数，并统一了多个应用领域中发展出的构造。模型由等变多项式特征的线性组合构成，其系数为不变多项式特征的任意可学习函数。特征选取不变代数及协变模在不变代数上的最小齐次生成元，并限制到指定次数。作者还提供Python软件包，可自动计算这些特征并将所得模型拟合到训练数据。特征计算算法需要输入和输出表示的显式同型分解以及不可约表示张量积的显式Clebsch-Gordan分解，相较于替代方法实现了加速。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>针对人体活动识别中惯性测量单元数据采集与标注成本高、跨受试者泛化困难以及动态相似活动难以区分的问题，本文探索利用预训练生物信号编码器Bio-PM的表示空间生成合成惯性测量单元数据，作为实用的数据增强来源。方法不直接合成原始信号，而是借助冻结的Bio-PM编码器将10秒惯性测量单元窗口转换为令牌嵌入序列，并在该空间中训练类条件解码器，包括按顺序预测令牌的自回归Transformer解码器和通过去噪目标学习令牌分布的扩散解码器，进而分析合成数据的生成效果。</description>
     </item>
     <item>
-      <title>On Evaluating User Simulators for Interactive Agents</title>
-      <link>http://arxiv.org/abs/2611.24892v1</link>
-      <guid>http://arxiv.org/abs/2611.24892v1</guid>
+      <title>Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth</title>
+      <link>http://arxiv.org/abs/2611.26603v1</link>
+      <guid>http://arxiv.org/abs/2611.26603v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>用户模拟器为评估交互式智能体提供了可扩展途径，但其质量如何评估仍缺乏充分研究，尤其现有用户模拟器评估框架能否可靠识别模拟用户行为中的实质性失败尚不明确。为此，该论文对评估指标本身进行元评估，通过有意扰动模拟重放来引入改变目标、遗漏约束、过早停止以及接受破损工作等失败，再检验指标是否惩罚这些失败。结果表明，三项先前研究中的评估方法在十种扰动中仅能检测出五到六种，其组合得分甚至更偏好被指示接受破损工作的人群，而非未修改的对照组。这说明当前模拟器评估存在明显局限。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文提出Depth Pro 2，一种面向图像与视频全分辨率密集度量深度估计的方法。作者分析现有单目深度方法后发现，它们通常难以兼顾时间一致性与边界锐度，多帧方法偏向一致性，单帧方法偏向锐度。为突破这一权衡，Depth Pro 2训练单一可扩展网络同时处理图像和视频，并在原生分辨率下预测深度图，使结果同时具备度量准确、边界锐利和时间一致的特点，在这三个方面均优于先前工作。研究还发布了一组模型，在度量精度、锐度、时间一致性和运行时间上定义了新的帕累托前沿，并公开代码与权重。</description>
     </item>
     <item>
-      <title>Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity</title>
-      <link>http://arxiv.org/abs/2611.24891v1</link>
-      <guid>http://arxiv.org/abs/2611.24891v1</guid>
+      <title>SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research</title>
+      <link>http://arxiv.org/abs/2611.26601v1</link>
+      <guid>http://arxiv.org/abs/2611.26601v1</guid>
       <category>paper</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>本文提出Cap-and-Track，用于在服务容量变化时优化大语言模型推理请求调度。固定调度速率会因集群扩缩和请求大小变化而过时，且生成输出长度未知、共享资源池可能损失容量。该方法将异步推理分布于外部服务容量与内部GPU之间，利用后端拒绝信号反映当前准入上限，并通过持久优先队列暂存超额请求以便重试。Cap在饱和资源处执行快速失败准入检查，Track调度器仅依据拒绝向上探测并退避，无需预测输出长度或重新调整集群级速率。Meta流量整形器已在帖子与直播视频理解中采用每副本Cap加Track，并在同流量生产A/B测试中运行。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>本文系统梳理大语言模型在软件漏洞研究中的能力演化。针对相关主张分散于论文、厂商报告和披露中且难以比较的问题，作者提出一个参照驾驶自动化等级构建的自主性评分框架，并从正确性、可用性和证据强度三个方面限定每项主张。基于该框架，论文系统化已有公开证据，发现智能体在2026年受限前沿模型出现之前已能在真实软件中无人工干预地发现、验证和修补漏洞，随后开放权重模型也达到可比的自主水平。该工作为比较和评估LLM漏洞研究能力提供了统一尺度。</description>
+    </item>
+    <item>
+      <title>How to build an agent that builds the culture — Zach Bruggeman, Ramp</title>
+      <link>https://www.youtube.com/watch?v=MDI81OaZAD4</link>
+      <guid>https://www.youtube.com/watch?v=MDI81OaZAD4</guid>
+      <category>youtube</category>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Ramp的Zach Bruggeman把公司文化拆成agent的提示与评审规则，这套方法让文化从口号变成每次任务执行的可检查约束。</description>
+    </item>
+    <item>
+      <title>Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp</title>
+      <link>https://www.youtube.com/watch?v=0LeT996Hz3E</link>
+      <guid>https://www.youtube.com/watch?v=0LeT996Hz3E</guid>
+      <category>youtube</category>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Zach Lloyd 在 Warp 把编码代理当生产系统来设计，讲清如何用可观测、测试和回滚约束代理行为。</description>
     </item>
     <item>
       <title>The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent</title>
       <link>https://www.youtube.com/watch?v=xRJMiaUoD_8</link>
       <guid>https://www.youtube.com/watch?v=xRJMiaUoD_8</guid>
       <category>youtube</category>
-      <pubDate>Wed, 18 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Thariq Shihipar 把“苦涩教训”讲成算力与算法取舍的判断框架，可校准技术路线。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Thariq 用“苦涩教训”说明：与其堆手工规则，不如押注可扩展的通用方法，让产品体验反而更甜。</description>
     </item>
     <item>
       <title>What it takes to set intelligence free — Fabian Hedin, CTO, Lovable</title>
       <link>https://www.youtube.com/watch?v=pZWPq_ZAmM4</link>
       <guid>https://www.youtube.com/watch?v=pZWPq_ZAmM4</guid>
       <category>youtube</category>
-      <pubDate>Wed, 18 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Lovable CTO 用工程取舍说明，释放智能要把产品、组织和模型能力一起重做。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Lovable 的 CTO Fabian Hedin 用一线产品工程负责人的视角讲清“释放智能”要满足哪些条件，而不是只谈模型能力。</description>
     </item>
     <item>
       <title>Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?</title>
       <link>https://www.youtube.com/watch?v=lwfewYL7X0o</link>
       <guid>https://www.youtube.com/watch?v=lwfewYL7X0o</guid>
       <category>youtube</category>
-      <pubDate>Wed, 18 Nov 2026 16:00:00 GMT</pubDate>
-      <description>看罗宾·汉森用“减速会拉长危险窗口、加速反而更安全”的结论与雅各布·考克森就AI暂停政策正面交锋。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>视频里Robin Hanson用竞争逻辑反对放缓AI：先停者会把优势让给更不谨慎的对手，这直接点出辩论分歧。</description>
     </item>
     <item>
-      <title>Ramp’s Bet on the 100x Employee</title>
-      <link>https://www.youtube.com/watch?v=0Hvs6-XODgU</link>
-      <guid>https://www.youtube.com/watch?v=0Hvs6-XODgU</guid>
-      <category>youtube</category>
-      <pubDate>Tue, 17 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Ramp 在视频里用“100x 员工”的招聘与授权方法，说明一个人如何借 AI 承担原先十人团队的产出。</description>
-    </item>
-    <item>
-      <title>Why we built Anthropic</title>
-      <link>https://www.youtube.com/watch?v=sof3vW4mHTs</link>
-      <guid>https://www.youtube.com/watch?v=sof3vW4mHTs</guid>
-      <category>youtube</category>
-      <pubDate>Wed, 18 Nov 2026 16:00:00 GMT</pubDate>
-      <description>Dario Amodei 在片中讲清 Anthropic 因何把 AI 安全设为首要目标，并复盘团队从 OpenAI 分流的决策节点。</description>
-    </item>
-    <item>
-      <title>Anthropic hits $2T in Nasdaq debut</title>
-      <link>https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/</link>
-      <guid>https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/</guid>
+      <title>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</title>
+      <link>https://alpo.ge/remark.pdf</link>
+      <guid>https://alpo.ge/remark.pdf</guid>
       <category>news</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>767分、1426条讨论集中辩论首日2万亿美元估值能否由真实收入与增长支撑，以及AI高投入模式与OpenAI竞争是否成立。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>这份PDF的2359票、1598条讨论聚焦证明严谨性、同行评审与漏洞，并涉及若成立对密码学和数论的影响。</description>
     </item>
     <item>
-      <title>How the European Commission rolled out Matrix to more than 40k staff</title>
-      <link>https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/</link>
-      <guid>https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/</guid>
+      <title>Hurried Announcement: Alessandro Masullo GRH</title>
+      <link>https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/</link>
+      <guid>https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/</guid>
       <category>news</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>讨论呈现公共部门大规模迁移到开源通信协议时，在数据主权、互操作性、迁移成本与运维上的实际经验与挑战。</description>
-    </item>
-    <item>
-      <title>obra/superpowers</title>
-      <link>https://github.com/obra/superpowers</link>
-      <guid>https://github.com/obra/superpowers</guid>
-      <category>news</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>该项目给出可实际运行的智能体技能框架与开发方法论，强调落地生效，能帮助组织智能体能力并规范开发流程。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>围绕Masullo的GRH公告，讨论聚焦可信度、同行评审、技术细节及数学社区对非正式发布的审慎验证。</description>
     </item>
     <item>
       <title>elementalsouls/Claude-BugHunter</title>
       <link>https://github.com/elementalsouls/Claude-BugHunter</link>
       <guid>https://github.com/elementalsouls/Claude-BugHunter</guid>
       <category>news</category>
-      <pubDate>Thu, 19 Nov 2026 16:00:00 GMT</pubDate>
-      <description>它含82个技能、15个斜杠命令和覆盖24类漏洞的681个报告模式，便于授权测试复用真实案例。</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>它把82项技能、15个斜杠命令、24类漏洞的681条公开报告模式和企业身份与基础设施攻击矩阵接入Claude Code，方便红队调用结构化经验。</description>
+    </item>
+    <item>
+      <title>firecrawl/firecrawl</title>
+      <link>https://github.com/firecrawl/firecrawl</link>
+      <guid>https://github.com/firecrawl/firecrawl</guid>
+      <category>news</category>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 GMT</pubDate>
+      <description>它通过统一API提供搜索、抓取和访问550多个数据提供方的能力，帮开发者为智能体接入外部知识，今日新增1241个星标。</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Brief · 2026-11-21</title>
+  <link rel="icon" href="/logo.png">
+  <style>
+    :root {
+      --paper:#f1f0ec;
+      --field:#e6e3dc;
+      --ink:#111111;
+      --muted:#6e6c66;
+      --line:#c9c5bc;
+      --line-strong:#1c1c1c;
+      --signal:#d8ff3e;
+      --signal-soft:rgba(216,255,62,.34);
+      --font-sans:Inter,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+      --font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+      --item-no-width:52px;
+      --item-gap:18px;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family:var(--font-sans);
+      background:
+        linear-gradient(rgba(201,197,188,.34) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201,197,188,.34) 1px, transparent 1px),
+        var(--paper);
+      background-size:48px 48px,48px 48px,auto;
+      color:var(--ink);
+    }
+    main {
+      max-width:1120px;
+      margin:56px auto;
+      padding:42px 20px 72px;
+      background:var(--paper);
+      box-shadow:0 0 0 12px var(--paper);
+      position:relative;
+    }
+    header {
+      border-bottom:1px solid var(--line-strong);
+      padding-bottom:28px;
+      margin-bottom:0;
+    }
+    .eyebrow,.date,.meta,.tags,.section-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:12px;
+      letter-spacing:0;
+    }
+    .identity {
+      font-family:var(--font-sans);
+      color:var(--ink);
+      font-size:clamp(36px,8vw,86px);
+      line-height:.92;
+      font-weight:800;
+      margin:8px 0 6px;
+      letter-spacing:0;
+    }
+    h1 { font-size:clamp(32px,7vw,74px); line-height:.92; margin:0; letter-spacing:0; font-weight:800; }
+    .hollow { color:transparent; -webkit-text-stroke:1.2px var(--ink); }
+    h2 { font-size:18px; margin:0; }
+    section { border-top:1px solid var(--line-strong); padding:34px 0; background:var(--paper); }
+    header + section { border-top:0; }
+    .section-head { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+    .section-no {
+      background:var(--signal);
+      color:var(--ink);
+      padding:2px 6px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:30px;
+      height:20px;
+      transform:translateY(-1px);
+    }
+    .insight { display: flex; flex-direction: column; gap: 14px; }
+    .insight-row { display: grid; grid-template-columns: 48px 1fr; gap: 14px; align-items: start; border-left: 1px solid rgba(60,56,50,.18); padding-left: 14px; }
+    .insight-label { font-size: 11px; letter-spacing: .12em; color: #8a8378; padding-top: 3px; }
+    .insight-text { margin: 0; font-size: 15.5px; line-height: 1.75; color: #2e2b26; }
+    .summary {
+      white-space:pre-wrap;
+      line-height:1.75;
+      font-size:16px;
+    }
+    .section-subtitle { margin:0 0 16px 0; color:var(--muted); font-size:13px; }
+    .feature-card {
+      display:grid;
+      grid-template-columns:260px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .feature-stack {
+      display:grid;
+      gap:22px;
+    }
+    .feature-art {
+      min-height:150px;
+      border:1px solid var(--line-strong);
+      background:
+        linear-gradient(135deg, rgba(216,255,62,.52), transparent 42%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+      padding:14px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+    .feature-art-title {
+      font-size:28px;
+      line-height:.98;
+      font-weight:800;
+    }
+    .feature-art-meta {
+      font-family:var(--font-mono);
+      font-size:12px;
+      color:var(--ink);
+    }
+    .book-art {
+      background:
+        linear-gradient(135deg, rgba(17,17,17,.08), transparent 44%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+    }
+    .movie-info p { margin:0 0 10px; }
+    .movie-title { font-size:20px; line-height:1.25; }
+    .movie-reason { line-height:1.75; max-width:720px; }
+    .book-title { font-size:20px; line-height:1.25; margin:0 0 10px; }
+    .book-chapter { margin:0 0 10px; color:var(--ink); line-height:1.5; }
+    .book-reason { margin:0; line-height:1.75; max-width:720px; }
+    .items { border-top:0; }
+    .item {
+      display:grid;
+      grid-template-columns:var(--item-no-width) minmax(0,1fr);
+      gap:var(--item-gap);
+      border-bottom:1px solid var(--line);
+      padding:16px 0;
+      align-items:start;
+    }
+    .item:last-child {
+      border-bottom:0;
+      padding-bottom:0;
+    }
+    .item-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.35;
+      padding-top:2px;
+    }
+    .item-main { min-width:0; }
+    .title-line {
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:14px;
+      width:100%;
+    }
+    .title-link {
+      color:var(--ink);
+      font-size:17px;
+      line-height:1.35;
+      text-decoration-thickness:1px;
+      text-underline-offset:4px;
+      flex:1;
+      min-width:0;
+    }
+    .item a:hover { background:var(--signal-soft); }
+    .inline-time {
+      flex:0 0 auto;
+      white-space:nowrap;
+      text-align:right;
+    }
+    .item a { color:var(--ink); }
+    .item a:hover { background:var(--signal-soft); }
+    .source-line {
+      margin-top:6px;
+      min-height:16px;
+    }
+    .media-layout {
+      display:grid;
+      grid-template-columns:220px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .media-body {
+      min-height:100%;
+      display:flex;
+      flex-direction:column;
+    }
+    .video-meta {
+      margin-top:auto;
+    }
+    .thumb {
+      display:block;
+      width:100%;
+      aspect-ratio:16/9;
+      object-fit:cover;
+      border:1px solid var(--line-strong);
+      background:var(--field);
+    }
+    .description {
+      margin-top:8px;
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.65;
+      display:-webkit-box;
+      -webkit-line-clamp:3;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+    .monitor-link-row {
+      display:grid;
+      grid-template-columns:minmax(0,1fr) auto;
+      gap:20px;
+      align-items:center;
+    }
+    .monitor-title {
+      font-size:18px;
+      line-height:1.25;
+      margin:0 0 5px;
+    }
+    .monitor-overview {
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.55;
+      max-width:540px;
+      margin:0;
+    }
+    .monitor-facts {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:10px;
+      margin-top:14px;
+      max-width:620px;
+    }
+    .monitor-fact {
+      min-width:0;
+      padding:10px 12px;
+      border-top:2px solid var(--signal);
+      background:var(--field);
+    }
+    .monitor-fact-label {
+      display:block;
+      color:var(--muted);
+      font:10px/1.2 var(--font-mono);
+      letter-spacing:.04em;
+      text-transform:uppercase;
+    }
+    .monitor-fact-value {
+      display:block;
+      color:var(--ink);
+      font-size:25px;
+      font-weight:800;
+      line-height:1.1;
+      margin:5px 0 3px;
+    }
+    .monitor-fact-copy {
+      display:block;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.35;
+    }
+    .monitor-link {
+      display:inline-flex;
+      align-items:center;
+      border:1px solid var(--ink);
+      background:var(--field);
+      color:var(--ink);
+      padding:8px 10px;
+      font:12px/1 var(--font-mono);
+      text-decoration:none;
+      max-width:100%;
+      overflow-wrap:anywhere;
+    }
+    .monitor-link:hover {
+      background:var(--signal);
+      color:var(--ink);
+    }
+    .brief-footer {
+          margin-top:42px;
+          padding-top:18px;
+          border-top:1px solid var(--line);
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          font:12px/1 var(--font-mono);
+        }
+        .brief-footer a {
+          color:var(--muted);
+          text-decoration:none;
+        }
+        .brief-footer a:hover {
+          color:var(--ink);
+          text-decoration:underline;
+          text-decoration-color:var(--signal);
+          text-underline-offset:4px;
+        }
+        .brief-footer .footer-sep {
+          color:var(--muted);
+          margin: 0 10px;
+          user-select:none;
+          pointer-events:none;
+        }
+        @media (max-width:720px) {
+          .brief-footer .footer-sep { margin: 0 8px; }
+        }
+    @media (max-width:720px) {
+      :root {
+        --item-no-width:38px;
+      }
+      .title-line {
+        flex-direction:column;
+        align-items:flex-start;
+        gap:4px;
+      }
+      .inline-time {
+        text-align:left;
+      }
+      .media-layout { grid-template-columns:1fr; }
+      .feature-card { grid-template-columns:1fr; }
+      .monitor-link-row {
+        grid-template-columns:1fr;
+        grid-template-areas:"action" "details";
+      }
+      .monitor-copy { grid-area:details; }
+      .monitor-facts { grid-template-columns:repeat(3,minmax(0,1fr)); }
+      .monitor-link { grid-area:action; }
+      .monitor-link { justify-self:start; }
+    }
+  
+  /* 台账行：与主站 item 同一字号阶梯（标题 15 / 正文 14 / 标签 11） */
+  .ledger { border-top: 1px solid var(--line-strong); }
+  .led-cap {
+    display: flex; gap: 10px; align-items: baseline; padding: 15px 0 7px;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+  }
+  .led-cap span { color: var(--ink); }
+  .led-row {
+    display: grid; grid-template-columns: 180px minmax(0, 1fr);
+    gap: 18px; padding: 11px 0; border-top: 1px solid var(--line); align-items: start;
+  }
+  .led-key { font-size: 15px; font-weight: 500; line-height: 1.5; color: var(--ink); }
+  .led-key-mono { font-family: var(--font-mono); font-weight: 400; font-size: 12px; color: var(--muted); padding-top: 4px; }
+  .led-val { min-width: 0; }
+  .led-val p { margin: 0; font-size: 14px; line-height: 1.62; color: var(--muted); }
+  .led-val a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .led-val a:hover { border-bottom-color: var(--ink); }
+  .led-dim { color: var(--muted); font-size: 12px; }
+  .led-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .led-tags span {
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+    border: 1px solid var(--line); padding: 1px 6px;
+  }
+  .led-quote {
+    margin: 10px 0 0; padding: 0 0 0 16px; border-left: 2px solid var(--ink);
+    font-size: 15px; line-height: 1.7; color: var(--ink);
+  }
+  .led-quote cite {
+    display: block; margin-top: 6px; font-style: normal;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+  }
+  .led-quote cite a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .led-line { margin: 12px 0 0; font-size: 15px; line-height: 1.7; color: var(--ink); }
+
+  /* 岗位统计 */
+  .stat-top { display: flex; align-items: flex-end; gap: 20px; padding: 6px 0 18px; }
+  .stat-num { font-family: var(--font-mono); font-size: 44px; line-height: 1; color: var(--ink); letter-spacing: -.02em; }
+  .stat-meta { display: flex; flex-wrap: wrap; gap: 16px; padding-bottom: 4px; font-size: 13px; color: var(--muted); }
+  .stat-meta b { font-family: var(--font-mono); font-weight: 400; color: var(--ink); }
+  .stat-dim { color: var(--muted); font-size: 12px; }
+  .stat-body { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 32px; align-items: start; border-top: 1px solid var(--line); padding-top: 18px; }
+  .donut { display: block; }
+  .jobs-table { min-width: 0; }
+  .jobs-row {
+    display: grid; grid-template-columns: minmax(0, 1fr) 64px 64px 64px;
+    gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line);
+    font-size: 14px; align-items: baseline;
+  }
+  .jobs-head {
+    border-bottom: 1px solid var(--line-strong); color: var(--muted);
+    font-family: var(--font-mono); font-size: 11px; padding-bottom: 6px;
+  }
+  .jobs-dir { color: var(--ink); }
+  .jobs-n { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); text-align: right; }
+  .jobs-head div:nth-child(n+2) { text-align: right; }
+
+  @media (max-width: 760px) {
+    .led-row { grid-template-columns: 1fr; gap: 4px; }
+    .led-key-mono { padding-top: 0; }
+    .stat-body { grid-template-columns: 1fr; gap: 16px; }
+    .stat-num { font-size: 36px; }
+  }
+
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="identity">ZhangYvJing's</div>
+    <h1><span class="hollow">Daily Brief</span></h1>
+  </header>
+  <section class="feature-picks">
+    <div class="section-head"><span class="section-no">00</span><h2>Film / Book Chapter</h2></div>
+    <div class="feature-stack">
+      <div class="feature-card">
+        <div class="feature-art">
+          <div class="feature-art-title">Zodiac</div>
+          <div class="feature-art-meta">2007 / David Fincher</div>
+        </div>
+        <div class="movie-info">
+          <p class="movie-title"><strong>Zodiac (2007)</strong> · David Fincher</p>
+          <p class="movie-reason">讲证据链与偏执式核验，适合信息过载时看</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-art book-art">
+          <div class="feature-art-title">The Craft of Research</div>
+          <div class="feature-art-meta">Wayne C. Booth 等</div>
+        </div>
+        <div class="movie-info">
+          <p class="book-title"><strong>The Craft of Research</strong> · Wayne C. Booth 等</p>
+          <p class="book-chapter">Making Good Arguments</p>
+          <p class="book-reason">论点、理由、证据、反驳拆成可检查的结构</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section><div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div><div class="insight"><div class="insight-row"><span class="insight-label">今天</span><p class="insight-text">elementalsouls/Claude-BugHunter 发布 Python 开源项目，为 Claude Code 提供 82 项技能和 15 个斜杠命令，并围绕 24 类核心漏洞整理 681 条公开披露报告中的模式。jingyaogong/minimind 用 Python 实现从零训练 64M 参数小型大模型的流程，项目说明训练时长</p></div><div class="insight-row"><span class="insight-label">转向</span><p class="insight-text">obra/superpowers 把智能体能力收进可复用技能包，今天的 CLI-Anything 改走统一命令行接口让智能体直接调用各类软件，变化的是工具接入的落点。方向是从逐项预置技能转向统一 CLI 入口。</p></div><div class="insight-row"><span class="insight-label">对你</span><p class="insight-text">用 curl -s https://clianything.cc 验证 HKUDS/CLI-Anything 的 CLI-Hub 入口后，把它接进 Pi 的工具调用清单跑一轮 Sakura Code 回归，记录工具调用失败率与故障恢复耗时。</p></div></div></section>
+  <section>
+    <div class="section-head"><span class="section-no">02</span><h2>Worth Reading</h2></div>
+    <p class="section-subtitle">我的挑选 · 今日值得看</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://alpo.ge/remark.pdf">Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">这份PDF的2359票、1598条讨论聚焦证明严谨性、同行评审与漏洞，并涉及若成立对密码学和数论的影响。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/">Hurried Announcement: Alessandro Masullo GRH</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">围绕Masullo的GRH公告，讨论聚焦可信度、同行评审、技术细节及数学社区对非正式发布的审慎验证。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">它把82项技能、15个斜杠命令、24类漏洞的681条公开报告模式和企业身份与基础设施攻击矩阵接入Claude Code，方便红队调用结构化经验。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">它通过统一API提供搜索、抓取和访问550多个数据提供方的能力，帮开发者为智能体接入外部知识，今日新增1241个星标。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">03</span><h2>Hacker News</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://alpo.ge/remark.pdf">Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20T14:16:21+00:00">2026-11-20T14:16:21+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上一条关于 Levent Alpöge 声称证明广义黎曼猜想的 PDF 引发激烈讨论，帖子获得 2359 分和 1598 条评论。社区成员围绕该证明的数学严谨性、是否经过同行评审、可能存在的漏洞以及重大猜想声明通常需要的验证周期展开争论，也有人讨论若证明成立对密码学和数论的影响，并提醒在专家正式审查前应保持谨慎。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/">Hurried Announcement: Alessandro Masullo GRH</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20T18:33:14+00:00">2026-11-20T18:33:14+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上这条讨论指向数学博客的一则仓促公告，称 Alessandro Masullo 与广义黎曼猜想 GRH 有关，帖子获得1555分和708条评论。讨论集中在公告是否可信、证明是否经过同行评审、技术论证细节以及数学社区如何回应非正式发布，也涉及对重大数学声明的审慎态度和验证路径。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://thinkingmachines.ai/news/inkling-2-mini/">Inkling 2 Mini</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20T20:12:19+00:00">2026-11-20T20:12:19+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上关于 Inkling 2 Mini 的讨论获得 675 分和 107 条评论，热度较高。讨论主要围绕这款新模型的定位、实际能力与运行效率展开，不少评论将其与现有小型模型对比，关注它在推理成本、部署便利性和适用场景上的取舍。也有人讨论发布方的技术路线、评测可信度以及开发者能否方便试用。整体看，社区既对小型模型的新进展保持兴趣，也期待更多独立测试和真实用例来验证其表现。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://architectlabs.com/blog/frostbite">Frostbite: A new CPU architecture discovered, designed and verified by AI</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20T10:01:41+00:00">2026-11-20T10:01:41+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上引发热议的讨论介绍 Architect Labs 博客所称由 AI 发现、设计并验证的新 CPU 架构 Frostbite，帖子获得 626 分和 326 条评论。讨论集中在 AI 参与芯片架构设计的可信度、验证流程是否充分、实际性能与可复现性，以及这项工作究竟是真正的新架构还是自动化搜索与优化的包装。社区既关注其潜在价值，也质疑证据、基准和工程可行性。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it">If you can&#x27;t explain something in simple terms, you don&#x27;t understand it (2017)</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20T09:43:19+00:00">2026-11-20T09:43:19+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上围绕这篇2017年文章展开讨论，核心观点是若不能用简单语言解释某事，就说明尚未真正理解它。帖子获得624分和293条评论。讨论集中在简化解释与深刻理解是否等价，有人认为简化能检验掌握程度，也有人指出复杂领域难以完全简化，过度简化可能丢失关键细节，教学表达与专业理解并不完全重合。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://signal.org/blog/protecting-your-privacy/">Restricting AI agents in mobile operating systems platforms from capturing data</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20T09:42:16+00:00">2026-11-20T09:42:16+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上围绕 Signal 博文展开热议，主题是移动操作系统平台如何限制 AI 代理捕获数据。讨论关注屏幕读取、录音、通知访问等敏感权限应如何隔离，用户知情同意和平台责任如何落实，以及隐私保护与无障碍、自动化功能之间的冲突。该帖获得 509 分和 303 条评论，反映出开发者对 AI 代理权限边界和移动端隐私架构的高度关注。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://arxiv.org/abs/2611.21885">Language Models Can Rewrite Their Own Weights</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20T16:29:06+00:00">2026-11-20T16:29:06+00:00</time></span></div>
+    
+    <div class="description">Hacker News上围绕论文《语言模型能重写自身权重》展开热议，帖子获得340分和111条评论。讨论集中在模型通过生成更新指令直接修改参数是否可行，以及它与传统微调的区别。评论者关注自我改写能否带来持续学习，还是只是针对特定任务的技巧；也有人担心安全性和可解释性，认为需要严格评估和沙箱限制。还有人质疑实验规模和泛化能力，强调应区分推理时适应与真正权重更新。整体氛围既兴奋又谨慎。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/">Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20T17:21:36+00:00">2026-11-20T17:21:36+00:00</time></span></div>
+    
+    <div class="description">Hacker News上这条讨论聚焦陶哲轩博客文章，该文探讨无外力欧拉奇点、无外力纳维-斯托克斯奇点与广义黎曼假设之间的潜在联系，评论者围绕证明思路、流体方程正则性、跨领域类比的可靠性及其数学意义展开争论，帖子获得339分和139条评论，反映出读者对难题进展和陶哲轩解释的高度关注。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://manidoraisamy.com/developer-to-architect.html">We promoted developers into architects without informing them</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20T18:17:51+00:00">2026-11-20T18:17:51+00:00</time></span></div>
+    
+    <div class="description">这篇Hacker News讨论围绕公司把开发者提升为架构师却未明确告知其角色变化展开。作者认为这种无声晋升容易让当事人仍按原有方式工作，同时承担更高协调和决策责任，却缺少相应授权、培训与反馈。评论区结合组织管理、职业发展和架构职责边界展开争论，有人强调应正式沟通新角色，有人指出架构师需要实践支持而非头衔。该帖获得295分和183条评论。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/tristanbuckmaster/navier-stokes/">Finite-time blow-up for the Navier–Stokes equations</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-20T15:34:31+00:00">2026-11-20T15:34:31+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上关于纳维斯托克斯方程有限时间爆破的讨论获得 258 分和 82 条评论，热度较高。帖子指向一个 GitHub 仓库，发布者声称给出该方程在有限时间内发生爆破的结果，并公开相关代码与材料。评论者主要关注证明思路是否严密、数值实验能否支持结论、代码是否可复现，以及这一结果与千禧年难题和流体力学直觉之间的关系。也有人讨论预印本审阅、计算误差和形式化验证等问题，整体呈现对数学论证与工程复现的双重审视。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">04</span><h2>GitHub Trending</h2></div>
+    <p class="section-subtitle">Daily · Top 10</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">Claude-BugHunter 是一个基于 Python 的开源项目，为 Claude Code 提供面向漏洞挖掘与外部红队作业的技能包。它内含 82 项技能和 15 个斜杠命令，并围绕 24 类核心漏洞整理了 681 条公开披露报告中的模式，此外还附带企业身份与基础设施攻击矩阵，便于安全人员在实战中快速调用结构化经验。项目今日新增约 1622 颗星，关注度较高，适合从事漏洞研究、渗透测试与红队评估的人员参考使用。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/obra/superpowers">obra/superpowers</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">obra/superpowers 是一个以 Shell 为主要实现语言的开源项目，定位为可落地的智能体技能框架与软件开发方法论。它试图把智能体能力组织成可复用的技能，并为软件开发流程提供系统化方法，帮助开发者更高效地构建和协作。项目今日新增 890 颗星，说明其近期受到较多关注，适合对智能体工作流和工程实践感兴趣的开发者了解与尝试。</div>
+    <div class="meta source-line">Shell</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/HKUDS/CLI-Anything">HKUDS/CLI-Anything</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">CLI-Anything 是 GitHub 上 HKUDS 团队开源的项目，使用 Python 编写，今日新增 773 星。项目旨在让所有软件成为智能体原生应用，通过统一命令行接口帮助 AI 智能体调用各类软件，降低集成门槛并扩展自动化工作流。项目提供 CLI-Hub 入口 https://clianything.cc/ 供了解和使用。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">jingyaogong/minimind 是一个用 Python 实现的开源大模型训练项目，主打在两小时内从零训练出 64M 参数的小型大模型。项目今日新增 847 星，关注度较高。它适合希望理解语言模型训练流程的开发者学习与实践，可帮助用户快速上手数据准备、模型训练和结果验证等环节。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/cursor/plugins">cursor/plugins</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">cursor/plugins 是一个托管在 GitHub 上的开源项目，主要提供 Cursor 插件规范以及官方插件实现，项目使用 TypeScript 编写。该仓库可帮助开发者了解 Cursor 插件的接口约定、开发方式和官方示例，便于围绕 Cursor 生态构建和扩展插件功能。项目今日新增 299 星，说明其近期受到较多开发者关注，适合需要参与 Cursor 插件开发或了解官方插件实现的人员参考。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">firecrawl/firecrawl 是一个用 TypeScript 开发的开源项目，定位为让智能体更聪明的知识基础设施。它通过统一 API 提供搜索、抓取和访问 550 多个数据提供方的能力，帮助开发者更便捷地为智能体接入外部知识来源。项目今日新增 1241 星，受到较多关注，适合需要构建智能体知识获取与网页数据访问流程的开发者了解和使用。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/nginx/nginx">nginx/nginx</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">nginx/nginx 是 NGINX 官方开源代码仓库，项目主要使用 C 语言开发，今日新增 246 星。它提供高性能 Web 服务器、反向代理、负载均衡和邮件代理等核心能力，代码开放透明，便于开发者学习、部署和参与贡献，是了解与使用 NGINX 的重要入口。</div>
+    <div class="meta source-line">C</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/openvinotoolkit/openvino">openvinotoolkit/openvino</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">openvinotoolkit/openvino 是一个使用 C++ 开发的开源工具包，主要用于优化和部署人工智能推理。该项目在 GitHub 上今日新增 217 星，受到较多关注。OpenVINO 面向 AI 推理场景，可帮助开发者对模型进行优化并在不同硬件平台上完成部署，从而提升推理效率并简化应用落地流程。</div>
+    <div class="meta source-line">C++</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/cathrynlavery/diagram-design">cathrynlavery/diagram-design</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">cathrynlavery/diagram-design 是一个面向 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑风格图表设计开源项目，采用 HTML 语言实现，今日新增 636 星。项目提供 45 种图表类型，使用自包含的 HTML 与 SVG 构建，不依赖阴影效果，并强调避免粗糙的 Mermaid 生成效果，适合需要清晰、精致且可直接使用的图表设计场景。</div>
+    <div class="meta source-line">HTML</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">该项目是一个用Python编写的开源AI智能体技能，可围绕任意主题检索Reddit、X、YouTube、Hacker News、Polymarket以及网页上的相关信息，并将多来源内容综合成有事实依据的摘要。它今日新增681个Star，说明其跨平台调研与信息整合能力受到关注，适合需要快速了解话题近期动态的用户。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">05</span><h2>YouTube</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=MDI81OaZAD4"><img class="thumb" src="https://i.ytimg.com/vi/MDI81OaZAD4/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=MDI81OaZAD4">How to build an agent that builds the culture — Zach Bruggeman, Ramp</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+        <div class="description">Ramp的Zach Bruggeman把公司文化拆成agent的提示与评审规则，这套方法让文化从口号变成每次任务执行的可检查约束。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=0LeT996Hz3E"><img class="thumb" src="https://i.ytimg.com/vi/0LeT996Hz3E/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=0LeT996Hz3E">Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+        <div class="description">Zach Lloyd 在 Warp 把编码代理当生产系统来设计，讲清如何用可观测、测试和回滚约束代理行为。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=xRJMiaUoD_8"><img class="thumb" src="https://i.ytimg.com/vi/xRJMiaUoD_8/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=xRJMiaUoD_8">The Sweet Side of the Bitter Lesson — Thariq Shihipar, Independent</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+        <div class="description">Thariq 用“苦涩教训”说明：与其堆手工规则，不如押注可扩展的通用方法，让产品体验反而更甜。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=pZWPq_ZAmM4"><img class="thumb" src="https://i.ytimg.com/vi/pZWPq_ZAmM4/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=pZWPq_ZAmM4">What it takes to set intelligence free — Fabian Hedin, CTO, Lovable</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+        <div class="description">Lovable 的 CTO Fabian Hedin 用一线产品工程负责人的视角讲清“释放智能”要满足哪些条件，而不是只谈模型能力。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=lwfewYL7X0o"><img class="thumb" src="https://i.ytimg.com/vi/lwfewYL7X0o/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=lwfewYL7X0o">Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+        <div class="description">视频里Robin Hanson用竞争逻辑反对放缓AI：先停者会把优势让给更不谨慎的对手，这直接点出辩论分歧。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">08</span><h2>Papers</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.26627v1">RL Post-Training in Diffusion Transformers Is Activation Steering</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">该论文研究扩散Transformer的强化学习后训练为何能提升视觉质量、文本渲染和组合准确度。作者提出一种输入无关的简化参数化方法，在冻结基模型的模块输出上加入固定 steering 向量，并用其拟合公开强化学习检查点的速度预测，目标中不含奖励。在 SD3.5-M 上，这些向量仅 0.29M 参数，约为强化学习调优 LoRA 18.8M 参数量的六十五分之一。尽管这些向量对所有提示、词元和采样种子都相同，论文据此考察强化学习后训练收益在多大程度上可由激活引导解释。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.26624v1">PlayCraft: Designing Engaging Games from Agent Play Experience</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">该论文提出PlayCraft，一个自动框架，利用基于视觉的智能体试玩游戏，并依据其详细游玩经验修订游戏，以提升游戏的精通感与参与度。PlayCraft从初始游戏出发，交替进行游玩与制作两个阶段。游玩阶段中，玩家智能体观察游戏画面、使用控制并反复追求游戏目标，同时保留记忆，每回合结束后报告进展、结果、决策与反思。制作阶段中，制作者智能体依据这些报告修订游戏，估计玩家能力，预测不同熟练水平下的表现，并将预测与目标学习进程进行比较，从而自动设计更具参与感的游戏。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.26619v1">TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">混合架构已成为开源权重语言模型的主流，其全局注意力层与有界状态层形成异构缓存，需求随上下文长度和并发度变化。TideCache是面向CPU与GPU超级芯片的服务系统，包含三个组件，用于在缓存间分配GPU内存并管理其在GPU与主机内存间的驻留。透明缓存池在固定虚拟地址后重分配物理页，保持缓存布局与后端接口不变。缓存流器利用有界状态层提供的计算间隔，将下一全局注意力层前缀预取到全局注意力层共享的GPU槽位，在降低GPU驻留的同时使分层传输与计算重叠，生成的KV保持驻留。请求调度器选择驻留或流式策略。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.26617v1">One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">视频能揭示世界变化却缺少动作。O2LaF以“一先验两动力学”用预训练视频DiT同时提供逆、正动力学先验：逆动力学为带可学习动作查询的前馈转移编码器，正动力学为因果动作条件视频生成器；经信息访问控制与紧凑瓶颈端到端优化，从无标签视频学习可迁移动作，在导航和机器人操作中表现突出。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.26613v1">AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">本文系统分析前沿多模态语言智能体直接通过低层数值动作控制机器人的能力。现有基准仅报告回合级成功率，难以揭示智能体如何成功以及何处失败。作者在12个操作基准上开展动作级分析，并提出AgentRoboCritic意图接地评判框架，让策略智能体在执行每个动作时陈述局部意图，由评判器依据该意图评估动作结果与失败模式。分析表明，此类智能体在直接机器人控制上具有前景，包括局部执行失败的闭环恢复和跨多样场景的可靠语义接地。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.26607v1">Bio-PM-Guided Synthetic IMU Generation</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">针对人体活动识别中惯性测量单元数据采集与标注成本高、跨受试者泛化困难以及动态相似活动难以区分的问题，本文探索利用预训练生物信号编码器Bio-PM的表示空间生成合成惯性测量单元数据，作为实用的数据增强来源。方法不直接合成原始信号，而是借助冻结的Bio-PM编码器将10秒惯性测量单元窗口转换为令牌嵌入序列，并在该空间中训练类条件解码器，包括按顺序预测令牌的自回归Transformer解码器和通过去噪目标学习令牌分布的扩散解码器，进而分析合成数据的生成效果。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.26603v1">Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">本文提出Depth Pro 2，一种面向图像与视频全分辨率密集度量深度估计的方法。作者分析现有单目深度方法后发现，它们通常难以兼顾时间一致性与边界锐度，多帧方法偏向一致性，单帧方法偏向锐度。为突破这一权衡，Depth Pro 2训练单一可扩展网络同时处理图像和视频，并在原生分辨率下预测深度图，使结果同时具备度量准确、边界锐利和时间一致的特点，在这三个方面均优于先前工作。研究还发布了一组模型，在度量精度、锐度、时间一致性和运行时间上定义了新的帕累托前沿，并公开代码与权重。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.26601v1">SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-21">2026-11-21</time></span></div>
+    
+    <div class="description">本文系统梳理大语言模型在软件漏洞研究中的能力演化。针对相关主张分散于论文、厂商报告和披露中且难以比较的问题，作者提出一个参照驾驶自动化等级构建的自主性评分框架，并从正确性、可用性和证据强度三个方面限定每项主张。基于该框架，论文系统化已有公开证据，发现智能体在2026年受限前沿模型出现之前已能在真实软件中无人工干预地发现、验证和修补漏洞，随后开放权重模型也达到可比的自主水平。该工作为比较和评估LLM漏洞研究能力提供了统一尺度。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article></div>
+  </section>
+  
+  <section><div class="section-head"><span class="section-no">09</span><h2>方向雷达</h2></div><div class='ledger'><div class="led-cap"><span>01</span>钱去哪了</div><div class="led-row"><div class="led-key">物理AI</div><div class="led-val"><p>资本押注AI从软件走向机器人与工业，贝佐斯、丰田、吉利同时下注</p><div class="led-tags"><span>Prometheus、语用科技、Woven Capital</span></div></div></div><div class="led-row"><div class="led-key">企业支出管理</div><div class="led-val"><p>AI Agent接管报销与采购流程，Payhawk估值翻至20亿美元</p><div class="led-tags"><span>Payhawk</span></div></div></div><div class="led-row"><div class="led-key">工厂直采</div><div class="led-val"><p>零售商绕开中间商直连中国工厂，前阿里高管团队拿到大额A轮</p><div class="led-tags"><span>Everful</span></div></div></div><div class="led-cap"><span>02</span>我能做什么开源项目</div><div class="led-row"><div class="led-key led-key-mono"><strong>vibe-port-audit</strong></div><div class="led-val"><p>AI批量重写代码成风，没人核对重写版是否漏掉上游的bug修复</p><div class="led-tags"><span>MVP 输入上游仓库与重写仓库，比对commit与测试，输出漏修的…</span><span>栈 Python + Git CLI + LLM API</span></div></div></div><div class="led-row"><div class="led-key led-key-mono"><strong>agent-ready-catalog</strong></div><div class="led-val"><p>Agent开始替人下单，商家商品页却仍是给人看的HTML</p><div class="led-tags"><span>MVP 抓取店铺商品页，生成结构化JSON与llms.txt，供购…</span><span>栈 Node + Playwright + SQLite</span></div></div></div><div class="led-cap"><span>03</span>一句话</div><p class="led-line">钱正从纯软件AI转向物理世界与Agent基础设施，重写与直连是当下两个缝隙。</p></div></section><section><div class="section-head"><span class="section-no">10</span><h2>岗位</h2></div><div class='ledger'><div class="stat-top"><div class="stat-num">200</div><div class="stat-meta"><span>环比 <b>-2.9%</b></span><span>昨日 206</span><span>最大方向 基础设施/运维 17.5%</span><span class="stat-dim">同比：数据累计 10/7 天</span></div></div><div class="stat-body"><svg class="donut" viewBox="0 0 150 150" width="150" height="150" role="img" aria-label="岗位方向占比"><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#1c1c1c" stroke-width="18" stroke-dasharray="59.38 279.92" stroke-dashoffset="-0.00" transform="rotate(-90 75.0 75.0)"><title>基础设施/运维 35 · 17.5%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#4a463f" stroke-width="18" stroke-dasharray="54.29 285.01" stroke-dashoffset="-59.38" transform="rotate(-90 75.0 75.0)"><title>硬件/嵌入式 32 · 16.0%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#6e6c66" stroke-width="18" stroke-dasharray="54.29 285.01" stroke-dashoffset="-113.66" transform="rotate(-90 75.0 75.0)"><title>芯片/半导体 32 · 16.0%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#8a8378" stroke-width="18" stroke-dasharray="50.89 288.40" stroke-dashoffset="-167.95" transform="rotate(-90 75.0 75.0)"><title>算法/AI 30 · 15.0%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#a8a29a" stroke-width="18" stroke-dasharray="35.63 303.67" stroke-dashoffset="-218.84" transform="rotate(-90 75.0 75.0)"><title>前端/全栈 21 · 10.5%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#c9c5bc" stroke-width="18" stroke-dasharray="28.84 310.45" stroke-dashoffset="-254.47" transform="rotate(-90 75.0 75.0)"><title>数据 17 · 8.5%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#e6e3dc" stroke-width="18" stroke-dasharray="55.98 283.31" stroke-dashoffset="-283.31" transform="rotate(-90 75.0 75.0)"><title>其他 33 · 16.5%</title></circle></svg><div class="jobs-table"><div class="jobs-row jobs-head"><div>方向</div><div>条数</div><div>占比</div><div>环比</div></div><div class="jobs-row"><div class="jobs-dir">基础设施/运维</div><div class="jobs-n">35</div><div class="jobs-n">17.5%</div><div class="jobs-n">+13%</div></div><div class="jobs-row"><div class="jobs-dir">硬件/嵌入式</div><div class="jobs-n">32</div><div class="jobs-n">16.0%</div><div class="jobs-n">+23%</div></div><div class="jobs-row"><div class="jobs-dir">芯片/半导体</div><div class="jobs-n">32</div><div class="jobs-n">16.0%</div><div class="jobs-n">+7%</div></div><div class="jobs-row"><div class="jobs-dir">算法/AI</div><div class="jobs-n">30</div><div class="jobs-n">15.0%</div><div class="jobs-n">+25%</div></div><div class="jobs-row"><div class="jobs-dir">前端/全栈</div><div class="jobs-n">21</div><div class="jobs-n">10.5%</div><div class="jobs-n">-9%</div></div><div class="jobs-row"><div class="jobs-dir">数据</div><div class="jobs-n">17</div><div class="jobs-n">8.5%</div><div class="jobs-n">+21%</div></div><div class="jobs-row"><div class="jobs-dir">测试/质量</div><div class="jobs-n">17</div><div class="jobs-n">8.5%</div><div class="jobs-n">-15%</div></div><div class="jobs-row"><div class="jobs-dir">后端/服务端</div><div class="jobs-n">16</div><div class="jobs-n">8.0%</div><div class="jobs-n">-58%</div></div></div></div></div></section><section><div class="section-head"><span class="section-no">11</span><h2>宏观内参</h2></div><div class='ledger'><div class="led-row"><div class="led-key">宏观/流动性</div><div class="led-val"><p>今日抓到美联储素材仅有两份页面标题（10-28 FOMC 声明、9-16 经济预测），无利率决议、点阵图、任何…</p></div></div><div class="led-row"><div class="led-key">政策/合规</div><div class="led-val"><p>Nvidia CEO Jensen Huang 因与「alleged Chinese spy」的婚外情辞职，事…</p></div></div><div class="led-row"><div class="led-key">巨头/产业</div><div class="led-val"><p>Anthropic 以 $83/股 IPO、首日成交 $111（+33%），7 位创始人合计套现近 $20 亿…</p></div></div><div class="led-row"><div class="led-key">信源与可靠度</div><div class="led-val"><p>[28][20][24][29][30][38]（TechCrunch 转述，中等；CNBC 市场数据，高）…</p></div></div></div></section><section><div class="section-head"><span class="section-no">12</span><h2>Issue 日报</h2></div><div class='ledger'><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11790</a> [今天] [Feature Request] Cookbook: NewsCatcher hos…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11788</a> [今天] Support social media publishing, analytics…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12367</a> [今天] OpenAI drops reasoning items(prefix_mismatc…<span class="led-dim"> 2 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12361</a> [今天] openai-codex 1.6.0: --thinking high/xhigh o…<span class="led-dim"> 2 评</span></p></div></div></div></section>
+  <footer class="brief-footer">
+    <a href="/history/">History</a>
+    <span class="footer-sep">·</span>
+    <a href="/rss.xml">RSS</a>
+  </footer>
+</main>
+<script>
+(function() {
+  function relative(iso) {
+    const then = new Date(iso);
+    if (isNaN(then.getTime())) return iso;
+    const diff = Math.floor((Date.now() - then.getTime()) / 1000);
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return Math.floor(diff / 60) + ' min ago';
+    if (diff < 86400) return Math.floor(diff / 3600) + ' hr ago';
+    if (diff < 2592000) return Math.floor(diff / 86400) + ' d ago';
+    const months = Math.floor(diff / 2592000);
+    if (months < 12) return months + ' mo ago';
+    return Math.floor(months / 12) + ' yr ago';
+  }
+  document.querySelectorAll('.rel-time').forEach(el => {
+    const iso = el.getAttribute('datetime');
+    if (iso) el.textContent = relative(iso);
+  });
+})();
+</script>
+</body>
+</html>
