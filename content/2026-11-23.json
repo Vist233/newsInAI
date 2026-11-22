@@ -1,0 +1,510 @@
+{
+ "date": "2026-11-23",
+ "summary": "今天：Claude-BugHunter 以 Python 实现，向 Claude Code 提供 82 个技能、15 个斜杠命令，以及覆盖 24 个核心漏洞类别的 681 条已披露报告模式。diagram-design 用自包含 HTML 与 SVG 输出 45 种编辑风格图表类型，服务于 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi。firecrawl 用 TypeScript 开发，统一 API 可连接 550 多个数据提供商。MiniMind 用 Python 实现，目标是在约两小时内从零训练出 64M 参数的大模型。HKUDS 的 CLI Anything 以 Python 写成，附带 CLI Hub 作为发现和调用命令行能力的统一入口。\n转向：Claude-BugHunter 把 82 个技能和 15 个斜杠命令绑在 Claude Code 上，而 CLI Anything 用 CLI Hub 让命令行能力被智能体统一调用，技能与命令的投放对象从单个 harness 变成可被多 harness 复用的 CLI 入口。方向是跨 harness 的 CLI 入口变多，单 harness 专属的技能包变少。\n对你：把 HKUDS/CLI-Anything 的 CLI Hub 作为 Sakura Code/Pi 的工具调用入口接入，跑 Terminal-Bench 时记录每个命令从发现到执行的成功率与失败恢复耗时，用同一评测口径对比接入前后。",
+ "movie": {
+  "title": "Ikiru",
+  "year": 1952,
+  "director": "黑泽明",
+  "reason": "提醒时间该压在哪件事上",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "The Effective Engineer",
+  "author": "Edmond Lau",
+  "chapter": "Focus on High-Leverage Activities",
+  "reason": "讲杠杆与高产出习惯",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "published": "2026-11-22T04:04:56+00:00",
+   "summary": "这则 Hacker News 讨论围绕丰田、日产和本田计划标准化零部件以降低成本展开，相关帖子获得 1154 分和 662 条评论。讨论关注共享零件能否在保持各品牌车型差异的同时形成规模效应，降低采购与生产成本，并涉及供应商利益、供应链复杂度、标准化范围和执行难度等话题。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "published": "2026-11-22T08:57:34+00:00",
+   "summary": "这篇Hacker News讨论围绕一篇分析AI数据中心供电结构的文章展开，文章称到2028年Anthropic的电力将有87%来自天然气、11%来自煤炭，并区分了自带电源与电网供电两种模式。帖子获得829分和851条评论，评论主要关注AI算力扩张对化石能源的依赖、碳排放影响、天然气与煤电在数据中心供电中的角色，以及能源转型和电网压力等问题。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Sandwich Simulator",
+   "url": "https://stulle.app/",
+   "published": "2026-11-22T00:07:59+00:00",
+   "summary": "Hacker News 上关于 Sandwich Simulator 的讨论帖链接至 stulle.app，目前获得555分和195条评论。该项目以制作三明治为主题，吸引社区围绕模拟器的交互设计、实现细节和趣味性展开交流，也涉及这类小型网页项目为何能引发关注。整体讨论兼具技术分享和轻松娱乐色彩，体现出HN读者对创意工具与前端实现话题的兴趣。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence/",
+   "published": "2026-11-22T17:06:27+00:00",
+   "summary": "这则Hacker News讨论围绕OpenAI文章《Perplexity and Intelligence》展开，该帖获得422分和289条评论。参与者重点争论困惑度能否作为衡量语言模型智能的可靠指标，认为低困惑度未必对应更强推理和泛化能力，并讨论训练数据分布、评估基准饱和、压缩与预测目标之间的关系。有人强调困惑度适合比较同分布模型，但不能替代任务级评测。整体讨论既肯定其作为训练信号的解释力，也提醒不要将单一指标等同于智能。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "What Happened to Silicon Valley?",
+   "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+   "published": "2026-11-22T19:20:15+00:00",
+   "summary": "Hacker News 上围绕 O'Reilly 文章《What Happened to Silicon Valley?》的讨论梳理了硅谷从创新象征转向高成本、巨头主导和资本短期化的争议。评论者从住房短缺、并购垄断、风险投资回报压力、远程办公与人工智能浪潮等角度解释变化，并争论硅谷模式是否还能复制，以及监管和社区政策能否恢复其创新活力。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "url": "https://github.com/gulivan/worker755",
+   "published": "2026-11-22T13:56:58+00:00",
+   "summary": "Hacker News上出现一则Show HN帖子，作者发布了一款让玩家扮演LLM子代理的游戏worker755。玩家需在上级模型下达的指令下完成任务，体验被调度、受约束和反馈结果的代理工作流程。帖子获得253分和58条评论，讨论集中在游戏如何把LLM代理协作、任务分解、指令遵循与工具调用等概念转化为可玩机制，以及这种设定对理解AI代理局限性和人机协作的启发。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+   "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+   "published": "2026-11-22T19:10:34+00:00",
+   "summary": "Hacker News上有一篇题为《GTA 6的鸟类：罪恶都市与雷奥尼达野生动物野外指南》的帖子，获249分和89条评论。它介绍奥杜邦杂志以现实观鸟指南的形式梳理GTA 6预告和设定中出现的鸟类及栖息地，讨论游戏如何借用佛罗里达生态塑造虚构的雷奥尼达州。评论者围绕游戏环境叙事、物种准确性、观鸟文化传播以及把现实自然史带入虚拟世界的做法展开交流，也有人关注这种跨界科普能否吸引新受众。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Open Social Web Alliance",
+   "url": "https://osw-alliance.net/en/",
+   "published": "2026-11-22T15:24:32+00:00",
+   "summary": "Hacker News 上关于 Open Social Web Alliance 的讨论获得 199 分和 196 条评论，热度较高。该联盟官网介绍了推动开放社交网络生态协作的方向，讨论焦点可能涉及去中心化社交、互操作性、协议标准、平台治理、用户数据可迁移性以及不同联邦宇宙项目之间的合作。评论中既有对开放社交网络愿景的期待，也可能包含对实际落地、治理模式和可持续性的质疑，反映出开发者与用户对替代大型封闭平台的持续关注。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "I joined the NTP Pool, but not with my Stratum 1 Pi",
+   "url": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
+   "published": "2026-11-22T15:35:24+00:00",
+   "summary": "这篇 Hacker News 讨论围绕 Jeff Geerling 加入 NTP Pool 却未使用自己的 Stratum 1 树莓派展开，帖子获得 111 分和 29 条评论。讨论重点包括家用硬件参与公共时间服务的可行性、Stratum 1 对 GPS 或原子钟及网络稳定性的要求、树莓派作为时钟源的局限，以及 NTP Pool 对节点监控、可靠性和滥用风险的管理。评论者也探讨了普通爱好者是否值得搭建高精度时间服务器，以及家庭网络、IPv6 和运维成本等实际问题。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "A Better Vocabulary for Testing",
+   "url": "https://alperenkeles.com/posts/vocab-for-testing/",
+   "published": "2026-11-21T22:15:39+00:00",
+   "summary": "Hacker News 上这篇《A Better Vocabulary for Testing》讨论如何用更准确的术语描述软件测试。作者认为现有测试词汇常把目的、范围和手段混在一起，容易造成团队沟通偏差，建议建立更清晰的分类和表达方式。帖子获得101分和25条评论，评论者围绕术语是否应贴近行业习惯、精细化命名能否真正改善测试实践，以及过度分类可能带来的成本展开交流。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "published": "2026-11-23",
+   "summary": "Claude-BugHunter 是一个用 Python 开发的开源项目，为 Claude Code 提供面向漏洞挖掘与外部红队工作的技能包。它包含 82 个技能、15 个斜杠命令，以及覆盖 24 个核心漏洞类别的 681 条已披露报告模式，并附带企业身份与基础设施攻击矩阵。该项目今日新增 1721 颗星，适合安全研究人员在获得授权的前提下开展漏洞发现与红队演练，有助于提升人工智能辅助安全测试的规范性与效率。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "published": "2026-11-23",
+   "summary": "obra/superpowers 是一个面向智能体技能组织与软件开发流程的开源框架和方法论，项目以 Shell 为主要实现语言，强调让代理技能与工程实践真正可落地并产生效果。它适合希望把智能体能力纳入日常开发协作的团队参考，通过结构化的技能框架和开发方法改善任务执行与协作效率。该项目今日新增 785 星，说明其思路正受到开发者社区关注。",
+   "categories": [
+    "Shell"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "published": "2026-11-23",
+   "summary": "HKUDS 在 GitHub 开源的 CLI Anything 项目使用 Python 开发，核心理念是让所有软件具备智能体原生能力，使命令行工具更便于 AI 智能体调用与集成。项目提供 CLI Hub 作为统一入口，方便发现和使用相关命令行能力。上线后关注度快速上升，今日新增 687 星，适合关注智能体工具链和命令行自动化的开发者了解。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "published": "2026-11-23",
+   "summary": "MiniMind 是一个用 Python 实现的开源大语言模型训练项目，目标是帮助开发者在大约两小时内从零训练出 64M 参数的大模型。项目强调轻量、快速和可复现，适合学习大模型训练流程并进行实验。今日新增 473 星，说明其低门槛和实用性受到关注。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "published": "2026-11-23",
+   "summary": "cursor/plugins 是 Cursor 推出的开源项目，主要提供插件规范与官方插件实现，帮助开发者了解并构建兼容 Cursor 的扩展。项目使用 TypeScript 编写，便于类型安全与工具链集成。今日该项目新增 301 星，反映出社区对 Cursor 插件生态的关注度较高。开发者可参考规范与官方示例快速上手，降低适配成本，并为插件开发与生态扩展提供统一基础。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "published": "2026-11-23",
+   "summary": "firecrawl/firecrawl 是一个用 TypeScript 开发的开源项目，定位为面向智能体的知识基础设施，帮助智能体获得更准确、更丰富的外部知识。它通过统一 API 提供搜索、抓取和数据访问能力，可连接 550 多个数据提供商，减少开发者在多源数据整合上的重复工作。项目今日新增 910 星，受到较多关注，适合需要为智能体补充实时信息与网页内容的开发者使用。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "nginx/nginx",
+   "url": "https://github.com/nginx/nginx",
+   "published": "2026-11-23",
+   "summary": "nginx/nginx 是 NGINX 官方开源代码仓库，主要使用 C 语言开发，汇聚了 NGINX 的核心源代码与相关工程内容。该项目面向高性能 Web 服务器、反向代理和负载均衡等场景，是了解和研究 NGINX 实现的重要入口。今日该仓库新增 168 颗星，受到开发者持续关注。",
+   "categories": [
+    "C"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "published": "2026-11-23",
+   "summary": "openvinotoolkit/openvino 是一个以 C++ 为主要开发语言的开源工具包，专注于优化和部署人工智能推理。该项目今日新增 155 星，受到开发者关注。OpenVINO 提供模型优化与推理部署能力，可帮助开发者在不同硬件平台上提升 AI 推理效率，适用于计算机视觉等场景，是构建和落地 AI 应用的重要开源基础设施。",
+   "categories": [
+    "C++"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "published": "2026-11-23",
+   "summary": "cathrynlavery/diagram-design 是一个面向 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 等编程工具的开源图表设计项目，提供 45 种编辑风格图表类型。它采用自包含 HTML 与 SVG 实现，不依赖阴影效果，也不使用粗糙的 Mermaid 生成内容，适合在代码协作与文档场景中快速制作清晰、统一的图表。",
+   "categories": [
+    "HTML"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "published": "2026-11-23",
+   "summary": "mvanhorn/last30days-skill 是一个用 Python 编写的开源 AI 智能体技能，旨在围绕任意主题跨 Reddit、X、YouTube、Hacker News、Polymarket 和网页进行信息检索，并将多来源内容综合成有依据的摘要。项目今日新增 673 星，适合需要快速追踪近 30 天话题动态与舆论信号的用户。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+   "url": "http://arxiv.org/abs/2611.26627v1",
+   "published": "2026-11-23",
+   "summary": "该论文研究扩散Transformer中强化学习后训练的作用机制。作者提出，RL后训练带来的视觉质量、文字渲染和组合准确性提升，可能主要对应一种与输入无关的激活引导。为检验这一点，他们将一组固定的引导向量加到冻结基模型各模块输出上，并在SD3.5-M上仅用0.29M参数拟合公开RL检查点的速度预测，参数量比RL调优LoRA少65倍，且目标函数不含奖励。尽管这些向量对所有提示、词元和采样种子完全相同，仍能复现相当部分增益，表明RL后训练可在很大程度上被解释为激活引导。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+   "url": "http://arxiv.org/abs/2611.26624v1",
+   "published": "2026-11-23",
+   "summary": "本文提出 PlayCraft，一个自动化游戏设计与修订框架，旨在让 AI 生成的游戏不仅可玩而且更具吸引力。它利用基于视觉的智能体反复试玩游戏，并依据详细游玩经验改进关卡与机制，以支持玩家获得掌握感。系统交替进行游玩与制作：游玩阶段中，玩家智能体观察画面、操作控制并围绕目标多回合尝试，保留记忆，每回合后汇报进展、结果、决策与反思；制作阶段中，制作者智能体根据报告修订游戏，估计玩家能力，预测不同熟练水平的表现，并与目标学习进程比较，从而迭代提升挑战性与参与度。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+   "url": "http://arxiv.org/abs/2611.26619v1",
+   "published": "2026-11-23",
+   "summary": "TideCache面向采用全局注意力层与有界状态层的混合大语言模型服务，针对不同上下文长度和并发下异构缓存需求，在CPU与GPU超级芯片上实现高效内存分配与驻留管理。系统包含三个组件。透明缓存池在固定虚拟地址后重新分配物理页，保持缓存布局与后端接口不变。缓存流式器利用有界状态层提供的计算间隔，将下一全局注意力层前缀预取到共享GPU槽位，在重叠传输与计算的同时降低GPU驻留，生成KV保持驻留。请求调度器选择常驻或流式策略以平衡性能与容量。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+   "url": "http://arxiv.org/abs/2611.26617v1",
+   "published": "2026-11-23",
+   "summary": "本文提出 O²LaF 方法，探索预训练视频扩散 Transformer 能否为逆动力学和前向动力学同时提供先验。该方法从同一预训练视频 DiT 初始化两个模型并适配不同角色：逆动力学采用带可学习动作查询的前馈过渡编码器，前向动力学采用因果且以动作为条件的视频生成器。通过控制信息访问并借助紧凑瓶颈端到端优化两种动力学，O²LaF 能从无标签视频中学习可迁移的动作表示。在导航和机器人操作任务上，该方法取得了领先表现。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+   "url": "http://arxiv.org/abs/2611.26613v1",
+   "published": "2026-11-23",
+   "summary": "本文介绍AgentRoboCritic，针对GPT-6 Astra等前沿多模态语言智能体通过低层数值动作直接控制机器人而无需高层原语的能力展开研究。现有基准仅报告回合级成功率，难以揭示成功机制与失败原因。作者在12个操作基准上开展系统动作级分析，并提出意图锚定的批评框架：策略智能体在执行每个动作时陈述局部意图，批评者据此评估动作结果与失败模式。分析表明，前沿智能体在直接机器人控制中具备从局部执行失败中闭环恢复以及跨多样场景可靠语义锚定等能力。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Bio-PM-Guided Synthetic IMU Generation",
+   "url": "http://arxiv.org/abs/2611.26607v1",
+   "published": "2026-11-23",
+   "summary": "针对惯性测量单元数据标注成本高、跨受试者泛化不足及动态相似活动难区分，本文利用预训练生物信号编码器Bio-PM的表示空间生成合成数据。方法以冻结编码器将10秒窗口转为词元嵌入序列，训练类条件自回归Transformer和扩散解码器，并分析生成数据特性及分类增强效果，为低成本、可迁移的数据增强提供新思路。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+   "url": "http://arxiv.org/abs/2611.26603v1",
+   "published": "2026-11-23",
+   "summary": "本文提出 Depth Pro 2，一种面向图像和视频的全分辨率密集度量单目深度估计方法。作者分析发现，现有方法通常难以兼顾时序一致性与边界锐利度，多帧方法偏向一致性，单帧方法偏向锐利度。为克服这一权衡，Depth Pro 2 训练单个可扩展网络同时处理图像和视频，并在原生分辨率下预测深度图，使结果同时具备度量准确、边界锐利和时序一致的特点，在这三个方面均优于先前工作。作者还发布了一组模型，在度量精度、锐利度、时序一致性和运行时间上定义了新的帕累托前沿，并公开代码与权重。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+   "url": "http://arxiv.org/abs/2611.26601v1",
+   "published": "2026-11-23",
+   "summary": "该论文系统梳理了大语言模型在软件漏洞研究中的能力演进。作者指出，相关能力声明分散于论文、厂商报告和漏洞披露中，难以直接比较。为此，论文提出一个评估框架，借鉴驾驶自动化分级对自主性进行评级，并从正确性、可用性和证据强度对每项声明加以限定。基于该框架系统化已有证据后，作者发现，在2026年受限前沿模型出现之前，智能体已在真实软件中无需人工干预地发现、验证并修补漏洞，随后开放权重模型也达到了可比自主性。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Build the Workshop Before the Software Factory — Armin Ronacher, Earendil",
+   "url": "https://www.youtube.com/watch?v=JNexz3Tbiu8",
+   "published": "2026-11-23",
+   "summary": "Earendil",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/JNexz3Tbiu8/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic",
+   "url": "https://www.youtube.com/watch?v=GKSQYbELDzw",
+   "published": "2026-11-23",
+   "summary": "讲者Ahmad Osman按任务拆分本地与云端AI部署，给出生产环境可复用的取舍框架。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/GKSQYbELDzw/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "How to build an agent that builds the culture — Zach Bruggeman, Ramp",
+   "url": "https://www.youtube.com/watch?v=MDI81OaZAD4",
+   "published": "2026-11-23",
+   "summary": "Ramp 团队演示了把公司文化编码进内部 agent 每次交互的构建方法，并给出可复用步骤。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/MDI81OaZAD4/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
+   "url": "https://www.youtube.com/watch?v=0LeT996Hz3E",
+   "published": "2026-11-23",
+   "summary": "Zach Lloyd 提出把编码智能体当系统来设计、观测和迭代，而非堆提示词，这套方法能直接迁移到团队工作流。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/0LeT996Hz3E/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?",
+   "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+   "published": "2026-11-23",
+   "summary": "雅各布·考克森与罗宾·汉森就“是否应放缓AI”辩论，能听到双方对放缓代价与风险的具体分歧。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/lwfewYL7X0o/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "published": "2026-11-23",
+   "summary": "讨论三家车企共享零件能否在保留车型差异的同时形成规模效应，并权衡供应商利益、供应链复杂度与执行难度。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "published": "2026-11-23",
+   "summary": "文章称2028年Anthropic用电87%靠天然气、11%靠煤炭，区分自带电源与电网供电，讨论",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "published": "2026-11-23",
+   "summary": "它含82个技能、15个斜杠命令和覆盖24类漏洞的681条报告模式，并附企业身份与基础设施攻击矩阵，可助授权红队演练更规范。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "published": "2026-11-23",
+   "summary": "统一 API 连接 550 多个数据提供商，提供搜索、抓取和数据访问，减少多源整合重复工作。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}
