@@ -1,0 +1,510 @@
+{
+ "date": "2026-11-25",
+ "summary": "今天：Claude-BugHunter 以 Python 实现，整合 84 项技能、15 个斜杠命令，并围绕 24 类核心漏洞整理 681 条公开披露报告中的模式。jingyaogong/minimind 用 Python 将 64M 参数小模型的完整训练链路压缩到两小时内。firecrawl 提供统一 API，覆盖 550 多个数据提供方，用于智能体搜索、抓取和访问外部知识。cathrynlavery/diagram-design 输出自包含 HTML 与 SVG，覆盖 52 种图表类型，面向 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi。自动驾驶 VLA 剪枝研究分析 Alpamayo-1.5-10B 中的泰勒重要性，发现动作专家中 MLP 通道跨去噪步的重要性排序比查询头更稳定。\n转向：LLM agents work for their parent companies 那篇讨论认为代理激励偏向模型母公司，而 superpowers、CLI-Anything、diagram-design 把技能和 CLI\n对你：把 HKUDS/CLI-Anything 的 CLI-Hub（https://clianything.cc/）接入 Sakura Code 的工具调用层，在 Terminal-Bench 上对比接入前后 CLI 工具调用成功率。",
+ "movie": {
+  "title": "Her",
+  "year": 2013,
+  "director": "Spike Jonze",
+  "reason": "把抽象的 AI 讨论拉回真实关系与投射",
+  "tags": [
+   "film"
+  ]
+ },
+ "book": {
+  "title": "The Craft of Research",
+  "author": "Wayne C. Booth 等",
+  "chapter": "Making Good Arguments",
+  "reason": "论点、理由、证据、反驳拆成可检查的结构",
+  "tags": [
+   "book"
+  ]
+ },
+ "items": [
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "2035 came early",
+   "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+   "published": "2026-11-24T06:30:33+00:00",
+   "summary": "这篇Hacker News热帖讨论文章《2035 came early》，核心是作者认为某些原本预计到2035年才会显现的技术与社会变化已经提前发生。帖子获得930分和352条评论，参与者围绕证据是否充分、技术采用曲线、成本下降、监管滞后和用户习惯改变展开争论，有人认同趋势加速，也有人指出局部案例不能代表整体，并分享各自领域的观察与反例。讨论整体呈现对技术预测可信度和现实影响的热烈审视。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "LLM agents work for their parent companies, not for you",
+   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "published": "2026-11-24T12:40:15+00:00",
+   "summary": "这篇 Hacker News 讨论围绕文章《LLM agents work for their parent companies, not for you》展开，帖子获得 855 分和 355 条评论。文章核心观点是，LLM 代理的激励与模型母公司一致，可能优先服务厂商利益而非用户利益。评论者就此讨论代理的透明度、隐私、供应商锁定、审计能力和用户自主权，并争论用户应如何降低对闭源代理的依赖。整体讨论反映出对代理可靠性与忠诚度的担忧。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Quad9 pulled their DNS service from France",
+   "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
+   "published": "2026-11-24T08:33:14+00:00",
+   "summary": "Hacker News上围绕Quad9宣布停止在法国提供DNS服务的讨论获得321分和160条评论。Quad9称因法国法院要求其屏蔽特定域名而选择撤出当地服务。评论者关注DNS服务商是否应承担内容过滤义务、司法管辖对全球基础设施的影响、版权执法与互联网自由之间的冲突，以及用户如何通过更换解析器或自建DNS规避拦截。讨论还涉及此类裁决对中小型公共DNS运营者的合规压力和欧洲互联网治理走向。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Active intrusion campaign against Check Point security management servers",
+   "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+   "published": "2026-11-24T16:32:17+00:00",
+   "summary": "Hacker News 上一条关于 GreyNoise 披露 Check Point 安全管理服务器遭活跃入侵活动的讨论获得 239 分和 98 条评论。讨论围绕暴露在互联网的管理接口风险、攻击者可能利用的入口、补丁与临时缓解措施、日志检测和暴露面收敛展开，也涉及企业应如何确认是否受影响并优先处置。参与者关注实际利用迹象与防御建议，强调及时更新、限制管理访问和加强监控的重要性。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Jetty Pro",
+   "url": "http://hypercritical.co/2026/11/23/jetty-pro",
+   "published": "2026-11-24T16:23:02+00:00",
+   "summary": "Hacker News 上围绕 Jetty Pro 的讨论获得 237 分和 103 条评论。文章介绍 Jetty Pro 的推出背景与定位，评论者主要讨论开源 Jetty 项目为何需要商业版本、付费支持与托管服务对企业用户的价值，以及这种模式是否会改变社区版的发展节奏。也有人关注许可证、维护者可持续性和用户迁移成本，整体呈现对开源基础设施商业化边界的不同看法。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "GTA 6 Running on Windows",
+   "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+   "published": "2026-11-24T13:19:31+00:00",
+   "summary": "这条Hacker News讨论围绕一则推特视频展开，该视频声称在Windows上运行了GTA 6。帖子获得229分和255条评论，社区重点讨论其真实性、实现方式以及是否涉及云游戏、模拟或远程串流，并延伸到PC版GTA 6的可能性、Windows游戏兼容性和性能表现。总体来看，讨论既关注技术可行性，也提醒读者区分原生运行与串流演示。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Ternary Bonsai 2.5 27B",
+   "url": "https://prismml.com/news/bonsai-2-5-27b",
+   "published": "2026-11-24T20:08:03+00:00",
+   "summary": "Hacker News上关于Ternary Bonsai 2.5 27B的讨论获得223分和71条评论，社区关注该三元量化27B模型在精度、显存占用和推理速度之间的取舍，并讨论其训练与部署细节、与低位量化方案的对比以及实际应用可行性。部分评论肯定低位量化降低硬件门槛的意义，也有人质疑三元表示在复杂任务上的质量损失和工具链成熟度。整体讨论偏向技术评估与实践经验分享。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Worshipping at the altar of Brendan Gregg",
+   "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
+   "published": "2026-11-24T10:50:14+00:00",
+   "summary": "这篇Hacker News讨论围绕一篇题为在Brendan Gregg的祭坛前朝拜的文章展开，文章聚焦这位性能工程专家对系统性能分析、火焰图和eBPF等领域的影响。评论区既肯定Gregg的教程与工具降低了性能诊断门槛，也反思社区是否过度推崇个人偶像，并交流学习方法、实践经验和工具适用边界。该帖获得208分和38条评论，呈现出技术社区对性能工程方法论的热议。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+   "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+   "published": "2026-11-24T17:07:41+00:00",
+   "summary": "Hacker News 上围绕路透社报道展开讨论，该报道称微软在一次历史性服务中断后依据内部备忘录宣布进入 Code Red 状态。讨论焦点包括故障暴露出的云服务可靠性问题、内部应急响应流程、Code Red 对工程团队的优先级意味着什么，以及微软是否应提高事故透明度。帖子获得 199 分和 172 条评论，反映出开发者对大型平台稳定性与事后复盘机制的高度关注。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "hacker_news",
+   "source_id": "hn",
+   "source_name": "Hacker News",
+   "title": "A training engine for your local model, using your idle compute",
+   "url": "https://github.com/sous-labs/songe",
+   "published": "2026-11-24T15:03:40+00:00",
+   "summary": "Hacker News 上关于 songe 的讨论介绍了一个面向本地模型的训练引擎，其核心设想是调用用户闲置算力来参与训练。帖子获得155分和45条评论。讨论主要关注本地训练的实际可行性、闲置资源的调度与利用效率、训练稳定性与工程实现难度，以及它与现有训练框架相比的适用场景。评论也涉及普通开发者能否以较低成本参与模型训练，以及这种模式在隐私、硬件差异和协作效率方面的潜在取舍。总体看，这是一个把空闲计算转化为训练能力的技术方案，社区对其落地价值与限制进行了多角度交流。",
+   "categories": [
+    "hn"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "published": "2026-11-25",
+   "summary": "Claude-BugHunter 是一个用 Python 编写的 Claude Code 技能包，面向漏洞赏金猎人与外部红队工作。它整合了 84 项技能、15 个斜杠命令，并围绕 24 类核心漏洞整理了 681 条公开披露报告中的模式，同时还提供企业身份与基础设施攻击矩阵，帮助安全研究人员在授权测试中更系统地复用真实案例经验并组织攻击路径。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "published": "2026-11-25",
+   "summary": "obra/superpowers 是一个托管在 GitHub 上的开源项目，使用 Shell 语言实现，定位为面向智能体的技能框架与软件开发方法论。项目强调实际可用，旨在帮助开发者组织智能体技能并落地开发流程。根据补充信息，该项目今日新增 1006 星，显示出较高关注度，适合关注智能体工程化和软件开发方法论的开发者了解与参考。",
+   "categories": [
+    "Shell"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "published": "2026-11-25",
+   "summary": "HKUDS/CLI-Anything 是一个使用 Python 开发的开源项目，目标是让所有软件都能通过命令行界面被智能体原生调用，推动软件与 AI Agent 深度集成。项目今日新增 1075 星，关注度较高。其 CLI-Hub 地址为 https://clianything.cc/，可作为了解和使用该项目的入口。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "published": "2026-11-25",
+   "summary": "jingyaogong/minimind 是一个用 Python 实现的开源大语言模型训练项目，主打在两小时内从零训练出 64M 参数的小型大模型。项目将模型结构、训练流程和配套代码进行轻量化整合，降低初学者理解与实践大模型训练的门槛，适合用于学习完整训练链路和快速实验。凭借简洁易上手的特点，该项目今日新增 727 星，受到关注。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "published": "2026-11-25",
+   "summary": "cursor/plugins 是 GitHub 上的开源项目，主要提供 Cursor 插件规范与官方插件，项目使用 TypeScript 编写。它帮助开发者了解插件开发方式并参考官方实现，今日新增 359 星，显示出较高关注度，适合关注 Cursor 生态和插件开发的开发者了解与使用。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "published": "2026-11-25",
+   "summary": "firecrawl 是 GitHub 上的开源项目，使用 TypeScript 编写，今日新增 990 星。它定位为让智能体更聪明的知识基础设施，提供统一 API，帮助开发者搜索、抓取并访问 550 多个数据提供方，从而简化智能体获取外部知识与数据的流程。",
+   "categories": [
+    "TypeScript"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "nginx/nginx",
+   "url": "https://github.com/nginx/nginx",
+   "published": "2026-11-25",
+   "summary": "nginx/nginx 是 NGINX 官方开源代码仓库，主要使用 C 语言开发，汇集了这款高性能 Web 服务器与反向代理软件的核心源码。NGINX 以事件驱动架构著称，擅长处理高并发连接，资源占用较低，常用于静态内容服务、负载均衡、缓存、API 网关以及 TCP 和 UDP 代理等场景。该仓库今日新增 158 星，说明持续受到开发者关注，适合希望了解服务器软件实现、参与开源协作或基于官方源码进行构建和二次开发的人员参考。",
+   "categories": [
+    "C"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "published": "2026-11-25",
+   "summary": "OpenVINO 是 openvinotoolkit 在 GitHub 上维护的开源工具包，主要使用 C++ 开发，专注于 AI 推理的优化与部署。它可帮助开发者将训练好的模型高效运行在不同硬件平台上，提升推理性能并简化部署流程。项目今日新增 187 颗星，说明社区关注度较高，适合需要跨平台部署计算机视觉和深度学习应用的开发者使用。",
+   "categories": [
+    "C++"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "published": "2026-11-25",
+   "summary": "这个以 HTML 为主要语言的开源项目今日新增 794 星，面向 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 等编程助手，提供编辑风格的图表设计能力，覆盖 52 种图表类型。它输出自包含的 HTML 与 SVG，不添加阴影效果，并强调避免 Mermaid 式粗糙观感，让开发者能在代码助手工作流中快速生成更精致、可直接使用的图表。",
+   "categories": [
+    "HTML"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "github_trending",
+   "source_id": "github",
+   "source_name": "GitHub Trending",
+   "title": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "published": "2026-11-25",
+   "summary": "mvanhorn/last30days-skill 是一个用 Python 编写的开源 AI 智能体技能，专门用于围绕任意话题开展跨平台调研。它会同时检索 Reddit、X、YouTube、Hacker News、Polymarket 以及公开网页等多个信息源，汇聚近期讨论与数据，再综合生成一份有据可依的摘要，帮助用户快速掌握话题的舆论走向与关键事实。项目今日新增 695 颗星，热度上升明显，适合需要时效性情报的调研与分析场景。",
+   "categories": [
+    "Python"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Pruning Autonomous Driving VLAs: What to Preserve for Reasoning and Action",
+   "url": "http://arxiv.org/abs/2611.31240v1",
+   "published": "2026-11-25",
+   "summary": "本文研究面向自动驾驶的推理型视觉语言动作模型结构化剪枝，目标是在降低内存与计算开销的同时保留场景理解和轨迹预测能力。作者分析Alpamayo-1.5-10B中的泰勒重要性，发现推理目标与轨迹目标对同一视觉语言模型结构赋予不同重要性；在动作专家中，MLP通道跨去噪步的重要性排序比查询头更稳定，且少量通道集中了大部分重要性。据此提出MoOP，将两类目标的重要性排名结合用于视觉语言模型剪枝，并聚合逐步重要性以选择固定的专家MLP通道子集。补充信息还提到总参数24.0%处的设置。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Let Vision-Language Models Generate Images through Their Representations",
+   "url": "http://arxiv.org/abs/2611.31237v1",
+   "published": "2026-11-25",
+   "summary": "近期统一多模态模型试图在单一模型中融合视觉理解与生成，但有效整合这两种能力仍具挑战。利用预训练视觉语言模型可以复用已学习的多模态知识，然而让这些知识有效服务于视觉生成并不简单。我们发现核心难点在于理解与生成所使用的视觉表示存在异构性。为此，我们提出Integral，通过构建共享视觉表示空间将预训练视觉语言模型转化为统一多模态模型。该方法包含两个互补组件：抽象融合模块通过聚合冻结视觉编码器的层次化表示来构建共享视觉标记，从而弥合理解与生成之间的表示差异。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "TowerBridge: Bridging the Dual-Encoder Modality Gap via Weight-Space Programming",
+   "url": "http://arxiv.org/abs/2611.31233v1",
+   "published": "2026-11-25",
+   "summary": "提出TowerBridge：针对CLIP双编码器共享空间中的模态差距，发现事后消除差距普遍损害检索。方法用配对统计量识别编码器在困难负样本上比匹配样本更一致的方向，轻微衰减这些方向以提升检索并大体保留差距；通过统计量引导LLM代理生成闭式权重编辑，无需反向传播，可编辑任意组件。在13个CLIP检查点改善COCO测试检索，并编辑输出投影。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+   "url": "http://arxiv.org/abs/2611.31228v1",
+   "published": "2026-11-25",
+   "summary": "该论文研究语言模型通过逐步口头表达数值置信度来触发回溯纠错的策略，指出其依赖错误时置信度原位下降与不确定性标记因果引导修复两项能力。作者评估Qwen2.5-7B、Llama-3.1-8B、Mistral-7B和Phi-4四个开源模型，覆盖15200次数学基准尝试，隔离2017个推理错误，并应用27568次反事实续写。结果显示监测与控制持续解耦：四个模型均无法检测自身错误，口头置信度不能区分错误步骤，注入的不确定性标记虽可引导模型，但模型缺乏原位自我监测能力。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "How Far Can Linear Go? BiPert, a Unified Framework for Single-Cell Perturbation Modelling",
+   "url": "http://arxiv.org/abs/2611.31227v1",
+   "published": "2026-11-25",
+   "summary": "理解遗传扰动如何影响细胞行为对基因功能和调控机制研究至关重要。大规模CRISPR筛选可测量数千基因的扰动效应，但覆盖的细胞背景相对有限，因此在未见细胞类型中预测扰动响应以及根据转录效应识别扰动基因仍具挑战。作者提出，这两类任务都可通过将转录响应线性分解为共享组分和扰动特异组分来统一处理。基于这一原则，他们构建了BiPert，一个同时支持正向扰动预测和反向扰动识别的简单线性框架。在未见细胞系的基因表达变化预测中，BiPert优于不使用外部生物知识的方法，其少样本扩展进一步提升了该框架的适用性。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
+   "url": "http://arxiv.org/abs/2611.31225v1",
+   "published": "2026-11-25",
+   "summary": "数据集蒸馏将大规模数据压缩为小型合成集并保持训练有效性，但自监督场景研究不足，因蒸馏数据需保留学习增强不变表示所需信息。为此提出MIPA：将合成图像视为可学习原型，用冻结编码器按特征相似度分配真实样本，并通过最大化互信息优化同一图像增强视图的原型分配一致性，以提升自监督蒸馏效果。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "Agentic AI for Intent Management and Control in Autonomous Communication Networks",
+   "url": "http://arxiv.org/abs/2611.31223v1",
+   "published": "2026-11-25",
+   "summary": "人工智能驱动的自动化有助于未来移动网络将高层网络意图转化为具体的网络优化或控制动作，但现有方法多聚焦于意图管理与编排，较少处理底层网络优化与控制功能的适配问题。本文提出一种三元智能体人工智能框架，通过解释器、优化器和控制器三个智能体协同设计意图管理与意图履行。其中，解释器由语言模型驱动，负责将意图翻译并细化为机器可读的优化模板；优化器根据意图规格调整控制器策略；控制器执行快速决策。文章讨论各智能体的设计空间以及该工作流如何嵌入不同网络架构域，并给出具体实现方案。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "paper",
+   "source_id": "arxiv",
+   "source_name": "arXiv",
+   "title": "CTLink: A Text-Prompted Segmentation Model for Linking Radiology Report Findings to 3D Chest CT Scans",
+   "url": "http://arxiv.org/abs/2611.31222v1",
+   "published": "2026-11-25",
+   "summary": "放射学报告仅以文本描述发现，未在扫描图像上标注，读者难以直接定位异常。CTLink是一种文本提示的3D分割模型，可根据胸部CT报告中的发现进行分割。模型在4123例非增强胸部CT和9547个分割报告发现上训练，其中包括新标注数据集ReXGroundingCTv2，涵盖1134例扫描和1895个发现，并对每个发现的所有实例进行分割。在200例验证扫描上，CTLink的命中率为0.816，实例F1为0.456，平均Dice为0.400，显著优于VoxTell的0.533、0.175和0.234。在MICCAI 2026 ReXGrounding挑战测试集上，七个CTLink模型的集成取得最高成绩。",
+   "categories": [
+    "paper"
+   ],
+   "priority": "normal"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "How to Ship Millions of Lines of Agent-Written Code — Jarred Sumner, Anthropic",
+   "url": "https://www.youtube.com/watch?v=TvsF67C2F54",
+   "published": "2026-11-24",
+   "summary": "Anthropic 讲清如何把代理编写的数百万行代码送上线，并给出代码审查与发布环节的具体做法。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/TvsF67C2F54/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "AI Engineer",
+   "title": "Software Factories: Escape from Trash Mountain — Steve Yegge, Gas Town",
+   "url": "https://www.youtube.com/watch?v=SRhXgeNluIk",
+   "published": "2026-11-24",
+   "summary": "Steve Yegge 用“软件工厂”方法把 AI 生成代码从垃圾山式堆积改造成可复用流水线，这正是视频的核心拆解。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/SRhXgeNluIk/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "How To Build A Jet Engine From Scratch",
+   "url": "https://www.youtube.com/watch?v=-ieJwYq4j-o",
+   "published": "2026-11-24",
+   "summary": "视频把从零造喷气发动机拆成可复现的加工与装配步骤，能看清压气机、燃烧室等关键部件如何配合。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/-ieJwYq4j-o/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Y Combinator",
+   "title": "Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?",
+   "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+   "published": "2026-11-19",
+   "summary": "听 Robin Hanson 论证放缓AI反而会把算力和规则锁进少数大公司，比泛泛谈风险更具体。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/lwfewYL7X0o/hqdefault.jpg"
+  },
+  {
+   "kind": "youtube",
+   "source_id": "yt",
+   "source_name": "Anthropic",
+   "title": "The making of Anthropic",
+   "url": "https://www.youtube.com/watch?v=sof3vW4mHTs",
+   "published": "2026-11-19",
+   "summary": "视频复盘Anthropic从OpenAI分拆创立的过程，并交代其宪法AI方法如何影响产品与安全治理。",
+   "categories": [
+    "video"
+   ],
+   "priority": "normal",
+   "image_url": "https://i.ytimg.com/vi/sof3vW4mHTs/hqdefault.jpg"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "2035 came early",
+   "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+   "published": "2026-11-25",
+   "summary": "其称部分原估2035年才显现的技术与社会变化已提前发生，讨论就证据、采用曲线、成本下降、监管滞后和习惯改变正反交锋。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "LLM agents work for their parent companies, not for you",
+   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "published": "2026-11-25",
+   "summary": "文章称LLM代理的激励与母公司一致、可能优先厂商利益，评论争论透明度、隐私、供应商锁定、审计能力和用户降依赖。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "published": "2026-11-25",
+   "summary": "它整合84项技能与24类漏洞的681条公开报告模式，并附企业身份和基础设施攻击矩阵，便于授权测试复用案例。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  },
+  {
+   "kind": "news",
+   "source_id": "pick",
+   "source_name": "我的挑选",
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "published": "2026-11-25",
+   "summary": "它用Python让软件经命令行被智能体原生调用，推动软件与AI Agent深度集成，今日新增1075星。",
+   "categories": [
+    "pick"
+   ],
+   "priority": "high"
+  }
+ ]
+}
