@@ -17,3 +17,11 @@
 [07:09:09] insight 对你 114 字
 [07:09:09] 内容写入 content/2026-11-25.json，共 37 条
 [07:09:09] build rc=0 items: 37 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[07:09:12] commit rc=0 [main 7a10cf7] daily: 2026-11-25 自动更新
+[07:09:19] push main rc=0    9decec7..7a10cf7  main -> main
+[07:09:28] push gh-pages rc=1 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[07:10:07] push gh-pages 重试2 rc=1
+[07:10:57] push gh-pages 重试3 rc=1
+[07:11:53] push gh-pages 重试4 rc=1
+[07:12:15] 站点验证：2026-11-25 已上线
+[07:12:15] === 完成，降级项 0 ===

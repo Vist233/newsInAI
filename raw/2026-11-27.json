@@ -1,0 +1,246 @@
+{
+ "hacker_news": [
+  {
+   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+   "url": "https://scottaaronson.blog/?p=10379",
+   "points": 1980,
+   "comments": 1805,
+   "published": "2026-11-25T19:11:27+00:00",
+   "hn_id": "50646108"
+  },
+  {
+   "title": "Tell HN: Happy Thanksgiving",
+   "url": "https://news.ycombinator.com/item?id=50655664",
+   "points": 582,
+   "comments": 135,
+   "published": "2026-11-26T14:26:54+00:00",
+   "hn_id": "50655664"
+  },
+  {
+   "title": "Intel One Mono font (2023)",
+   "url": "https://github.com/intel/intel-one-mono",
+   "points": 454,
+   "comments": 235,
+   "published": "2026-11-26T10:11:01+00:00",
+   "hn_id": "50653667"
+  },
+  {
+   "title": "Nextcloud Office Desktop app",
+   "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+   "points": 394,
+   "comments": 201,
+   "published": "2026-11-26T11:50:49+00:00",
+   "hn_id": "50654289"
+  },
+  {
+   "title": "AMD-specific fork of llama.cpp",
+   "url": "https://devnull.land/amd-specific-llama-cpp",
+   "points": 275,
+   "comments": 64,
+   "published": "2026-11-26T17:11:29+00:00",
+   "hn_id": "50657265"
+  },
+  {
+   "title": "OpenAI may be in cost control mode",
+   "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+   "points": 258,
+   "comments": 251,
+   "published": "2026-11-26T07:33:12+00:00",
+   "hn_id": "50652527"
+  },
+  {
+   "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+   "url": "https://github.com/antonpictures/youtube-punisher",
+   "points": 247,
+   "comments": 319,
+   "published": "2026-11-26T17:36:47+00:00",
+   "hn_id": "50657530"
+  },
+  {
+   "title": "Moat: OpenRouter replacement",
+   "url": "https://commandcode.ai/moat",
+   "points": 246,
+   "comments": 141,
+   "published": "2026-11-26T06:32:48+00:00",
+   "hn_id": "50652184"
+  },
+  {
+   "title": "AI made self-hosting fun again",
+   "url": "https://janlukas.blog/posts/ai-self-hosting",
+   "points": 244,
+   "comments": 141,
+   "published": "2026-11-26T21:47:45+00:00",
+   "hn_id": "50660180"
+  },
+  {
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "points": 222,
+   "comments": 199,
+   "published": "2026-11-26T09:44:23+00:00",
+   "hn_id": "50653477"
+  },
+  {
+   "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+   "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+   "points": 216,
+   "comments": 40,
+   "published": "2026-11-26T21:08:05+00:00",
+   "hn_id": "50659841"
+  },
+  {
+   "title": "An algebraic quantization of gravity from the null cone",
+   "url": "https://arxiv.org/abs/2611.34924",
+   "points": 206,
+   "comments": 69,
+   "published": "2026-11-26T05:37:51+00:00",
+   "hn_id": "50651863"
+  }
+ ],
+ "github_trending": [
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "language": "Python",
+   "stars_today": "1,597",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter"
+  },
+  {
+   "repo": "obra/superpowers",
+   "desc": "An agentic skills framework &amp; software development methodology that works.",
+   "language": "Shell",
+   "stars_today": "854",
+   "url": "https://github.com/obra/superpowers"
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "language": "Python",
+   "stars_today": "746",
+   "url": "https://github.com/HKUDS/CLI-Anything"
+  },
+  {
+   "repo": "jingyaogong/minimind",
+   "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+   "language": "Python",
+   "stars_today": "702",
+   "url": "https://github.com/jingyaogong/minimind"
+  },
+  {
+   "repo": "cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "language": "TypeScript",
+   "stars_today": "270",
+   "url": "https://github.com/cursor/plugins"
+  },
+  {
+   "repo": "firecrawl/firecrawl",
+   "desc": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+   "language": "TypeScript",
+   "stars_today": "1,046",
+   "url": "https://github.com/firecrawl/firecrawl"
+  },
+  {
+   "repo": "nginx/nginx",
+   "desc": "The official NGINX Open Source repository.",
+   "language": "C",
+   "stars_today": "150",
+   "url": "https://github.com/nginx/nginx"
+  },
+  {
+   "repo": "openvinotoolkit/openvino",
+   "desc": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "language": "C++",
+   "stars_today": "176",
+   "url": "https://github.com/openvinotoolkit/openvino"
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "language": "HTML",
+   "stars_today": "955",
+   "url": "https://github.com/cathrynlavery/diagram-design"
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "language": "Python",
+   "stars_today": "759",
+   "url": "https://github.com/mvanhorn/last30days-skill"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+   "url": "http://arxiv.org/abs/2611.34942v1",
+   "published": "2026-11-25T18:59:57Z",
+   "abstract": "End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mismatch in channel models. Models trained only on an AWGN channel achieve low bit error rates (BERs) under matched conditions but degrade severely on Rayleigh fading with practical front-end impairments. To reduce the time and energy required to adapt to new channel conditions, we propose a low-latency transfer-learning procedure that starts from an AWGN-pretrained system and fine-tunes only a small subset of transmitter and receiver layers while freezing the remainder. We further formulate layer selection as a budget-constrained optimization problem that identifies the most "
+  },
+  {
+   "title": "Tokenisation is not in APX",
+   "url": "http://arxiv.org/abs/2611.34938v1",
+   "published": "2026-11-25T18:59:38Z",
+   "abstract": "In this paper, we prove that, unless P=NP, no polynomial-time algorithm can find a tokeniser whose objective is within any constant factor of the optimum, meaning that tokenisation is not in the APX complexity class. We prove this for direct and bottom-up tokenisation, under both a compression or unigram log-likelihood objectives, and for binary or larger alphabets. We further show that, even over unary alphabets, direct tokenisation is APX-hard, and thus admits no polynomial-time approximation scheme."
+  },
+  {
+   "title": "Can image generation help visual reasoning? An empirical study",
+   "url": "http://arxiv.org/abs/2611.34935v1",
+   "published": "2026-11-25T18:59:31Z",
+   "abstract": "Language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. Across 13 vision-language model and generator pairs, generation lowers mean accuracy by 3.7 percentage points, with declines on nine of ten tasks. Two unified models, BAGEL and Janus-Pro-7B, each lose accuracy on eight tasks. On VSTAR, adding a generated image to the same planning hint lowers accuracy by 10.47 points. Repeated image edits yield different outcomes across tasks. ChartQAPro and MathVista stay below their no-generation baselines, while ERQA gains three points after ten edits."
+  },
+  {
+   "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+   "url": "http://arxiv.org/abs/2611.34934v1",
+   "published": "2026-11-25T18:59:28Z",
+   "abstract": "AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to both the method used to generate attack policies and the level of optimisation applied within that method. This rate ranged from 0.5\\% to 20.8\\% across optimisation levels of a single method (reinforcement learning), and from 6.4\\% to 23.0\\% across methods at their best observed optimisation level (optimised prompting vs.\\ transcript editing). Every attack policy was developed against proxy monitors only: all reported results show attacks transferring to the held-out GPT-5.4 target monitor. Our results suggest that monitor evasion evaluations can easily mislead: an evaluat"
+  },
+  {
+   "title": "A gene informed benchmark for BioScoring of pathology foundation models",
+   "url": "http://arxiv.org/abs/2611.34930v1",
+   "published": "2026-11-25T18:59:13Z",
+   "abstract": "Pathology foundation models are usually compared by their performance on downstream tasks such as classification and retrieval. While such benchmarks measure how useful a model is, they provide no insight into the biology it represents. We introduce BioScore, a benchmark that quantifies how well an image encoder captures cell identities, with spatial transcriptomics of the same tissue as the reference. A sparse autoencoder splits the encoder's patch embeddings into sparse features, which we cluster into a fixed number of groups. BioScore then measures, for each of 52 cell identities defined by marker genes, how specifically one group follows the identity's expression over the tissue. Because the autoencoder training is fully unsupervised, a match shows that the model represents the cell identity from the image alone. We score 8 pathology foundation models and 3 natural-image models. Ever"
+  },
+  {
+   "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+   "url": "http://arxiv.org/abs/2611.34928v1",
+   "published": "2026-11-25T18:59:11Z",
+   "abstract": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning steps, and ranks them by position-weighted uncertainty. It then generates deliberately distinct alternative candidates for highly ranked steps using reference-answer guidance and a meta-thought before completing the resulting traces. On greedy-unsolved DeepMath-103K problems, DART recovers 37% more problems than MC sampling at a matched number of generated traces. Its estimated generation cost per recovered problem is nearly identical, while its cost per accepted trace is 30% lower. Post-trainin"
+  },
+  {
+   "title": "Mixture-of-Loops Transformer",
+   "url": "http://arxiv.org/abs/2611.34923v1",
+   "published": "2026-11-25T18:58:53Z",
+   "abstract": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and reads local KV across loops for expressivity. Under loop KV, MoLT-KV instead restarts from embeddings and reads current-loop local KV with preceding-loop memory KV at earlier positions for efficiency. MoLT-KV eliminates same-position cross-loop dependence and, paired with loop forcing for parallel training, unlocks single-traversal Mixture-of-Loops (MoL) decoding beyond the training loop horizon. T"
+  },
+  {
+   "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
+   "url": "http://arxiv.org/abs/2611.34920v1",
+   "published": "2026-11-25T18:58:42Z",
+   "abstract": "Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. Existing evaluations offer limited coverage when participants react throughout a session. We introduce $μ$-Bench, a benchmark for joint task completion in closed-loop, full-duplex multi-user voice interaction. Simulated participants act from isolated profiles of goals, knowledge, and permissions, adapting to the agent's speech and tool outcomes. Across 20 domains, 100 scenarios vary group size, acoustics, and follow-up demands to form 800 cases (408 tool-augmented, 392 tool-free). Joint Task Success (JTS) requires all user goals, privacy boundaries, and terminal states to hold jointly, while Pure JTS further disallows unauthorized tool calls; Attribution, Threading, and Coordination (ATC) diagnostics localize failures. Across 13 voice agents, pr"
+  },
+  {
+   "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+   "url": "http://arxiv.org/abs/2611.34899v1",
+   "published": "2026-11-25T18:51:36Z",
+   "abstract": "This work presents a novel application of Earth Observation (EO) embeddings for Maritime Domain Awareness (MDA) from the perspective of the geospatial foundation model TerraMind. By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project. In particular, linear and non-linear probing of compressed embeddings, latent space representations of synthetic aperture radar (SAR) imagery, is used to detect, localise, and characterise vessels from Sentinel-1 GRD images. Vessel detection achieves a ROC-AUC of 0.95, while vessel localisation has a median error of around 300 m for vessels longer than 100 m, and vessel AIS type-code classification achieves 62% accuracy for the maj"
+  },
+  {
+   "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+   "url": "http://arxiv.org/abs/2611.34894v1",
+   "published": "2026-11-25T18:47:56Z",
+   "abstract": "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness $E/ρ$, and its yield stress $σ_Y/ρ$ when the impact causes plastic deformation, with a feed-forward predictor trained only in simulation. Real videos carry no material labels, so such predictors are developed and validated on synthetic data alone. We show that synthetic validation ranks their geometric inputs in the wrong order. Material acts through 3D deformation, and tracklets lifted to 3D with estimated depth are indeed the most accurate input in simulation. However, on real drops they are the least accurate, and better depth does not repair them: the failure persists with simulator depth in training, LiDAR depth at test time, and exact depth on rendered replays of the real drops. Short 2D optical-flow tracklets d"
+  },
+  {
+   "title": "Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
+   "url": "http://arxiv.org/abs/2611.34887v1",
+   "published": "2026-11-25T18:45:35Z",
+   "abstract": "Decision trees are among the most well-known interpretable models in Machine Learning. Over the years, a wide variety of strategies have been proposed to define split conditions within the greedy learning framework, aiming to guide instance routing and enhance predictive performance. These strategies range from axis-parallel and oblique splits based on feature values to proximity-based splits using exemplar instances and more complex hybrid approaches. However, no single method has emerged as universally superior. In this work, we present two key contributions to the construction of greedy decision trees. First, we propose a hybrid tree architecture that integrates both feature-based and case-based splits, allowing for heterogeneous splits throughout the tree. Second, we introduce a novel type of split that leverages a selective case-based approach: when a split is needed, our method sea"
+  },
+  {
+   "title": "Stranger Things: When Objects Appear Without Their Typical Neighbors",
+   "url": "http://arxiv.org/abs/2611.34881v1",
+   "published": "2026-11-25T18:39:28Z",
+   "abstract": "Visual context is a powerful cue for object recognition: scenes inform what, where, and at what scale objects are likely to appear. Yet over-reliance on context becomes a failure mode when models predict objects based on their typical neighbors rather than the objects' own visual features, which we call typicality bias. While extensively studied in the pre-Transformer era, it has often been assumed that architectural and scale improvements would naturally solve it, and a systematic diagnostic across the modern vision stack remains absent. We provide such a diagnostic framework. We measure typicality bias via normalized pointwise mutual information (NPMI) over object pairs, and introduce STRANGE-Bench (Synthetic Typicality-RANked Grounded Evaluation Benchmark): a photorealistic, layout-controlled benchmark spanning 17 sub-tiers from typical to never-co-occurring object pairs. Across five "
+  }
+ ]
+}

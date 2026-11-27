@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Brief · 2026-11-27</title>
+  <link rel="icon" href="/logo.png">
+  <style>
+    :root {
+      --paper:#f1f0ec;
+      --field:#e6e3dc;
+      --ink:#111111;
+      --muted:#6e6c66;
+      --line:#c9c5bc;
+      --line-strong:#1c1c1c;
+      --signal:#d8ff3e;
+      --signal-soft:rgba(216,255,62,.34);
+      --font-sans:Inter,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+      --font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+      --item-no-width:52px;
+      --item-gap:18px;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family:var(--font-sans);
+      background:
+        linear-gradient(rgba(201,197,188,.34) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201,197,188,.34) 1px, transparent 1px),
+        var(--paper);
+      background-size:48px 48px,48px 48px,auto;
+      color:var(--ink);
+    }
+    main {
+      max-width:1120px;
+      margin:56px auto;
+      padding:42px 20px 72px;
+      background:var(--paper);
+      box-shadow:0 0 0 12px var(--paper);
+      position:relative;
+    }
+    header {
+      border-bottom:1px solid var(--line-strong);
+      padding-bottom:28px;
+      margin-bottom:0;
+    }
+    .eyebrow,.date,.meta,.tags,.section-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:12px;
+      letter-spacing:0;
+    }
+    .identity {
+      font-family:var(--font-sans);
+      color:var(--ink);
+      font-size:clamp(36px,8vw,86px);
+      line-height:.92;
+      font-weight:800;
+      margin:8px 0 6px;
+      letter-spacing:0;
+    }
+    h1 { font-size:clamp(32px,7vw,74px); line-height:.92; margin:0; letter-spacing:0; font-weight:800; }
+    .hollow { color:transparent; -webkit-text-stroke:1.2px var(--ink); }
+    h2 { font-size:18px; margin:0; }
+    section { border-top:1px solid var(--line-strong); padding:34px 0; background:var(--paper); }
+    header + section { border-top:0; }
+    .section-head { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+    .section-no {
+      background:var(--signal);
+      color:var(--ink);
+      padding:2px 6px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:30px;
+      height:20px;
+      transform:translateY(-1px);
+    }
+    .insight { display: flex; flex-direction: column; gap: 14px; }
+    .insight-row { display: grid; grid-template-columns: 48px 1fr; gap: 14px; align-items: start; border-left: 1px solid rgba(60,56,50,.18); padding-left: 14px; }
+    .insight-label { font-size: 11px; letter-spacing: .12em; color: #8a8378; padding-top: 3px; }
+    .insight-text { margin: 0; font-size: 15.5px; line-height: 1.75; color: #2e2b26; }
+    .summary {
+      white-space:pre-wrap;
+      line-height:1.75;
+      font-size:16px;
+    }
+    .section-subtitle { margin:0 0 16px 0; color:var(--muted); font-size:13px; }
+    .feature-card {
+      display:grid;
+      grid-template-columns:260px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .feature-stack {
+      display:grid;
+      gap:22px;
+    }
+    .feature-art {
+      min-height:150px;
+      border:1px solid var(--line-strong);
+      background:
+        linear-gradient(135deg, rgba(216,255,62,.52), transparent 42%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+      padding:14px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+    .feature-art-title {
+      font-size:28px;
+      line-height:.98;
+      font-weight:800;
+    }
+    .feature-art-meta {
+      font-family:var(--font-mono);
+      font-size:12px;
+      color:var(--ink);
+    }
+    .book-art {
+      background:
+        linear-gradient(135deg, rgba(17,17,17,.08), transparent 44%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+    }
+    .movie-info p { margin:0 0 10px; }
+    .movie-title { font-size:20px; line-height:1.25; }
+    .movie-reason { line-height:1.75; max-width:720px; }
+    .book-title { font-size:20px; line-height:1.25; margin:0 0 10px; }
+    .book-chapter { margin:0 0 10px; color:var(--ink); line-height:1.5; }
+    .book-reason { margin:0; line-height:1.75; max-width:720px; }
+    .items { border-top:0; }
+    .item {
+      display:grid;
+      grid-template-columns:var(--item-no-width) minmax(0,1fr);
+      gap:var(--item-gap);
+      border-bottom:1px solid var(--line);
+      padding:16px 0;
+      align-items:start;
+    }
+    .item:last-child {
+      border-bottom:0;
+      padding-bottom:0;
+    }
+    .item-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.35;
+      padding-top:2px;
+    }
+    .item-main { min-width:0; }
+    .title-line {
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:14px;
+      width:100%;
+    }
+    .title-link {
+      color:var(--ink);
+      font-size:17px;
+      line-height:1.35;
+      text-decoration-thickness:1px;
+      text-underline-offset:4px;
+      flex:1;
+      min-width:0;
+    }
+    .item a:hover { background:var(--signal-soft); }
+    .inline-time {
+      flex:0 0 auto;
+      white-space:nowrap;
+      text-align:right;
+    }
+    .item a { color:var(--ink); }
+    .item a:hover { background:var(--signal-soft); }
+    .source-line {
+      margin-top:6px;
+      min-height:16px;
+    }
+    .media-layout {
+      display:grid;
+      grid-template-columns:220px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .media-body {
+      min-height:100%;
+      display:flex;
+      flex-direction:column;
+    }
+    .video-meta {
+      margin-top:auto;
+    }
+    .thumb {
+      display:block;
+      width:100%;
+      aspect-ratio:16/9;
+      object-fit:cover;
+      border:1px solid var(--line-strong);
+      background:var(--field);
+    }
+    .description {
+      margin-top:8px;
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.65;
+      display:-webkit-box;
+      -webkit-line-clamp:3;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+    .monitor-link-row {
+      display:grid;
+      grid-template-columns:minmax(0,1fr) auto;
+      gap:20px;
+      align-items:center;
+    }
+    .monitor-title {
+      font-size:18px;
+      line-height:1.25;
+      margin:0 0 5px;
+    }
+    .monitor-overview {
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.55;
+      max-width:540px;
+      margin:0;
+    }
+    .monitor-facts {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:10px;
+      margin-top:14px;
+      max-width:620px;
+    }
+    .monitor-fact {
+      min-width:0;
+      padding:10px 12px;
+      border-top:2px solid var(--signal);
+      background:var(--field);
+    }
+    .monitor-fact-label {
+      display:block;
+      color:var(--muted);
+      font:10px/1.2 var(--font-mono);
+      letter-spacing:.04em;
+      text-transform:uppercase;
+    }
+    .monitor-fact-value {
+      display:block;
+      color:var(--ink);
+      font-size:25px;
+      font-weight:800;
+      line-height:1.1;
+      margin:5px 0 3px;
+    }
+    .monitor-fact-copy {
+      display:block;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.35;
+    }
+    .monitor-link {
+      display:inline-flex;
+      align-items:center;
+      border:1px solid var(--ink);
+      background:var(--field);
+      color:var(--ink);
+      padding:8px 10px;
+      font:12px/1 var(--font-mono);
+      text-decoration:none;
+      max-width:100%;
+      overflow-wrap:anywhere;
+    }
+    .monitor-link:hover {
+      background:var(--signal);
+      color:var(--ink);
+    }
+    .brief-footer {
+          margin-top:42px;
+          padding-top:18px;
+          border-top:1px solid var(--line);
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          font:12px/1 var(--font-mono);
+        }
+        .brief-footer a {
+          color:var(--muted);
+          text-decoration:none;
+        }
+        .brief-footer a:hover {
+          color:var(--ink);
+          text-decoration:underline;
+          text-decoration-color:var(--signal);
+          text-underline-offset:4px;
+        }
+        .brief-footer .footer-sep {
+          color:var(--muted);
+          margin: 0 10px;
+          user-select:none;
+          pointer-events:none;
+        }
+        @media (max-width:720px) {
+          .brief-footer .footer-sep { margin: 0 8px; }
+        }
+    @media (max-width:720px) {
+      :root {
+        --item-no-width:38px;
+      }
+      .title-line {
+        flex-direction:column;
+        align-items:flex-start;
+        gap:4px;
+      }
+      .inline-time {
+        text-align:left;
+      }
+      .media-layout { grid-template-columns:1fr; }
+      .feature-card { grid-template-columns:1fr; }
+      .monitor-link-row {
+        grid-template-columns:1fr;
+        grid-template-areas:"action" "details";
+      }
+      .monitor-copy { grid-area:details; }
+      .monitor-facts { grid-template-columns:repeat(3,minmax(0,1fr)); }
+      .monitor-link { grid-area:action; }
+      .monitor-link { justify-self:start; }
+    }
+  
+  /* 台账行：与主站 item 同一字号阶梯（标题 15 / 正文 14 / 标签 11） */
+  .ledger { border-top: 1px solid var(--line-strong); }
+  .led-cap {
+    display: flex; gap: 10px; align-items: baseline; padding: 15px 0 7px;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+  }
+  .led-cap span { color: var(--ink); }
+  .led-row {
+    display: grid; grid-template-columns: 180px minmax(0, 1fr);
+    gap: 18px; padding: 11px 0; border-top: 1px solid var(--line); align-items: start;
+  }
+  .led-key { font-size: 15px; font-weight: 500; line-height: 1.5; color: var(--ink); }
+  .led-key-mono { font-family: var(--font-mono); font-weight: 400; font-size: 12px; color: var(--muted); padding-top: 4px; }
+  .led-val { min-width: 0; }
+  .led-val p { margin: 0; font-size: 14px; line-height: 1.62; color: var(--muted); }
+  .led-val a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .led-val a:hover { border-bottom-color: var(--ink); }
+  .led-dim { color: var(--muted); font-size: 12px; }
+  .led-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .led-tags span {
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+    border: 1px solid var(--line); padding: 1px 6px;
+  }
+  .led-quote {
+    margin: 10px 0 0; padding: 0 0 0 16px; border-left: 2px solid var(--ink);
+    font-size: 15px; line-height: 1.7; color: var(--ink);
+  }
+  .led-quote cite {
+    display: block; margin-top: 6px; font-style: normal;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+  }
+  .led-quote cite a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .led-line { margin: 12px 0 0; font-size: 15px; line-height: 1.7; color: var(--ink); }
+
+  /* 岗位统计 */
+  .stat-top { display: flex; align-items: flex-end; gap: 20px; padding: 6px 0 18px; }
+  .stat-num { font-family: var(--font-mono); font-size: 44px; line-height: 1; color: var(--ink); letter-spacing: -.02em; }
+  .stat-meta { display: flex; flex-wrap: wrap; gap: 16px; padding-bottom: 4px; font-size: 13px; color: var(--muted); }
+  .stat-meta b { font-family: var(--font-mono); font-weight: 400; color: var(--ink); }
+  .stat-dim { color: var(--muted); font-size: 12px; }
+  .stat-body { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 32px; align-items: start; border-top: 1px solid var(--line); padding-top: 18px; }
+  .donut { display: block; }
+  .jobs-table { min-width: 0; }
+  .jobs-row {
+    display: grid; grid-template-columns: minmax(0, 1fr) 64px 64px 64px;
+    gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line);
+    font-size: 14px; align-items: baseline;
+  }
+  .jobs-head {
+    border-bottom: 1px solid var(--line-strong); color: var(--muted);
+    font-family: var(--font-mono); font-size: 11px; padding-bottom: 6px;
+  }
+  .jobs-dir { color: var(--ink); }
+  .jobs-n { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); text-align: right; }
+  .jobs-head div:nth-child(n+2) { text-align: right; }
+
+  @media (max-width: 760px) {
+    .led-row { grid-template-columns: 1fr; gap: 4px; }
+    .led-key-mono { padding-top: 0; }
+    .stat-body { grid-template-columns: 1fr; gap: 16px; }
+    .stat-num { font-size: 36px; }
+  }
+
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="identity">ZhangYvJing's</div>
+    <h1><span class="hollow">Daily Brief</span></h1>
+  </header>
+  <section class="feature-picks">
+    <div class="section-head"><span class="section-no">00</span><h2>Film / Book Chapter</h2></div>
+    <div class="feature-stack">
+      <div class="feature-card">
+        <div class="feature-art">
+          <div class="feature-art-title">Moneyball</div>
+          <div class="feature-art-meta">2011 / Bennett Miller</div>
+        </div>
+        <div class="movie-info">
+          <p class="movie-title"><strong>Moneyball (2011)</strong> · Bennett Miller</p>
+          <p class="movie-reason">旧评价体系失灵时，怎么用证据重新决定下注</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-art book-art">
+          <div class="feature-art-title">The Effective Engineer</div>
+          <div class="feature-art-meta">Edmond Lau</div>
+        </div>
+        <div class="movie-info">
+          <p class="book-title"><strong>The Effective Engineer</strong> · Edmond Lau</p>
+          <p class="book-chapter">Focus on High-Leverage Activities</p>
+          <p class="book-reason">讲杠杆与高产出习惯</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section><div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div><div class="insight"><div class="insight-row"><span class="insight-label">今天</span><p class="insight-text">Claude-BugHunter 内置 85 个技能和 16 个斜杠命令，并针对 24 个核心漏洞类别整理了 681 条已公开报告模式。firecrawl 的统一 API 支持搜索、抓取并访问 550 多个数据提供方。jingyaogong/minimind 主打在两小时内从零训练出 64M 参数的大语言模型。Gmail 的 MCP 服务器不支持发送邮件，而 Google 计划让 AI 代理通过其 MCP 服务器访问 Workspace 服务。</p></div><div class="insight-row"><span class="insight-label">转向</span><p class="insight-text">Google 计划让 AI 代理通过其 MCP 服务器访问 Workspace 服务，而 Gmail 的 MCP 服务器不支持发送邮件，工具调用行为从“接入服务”收窄为“权限边界内的受限动作”。 方向是写操作变少、动作级授权检查变多，从服务级接入转向可授权动作清单。</p></div><div class="insight-row"><span class="insight-label">对你</span><p class="insight-text">在 Sakura Code 的工具调用回归里加一条 Gmail MCP 负例：传入发送邮件请求，断言 harness 识别到该服务器不支持发送邮件后一轮内终止而非重试，并把工具调用次数与重试次数记为评测指标。</p></div></div></section>
+  <section>
+    <div class="section-head"><span class="section-no">02</span><h2>Worth Reading</h2></div>
+    <p class="section-subtitle">我的挑选 · 今日值得看</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://scottaaronson.blog/?p=10379">Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">讨论将AI能力跃迁的兴奋与证据是否充分、结果能否复现、安全治理分歧并置，呈现科研与社会影响的真实争论。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://news.ycombinator.com/item?id=50655664">Tell HN: Happy Thanksgiving</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">582票、135条讨论，评论围绕节日问候、社区文化和技术从业者日常交流，体现社区重视成员互动与联结。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">内置85个技能和16个斜杠命令，按24类漏洞整理681条公开报告模式，可帮红队搭建系统化测试流程。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">它提供统一API，可搜索、抓取并接入550多个数据源，帮智能体补充外部数据，今日新增1046颗星。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">03</span><h2>Hacker News</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://scottaaronson.blog/?p=10379">Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-25T19:11:27+00:00">2026-11-25T19:11:27+00:00</time></span></div>
+    
+    <div class="description">这次 Hacker News 讨论围绕 Scott Aaronson 博客文章对当前技术进展规模的震惊展开，帖子获得约 1980 分和 1805 条评论。评论既表达了对 AI 能力快速跃迁的兴奋，也集中讨论证据是否充分、结果能否复现、对科研和社会的影响，以及安全治理与乐观悲观立场之间的分歧。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://news.ycombinator.com/item?id=50655664">Tell HN: Happy Thanksgiving</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26T14:26:54+00:00">2026-11-26T14:26:54+00:00</time></span></div>
+    
+    <div class="description">该Hacker News讨论以Tell HN: Happy Thanksgiving为题，属于社区向的Tell HN帖子，获得582分和135条评论。帖子借感恩节契机向HN社区致意，评论区围绕节日问候、社区文化以及技术从业者的日常交流展开，整体氛围轻松友好，体现出该技术社区在严肃技术话题之外也重视成员之间的互动与联结。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/intel/intel-one-mono">Intel One Mono font (2023)</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26T10:11:01+00:00">2026-11-26T10:11:01+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上围绕 Intel One Mono 字体的讨论热度较高，该帖获得 454 分和 235 条评论。Intel One Mono 是 Intel 于 2023 年发布的开源等宽字体，主要面向开发者，尤其关注低视力人群的可读性需求，强调字符区分度和长时间编码时的舒适性。讨论中，评论者比较了它与 JetBrains Mono、Fira Code 等编程字体的实际显示效果，并交流了字形设计、连字支持、屏幕渲染、授权方式以及日常编码体验等话题。整体来看，社区既关注该字体在清晰度和辨识度上的设计取舍，也讨论其在终端和编辑器中的适用场景与潜在改进空间。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/">Nextcloud Office Desktop app</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26T11:50:49+00:00">2026-11-26T11:50:49+00:00</time></span></div>
+    
+    <div class="description">Hacker News上关于Nextcloud Office桌面应用的讨论获得394分和201条评论。该应用把Euro Office带到桌面，强调开源、自托管和隐私，讨论者关注其与微软Office和Google Docs的兼容性、协作体验、部署维护成本以及企业迁移可行性，也探讨桌面客户端能否降低使用门槛并推动开源办公生态在组织中的采用。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://devnull.land/amd-specific-llama-cpp">AMD-specific fork of llama.cpp</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26T17:11:29+00:00">2026-11-26T17:11:29+00:00</time></span></div>
+    
+    <div class="description">Hacker News上讨论了一个针对AMD硬件定制的llama.cpp分支，该分支可能通过ROCm或HIP后端优化AMD GPU上的大语言模型推理性能。社区评论集中在专用分支的必要性、长期维护成本、与上游合并的可行性，以及AMD软件栈的成熟度。开发者对在AMD平台高效运行模型表现出浓厚兴趣，帖子获得275分和64条评论，反映出该话题在本地推理社区中的关注度。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://micjm.com/blog/openai-is-in-cost-control-mode/">OpenAI may be in cost control mode</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26T07:33:12+00:00">2026-11-26T07:33:12+00:00</time></span></div>
+    
+    <div class="description">这篇Hacker News讨论围绕文章《OpenAI may be in cost control mode》展开，该帖获得258分和251条评论。参与者从推理成本、模型效率、API定价、企业采购和竞争压力等角度，探讨OpenAI是否正转向更谨慎的成本管理，并争论其背后是盈利压力、算力约束还是市场策略调整。部分评论认可成本控制信号，另一些则质疑文章证据和结论是否充分。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/antonpictures/youtube-punisher">YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26T17:36:47+00:00">2026-11-26T17:36:47+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上讨论了一个名为 YouTube Ad Punisher 的开源项目，其思路是在检测到广告播放时自动重载 YouTube 页面，以刷新方式跳过广告而不是直接屏蔽广告。该帖子获得 247 分和 319 条评论，评论围绕实际效果、用户体验、对创作者收益的影响以及平台可能采取的反制措施展开。这个项目在 GitHub 上公开，支持者认为它提供了简单直接的规避方案，反对者则担心频繁刷新会破坏观看体验并引发更严格的限制。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://commandcode.ai/moat">Moat: OpenRouter replacement</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26T06:32:48+00:00">2026-11-26T06:32:48+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上出现一则关于 Moat 的讨论，将其定位为 OpenRouter 的替代方案。帖子获得 246 分和 141 条评论，说明社区对模型路由与聚合服务的替代选择有明显兴趣。讨论围绕 Moat 的功能定位、与 OpenRouter 的兼容性和差异、自托管与成本控制、可靠性与供应商切换等话题展开，也涉及开发者是否应把多模型调用层交给第三方。整体来看，这是一次围绕开放模型路由工具选型和实际部署取舍的技术交流。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://janlukas.blog/posts/ai-self-hosting">AI made self-hosting fun again</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26T21:47:45+00:00">2026-11-26T21:47:45+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上这篇题为“AI made self-hosting fun again”的帖子获得244分和141条评论，讨论AI如何降低自托管门槛，让家庭服务器和开源服务的部署、配置与排错重新变得有趣。参与者认为AI能解释日志、生成配置、辅助诊断，减少反复查文档的挫败感；同时也提醒要警惕安全风险、隐私泄露、幻觉建议和过度依赖，强调人仍需理解系统并承担维护责任。整体氛围偏向谨慎乐观。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://techstackups.com/articles/google-workspace-ai-agents-mcp/">Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can&#x27;t Send Email</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26T09:44:23+00:00">2026-11-26T09:44:23+00:00</time></span></div>
+    
+    <div class="description">这则 Hacker News 讨论围绕 Google 计划让 AI 代理通过其 MCP 服务器访问 Workspace 服务展开，重点之一是 Gmail 的 MCP 服务器不支持发送邮件。文章获得 222 分和 199 条评论，社区主要质疑这种能力限制是否削弱代理实用性，并讨论权限控制、安全边界与 MCP 标准化之间的关系。有人认为只读或受限操作可降低风险，也有人担心 Google 借 MCP 收紧生态控制，使第三方代理难以完成完整任务。总体看，讨论集中在 AI 代理接入企业办公套件时功能、安全与开放性的权衡。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">04</span><h2>GitHub Trending</h2></div>
+    <p class="section-subtitle">Daily · Top 10</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">Claude-BugHunter 是一个面向漏洞挖掘与外部红队工作的 Claude Code 技能包，使用 Python 开发。它内置 85 个技能和 16 个斜杠命令，并针对 24 个核心漏洞类别整理了 681 条已公开报告模式，同时还提供企业身份与基础设施攻击矩阵。该项目今日新增约 1597 颗星，热度很高，适合安全研究人员和红队工程师快速搭建系统化的测试流程。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/obra/superpowers">obra/superpowers</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">obra/superpowers 是一个采用 Shell 编写的开源项目，提供面向智能体的技能框架与可落地的软件开发方法论。它帮助开发者把智能体能力组织成可复用的技能，并融入实际软件流程，从而提升开发与协作效率。项目今日新增 854 星，受到较多关注，适合希望借助智能体改进工作方式的团队参考。</div>
+    <div class="meta source-line">Shell</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/HKUDS/CLI-Anything">HKUDS/CLI-Anything</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">HKUDS/CLI-Anything 是一个使用 Python 开发的开源项目，目标是让所有软件都具备智能代理原生能力，使各类工具能够被智能体更直接地调用和集成。项目今日新增 746 星，关注度较高。其配套 CLI-Hub 入口为 clianything.cc，可帮助开发者了解和接入相关能力，适合关注智能体工具生态与命令行集成方向的人员进一步探索。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">jingyaogong/minimind 是一个用 Python 实现的开源大模型训练项目，主打在两小时内从零训练出 64M 参数的大语言模型。项目面向希望亲手实践大模型训练流程的学习者和开发者，覆盖数据准备、模型构建与训练等关键环节，帮助降低入门门槛并加深对 LLM 原理的理解。该项目今日新增 702 星，说明其简洁目标和可操作性受到社区关注，适合用来快速体验从零搭建并训练小型语言模型的完整过程。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/cursor/plugins">cursor/plugins</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">cursor/plugins 是 GitHub 上的开源项目，主要提供 Cursor 插件规范及官方插件实现，使用 TypeScript 编写。项目为开发者定义插件接口与开发约定，并给出官方插件示例，便于理解如何为 Cursor 构建和集成扩展功能。今日该项目新增 270 星，说明其受到较多关注。对于希望参与 Cursor 插件生态的开发者，该项目可作为规范参考和上手入口。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">firecrawl/firecrawl 是一个用 TypeScript 开发的开源项目，定位为让智能体更聪明的知识基础设施。它提供统一 API，支持搜索、抓取并访问 550 多个数据提供方，帮助开发者更方便地为智能体接入和利用外部数据。该项目今日新增 1046 颗星，关注度和社区热度较高，适合需要构建数据检索与网页抓取能力的智能体应用场景。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/nginx/nginx">nginx/nginx</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">nginx/nginx 是 NGINX 官方开源代码仓库，主要使用 C 语言开发，汇集了 NGINX 核心服务器及相关开源组件的源码。项目今日新增 150 星，体现出开发者对高性能 Web 服务器、反向代理和负载均衡技术的持续关注。该仓库适合希望了解 NGINX 实现、参与社区贡献或基于其源码进行学习与二次开发的用户关注。</div>
+    <div class="meta source-line">C</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/openvinotoolkit/openvino">openvinotoolkit/openvino</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">OpenVINO 是一个开源工具包，主要用于优化和部署人工智能推理，项目以 C++ 为主要实现语言。它面向需要高效运行 AI 模型的开发者，帮助降低推理部署门槛并提升执行效率。该项目今日新增 176 星，显示出较高的社区关注度和活跃度，适合关注 AI 推理优化、边缘计算与生产部署的开发者进一步了解和使用。</div>
+    <div class="meta source-line">C++</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/cathrynlavery/diagram-design">cathrynlavery/diagram-design</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">cathrynlavery/diagram-design 是一个面向 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 等编程助手的编辑风格图表设计项目，提供 52 种图表类型。它采用自包含的 HTML 与 SVG 实现，不使用阴影效果，也避免 Mermaid 式的粗糙排版。项目以 HTML 为主要语言，今日新增约 955 颗星，适合需要高质量图形表达的开发场景。</div>
+    <div class="meta source-line">HTML</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">这个开源项目使用 Python 编写，定位为 AI 代理技能，可围绕任意主题在 Reddit、X、YouTube、Hacker News、Polymarket 以及网页等多个来源开展调研，并综合生成有依据的摘要。它适合需要快速跨平台收集近期信息并形成可信总结的场景。项目今日新增 759 星，关注度较高，体现出其在信息检索与摘要整合方面的实用价值。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">05</span><h2>YouTube</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=bFcob2p6u3A"><img class="thumb" src="https://i.ytimg.com/vi/bFcob2p6u3A/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=bFcob2p6u3A">Execution Is Free. How Ambitious Are You? — Jason Liu, OpenAI</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26">2026-11-26</time></span></div>
+        <div class="description">OpenAI 的 Jason Liu 提出“执行免费”，据此重估团队该把野心押在哪些问题上。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=1S4hx3wgvBE"><img class="thumb" src="https://i.ytimg.com/vi/1S4hx3wgvBE/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=1S4hx3wgvBE">Stop Building Software Factories — Justin McCarthy, Diffusion</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-26">2026-11-26</time></span></div>
+        <div class="description">Justin McCarthy 在 Diffusion 提出停止建软件工厂、改按产品团队组织，能避免交付提速却创新停滞的陷阱。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=-ieJwYq4j-o"><img class="thumb" src="https://i.ytimg.com/vi/-ieJwYq4j-o/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=-ieJwYq4j-o">How To Build A Jet Engine From Scratch</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-24">2026-11-24</time></span></div>
+        <div class="description">视频用从零加工压气机、燃烧室到涡轮并最终试车的完整工序，展示自制喷气发动机每一步如何落地。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=lwfewYL7X0o"><img class="thumb" src="https://i.ytimg.com/vi/lwfewYL7X0o/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=lwfewYL7X0o">Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+        <div class="description">罗宾·汉森在辩论中提出放缓AI可能把控制权让给更不谨慎</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=sof3vW4mHTs"><img class="thumb" src="https://i.ytimg.com/vi/sof3vW4mHTs/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=sof3vW4mHTs">The making of Anthropic</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+        <div class="description">视频里 Anthropic 联合创始人复盘从 OpenAI 出走，并说明“宪法式 AI”如何把安全约束写进训练，这条一手</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">08</span><h2>Papers</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34942v1">Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">本文研究基于自编码器的AI原生通信，并量化信道模型训练测试失配带来的敏感性。仅在AWGN信道训练的模型在匹配条件下误码率较低，但在存在实际前端损伤的瑞利衰落信道上性能显著下降。为降低适应新信道所需时间与能量，提出低延迟迁移学习方法，从AWGN预训练系统出发，仅微调少量收发层并冻结其余层，同时将层选择建模为预算约束优化问题，以识别最值得微调的层组合。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34938v1">Tokenisation is not in APX</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">本文证明除非P=NP，否则不存在多项式时间算法能够找到目标值在最优值任意常数倍以内的分词器，因此分词问题不属于APX复杂度类。该结论适用于直接分词和自底向上分词，也适用于压缩目标与unigram对数似然目标，并覆盖二元及更大字母表。作者进一步表明，即使在了一元字母表上，直接分词仍是APX困难的，因而没有多项式时间近似方案。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34935v1">Can image generation help visual reasoning? An empirical study</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">该论文实证检验生成辅助图像能否改善视觉问答。模型先描述所需辅助图，再结合原图与生成图作答。在13组视觉语言模型与生成器组合中，生成使平均准确率下降3.7个百分点，10项任务中9项下降。两个统一模型BAGEL与Janus Pro 7B各在8项任务上准确率降低。在VSTAR上，同一规划提示加入生成图后准确率下降10.47个百分点。重复图像编辑在不同任务上结果不一。ChartQAPro和MathVista始终低于无生成基线，而ERQA在十次编辑后提升3个百分点。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34934v1">Attack Policy Selection can Mislead Monitor Evaluators</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">本文研究攻击策略选择对AI监控器评估的误导风险。作者以前生产OpenAI监控器为案例，使用攻击策略生成的对话记录作为危险行为代理，发现测得的假阴性率同时高度依赖攻击策略生成方法及其优化程度。仅强化学习一种方法在不同优化水平下，假阴性率从0.5%升至20.8%；在各自最佳观察优化水平下，优化提示与对话记录编辑两类方法之间从6.4%升至23.0%。所有攻击策略均只针对代理监控器开发，但报告结果均显示攻击可迁移至留出的GPT 5.4目标监控器。结果表明监控器规避评估很容易产生误导，评估设计需谨慎。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34930v1">A gene informed benchmark for BioScoring of pathology foundation models</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">病理基础模型通常以分类和检索等下游任务性能进行比较，但这些基准只衡量模型用途，无法揭示其表示的生物学信息。作者提出BioScore基准，以同一组织的空间转录组为参考，量化图像编码器捕获细胞身份的能力。该方法用稀疏自编码器将图像块嵌入分解为稀疏特征并聚类为固定数量组，再针对标记基因定义的52种细胞身份，衡量各组随组织表达变化的特异性。由于训练完全无监督，匹配说明模型仅凭图像即可表示细胞身份。研究评估8个病理基础模型和3个自然图像模型。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34928v1">Diverse Alternative Reasoning Traces for Hard Math Problems</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">针对数学推理的后训练常依赖最终答案通过验证的接受轨迹，但在难题上独立蒙特卡洛采样得到的此类轨迹稀少。为此，论文提出多样化替代推理轨迹方法DART，它从被拒轨迹出发，将其分解为推理步骤并按位置加权不确定性排序，再对高排名步骤借助参考答案引导和元思考生成刻意不同的替代候选，并补全轨迹。在贪心未解的DeepMath-103K问题上，相同生成轨迹数下DART比蒙特卡洛采样多恢复37%的问题，单问题恢复估计成本几乎相同，单接受轨迹成本低30%。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34923v1">Mixture-of-Loops Transformer</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">该论文提出混合循环Transformer（MoLT），旨在提升循环Transformer的表达能力与效率权衡。其混合循环注意力（MoLA）将键和值作为记忆，在深度与循环之间选择性复用。MoLT-R保留残差流并读取局部键值以增强表达；MoLT-KV则从嵌入重新开始，读取当前循环局部键值与先前循环记忆键值以提高效率。MoLT-KV消除同位置跨循环依赖，并结合循环强制进行并行训练，实现超出训练循环视野的单次遍历混合循环解码。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34920v1">$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+    
+    <div class="description">本文提出μ-Bench，用于评估共享空间中语音代理完成多用户任务的能力。现有评测对参与者在会话中持续反应的覆盖有限。该基准构建闭环全双工多用户语音交互，模拟参与者基于隔离的目标、知识与权限配置行动，并适应代理语音和工具结果。覆盖20个领域、100个场景，通过变化组规模、声学条件和后续需求形成800个案例，其中408个工具增强、392个无工具。联合任务成功要求所有用户目标、隐私边界和终端状态同时成立，纯联合任务成功进一步禁止未授权工具调用，归因、线程与协调诊断用于定位失败。研究在13个语音代理上进行了评估。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article></div>
+  </section>
+  
+  <section><div class="section-head"><span class="section-no">09</span><h2>方向雷达</h2></div><div class='ledger'><div class="led-cap"><span>01</span>钱去哪了</div><div class="led-row"><div class="led-key">隐私AI</div><div class="led-val"><p>数据不出域成硬门槛，加密推理被当作差异化卖点</p><div class="led-tags"><span>Maple</span></div></div></div><div class="led-row"><div class="led-key">AI代理投资</div><div class="led-val"><p>把自然语言判断直接变成可交易组合，降低下单门槛</p><div class="led-tags"><span>Supertake</span></div></div></div><div class="led-row"><div class="led-key">二级回收</div><div class="led-val"><p>可复用飞船决定太空成本曲线，能做的团队极少</p><div class="led-tags"><span>穿越者</span></div></div></div><div class="led-cap"><span>02</span>我能做什么开源项目</div><div class="led-row"><div class="led-key led-key-mono"><strong>local-llm-redact</strong></div><div class="led-val"><p>企业怕数据外泄，调外部API前需要可逆脱敏层</p><div class="led-tags"><span>MVP 本地代理拦截OpenAI请求，识别并替换PII为占位符，返…</span><span>栈 Python + FastAPI + Presidio</span></div></div></div><div class="led-row"><div class="led-key led-key-mono"><strong>thesis-backtest</strong></div><div class="led-val"><p>Supertake融资验证需求，但个人可用的轻量版仍缺</p><div class="led-tags"><span>MVP 输入一句市场判断，LLM给出ETF与权重，用历史行情回测并…</span><span>栈 Next.js + yfinance + LLM API</span></div></div></div><div class="led-cap"><span>03</span>一句话</div><p class="led-line">AI估值承压，钱转向隐私、代理交易与硬科技，个人工具窗口在脱敏与回测。</p></div></section><section><div class="section-head"><span class="section-no">10</span><h2>岗位</h2></div><div class='ledger'><div class="stat-top"><div class="stat-num">207</div><div class="stat-meta"><span>环比 <b>+4.5%</b></span><span>昨日 198</span><span>最大方向 后端/服务端 15.9%</span><span class="stat-dim">同比：数据累计 15/7 天</span></div></div><div class="stat-body"><svg class="donut" viewBox="0 0 150 150" width="150" height="150" role="img" aria-label="岗位方向占比"><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#1c1c1c" stroke-width="18" stroke-dasharray="54.09 285.20" stroke-dashoffset="-0.00" transform="rotate(-90 75.0 75.0)"><title>后端/服务端 33 · 15.9%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#4a463f" stroke-width="18" stroke-dasharray="50.81 288.48" stroke-dashoffset="-54.09" transform="rotate(-90 75.0 75.0)"><title>前端/全栈 31 · 15.0%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#6e6c66" stroke-width="18" stroke-dasharray="50.81 288.48" stroke-dashoffset="-104.90" transform="rotate(-90 75.0 75.0)"><title>芯片/半导体 31 · 15.0%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#8a8378" stroke-width="18" stroke-dasharray="50.81 288.48" stroke-dashoffset="-155.71" transform="rotate(-90 75.0 75.0)"><title>基础设施/运维 31 · 15.0%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#a8a29a" stroke-width="18" stroke-dasharray="40.98 298.31" stroke-dashoffset="-206.53" transform="rotate(-90 75.0 75.0)"><title>算法/AI 25 · 12.1%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#c9c5bc" stroke-width="18" stroke-dasharray="40.98 298.31" stroke-dashoffset="-247.50" transform="rotate(-90 75.0 75.0)"><title>硬件/嵌入式 25 · 12.1%</title></circle><circle cx="75.0" cy="75.0" r="54" fill="none" stroke="#e6e3dc" stroke-width="18" stroke-dasharray="50.81 288.48" stroke-dashoffset="-288.48" transform="rotate(-90 75.0 75.0)"><title>其他 31 · 15.0%</title></circle></svg><div class="jobs-table"><div class="jobs-row jobs-head"><div>方向</div><div>条数</div><div>占比</div><div>环比</div></div><div class="jobs-row"><div class="jobs-dir">后端/服务端</div><div class="jobs-n">33</div><div class="jobs-n">15.9%</div><div class="jobs-n">+0%</div></div><div class="jobs-row"><div class="jobs-dir">前端/全栈</div><div class="jobs-n">31</div><div class="jobs-n">15.0%</div><div class="jobs-n">+24%</div></div><div class="jobs-row"><div class="jobs-dir">芯片/半导体</div><div class="jobs-n">31</div><div class="jobs-n">15.0%</div><div class="jobs-n">-3%</div></div><div class="jobs-row"><div class="jobs-dir">基础设施/运维</div><div class="jobs-n">31</div><div class="jobs-n">15.0%</div><div class="jobs-n">-11%</div></div><div class="jobs-row"><div class="jobs-dir">算法/AI</div><div class="jobs-n">25</div><div class="jobs-n">12.1%</div><div class="jobs-n">+14%</div></div><div class="jobs-row"><div class="jobs-dir">硬件/嵌入式</div><div class="jobs-n">25</div><div class="jobs-n">12.1%</div><div class="jobs-n">+19%</div></div><div class="jobs-row"><div class="jobs-dir">数据</div><div class="jobs-n">16</div><div class="jobs-n">7.7%</div><div class="jobs-n">-6%</div></div><div class="jobs-row"><div class="jobs-dir">测试/质量</div><div class="jobs-n">15</div><div class="jobs-n">7.2%</div><div class="jobs-n">+15%</div></div></div></div></div></section><section><div class="section-head"><span class="section-no">11</span><h2>宏观内参</h2></div><div class='ledger'><div class="led-row"><div class="led-key led-key-mono">01</div><div class="led-val"><p>⚠️ 每日宏观内参生成失败（rc=1）： File "/mnt/d/Basic/pi-desktop/bin/macr…</p></div></div></div></section><section><div class="section-head"><span class="section-no">12</span><h2>Issue 日报</h2></div><div class='ledger'><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11934</a> [今天] [Feature Request] Cookbook: screen a recipi…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#11921</a> [今天] [Feature Request] Upstash Redis Search vect…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12576</a> [今天] /tree summary leaves out the prompt you nav…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12573</a> [今天] Bedrock "Too many tokens" throttle is not a…<span class="led-dim"> 0 评</span></p></div></div></div></section>
+  <footer class="brief-footer">
+    <a href="/history/">History</a>
+    <span class="footer-sep">·</span>
+    <a href="/rss.xml">RSS</a>
+  </footer>
+</main>
+<script>
+(function() {
+  function relative(iso) {
+    const then = new Date(iso);
+    if (isNaN(then.getTime())) return iso;
+    const diff = Math.floor((Date.now() - then.getTime()) / 1000);
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return Math.floor(diff / 60) + ' min ago';
+    if (diff < 86400) return Math.floor(diff / 3600) + ' hr ago';
+    if (diff < 2592000) return Math.floor(diff / 86400) + ' d ago';
+    const months = Math.floor(diff / 2592000);
+    if (months < 12) return months + ' mo ago';
+    return Math.floor(months / 12) + ' yr ago';
+  }
+  document.querySelectorAll('.rel-time').forEach(el => {
+    const iso = el.getAttribute('datetime');
+    if (iso) el.textContent = relative(iso);
+  });
+})();
+</script>
+</body>
+</html>
