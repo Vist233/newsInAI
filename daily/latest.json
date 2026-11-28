@@ -1,36 +1,36 @@
 {
-  "date": "2026-11-27",
-  "summary": "今天：Claude-BugHunter 用 Python 开发，包含 85 项技能、16 个斜杠命令，并围绕 24 个核心漏洞类别整理出 681 条已披露报告模式。cathrynlavery/diagram-design 面向 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi，提供 52 种图表类型，输出自包含 HTML 与 SVG。firecrawl/firecrawl 用 TypeScript 开发，通过统一 API 提供搜索、抓取以及对 550 多个数据提供商的访问能力。jingyaogong/minimind 提供完整训练流程与代码，目标是用约两小时从零训练出 64M 参数的大语言模型。 转向：Google 推动代理接入自家 MCP 服务器、而 Gmail 的 MCP 服务器连发邮件都不行，对照此前代理工具调用默认按整项能力开放写入，变的是权限边界从接口级授权收窄为动作级白名单。方向：可写动作变少、受限只读接口变多，从“代理能调什么”转向“代理被明确允许不做什么”。 对你：在 Sakura Code 的 Pi 工具调用评测中加入 cathrynlavery/diagram-design 的 52 种图表类型用例，跑全量并记录每种类型的 HTML/SVG 输出成功率与失败类型。",
+  "date": "2026-11-28",
+  "summary": "今天：Google 提出 DeepCrossAttention，声称在模型质量相当的情况下最高达到 3 倍加速。 Convex 后端技能仓库第 64 号 issue 指出相关技能可能在未充分告知用户时把应用想法发送到远程服务器。 Claude-BugHunter 内置 85 个技能、16 个斜杠命令，并围绕 24 类核心漏洞整理出 681 条已公开报告模式。 jingyaogong/minimind 的目标是在约两小时内从零训练出 64M 参数的小型大模型。 cathrynlavery/diagram-design 提供 52 种编辑风格图表类型，输出自包含的 HTML 与 SVG，并列出对 Pi 等 AI 编程工具的支持。 转向：Claude-BugHunter 以 85 个技能、16 个斜杠命令罗列能力包，而 Convex 后端技能仓库第 64 号 issue 的争议落在技能未充分告知就把用户应用想法发往远程服务器——被检验的行为从“技能数量”变成“技能默认外发数据的披露”。这类针对默认上传与知情同意的审查变多，从功能覆盖转向工具调用链上的数据边界。 对你：在 Pi 的 harness 里接入 HKUDS/CLI-Anything 的 CLI Hub，跑 Terminal-Bench 统计各 CLI 工具的调用成功数与超时数，并按工具名归档超时。",
   "movie": {
-    "title": "Moneyball",
-    "year": 2011,
-    "director": "Bennett Miller",
-    "reason": "旧评价体系失灵时，怎么用证据重新决定下注",
+    "title": "Ikiru",
+    "year": 1952,
+    "director": "黑泽明",
+    "reason": "提醒时间该压在哪件事上",
     "tags": [
       "film"
     ],
     "image_url": ""
   },
   "book": {
-    "title": "The Effective Engineer",
-    "author": "Edmond Lau",
-    "chapter": "Focus on High-Leverage Activities",
-    "reason": "讲杠杆与高产出习惯",
+    "title": "A Philosophy of Software Design",
+    "author": "John Ousterhout",
+    "chapter": "Chapter 2: The Nature of Complexity",
+    "reason": "把复杂度当成要管理的对象，而不是代码行数",
     "tags": [
       "book"
     ]
   },
   "issue_monitor": null,
-  "extra_html": "<section><div class=\"section-head\"><span class=\"section-no\">09</span><h2>方向雷达</h2></div><div class='ledger'><div class=\"led-cap\"><span>01</span>钱去哪了</div><div class=\"led-row\"><div class=\"led-key\">隐私AI</div><div class=\"led-val\"><p>数据不出域成硬门槛，加密推理被当作差异化卖点</p><div class=\"led-tags\"><span>Maple</span></div></div></div><div class=\"led-row\"><div class=\"led-key\">AI代理投资</div><div class=\"led-val\"><p>把自然语言判断直接变成可交易组合，降低下单门槛</p><div class=\"led-tags\"><span>Supertake</span></div></div></div><div class=\"led-row\"><div class=\"led-key\">二级回收</div><div class=\"led-val\"><p>可复用飞船决定太空成本曲线，能做的团队极少</p><div class=\"led-tags\"><span>穿越者</span></div></div></div><div class=\"led-cap\"><span>02</span>我能做什么开源项目</div><div class=\"led-row\"><div class=\"led-key led-key-mono\"><strong>local-llm-redact</strong></div><div class=\"led-val\"><p>企业怕数据外泄，调外部API前需要可逆脱敏层</p><div class=\"led-tags\"><span>MVP 本地代理拦截OpenAI请求，识别并替换PII为占位符，返…</span><span>栈 Python + FastAPI + Presidio</span></div></div></div><div class=\"led-row\"><div class=\"led-key led-key-mono\"><strong>thesis-backtest</strong></div><div class=\"led-val\"><p>Supertake融资验证需求，但个人可用的轻量版仍缺</p><div class=\"led-tags\"><span>MVP 输入一句市场判断，LLM给出ETF与权重，用历史行情回测并…</span><span>栈 Next.js + yfinance + LLM API</span></div></div></div><div class=\"led-cap\"><span>03</span>一句话</div><p class=\"led-line\">AI估值承压，钱转向隐私、代理交易与硬科技，个人工具窗口在脱敏与回测。</p></div></section><section><div class=\"section-head\"><span class=\"section-no\">10</span><h2>岗位</h2></div><div class='ledger'><div class=\"stat-top\"><div class=\"stat-num\">207</div><div class=\"stat-meta\"><span>环比 <b>+4.5%</b></span><span>昨日 198</span><span>最大方向 后端/服务端 15.9%</span><span class=\"stat-dim\">同比：数据累计 15/7 天</span></div></div><div class=\"stat-body\"><svg class=\"donut\" viewBox=\"0 0 150 150\" width=\"150\" height=\"150\" role=\"img\" aria-label=\"岗位方向占比\"><circle cx=\"75.0\" cy=\"75.0\" r=\"54\" fill=\"none\" stroke=\"#1c1c1c\" stroke-width=\"18\" stroke-dasharray=\"54.09 285.20\" stroke-dashoffset=\"-0.00\" transform=\"rotate(-90 75.0 75.0)\"><title>后端/服务端 33 · 15.9%</title></circle><circle cx=\"75.0\" cy=\"75.0\" r=\"54\" fill=\"none\" stroke=\"#4a463f\" stroke-width=\"18\" stroke-dasharray=\"50.81 288.48\" stroke-dashoffset=\"-54.09\" transform=\"rotate(-90 75.0 75.0)\"><title>前端/全栈 31 · 15.0%</title></circle><circle cx=\"75.0\" cy=\"75.0\" r=\"54\" fill=\"none\" stroke=\"#6e6c66\" stroke-width=\"18\" stroke-dasharray=\"50.81 288.48\" stroke-dashoffset=\"-104.90\" transform=\"rotate(-90 75.0 75.0)\"><title>芯片/半导体 31 · 15.0%</title></circle><circle cx=\"75.0\" cy=\"75.0\" r=\"54\" fill=\"none\" stroke=\"#8a8378\" stroke-width=\"18\" stroke-dasharray=\"50.81 288.48\" stroke-dashoffset=\"-155.71\" transform=\"rotate(-90 75.0 75.0)\"><title>基础设施/运维 31 · 15.0%</title></circle><circle cx=\"75.0\" cy=\"75.0\" r=\"54\" fill=\"none\" stroke=\"#a8a29a\" stroke-width=\"18\" stroke-dasharray=\"40.98 298.31\" stroke-dashoffset=\"-206.53\" transform=\"rotate(-90 75.0 75.0)\"><title>算法/AI 25 · 12.1%</title></circle><circle cx=\"75.0\" cy=\"75.0\" r=\"54\" fill=\"none\" stroke=\"#c9c5bc\" stroke-width=\"18\" stroke-dasharray=\"40.98 298.31\" stroke-dashoffset=\"-247.50\" transform=\"rotate(-90 75.0 75.0)\"><title>硬件/嵌入式 25 · 12.1%</title></circle><circle cx=\"75.0\" cy=\"75.0\" r=\"54\" fill=\"none\" stroke=\"#e6e3dc\" stroke-width=\"18\" stroke-dasharray=\"50.81 288.48\" stroke-dashoffset=\"-288.48\" transform=\"rotate(-90 75.0 75.0)\"><title>其他 31 · 15.0%</title></circle></svg><div class=\"jobs-table\"><div class=\"jobs-row jobs-head\"><div>方向</div><div>条数</div><div>占比</div><div>环比</div></div><div class=\"jobs-row\"><div class=\"jobs-dir\">后端/服务端</div><div class=\"jobs-n\">33</div><div class=\"jobs-n\">15.9%</div><div class=\"jobs-n\">+0%</div></div><div class=\"jobs-row\"><div class=\"jobs-dir\">前端/全栈</div><div class=\"jobs-n\">31</div><div class=\"jobs-n\">15.0%</div><div class=\"jobs-n\">+24%</div></div><div class=\"jobs-row\"><div class=\"jobs-dir\">芯片/半导体</div><div class=\"jobs-n\">31</div><div class=\"jobs-n\">15.0%</div><div class=\"jobs-n\">-3%</div></div><div class=\"jobs-row\"><div class=\"jobs-dir\">基础设施/运维</div><div class=\"jobs-n\">31</div><div class=\"jobs-n\">15.0%</div><div class=\"jobs-n\">-11%</div></div><div class=\"jobs-row\"><div class=\"jobs-dir\">算法/AI</div><div class=\"jobs-n\">25</div><div class=\"jobs-n\">12.1%</div><div class=\"jobs-n\">+14%</div></div><div class=\"jobs-row\"><div class=\"jobs-dir\">硬件/嵌入式</div><div class=\"jobs-n\">25</div><div class=\"jobs-n\">12.1%</div><div class=\"jobs-n\">+19%</div></div><div class=\"jobs-row\"><div class=\"jobs-dir\">数据</div><div class=\"jobs-n\">16</div><div class=\"jobs-n\">7.7%</div><div class=\"jobs-n\">-6%</div></div><div class=\"jobs-row\"><div class=\"jobs-dir\">测试/质量</div><div class=\"jobs-n\">15</div><div class=\"jobs-n\">7.2%</div><div class=\"jobs-n\">+15%</div></div></div></div></div></section><section><div class=\"section-head\"><span class=\"section-no\">11</span><h2>宏观内参</h2></div><div class='ledger'><div class=\"led-row\"><div class=\"led-key led-key-mono\">01</div><div class=\"led-val\"><p>⚠️ 每日宏观内参生成失败（rc=1）： File \"/mnt/d/Basic/pi-desktop/bin/macr…</p></div></div></div></section><section><div class=\"section-head\"><span class=\"section-no\">12</span><h2>Issue 日报</h2></div><div class='ledger'><div class=\"led-row\"><div class=\"led-key led-key-mono\">Agno</div><div class=\"led-val\"><p><a href=\"#\">#11934</a> [今天] [Feature Request] Cookbook: screen a recipi…<span class=\"led-dim\"> 0 评</span></p></div></div><div class=\"led-row\"><div class=\"led-key led-key-mono\">Agno</div><div class=\"led-val\"><p><a href=\"#\">#11921</a> [今天] [Feature Request] Upstash Redis Search vect…<span class=\"led-dim\"> 0 评</span></p></div></div><div class=\"led-row\"><div class=\"led-key led-key-mono\">Pi</div><div class=\"led-val\"><p><a href=\"#\">#12576</a> [今天] /tree summary leaves out the prompt you nav…<span class=\"led-dim\"> 0 评</span></p></div></div><div class=\"led-row\"><div class=\"led-key led-key-mono\">Pi</div><div class=\"led-val\"><p><a href=\"#\">#12573</a> [今天] Bedrock \"Too many tokens\" throttle is not a…<span class=\"led-dim\"> 0 评</span></p></div></div></div></section>",
+  "extra_html": "<section><div class=\"section-head\"><span class=\"section-no\">09</span><h2>方向雷达</h2></div><div class='ledger'><div class=\"led-cap\"><span>01</span>钱去哪了</div><div class=\"led-row\"><div class=\"led-key\">隐私AI</div><div class=\"led-val\"><p>加密架构让厂商自己也读不到用户数据，合规与信任成为卖点</p><div class=\"led-tags\"><span>Maple</span></div></div></div><div class=\"led-row\"><div class=\"led-key\">传感可穿戴</div><div class=\"led-val\"><p>硬件传感化采集物理世界上下文，再靠AI兑现成个人服务</p><div class=\"led-tags\"><span>Heygo、Plaud、Oura</span></div></div></div><div class=\"led-row\"><div class=\"led-key\">AI估值回调</div><div class=\"led-val\"><p>头部公司破发，一级市场估值锚点松动，资金转向现金流</p><div class=\"led-tags\"><span>Anthropic</span></div></div></div><div class=\"led-cap\"><span>02</span>我能做什么开源项目</div><div class=\"led-row\"><div class=\"led-key led-key-mono\"><strong>sqlite-rsync-lite</strong></div><div class=\"led-val\"><p>sqlite3_rsync 已可用但缺调度与恢复验证，小团队自…</p><div class=\"led-tags\"><span>MVP 一条命令配置源库与远端，定时增量同步，同步后自动做完整性校…</span><span>栈 Python + sqlite3_rsync + cron</span></div></div></div><div class=\"led-row\"><div class=\"led-key led-key-mono\"><strong>complaint-drafter</strong></div><div class=\"led-val\"><p>消费者与客服系统力量不对称，AI代打客服兴起但申诉文本仍需人写</p><div class=\"led-tags\"><span>MVP 上传通话录音或粘贴聊天记录，转写后抽取扣费事实与诉求，生成…</span><span>栈 Whisper + LLM API + FastAPI</span></div></div></div><div class=\"led-cap\"><span>03</span>一句话</div><p class=\"led-line\">AI估值松动、隐私与传感硬件吸金，个人开发者机会在数据工具与代理型小工具。</p></div></section><section><div class=\"section-head\"><span class=\"section-no\">11</span><h2>宏观内参</h2></div><div class='ledger'><div class=\"led-row\"><div class=\"led-key\">宏观/流动性</div><div class=\"led-val\"><p>今日无重大更新。素材中仅有 10 月 28 日 FOMC 声明与 9 月 16 日经济预测的标题，没有可核实的…</p></div></div><div class=\"led-row\"><div class=\"led-key\">政策/合规</div><div class=\"led-val\"><p>美国收紧 AI 芯片流向中国的管控，Nvidia 已要求制造伙伴暂停向马来西亚、新加坡、泰国、印度尼西亚四国出…</p></div></div><div class=\"led-row\"><div class=\"led-key\">巨头/产业</div><div class=\"led-val\"><p>S&P 考虑将 Nvidia 信用评级下调至 AA-（第四高），理由是治理与关键人风险；Amazon 与 Me…</p></div></div><div class=\"led-row\"><div class=\"led-key\">信源与可靠度</div><div class=\"led-val\"><p>TechCrunch，援引“已告知制造伙伴”，未见 Nvidia 官方声明与具体型号/金额，可靠度中等。</p></div></div></div></section><section><div class=\"section-head\"><span class=\"section-no\">12</span><h2>Issue 日报</h2></div><div class='ledger'><div class=\"led-row\"><div class=\"led-key led-key-mono\">Agno</div><div class=\"led-val\"><p><a href=\"#\">#12015</a> [今天] [Feature Request] Add a Mobilebox hosted MC…<span class=\"led-dim\"> 0 评</span></p></div></div><div class=\"led-row\"><div class=\"led-key led-key-mono\">Agno</div><div class=\"led-val\"><p><a href=\"#\">#12010</a> [今天] [Feature Request] HelmSwap toolkit: swap qu…<span class=\"led-dim\"> 0 评</span></p></div></div><div class=\"led-row\"><div class=\"led-key led-key-mono\">Pi</div><div class=\"led-val\"><p><a href=\"#\">#12639</a> [今天] Extension hook to choose which provider id…<span class=\"led-dim\"> 1 评</span></p></div></div><div class=\"led-row\"><div class=\"led-key led-key-mono\">Pi</div><div class=\"led-val\"><p><a href=\"#\">#12616</a> [1d] Proposal: iterate committed model context w…<span class=\"led-dim\"> 2 评</span></p></div></div></div></section>",
   "items": [
     {
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-      "url": "https://scottaaronson.blog/?p=10379",
-      "published": "2026-11-25T19:11:27+00:00",
-      "summary": "这篇Hacker News讨论围绕Scott Aaronson博客所称“正在发生的巨大变化”展开，核心是近期AI系统在能力与影响上的跃升是否被夸大。评论者从技术细节、基准测试、可复现性和安全风险切入，争论这些进展是真实突破还是演示效应，并讨论其对科研、产业和监管的冲击。有人强调必须更新风险模型，也有人提醒区分实验室结果与广泛部署。该帖获得1980分和1805条评论，反映出社区对AI进展速度与后果的强烈分歧。",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "published": "2026-11-27T19:31:01+00:00",
+      "summary": "Hacker News上正在讨论Michael Nielsen将其在线教材《神经网络与深度学习》下架一事，原网址已无法正常访问。该帖获得538分和334条评论，讨论集中在作者为何撤下这本广受欢迎的免费教材、个人项目的维护与版权问题、开放教育资源的可持续性，以及此事对深度学习学习者和社区的影响。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -44,10 +44,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Tell HN: Happy Thanksgiving",
-      "url": "https://news.ycombinator.com/item?id=50655664",
-      "published": "2026-11-26T14:26:54+00:00",
-      "summary": "这是一则Hacker News上的“Tell HN”帖子，以感恩节问候为主题，获得582分和135条评论。讨论围绕节日祝福展开，社区成员表达对技术社区、开源贡献者、同行帮助和日常交流的感谢，也延伸到工作生活平衡、创业经历与远程协作等话题。整体氛围温和，展现了Hacker News在技术讨论之外的人际连接与社区温度。",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "published": "2026-11-27T15:40:31+00:00",
+      "summary": "Hacker News上讨论了一篇关于热门购物网站发现信用卡盗刷脚本的报道，这些脚本利用WebRTC技术窃取支付信息。帖子获得526分和271条评论。讨论集中在攻击者如何滥用WebRTC绕过传统安全检测、第三方脚本带来的供应链风险，以及电商平台在黑色星期五等促销期间应如何加强脚本审计、内容安全策略和支付页面监控。评论还涉及商家责任、浏览器安全边界和用户防护建议。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -61,10 +61,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Intel One Mono font (2023)",
-      "url": "https://github.com/intel/intel-one-mono",
-      "published": "2026-11-26T10:11:01+00:00",
-      "summary": "Hacker News 上关于 Intel One Mono 字体的讨论获得 454 分和 235 条评论，项目页面位于 GitHub。该字体是 Intel 开源的等宽字体，面向编程和终端场景，强调可读性并支持多种字重与样式。讨论集中在字形设计、编程连字是否实用、与主流等宽字体的对比、许可与长期维护等方面，也涉及开发者选择字体时对可读性、审美和工具兼容性的权衡。整体看，社区既认可其清晰的工程取向，也对其实际使用体验和适用场景提出不同看法。",
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "published": "2026-11-27T23:06:29+00:00",
+      "summary": "这篇 Hacker News 讨论围绕 Google 提出的 DeepCrossAttention 展开，该方法声称在保持模型质量相当的同时实现最高三倍加速。帖子获得 399 分和 151 条评论，关注点包括该机制对 Transformer 残差连接的改动是否带来稳定收益，三倍加速在何种模型规模和硬件条件下成立，以及它与现有注意力优化和残差连接方案的对比。评论者还关心实现复杂度、训练稳定性、可复现性和实际部署价值。整体上讨论既肯定效率改进的潜在意义，也提醒读者区分论文设定与生产环境差异。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -78,10 +78,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Nextcloud Office Desktop app",
-      "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
-      "published": "2026-11-26T11:50:49+00:00",
-      "summary": "这篇 Hacker News 讨论介绍 Nextcloud 推出 Nextcloud Office 桌面应用，将欧洲办公套件带到桌面端，帖子获得 394 分和 201 条评论。讨论主要围绕数字主权、隐私与自托管价值，以及与微软 365 和 Google Workspace 的竞争。读者也关注桌面客户端与现有 Nextcloud 集成的体验、文档兼容性、性能和部署维护成本，并讨论开源办公套件在企业采用中的机会与挑战。",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "published": "2026-11-27T19:42:25+00:00",
+      "summary": "Hacker News 上这条讨论关注多州总检察长起诉 SpaceX，要求阻止其关联平台上的 Grok 生成儿童性剥削图像和非自愿私密影像。帖子获得 387 分和 237 条评论，讨论集中在生成式模型滥用后的平台责任、内容审核是否有效、诉讼对象为何指向母公司，以及禁令能否真正阻止有害内容传播。部分评论还争论技术公司应如何平衡开放能力与安全治理。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -95,10 +95,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "AMD-specific fork of llama.cpp",
-      "url": "https://devnull.land/amd-specific-llama-cpp",
-      "published": "2026-11-26T17:11:29+00:00",
-      "summary": "Hacker News上出现一个AMD专用的llama.cpp分支，发布者在devnull.land介绍该项目，帖子获得275分和64条评论。讨论集中在为AMD GPU单独维护分支能否带来实际性能收益，ROCm生态兼容性与调优难点，以及分叉与上游主线合并之间的取舍。评论者还争论厂商专用优化是否值得长期维护成本，并分享在AMD硬件上运行大模型推理的经验。整体反映社区对AMD软件栈改进和开源项目分叉策略的关注。",
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "url": "https://bouncemarket.minhanhday.com/",
+      "published": "2026-11-27T15:01:50+00:00",
+      "summary": "Hacker News上有人发布Show HN项目bouncemarket，这是一个围绕弹跳球运行的实时预测市场游戏。玩家可对球的下一次反弹或落点等结果进行实时下注预测。该帖获得375分和126条评论，讨论集中在预测市场机制如何融入小游戏、实时交互与界面体验、实现难度以及这类玩法是否具有持续吸引力。整体来看，这是一个把概率判断和即时反馈结合起来的实验性网页项目。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -112,10 +112,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "OpenAI may be in cost control mode",
-      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-      "published": "2026-11-26T07:33:12+00:00",
-      "summary": "Hacker News 上围绕文章《OpenAI may be in cost control mode》展开讨论，帖子获得 258 分和 251 条评论。讨论主要关注 OpenAI 是否正从高速扩张转向成本控制，参与者从算力开销、模型效率、产品定价、商业化压力和竞争格局等角度分析这一信号，并争论这究竟属于阶段性运营优化，还是更长期战略调整。整体讨论热度较高，反映出开发者与从业者对 OpenAI 成本结构和可持续商业模式的持续关注。",
+      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "url": "https://unkernel.dev",
+      "published": "2026-11-28T03:19:20+00:00",
+      "summary": "Hacker News 上关于 Unkernel 的讨论介绍了一个把真实 Linux 内核编译为 WebAssembly 的项目，帖子获得 310 分和 77 条评论。评论者主要关注这种做法的可行性与实际价值，讨论在浏览器或沙箱环境中运行完整内核的意义，以及性能开销、硬件与外设模拟、系统调用兼容性和调试体验等问题。也有人将其与用户态 Linux、模拟器和虚拟化方案比较，认为它更适合教学演示、内核实验和隔离执行探索，但距离通用生产环境仍有不少工程挑战。整体讨论既肯定项目的新颖性，也提醒关注 WebAssembly 的能力边界和安全模型。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -129,10 +129,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
-      "url": "https://github.com/antonpictures/youtube-punisher",
-      "published": "2026-11-26T17:36:47+00:00",
-      "summary": "Hacker News 上讨论了一个名为 YouTube Ad Punisher 的项目，该工具在检测到 YouTube 播放广告时自动重新加载页面，试图让用户避开广告。项目在 GitHub 上开源，帖子获得 247 分和 319 条评论。讨论围绕其实现原理、实际效果、频繁刷新对观看体验的影响，以及这类做法与平台规则和创作者收益之间的张力展开，也有人关注它是否会被 YouTube 检测或失效。",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "published": "2026-11-27T18:02:45+00:00",
+      "summary": "Hacker News 上关于 Convex 后端技能仓库第 64 号 issue 的讨论受到关注，帖子获得 304 分和 97 条评论。讨论指出，相关技能可能在未充分告知用户的情况下，把用户的应用想法发送到远程服务器。评论围绕隐私、知情同意、数据上传透明度和开发者工具默认行为展开，许多参与者认为此类数据收集应明确披露并让用户选择，避免在用户不知情时传输敏感创意。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -146,10 +146,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Moat: OpenRouter replacement",
-      "url": "https://commandcode.ai/moat",
-      "published": "2026-11-26T06:32:48+00:00",
-      "summary": "Hacker News 上出现题为 Moat OpenRouter replacement 的讨论，项目链接指向 commandcode.ai/moat，帖子获得 246 分和 141 条评论。讨论聚焦 Moat 作为 OpenRouter 替代品的定位，涉及多模型 API 路由、价格与可靠性、供应商锁定、兼容性和迁移成本等话题。评论者关注它能否在性能、透明度和部署方式上形成差异，以及实际使用中是否便于接入现有应用。整体看，这是一个关于模型聚合层竞争和基础设施选择的技术讨论。",
+      "title": "False computer-checked proofs",
+      "url": "https://cr.yp.to/proofs/falseccp.html",
+      "published": "2026-11-27T15:26:09+00:00",
+      "summary": "这篇 Hacker News 讨论围绕 DJB 的文章 False computer-checked proofs 展开，主题是计算机辅助验证的数学证明为何仍可能出错。文章指出形式化证明依赖若干可信前提，包括证明助手内核、规范转写、公理和运行环境，其中任何环节有误都可能让检查器接受错误结论。评论者讨论形式验证能提供什么保证、如何降低信任基、数学证明与软件正确性验证的差异，以及实际采用形式化方法的成本与收益。该帖获229分和88条评论。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -163,10 +163,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "AI made self-hosting fun again",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
-      "published": "2026-11-26T21:47:45+00:00",
-      "summary": "这篇 Hacker News 讨论围绕文章《AI made self-hosting fun again》展开，获得 244 分和 141 条评论。作者认为 AI 降低了自托管服务的配置与排错门槛，让搭建家庭服务器重新变得轻松有趣。评论区则讨论 AI 辅助生成配置、诊断故障和维护服务的实际效果，也关注安全风险、过度依赖、学习价值以及长期维护成本等问题，整体呈现出自托管社区对 AI 工具既兴奋又谨慎的态度。",
+      "title": "Atari Homebrew Awards Cancelled",
+      "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+      "published": "2026-11-28T02:03:25+00:00",
+      "summary": "Hacker News 上出现题为 Atari Homebrew Awards Cancelled 的讨论，链接指向 AtariAge 论坛相关帖子，获得 205 分和 199 条评论。讨论围绕这一 Atari 自制游戏奖项被取消的消息展开，社区关注取消原因、组织者面临的运营压力、评审与参与度问题，以及此类活动对 Atari 爱好者生态和自制游戏可持续发展的影响。整体来看，这反映出小众复古平台的自制场景仍有活力，但奖项和社区活动的长期维护并不容易。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -180,10 +180,10 @@
       "kind": "hacker_news",
       "source_id": "hn",
       "source_name": "Hacker News",
-      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-      "published": "2026-11-26T09:44:23+00:00",
-      "summary": "Hacker News上这篇获得222分和199条评论的讨论围绕Google将推动AI代理使用其MCP服务器展开，文章特别指出Gmail的MCP服务器无法发送邮件。评论者由此质疑Google对代理权限的限制是否削弱实用性，并讨论安全边界、OAuth授权、生态锁定以及MCP标准化前景。有人认为只读或受限接口能降低误操作风险，也有人担心功能残缺让代理难以完成真实工作流。整体讨论集中在AI代理接入办公套件时便利性与控制权之间的取舍。",
+      "title": "Show HN: DragDropMath – Learn math by feel",
+      "url": "https://dragdropmath.com/",
+      "published": "2026-11-27T17:56:28+00:00",
+      "summary": "Hacker News 上出现 Show HN 项目 DragDropMath，主打通过拖拽操作让学习者以更直观的方式感受数学概念，而不是先记忆符号规则。帖子获得 138 分和 39 条评论，讨论集中在交互式数学教育的价值、拖拽设计能否降低抽象门槛，以及实际教学效果、可访问性和课堂适用性等。作为技术社区展示，它也引发了对教育类网页工具如何平衡趣味性与严谨性的讨论。",
       "raw_text": "",
       "categories": [
         "hn"
@@ -199,8 +199,8 @@
       "source_name": "GitHub Trending",
       "title": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "published": "2026-11-27",
-      "summary": "Claude-BugHunter 是一个用 Python 开发的开源项目，为 Claude Code 提供面向漏洞挖掘和外部红队工作的技能包。它包含 85 项技能、16 个斜杠命令，并围绕 24 个核心漏洞类别整理了 681 条已披露报告模式，还提供企业身份与基础设施攻击矩阵，帮助安全人员更系统地开展测试。项目今日新增约 1597 颗星，受到较多关注。",
+      "published": "2026-11-28",
+      "summary": "Claude-BugHunter 是一个用 Python 编写的开源项目，为 Claude Code 提供漏洞挖掘与外部红队工作所需的能力包。它内置 85 个技能、16 个斜杠命令，并围绕 24 类核心漏洞整理了 681 条已公开报告模式，同时还包含企业身份与基础设施攻击矩阵。项目今日新增 1608 星，适合安全研究人员在授权测试中借助 Claude 提升漏洞分析与攻击面梳理效率。",
       "raw_text": "",
       "categories": [
         "Python"
@@ -216,8 +216,8 @@
       "source_name": "GitHub Trending",
       "title": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
-      "published": "2026-11-27",
-      "summary": "obra/superpowers 是一个以 Shell 为主要实现语言的开源项目，定位为可落地的智能体技能框架与软件开发方法论。项目强调把智能体能力组织为可复用技能，并配套软件开发流程，帮助开发者将 AI 智能体更稳定地融入实际工程协作。今日新增 854 星，显示社区关注度较高。该项目适合关注智能体工作流、技能复用和工程方法落地的开发者参考。",
+      "published": "2026-11-28",
+      "summary": "obra/superpowers 是一个托管在 GitHub 上的开源项目，主要使用 Shell 语言开发，简介为“一个行之有效的智能体技能框架与软件开发方法论”。该项目今日新增 922 星，受到较多关注。它面向智能体技能组织与软件开发实践，旨在提供可落地的框架和方法，帮助开发者更系统地构建、管理和应用智能体能力，并改进软件开发流程。项目结合技能框架与工程方法论，适合关注智能体开发和软件工程实践的用户了解与参考。",
       "raw_text": "",
       "categories": [
         "Shell"
@@ -233,8 +233,8 @@
       "source_name": "GitHub Trending",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published": "2026-11-27",
-      "summary": "HKUDS/CLI-Anything 是一个用 Python 开发的开源项目，目标是让所有软件都能成为智能体原生应用，通过命令行接口把各类软件能力转化为智能体可调用、可组合的工具。项目今日新增 746 星，关注度较高，并提供 CLI-Hub 入口 https://clianything.cc/ 供了解和使用。",
+      "published": "2026-11-28",
+      "summary": "HKUDS/CLI Anything 是一个用 Python 开发的开源项目，目标是让所有软件都具备智能体原生能力，使各类工具能够更方便地被 AI 智能体调用与集成。项目今日新增 666 星，并提供 CLI Hub 入口 https://clianything.cc/，便于用户了解和使用相关能力，适合关注智能体工具生态与命令行集成的开发者参考。",
       "raw_text": "",
       "categories": [
         "Python"
@@ -250,8 +250,8 @@
       "source_name": "GitHub Trending",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published": "2026-11-27",
-      "summary": "jingyaogong/minimind 是一个基于 Python 的开源项目，旨在帮助开发者用约两小时从零训练出参数量为 64M 的大语言模型。项目提供完整训练流程与代码，降低大模型学习与实践门槛，适合入门者动手尝试。今日该项目新增 702 星，受到社区关注。",
+      "published": "2026-11-28",
+      "summary": "jingyaogong/minimind 是一个使用 Python 编写的开源大语言模型训练项目，核心目标是在约两小时内从零训练出 64M 参数的小型大模型。项目提供完整训练流程与代码，方便开发者理解并实践大模型训练，适合学习、复现实验和低资源条件探索，也降低了大模型入门门槛。项目今日新增 660 星，社区关注度较高。",
       "raw_text": "",
       "categories": [
         "Python"
@@ -267,8 +267,8 @@
       "source_name": "GitHub Trending",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published": "2026-11-27",
-      "summary": "cursor/plugins 是 Cursor 在 GitHub 上开源的项目，主要提供插件规范与官方插件示例，帮助开发者了解并构建 Cursor 插件生态。项目使用 TypeScript 编写，便于前端与工具链开发者参与和复用。今日该项目新增 270 颗星，说明社区关注度较高，适合想了解 Cursor 扩展机制、参考官方实现或参与插件开发的开发者查看。",
+      "published": "2026-11-28",
+      "summary": "cursor/plugins 是一个基于 TypeScript 的开源项目，主要提供 Cursor 插件规范以及官方插件实现，帮助开发者了解并参与 Cursor 插件生态建设。项目今日新增 243 星，说明其关注度正在上升。通过该仓库，开发者可以查阅插件规范、参考官方示例并据此开发兼容插件，从而更高效地扩展 Cursor 的能力。适合关注编辑器插件开发与 AI 编程工具生态的开发者学习和使用。",
       "raw_text": "",
       "categories": [
         "TypeScript"
@@ -284,8 +284,8 @@
       "source_name": "GitHub Trending",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "published": "2026-11-27",
-      "summary": "firecrawl/firecrawl 是一个用 TypeScript 开发的开源项目，定位为让智能体更聪明的知识基础设施。它通过统一 API 提供搜索、抓取以及对 550 多个数据提供商的访问能力，帮助开发者更高效地为智能体接入和利用外部知识。该项目今日新增 1046 星，受到社区广泛关注。",
+      "published": "2026-11-28",
+      "summary": "firecrawl/firecrawl 是一个使用 TypeScript 开发的开源项目，定位为让智能体更聪明的知识基础设施。它通过统一 API 提供搜索、抓取和访问 550 多个数据源的能力，帮助开发者更便捷地为 AI 代理接入外部知识。项目今日新增 822 星，受到较多关注，适合需要构建智能体数据获取与知识增强能力的开发者了解和使用。",
       "raw_text": "",
       "categories": [
         "TypeScript"
@@ -301,8 +301,8 @@
       "source_name": "GitHub Trending",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
-      "published": "2026-11-27",
-      "summary": "nginx/nginx 是 NGINX 官方开源代码仓库，主要使用 C 语言开发，汇集了 NGINX 核心服务器与相关模块的源代码，适合开发者学习、编译和参与贡献。项目今日新增约 150 个 Star，说明其持续受到关注。作为广泛使用的高性能 Web 服务器与反向代理软件，NGINX 以高并发、低资源占用和稳定著称，该仓库为获取官方实现、跟踪版本演进和提交问题与改进提供了权威入口。",
+      "published": "2026-11-28",
+      "summary": "nginx/nginx 是 NGINX 官方开源代码仓库，主要使用 C 语言开发。NGINX 是广泛使用的高性能 Web 服务器、反向代理和邮件代理服务器，以高并发处理能力和低资源占用著称，常被用于构建现代网站架构、负载均衡和 API 网关等场景。该仓库汇集官方源代码与相关开发资料，便于开发者学习、编译和参与贡献。项目今日新增 146 星，显示出持续受到的关注。",
       "raw_text": "",
       "categories": [
         "C"
@@ -318,8 +318,8 @@
       "source_name": "GitHub Trending",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published": "2026-11-27",
-      "summary": "openvinotoolkit/openvino 是 GitHub 上的开源项目，主要使用 C++ 开发，提供用于优化和部署人工智能推理的工具包，帮助开发者在不同硬件平台上提升模型推理效率并简化落地流程。该项目今日新增 176 颗星，受到较多关注，适合关注 AI 推理优化与部署的开发者了解和使用。",
+      "published": "2026-11-28",
+      "summary": "OpenVINO 是一个开源工具包，主要采用 C++ 开发，用于优化和部署人工智能推理任务。该项目帮助开发者在实际应用中提升推理性能并简化部署流程。它在 GitHub 上今日新增 151 颗星，受到较多关注，适合对 AI 推理优化与落地部署感兴趣的开发者了解和使用。",
       "raw_text": "",
       "categories": [
         "C++"
@@ -335,8 +335,8 @@
       "source_name": "GitHub Trending",
       "title": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "published": "2026-11-27",
-      "summary": "cathrynlavery/diagram-design 是一个面向 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 等 AI 编程工具的开源图表设计项目，主打编辑级图表风格。它提供 52 种图表类型，输出为自包含的 HTML 与 SVG，不依赖外部资源，并刻意避免阴影效果与 Mermaid 那种粗糙的默认样式。项目以 HTML 为主要语言，今日新增约 955 颗星，适合需要在代码助手工作流中快速生成干净、可控、可直接嵌入页面的专业图表的设计师和开发者使用。",
+      "published": "2026-11-28",
+      "summary": "cathrynlavery/diagram-design 是一个面向 AI 编程助手的图表设计项目，支持 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 与 Pi 等工具使用。它提供 52 种编辑风格的图表类型，输出为自包含的 HTML 与 SVG，无需外部依赖，并刻意避免阴影效果和 Mermaid 常见的粗糙观感。项目以 HTML 编写，今日新增约 725 星，适合需要高质量、可直接嵌入使用图表方案的开发者。",
       "raw_text": "",
       "categories": [
         "HTML"
@@ -352,8 +352,8 @@
       "source_name": "GitHub Trending",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published": "2026-11-27",
-      "summary": "该项目是一个用 Python 编写的开源 AI 代理技能，名为 last30days-skill，今日新增 759 星。它可围绕任意主题检索 Reddit、X、YouTube、Hacker News、Polymarket 和网页等多类信息源，并将结果综合成有事实依据的摘要，适合用于快速调研近期话题、跟踪舆论与市场信号。",
+      "published": "2026-11-28",
+      "summary": "这个开源项目使用 Python 编写，是一款面向 AI 智能体的调研技能。它能够围绕任意主题，在 Reddit、X、YouTube、Hacker News、Polymarket 以及开放网络上自动检索近期公开信息，再把多来源的线索综合成一份有据可依的摘要，帮助用户快速了解话题的最新动态与舆论走向。项目今日新增 675 星，关注度较高，适合需要实时信息聚合与背景调研的场景。",
       "raw_text": "",
       "categories": [
         "Python"
@@ -369,8 +369,8 @@
       "source_name": "arXiv",
       "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
       "url": "http://arxiv.org/abs/2611.34942v1",
-      "published": "2026-11-27",
-      "summary": "本文研究基于自编码器的AI原生通信，用联合训练的编码器解码器替代传统调制、编码与检测。论文量化了信道模型训练测试失配的敏感性，发现仅在AWGN信道训练的模型在匹配条件下误码率较低，但在存在实际前端损伤的瑞利衰落信道中严重退化。为降低适配新信道所需时间与能耗，作者提出低延迟迁移学习方案，从AWGN预训练系统出发，仅微调少量收发层并冻结其余层，同时将层选择建模为预算约束优化问题以识别最有效层。",
+      "published": "2026-11-28",
+      "summary": "本文研究AI原生自编码器通信对信道模型训练测试失配的敏感性。端到端物理层学习以联合训练的编码器和解码器替代调制、编码与检测，仅在加性高斯白噪声信道训练的模型在匹配条件下误码率较低，但在含实际前端损伤的瑞利衰落信道中显著退化。为降低适配新信道所需时间和能耗，提出低延迟迁移学习方案，从高斯白噪声预训练系统出发，仅微调少量收发层并冻结其余层，同时将层选择建模为预算约束优化问题以识别最关键层。该方案旨在实现频谱自适应并提升跨信道部署效率。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -386,8 +386,8 @@
       "source_name": "arXiv",
       "title": "Tokenisation is not in APX",
       "url": "http://arxiv.org/abs/2611.34938v1",
-      "published": "2026-11-27",
-      "summary": "本文证明除非P=NP，否则不存在多项式时间算法能使标记化目标达到最优解的任意常数倍以内，因此标记化不属于APX复杂度类。该结论适用于直接式和自底向上式标记化，在压缩目标或unigram对数似然目标下均成立，并覆盖二元及更大字母表。作者进一步表明，即使字母表仅含一个符号，直接式标记化仍是APX困难的，因而没有多项式时间近似方案。",
+      "published": "2026-11-28",
+      "summary": "本文证明除非P=NP，否则不存在多项式时间算法能使分词器的目标值落在最优解的任意常数倍以内，因此分词问题不属于APX复杂度类。该结论覆盖直接分词与自底向上分词，适用于压缩目标或unigram对数似然目标，并适用于二进制及更大字母表。作者进一步表明，即使字母表为一元，直接分词仍是APX难的，因而该问题不存在多项式时间近似方案。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -403,8 +403,8 @@
       "source_name": "arXiv",
       "title": "Can image generation help visual reasoning? An empirical study",
       "url": "http://arxiv.org/abs/2611.34935v1",
-      "published": "2026-11-27",
-      "summary": "该论文实证考察生成图像能否辅助视觉推理。方法让模型先描述所需辅助图像，再结合原图与生成图作答。在13对视觉语言模型和生成器上，生成使平均准确率下降3.7个百分点，十个任务中九个下降。两个统一模型BAGEL和Janus-Pro-7B各在八个任务上准确率下降。在VSTAR上，向相同规划提示加入生成图像使准确率下降10.47个百分点。重复图像编辑在不同任务上结果不一。ChartQAPro和MathVista仍低于无生成基线，而ERQA在十次编辑后提升3个百分点。总体表明当前生成辅助图像并未稳定改善视觉推理。",
+      "published": "2026-11-28",
+      "summary": "本文考察生成辅助图像能否提升视觉推理。作者让模型先描述所需辅助图像，再结合原图与生成图作答，并在13组视觉语言模型与图像生成器上评测。结果显示生成图像使平均准确率下降3.7个百分点，十项任务中九项退步。两个统一模型BAGEL和Janus-Pro-7B各在八项任务上准确率下降。在VSTAR上，向同一规划提示加入生成图像使准确率降低10.47个百分点。重复图像编辑在不同任务上结果不一，ChartQAPro和MathVista仍低于无生成基线，而ERQA经十次编辑提升3个百分点。总体而言，当前生成辅助图像并未稳定促进视觉推理。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -420,8 +420,8 @@
       "source_name": "arXiv",
       "title": "Attack Policy Selection can Mislead Monitor Evaluators",
       "url": "http://arxiv.org/abs/2611.34934v1",
-      "published": "2026-11-27",
-      "summary": "本文以某前生产OpenAI监控器为案例，评估攻击策略生成方式对监控器假阴性率测量的影响。结果显示，同一强化学习方法在不同优化水平下测得假阴性率从0.5%到20.8%，不同方法在各自最佳优化水平下从6.4%到23.0%，表明评估结果对攻击策略选择高度敏感。所有攻击策略仅针对代理监控器开发，但均成功迁移至留出的GPT-5.4目标监控器。研究提示，监控器规避评估若依赖特定攻击策略，可能误导评估者对监控器实际鲁棒性的判断。",
+      "published": "2026-11-28",
+      "summary": "本文评估了一个已退役的OpenAI监控器，发现其测得的假阴性率高度依赖攻击策略的生成方法及优化程度。在单一强化学习方法的不同优化水平下，该比率从0.5%到20.8%不等；在不同方法的最佳观察优化水平下，优化提示与转录编辑之间则为6.4%到23.0%。所有攻击策略仅针对代理监控器开发，但报告结果均显示攻击可迁移至留出的GPT-5.4目标监控器。结果表明，监控规避评估容易产生误导，评估者可能因攻击策略选择而错误判断监控器性能。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -437,8 +437,8 @@
       "source_name": "arXiv",
       "title": "A gene informed benchmark for BioScoring of pathology foundation models",
       "url": "http://arxiv.org/abs/2611.34930v1",
-      "published": "2026-11-27",
-      "summary": "BioScore是基因信息驱动的病理基础模型评测基准。针对现有下游任务评测难揭示表征生物学信息，它以同组织空间转录组为参考，用稀疏自编码器将图像块嵌入拆为稀疏特征并聚类，针对52种标记基因定义的细胞身份，衡量特征组随表达变化的",
+      "published": "2026-11-28",
+      "summary": "病理基础模型通常以分类和检索等下游任务性能进行比较，这类基准能衡量模型实用性，却无法揭示其表征的生物学信息。为此，作者提出BioScore基准，以同一组织的空间转录组为参考，量化图像编码器捕获细胞身份的能力。该方法用稀疏自编码器将编码器的图像块嵌入分解为稀疏特征，再聚类为固定数量的特征组。针对由标记基因定义的52种细胞身份，BioScore衡量每个特征组在组织上跟随相应身份表达的特异性。由于自编码器训练完全无监督，匹配成功说明模型仅凭图像即可表征细胞身份。作者评估了8个病理基础模型和3个自然图像模型。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -454,8 +454,8 @@
       "source_name": "arXiv",
       "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
       "url": "http://arxiv.org/abs/2611.34928v1",
-      "published": "2026-11-27",
-      "summary": "针对困难数学问题中通过验证的推理轨迹在独立蒙特卡洛采样下较为稀少的问题，论文提出多样化替代推理轨迹方法DART。该方法从被拒绝的轨迹出发，将其分解为推理步骤，并按位置加权不确定性排序，再利用参考答案指导和元思考为高排名步骤生成刻意不同的替代候选，最终完成轨迹。在贪心策略未解决的DeepMath-103K问题上，匹配生成轨迹数量时，DART比蒙特卡洛采样多恢复37%的问题，每恢复问题的估计生成成本几乎相同，而每条被接受轨迹的成本降低30%。",
+      "published": "2026-11-28",
+      "summary": "该论文提出多样替代推理轨迹方法DART，用于挖掘难数学问题的训练轨迹。现有数学推理后训练常依赖最终答案通过验证器接受的轨迹，但难问题在独立蒙特卡洛采样下难以获得此类轨迹。DART从被拒绝轨迹出发，将其分解为推理步骤，并按位置加权不确定性排序，再利用参考答案引导和元思考为高排名步骤生成刻意不同的替代候选并完成轨迹。在贪心求解失败的DeepMath-103K问题上，在生成轨迹数量相同时，DART比蒙特卡洛采样多恢复37%的问题，每个恢复问题的估计生成成本几乎相同，而每个接受轨迹的成本低30%。该方法可用于后训练。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -471,8 +471,8 @@
       "source_name": "arXiv",
       "title": "Mixture-of-Loops Transformer",
       "url": "http://arxiv.org/abs/2611.34923v1",
-      "published": "2026-11-27",
-      "summary": "循环Transformer通过复用共享层提升表达力但牺牲效率。本文提出Mixture-of-Loops Transformer（MoLT），其Mixture-of-Loops注意力将键值作为可跨深度和循环选择性复用的记忆。MoLT-R保留残差流并读取局部KV以增强表达力；MoLT-KV从嵌入重启并读取当前循环局部KV及前序循环记忆KV以提高效率。MoLT-KV消除同位置跨循环依赖，结合loop forcing并行训练，实现超出训练循环视野的单次遍历MoL解码。",
+      "published": "2026-11-28",
+      "summary": "循环Transformer通过跨循环复用共享层提升表达力，但牺牲效率。本文提出Mixture-of-Loops Transformer（MoLT），其Mixture-of-Loops注意力将键和值作为记忆，在深度与循环间选择性复用。MoLT-R在循环残差下保留残差流并读取跨循环局部键值以增强表达力；MoLT-KV从嵌入重新开始，读取当前循环局部键值和先前循环较早位置的内存键值以提高效率。MoLT-KV消除同位置跨循环依赖，结合loop forcing并行训练，支持超出训练循环范围的一次遍历MoL解码。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -488,8 +488,8 @@
       "source_name": "arXiv",
       "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
       "url": "http://arxiv.org/abs/2611.34920v1",
-      "published": "2026-11-27",
-      "summary": "该论文提出μ-Bench，用于评测共享空间中语音智能体完成多用户联合任务的能力。现有评测对参与者在会话中持续反应的多用户场景覆盖不足。μ-Bench构建闭环全双工多用户语音交互，模拟参与者依据各自隔离的目标、知识与权限行动，并适应智能体语音和工具结果。基准覆盖20个领域、100个场景，通过变化群体规模、声学条件和后续需求形成800个案例，其中408个含工具、392个无工具。联合任务成功要求所有用户目标、隐私边界和终止状态同时成立，纯联合任务成功进一步禁止未授权工具调用，归因、线程与协调诊断用于定位失败。研究评测13种语音智能体。",
+      "published": "2026-11-28",
+      "summary": "μ-Bench是面向共享空间语音代理的多用户联合任务完成基准，采用闭环全双工多用户语音交互，模拟用户依隔离目标、知识与权限行动并适应代理语音和工具结果。覆盖20领域、100场景，变化组规模、声学条件与后续需求，共800案例（408含工具、392无工具）。联合成功率要求所有用户目标、隐私边界和终止状态同时成立，纯联合成功率禁止未授权工具调用，并用归因、线程、协调诊断定位失败。",
       "raw_text": "",
       "categories": [
         "paper"
@@ -503,16 +503,16 @@
       "kind": "youtube",
       "source_id": "yt",
       "source_name": "AI Engineer",
-      "title": "Execution Is Free. How Ambitious Are You? — Jason Liu, OpenAI",
-      "url": "https://www.youtube.com/watch?v=bFcob2p6u3A",
-      "published": "2026-11-26",
-      "summary": "OpenAI 的 Jason Liu 提出“执行已免费”，把瓶颈指向野心大小，能帮人重排目标优先级。",
+      "title": "Stop Paying LLM Prices for Yes-or-No Answers — Chinmay Goyal, Glean",
+      "url": "https://www.youtube.com/watch?v=K5_ST-kMrvY",
+      "published": "2026-11-27",
+      "summary": "Chinmay Goyal 在 Glean 指出是/否问题不该按 LLM 价格计费，而应用更便宜的分类器替代并给出落地方法。",
       "raw_text": "",
       "categories": [
         "video"
       ],
       "priority": "normal",
-      "image_url": "https://i.ytimg.com/vi/bFcob2p6u3A/hqdefault.jpg",
+      "image_url": "https://i.ytimg.com/vi/K5_ST-kMrvY/hqdefault.jpg",
       "rank": 0,
       "_number": "01"
     },
@@ -520,16 +520,16 @@
       "kind": "youtube",
       "source_id": "yt",
       "source_name": "AI Engineer",
-      "title": "Stop Building Software Factories — Justin McCarthy, Diffusion",
-      "url": "https://www.youtube.com/watch?v=1S4hx3wgvBE",
-      "published": "2026-11-26",
-      "summary": "Justin McCarthy 在 Diffusion 演讲中指出软件工厂会拖慢交付，并给出替代的组织方法。",
+      "title": "Why Cloudflare Became a Neolab — Michelle Chen, Cloudflare",
+      "url": "https://www.youtube.com/watch?v=cYcYfM9Mvwo",
+      "published": "2026-11-27",
+      "summary": "Cloudflare 转型为 Neolab 的具体路径：把研究能力做成可复用的组织机制，而不是零散的项目赞助。",
       "raw_text": "",
       "categories": [
         "video"
       ],
       "priority": "normal",
-      "image_url": "https://i.ytimg.com/vi/1S4hx3wgvBE/hqdefault.jpg",
+      "image_url": "https://i.ytimg.com/vi/cYcYfM9Mvwo/hqdefault.jpg",
       "rank": 0,
       "_number": "02"
     },
@@ -540,7 +540,7 @@
       "title": "How To Build A Jet Engine From Scratch",
       "url": "https://www.youtube.com/watch?v=-ieJwYq4j-o",
       "published": "2026-11-24",
-      "summary": "视频按加工压气机叶轮、焊接燃烧室到试车点火的顺序，展示小型涡喷发动机从零件到整机的组装过程。",
+      "summary": "视频演示车削压气机叶轮、焊接燃烧室并首次点火，能看到自制喷气发动机在台架上真正转起来。",
       "raw_text": "",
       "categories": [
         "video"
@@ -557,7 +557,7 @@
       "title": "Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?",
       "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
       "published": "2026-11-19",
-      "summary": "视频中Robin Hanson与Jacob Coxon就“是否放缓AI”交锋，Hanson从竞争压力角度论证单方面减速反而可能拖慢安全治理。",
+      "summary": "看罗宾·汉森与雅各布·科克森就“是否该放缓AI”正面辩论，能直接抓住双方在风险与增长上的核心分歧。",
       "raw_text": "",
       "categories": [
         "video"
@@ -574,7 +574,7 @@
       "title": "The making of Anthropic",
       "url": "https://www.youtube.com/watch?v=sof3vW4mHTs",
       "published": "2026-11-19",
-      "summary": "Dario Amodei在片中复盘2021年离开OpenAI、创办Anthropic的决策，能看清这家公司为何把AI安全置于商业化之前。",
+      "summary": "片中达里奥·阿莫代伊解释Anthropic为何用“宪法式AI”替代单纯人类反馈，能看清其安全优先的取舍。",
       "raw_text": "",
       "categories": [
         "video"
@@ -588,10 +588,10 @@
       "kind": "news",
       "source_id": "pick",
       "source_name": "我的挑选",
-      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-      "url": "https://scottaaronson.blog/?p=10379",
-      "published": "2026-11-27",
-      "summary": "评论从技术细节、基准测试、可复现性和安全风险检验AI跃升是真突破还是演示效应，并提醒区分实验室结果与部署。",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "published": "2026-11-28",
+      "summary": "免费教材下架、原网址失效，538分334条评论聚焦个人项目维护、版权与开放教育资源的可持续性。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -605,10 +605,10 @@
       "kind": "news",
       "source_id": "pick",
       "source_name": "我的挑选",
-      "title": "Tell HN: Happy Thanksgiving",
-      "url": "https://news.ycombinator.com/item?id=50655664",
-      "published": "2026-11-27",
-      "summary": "582分、135条评论中，成员感谢开源贡献者与同行帮助，并聊工作生活平衡和远程协作，可见人际连接。",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "published": "2026-11-28",
+      "summary": "盗刷脚本滥用WebRTC绕过传统检测，讨论聚焦第三方脚本供应链风险与促销期脚本审计、CSP和支付页监控。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -624,8 +624,8 @@
       "source_name": "我的挑选",
       "title": "elementalsouls/Claude-BugHunter",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "published": "2026-11-27",
-      "summary": "该项目围绕24个核心漏洞类别整理681条已披露报告模式，配85项技能和16个斜杠命令，帮安全人员更系统地开展漏洞挖掘与红队测试。",
+      "published": "2026-11-28",
+      "summary": "内置85个技能、16个斜杠命令和24类漏洞的681条公开报告模式，可帮安全人员在授权测试中梳理攻击面。",
       "raw_text": "",
       "categories": [
         "pick"
@@ -639,10 +639,10 @@
       "kind": "news",
       "source_id": "pick",
       "source_name": "我的挑选",
-      "title": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "published": "2026-11-27",
-      "summary": "该项目以统一API整合搜索、抓取和550多个数据提供商，帮开发者高效接入外部知识，今日新增1046个星标。",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "published": "2026-11-28",
+      "summary": "它提供可落地的智能体技能框架与软件开发方法论，助开发者系统构建管理智能体能力并改进流程，今日新增922个星标。",
       "raw_text": "",
       "categories": [
         "pick"

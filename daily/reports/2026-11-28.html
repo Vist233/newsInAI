@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Brief · 2026-11-28</title>
+  <link rel="icon" href="/logo.png">
+  <style>
+    :root {
+      --paper:#f1f0ec;
+      --field:#e6e3dc;
+      --ink:#111111;
+      --muted:#6e6c66;
+      --line:#c9c5bc;
+      --line-strong:#1c1c1c;
+      --signal:#d8ff3e;
+      --signal-soft:rgba(216,255,62,.34);
+      --font-sans:Inter,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+      --font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+      --item-no-width:52px;
+      --item-gap:18px;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family:var(--font-sans);
+      background:
+        linear-gradient(rgba(201,197,188,.34) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201,197,188,.34) 1px, transparent 1px),
+        var(--paper);
+      background-size:48px 48px,48px 48px,auto;
+      color:var(--ink);
+    }
+    main {
+      max-width:1120px;
+      margin:56px auto;
+      padding:42px 20px 72px;
+      background:var(--paper);
+      box-shadow:0 0 0 12px var(--paper);
+      position:relative;
+    }
+    header {
+      border-bottom:1px solid var(--line-strong);
+      padding-bottom:28px;
+      margin-bottom:0;
+    }
+    .eyebrow,.date,.meta,.tags,.section-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:12px;
+      letter-spacing:0;
+    }
+    .identity {
+      font-family:var(--font-sans);
+      color:var(--ink);
+      font-size:clamp(36px,8vw,86px);
+      line-height:.92;
+      font-weight:800;
+      margin:8px 0 6px;
+      letter-spacing:0;
+    }
+    h1 { font-size:clamp(32px,7vw,74px); line-height:.92; margin:0; letter-spacing:0; font-weight:800; }
+    .hollow { color:transparent; -webkit-text-stroke:1.2px var(--ink); }
+    h2 { font-size:18px; margin:0; }
+    section { border-top:1px solid var(--line-strong); padding:34px 0; background:var(--paper); }
+    header + section { border-top:0; }
+    .section-head { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+    .section-no {
+      background:var(--signal);
+      color:var(--ink);
+      padding:2px 6px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:30px;
+      height:20px;
+      transform:translateY(-1px);
+    }
+    .insight { display: flex; flex-direction: column; gap: 14px; }
+    .insight-row { display: grid; grid-template-columns: 48px 1fr; gap: 14px; align-items: start; border-left: 1px solid rgba(60,56,50,.18); padding-left: 14px; }
+    .insight-label { font-size: 11px; letter-spacing: .12em; color: #8a8378; padding-top: 3px; }
+    .insight-text { margin: 0; font-size: 15.5px; line-height: 1.75; color: #2e2b26; }
+    .summary {
+      white-space:pre-wrap;
+      line-height:1.75;
+      font-size:16px;
+    }
+    .section-subtitle { margin:0 0 16px 0; color:var(--muted); font-size:13px; }
+    .feature-card {
+      display:grid;
+      grid-template-columns:260px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .feature-stack {
+      display:grid;
+      gap:22px;
+    }
+    .feature-art {
+      min-height:150px;
+      border:1px solid var(--line-strong);
+      background:
+        linear-gradient(135deg, rgba(216,255,62,.52), transparent 42%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+      padding:14px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+    .feature-art-title {
+      font-size:28px;
+      line-height:.98;
+      font-weight:800;
+    }
+    .feature-art-meta {
+      font-family:var(--font-mono);
+      font-size:12px;
+      color:var(--ink);
+    }
+    .book-art {
+      background:
+        linear-gradient(135deg, rgba(17,17,17,.08), transparent 44%),
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px),
+        var(--field);
+      background-size:auto, 28px 28px, 28px 28px, auto;
+    }
+    .movie-info p { margin:0 0 10px; }
+    .movie-title { font-size:20px; line-height:1.25; }
+    .movie-reason { line-height:1.75; max-width:720px; }
+    .book-title { font-size:20px; line-height:1.25; margin:0 0 10px; }
+    .book-chapter { margin:0 0 10px; color:var(--ink); line-height:1.5; }
+    .book-reason { margin:0; line-height:1.75; max-width:720px; }
+    .items { border-top:0; }
+    .item {
+      display:grid;
+      grid-template-columns:var(--item-no-width) minmax(0,1fr);
+      gap:var(--item-gap);
+      border-bottom:1px solid var(--line);
+      padding:16px 0;
+      align-items:start;
+    }
+    .item:last-child {
+      border-bottom:0;
+      padding-bottom:0;
+    }
+    .item-no {
+      font-family:var(--font-mono);
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.35;
+      padding-top:2px;
+    }
+    .item-main { min-width:0; }
+    .title-line {
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:14px;
+      width:100%;
+    }
+    .title-link {
+      color:var(--ink);
+      font-size:17px;
+      line-height:1.35;
+      text-decoration-thickness:1px;
+      text-underline-offset:4px;
+      flex:1;
+      min-width:0;
+    }
+    .item a:hover { background:var(--signal-soft); }
+    .inline-time {
+      flex:0 0 auto;
+      white-space:nowrap;
+      text-align:right;
+    }
+    .item a { color:var(--ink); }
+    .item a:hover { background:var(--signal-soft); }
+    .source-line {
+      margin-top:6px;
+      min-height:16px;
+    }
+    .media-layout {
+      display:grid;
+      grid-template-columns:220px minmax(0,1fr);
+      gap:24px;
+      align-items:stretch;
+    }
+    .media-body {
+      min-height:100%;
+      display:flex;
+      flex-direction:column;
+    }
+    .video-meta {
+      margin-top:auto;
+    }
+    .thumb {
+      display:block;
+      width:100%;
+      aspect-ratio:16/9;
+      object-fit:cover;
+      border:1px solid var(--line-strong);
+      background:var(--field);
+    }
+    .description {
+      margin-top:8px;
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.65;
+      display:-webkit-box;
+      -webkit-line-clamp:3;
+      -webkit-box-orient:vertical;
+      overflow:hidden;
+    }
+    .monitor-link-row {
+      display:grid;
+      grid-template-columns:minmax(0,1fr) auto;
+      gap:20px;
+      align-items:center;
+    }
+    .monitor-title {
+      font-size:18px;
+      line-height:1.25;
+      margin:0 0 5px;
+    }
+    .monitor-overview {
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.55;
+      max-width:540px;
+      margin:0;
+    }
+    .monitor-facts {
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:10px;
+      margin-top:14px;
+      max-width:620px;
+    }
+    .monitor-fact {
+      min-width:0;
+      padding:10px 12px;
+      border-top:2px solid var(--signal);
+      background:var(--field);
+    }
+    .monitor-fact-label {
+      display:block;
+      color:var(--muted);
+      font:10px/1.2 var(--font-mono);
+      letter-spacing:.04em;
+      text-transform:uppercase;
+    }
+    .monitor-fact-value {
+      display:block;
+      color:var(--ink);
+      font-size:25px;
+      font-weight:800;
+      line-height:1.1;
+      margin:5px 0 3px;
+    }
+    .monitor-fact-copy {
+      display:block;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.35;
+    }
+    .monitor-link {
+      display:inline-flex;
+      align-items:center;
+      border:1px solid var(--ink);
+      background:var(--field);
+      color:var(--ink);
+      padding:8px 10px;
+      font:12px/1 var(--font-mono);
+      text-decoration:none;
+      max-width:100%;
+      overflow-wrap:anywhere;
+    }
+    .monitor-link:hover {
+      background:var(--signal);
+      color:var(--ink);
+    }
+    .brief-footer {
+          margin-top:42px;
+          padding-top:18px;
+          border-top:1px solid var(--line);
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          font:12px/1 var(--font-mono);
+        }
+        .brief-footer a {
+          color:var(--muted);
+          text-decoration:none;
+        }
+        .brief-footer a:hover {
+          color:var(--ink);
+          text-decoration:underline;
+          text-decoration-color:var(--signal);
+          text-underline-offset:4px;
+        }
+        .brief-footer .footer-sep {
+          color:var(--muted);
+          margin: 0 10px;
+          user-select:none;
+          pointer-events:none;
+        }
+        @media (max-width:720px) {
+          .brief-footer .footer-sep { margin: 0 8px; }
+        }
+    @media (max-width:720px) {
+      :root {
+        --item-no-width:38px;
+      }
+      .title-line {
+        flex-direction:column;
+        align-items:flex-start;
+        gap:4px;
+      }
+      .inline-time {
+        text-align:left;
+      }
+      .media-layout { grid-template-columns:1fr; }
+      .feature-card { grid-template-columns:1fr; }
+      .monitor-link-row {
+        grid-template-columns:1fr;
+        grid-template-areas:"action" "details";
+      }
+      .monitor-copy { grid-area:details; }
+      .monitor-facts { grid-template-columns:repeat(3,minmax(0,1fr)); }
+      .monitor-link { grid-area:action; }
+      .monitor-link { justify-self:start; }
+    }
+  
+  /* 台账行：与主站 item 同一字号阶梯（标题 15 / 正文 14 / 标签 11） */
+  .ledger { border-top: 1px solid var(--line-strong); }
+  .led-cap {
+    display: flex; gap: 10px; align-items: baseline; padding: 15px 0 7px;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+  }
+  .led-cap span { color: var(--ink); }
+  .led-row {
+    display: grid; grid-template-columns: 180px minmax(0, 1fr);
+    gap: 18px; padding: 11px 0; border-top: 1px solid var(--line); align-items: start;
+  }
+  .led-key { font-size: 15px; font-weight: 500; line-height: 1.5; color: var(--ink); }
+  .led-key-mono { font-family: var(--font-mono); font-weight: 400; font-size: 12px; color: var(--muted); padding-top: 4px; }
+  .led-val { min-width: 0; }
+  .led-val p { margin: 0; font-size: 14px; line-height: 1.62; color: var(--muted); }
+  .led-val a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .led-val a:hover { border-bottom-color: var(--ink); }
+  .led-dim { color: var(--muted); font-size: 12px; }
+  .led-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .led-tags span {
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+    border: 1px solid var(--line); padding: 1px 6px;
+  }
+  .led-quote {
+    margin: 10px 0 0; padding: 0 0 0 16px; border-left: 2px solid var(--ink);
+    font-size: 15px; line-height: 1.7; color: var(--ink);
+  }
+  .led-quote cite {
+    display: block; margin-top: 6px; font-style: normal;
+    font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+  }
+  .led-quote cite a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .led-line { margin: 12px 0 0; font-size: 15px; line-height: 1.7; color: var(--ink); }
+
+  /* 岗位统计 */
+  .stat-top { display: flex; align-items: flex-end; gap: 20px; padding: 6px 0 18px; }
+  .stat-num { font-family: var(--font-mono); font-size: 44px; line-height: 1; color: var(--ink); letter-spacing: -.02em; }
+  .stat-meta { display: flex; flex-wrap: wrap; gap: 16px; padding-bottom: 4px; font-size: 13px; color: var(--muted); }
+  .stat-meta b { font-family: var(--font-mono); font-weight: 400; color: var(--ink); }
+  .stat-dim { color: var(--muted); font-size: 12px; }
+  .stat-body { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 32px; align-items: start; border-top: 1px solid var(--line); padding-top: 18px; }
+  .donut { display: block; }
+  .jobs-table { min-width: 0; }
+  .jobs-row {
+    display: grid; grid-template-columns: minmax(0, 1fr) 64px 64px 64px;
+    gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line);
+    font-size: 14px; align-items: baseline;
+  }
+  .jobs-head {
+    border-bottom: 1px solid var(--line-strong); color: var(--muted);
+    font-family: var(--font-mono); font-size: 11px; padding-bottom: 6px;
+  }
+  .jobs-dir { color: var(--ink); }
+  .jobs-n { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); text-align: right; }
+  .jobs-head div:nth-child(n+2) { text-align: right; }
+
+  @media (max-width: 760px) {
+    .led-row { grid-template-columns: 1fr; gap: 4px; }
+    .led-key-mono { padding-top: 0; }
+    .stat-body { grid-template-columns: 1fr; gap: 16px; }
+    .stat-num { font-size: 36px; }
+  }
+
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="identity">ZhangYvJing's</div>
+    <h1><span class="hollow">Daily Brief</span></h1>
+  </header>
+  <section class="feature-picks">
+    <div class="section-head"><span class="section-no">00</span><h2>Film / Book Chapter</h2></div>
+    <div class="feature-stack">
+      <div class="feature-card">
+        <div class="feature-art">
+          <div class="feature-art-title">Ikiru</div>
+          <div class="feature-art-meta">1952 / 黑泽明</div>
+        </div>
+        <div class="movie-info">
+          <p class="movie-title"><strong>Ikiru (1952)</strong> · 黑泽明</p>
+          <p class="movie-reason">提醒时间该压在哪件事上</p>
+        </div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-art book-art">
+          <div class="feature-art-title">A Philosophy of Software Design</div>
+          <div class="feature-art-meta">John Ousterhout</div>
+        </div>
+        <div class="movie-info">
+          <p class="book-title"><strong>A Philosophy of Software Design</strong> · John Ousterhout</p>
+          <p class="book-chapter">Chapter 2: The Nature of Complexity</p>
+          <p class="book-reason">把复杂度当成要管理的对象，而不是代码行数</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section><div class="section-head"><span class="section-no">01</span><h2>Insight</h2></div><div class="insight"><div class="insight-row"><span class="insight-label">今天</span><p class="insight-text">Google 提出 DeepCrossAttention，声称在模型质量相当的情况下最高达到 3 倍加速。 Convex 后端技能仓库第 64 号 issue 指出相关技能可能在未充分告知用户时把应用想法发送到远程服务器。 Claude-BugHunter 内置 85 个技能、16 个斜杠命令，并围绕 24 类核心漏洞整理出 681 条已公开报告模式。 jingyaogong/minimind 的目标是在约两小时内从零训练出 64M 参数的小型大模型。 cathrynlavery/diagram-design 提供 52 种编辑风格图表类型，输出自包含的 HTML 与 SVG，并列出对 Pi 等 AI 编程工具的支持。</p></div><div class="insight-row"><span class="insight-label">转向</span><p class="insight-text">Claude-BugHunter 以 85 个技能、16 个斜杠命令罗列能力包，而 Convex 后端技能仓库第 64 号 issue 的争议落在技能未充分告知就把用户应用想法发往远程服务器——被检验的行为从“技能数量”变成“技能默认外发数据的披露”。这类针对默认上传与知情同意的审查变多，从功能覆盖转向工具调用链上的数据边界。</p></div><div class="insight-row"><span class="insight-label">对你</span><p class="insight-text">在 Pi 的 harness 里接入 HKUDS/CLI-Anything 的 CLI Hub，跑 Terminal-Bench 统计各 CLI 工具的调用成功数与超时数，并按工具名归档超时。</p></div></div></section>
+  <section>
+    <div class="section-head"><span class="section-no">02</span><h2>Worth Reading</h2></div>
+    <p class="section-subtitle">我的挑选 · 今日值得看</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://neuralnetworksanddeeplearning.com/">Michael Nielsen took down his book on neural nets</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">免费教材下架、原网址失效，538分334条评论聚焦个人项目维护、版权与开放教育资源的可持续性。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer">Credit card skimming scripts using WebRTC found on popular shopping sites</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">盗刷脚本滥用WebRTC绕过传统检测，讨论聚焦第三方脚本供应链风险与促销期脚本审计、CSP和支付页监控。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">内置85个技能、16个斜杠命令和24类漏洞的681条公开报告模式，可帮安全人员在授权测试中梳理攻击面。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/obra/superpowers">obra/superpowers</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    <div class="meta source-line">我的挑选</div>
+    <div class="description">它提供可落地的智能体技能框架与软件开发方法论，助开发者系统构建管理智能体能力并改进流程，今日新增922个星标。</div>
+    <div class="meta source-line">pick</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">03</span><h2>Hacker News</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://neuralnetworksanddeeplearning.com/">Michael Nielsen took down his book on neural nets</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27T19:31:01+00:00">2026-11-27T19:31:01+00:00</time></span></div>
+    
+    <div class="description">Hacker News上正在讨论Michael Nielsen将其在线教材《神经网络与深度学习》下架一事，原网址已无法正常访问。该帖获得538分和334条评论，讨论集中在作者为何撤下这本广受欢迎的免费教材、个人项目的维护与版权问题、开放教育资源的可持续性，以及此事对深度学习学习者和社区的影响。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer">Credit card skimming scripts using WebRTC found on popular shopping sites</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27T15:40:31+00:00">2026-11-27T15:40:31+00:00</time></span></div>
+    
+    <div class="description">Hacker News上讨论了一篇关于热门购物网站发现信用卡盗刷脚本的报道，这些脚本利用WebRTC技术窃取支付信息。帖子获得526分和271条评论。讨论集中在攻击者如何滥用WebRTC绕过传统安全检测、第三方脚本带来的供应链风险，以及电商平台在黑色星期五等促销期间应如何加强脚本审计、内容安全策略和支付页面监控。评论还涉及商家责任、浏览器安全边界和用户防护建议。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://research.google/blog/supercharging-transformer-residual-connections/">Google&#x27;s DeepCrossAttention achieves comparable model quality up to 3x faster</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27T23:06:29+00:00">2026-11-27T23:06:29+00:00</time></span></div>
+    
+    <div class="description">这篇 Hacker News 讨论围绕 Google 提出的 DeepCrossAttention 展开，该方法声称在保持模型质量相当的同时实现最高三倍加速。帖子获得 399 分和 151 条评论，关注点包括该机制对 Transformer 残差连接的改动是否带来稳定收益，三倍加速在何种模型规模和硬件条件下成立，以及它与现有注意力优化和残差连接方案的对比。评论者还关心实现复杂度、训练稳定性、可复现性和实际部署价值。整体上讨论既肯定效率改进的潜在意义，也提醒读者区分论文设定与生产环境差异。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform">States sue SpaceX to stop Grok from generating child sex images, revenge porn</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27T19:42:25+00:00">2026-11-27T19:42:25+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上这条讨论关注多州总检察长起诉 SpaceX，要求阻止其关联平台上的 Grok 生成儿童性剥削图像和非自愿私密影像。帖子获得 387 分和 237 条评论，讨论集中在生成式模型滥用后的平台责任、内容审核是否有效、诉讼对象为何指向母公司，以及禁令能否真正阻止有害内容传播。部分评论还争论技术公司应如何平衡开放能力与安全治理。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://bouncemarket.minhanhday.com/">Show HN: bouncemarket – a live prediction market game for a bouncing ball</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27T15:01:50+00:00">2026-11-27T15:01:50+00:00</time></span></div>
+    
+    <div class="description">Hacker News上有人发布Show HN项目bouncemarket，这是一个围绕弹跳球运行的实时预测市场游戏。玩家可对球的下一次反弹或落点等结果进行实时下注预测。该帖获得375分和126条评论，讨论集中在预测市场机制如何融入小游戏、实时交互与界面体验、实现难度以及这类玩法是否具有持续吸引力。整体来看，这是一个把概率判断和即时反馈结合起来的实验性网页项目。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://unkernel.dev">Unkernel: Real Linux kernel, compiled to WebAssembly</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28T03:19:20+00:00">2026-11-28T03:19:20+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上关于 Unkernel 的讨论介绍了一个把真实 Linux 内核编译为 WebAssembly 的项目，帖子获得 310 分和 77 条评论。评论者主要关注这种做法的可行性与实际价值，讨论在浏览器或沙箱环境中运行完整内核的意义，以及性能开销、硬件与外设模拟、系统调用兼容性和调试体验等问题。也有人将其与用户态 Linux、模拟器和虚拟化方案比较，认为它更适合教学演示、内核实验和隔离执行探索，但距离通用生产环境仍有不少工程挑战。整体讨论既肯定项目的新颖性，也提醒关注 WebAssembly 的能力边界和安全模型。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/convex/convex-backend-skill/issues/64">Convex skills send the user&#x27;s app idea to a remote server without telling them</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27T18:02:45+00:00">2026-11-27T18:02:45+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上关于 Convex 后端技能仓库第 64 号 issue 的讨论受到关注，帖子获得 304 分和 97 条评论。讨论指出，相关技能可能在未充分告知用户的情况下，把用户的应用想法发送到远程服务器。评论围绕隐私、知情同意、数据上传透明度和开发者工具默认行为展开，许多参与者认为此类数据收集应明确披露并让用户选择，避免在用户不知情时传输敏感创意。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://cr.yp.to/proofs/falseccp.html">False computer-checked proofs</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27T15:26:09+00:00">2026-11-27T15:26:09+00:00</time></span></div>
+    
+    <div class="description">这篇 Hacker News 讨论围绕 DJB 的文章 False computer-checked proofs 展开，主题是计算机辅助验证的数学证明为何仍可能出错。文章指出形式化证明依赖若干可信前提，包括证明助手内核、规范转写、公理和运行环境，其中任何环节有误都可能让检查器接受错误结论。评论者讨论形式验证能提供什么保证、如何降低信任基、数学证明与软件正确性验证的差异，以及实际采用形式化方法的成本与收益。该帖获229分和88条评论。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/">Atari Homebrew Awards Cancelled</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28T02:03:25+00:00">2026-11-28T02:03:25+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上出现题为 Atari Homebrew Awards Cancelled 的讨论，链接指向 AtariAge 论坛相关帖子，获得 205 分和 199 条评论。讨论围绕这一 Atari 自制游戏奖项被取消的消息展开，社区关注取消原因、组织者面临的运营压力、评审与参与度问题，以及此类活动对 Atari 爱好者生态和自制游戏可持续发展的影响。整体来看，这反映出小众复古平台的自制场景仍有活力，但奖项和社区活动的长期维护并不容易。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://dragdropmath.com/">Show HN: DragDropMath – Learn math by feel</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27T17:56:28+00:00">2026-11-27T17:56:28+00:00</time></span></div>
+    
+    <div class="description">Hacker News 上出现 Show HN 项目 DragDropMath，主打通过拖拽操作让学习者以更直观的方式感受数学概念，而不是先记忆符号规则。帖子获得 138 分和 39 条评论，讨论集中在交互式数学教育的价值、拖拽设计能否降低抽象门槛，以及实际教学效果、可访问性和课堂适用性等。作为技术社区展示，它也引发了对教育类网页工具如何平衡趣味性与严谨性的讨论。</div>
+    <div class="meta source-line">hn</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">04</span><h2>GitHub Trending</h2></div>
+    <p class="section-subtitle">Daily · Top 10</p>
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">Claude-BugHunter 是一个用 Python 编写的开源项目，为 Claude Code 提供漏洞挖掘与外部红队工作所需的能力包。它内置 85 个技能、16 个斜杠命令，并围绕 24 类核心漏洞整理了 681 条已公开报告模式，同时还包含企业身份与基础设施攻击矩阵。项目今日新增 1608 星，适合安全研究人员在授权测试中借助 Claude 提升漏洞分析与攻击面梳理效率。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/obra/superpowers">obra/superpowers</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">obra/superpowers 是一个托管在 GitHub 上的开源项目，主要使用 Shell 语言开发，简介为“一个行之有效的智能体技能框架与软件开发方法论”。该项目今日新增 922 星，受到较多关注。它面向智能体技能组织与软件开发实践，旨在提供可落地的框架和方法，帮助开发者更系统地构建、管理和应用智能体能力，并改进软件开发流程。项目结合技能框架与工程方法论，适合关注智能体开发和软件工程实践的用户了解与参考。</div>
+    <div class="meta source-line">Shell</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/HKUDS/CLI-Anything">HKUDS/CLI-Anything</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">HKUDS/CLI Anything 是一个用 Python 开发的开源项目，目标是让所有软件都具备智能体原生能力，使各类工具能够更方便地被 AI 智能体调用与集成。项目今日新增 666 星，并提供 CLI Hub 入口 https://clianything.cc/，便于用户了解和使用相关能力，适合关注智能体工具生态与命令行集成的开发者参考。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">jingyaogong/minimind 是一个使用 Python 编写的开源大语言模型训练项目，核心目标是在约两小时内从零训练出 64M 参数的小型大模型。项目提供完整训练流程与代码，方便开发者理解并实践大模型训练，适合学习、复现实验和低资源条件探索，也降低了大模型入门门槛。项目今日新增 660 星，社区关注度较高。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/cursor/plugins">cursor/plugins</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">cursor/plugins 是一个基于 TypeScript 的开源项目，主要提供 Cursor 插件规范以及官方插件实现，帮助开发者了解并参与 Cursor 插件生态建设。项目今日新增 243 星，说明其关注度正在上升。通过该仓库，开发者可以查阅插件规范、参考官方示例并据此开发兼容插件，从而更高效地扩展 Cursor 的能力。适合关注编辑器插件开发与 AI 编程工具生态的开发者学习和使用。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">firecrawl/firecrawl 是一个使用 TypeScript 开发的开源项目，定位为让智能体更聪明的知识基础设施。它通过统一 API 提供搜索、抓取和访问 550 多个数据源的能力，帮助开发者更便捷地为 AI 代理接入外部知识。项目今日新增 822 星，受到较多关注，适合需要构建智能体数据获取与知识增强能力的开发者了解和使用。</div>
+    <div class="meta source-line">TypeScript</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/nginx/nginx">nginx/nginx</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">nginx/nginx 是 NGINX 官方开源代码仓库，主要使用 C 语言开发。NGINX 是广泛使用的高性能 Web 服务器、反向代理和邮件代理服务器，以高并发处理能力和低资源占用著称，常被用于构建现代网站架构、负载均衡和 API 网关等场景。该仓库汇集官方源代码与相关开发资料，便于开发者学习、编译和参与贡献。项目今日新增 146 星，显示出持续受到的关注。</div>
+    <div class="meta source-line">C</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/openvinotoolkit/openvino">openvinotoolkit/openvino</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">OpenVINO 是一个开源工具包，主要采用 C++ 开发，用于优化和部署人工智能推理任务。该项目帮助开发者在实际应用中提升推理性能并简化部署流程。它在 GitHub 上今日新增 151 颗星，受到较多关注，适合对 AI 推理优化与落地部署感兴趣的开发者了解和使用。</div>
+    <div class="meta source-line">C++</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">09</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/cathrynlavery/diagram-design">cathrynlavery/diagram-design</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">cathrynlavery/diagram-design 是一个面向 AI 编程助手的图表设计项目，支持 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 与 Pi 等工具使用。它提供 52 种编辑风格的图表类型，输出为自包含的 HTML 与 SVG，无需外部依赖，并刻意避免阴影效果和 Mermaid 常见的粗糙观感。项目以 HTML 编写，今日新增约 725 星，适合需要高质量、可直接嵌入使用图表方案的开发者。</div>
+    <div class="meta source-line">HTML</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">10</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">这个开源项目使用 Python 编写，是一款面向 AI 智能体的调研技能。它能够围绕任意主题，在 Reddit、X、YouTube、Hacker News、Polymarket 以及开放网络上自动检索近期公开信息，再把多来源的线索综合成一份有据可依的摘要，帮助用户快速了解话题的最新动态与舆论走向。项目今日新增 675 星，关注度较高，适合需要实时信息聚合与背景调研的场景。</div>
+    <div class="meta source-line">Python</div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">05</span><h2>YouTube</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=K5_ST-kMrvY"><img class="thumb" src="https://i.ytimg.com/vi/K5_ST-kMrvY/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=K5_ST-kMrvY">Stop Paying LLM Prices for Yes-or-No Answers — Chinmay Goyal, Glean</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+        <div class="description">Chinmay Goyal 在 Glean 指出是/否问题不该按 LLM 价格计费，而应用更便宜的分类器替代并给出落地方法。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=cYcYfM9Mvwo"><img class="thumb" src="https://i.ytimg.com/vi/cYcYfM9Mvwo/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=cYcYfM9Mvwo">Why Cloudflare Became a Neolab — Michelle Chen, Cloudflare</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-27">2026-11-27</time></span></div>
+        <div class="description">Cloudflare 转型为 Neolab 的具体路径：把研究能力做成可复用的组织机制，而不是零散的项目赞助。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=-ieJwYq4j-o"><img class="thumb" src="https://i.ytimg.com/vi/-ieJwYq4j-o/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=-ieJwYq4j-o">How To Build A Jet Engine From Scratch</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-24">2026-11-24</time></span></div>
+        <div class="description">视频演示车削压气机叶轮、焊接燃烧室并首次点火，能看到自制喷气发动机在台架上真正转起来。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=lwfewYL7X0o"><img class="thumb" src="https://i.ytimg.com/vi/lwfewYL7X0o/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=lwfewYL7X0o">Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+        <div class="description">看罗宾·汉森与雅各布·科克森就“是否该放缓AI”正面辩论，能直接抓住双方在风险与增长上的核心分歧。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="media-layout">
+      <div><a href="https://www.youtube.com/watch?v=sof3vW4mHTs"><img class="thumb" src="https://i.ytimg.com/vi/sof3vW4mHTs/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a></div>
+      <div class="media-body">
+        <div class="title-line"><a class="title-link" href="https://www.youtube.com/watch?v=sof3vW4mHTs">The making of Anthropic</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-19">2026-11-19</time></span></div>
+        <div class="description">片中达里奥·阿莫代伊解释Anthropic为何用“宪法式AI”替代单纯人类反馈，能看清其安全优先的取舍。</div>
+        <div class="video-meta"><div class="meta source-line">video</div></div>
+      </div>
+    </div>
+  </div>
+</article></div>
+  </section>
+<section>
+    <div class="section-head"><span class="section-no">08</span><h2>Papers</h2></div>
+    
+    <div class="items"><article class="item">
+  <div class="item-no">01</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34942v1">Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">本文研究AI原生自编码器通信对信道模型训练测试失配的敏感性。端到端物理层学习以联合训练的编码器和解码器替代调制、编码与检测，仅在加性高斯白噪声信道训练的模型在匹配条件下误码率较低，但在含实际前端损伤的瑞利衰落信道中显著退化。为降低适配新信道所需时间和能耗，提出低延迟迁移学习方案，从高斯白噪声预训练系统出发，仅微调少量收发层并冻结其余层，同时将层选择建模为预算约束优化问题以识别最关键层。该方案旨在实现频谱自适应并提升跨信道部署效率。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">02</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34938v1">Tokenisation is not in APX</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">本文证明除非P=NP，否则不存在多项式时间算法能使分词器的目标值落在最优解的任意常数倍以内，因此分词问题不属于APX复杂度类。该结论覆盖直接分词与自底向上分词，适用于压缩目标或unigram对数似然目标，并适用于二进制及更大字母表。作者进一步表明，即使字母表为一元，直接分词仍是APX难的，因而该问题不存在多项式时间近似方案。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">03</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34935v1">Can image generation help visual reasoning? An empirical study</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">本文考察生成辅助图像能否提升视觉推理。作者让模型先描述所需辅助图像，再结合原图与生成图作答，并在13组视觉语言模型与图像生成器上评测。结果显示生成图像使平均准确率下降3.7个百分点，十项任务中九项退步。两个统一模型BAGEL和Janus-Pro-7B各在八项任务上准确率下降。在VSTAR上，向同一规划提示加入生成图像使准确率降低10.47个百分点。重复图像编辑在不同任务上结果不一，ChartQAPro和MathVista仍低于无生成基线，而ERQA经十次编辑提升3个百分点。总体而言，当前生成辅助图像并未稳定促进视觉推理。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">04</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34934v1">Attack Policy Selection can Mislead Monitor Evaluators</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">本文评估了一个已退役的OpenAI监控器，发现其测得的假阴性率高度依赖攻击策略的生成方法及优化程度。在单一强化学习方法的不同优化水平下，该比率从0.5%到20.8%不等；在不同方法的最佳观察优化水平下，优化提示与转录编辑之间则为6.4%到23.0%。所有攻击策略仅针对代理监控器开发，但报告结果均显示攻击可迁移至留出的GPT-5.4目标监控器。结果表明，监控规避评估容易产生误导，评估者可能因攻击策略选择而错误判断监控器性能。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">05</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34930v1">A gene informed benchmark for BioScoring of pathology foundation models</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">病理基础模型通常以分类和检索等下游任务性能进行比较，这类基准能衡量模型实用性，却无法揭示其表征的生物学信息。为此，作者提出BioScore基准，以同一组织的空间转录组为参考，量化图像编码器捕获细胞身份的能力。该方法用稀疏自编码器将编码器的图像块嵌入分解为稀疏特征，再聚类为固定数量的特征组。针对由标记基因定义的52种细胞身份，BioScore衡量每个特征组在组织上跟随相应身份表达的特异性。由于自编码器训练完全无监督，匹配成功说明模型仅凭图像即可表征细胞身份。作者评估了8个病理基础模型和3个自然图像模型。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">06</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34928v1">Diverse Alternative Reasoning Traces for Hard Math Problems</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">该论文提出多样替代推理轨迹方法DART，用于挖掘难数学问题的训练轨迹。现有数学推理后训练常依赖最终答案通过验证器接受的轨迹，但难问题在独立蒙特卡洛采样下难以获得此类轨迹。DART从被拒绝轨迹出发，将其分解为推理步骤，并按位置加权不确定性排序，再利用参考答案引导和元思考为高排名步骤生成刻意不同的替代候选并完成轨迹。在贪心求解失败的DeepMath-103K问题上，在生成轨迹数量相同时，DART比蒙特卡洛采样多恢复37%的问题，每个恢复问题的估计生成成本几乎相同，而每个接受轨迹的成本低30%。该方法可用于后训练。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">07</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34923v1">Mixture-of-Loops Transformer</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">循环Transformer通过跨循环复用共享层提升表达力，但牺牲效率。本文提出Mixture-of-Loops Transformer（MoLT），其Mixture-of-Loops注意力将键和值作为记忆，在深度与循环间选择性复用。MoLT-R在循环残差下保留残差流并读取跨循环局部键值以增强表达力；MoLT-KV从嵌入重新开始，读取当前循环局部键值和先前循环较早位置的内存键值以提高效率。MoLT-KV消除同位置跨循环依赖，结合loop forcing并行训练，支持超出训练循环范围的一次遍历MoL解码。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article>
+<article class="item">
+  <div class="item-no">08</div>
+  <div class="item-main">
+    <div class="title-line"><a class="title-link" href="http://arxiv.org/abs/2611.34920v1">$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents</a><span class="meta inline-time"><time class="rel-time" datetime="2026-11-28">2026-11-28</time></span></div>
+    
+    <div class="description">μ-Bench是面向共享空间语音代理的多用户联合任务完成基准，采用闭环全双工多用户语音交互，模拟用户依隔离目标、知识与权限行动并适应代理语音和工具结果。覆盖20领域、100场景，变化组规模、声学条件与后续需求，共800案例（408含工具、392无工具）。联合成功率要求所有用户目标、隐私边界和终止状态同时成立，纯联合成功率禁止未授权工具调用，并用归因、线程、协调诊断定位失败。</div>
+    <div class="meta source-line">paper</div>
+  </div>
+</article></div>
+  </section>
+  
+  <section><div class="section-head"><span class="section-no">09</span><h2>方向雷达</h2></div><div class='ledger'><div class="led-cap"><span>01</span>钱去哪了</div><div class="led-row"><div class="led-key">隐私AI</div><div class="led-val"><p>加密架构让厂商自己也读不到用户数据，合规与信任成为卖点</p><div class="led-tags"><span>Maple</span></div></div></div><div class="led-row"><div class="led-key">传感可穿戴</div><div class="led-val"><p>硬件传感化采集物理世界上下文，再靠AI兑现成个人服务</p><div class="led-tags"><span>Heygo、Plaud、Oura</span></div></div></div><div class="led-row"><div class="led-key">AI估值回调</div><div class="led-val"><p>头部公司破发，一级市场估值锚点松动，资金转向现金流</p><div class="led-tags"><span>Anthropic</span></div></div></div><div class="led-cap"><span>02</span>我能做什么开源项目</div><div class="led-row"><div class="led-key led-key-mono"><strong>sqlite-rsync-lite</strong></div><div class="led-val"><p>sqlite3_rsync 已可用但缺调度与恢复验证，小团队自…</p><div class="led-tags"><span>MVP 一条命令配置源库与远端，定时增量同步，同步后自动做完整性校…</span><span>栈 Python + sqlite3_rsync + cron</span></div></div></div><div class="led-row"><div class="led-key led-key-mono"><strong>complaint-drafter</strong></div><div class="led-val"><p>消费者与客服系统力量不对称，AI代打客服兴起但申诉文本仍需人写</p><div class="led-tags"><span>MVP 上传通话录音或粘贴聊天记录，转写后抽取扣费事实与诉求，生成…</span><span>栈 Whisper + LLM API + FastAPI</span></div></div></div><div class="led-cap"><span>03</span>一句话</div><p class="led-line">AI估值松动、隐私与传感硬件吸金，个人开发者机会在数据工具与代理型小工具。</p></div></section><section><div class="section-head"><span class="section-no">11</span><h2>宏观内参</h2></div><div class='ledger'><div class="led-row"><div class="led-key">宏观/流动性</div><div class="led-val"><p>今日无重大更新。素材中仅有 10 月 28 日 FOMC 声明与 9 月 16 日经济预测的标题，没有可核实的…</p></div></div><div class="led-row"><div class="led-key">政策/合规</div><div class="led-val"><p>美国收紧 AI 芯片流向中国的管控，Nvidia 已要求制造伙伴暂停向马来西亚、新加坡、泰国、印度尼西亚四国出…</p></div></div><div class="led-row"><div class="led-key">巨头/产业</div><div class="led-val"><p>S&P 考虑将 Nvidia 信用评级下调至 AA-（第四高），理由是治理与关键人风险；Amazon 与 Me…</p></div></div><div class="led-row"><div class="led-key">信源与可靠度</div><div class="led-val"><p>TechCrunch，援引“已告知制造伙伴”，未见 Nvidia 官方声明与具体型号/金额，可靠度中等。</p></div></div></div></section><section><div class="section-head"><span class="section-no">12</span><h2>Issue 日报</h2></div><div class='ledger'><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#12015</a> [今天] [Feature Request] Add a Mobilebox hosted MC…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Agno</div><div class="led-val"><p><a href="#">#12010</a> [今天] [Feature Request] HelmSwap toolkit: swap qu…<span class="led-dim"> 0 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12639</a> [今天] Extension hook to choose which provider id…<span class="led-dim"> 1 评</span></p></div></div><div class="led-row"><div class="led-key led-key-mono">Pi</div><div class="led-val"><p><a href="#">#12616</a> [1d] Proposal: iterate committed model context w…<span class="led-dim"> 2 评</span></p></div></div></div></section>
+  <footer class="brief-footer">
+    <a href="/history/">History</a>
+    <span class="footer-sep">·</span>
+    <a href="/rss.xml">RSS</a>
+  </footer>
+</main>
+<script>
+(function() {
+  function relative(iso) {
+    const then = new Date(iso);
+    if (isNaN(then.getTime())) return iso;
+    const diff = Math.floor((Date.now() - then.getTime()) / 1000);
+    if (diff < 60) return 'just now';
+    if (diff < 3600) return Math.floor(diff / 60) + ' min ago';
+    if (diff < 86400) return Math.floor(diff / 3600) + ' hr ago';
+    if (diff < 2592000) return Math.floor(diff / 86400) + ' d ago';
+    const months = Math.floor(diff / 2592000);
+    if (months < 12) return months + ' mo ago';
+    return Math.floor(months / 12) + ' yr ago';
+  }
+  document.querySelectorAll('.rel-time').forEach(el => {
+    const iso = el.getAttribute('datetime');
+    if (iso) el.textContent = relative(iso);
+  });
+})();
+</script>
+</body>
+</html>
