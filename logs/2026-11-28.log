@@ -31,3 +31,11 @@
 [18:24:38] insight 对你 96 字
 [18:24:38] 内容写入 content/2026-11-28.json，共 37 条
 [18:24:39] build rc=0 items: 37 | kinds: ['github_trending', 'hacker_news', 'news', 'paper', 'youtube']
+[18:24:41] commit rc=0 [main 6854077] daily: 2026-11-28 自动更新
+[18:24:46] push main rc=0    a85a916..6854077  main -> main
+[18:25:09] 站点验证：2026-11-28 已上线
+[18:25:09] === 完成，降级项 0 ===
+[18:25:20] insight 对你 长度 134 不在 15-120，重试
+[18:25:20] insight 对你 0 字
+[18:25:20] 内容写入 content/2026-11-28.json，共 25 条
+[18:25:20] build rc=0 items: 25 | kinds: ['hacker_news', 'news', 'paper', 'youtube']
